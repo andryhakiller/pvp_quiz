@@ -41,9 +41,16 @@ const DEFAULT_SCORES = {
 
 let QUESTIONS_RAW = [];
 try {
-    const raw = fs.readFileSync(path.join(__dirname, 'questions.json'), 'utf8');
+    let qPath = path.join(__dirname, 'questions.json');
+    if (!fs.existsSync(qPath) || fs.statSync(qPath).size < 100) {
+        const rootPath = path.join(__dirname, '..', 'questions.json');
+        if (fs.existsSync(rootPath) && fs.statSync(rootPath).size >= 100) {
+            qPath = rootPath;
+        }
+    }
+    const raw = fs.readFileSync(qPath, 'utf8');
     QUESTIONS_RAW = JSON.parse(raw);
-    console.log(`✅ Loaded ${QUESTIONS_RAW.length} questions`);
+    console.log(`✅ Loaded ${QUESTIONS_RAW.length} questions from ${path.basename(qPath)}`);
 } catch (e) {
     console.error('❌ Cannot load questions.json:', e.message);
 }
@@ -752,4 +759,5 @@ io.on('connection', socket => {
     });
 });
 
-http.listen(3000, () => console.log('✅ Quiz Battle → http://localhost:3000'));
+const PORT = process.env.PORT || 3000;
+http.listen(PORT, () => console.log(`✅ Quiz Battle → http://localhost:${PORT}`));
