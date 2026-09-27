@@ -85,8 +85,8 @@
                     <div class="filter-header">
                         <span class="filter-title">🎯 Темы вопросов</span>
                         <div class="filter-actions">
-                            <button class="btn-link" onclick="document.querySelectorAll('.filter-cat-cb,.filter-sub-cb').forEach(cb=>{cb.checked=true;cb.indeterminate=false})">Все</button>
-                            <button class="btn-link" onclick="document.querySelectorAll('.filter-cat-cb,.filter-sub-cb').forEach(cb=>{cb.checked=false;cb.indeterminate=false})">Никакие</button>
+                            <button id="filter-all-btn" class="btn-link" type="button">Все</button>
+                            <button id="filter-none-btn" class="btn-link" type="button">Никакие</button>
                         </div>
                     </div>
                     <div id="topic-filter" class="topic-filter-tree"></div>
