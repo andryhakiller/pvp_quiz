@@ -155,17 +155,35 @@ function get3Subs() {
     const enabledCats = getEnabledCategories().filter(cat =>
         (CATEGORY_INDEX[cat] || []).some(s => !gameSettings.disabledSubcategories.includes(s))
     );
-    if (!enabledCats.length) return [];
+
+    // Collect all valid, enabled subcategories across all enabled categories
+    const allAvailableSubs = [];
+    for (const cat of enabledCats) {
+        const subs = (CATEGORY_INDEX[cat] || []).filter(s => !gameSettings.disabledSubcategories.includes(s));
+        allAvailableSubs.push(...subs);
+    }
+
+    // Safety fallback only if user disabled literally all subcategories/categories:
+    if (!allAvailableSubs.length) {
+        console.warn('⚠️ No enabled subcategories available! Falling back to all.');
+        const allSubs = Object.values(CATEGORY_INDEX).flat();
+        return allSubs.sort(() => Math.random() - 0.5).slice(0, 3);
+    }
+
+    // If 3 or fewer subcategories total are available:
+    if (allAvailableSubs.length <= 3) {
+        return [...allAvailableSubs];
+    }
 
     const chosen = new Set();
     const result = [];
     let attempts = 0;
 
-    while (result.length < 3 && attempts < 60) {
+    while (result.length < 3 && attempts < 100) {
         attempts++;
-        // Step 1: random category (equal weight)
+        // Step 1: random enabled category
         const cat = enabledCats[Math.floor(Math.random() * enabledCats.length)];
-        // Step 2: random subcategory from that category (equal weight within cat)
+        // Step 2: random enabled subcategory from that category
         const subs = (CATEGORY_INDEX[cat] || []).filter(s => !gameSettings.disabledSubcategories.includes(s));
         if (!subs.length) continue;
         const sub = subs[Math.floor(Math.random() * subs.length)];
@@ -174,6 +192,18 @@ function get3Subs() {
             result.push(sub);
         }
     }
+
+    // Fallback if loop hit attempt limit with fewer than 3 results:
+    if (result.length < 3) {
+        for (const s of allAvailableSubs) {
+            if (!chosen.has(s)) {
+                chosen.add(s);
+                result.push(s);
+                if (result.length === 3) break;
+            }
+        }
+    }
+
     return result;
 }
 
@@ -182,6 +212,7 @@ function getQuestion(subcategoryId) {
     const all = QUESTIONS_RAW.filter(q => {
         if (q.subcategoryId !== subcategoryId) return false;
         if (gameSettings.disabledCategories.includes(q.categoryId)) return false;
+        if (gameSettings.disabledSubcategories.includes(q.subcategoryId)) return false;
         return true;
     });
 
@@ -538,10 +569,22 @@ io.on('connection', socket => {
     });
 
     // ── START ──
-    socket.on('start_game', () => {
+    socket.on('start_game', (customSettings) => {
         const me = players[socket.id];
         if (!me?.isAdmin) return;
         if (Object.keys(players).length < 2) return socket.emit('error_msg', 'Нужно минимум 2 игрока!');
+
+        // Apply settings passed directly with start_game if provided
+        if (customSettings && typeof customSettings === 'object') {
+            if (customSettings.maxTurns !== undefined)               gameSettings.maxTurns               = customSettings.maxTurns;
+            if (customSettings.disabledCategories !== undefined)     gameSettings.disabledCategories     = customSettings.disabledCategories;
+            if (customSettings.disabledSubcategories !== undefined)  gameSettings.disabledSubcategories  = customSettings.disabledSubcategories;
+            if (customSettings.scores)                               gameSettings.scores = { ...gameSettings.scores, ...customSettings.scores };
+            io.emit('settings_updated', gameSettings);
+        }
+
+        console.log('🎮 Starting game. Disabled categories:', gameSettings.disabledCategories);
+        console.log('🎮 Disabled subcategories count:', (gameSettings.disabledSubcategories || []).length);
 
         isGameStarted       = true;
         gs.board            = {};
@@ -734,6 +777,7 @@ io.on('connection', socket => {
     socket.on('disconnect', () => {
         const me = players[socket.id];
         if (!me) return;
+        const wasAdmin = me.isAdmin;
         delete players[socket.id];
 
         if (isGameStarted) {
@@ -752,6 +796,13 @@ io.on('connection', socket => {
                 nextTurn();
             }
         } else {
+            // If the host disconnected before game start, transfer admin to lowest slot player
+            if (wasAdmin) {
+                const remaining = playerList().sort((a, b) => a.slot - b.slot);
+                if (remaining.length > 0) {
+                    remaining[0].isAdmin = true;
+                }
+            }
             io.emit('update_player_list', playerList());
         }
 
