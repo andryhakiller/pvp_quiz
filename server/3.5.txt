@@ -1,0 +1,832 @@
+[
+  {
+    "id": "transport_special_transport_1",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 1,
+    "question": "Какой карьерный самосвал грузоподъемностью 450 тонн является самым большим и грузоподъемным в мире (внесен в Книгу рекордов Гиннесса в 2014 году)?",
+    "options": ["БелАЗ-75710", "Caterpillar 797F", "Komatsu 980E-4", "Liebherr T 284"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_2",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какую силовую установку имеет сверхгигант БелАЗ-75710 для привода всех четырех спаренных колесных пар?",
+    "options": [
+      "Два 16-цилиндровых дизеля MTU суммарной мощностью 4600 л.с., вращающих генераторы, питающие четыре тяговых электромотора мотор-колес Siemens",
+      "Один танковый газотурбинный двигатель ГТД-1250",
+      "Механическую 16-ступенчатую коробку передач с карданными валами",
+      "Гидростатический привод с четырьмя гидромоторами высокого давления"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_3",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Сколько весит одна бескамерная радиальная покрышка гигантского карьерного самосвала размера 59/80 R63 (например, Michelin XDR)?",
+    "options": ["Около 5.5–5.8 тонн", "Около 1 тонны", "15 тонн", "500 кг"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_4",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой гигантский роторный экскаватор, построенный немецкой фирмой Krupp в 1978 году массой 13 500 тонн, считается крупнейшей самоходной наземной машиной в истории?",
+    "options": ["Bagger 288", "Bagger 293", "Marion 6360 (The Captain)", "Bucyrus-Erie 2570W"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_5",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Сколько кубических метров угля или вскрышной породы способен добывать роторный экскаватор Bagger 288 за одни сутки непрерывной работы?",
+    "options": ["До 240 000 кубических метров (эквивалент чаши футбольного стадиона глубиной 30 м)", "Около 10 000 кубометров", "50 000 кубометров", "1 000 000 кубометров"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_6",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "В чем заключается принцип передвижения шагающего экскаватора (драглайна, например, советского ЭШ-100/100)?",
+    "options": [
+      "В рабочем положении он стоит на круглой опорной базе (плите); при шагании боковые башмаки опускаются на грунт эксцентриковым механизмом, приподнимают корпус и смещают его вперед",
+      "Он перемещается на четырех гидравлических опорах по рельсам",
+      "Башмаки скользят по ледяной подушке",
+      "Он подтягивает себя лебедкой за якорь"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_7",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой гигантский гусеничный транспортер NASA (Crawler-Transporter), построенный в 1965 году, перевозил ракеты Сатурн-5 и шаттлы на стартовый стол?",
+    "options": ["«Ганс» и «Франц» (Crawler-Transporter 1 и 2)", "«Титан» и «Атлант»", "«Аполлон-Транзит»", "«Геркулес-65»"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_8",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "С какой максимальной скоростью движется гусеничный транспортер NASA Crawler-Transporter при транспортировке лунной ракеты SLS с пусковой платформой?",
+    "options": ["Около 1.6 км/ч (1 миля в час) с нагрузкой", "15 км/ч", "5 км/ч", "0.2 км/ч"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_9",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 1,
+    "question": "Какой советский транспортный самолет Ан-225 «Мрия», созданный в ОКБ Антонова в 1988 году, был самым тяжелым и грузоподъемным в истории авиации?",
+    "options": ["Ан-225 «Мрия» (взлетная масса 640 тонн, 6 двигателей)", "Ан-124 «Руслан»", "Boeing 747-8F", "Lockheed C-5 Galaxy"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_10",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Для транспортировки какого конкретного космического аппарата и элементов ракеты-носителя «Энергия» проектировался Ан-225 «Мрия»?",
+    "options": ["Орбитального корабля «Буран» и баков ракеты «Энергия» на внешней подвеске", "Модулей орбитальной станции «Мир»", "Ракеты «Союз-У»", "Спускаемых аппаратов «Луна-24»"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_11",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой стратегический сверхзвуковой самолет-разведчик Lockheed SR-71 Blackbird удерживает абсолютный официальный рекорд скорости для пилотируемых самолетов с воздушно-реактивными двигателями (3529.6 км/ч / Мах 3.3)?",
+    "options": ["Lockheed SR-71 Blackbird", "МиГ-25РБ", "North American X-15", "XB-70 Valkyrie"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_12",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Из какого конструкционного материала на 85% был изготовлен планер SR-71 для противостояния аэродинамическому нагреву до 300–400 °C на скорости 3 Маха?",
+    "options": ["Из титановых сплавов (закупленных ЦРУ через подставные фирмы в СССР)", "Из бериллиевой бронзы", "Из жаропрочной нержавеющей стали", "Из углепластика на эпоксидной смоле"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_13",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Почему самолет SR-71 постоянно протекал топливом JP-7 на стоянке перед вылетом?",
+    "options": [
+      "Топливные баки не имели резиновых герметиков — панели обшивки плотно смыкались только в полете при тепловом расширении титана от нагрева",
+      "Из-за неисправности дренажных клапанов",
+      "Топливо использовалось для охлаждения шин шасси",
+      "Для снижения взлетной массы самолета"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_14",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 1,
+    "question": "Какой первый в мире сверхзвуковой пассажирский авиалайнер совершил свой первый полет 31 декабря 1968 года — на два месяца раньше англо-французского «Конкорда»?",
+    "options": ["Ту-144 (ОКБ Туполева)", "Aérospatiale-BAC Concorde", "Boeing 2707", "Convair 880"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_15",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какую уникальную конструктивную особенность носовой части имели сверхзвуковые лайнеры Ту-144 и Concorde для обеспечения обзора пилотам при взлете и посадке?",
+    "options": [
+      "Опускающийся на шарнирах носовой обтекатель (droop nose) с подвижным остеклением",
+      "Перископическую систему зеркал на крыше",
+      "Телевизионную камеру ночного видения вместо стекол",
+      "Полностью прозрачный титановый конус"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_16",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Что представляет собой ракетный самолет North American X-15, установивший в 1967 году рекорд скорости 7274 км/ч (Мах 6.7)?",
+    "options": [
+      "Экспериментальный гиперзвуковой пилотируемый ракетоплан с жидкостным ракетным двигателем XLR99, сбрасываемый из-под крыла бомбардировщика B-52",
+      "Первый американский космический челнок",
+      "Беспилотный прямоточный аппарат",
+      "Высотный перехватчик с ядерным реактором"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_17",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой уникальный советский тяжелый транспортный экраноплан-ракетоносец проекта 903 («Каспийский монстр» / «Лунь») летал над водой на высоте нескольких метров?",
+    "options": ["Экраноплан «Лунь» с 6 пусковыми установками противокорабельных ракет «Москит»", "Экранолет «Орленок»", "КМ (Корабль-макет)", "СМ-6"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_18",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "В чем заключается физический экранный эффект (ground effect), на котором основан полет экраноплана Ростислава Алексеева?",
+    "options": [
+      "Резкое возрастание подъемной силы крыла и снижение индуктивного сопротивления при полете вблизи подстилающей поверхности (земли или воды) на высоте порядка хорды крыла",
+      "Отражение радиоволн от морской глади",
+      "Создание воздушной подушки под днищем компрессорами",
+      "Ионизация воздуха между крылом и водой"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_19",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой российский самолет-амфибия Бе-200 «Чайка» способен набирать 12 тонн воды в баки при глиссировании по водной поверхности всего за 14 секунд для тушения пожаров?",
+    "options": ["Бе-200", "А-40 «Альбатрос»", "Бе-12", "Ил-76ТДП"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_20",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 1,
+    "question": "Какая страна ввела в эксплуатацию первый в мире атомный ледокол «Ленин» в 1959 году?",
+    "options": ["СССР", "США", "Канада", "Норвегия"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_21",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какая серия российских универсальных атомных ледоколов проекта 22220 («Арктика», «Сибирь», «Урал», «Якутия») с реакторами РИТМ-200 является самой мощной в мире?",
+    "options": ["Проект 22220 (тип «Арктика»)", "Проект 10520 (тип «Таймыр»)", "Проект 10580 (тип «Ямал»)", "Проект 10510 (тип «Лидер» 120 МВт)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_22",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Как ледокол преодолевает тяжелые паковые льды толщиной более 2–3 метров?",
+    "options": [
+      "Наползает своей скошенной массивной носовой частью форштевня на кромку ледяного поля и продавливает лед сверху колоссальным собственным весом",
+      "Режет лед специальными лазерными пушками на носу",
+      "Растапливает лед струями перегретого пара от реактора",
+      "Раскалывает лед ударным подводным гидромолотом"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_23",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Что представляет собой баллинг-система (балластно-дифферентная система) ледокола?",
+    "options": [
+      "Мощные насосы за секунды перекачивают сотни тонн забортной воды между правыми и левыми бортовыми цистернами, заставляя судно раскачиваться с борта на борт и выбираться из ледового плена",
+      "Система очистки трюмов от талой воды",
+      "Система тушения пожаров забортной пеной",
+      "Система охлаждения гребных валов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_24",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой глубоководный аппарат (батискаф), спроектированный Огюстом Пикаром, 23 января 1960 года с Жаком Пикаром и Доном Уолшем на борту впервые в истории покорил Бездну Челленджера (10 916 м)?",
+    "options": ["Батискаф «Триест» (Trieste)", "«Алвин» (Alvin)", "«Мир-1»", "Deepsea Challenger"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_25",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какую жидкость использовали в поплавке батискафа «Триест» в качестве легкого несжимаемого наполнителя для создания плавучести на глубине 11 км?",
+    "options": [
+      "Обычный автомобильный бензин (около 85 000 литров)",
+      "Сжатый гелий под давлением 1000 атм",
+      "Синтетическое трансформаторное масло",
+      "Жидкий азот"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_26",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой известный кинорежиссер в 2012 году совершил одиночное погружение на дно Марианской впадины на аппарате Deepsea Challenger?",
+    "options": ["Джеймс Кэмерон", "Стивен Спилберг", "Кристофер Нолан", "Джордж Лукас"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_27",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какие советские глубоководные обитаемые аппараты (ГОА) с глубиной погружения до 6000 м участвовали в съемках фильма «Титаник» и водрузили флаг РФ на дне Северного полюса в 2007 году?",
+    "options": ["«Мир-1» и «Мир-2» (Институт океанологии РАН)", "«Поиск-6»", "«Русь» и «Консул»", "«Север-2»"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_28",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 1,
+    "question": "Какой японский высокоскоростной поезд «Синкансэн» серии L0 установил абсолютный мировой рекорд скорости для поездов на магнитной подушке (603 км/ч) в 2015 году?",
+    "options": ["SCMaglev L0 Series (маглев)", "Shinkansen N700S", "Shinkansen E5 Hayabusa", "Shinkansen 500 Series"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_29",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой рекорд скорости для классических рельсовых поездов системы «колесо-рельс» (574.8 км/ч) установил модифицированный французский состав TGV POS в апреле 2007 года?",
+    "options": ["574.8 км/ч", "430.5 км/ч", "501.2 км/ч", "610.0 км/ч"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_30",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "В чем заключается принципиальная разница между технологиями электромагнитного подвеса EMS (немецкий Transrapid в Шанхае) и электродинамического подвеса EDS (японский SCMaglev)?",
+    "options": [
+      "EMS использует силу притяжения электромагнитов снизу к стальному рельсу (нестабилен, требует микронного зазора), а EDS — силу отталкивания сверхпроводящих магнитов на криогенном гелии",
+      "EMS работает на постоянном токе, а EDS на дизельном топливе",
+      "EDS требует контактного провода над крышей",
+      "EMS левитирует только на стоянке"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_31",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какую общую протяженность (9288 км) имеет Транссибирская железнодорожная магистраль — самая длинная железная дорога на планете?",
+    "options": ["9288.2 км", "7500 км", "11 200 км", "5800 км"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_32",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой магистральный грузовой двухсекционный тепловоз Коломенского и Луганского заводов с двухтактным дизелем 10Д100 за характерный трубный звук выхлопа и дым железнодорожники прозвали «Фантомасом»?",
+    "options": ["2ТЭ116 (или 2ТЭ10М/2ТЭ10В)", "ТЭ3", "ТЭП70", "ЧМЭ3"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_33",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой самый мощный в мире газотурбовоз ГТ1h (работающий на сжиженном природном газе СПГ) был создан в России на базе электровоза ВЛ15?",
+    "options": [
+      "ГТ1h-001 / ГТ1h-002 с газотурбинным двигателем НК-361 мощностью 8300 кВт, проведший состав массой 9000 тонн",
+      "ТЭМ19",
+      "2ЭС10 «Гранит»",
+      "ЭП20 «Олимп»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_34",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какую ширину колеи (1520 мм) имеет железнодорожная сеть так называемого «русского стандарта» в России, Беларуси, Казахстане и Финляндии (1524 мм)?",
+    "options": ["1520 мм", "1435 мм (европейская колея Стефенсона)", "1676 мм (индийская колея)", "1067 мм (капская колея)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_35",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой пассажирский лайнер-супергигант водоизмещением 228 000 тонн типа Oasis («Symphony of the Seas» / «Icon of the Seas») вмещает до 7600 пассажиров?",
+    "options": ["Лайнеры компании Royal Caribbean International (класс Icon и Oasis)", "Queen Mary 2", "Carnival Vista", "MSC Grandiosa"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_36",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Что представляет собой винторулевая колонка типа Azipod (разработка ABB), устанавливаемая на современных круизных лайнерах и ледоколах?",
+    "options": [
+      "Поворотная на 360 градусов гондола вне корпуса судна, внутри которой находится электромотор, вращающий тянущий или толкающий гребной винт без длинных валов и рулей",
+      "Подводный гидрореактивный водомет",
+      "Откидной дизельный мотор с кормы",
+      "Выдвижной носовой стабилизатор качки"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_37",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой самый крупный в мире двухтактный дизельный двигатель Wärtsilä-Sulzer RTA96-C (14 цилиндров, 108 920 л.с., вес 2300 тонн) устанавливается на гигантские контейнеровозы?",
+    "options": ["Wärtsilä-Sulzer 14RTA96-C", "MAN B&W 12S90ME", "Caterpillar C175-20", "MTU 8000"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_38",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "С какой частотой вращения (об/мин) работает коленчатый вал гигантского судового дизеля Wärtsilä-Sulzer RTA96-C при максимальной мощности?",
+    "options": ["Около 102 оборотов в минуту (тихоходный прямой привод на гребной винт)", "1500 об/мин", "6000 об/мин", "10 об/мин"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_39",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Каким КПД (более 50%) обладает двухтактный судовой дизель RTA96-C, являясь одним из самых эффективных тепловых двигателей внутреннего сгорания на планете?",
+    "options": ["Свыше 50–51.7%", "Около 25%", "Около 35%", "75%"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_40",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Что такое «бункеровочное тяжелое топливо» (мазут HFO — Heavy Fuel Oil), на котором работают главные двигатели океанских контейнеровозов в открытом море?",
+    "options": [
+      "Вязкий гудронный остаток перегонки сырой нефти, который при комнатной температуре застывает в полутвердую смолу и требует обязательного подогрева паром до 130–140 °C перед подачей в ТНВД",
+      "Очищенный авиационный бензин",
+      "Сжатый пропан-бутан",
+      "Отработанное растительное масло"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_41",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой супертанкер Seawise Giant (позже Knock Nevis) длиной 458 метров был самым длинным и водоизмещающим (657 000 тонн при полной осадке) кораблем в истории человечества?",
+    "options": ["Seawise Giant (Knock Nevis)", "Batillus", "TI Oceania", "Esso Atlantic"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_42",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Почему супертанкер Seawise Giant при полной загрузке не мог проходить ни через Суэцкий, ни через Панамский канал, ни даже через Ла-Манш?",
+    "options": [
+      "Его осадка в 24.6 метра превышала глубину фарватера этих каналов и проливов",
+      "Его двигатели были запрещены международным морским правом",
+      "Его ширина не позволяла разъехаться со встречными судами",
+      "Он перевозил ядерные отходы"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_43",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какое полупогружное судно для перевозки сверхтяжелых негабаритных грузов (Boka Vanguard / Dockwise Vanguard) способно брать на палубу нефтяные платформы весом до 117 000 тонн?",
+    "options": ["Boka Vanguard (Dockwise Vanguard)", "Blue Marlin", "Mighty Servant 1", "Manta"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_44",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Как полупогружное транспортное судно (heavy-lift vessel) типа Blue Marlin производит погрузку другой подводной лодки или буровой платформы на свою палубу?",
+    "options": [
+      "Заполняет балластные танки, погружая свою грузовую палубу под воду на глубину до 16 метров, груз заводится буксирами над палубой, после чего балласт откачивается и судно всплывает с грузом",
+      "Использует гигантский 100-метровый телескопический кран",
+      "Затаскивает груз мощными лебедками по роликам с берега",
+      "Разбирает борта на секции"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_45",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Что представляет собой плавучая регазификационная установка (FSRU — Floating Storage and Regasification Unit)?",
+    "options": [
+      "Специализированное судно-газовоз, оборудованное установкой для перевода сжиженного природного газа (СПГ) обратно в газообразное состояние прямо в море и подачи в береговой газопровод",
+      "Плавучая нефтяная вышка",
+      "Танкер для перевозки сжиженного аммиака",
+      "Завод по опреснению морской воды"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_46",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "При какой криогенной температуре (-162 °C) хранится сжиженный природный газ в изотермических танках танкеров-газовозов СПГ (LNG carriers)?",
+    "options": ["-162 °C при атмосферном давлении", "-50 °C", "-196 °C", "-273 °C"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_47",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Что такое «отпарной газ» (Boil-Off Gas — BOG) на судах-газовозах СПГ и как его используют современные суда?",
+    "options": [
+      "Газ, неизбежно испаряющийся из танков из-за микротеплопритоков; современные суда сжигают его в качестве экологичного топлива в собственных двухтопливных двигателях (DFDE) или повторно сжижают",
+      "Газ, который стравливают факелом в атмосферу каждые 3 часа",
+      "Сжатый воздух для продувки балласта",
+      "Газ для охлаждения кают экипажа"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_48",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 1,
+    "question": "Какой первый в истории самоходный дистанционно управляемый планетоход «Луноход-1» проработал на поверхности Луны 301 день в 1970–1971 годах?",
+    "options": ["«Луноход-1» (аппарат 8ЕЛ № 201 на станции «Луна-17»)", "«Луноход-2»", "Rover Apollo 15", "Sojourner"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_49",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какую конструкцию движителя имел советский «Луноход-1» для преодоления лунного реголита?",
+    "options": [
+      "Восемь независимых сетчатых металлических колес с индивидуальными электромоторами в ступицах и титановыми грунтозацепами",
+      "Резиновые гусеницы арктического типа",
+      "Четыре надувных баллона низкого давления",
+      "Шнекороторный винтовой движитель"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_50",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой радиоизотопный тепловой источник (РИТЭГ) на основе полония-210 согревал аппаратуру «Лунохода-1» во время двухнедельной лунной ночи при температуре -150 °C?",
+    "options": [
+      "Радиоизотопный генератор тепла с изотопом полония-210",
+      "Плутоний-238",
+      "Урановый мини-реактор",
+      "Химические солевые грелки"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_51",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой колесный лунный автомобиль LRV (Lunar Roving Vehicle) использовали американские астронавты миссий Аполлон-15, 16 и 17 для поездок по Луне?",
+    "options": [
+      "Четырехколесный электромобиль Boeing/GM с колесами из плетеной цинкованной стальной проволоки с титановыми шевронами",
+      "Гусеничный вездеход Grumman",
+      "Трехколесный гироцикл",
+      "Электрокар с цельнолитыми резиновыми покрышками Goodyear"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_52",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой тип подвески «рокер-боги» (rocker-bogie) без традиционных пружин используют марсоходы NASA (Curiosity, Perseverance)?",
+    "options": [
+      "Шестиколесная шарнирно-рычажная система с балансирным дифференциалом, позволяющая преодолевать препятствия размером больше диаметра колеса без отрыва колес от грунта",
+      "Пневматическая подвеска с изменяемым клиренсом",
+      "Независимая подвеска на двойных поперечных рычагах из титана",
+      "Торсионная балка с гидравлическими демпферами"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_53",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой радиоизотопный термоэлектрический генератор (РИТЭГ) на диоксиде плутония-238 (Pu-238) обеспечивает марсоход Curiosity электроэнергией и теплом с 2012 года?",
+    "options": ["MMRTG (Multi-Mission Radioisotope Thermoelectric Generator)", "GPHS-RTG", "SNAP-27", "AiroCore-100"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_54",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой первый в истории внеземной винтокрылый летательный аппарат (роботизированный вертолет Ingenuity) совершил 72 управляемых полета в разреженной атмосфере Марса?",
+    "options": ["Вертолет Ingenuity («Изобретательность»)", "Дрон Dragonfly", "Sky Crane", "Ares-1"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_55",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "С какой колоссальной скоростью (около 2400–2700 об/мин) вращались соосные углепластиковые винты вертолета Ingenuity для создания подъемной силы в марсианской атмосфере (плотность которой составляет всего 1% от земной)?",
+    "options": ["2400–2700 об/мин (в 5–6 раз быстрее земных вертолетов)", "500 об/мин", "10 000 об/мин", "120 об/мин"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_56",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой советский шнекороторный снегоболотоход ЗИЛ-29061 входил в состав спасательно-эвакуационного комплекса «Синяя птица» для поиска приземлившихся космонавтов в непроходимых топях?",
+    "options": ["Шнекоход ЗИЛ-29061 со спиральными винтами Архимеда вместо колес", "ЗИЛ-4906", "ГТ-СМ (ГАЗ-71)", "БТВ-1"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_57",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "По какой поверхности шнекороторный вездеход (шнекоход) категорически не способен передвигаться без быстрого разрушения винтов и трансмиссии?",
+    "options": [
+      "По твердому сухому асфальту или каменистому бетону",
+      "По глубокому жидкому болоту",
+      "По рыхлому метровому снегу",
+      "По открытой воде"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_58",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 1,
+    "question": "Какой знаменитый российский вездеход на шинах сверхнизкого давления с ломающейся рамой и герметичным кузовом конструкции Алексея Гарагашьяна способен выходить из воды на лед?",
+    "options": ["Шерп (SHERP)", "ТРЭКОЛ-39294", "Шаман 8х8", "Витязь ДТ-30"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_59",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какую уникальную систему подкачки колес имеет вездеход Шерп?",
+    "options": [
+      "Шины подкачиваются выхлопными газами двигателя через трубчатые каналы рамы всего за 15 секунд нажатием педали",
+      "Электрическим компрессором от прикуривателя",
+      "Вручную ножным насосом",
+      "Давление поддерживается баллоном со сжатым гелием"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_60",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой советский двухзвенный гусеничный вездеход-тягач ДТ-30 «Витязь» грузоподъемностью 30 тонн работает в условиях Крайнего Севера и Антарктиды?",
+    "options": ["ДТ-30 «Витязь» (Ишимбайский завод)", "АТ-Т", "МТ-ЛБВ", "ГАЗ-3351 «Лось»"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_61",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "В чем заключается главное преимущество двухзвенной компоновки сочлененного вездехода ДТ-30 «Витязь» при преодолении рвов и торосов?",
+    "options": [
+      "Мощные гидроцилиндры сцепки между звеньями могут принудительно складывать секции в вертикальной и горизонтальной плоскостях, выталкивая застрявшее звено",
+      "Второе звено работает на электротяге",
+      "Первое звено может отсоединяться и улетать",
+      "Удельное давление на грунт снижается до абсолютного нуля"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_62",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой уникальный колесный тягач МАЗ-7907 с колесной формулой 24х24 (24 ведущих колеса!) был создан в СССР для подвижного грунтового ракетного комплекса «Целина-2»?",
+    "options": ["МАЗ-7907 (длина 28 м, грузоподъемность 150 тонн)", "МАЗ-543 «Ураган»", "МАЗ-7917 «Тополь»", "МЗКТ-79221"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_63",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой танковый двигатель стоял на монстре МАЗ-7907 24х24 для привода электрогенератора?",
+    "options": [
+      "Танковый газотурбинный двигатель ГТД-1000ТФ (1250 л.с.) от танка Т-80Б",
+      "V-образный 12-цилиндровый дизель В-46",
+      "Авиационный турбовинтовой мотор АИ-20",
+      "Четыре дизеля ЯМЗ-238"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_64",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какое шасси Минского завода колесных тягачей (МЗКТ) с колесной формулой 16х16 служит платформой для современных российских ракетных комплексов РС-24 «Ярс»?",
+    "options": ["МЗКТ-79221", "МАЗ-547В", "МЗКТ-6922", "БАЗ-6909"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_65",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 1,
+    "question": "Какая самая большая в истории двухступенчатая сверхтяжелая ракета-носитель (высота 121 м, стартовая масса 5000 тонн) создается компанией SpaceX для полетов на Марс?",
+    "options": ["Starship (ускоритель Super Heavy + корабль Starship)", "Saturn V", "SLS (Space Launch System)", "Falcon Heavy"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_66",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Сколько двигателей Raptor 2 на жидком метане и жидком кислороде установлено на первой ступени (Super Heavy) ракеты Starship?",
+    "options": ["33 двигателя Raptor", "9 двигателей", "27 двигателей", "42 двигателя"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_67",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Как называется гигантская пусковая башня SpaceX со стрелами-манипуляторами («палочками для еды» / Chopsticks), предназначенная для ловли падающей ступени Super Heavy прямо в воздухе?",
+    "options": ["Мехазилла (Mechazilla)", "Старбейзер", "Годзилла-Tower", "Кран Falcon"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_68",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой многоразовый советский орбитальный космический корабль 15 ноября 1988 года совершил полностью автоматический беспилотный космический полет и посадку при сильном боковом ветре на Байконуре?",
+    "options": ["«Буран» (изделие 1.01)", "«Буря» (изделие 1.02)", "«БОР-4»", "«Байкал»"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_69",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какое принципиальное отличие имела советская система «Энергия — Буран» от американского Space Shuttle?",
+    "options": [
+      "«Буран» не имел собственных маршевых ракетных двигателей для выхода на орбиту — вся тяга создавалась универсальной ракетой-носителем «Энергия», которая могла запускать любые тяжелые грузы и без корабля",
+      "«Буран» был одноразовым кораблем",
+      "Space Shuttle садился на парашютах в океан, а Буран на полосу",
+      "«Энергия» работала на твердом топливе"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_special_transport_70",
+    "categoryId": "transport",
+    "subcategoryId": "special_transport",
+    "difficulty": 2,
+    "question": "Какой жидкостный ракетный двигатель РД-170 (разработки НПО Энергомаш), стоявший на боковых блоках ракеты «Энергия», является самым мощным четырехкамерным ЖРД в истории человечества (тяга 740 тонн у земли)?",
+    "options": ["РД-170 (РД-171)", "РД-180", "Rocketdyne F-1 (однокамерный)", "НК-33"],
+    "correctIndex": 0,
+    "image": null
+  }
+]

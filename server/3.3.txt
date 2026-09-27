@@ -1,0 +1,842 @@
+[
+  {
+    "id": "transport_motorsport_racing_1",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 1,
+    "question": "Что представляет собой престижнейшая «Тройная корона автоспорта» (Triple Crown of Motorsport), которую за всю историю смог завоевать лишь один пилот — Грэм Хилл?",
+    "options": [
+      "Победа в Гран-при Монако Ф-1, марафоне «24 часа Ле-Мана» и гонке «500 миль Индианаполиса»",
+      "Победа в трех чемпионатах Формулы-1 подряд",
+      "Победа в ралли Дакар, 24 часах Нюрбургринга и 12 часах Себринга",
+      "Победа в Формуле-1, WRC и NASCAR Cup Series"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_2",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какое аэродинамическое явление («дельфинирование» / porpoising) вернулось в Формулу-1 в сезоне 2022 года после возвращения граунд-эффекта?",
+    "options": [
+      "Циклические вертикальные колебания болида на высоких скоростях из-за периодического срыва и восстановления воздушного потока под днищем в тоннелях Вентури",
+      "Занос задней оси в медленных поворотах",
+      "Попадание воды в кокпит пилота во время дождя",
+      "Резкий снос передних колес при торможении"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_3",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "В чем заключается принцип работы системы DRS (Drag Reduction System) в Формуле-1?",
+    "options": [
+      "Гидравлический актуатор приоткрывает верхнюю плоскость заднего антикрыла на прямых в зоне детекции, уменьшая лобовое сопротивление и увеличивая скорость на 10–15 км/ч",
+      "В двигатель кратковременно впрыскивается закись азота (N2O)",
+      "Переднее антикрыло прижимается вплотную к асфальту",
+      "Турбокомпрессор переходит в режим бесконечного наддува"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_4",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какую функцию выполняет мотор-генератор MGU-H в современных гибридных силовых установках Формулы-1?",
+    "options": [
+      "Рекуперирует тепловую энергию выхлопных газов с вала турбокомпрессора и при необходимости мгновенно раскручивает турбину для устранения турболага",
+      "Преобразует энергию торможения передних колес в ток",
+      "Охлаждает кокпит пилота жидким гелием",
+      "Управляет гидравлическим насосом усилителя руля"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_5",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какую максимальную мощность (120 кВт / 163 л.с.) мотор-генератор MGU-K по регламенту FIA может передавать на коленчатый вал болида Ф-1?",
+    "options": ["120 кВт (163 л.с.)", "50 кВт (68 л.с.)", "300 кВт (408 л.с.)", "500 кВт (680 л.с.)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_6",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какая трагедия на Ралли Корсика в мае 1986 года, когда с обрыва сорвалась и сгорела Lancia Delta S4, привела к немедленному запрету безумной Группы Б президентом FISA Жан-Мари Балестром?",
+    "options": [
+      "Гибель финского гонщика Хенри Тойвонена и его штурмана Серджио Кресто",
+      "Гибель Вальтера Рёрля на Audi Quattro",
+      "Авария Мишель Мутон в Монте-Карло",
+      "Гибель Колина Макрея на трассе в Греции"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_7",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какую уникальную комбинированную систему наддува имела среднемоторная раллийная ракета Lancia Delta S4 Группы Б?",
+    "options": [
+      "Механический нагнетатель типа Volumex (Рутс) на низких оборотах + турбокомпрессор KKK на высоких оборотах (twincharger)",
+      "Четыре параллельные турбины Garrett",
+      "Электрическую турбину на 48 вольт",
+      "Два центробежных компрессора с приводом от карданного вала"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_8",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой гениальный конструктор создал революционный болид с граунд-эффектом Lotus 78 и болид-пылесос Brabham BT46B с вентилятором на корме?",
+    "options": ["Колин Чепмен (Lotus) и Гордон Марри (Brabham)", "Эдриан Ньюи", "Росс Браун", "Джон Барнард"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_9",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой выдающийся британский конструктор спроектировал чемпионские болиды для Williams, McLaren и Red Bull Racing, завоевав более 12 Кубков конструкторов Ф-1?",
+    "options": ["Эдриан Ньюи", "Рори Бирн", "Джеймс Эллисон", "Патрик Хед"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_10",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какое драматическое столкновение решило судьбу чемпионского титула Формулы-1 между Аленом Простом и Айртоном Сенной на Гран-при Японии 1989 года в Судзуке?",
+    "options": [
+      "Столкновение в шикане Касио: Прост захлопнул калитку при атаке Сенны, оба болида McLaren замерли на обочине",
+      "Авария на стартовой решетке",
+      "Обоюдный вылет в скоростном повороте 130R",
+      "Контакт на пит-лейне при смене резины"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_11",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Что сделал Айртон Сенна на старте Гран-при Японии 1990 года в первом повороте Судзуки в ответ на отказ переместить поул-позицию на чистую сторону трассы?",
+    "options": [
+      "На полной скорости протаранил Ferrari Алена Проста в первом повороте, гарантировав себе чемпионский титул",
+      "Отказался выходить на старт гонки",
+      "Свернул на пит-лейн на первом же круге",
+      "Специально пропустил вперед Герхарда Бергера"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_12",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "В каком роковом повороте автодрома Энцо и Дино Феррари в Имоле 1 мая 1994 года трагически оборвалась жизнь Айртона Сенны?",
+    "options": ["Тамбурелло (Tamburello)", "Тоза (Tosa)", "Аква Минерали (Acqua Minerali)", "Ривацца (Rivazza)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_13",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какое защитное устройство из титана над кокпитом («Halo»), внедренное FIA в 2018 году, спасло жизнь Ромену Грожану в Бахрейне в 2020 году и Льюису Хэмилтону в Монце в 2021 году?",
+    "options": ["Ореол (Halo)", "Аэроскрин (Aeroscreen)", "Карбоновый фонарь", "Дуга Ханс (HANS)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_14",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "От каких смертельно опасных травм шейного отдела позвоночника («базилярный перелом черепа») защищает система HANS (Head and Neck Support)?",
+    "options": [
+      "От чрезмерного резкого смещения и хлыстового переразгибания головы вперед при лобовом ударе на огромной скорости",
+      "От сдавливания грудной клетки ремнями безопасности",
+      "От ожогов лица парами горячего антифриза",
+      "От бокового удара об отбойник"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_15",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 1,
+    "question": "Сколько чемпионских титулов в личном зачете Формулы-1 завоевал Михаэль Шумахер за свою карьеру?",
+    "options": ["7 титулов", "5 титулов", "8 титулов", "6 титулов"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_16",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Кто был главным конструктором и техническим директором золотой эры Ferrari начала 2000-х (dream team с Тодтом, Брауном и Шумахером)?",
+    "options": ["Росс Браун и Рори Бирн", "Эдриан Ньюи", "Флавио Бриаторе", "Джон Бернард"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_17",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какая команда-новичок сенсационно выиграла Кубок конструкторов и личный зачет чемпионата Формулы-1 в 2009 году благодаря двойному диффузору?",
+    "options": ["Brawn GP (Дженсон Баттон)", "Red Bull Racing", "Toyota Racing", "BMW Sauber"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_18",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Что представлял собой скандальный «двойной диффузор» болида Brawn BGP 001 в 2009 году?",
+    "options": [
+      "Использование каналов в структуре задней зоны деформации (crash structure) для подачи дополнительного потока воздуха во второй ярус диффузора",
+      "Диффузор с двумя подвижными электрическими шторками",
+      "Выхлопные газы мотора, направленные в днище болида",
+      "Передний диффузор под носовым обтекателем"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_19",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Что такое «выдувной диффузор» (blown diffuser), доведенный Red Bull Racing до идеала в 2010–2011 годах?",
+    "options": [
+      "Направление раскаленных выхлопных газов двигателя непосредственно на плоскость заднего диффузора для создания прижимной силы даже при отпущенной педали газа (cold blowing / hot blowing)",
+      "Откачка воздуха из-под днища электрическим вентилятором",
+      "Подача сжатого азота под антикрыло",
+      "Охлаждение диффузора водой из омывателя"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_20",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 1,
+    "question": "Какой цвет маркировки на боковине шин Pirelli в современной Формуле-1 обозначает самый мягкий состав Soft на данном этапе?",
+    "options": ["Красный", "Желтый (Medium)", "Белый (Hard)", "Зеленый (Inter)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_21",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 1,
+    "question": "Какой цвет маркировки имеют шины Pirelli Intermediate (промежуточная резина для влажной трассы) в Формуле-1?",
+    "options": ["Зеленый", "Синий (Full Wet)", "Красный", "Белый"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_22",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Сколько литров воды в секунду на скорости 300 км/ч способна отводить из пятна контакта дождевая шина Pirelli Full Wet (синяя маркировка)?",
+    "options": ["До 85 литров в секунду с каждого колеса", "Около 10 литров", "25 литров", "200 литров"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_23",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Что представляет собой гоночный флаг черного цвета с оранжевым кругом по центру («мясной фрикаделька» / Meatball flag) в Ф-1?",
+    "options": [
+      "Уведомление гонщику о том, что его болид имеет опасные механические повреждения и обязан немедленно заехать в боксы на ремонт",
+      "Дисквалификация пилота за неспортивное поведение",
+      "Предупреждение о скользком масле на трассе",
+      "Окончание сессии квалификации"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_24",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Что означает белый флаг на трассе во время сессии Формулы-1?",
+    "options": [
+      "На трассе находится медленно движущееся транспортное средство (медицинский автомобиль, эвакуатор или болид с поломкой)",
+      "Начался сильный ливень",
+      "Гонка временно остановлена красными флагами",
+      "Победа лидера гонки"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_25",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Что такое «андеркат» (undercut) в тактике пит-стопов кольцевых автогонок?",
+    "options": [
+      "Тактический ход, когда преследующий пилот заезжает на пит-стоп раньше соперника, чтобы на свежих шинах взвинтить темп и обогнать его, когда тот поедет на свой пит-стоп",
+      "Атака по внутреннему радиусу с блокировкой колес",
+      "Поздний пит-стоп в надежде на появление машины безопасности (Safety Car)",
+      "Смена носового обтекателя без смены резины"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_26",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "В чем заключается противоположная тактика «оверкат» (overcut)?",
+    "options": [
+      "Пилот остается на трассе дольше соперника, используя свободный воздух и сохраняя высокий темп, чтобы выехать впереди после своего пит-стопа",
+      "Обгон по внешнему радиусу поворота",
+      "Двойной пит-стоп с одновременным обслуживанием двух машин команды",
+      "Старт с пит-лейна на жестких шинах"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_27",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой мировой рекорд времени пит-стопа (1.80 секунды) установила команда McLaren на болиде Ландо Норриса на Гран-при Катара 2023 года?",
+    "options": ["1.80 секунды", "1.45 секунды", "2.15 секунды", "0.98 секунды"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_28",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой французский пилот за свою невероятную расчётливость, экономию шин и тормозов заслужил в паддоке прозвище «Профессор»?",
+    "options": ["Ален Прост", "Жан Алези", "Рене Арну", "Франсуа Север"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_29",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какое эпическое противостояние в сезоне Ф-1 1976 года легло в основу знаменитого голливудского фильма Рона Ховарда «Гонка» (Rush)?",
+    "options": ["Джеймс Хант (McLaren) и Ники Лауда (Ferrari)", "Сенна и Прост", "Шумахер и Хаккинен", "Вильнёв и Пирони"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_30",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Спустя всего сколько дней после тяжелейшей огненной аварии на старом Нюрбургринге Ники Лауда героически вернулся за руль Ferrari на Гран-при Италии в Монце?",
+    "options": ["Спустя 42 дня (6 недель)", "Спустя 1 год", "Спустя 14 дней", "Спустя 6 месяцев"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_31",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой финский гонщик, выступавший за McLaren, был главным и самым уважаемым соперником Михаэля Шумахера в сезонах 1998–2000 годов?",
+    "options": ["Мика Хаккинен («Летучий финн»)", "Кими Райкконен", "Кеке Росберг", "Валттери Боттас"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_32",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой легендарный двойной обгон Шумахера с участием кругового Рикардо Зонты совершил Мика Хаккинен на Гран-при Бельгии 2000 года в Спа перед поворотом Ле Комб?",
+    "options": [
+      "Обгон на прямой Кеммель на скорости свыше 300 км/ч: Шумахер обошел Зонту слева, а Хаккинен протиснулся справа",
+      "Обгон по гравию в шикане Автобусная остановка",
+      "Обгон в повороте Красная вода (Eau Rouge)",
+      "Обгон на пит-лейне"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_33",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Кто стал чемпионом мира 2007 года за рулем Ferrari, отыграв невероятное отставание в 17 очков за две гонки до конца сезона у Хэмилтона и Алонсо?",
+    "options": ["Кими Райкконен («Айсмен»)", "Фелипе Масса", "Фернандо Алонсо", "Себастьян Феттель"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_34",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Что произошло на последнем круге Гран-при Бразилии 2008 года в Сан-Паулу в борьбе за титул между Хэмилтоном и Массой?",
+    "options": [
+      "Хэмилтон обогнал на подсыхающей трассе Тимо Глока на сухих шинах в последнем повороте Интерлагоса, занял 5 место и выиграл титул с перевесом в 1 очко",
+      "Масса сошел из-за взрыва мотора",
+      "Хэмилтон получил 10-секундный штраф за срезку трассы",
+      "Гонку остановили досрочно из-за града"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_35",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какое скандальное решение гоночного директора Майкла Маси на последнем круге Гран-при Абу-Даби 2021 года решило судьбу чемпионства в пользу Макса Ферстаппена?",
+    "options": [
+      "Разрешение вернуть круг только тем круговым машинам, которые находились строго между Хэмилтоном и Ферстаппеном, и немедленный рестарт за один круг до финиша",
+      "Дисквалификация Льюиса Хэмилтона за выезд за пределы трассы",
+      "Остановка гонки красным флагом за 200 метров до финиша",
+      "Начисление двойных очков за победу в спринте"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_36",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Что такое «Баланс производительности» (BoP — Balance of Performance) в чемпионате мира по гонкам на выносливость (WEC) и категории GT3?",
+    "options": [
+      "Искусственное уравнивание шансов разных конструкций гиперкаров путем регулировки балласта массы, ограничения максимальной мощности и емкости топливного бака",
+      "Одинаковое время пит-стопов для всех команд",
+      "Обязательное использование единого стандартного мотора V8",
+      "Жеребьевка стартовых позиций перед каждой гонкой"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_37",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какая марка вернулась в высший класс марафона «24 часа Ле-Мана» спустя 50 лет и одержала сенсационную победу в столетней юбилейной гонке 2023 года на гиперкаре 499P?",
+    "options": ["Ferrari", "Porsche", "Peugeot", "Cadillac"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_38",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Сколько раз подряд и в общей сложности заводская команда Porsche выигрывала легендарный марафон «24 часа Ле-Мана» в абсолютном зачете (рекорд среди производителей)?",
+    "options": ["19 абсолютных побед", "12 побед", "9 побед", "25 побед"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_39",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какую длину имеет знаменитая прямая Мюльсанн (Ligne Droite des Hunaudières) на трассе Сарта в Ле-Мане, на которой прототип WM P88 в 1988 году разогнался до рекордных 407 км/ч?",
+    "options": ["Около 6 километров (до установки шикан в 1990 году)", "1.5 километра", "12 километров", "3.2 километра"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_40",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Почему в 1990 году по требованию FIA прямую Мюльсанн разделили двумя искусственными шиканами?",
+    "options": [
+      "Скорости за 400 км/ч приводили к взрывам шин и взлетам машин в воздух, создавая смертельную опасность",
+      "Для размещения дополнительных зрительских трибун",
+      "Из-за прокладки линии скоростного поезда TGV через трассу",
+      "Чтобы гонщики могли общаться с боксами по рации"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_41",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой гоночный автомобиль Mercedes-Benz CLR трижды взмывал в воздух и переворачивался на трассе в Ле-Мане в 1999 году из-за аэродинамической нестабильности в воздушном мешке?",
+    "options": ["Mercedes-Benz CLR (пилотировали Марк Уэббер и Питер Дамбрек)", "Sauber C9", "CLK-LM", "Mercedes C291"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_42",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой легендарный французский раллист завоевал рекордные 9 чемпионских титулов WRC подряд с 2004 по 2012 год за команду Citroën?",
+    "options": ["Себастьен Лёб", "Себастьен Ожье", "Дидье Ориоль", "Карлос Сайнс-старший"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_43",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой шотландский раллийный пилот стал самым молодым чемпионом мира по ралли в 1995 году и прославился девизом «Если сомневаешься — жми на газ» (If in doubt, flat out)?",
+    "options": ["Колин Макрей", "Ричард Бёрнс", "Маркку Ален", "Томми Мякинен"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_44",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какая легендарная гонщица за рулем Audi Quattro заняла 2-е место в личном зачете чемпионата мира по ралли 1982 года, одержав 4 победы на этапах WRC?",
+    "options": ["Мишель Мутон", "Ютта Кляйншмидт", "Патриция Мосс", "Даника Патрик"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_45",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Кто стал первой и единственной женщиной в истории, выигравшей в абсолютном зачете сложнейший ралли-марафон «Париж — Дакар» (в 2001 году на Mitsubishi Pajero)?",
+    "options": ["Ютта Кляйншмидт", "Мишель Мутон", "Лайя Санс", "Кристина Гутьеррес"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_46",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Сколько рекордных побед в ралли-марафоне «Дакар» (14 побед: 6 на мотоцикле и 8 на автомобиле) одержал француз Стефан Петерансель («Мистер Дакар»)?",
+    "options": ["14 побед", "8 побед", "10 побед", "20 побед"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_47",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 1,
+    "question": "Какая российская заводская команда является безоговорочным гегемоном зачета грузовиков ралли «Дакар», одержав 19 побед?",
+    "options": ["КАМАЗ-мастер («Синяя армада»)", "МАЗ-СПОРТавто", "ГАЗ Рейд Спорт", "Урал Моторспорт"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_48",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Что представляет собой знаменитый аэродинамический «драфтинг» (слипстрим) на суперспидвеях NASCAR (Дайтона, Талладега)?",
+    "options": [
+      "Движение вплотную бампер в бампер в зоне аэродинамического разрежения впереди идущей машины, снижающее лобовое сопротивление обоих автомобилей и разгоняющее связку",
+      "Использование выхлопных газов для турбонаддува сзади идущей машины",
+      "Специальный занос всеми четырьмя колесами на бэнкинге",
+      "Обгон по внутренней травяной кромке трека"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_49",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой наклон (бэнкинг) виражей имеет самый быстрый 4-километровый овал Talladega Superspeedway в NASCAR?",
+    "options": ["33 градуса", "15 градусов", "45 градусов", "20 градусов"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_50",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какую пластину-ограничитель (restrictor plate / tapered spacer) ставят под карбюратор/дроссель на суперспидвеях в NASCAR?",
+    "options": [
+      "Металлическую пластину с калиброванными отверстиями во впускном тракте для ограничения подачи воздуха и снижения мощности мотора ради безопасности пилотов",
+      "Ограничитель хода педали тормоза",
+      "Утяжелитель на днище болида",
+      "Дроссель подачи закиси азота"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_51",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какая традиция существует у победителя легендарной гонки «500 миль Индианаполиса» (Indy 500) на подиуме с 1936 года?",
+    "options": [
+      "Выпить бутылку холодного коровьего молока (традиция Луи Мейера)",
+      "Облиться шампанским брют",
+      "Съесть кусок жареного мяса",
+      "Разбить глиняный кувшин молотком"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_52",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Как называется полоса кирпичей на старт-финишной прямой трека Indianapolis Motor Speedway, которую целует победитель?",
+    "options": ["Ярд кирпичей (The Yard of Bricks)", "Золотая миля", "Стена почета", "Аллея легенд"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_53",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какая знаменитая горная гонка по подъему на холм в Колорадо (Pikes Peak International Hill Climb) носит неофициальное название «Гонка в облака»?",
+    "options": ["Пайкс-Пик (Pikes Peak)", "Гудвуд (Goodwood)", "Маунт-Вашингтон", "Холм Шелсли-Уолш"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_54",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "На какой высоте над уровнем моря финиширует легендарная трасса Пайкс-Пик?",
+    "options": ["4302 метра", "2150 метров", "3100 метров", "5200 метров"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_55",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Кто установил абсолютный рекорд подъема на Пайкс-Пик в 2018 году на электрическом прототипе Volkswagen I.D. R Pikes Peak со временем 7 минут 57.148 секунды?",
+    "options": ["Ромен Дюма", "Себастьен Лёб", "Кен Блок", "Вальтер Рёрль"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_56",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Почему электрический прототип Volkswagen I.D. R оказался быстрее автомобилей с ДВС в разреженном высокогорном воздухе Пайкс-Пик?",
+    "options": [
+      "Электродвигатели не нуждаются в кислороде воздуха и развивают 100% мощности на любой высоте в отличие от теряющих отдачу ДВС",
+      "Он имел в 5 раз меньшую массу",
+      "У него не было аэродинамического антикрыла",
+      "Аккумуляторы заряжались от солнечных панелей на ходу"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_57",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой американский автогонщик и шоумен создал всемирно известный бренд DC Shoes и культовую серию вирусных видеороликов «Джимхана» (Gymkhana)?",
+    "options": ["Кен Блок (Ken Block)", "Трэвис Пастрана", "Таннер Фауст", "Би Джей Болдуин"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_58",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой полноприводный ралли-монстр Ford Mustang 1965 года с твин-турбо V8 мощностью 1400 л.с. Кен Блок построил для Gymkhana 10 под именем «Hoonicorn V2»?",
+    "options": ["Hoonicorn RTR V2", "Hoonitruck", "Hoonipigasus", "Cosworth RS"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_59",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какая мотогонка на британском острове Мэн (Isle of Man TT), проходящая по дорогам общего пользования среди заборов и каменных стен, считается самой опасной в мире (более 260 погибших)?",
+    "options": ["Турист Трофи острова Мэн (Isle of Man TT)", "Гран-при Макао", "Северо-запад 200 (North West 200)", "Ульстер Гран-при"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_60",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какую среднюю скорость на круге (более 217 км/ч) развивают супербайки на 60-километровой трассе Снафелл Маунтин на острове Мэн?",
+    "options": ["Свыше 217 км/ч (135 миль/ч)", "Около 120 км/ч", "160 км/ч", "280 км/ч"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_61",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой итальянский мотогонщик по прозвищу «Доктор» (The Doctor, номер 46) завоевал 9 титулов чемпиона мира по шоссейно-кольцевым мотогонкам (7 в премьер-классе MotoGP)?",
+    "options": ["Валентино Росси", "Джакомо Агостини", "Марк Маркес", "Макс Бьяджи"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_62",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой абсолютный рекорд по числу побед в Гран-при чемпионата мира по шоссейно-кольцевым мотогонкам (122 победы и 15 титулов) удерживает Джакомо Агостини?",
+    "options": ["15 титулов и 122 победы", "9 титулов и 89 побед", "12 титулов и 100 побед", "20 титулов и 150 побед"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_63",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Что такое «стоппи» (stoppie) и «вилли» (wheelie) в стантрайдинге и мотоспорте?",
+    "options": [
+      "Вилли — езда на одном заднем колесе с поднятым передним; стоппи — езда/торможение на одном переднем колесе с оторванным задним",
+      "Виды поворота руля на гравии",
+      "Типы защитных слайдеров на комбинезоне",
+      "Два режима работы трекшн-контроля"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_64",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Что такое «лоу-сайд» (lowside) и «хай-сайд» (highside) при падениях в кольцевых мотогонках?",
+    "options": [
+      "Лоу-сайд — безобидный срыв колеса и скольжение на боку; хай-сайд — резкий зацеп шины после пробуксовки, катапультирующий гонщика через мотоцикл",
+      "Падение на низкой и высокой скорости соответственно",
+      "Падение в первом и последнем повороте круга",
+      "Столкновение с низким и высоким отбойником"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_65",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой класс гонок дрэг-рейсинга считается самой вершиной автоспорта по мощности и ускорению, где болиды разгоняются до 530+ км/ч за 3.6 секунды?",
+    "options": ["Топ Фьюел (Top Fuel Dragster)", "Фанни Кар (Funny Car)", "Про Сток (Pro Stock)", "Про Мод (Pro Mod)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_66",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какое ракетное топливо используют двигатели болидов Top Fuel для достижения мощности свыше 11 000 лошадиных сил?",
+    "options": [
+      "Нитрометан (CH3NO2) в смеси с 10% метанола",
+      "Авиационный керосин ТС-1",
+      "Жидкий кислород и водород",
+      "Высокооктановый бензин АИ-102"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_67",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какую перегрузку испытывает пилот Top Fuel драгстера на старте при выходе на 500 км/ч?",
+    "options": ["До +5g при разгоне и до -6g при раскрытии тормозных парашютов", "Около +1.5g", "Не более +2.5g", "+15g"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_68",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Почему свечи зажигания в моторе Top Fuel драгстера полностью выгорают и расплавляются уже на половине 300-метровой дистанции заезда?",
+    "options": [
+      "Температура и давление в цилиндрах столь чудовищны, что двигатель переходит в режим дизеля — смесь воспламеняется от раскаленных выпускных клапанов",
+      "Отключается генератор и аккумулятор",
+      "В бак попадает чистая вода",
+      "Пробивает высоковольтные провода"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_69",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какая дистанция принята в качестве официальной стандартной длины заезда для класса Top Fuel в ассоциации NHRA с 2008 года в целях безопасности?",
+    "options": ["1000 футов (304.8 метра)", "Классические 1/4 мили (402 метра)", "1/8 мили (201 метр)", "500 метров"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "transport_motorsport_racing_70",
+    "categoryId": "transport",
+    "subcategoryId": "motorsport_racing",
+    "difficulty": 2,
+    "question": "Какой абсолютный рекорд скорости на суше (1227.985 км/ч), преодолев скорость звука (Мах 1.016), установил Энди Грин на автомобиле Thrust SSC в 1997 году в пустыне Блэк-Рок?",
+    "options": ["1227.985 км/ч (763.035 миль/ч)", "1005.0 км/ч", "1450.2 км/ч", "950.5 км/ч"],
+    "correctIndex": 0,
+    "image": null
+  }
+]

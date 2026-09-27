@@ -1,0 +1,857 @@
+[
+  {
+    "id": "physics_chemistry_ege_physics_1",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Под каким углом к горизонту нужно бросить камень с поверхности земли в однородном поле тяжести (без учета сопротивления воздуха), чтобы дальность полета была максимальной?",
+    "options": ["45 градусов", "30 градусов", "60 градусов", "90 градусов"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_2",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Тело брошено горизонтально с высоты H со скоростью v0. Как изменится время падения тела на землю, если начальную скорость v0 увеличить в 3 раза?",
+    "options": [
+      "Не изменится (время падения зависит только от высоты: t = √(2H/g))",
+      "Увеличится в 3 раза",
+      "Уменьшится в 3 раза",
+      "Увеличится в √3 раз"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_3",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Свинцовый шарик падает в воде с установившейся постоянной скоростью v. Во сколько раз увеличится сила сопротивления воды, если шарик заменить на шарик вдвое большего радиуса (в вязком режиме Стокса F ~ r·v)?",
+    "options": [
+      "Увеличится в 8 раз (сила тяжести уравновешена силой Архимеда и Стокса, масса растет как r³)",
+      "Увеличится в 2 раза",
+      "Увеличится в 4 раза",
+      "Не изменится"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_4",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "В лифте, движущемся вертикально вверх с ускорением a = 2 м/с², на пружинных весах подвешен груз массой m = 5 кг (g = 10 м/с²). Каковы показания весов (вес тела P)?",
+    "options": ["60 Н (P = m·(g + a))", "50 Н", "40 Н", "10 Н"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_5",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равен вес тела в свободно падающем лифте (состояние невесомости при a = g)?",
+    "options": ["0 Н", "m·g", "2·m·g", "-m·g"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_6",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Через идеальный неподвижный блок перекинута невесомая нерастяжимая нить с грузами m1 = 1 кг и m2 = 3 кг на концах (машина Атвуда, g = 10 м/с²). Чему равно ускорение грузов?",
+    "options": ["5 м/с² (a = g·(m2 - m1)/(m1 + m2))", "2.5 м/с²", "7.5 м/с²", "10 м/с²"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_7",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "В машине Атвуда с грузами m1 = 1 кг и m2 = 3 кг, чему равна сила натяжения нити T при свободном движении (g = 10 м/с²)?",
+    "options": ["15 Н (T = 2·m1·m2·g / (m1 + m2))", "20 Н", "30 Н", "40 Н"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_8",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Пружину жесткостью k разрезали ровно пополам на две равные части. Чему равна жесткость каждой половинки?",
+    "options": ["2k (удвоилась)", "k / 2", "k (не изменилась)", "4k"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_9",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Две одинаковые пружины жесткостью k соединили последовательно. Чему равна эквивалентная жесткость составной пружины?",
+    "options": ["k / 2", "2k", "k", "k / 4"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_10",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Две одинаковые пружины жесткостью k соединили параллельно. Чему равна эквивалентная жесткость системы?",
+    "options": ["2k", "k / 2", "k", "4k"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_11",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Во сколько раз увеличится потенциальная энергия упруго деформированной пружины (E = k·x² / 2), если ее растяжение x увеличить в 3 раза?",
+    "options": ["В 9 раз", "В 3 раза", "В 6 раз", "В 27 раз"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_12",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Тело массой 2 кг движется со скоростью 4 м/с и сталкивается с неподвижным телом такой же массы 2 кг. Какова скорость тел после абсолютно неупругого соударения (слипания)?",
+    "options": ["2 м/с (по закону сохранения импульса)", "4 м/с", "1 м/с", "0 м/с"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_13",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какая часть начальной кинетической энергии перешла в тепло при абсолютно неупругом столкновении двух одинаковых тел одинаковой массы (одно из которых покоилось)?",
+    "options": ["Ровно половина (50%)", "25%", "75%", "100%"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_14",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Абсолютно упругий шарик сталкивается «в лоб» с неподвижным шариком в точности такой же массы. Что произойдет со скоростями шариков после удара?",
+    "options": [
+      "Шарики обменяются скоростями: налетавший шарик полностью остановится, а покоившийся придет в движение с начальной скоростью первого",
+      "Оба шарика отскочат назад с половинной скоростью",
+      "Оба продолжат движение вперед с равными скоростями",
+      "Налетавший шарик отскочит назад с той же скоростью"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_15",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "В цилиндрический сосуд с водой опущен кусок льда с вмороженным внутрь пузырьком воздуха. Что произойдет с уровнем воды в сосуде после полного таяния льда?",
+    "options": [
+      "Уровень воды не изменится (масса вытесненной воды равна массе растаявшего льда)",
+      "Уровень повысится",
+      "Уровень понизится",
+      "Сначала понизится, затем повысится"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_16",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "В плавающем куске льда вморожен свинцовый шарик (плотность свинца намного больше плотности воды). Что произойдет с уровнем воды в сосуде после полного таяния льда?",
+    "options": [
+      "Уровень воды понизится (плавая во льду, свинец вытеснял объем воды по массе, а утонув на дне, вытесняет лишь собственный геометрический объем)",
+      "Уровень воды повысится",
+      "Уровень не изменится",
+      "Вода перельется через край"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_17",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "В плавающем куске льда вморожена пробка из коры дуба (плотность которой меньше плотности воды). Что произойдет с уровнем воды в стакане после таяния льда?",
+    "options": ["Уровень воды не изменится (пробка продолжает плавать)", "Уровень понизится", "Уровень повысится", "Зависит от атмосферного давления"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_18",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Поезд начинает разгоняться горизонтально вправо с ускорением a. В какую сторону отклонится воздушный шарик, наполненный гелием, привязанный ниткой к полу вагона?",
+    "options": [
+      "Вперед (вправо, по направлению ускорения поезда, из-за градиента давления воздуха в ускоренной системе)",
+      "Назад (влево, против ускорения, как обычный маятник)",
+      "Вниз к полу",
+      "Останется строго вертикальным"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_19",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равен период малых колебаний математического маятника длины L в поле тяжести g по формуле Гюйгенса?",
+    "options": ["T = 2·π·√(L / g)", "T = 2·π·√(g / L)", "T = 2·π·√(m / k)", "T = π·√(L / (2g))"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_20",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Как изменится период колебаний математического маятника, если его перенести с Земли на Луну (где ускорение свободного падения g_л ≈ g_з / 6)?",
+    "options": ["Увеличится в √6 раз (примерно в 2.45 раза)", "Уменьшится в 6 раз", "Увеличится в 6 раз", "Не изменится"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_21",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Как изменится период колебаний пружинного маятника массы m на пружине жесткостью k, если его перенести с Земли на Луну?",
+    "options": [
+      "Не изменится (T = 2·π·√(m / k) не зависит от ускорения свободного падения g)",
+      "Увеличится в √6 раз",
+      "Уменьшится в 6 раз",
+      "Станет равным бесконечности"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_22",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равна первая космическая скорость для Земли (скорость круговой орбиты у поверхности без учета атмосферы)?",
+    "options": ["v1 = √(G·M / R) ≈ 7.9 км/с", "11.2 км/с (вторая космическая)", "16.7 км/с (третья космическая)", "5.5 км/с"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_23",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Во сколько раз вторая космическая скорость (скорость убегания) больше первой космической скорости для любого сферического небесного тела?",
+    "options": ["В √2 раз (v2 = √2 · v1 ≈ 1.414)", "В 2 раза", "В √3 раз", "В 4 раза"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_24",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Искусственный спутник Земли перевели с низкой круговой орбиты на более высокую. Как изменились его скорость движения v и период обращения T?",
+    "options": [
+      "Скорость v уменьшилась, период T увеличился",
+      "Скорость v увеличилась, период T увеличился",
+      "Скорость v уменьшилась, период T уменьшился",
+      "Обе величины остались неизменными"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_25",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Как формулируется третий закон Кеплера для планет, обращающихся вокруг Солнца?",
+    "options": [
+      "Квадраты периодов обращения планет относятся как кубы больших полуосей их орбит: T1² / T2² = a1³ / a2³",
+      "Радиус-вектор планеты за равные промежутки времени заметает равные площади",
+      "Все планеты движутся по строгим окружностям",
+      "Скорость планеты постоянна в любой точке орбиты"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_26",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равно эквивалентное сопротивление электрической цепи из 12 одинаковых резисторов сопротивлением R каждый, соединенных в форме ребер куба, между пространственно противоположными вершинами (главная диагональ)?",
+    "options": ["(5/6) · R", "(3/4) · R", "(7/12) · R", "R"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_27",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равно сопротивление того же куба из резисторов R между двумя соседними вершинами одного ребра?",
+    "options": ["(7/12) · R", "(5/6) · R", "(3/4) · R", "R / 2"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_28",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Каково условие равновесия моста Уитстона (когда ток через диагональный гальванометр равен нулю)?",
+    "options": ["Произведения сопротивлений противоположных плеч равны: R1 · R4 = R2 · R3", "R1 + R4 = R2 + R3", "R1 / R4 = R2 / R3", "R1 · R2 = R3 · R4"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_29",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "При каком внешнем сопротивлении нагрузки R мощность, выделяемая во внешней цепи источника с ЭДС E и внутренним сопротивлением r, достигает абсолютного максимума (теорема о согласовании)?",
+    "options": ["R = r (сопротивление нагрузки равно внутреннему сопротивлению)", "R = 0 (короткое замыкание)", "R → ∞ (холостой ход)", "R = 2r"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_30",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равен максимальный КПД источника тока в режиме максимальной полезной мощности в нагрузке (при R = r)?",
+    "options": ["50%", "100%", "75%", "25%"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_31",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равна емкость плоского конденсатора с площадью пластин S, расстоянием между ними d и диэлектрической проницаемостью среды ε?",
+    "options": ["C = ε · ε0 · S / d", "C = ε · ε0 · d / S", "C = S · d / (ε · ε0)", "C = 2 · π · ε · ε0 · S / d"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_32",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Плоский воздушный конденсатор зарядили до напряжения U и отключили от источника питания. Во сколько раз изменится энергия электрического поля конденсатора (W = q² / (2C)), если расстояние между пластинами d увеличить в 2 раза?",
+    "options": [
+      "Увеличится в 2 раза (емкость упадет в 2 раза при постоянном заряде q)",
+      "Уменьшится в 2 раза",
+      "Увеличится в 4 раза",
+      "Не изменится"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_33",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Тот же плоский конденсатор оставили подключенным к источнику с постоянным напряжением U. Во сколько раз изменится энергия поля, если расстояние d увеличить в 2 раза?",
+    "options": [
+      "Уменьшится в 2 раза (W = C·U² / 2, емкость уменьшилась вдвое)",
+      "Увеличится в 2 раза",
+      "Уменьшится в 4 раза",
+      "Не изменится"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_34",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равна собственная циклическая частота свободных колебаний в идеальном LC-контуре без активного сопротивления по формуле Томсона?",
+    "options": ["ω0 = 1 / √(L · C)", "ω0 = √(L · C)", "ω0 = 2·π / √(L · C)", "ω0 = L / C"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_35",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "В LC-колебательном контуре в момент времени, когда энергия электрического поля конденсатора равна энергии магнитного поля катушки, какую долю от амплитудного значения составляет заряд конденсатора?",
+    "options": ["q = q_max / √2 ≈ 0.707 · q_max", "q = q_max / 2", "q = q_max / 4", "q = q_max"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_36",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Как формулируется закон электромагнитной индукции Фарадея для ЭДС индукции в замкнутом контуре?",
+    "options": [
+      "Ei = -dΦ/dt (ЭДС индукции равна скорости изменения магнитного потока через контур со знаком минус по правилу Ленца)",
+      "Ei = B · I · L",
+      "Ei = q · v · B",
+      "Ei = L · I² / 2"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_37",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какую форму траектории имеет заряженная частица, влетающая со скоростью v в однородное магнитное поле B под углом α (0 < α < 90°) к вектору магнитной индукции?",
+    "options": [
+      "Винтовая линия (спираль)",
+      "Окружность",
+      "Прямая линия",
+      "Парабола"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_38",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равна сила Лоренца, действующая на заряженную частицу заряда q, движущуюся со скоростью v параллельно линиям магнитной индукции B (угол α = 0°)?",
+    "options": ["0 Н (Fл = |q|·v·B·sin 0° = 0)", "|q|·v·B", "q·v·B / 2", "q·E"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_39",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Совершает ли сила Лоренца работу над заряженной частицей, движущейся в постоянном магнитном поле?",
+    "options": [
+      "Нет, работа силы Лоренца всегда тождественно равна нулю, так как вектор силы перпендикулярен вектору скорости (F ⊥ v)",
+      "Да, всегда положительную",
+      "Да, всегда отрицательную",
+      "Совершает работу только при релятивистских скоростях"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_40",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какую оптическую силу (D) имеет собирающая линза с фокусным расстоянием F = 25 см?",
+    "options": ["+4 дптр (D = 1 / 0.25 м)", "+2.5 дптр", "+0.25 дптр", "+40 дптр"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_41",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Где нужно расположить предмет перед тонкой собирающей линзой, чтобы получить действительное изображение, равное по размеру самому предмету (линейное увеличение Г = 1)?",
+    "options": [
+      "В двойном фокусе линзы (d = 2F)",
+      "В главном фокусе (d = F)",
+      "Между фокусом и двойным фокусом",
+      "На бесконечности"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_42",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Что представляет собой угол полного внутреннего отражения (предельный угол α_пр) при переходе света из оптически более плотной среды (n1) в менее плотную (n2)?",
+    "options": ["sin α_пр = n2 / n1", "cos α_пр = n2 / n1", "tg α_пр = n1 / n2", "sin α_пр = n1 · n2"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_43",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равен угол Брюстера (α_Б) при падении естественного света на плоскую границу диэлектрика, при котором отраженный луч становится полностью плоскополяризованным?",
+    "options": ["tg α_Б = n2 / n1", "sin α_Б = n2 / n1", "cos α_Б = n1 / n2", "tg α_Б = n1 · n2"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_44",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Каков угол между отраженным и преломленным лучами при падении света под углом Брюстера?",
+    "options": ["Строго 90 градусов (взаимно перпендикулярны)", "45 градусов", "180 градусов", "0 градусов"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_45",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Как формулируется уравнение Эйнштейна для внешнего фотоэффекта, за объяснение которого он получил Нобелевскую премию по физике 1921 года?",
+    "options": ["h·ν = A_вых + (m·v_max² / 2)", "E = m·c²", "h·ν = A_вых - E_к", "p = h / λ"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_46",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Что такое «красная граница фотоэффекта» (ν0)?",
+    "options": [
+      "Минимальная частота падающего света (или максимальная длина волны λ0), при которой еще возможен вылет фотоэлектронов: h·ν0 = A_вых",
+      "Цвет излучения лазера",
+      "Частота, при которой фототок максимален",
+      "Граница видимого красного диапазона спектра"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_47",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Как изменится максимальная кинетическая энергия фотоэлектронов при увеличении интенсивности светового потока в 2 раза при неизменной частоте света?",
+    "options": [
+      "Не изменится (энергия фотоэлектронов зависит только от частоты фотонов h·ν, а интенсивность увеличивает лишь число выбитых электронов — фототок насыщения)",
+      "Увеличится в 2 раза",
+      "Увеличится в 4 раза",
+      "Уменьшится в 2 раза"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_48",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Что представляет собой задерживающее напряжение (U_зад) в опытах по исследованию фотоэффекта?",
+    "options": [
+      "Обратное напряжение, полностью тормозящее самые быстрые электроны: e · U_зад = m · v_max² / 2",
+      "Напряжение зажигания разряда",
+      "Напряжение на нити накала лампы",
+      "Падение напряжения на подводящих проводах"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_49",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какую формулу де Бройля для длины волны квантовой волны вероятности частицы с импульсом p связывают с гипотезой корпускулярно-волнового дуализма?",
+    "options": ["λ = h / p = h / (m · v)", "λ = p / h", "λ = h · c / E", "λ = m · c / h"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_50",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какой процент радиоактивных ядер остается нераспавшимся по закону радиоактивного распада по прошествии времени t = 3·T_1/2 (трех периодов полураспада)?",
+    "options": ["12.5% (N = N0 · 2^(-3) = N0 / 8)", "25%", "33.3%", "6.25%"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_51",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Что представляет собой альфа-частица (α-частица), испускаемая при альфа-распаде тяжелых ядер?",
+    "options": [
+      "Ядро атома гелия-4 (состоящее из 2 протонов и 2 нейтронов, заряд +2e)",
+      "Свободный быстрый нейтрон",
+      "Электрон высокой энергии",
+      "Высокоэнергетический квант гамма-излучения"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_52",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Как изменяется массовое число A и зарядовое число Z материнского ядра при бета-минус (β⁻) распаде?",
+    "options": [
+      "Массовое число A не меняется, а зарядовое число Z увеличивается на 1 (нейтрон превращается в протон, электрон и электронное антинейтрино)",
+      "A уменьшается на 4, Z уменьшается на 2",
+      "A увеличивается на 1, Z не меняется",
+      "A уменьшается на 1, Z уменьшается на 1"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_53",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какую частицу предсказал Вольфганг Паули в 1930 году, чтобы спасти закон сохранения энергии и импульса при непрерывном спектре бета-распада?",
+    "options": ["Нейтрино", "Позитрон", "Мюон", "Кварк"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_54",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Что такое дефект массы ядра (Δm) и почему масса любого стабильного ядра всегда меньше суммы масс составляющих его свободных протонов и нейтронов?",
+    "options": [
+      "Разность масс эквивалентна энергии связи нуклонов в ядре: E_св = Δm · c²",
+      "Часть массы уносится нейтрино при взрыве",
+      "Протоны сжимаются гравитацией внутри ядра",
+      "Это погрешность масс-спектрометров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_55",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Ядро какого изотопа обладает максимальной удельной энергией связи на один нуклон (около 8.8 МэВ/нуклон), являясь самым энергетически стабильным ядром во Вселенной?",
+    "options": ["Никель-62 (и Железо-56)", "Уран-235", "Гелий-4", "Водород-1"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_56",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какая ядерная реакция является основным источником колоссальной энергии в недрах Солнца на современной стадии его эволюции?",
+    "options": [
+      "Термоядерный протон-протонный цикл (p-p цепочка) слияния ядер водорода в гелий-4",
+      "Деление ядер урана-238",
+      "Углеродно-азотный CNO-цикл",
+      "Гравитационный коллапс без термоядерных реакций"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_57",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какая средняя энергия (около 200 МэВ) выделяется при каждом единичном акте деления ядра урана-235 тепловым нейтроном?",
+    "options": ["Около 200 МэВ", "Около 13.6 эВ", "2 МэВ", "1 ГэВ"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_58",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какое вещество используется в качестве замедлителя быстрых нейтронов до тепловых скоростей в реакторах типа ВВЭР (водо-водяной энергетический реактор)?",
+    "options": [
+      "Обычная легкая вода высокой чистоты под давлением",
+      "Тяжелая вода (D2O)",
+      "Реакторный графит",
+      "Жидкий металлический натрий"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_59",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какое вещество с гигантским сечением захвата тепловых нейтронов используют в регулирующих стержнях СУЗ ядерных реакторов?",
+    "options": ["Карбид бора (B4C) или кадмий (Cd)", "Свинец", "Медь", "Алюминий"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_60",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Что представляет собой дифракция света на дифракционной решетке с периодом d при падении монохроматического света с длиной волны λ?",
+    "options": [
+      "Условие главных максимумов: d · sin φ = k · λ (где k = 0, ±1, ±2... — порядок дифракционного спектра)",
+      "d · cos φ = k · λ",
+      "sin φ = k · d / λ",
+      "d · tg φ = λ"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_61",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какой цвет в дифракционном спектре решетки отклоняется на наибольший угол от центрального белого максимума?",
+    "options": [
+      "Красный цвет (так как длина волны красного света максимальна: λ_кр ≈ 760 нм)",
+      "Фиолетовый цвет (λ_фиол ≈ 400 нм)",
+      "Зеленый цвет",
+      "Все цвета отклоняются одинаково"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_62",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Какой цвет сильнее всего отклоняется (преломляется) к основанию треугольной стеклянной призмы при обычной дисперсии света?",
+    "options": [
+      "Фиолетовый цвет (показатель преломления n стекла растет с уменьшением длины волны — нормальная дисперсия)",
+      "Красный цвет",
+      "Желтый цвет",
+      "Зеленый цвет"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_63",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Что представляет собой опыт Юнга (двухщелевой эксперимент) по интерференции света 1801 года?",
+    "options": [
+      "Свет от точечного источника проходит сквозь две близко расположенные параллельные щели, создавая на удаленном экране чередующиеся светлые и темные интерференционные полосы",
+      "Разложение света в спектр стеклянной призмой",
+      "Определение скорости света вращающимся колесом с зубьями",
+      "Поляризация света кристаллами турмалина"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_64",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равна разность хода двух когерентных световых волн (Δ) в точке, где наблюдается интерференционный минимум (темная полоса)?",
+    "options": [
+      "Нечетному числу полуволн: Δ = (2k + 1) · (λ / 2)",
+      "Целому числу длин волн: Δ = k · λ",
+      "Δ = 0",
+      "Δ = k · λ / 4"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_65",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Что такое кольца Ньютона в интерференции света?",
+    "options": [
+      "Кольцевые интерференционные полосы равной толщины, возникающие в воздушном зазоре между плоской стеклянной пластиной и положенной на нее плосковыпуклой линзой",
+      "Кольца дифракции вокруг круглого отверстия",
+      "Поляризационные кольца в кристалле исландского шпата",
+      "Оптический эффект вокруг гало Луны"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_66",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Почему центральное пятно в картине колец Ньютона при отражении света является темным, а не светлым?",
+    "options": [
+      "При отражении световой волны от оптически более плотной нижней пластины происходит скачкообразная потеря полуволны (сдвиг фазы на π)",
+      "Линза в центре касается пластины и поглощает свет",
+      "Из-за пыли в точке касания",
+      "Потому что в центре интерференция не происходит"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_67",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "На каком явлении основано просветление оптики (нанесение тончайших прозрачных пленок фторида магния MgF2 на линзы фотоаппаратов и микроскопов)?",
+    "options": [
+      "Интерференция света в тонких пленках: волны, отраженные от внешней и внутренней поверхностей пленки толщиной d = λ / (4n), гасят друг друга в противофазе",
+      "Поглощение света в синем диапазоне",
+      "Поляризация света при отражении",
+      "Дифракция на наноструктурах пленки"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_68",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Что представляет собой релятивистское замедление времени специальной теории относительности Эйнштейна (СТО) для движущихся часов со скоростью v?",
+    "options": ["Δt = Δt0 / √(1 - v² / c²)", "Δt = Δt0 · √(1 - v² / c²)", "Δt = Δt0 / (1 - v/c)", "Δt = Δt0"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_69",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Что происходит с продольным размером тела (лоренцево сокращение длины) вдоль направления его движения со скоростью v относительно неподвижного наблюдателя?",
+    "options": ["Длина сокращается: L = L0 · √(1 - v² / c²)", "Длина увеличивается: L = L0 / √(1 - v² / c²)", "Длина не меняется", "Длина уменьшается по всем трем осям одинаково"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_ege_physics_70",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "ege_physics",
+    "difficulty": 2,
+    "question": "Чему равна релятивистская связь между полной энергией E, импульсом p и массой покоя m0 частицы в СТО?",
+    "options": ["E² = (p · c)² + (m0 · c²)²", "E = p · c", "E = m0 · c² + p² / (2m0)", "E² = (p · c)² - (m0 · c²)²"],
+    "correctIndex": 0,
+    "image": null
+  }
+]

@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "cinema_arts_franchises_cult_movies_1",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Властелин колец: Две крепости» Арагорн в отчаянии пинает тяжелый стальной шлем урук-хая и истошно кричит. Что послужило реальной причиной столь натурального крика Вигго Мортенсена?",
+    "options": [
+      "Актер сломал два пальца на ноге при ударе о шлем",
+      "В этот момент позади камеры загорелся генератор спецэффектов",
+      "Режиссер Питер Джексон неожиданно выстрелил холостым зарядом для испуга",
+      "Шлем оказался раскален на солнце до ожога кожи"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_2",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В культовой трилогии «Матрица» зеленый цифровой код («цифровой дождь»), стекающий по экранам операторов, стал визитной карточкой стиля. Из чего художник-постановщик Саймон Уайтли на самом деле составил эти символы?",
+    "options": [
+      "Из перевернутых японских символов катаканы из кулинарной книги суши его жены",
+      "Из зашифрованного исходного кода операционной системы Linux 1.0",
+      "Из реальных двоичных дампов памяти первого процессора Intel 8086",
+      "Из древних шумерских клинописных табличек"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_3",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "Какую скорость должен был развить спорткар DeLorean DMC-12 в трилогии «Назад в будущее», чтобы потоковый накопитель активировался и переместил автомобиль во времени?",
+    "options": [
+      "88 миль в час (около 141,6 км/ч)",
+      "100 миль в час",
+      "75 миль в час",
+      "120 миль в час"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_4",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Какая электрическая мощность требовалась потоковому накопителю времени (flux capacitor) для прыжка во времени в фильме «Назад в будущее»?",
+    "options": [
+      "1,21 гигаватта",
+      "2,5 мегаватта",
+      "500 киловатт",
+      "10 гигаватт"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_5",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "В культовом фильме «Звездные войны: Эпизод V — Империя наносит ответный удар» какая фраза Дарта Вейдера в финальной дуэли на световых мечах с Люком Скайуокером стала одним из самых цитируемых твистов в истории кино?",
+    "options": [
+      "«Нет, я твой отец!» (часто ошибочно цитируется как «Люк, я твой отец»)",
+      "«Оби-Ван никогда не говорил тебе правду!»",
+      "«Присоединяйся ко мне, и мы будем править галактикой как отец и сын!»",
+      "«Сила велика в тебе, юный Скайуокер»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_6",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме Кристофера Нолана «Темный рыцарь» (2008) Джокер в исполнении Хита Леджера демонстрирует мафиози жуткий фокус со словами «Я заставлю этот карандаш исчезнуть». Как именно исчез карандаш?",
+    "options": [
+      "Джокер резко ударил охранника головой о стол, вогнав вертикально стоящий карандаш ему в глазницу",
+      "Он поджег карандаш взрывчатой смесью магния",
+      "Он незаметно спрятал карандаш в длинном рукаве фиолетового пиджака",
+      "Джокер сломал карандаш пальцами и бросил обломки в стакан с виски"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_7",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фантастическом боевике «Терминатор 2: Судный день» жидкометаллический робот T-1000 состоит из уникального «миметического полисплава». Какое вещество использовали создатели фильма на практике для демонстрации растекающегося жидкого металла на макросъемках?",
+    "options": [
+      "Настоящую ртуть в сочетании с жидким мылом и компьютерной графикой",
+      "Расплавленный свинец",
+      "Разогретый галлий, плавящийся в руках",
+      "Окрашенное серебряной пудрой силиконовое масло"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_8",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "В саге о Гарри Поттере три легендарных магических артефакта составляют «Дары Смерти». Какие три предмета входят в эту триаду?",
+    "options": [
+      "Бузинная палочка, Воскрешающий камень и Мантия-невидимка",
+      "Меч Гриффиндора, Диадема Когтевран и Чаша Пуффендуя",
+      "Философский камень, Зеркало Еиналеж и Маховик времени",
+      "Карта Мародеров, Молния и Распределяющая шляпа"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_9",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Какой формы Патронус вызывал профессор Северус Снейп в знак своей вечной и неизменной любви к Лили Поттер («После стольких лет? — Всегда»)?",
+    "options": [
+      "Серебряная лань",
+      "Черный ворон",
+      "Снежный барс",
+      "Волк-одиночка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_10",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "Куда указывает стрелка магического компаса Капитана Джека Воробья в серии фильмов «Пираты Карибского моря»?",
+    "options": [
+      "На то, чего держащий его человек искренне желает больше всего на свете",
+      "Строго на Северный магнитный полюс",
+      "На ближайший спрятанный клад золотых монет",
+      "На флагманский корабль врага"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_11",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Бойцовский клуб» Дэвида Финчера Тайлер Дерден варил высококлассное мыло ручной работы. Из какого необычного сырья он добывал идеальный жир для производства дорогого мыла?",
+    "options": [
+      "Из отходов клиник липосакции для богатых клиентов",
+      "Из китового жира со складов заброшенного порта",
+      "Из сала ресторанных элитных стейков вагю",
+      "Из пальмового масла высшей очистки"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_12",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "Каково первое и главное правило Бойцовского клуба согласно своду законов Тайлера Дердена?",
+    "options": [
+      "Никому не рассказывать о Бойцовском клубе",
+      "Бой продолжается столько, сколько нужно",
+      "Один на один",
+      "Если противник кричит «стоп» или теряет сознание, бой окончен"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_13",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В культовом фильме Квентина Тарантино «Криминальное чтиво» Винсент Вега и Джулс Виннфилд забирают таинственный светящийся чемоданчик криминального босса Марселласа Уоллеса. Какой код замка открывает этот кейс?",
+    "options": [
+      "666",
+      "777",
+      "007",
+      "123"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_14",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "Как во Франции называют знаменитый гамбургер «Quarter Pounder» («Четвертьфунтовый с сыром») из-за действия метрической системы согласно диалогу Винсента и Джулса в «Криминальном чтиве»?",
+    "options": [
+      "«Роял с сыром» (Royale with Cheese)",
+      "«Биг Мак по-парижски»",
+      "«Гранд Бургер»",
+      "«Французский бутерброд»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_15",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Безумный Макс: Дорога ярости» (2015) воины Полураспада (War Boys) перед тем как пойти на таран и взорвать себя во имя Несмертного Джо, красят губы и зубы серебряным спреем и выкрикивают фразу:",
+    "options": [
+      "«Засвидетельствуй меня!» (Witness me!)",
+      "«В Вальгаллу!»",
+      "«Я живу, я умираю, я воскресаю вновь!»",
+      "«Во имя бензина и мотора!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_16",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "На каком культовом постапокалиптическом масл-каре рассекает сам Макс Рокатански во франшизе Джорджа Миллера?",
+    "options": [
+      "Ford Falcon XB GT Coupe 1973 года («Pursuit Special / Interceptor V8»)",
+      "Dodge Charger 1969 года",
+      "Chevrolet Camaro SS 1968 года",
+      "Pontiac GTO Judge 1970 года"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_17",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "В фильме «Джон Уик» (2014) что послужило спусковым крючком для возвращения легендарного киллера по кличке «Баба Яга» в кровавый криминальный мир?",
+    "options": [
+      "Убийство щенка бигля Дейзи, подаренного недавно умершей женой, и угон его Ford Mustang 1969",
+      "Кража золотых монет из тайника под бетонным полом",
+      "Покушение на консьержа отеля «Континенталь»",
+      "Угроза со стороны его бывшего наставника"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_18",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Какое главное священное правило действует на территории всемирной сети отелей «Континенталь» для наемных убийц под управлением Уинстона?",
+    "options": [
+      "Никакого «ведения бизнеса» (убийств) на территории отеля под страхом отлучения и смерти",
+      "Расчет только золотыми слитками",
+      "Запрещено носить бронежилеты в ресторане",
+      "Каждый постоялец обязан сдать всё оружие в оружейную камеру"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_19",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Чужой» (1979) Ридли Скотта кровь идеального космического хищника — ксеноморфа — обладает необычайным смертоносным свойством. Каким именно?",
+    "options": [
+      "Это сверхмощная молекулярная кислота, мгновенно разъедающая титановую броню и переборки корабля",
+      "Она мгновенно воспламеняется при контакте с кислородом",
+      "Она испаряется в смертельный нервно-паралитический газ",
+      "Она за секунды замораживает всё вокруг до абсолютного нуля"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_20",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Как звали рыжего кота, которого героиня Сигурни Уивер (Эллен Рипли) спасает с обреченного космического буксира «Ностромо» в фильме «Чужой»?",
+    "options": [
+      "Джонси",
+      "Гарфилд",
+      "Бишоп",
+      "Люцифер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_21",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В культовом триллере «Парк Юрского периода» (1993) Стивена Спилберга как ученые корпорации InGen получили исходный генетический материал динозавров?",
+    "options": [
+      "Извлекли кровь из брюшка доисторических комаров, застывших в ископаемом янтаре",
+      "Нашли замороженные кости в вечной мерзлоте Антарктиды",
+      "Синтезировали с нуля на суперкомпьютере Cray",
+      "Мутировали ДНК современных комодских варанов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_22",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "ДНК какого современного живого организма ученые использовали для заполнения пробелов в геноме динозавров в «Парке Юрского периода», что привело к их спонтанной смене пола и бесконтрольному размножению?",
+    "options": [
+      "Лягушек (земноводных)",
+      "Хамелеонов",
+      "Крокодилов",
+      "Страусов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_23",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Хищник» (1987) с Арнольдом Шварценеггером каким способом майор Датч случайно сумел полностью скрыть тепловой силуэт своего тела от инфракрасного визора пришельца?",
+    "options": [
+      "Полностью обмазался толстым слоем холодной речной глины и грязи",
+      "Спрятался внутри ледяного горного водопада",
+      "Обернулся термозащитной фольгой из армейского пайка",
+      "Зажег стену огня из джунглей позади себя"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_24",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "Какую знаменитую фразу говорит майор Датч (Арнольд Шварценеггер), когда впервые видит Хищника без биомаски?",
+    "options": [
+      "«Ну и урод же ты!» (You're one ugly motherfucker!)",
+      "«Hasta la vista, baby!»",
+      "«Если у него идет кровь, значит, его можно убить»",
+      "«Бегите к вертолету!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_25",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В кинематографической вселенной Marvel (MCU) из какого вымышленного африканского суперметалла выкован несокрушимый щит Капитана Америки и бронекостюм Черной Пантеры?",
+    "options": [
+      "Вибраниум",
+      "Адамантий",
+      "Уру",
+      "Бескар"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_26",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Из какого редчайшего божественного металла гномы Нидавеллира выковали молот Тора Мьёльнир и боевую секиру Громсекиру (Stormbreaker)?",
+    "options": [
+      "Металл Уру",
+      "Прометиум",
+      "Криптонит",
+      "Орихалк"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_27",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "Сколько Камней Бесконечности должен был собрать титан Танос в свою золотую перчатку, чтобы осуществить знаменитый щелчок в фильме «Мстители: Война бесконечности»?",
+    "options": [
+      "6 камней (Космос, Разум, Реальность, Сила, Время, Душа)",
+      "5 камней",
+      "7 камней",
+      "9 камней"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_28",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В блокбастере «Железный человек» (2008) какой металл использовал Тони Старк в качестве топливного сердечника миниатюрного дугового реактора первой версии, что постепенно приводило к токсичному отравлению его крови?",
+    "options": [
+      "Палладий",
+      "Платина",
+      "Обогащенный уран",
+      "Иридий"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_29",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В серии фильмов «Звездные войны» из какого редкого кристаллического минерала создается фокусирующий сердечник настоящего светового меча джедая или ситха?",
+    "options": [
+      "Кайбер-кристалл (Kyber crystal)",
+      "Бескар",
+      "Кортозис",
+      "Тритий"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_30",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "Какой секретный шифрованный приказ отдал канцлер Палпатин командирам армии клонов в фильме «Звездные войны: Эпизод III — Месть ситхов», запустив массовое истребление джедаев по всей галактике?",
+    "options": [
+      "Приказ 66",
+      "Приказ 99",
+      "Протокол Альфа",
+      "Директива 77"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_31",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В космической саге «Мандалорец» из какого легендарного неразрушимого металла, отражающего даже прямые удары световых мечей, выкованы доспехи Дина Джарина?",
+    "options": [
+      "Бескар (мандалорское железо)",
+      "Титан-99",
+      "Карбонит",
+      "Дюрастил"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_32",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В боевике «Крепкий орешек» (1988) офицер полиции Джон Макклейн ведет войну против банды террористов Ганса Грубера в захваченном 40-этажном лос-анджелесском небоскребе под названием:",
+    "options": [
+      "Nakatomi Plaza",
+      "Empire State Tower",
+      "Century City Plaza",
+      "OmniCorp Center"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_33",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "Какую коронную фразу произносит Брюс Уиллис (Джон Макклейн) по рации немецкому террористу Гансу Груберу в «Крепком орешке»?",
+    "options": [
+      "«Yippee-ki-yay, motherfucker!»",
+      "«Say hello to my little friend!»",
+      "«I'll be back!»",
+      "«Welcome to the party, pal!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_34",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В шедевре Фрэнсиса Форда Копполы «Крестный отец» (1972) кинопродюсер Джек Вольц отказывается дать роль крестнику Дона Корлеоне. Что он обнаруживает утром в своей роскошной постели под шелковой простыней?",
+    "options": [
+      "Отрезанную голову своего любимого призового чистокровного скакуна Хартума",
+      "Ядовитую змею мамбу",
+      "Черную метку с отпечатком ладони в крови",
+      "Труп своего главного телохранителя"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_35",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Какую знаменитую фразу произносит Дон Вито Корлеоне, объясняя Майклу, как семья решает вопросы с несговорчивыми оппонентами?",
+    "options": [
+      "«Я сделаю ему предложение, от которого он не сможет отказаться»",
+      "«Никогда не сердись, никогда не угрожай, рассуждай здраво»",
+      "«Месть — это блюдо, которое лучше подавать холодным»",
+      "«Ничего личного, это просто бизнес»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_36",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Индиана Джонс: В поисках утраченного ковчега» (1981) какой панический страх и фобия мучают отважного археолога Генри Джонса-младшего?",
+    "options": [
+      "Герпетофобия (паническая боязнь змей: «Змеи! Почему именно змеи?!»)",
+      "Боязнь высоты (акрофобия)",
+      "Клаустрофобия (боязнь тесных гробниц)",
+      "Арахнофобия (боязнь пауков)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_37",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "В знаменитой сцене в Каире к Индиане Джонсу подходит арабский мечник и эффектно крутит тяжелую саблю. Почему Индиана просто достал револьвер и застрелил его вместо запланированного сложного фехтовального боя на хлыстах?",
+    "options": [
+      "Харрисон Форд накануне подхватил тяжелую дизентерию и физически не мог репетировать многочасовую дуэль",
+      "Каскадер сломал саблю во время первого дубля",
+      "Закончилось съемочное время аренды городской площади",
+      "Это была заранее прописанная шутка Джорджа Лукаса"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_38",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "В медиафраншизе «Форсаж» (Fast & Furious) Доминик Торетто водит тяжелый черный американский масл-кар своего отца. Какая это машина?",
+    "options": [
+      "Dodge Charger R/T 1970 года с массивным нагнетателем BDS",
+      "Ford Mustang Shelby GT500 1967 года",
+      "Chevrolet Chevelle SS 1970 года",
+      "Plymouth Barracuda 1971 года"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_39",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Какую систему подачи газа стритрейсеры используют в гонках на четверть мили в «Форсаже» для взрывного кратковременного прироста мощности двигателя?",
+    "options": [
+      "Закись азота (N2O / баллоны NOS)",
+      "Жидкий пропан",
+      "Сжатый чистый кислород",
+      "Метаноловый впрыск"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_40",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В культовой криминальной драме Брайана Де Пальмы «Лицо со шрамом» (1983) Тони Монтана в финальной перестрелке кричит нападающим: «Say hello to my little friend!». Какое оружие было его «маленьким другом»?",
+    "options": [
+      "Штурмовая винтовка M16A1 с подствольным 40-мм гранатометом M203",
+      "Пистолет-пулемет Uzi",
+      "Двуствольный обрез 12 калибра",
+      "Ручной пулемет Калашникова"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_41",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В трилогии Кристофера Нолана «Темный рыцарь» как называется сверхбронированный военный прототип машины-мостоукладчика, ставший Бэтмобилем Брюса Уэйна?",
+    "options": [
+      "Тамблер (The Tumbler)",
+      "Бэтвинг",
+      "Джаггернаут",
+      "Мародер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_42",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Темный рыцарь» окружной прокурор Харви Дент («Двуликий») принимает все решения подбрасыванием монеты. Что представляла собой эта монета до взрыва на складе?",
+    "options": [
+      "Шулерская серебряная монета «Peace dollar» 1922 года с двумя одинаковыми сторонами «орел»",
+      "Обычный американский четвертак 1964 года",
+      "Золотой дублон времен Гражданской войны",
+      "Медальон выпускника юридического факультета"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_43",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 3,
+    "question": "В шедевре Стэнли Кубрика «Космическая одиссея 2001 года» (1968) бортовой суперкомпьютер космического корабля «Дискавери» зовут HAL 9000. Какая популярная версия связывает его имя с реальным компьютерным гигантом?",
+    "options": [
+      "Каждая буква H-A-L сдвинута ровно на одну позицию назад в алфавите относительно букв I-B-M",
+      "Это имя первого процессора компании Hewlett-Packard",
+      "HAL означает «Hardware Advanced Logic» по патенту Bell Labs",
+      "Аббревиатура составлена из инициалов жены Кубрика"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_44",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "Какую колыбельную песню поет бортовой компьютер HAL 9000, пока астронавт Дейв Боумен методично отключает блоки его высшей памяти?",
+    "options": [
+      "«Daisy Bell» («Daisy, Daisy, give me your answer do...»)",
+      "«Twinkle, Twinkle, Little Star»",
+      "«Fly Me to the Moon»",
+      "«Blue Danube»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_45",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В культовой трилогии «Властелин колец» какой драгоценный эльфийский металл, «легкий как пух и прочный как драконья чешуя», спас Фродо Бэггинсу жизнь при ударе копья пещерного тролля в копях Мории?",
+    "options": [
+      "Мифрил (Mithril)",
+      "Итильдин",
+      "Адамант",
+      "Галадриум"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_46",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "На каком горном вулканическом пике в самом сердце Мордора было выковано Единое Кольцо Всевластья и где только и можно было его уничтожить?",
+    "options": [
+      "Роковая гора (Ородруин)",
+      "Карадрас",
+      "Эребор (Одинокая гора)",
+      "Миндоллуин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_47",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Большой Лебовски» (1998) братьев Коэн главный герой Джеффри «Чувак» Лебовски одержим возвращением своего испорченного ковра. Почему этот ковер был так дорог Чуваку?",
+    "options": [
+      "«Он задавал тон всей комнате!» (It really tied the room together)",
+      "Он был соткан вручную персидскими монахами",
+      "Под ним был спрятан тайник с деньгами за выкуп",
+      "Это был подарок его покойной матери"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_48",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "Какой фирменный алкогольный коктейль из водки, кофейного ликера Kahlúa и сливок постоянно смешивает и пьет Чувак в «Большом Лебовски»?",
+    "options": [
+      "«Белый русский» (White Russian)",
+      "«Черный русский»",
+      "«Олд фешен»",
+      "«Кровавая Мэри»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_49",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В шпионской франшизе об агенте 007 Джеймсе Бонде как звучит легендарная инструкция по приготовлению его любимого коктейля Vodka Martini?",
+    "options": [
+      "«Взболтать, но не смешивать» (Shaken, not stirred)",
+      "«Смешать, но не взбалтывать»",
+      "«Со льдом и тремя оливками»",
+      "«Чистый спирт и капля вермута»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_50",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Какой британский автомобильный бренд неразрывно ассоциируется с Джеймсом Бондом еще со времен фильма «Голдфингер» (1964) с Шоном Коннери?",
+    "options": [
+      "Aston Martin (модель DB5)",
+      "Jaguar (модель E-Type)",
+      "Bentley Continental",
+      "Rolls-Royce Phantom"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_51",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Бойцовский клуб» кем на самом деле оказывается харизматичный анархист и создатель проекта «Разгром» Тайлер Дерден?",
+    "options": [
+      "Альтер-эго и галлюцинацией безымянного Рассказчика, страдающего диссоциативным расстройством личности",
+      "Агентом ФБР под глубоким прикрытием",
+      "Братом-близнецом Марлы Сингер",
+      "Бывшим владельцем фабрики по производству мыла"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_52",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В финале «Бойцовского клуба» под какую песню рок-группы Pixies Рассказчик и Марла держатся за руки, глядя в окно на обрушение небоскребов кредитных корпораций?",
+    "options": [
+      "«Where Is My Mind?»",
+      "«Hey»",
+      "«Gigantic»",
+      "«Here Comes Your Man»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_53",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В трилогии «Назад в будущее» какое необычное транспортное средство Марти Макфлай позаимствовал у детей в 2015 году, чтобы спастись от банды Гриффа Таннена?",
+    "options": [
+      "Летающую доску без колес — ховерборд (Hoverboard)",
+      "Реактивный ранец",
+      "Гравитационные ролики",
+      "Электросамокат Segway"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_54",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Назад в будущее 2» какая книга, купленная Марти в будущем, попадает в руки молодого Биффа Таннена и превращает Хилл-Вэлли в криминальный кошмар?",
+    "options": [
+      "Спортивный альманах Грейс за 1950–2000 годы с результатами всех матчей",
+      "Энциклопедия биржевых котировок Wall Street",
+      "Каталог выигрышных номеров лотерей",
+      "История изобретения ядерного оружия"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_55",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В культовой кинодилогии «Убить Билла» Квентина Тарантино героиня Умы Турман (Черная Мамба / Невеста) отправляется на Окинаву к легендарному мастеру, чтобы выковать идеальный самурайский меч. Как звали мастера?",
+    "options": [
+      "Хаттори Ханзо",
+      "Пай Мэй",
+      "Мусаси Миямото",
+      "Кэндзи Сато"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_56",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Какому смертоносному приему кунг-фу обучил Невесту суровый мастер Пай Мэй, с помощью которого она в финале побеждает Билла?",
+    "options": [
+      "Техника пяти пальцев, разрывающая сердце",
+      "Удар затаившегося дракона",
+      "Парализующее прикосновение ци",
+      "Прыжок богомола"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_57",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В трилогии «Матрица» Нео выбирает между синей и красной таблетками, предложенными Морфеусом. Что давала красная таблетка?",
+    "options": [
+      "Пробуждение от иллюзии в реальном мире и познание шокирующей правды о Матрице",
+      "Забвение и возвращение в уютную иллюзию обыденной жизни",
+      "Мгновенное владение всеми видами боевых искусств",
+      "Бессмертие цифрового сознания"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_58",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Как назывался корабль на воздушной подушке капитана Морфеуса в трилогии «Матрица»?",
+    "options": [
+      "«Навуходоносор» (Nebuchadnezzar)",
+      "«Мьельнир» (Молот)",
+      "«Логос»",
+      "«Осирис»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_59",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "В франшизе о Гарри Поттере какая волшебная карта замка Хогвартс в реальном времени отображает точное местоположение каждого человека и тайные ходы?",
+    "options": [
+      "Карта Мародеров",
+      "Атлас основателей",
+      "План Дамблдора",
+      "Свиток Мерлина"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_60",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Какой фразой необходимо коснуться Карты Мародеров волшебной палочкой, чтобы скрыть ее содержимое и превратить карту в чистый кусок пергамента?",
+    "options": [
+      "«Шалость удалась» (Mischief managed)",
+      "«Торжественно клянусь, что замышляю шалость»",
+      "«Нокс»",
+      "«Обливиэйт»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_61",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Пираты Карибского моря: Проклятие Черной жемчужины» экипаж капитана Барбоссы был обречен на вечное проклятие нежити из-за кражи сокровищ древних:",
+    "options": [
+      "Ацтеков (золотые бляшки из сундука Эрнана Кортеса)",
+      "Майя",
+      "Империи Инков",
+      "Египетских фараонов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_62",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Терминатор» (1984) какую ключевую фразу Арнольд Шварценеггер говорит полицейскому в дежурной части перед тем, как въехать в участок на машине?",
+    "options": [
+      "«I'll be back» (Я вернусь)",
+      "«Hasta la vista, baby»",
+      "«Come with me if you want to live»",
+      "«Give me your clothes, your boots and your motorcycle»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_63",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В культовой франшизе о мутантах «Люди Икс» (X-Men) какой сверхплотный вымышленный металлический сплав был хирургически интегрирован в скелет Росомахи (Логана)?",
+    "options": [
+      "Адамантий",
+      "Вибраниум",
+      "Карбонадий",
+      "Прометий"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_64",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "В фильме «Властелин колец: Братство кольца» какую фразу выкрикивает Гэндальф Серый на мосту Казад-дума, сдерживая огненного демона Балрога?",
+    "options": [
+      "«Ты не пройдешь!» (You shall not pass!)",
+      "«Бегите, глупцы!»",
+      "«Тьма не одолеет свет!»",
+      "«Сложи свое оружие!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_65",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В космической саге «Звездные войны» как называется знаменитый модифицированный легкий кореллианский грузовик Хана Соло и Чубакки?",
+    "options": [
+      "«Тысячелетний сокол» (Millennium Falcon)",
+      "«Раб I» (Slave I)",
+      "«Опустошитель» (Devastator)",
+      "«Красная пятерка»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_66",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "Каким достижением пилот Хан Соло хвастается Люку Скайуокеру и Оби-Вану в кантине Мос-Эйсли, описывая непревзойденную скорость «Тысячелетнего сокола»?",
+    "options": [
+      "«Прошел Дугу Кесселя меньше чем за 12 парсеков»",
+      "«Преодолел скорость света в 3 раза»",
+      "«Обогнал звездный разрушитель на орбите Корусанта»",
+      "«Ушел от флагмана Вейдера без гипердвигателя»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_67",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В культовом фильме «Охотники за привидениями» (Ghostbusters, 1984) какое строгое предупреждение доктора Игона Спенглера нарушают герои в финале для победы над Гозером?",
+    "options": [
+      "Ни в коем случае не скрещивать протонные лучи!",
+      "Не открывать ловушки внутри помещения",
+      "Не смотреть в глаза Зефирному Человеку",
+      "Не использовать ядерные ускорители возле меди"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_68",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме «Остров проклятых» (Shutter Island, 2010) Мартина Скорсезе какую финальную философскую дилемму формулирует герой Леонардо ДиКаприо (Тедди Дэниелс / Эндрю Леддис) перед тем, как пойти на лоботомию?",
+    "options": [
+      "«Что лучше: жить монстром или умереть хорошим человеком?»",
+      "«Истина освобождает только тех, кто готов сойти с ума»",
+      "«Каждый из нас виновен перед теми, кого не смог защитить»",
+      "«Память — это тюрьма, из которой нельзя сбежать»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_69",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 2,
+    "question": "В фильме Люка Бессона «Пятый элемент» (1997) четыре элемента олицетворяли камни стихий (Огонь, Вода, Земля, Воздух). Что или кто являлся загадочным Пятым элементом?",
+    "options": [
+      "Рыжеволосая девушка Лилу (высшее совершенное создание, несущее любовь)",
+      "Священный кристалл из храма в Египте",
+      "Солнечный свет в зените",
+      "Звездный металл из другой галактики"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_franchises_cult_movies_70",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "franchises_cult_movies",
+    "difficulty": 1,
+    "question": "Какой знаменитый оперный номер исполняет инопланетная оперная дива Плавалагуна на космическом круизном лайнере «Флостон Парадайз» в «Пятом элементе»?",
+    "options": [
+      "Арию «Il dolce suono» из оперы Гаэтано Доницетти «Лючия ди Ламмермур», переходящую в космический поп-бит",
+      "«Хабанеру» из оперы Бизе «Кармен»",
+      "«Аве Мария» Шуберта",
+      "Арию Царицы ночи из «Волшебной флейты» Моцарта"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

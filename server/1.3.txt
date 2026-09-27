@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "geography_languages_ethnography_1",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Какой европейский народ Пиренеев говорит на языке-изоляте (эускара), не имеющем доказанного родства ни с одной известной языковой семьей мира?",
+    "options": [
+      "Каталонцы",
+      "Бретонцы",
+      "Баски",
+      "Галисийцы"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_2",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "К какой языковой семье принадлежит венгерский язык, являясь островком неиндоевропейской речи в самом центре Европы?",
+    "options": [
+      "Алтайская",
+      "Картвельская",
+      "Семитская",
+      "Уральская (финно-угорская)"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_3",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой единственный язык семитской языковой семьи является официальным языком Европейского союза и использует латинский алфавит?",
+    "options": [
+      "Мальтийский",
+      "Арабский",
+      "Иврит",
+      "Арамейский"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_4",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какая уникальная фонетическая письменность была специально разработана учеными в XV веке по указу короля Седжона Великого?",
+    "options": [
+      "Катакана",
+      "Хангыль",
+      "Деванагари",
+      "Чжуинь"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_5",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "К какой группе индоевропейской семьи относится язык идиш, исторически развившийся на основе средневерхненемецких диалектов?",
+    "options": [
+      "Славянская",
+      "Романская",
+      "Германская",
+      "Семитская"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_6",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Несмотря на близость к Африке, малагасийский язык (основной язык Мадагаскара) относится к языковой семье:",
+    "options": [
+      "Нигеро-конголезской",
+      "Афразийской",
+      "Нило-сахарской",
+      "Австронезийской"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_7",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Какое государство признано самым лингвистически разнообразным в мире: на его территории говорят более чем на 800 живых языках?",
+    "options": [
+      "Папуа — Новая Гвинея",
+      "Индонезия",
+      "Индия",
+      "Нигерия"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_8",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Каким необычным способом жители испанского острова Ла-Гомера (Канарские острова) исторически общаются через глубокие горные ущелья (сильбо гомеро)?",
+    "options": [
+      "Барабанным боем",
+      "Языком свиста",
+      "Дымовыми сигналами",
+      "Сигнальными зеркалами"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_9",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "В какой стране Южной Америки язык коренного индейского населения (гуарани) имеет статус государственного наравне с испанским и используется большинством неиндейского населения?",
+    "options": [
+      "Боливия",
+      "Перу",
+      "Парагвай",
+      "Эквадор"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_10",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Благодаря параллельному тексту на каком известном европейском языке Жан-Франсуа Шампольон смог дешифровать Розеттский камень с египетскими иероглифами?",
+    "options": [
+      "Латынь",
+      "Коптский",
+      "Арамейский",
+      "Древнегреческий"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_11",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Алфавит какого кавказского языка был создан ученым и монахом Месропом Маштоцем около 405 года нашей эры?",
+    "options": [
+      "Армянский",
+      "Грузинский",
+      "Осетинский",
+      "Аварский"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_12",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой четвертый официальный язык Швейцарии (наряду с немецким, французским и итальянским) относится к ретороманской подгруппе?",
+    "options": [
+      "Ломбардский",
+      "Романшский",
+      "Провансальский",
+      "Окситанский"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_13",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Какой единственный коренной народ Европы говорит на языке монгольской группы и традиционно исповедует буддизм?",
+    "options": [
+      "Татары",
+      "Башкиры",
+      "Калмыки",
+      "Чуваши"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_14",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Слоговую письменность какого индейского народа Северной Америки в одиночку создал неграмотный мастер Секвойя в начале XIX века?",
+    "options": [
+      "Сиу (лакота)",
+      "Навахо",
+      "Апачи",
+      "Чероки"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_15",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой уникальный класс согласных звуков является главной отличительной чертой койсанских языков коренного населения Южной Африки?",
+    "options": [
+      "Щёлкающие звуки (клики)",
+      "Гортанные смычки",
+      "Носовые дифтонги",
+      "Свистящие аффрикаты"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_16",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Какой коренной малочисленный народ севера Скандинавии и Кольского полуострова традиционно занимается полукочевым оленеводством?",
+    "options": [
+      "Ненцы",
+      "Саамы (лопари)",
+      "Ительмены",
+      "Чукчи"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_17",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Коренной народ какого происхождения с древнейших времен населял остров Хоккайдо, Курилы и юг Сахалина до масштабной японской колонизации?",
+    "options": [
+      "Ороки",
+      "Нивхи",
+      "Айны",
+      "Эвенки"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_18",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Мужчины какого кочевого берберского народа Сахары («синие люди») обязаны постоянно закрывать лицо синим платком-тагельмустом?",
+    "options": [
+      "Бедуины",
+      "Сомалийцы",
+      "Масаи",
+      "Туареги"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_19",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой тюркский народ, проживающий автономно на юге Молдавии, в отличие от большинства других тюрков традиционно исповедует православие?",
+    "options": [
+      "Гагаузы",
+      "Ногайцы",
+      "Балкарцы",
+      "Карачаевцы"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_20",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Какой народ Ближнего Востока численностью свыше 35 миллионов человек считается крупнейшим этносом в мире, не имеющим собственного признанного государства?",
+    "options": [
+      "Татары",
+      "Курды",
+      "Белуджи",
+      "Ассирийцы"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_21",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "На основе южных диалектов какого европейского языка XVII века развился язык африкаанс в Южной Африке?",
+    "options": [
+      "Нидерландский",
+      "Немецкий",
+      "Английский",
+      "Датский"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_22",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "К какой ветви индоевропейской семьи языков принадлежит осетинский язык — единственный живой преемник скифо-сарматского наречия на Кавказе?",
+    "options": [
+      "Славянская",
+      "Иранская",
+      "Картвельская",
+      "Германская"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_23",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Древнее критское «Линейное письмо Б», дешифрованное Майклом Вентрисом в 1952 году, оказалось архаичной слоговой записью какого языка?",
+    "options": [
+      "Финикийский",
+      "Хеттский",
+      "Древнегреческий (микенский)",
+      "Этрусский"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_24",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Язык суахили относится к группе банту, однако колоссальный пласт лексики и само название языка исторически заимствованы из:",
+    "options": [
+      "Португальского",
+      "Персидского",
+      "Хинди",
+      "Арабского"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_25",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Какая азбука с причудливыми круглыми петлями была создана Кириллом и Мефодием в IX веке и исторически предшествовала современной кириллице?",
+    "options": [
+      "Глаголица",
+      "Устав",
+      "Клинопись",
+      "Бояновица"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_26",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой кельтский язык сохранился на материковой части Европы — на крайнем западе Франции — благодаря переселенцам с Британских островов?",
+    "options": [
+      "Валлийский",
+      "Бретонский",
+      "Мэнский",
+      "Корнский"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_27",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Древняя слоговая система письма «геэз» (фидель) до сих пор служит национальной официальной письменностью в какой стране Восточной Африки?",
+    "options": [
+      "Судан",
+      "Сомали",
+      "Эфиопия",
+      "Кения"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_28",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 3,
+    "question": "Какой народ Поволжья говорит на единственном сохранившемся языке булгарской ветви тюркских языков, где звуку «з» соответствует звук «р» (явление ротацизма)?",
+    "options": [
+      "Башкиры",
+      "Татары",
+      "Кумыки",
+      "Чуваши"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_29",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Языковая граница между нидерландоязычными фламандцами на севере и франкоязычными валлонами на юге исторически делит какую страну?",
+    "options": [
+      "Бельгия",
+      "Швейцария",
+      "Люксембург",
+      "Нидерланды"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_30",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Язык какого балканского государства не входит ни в славянскую, ни в романскую, ни в греческую группы, образуя полностью обособленную ветвь индоевропейской семьи?",
+    "options": [
+      "Болгария",
+      "Албания",
+      "Румыния",
+      "Черногория"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_31",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Открытие родственности какого священного языка Индии с латынью и древнегреческим, сделанное Уильямом Джонсом в 1786 году, положило начало индоевропеистике?",
+    "options": [
+      "Пали",
+      "Авестийский",
+      "Санскрит",
+      "Пракрит"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_32",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "К какой крупнейшей островной языковой семье мира относится филиппинский язык тагалог (тагальский)?",
+    "options": [
+      "Сино-тибетская",
+      "Австроазиатская",
+      "Тай-кадайская",
+      "Австронезийская"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_33",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Какой искусственный язык, созданный профессиональным лингвистом Марком Окрандом для научно-фантастической вселенной «Звездный путь», получил официальный словарь и грамматику?",
+    "options": [
+      "Клингонский",
+      "Дотракийский",
+      "Синдарин",
+      "На'ви"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_34",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Ритуальный танец хака с ритмичными ударами по бедрам и свирепой мимикой принадлежит коренному народу маори в какой стране?",
+    "options": [
+      "Австралия",
+      "Новая Зеландия",
+      "Фиджи",
+      "Самоа"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_35",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Как называется традиционное куполообразное зимнее жилище эскимосов (инуитов), вырезаемое из плотных ветровых блоков слежавшегося снега?",
+    "options": [
+      "Яранга",
+      "Чум",
+      "Иглу",
+      "Юрта"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_36",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "В каком европейском карликовом государстве в Пиренеях каталанский язык является единственным официальным государственным языком на национальном уровне?",
+    "options": [
+      "Монако",
+      "Лихтенштейн",
+      "Сан-Марино",
+      "Андорра"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_37",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "На основе какого романского языка развился еврейский язык ладино (сефардский), возникший после изгнания общины с Пиренейского полуострова в конце XV века?",
+    "options": [
+      "Староиспанский",
+      "Старофранцузский",
+      "Португальский",
+      "Латынь"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_38",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Что буквально означает арабское слово «бедуин» (бадави), которым традиционно называют кочевников Аравийской пустыни и Северной Африки?",
+    "options": [
+      "Погонщик верблюдов",
+      "Обитатель пустыни / степняк",
+      "Вольный всадник",
+      "Страж оазиса"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_39",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "В Республике Сингапур признаны четыре официальных языка: английский, малайский, тамильский и...",
+    "options": [
+      "Хинди",
+      "Арабский",
+      "Путунхуа (севернокитайский)",
+      "Японский"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_40",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 3,
+    "question": "Как называется до сих пор не дешифрованная иероглифическая письменность на деревянных дощечках, созданная коренными жителями острова Пасхи (Рапануи)?",
+    "options": [
+      "Огам",
+      "Библиотип",
+      "Тондо",
+      "Ронгоронго"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_41",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Лингвистический и генетический анализ цыганского языка (романо) доказал, что предки этого народа покинули территорию какого региона мира около тысячи лет назад?",
+    "options": [
+      "Северная Индия (Индостан)",
+      "Древний Египет",
+      "Месопотамия",
+      "Малая Азия"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_42",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Какой язык является единственным в истории примером полного возрождения мертвого книжно-литургического языка в качестве современного разговорного и государственного?",
+    "options": [
+      "Латынь",
+      "Иврит",
+      "Коптский",
+      "Санскрит"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_43",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "К какой языковой семье принадлежит якутский язык (саха), несмотря на географическую изоляцию на северо-востоке Сибири и контакты с тунгусо-маньчжурскими народами?",
+    "options": [
+      "Монгольская",
+      "Палеоазиатская",
+      "Тюркская",
+      "Уральская"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_44",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Алфавит какого государственного языка Азии (Камбоджа) насчитывает 74 знака и занесен в Книгу рекордов Гиннесса как самый длинный среди ныне действующих?",
+    "options": [
+      "Бирманский",
+      "Лаосский",
+      "Тайский",
+      "Кхмерский"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_45",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Язык какого коренного индейского народа США применялся американскими военными радистами-шифровальщиками во Вторую мировую войну на Тихом океане, оставшись неразгаданным для японцев?",
+    "options": [
+      "Навахо",
+      "Чероки",
+      "Ирокезы",
+      "Апачи"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_46",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Язык какого кавказского народа, наряду со сванским, мегрельским и лазским, образует полностью самостоятельную картвельскую языковую семью?",
+    "options": [
+      "Армянский",
+      "Грузинский",
+      "Осетинский",
+      "Абхазский"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_47",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой коренной народ пустыни Калахари в Южной Африке известен древней культурой охотников-собирателей и уникальным языком с щелкающими согласными звуками?",
+    "options": [
+      "Зулусы",
+      "Масаи",
+      "Бушмены (сан)",
+      "Гереро"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_48",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Благодаря какому фактору современные исландцы могут практически без перевода читать оригинальные скандинавские саги XII–XIII веков?",
+    "options": [
+      "Переходу на латиницу в XVII веке",
+      "Искусственному упрощению грамматики",
+      "Использованию рун в быту",
+      "Языковому пуризму и изоляции"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_49",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Пушту и дари (фарси-кабули) являются двумя официальными государственными языками какой центральноазиатской страны?",
+    "options": [
+      "Афганистан",
+      "Таджикистан",
+      "Пакистан",
+      "Иран"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_50",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Тональность типична для языков Азии. Какой скандинавский язык в Европе сохранил музыкальное тональное ударение, способное полностью менять лексический смысл внешне одинаковых слов?",
+    "options": [
+      "Финский",
+      "Шведский",
+      "Исландский",
+      "Датский"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_51",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Определите славянский язык по фразе «Dobrý den, jak se máte? Děkuji», в фонетике которого присутствует редчайший вибрант «ř» (как в фамилии композитора Дворжака):",
+    "options": [
+      "Словацкий",
+      "Польский",
+      "Чешский",
+      "Словенский"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_52",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Какой европейский язык использует латиницу с обилием диграфов «sz», «cz», «rz», букв с хвостиками «ą», «ę» и перечеркнутой согласной «ł» («Dzień dobry, dziękuję»)?",
+    "options": [
+      "Чешский",
+      "Венгерский",
+      "Литовский",
+      "Польский"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_53",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Определите язык по фразе «Jó napot kívánok! Köszönöm szépen», в графике которого используются характерные двойные акуты на буквах «ő» и «ű»:",
+    "options": [
+      "Венгерский",
+      "Финский",
+      "Эстонский",
+      "Турецкий"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_54",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Какой восточно-романский язык легко опознать по буквам с подстрочной запятой «ș» и «ț», а также гласным «ă» и «î» («Bună ziua, mulțumesc»)?",
+    "options": [
+      "Португальский",
+      "Румынский",
+      "Итальянский",
+      "Албанский"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_55",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Определите язык по фразе «Günaydın! Teşekkür ederim», маркерами которого служат немая согласная «ğ», буква «ı» без верхней точки и седили под «ş» и «ç»:",
+    "options": [
+      "Азербайджанский",
+      "Туркменский",
+      "Турецкий",
+      "Узбекский"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_56",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой язык Юго-Восточной Азии перешел на латиницу (куокнгы) со сложной системой надстрочных тональных знаков и перечеркнутой согласной «đ» («Xin chào, cảm ơn»)?",
+    "options": [
+      "Тагальский",
+      "Индонезийский",
+      "Малайский",
+      "Вьетнамский"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_57",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Определите северный язык по фразе «Góðan daginn, takk fyrir», сохранивший в латинском алфавите древнегерманские рунические буквы «þ» (торн) и «ð» (эт):",
+    "options": [
+      "Исландский",
+      "Фарерский",
+      "Датский",
+      "Норвежский"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_58",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой язык европейского государства использует в алфавите латинские буквы с точкой «ċ», «ġ», «ż» и перечеркнутую букву «ħ» («Bonġu! Grazzi ħafna»)?",
+    "options": [
+      "Албанский",
+      "Мальтийский",
+      "Ирландский",
+      "Валлийский"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_59",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой романский язык Пиренеев безошибочно опознается по типографской средней точке между двумя буквами L («l·l» — ela geminada, например: col·lecció) и приветствию «Bon dia»?",
+    "options": [
+      "Галисийский",
+      "Окситанский",
+      "Каталанский",
+      "Астурийский"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_60",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой скандинавский язык архипелага в Северной Атлантике является ближайшим живым родственником исландского, но сохранил букву «ø» и сильно изменил фонетику?",
+    "options": [
+      "Гренландский",
+      "Норвежский (нюнорск)",
+      "Шотландский",
+      "Фарерский"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_61",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой кельтский язык Великобритании использует удвоенные согласные «ll», «dd», «ff», а буквы «w» и «y» регулярно служат гласными («Bore da, diolch yn fawr»)?",
+    "options": [
+      "Валлийский",
+      "Гэльский",
+      "Корнский",
+      "Мэнский"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_62",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Определите кельтский язык по самоназванию страны «Éire», знаку долготы гласных (фада) и характерным буквосочетаниям «bh», «dh», «mh» («Dia dhuit, go raibh maith agat»):",
+    "options": [
+      "Шотландский",
+      "Ирландский",
+      "Бретонский",
+      "Мэнский"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_63",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Определите германский язык по фразе «Goedemorgen, hoe gaat het? Dank u wel», в котором часто встречаются лигатура «ij» и сочетание гласных «oe»:",
+    "options": [
+      "Датский",
+      "Шведский",
+      "Нидерландский",
+      "Немецкий"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_64",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Какой скандинавский язык использует гласные буквы «å», «ä», «ö» (строго избегая датско-норвежских «ø» и «æ»), что видно во фразе «God morgon! Tack så mycket»?",
+    "options": [
+      "Норвежский",
+      "Датский",
+      "Исландский",
+      "Шведский"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_65",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "В отличие от шведского языка, какие два скандинавских языка используют в своей официальной латинице перечеркнутую букву «ø» и лигатуру «æ»?",
+    "options": [
+      "Датский и норвежский",
+      "Шведский и исландский",
+      "Финский и шведский",
+      "Исландский и фарерский"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_66",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Определите язык по фразе «Hyvää huomenta! Mitä kuuluu? Kiitos paljon», в исконной лексике которого почти нет согласных b, c, d, f, g, зато постоянно удваиваются гласные и согласные:",
+    "options": [
+      "Эстонский",
+      "Финский",
+      "Венгерский",
+      "Саамский"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_67",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой финно-угорский язык Прибалтики легко отличить от близкородственного финского по наличию уникальной гласной буквы «õ» с тильдой («Tere hommikust! Kuidas läheb? Aitäh»)?",
+    "options": [
+      "Литовский",
+      "Латышский",
+      "Эстонский",
+      "Карельский"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_68",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Определите балтийский язык по носовым подстрочным крючкам огонек («ą», «ę», «į», «ų») и букве с верхней точкой «ė» («Laba diena! Kaip sekasi? Ačiū»):",
+    "options": [
+      "Латышский",
+      "Польский",
+      "Эстонский",
+      "Литовский"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_69",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 2,
+    "question": "Какой балтийский язык отличается от литовского горизонтальными черточками долготы над гласными («ā», «ē», «ī», «ū») и подстрочными запятыми («ģ», «ķ», «ļ», «ņ»): «Labdien! Paldies»?",
+    "options": [
+      "Латышский",
+      "Литовский",
+      "Эстонский",
+      "Финский"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_languages_ethnography_70",
+    "categoryId": "geography",
+    "subcategoryId": "languages_ethnography",
+    "difficulty": 1,
+    "question": "Определите романский язык по характерным носовым дифтонгам с тильдой «ão», «õe» и буквосочетаниям «lh», «nh» («Bom dia! Muito obrigado»):",
+    "options": [
+      "Испанский",
+      "Португальский",
+      "Итальянский",
+      "Румынский"
+    ],
+    "correctIndex": 1,
+    "image": null
+  }
+]

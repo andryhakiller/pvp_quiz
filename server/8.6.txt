@@ -1,0 +1,702 @@
+[
+  {
+    "id": "fishing_fishing_general_knowledge_1",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какой русский ученый-зоолог и популяризатор охоты и рыбалки XIX века написал фундаментальный классический труд 'Рыбы России. Жизнь и ловля наших пресноводных рыб', ставший рыболовной библией?",
+    "options": ["Леонид Павлович Сабанеев", "Сергей Тимофеевич Аксаков", "Николай Михайлович Пржевальский", "Климент Аркадьевич Тимирязев"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_2",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая книга английского писателя Исаака Уолтона, изданная в 1653 году, является самым переиздаваемым литературным произведением об уженье рыбы в истории мировой литературы?",
+    "options": ["'Искусный рыболов' (The Compleat Angler)", "'Старик и море'", "'Моби Дик'", "'Путешествие натуралиста'"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_3",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что представляет собой традиционный японский метод ловли рыбы с бакланами (укай / cormorant fishing), известный более 1300 лет?",
+    "options": ["Рыболовы на лодках с факелами спускают на поводках дрессированных бакланов со специальным кольцом на шее, которое не дает птице проглотить крупную пойманную рыбу", "Ловля птиц на рыболовные крючки", "Бакланы загоняют рыбу в сети", "Птицы указывают на стаи рыбы криками"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_4",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что такое тенкара (Tenkara) в японской традиции рыболовства?",
+    "options": ["Традиционный минималистичный нахлыст: длинное гибкое телескопическое удилище без катушки, шнур фиксированной длины и одна искусственная мушка кебари", "Ловля рыбы бамбуковыми копьями", "Ловля карпа кои в пруду", "Приготовление суши из сырого карася"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_5",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какой русский писатель написал вдохновенные 'Записки об уженье рыбы' (1852 г.), открывшие поэзию русской рыбалки широкому читателю?",
+    "options": ["Сергей Тимофеевич Аксаков", "Лев Николаевич Толстой", "Иван Сергеевич Тургенев", "Антон Павлович Чехов"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_6",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "В повести Эрнеста Хемингуэя 'Старик и море' старый кубинский рыбак Сантьяго ведет многодневную драматическую борьбу в Гольфстриме с какой гигантской рыбой?",
+    "options": ["Голубой марлин", "Белая акула", "Гигантский тунец", "Меч-рыба"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_7",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Из какого природного материала изготавливали лески рыболовы до изобретения синтетического нейлона в середине XX века?",
+    "options": ["Из отборного конского волоса (из хвоста жеребца), шелковых нитей и сплетенных сухожилий животных", "Из медной проволоки", "Из хлопковых канатов", "Из стеблей крапивы"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_8",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая американская химическая компания в 1938–1939 годах синтезировала полиамид (нейлон), совершивший революцию в производстве прочных монофильных рыболовных лесок?",
+    "options": ["DuPont (Дюпон)", "Bayer", "3M", "Monsanto"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_9",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какой рыболовный узел, названный в честь американского рыболова Вика Олбрайта, используется во всем мире для надежного связывания толстого монофила (или флюорокарбона) с тонкой плетенкой?",
+    "options": ["Узел Олбрайт (Albright knot)", "Клинч", "Паломар", "Прямой узел"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_10",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "В чем главное преимущество узла 'Улучшенный клинч' (Improved Clinch Knot) при привязывании вертлюжка или крючка к монолеске?",
+    "options": ["Простота вязки, компактность и сохранение до 90% исходной прочности лески благодаря дополнительному продеванию конца в образовавшуюся большую петлю", "Он никогда не развязывается при разрезании", "Узел светится в темноте", "Он подходит для канатов"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_11",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Как называется традиционная деревянная лодка поморов Русского Севера, веками использовавшаяся для морских рыбных промыслов в Белом и Баренцевом морях?",
+    "options": ["Карбас", "Каяк", "Каноэ", "Джонка"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_12",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что представляет собой метод холодного копчения рыбы и чем он принципиально отличается от горячего копчения?",
+    "options": ["Обработка дымом при температуре не выше +25...+30 °C в течение нескольких суток, при которой мясо обезвоживается, пропитывается антисептиками дыма, но белки не денатурируют (не варятся)", "Обработка горячим паром при +100 °C за 30 минут", "Замораживание рыбы в морозильнике с жидким дымом", "Варка рыбы в соленой воде"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_13",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что такое балык в кулинарной культуре рыбной гастрономии?",
+    "options": ["Соленая, а затем провяленная на воздухе мясистая спинная часть крупной ценной рыбы (осетровых, лососевых, сома)", "Рыбный суп с рисом", "Жареная мелкая рыбешка", "Маринованные рыбьи хвосты"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_14",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какой финский производитель воблеров стал всемирно знаменитым благодаря легендарной приманке 'Original Floater', созданной Лаури Рапалой из сосновой коры в 1936 году?",
+    "options": ["Rapala", "Mepps", "Kuusamo", "Abu Garcia"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_15",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая французская компания является самым известным в мире производителем классических вращающихся блесен (Aglia, Black Fury, Comet)?",
+    "options": ["Mepps", "Rapala", "Daiwa", "Shimano"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_16",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Шведская фирма Abu Garcia начинала свою историю в 1921 году на реке Мёррум вовсе не со снастей. Какую прецизионную продукцию она выпускала до катушек Ambassadeur?",
+    "options": ["Карманные механические часы и таксометры для автомобилей", "Охотничьи ружья", "Хирургические скальпели", "Морские компасы"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_17",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Японская корпорация Shimano — мировой лидер в производстве рыболовных катушек высшего класса (Stella, Twin Power). В какой еще глобальной индустрии Shimano держит львиную долю мирового рынка?",
+    "options": ["Компоненты и трансмиссии для спортивных велосипедов", "Моторы для моторных лодок", "Оптические линзы для фотоаппаратов", "Часовые механизмы"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_18",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что представляет собой юкола у коренных народов Сибири и Дальнего Востока?",
+    "options": ["Сушено-вяленое на ветру и солнце обезглавленное и распластанное филе лососевых рыб без добавления соли, заготовляемое впрок на долгую зиму", "Рыбный пирог из щуки", "Шаманский рыболовный бубен", "Лодка из бересты"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_19",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что такое сугудай в традиционной кухне коренных народов Севера?",
+    "options": ["Блюдо из свежевыловленной северной рыбы (муксун, сиг, чир, омуль), нарезанной кусочками и замаринованной за 15–20 минут с солью, черным перцем, луком и каплей масла", "Сушеные рыбьи кости", "Вареная рыбья печень", "Рыбный холодец"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_20",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Чем строганина отличается от других способов употребления северной рыбы?",
+    "options": ["Свежезамороженную до твердого состояния рыбу строгают острым якутским ножом на тонкие полупрозрачные стружки-завитки и едят сырой, макая в 'макало' из соли и перца", "Рыбу запекают в горячей золе", "Рыбу тушат с таежными ягодами", "Рыбу варят на пару"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_21",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какое древнее рыболовное сооружение коренных народов представляет собой стационарное водяное колесо с лопастями-черпаками, вращаемое речным течением и черпающее поднимающегося лосося?",
+    "options": ["Рыболовное колесо (Fish wheel)", "Котцы", "Закол", "Вентерь"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_22",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что представляет собой ловля нахлыстом (Fly fishing) в историческом контексте развития рыболовного спорта?",
+    "options": ["Искусство ловли рыбы на искусственные имитации насекомых (мушки), где масса тяжелого шнура используется для заброса практически невесомой приманки", "Ловля рыбы сетью на лету над водопадом", "Ловля рыбы с параплана", "Стрельба по рыбе из лука"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_23",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая пернатая птица семейства фазановых дает ценнейшие перья для вязания классических лососевых нахлыстовых мушек?",
+    "options": ["Петух (специально выведенные генетические породы петухов для нахлыста Whiting Farms)", "Орел", "Ворона", "Пингвин"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_24",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что такое 'даббинг' (Dubbing) в искусстве вязания нахлыстовых мушек?",
+    "options": ["Измельченная шерсть животных или синтетические волокна, накручиваемые на монтажную нить для формирования пушистого объемного тела мушки", "Специальный лак для фиксации головки", "Свинцовая проволока для огрузки", "Клей для перьев"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_25",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая нахлыстовая мушка считается абсолютной классикой мировой рыбалки и была создана Джеймсом Райтом в Шотландии еще в XIX веке?",
+    "options": ["Green Highlander (Зеленый горец)", "Черный шпион", "Красная стрела", "Золотой карась"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_26",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какой международный рекорд IGFA по весу пойманной щуки обыкновенной (Esox lucius) является официально признанным абсолютом на спортивную снасть?",
+    "options": ["25.0 кг (пойманная Лотаром Луи в Германии на озере Греферн в 1986 г.)", "55.0 кг", "12.5 кг", "90.0 кг"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_27",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какой мировой рекорд веса для атлантического синеперого тунца (Bluefin Tuna) зафиксирован ассоциацией IGFA в Новой Шотландии?",
+    "options": ["679 кг (1496 фунтов), пойманный Кеном Фрейзером в 1979 году", "210 кг", "95 кг", "1500 кг"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_28",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "В чем заключается смысл нерестового запрета на рыбную ловлю, ежегодно вводимого весной на водоемах России?",
+    "options": ["Обеспечение спокойного и безопасного размножения рыбы на мелководных нерестилищах для сохранения и воспроизводства популяций", "Ремонт плотин гидроэлектростанций", "Очистка рек от тины", "Подготовка к летней навигации катеров"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_29",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что разрешено правилами рыболовства рыболову-любителю в период весеннего нерестового запрета в большинстве регионов России?",
+    "options": ["Ловля с берега вне мест нереста на одну поплавочную или донную удочку с количеством крючков не более одного-двух на одного человека", "Ловля спиннингом с моторной лодки на 5 воблеров", "Ловля ставными сетями", "Подводная охота с аквалангом"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_30",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что такое 'промысловая мера' (минимальный допустимый размер вылавливаемой рыбы) в правилах рыболовства?",
+    "options": ["Длина рыбы от кончика рыла до основания средних лучей хвостового плавника, меньше которой особь считается молодью и подлежит немедленному выпуску обратно в водоем", "Общий вес улова за 1 день", "Количество пойманных хвостов", "Ширина ячеи подсачека"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_31",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая суточная норма вылова рыбы для рыболова-любителя обычно установлена на водоемах европейской части России (при отсутствии трофейного экземпляра)?",
+    "options": ["5 килограммов на одного человека в сутки (или один экземпляр, если его вес превышает 5 кг)", "50 килограммов", "Ограничений нет", "1 килограмм"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_32",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Почему использование электроудочки (варварского браконьерского орудия лова) признано тягчайшим уголовным экологическим преступлением во всем мире?",
+    "options": ["Мощный электрический импульс в воде убивает кормовую базу, гидробионтов и икру, ломает позвоночники выжившей рыбе и навсегда лишает ее способности к размножению", "Электроудочка разряжает городскую электросеть", "Она слишком дорогая в изготовлении", "От нее мутнеет вода в реке"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_33",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что представляет собой знаменитый рыболовный узел 'Морковка' (Mahin Knot / Carrot Knot)?",
+    "options": ["Специальный узел с прямой и обратной обмоткой для надежного соединения мягкого плетеного шнура с жестким монофильным или флюорокарбоновым шок-лидером", "Узел для подвязывания овощей в огороде", "Петля для крепления насадки из моркови", "Узел для ремонта сетей"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_34",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "А какой популярный узел носит имя хирурга (Surgeon's Knot) и применяется для быстрого связывания двух лесок близкого диаметра?",
+    "options": ["Хирургический узел — двойной или тройной бегущий узел с пропусканием обоих свободных концов через простую петлю", "Узел, завязываемый хирургическим пинцетом", "Узел для наложения швов на рану рыбы", "Узел из шелковой медицинской нити"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_35",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Как называется традиционная русская рыбная похлебка, сваренная на тройном бульоне из мелкой костистой рыбы с добавлением ценной рыбы, лука и специй?",
+    "options": ["Царская (архиерейская) уха", "Рыбный рассольник", "Буйабес", "Калья"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_36",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какой ритуал часто совершают рыбаки у костра при завершении варки настоящей ухи на природе?",
+    "options": ["Опускают в котелок на пару секунд горящую березовую головешку и вливают рюмку водки для осветления бульона и придания легкого дымного аромата", "Бросают в уху чешую для густоты", "Поют старинную песню", "Тушат костер остатками супа"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_37",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что такое буйабес (Bouillabaisse) в мировой кулинарной культуре рыбаков?",
+    "options": ["Традиционный марсельский густой суп прованских рыбаков из разнообразной морской рыбы (скорпены, морского петуха, солнечника) с шафраном, фенхелем и чесночным соусом руй", "Испанская паэлья с морепродуктами", "Итальянская паста с тунцом", "Норвежская уха со сливками"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_38",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая рыба является основой для знаменитого португальского национального блюда 'Бакальяу' (Bacalhau)?",
+    "options": ["Сушеная и соленая атлантическая треска", "Свежая сардина", "Угорь", "Морской окунь"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_39",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "В шведской кухне сюрстрёмминг (Surströmming) — легендарный деликатес с экстремально резким серным запахом. Что это такое?",
+    "options": ["Квашеная (ферментированная) мелкая балтийская салака, консервированная в рассоле", "Копченый лосось в бересте", "Сушеная щука", "Жареная печень палтуса"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_40",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "А что такое хаукарль (Hákarl) в традиционной кухне рыбаков Исландии?",
+    "options": ["Вяленое мясо ядовитой гренландской полярной акулы, прошедшее многомесячную ферментацию в гравии для выведения мочевины", "Маринованная скумбрия", "Свежая сельдь в масле", "Вареные плавники ската"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_41",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какой японский термин обозначает искусство создания реалистичных чернильных отпечатков пойманной рыбы на тонкой рисовой бумаге (японская гравюра улова)?",
+    "options": ["Гётаку (Gyotaku)", "Оригами", "Икебана", "Бонсай"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_42",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что представляет собой метод заготовки рыбы 'колодкой' (пластование со спины) у волжских и астраханских рыбаков?",
+    "options": ["Крупную рыбу (судака, сазана) разрезают вдоль хребта со стороны спины, удаляют внутренности и солят пластом, сохраняя целым жирное брюшко", "Разрезание рыбы на круглые поперечные куски", "Засолка рыбы целиком в деревянной бочке без потрошения", "Сушка рыбы на веревке за хвост"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_43",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какую соль категорически нельзя использовать для засолки рыбы перед сушкой и вялением?",
+    "options": ["Йодированную соль мелкого помола 'Экстра' (йод обжигает кожу рыбы и ускоряет окисление жиров, а мелкая соль пересаливает верхний слой)", "Крупную каменную соль помола №2 или №3", "Морскую крупную соль", "Поваренную соль без добавок"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_44",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Сколько часов рекомендуют вымачивать соленую рыбу в холодной проточной воде перед развешиванием на вяление согласно народному правилу?",
+    "options": ["Столько часов, сколько дней рыба находилась в соли ('сколько дней солилась — столько часов мочить')", "Ровно 24 часа для любой рыбы", "Вымачивать рыбу нельзя вовсе", "Один час на каждый килограмм веса"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_45",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какое опасное паразитарное заболевание человека передается при употреблении сырой, слабосоленой или плохо прожаренной рыбы семейства карповых (язь, лещ, плотва)?",
+    "options": ["Описторхоз (кошачья двуустка)", "Малярия", "Бешенство", "Холера"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_46",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "А какой опасный ленточный червь (широкий лентец, достигающий длины до 10–15 метров в кишечнике) передается через сырую икру и щучье мясо (дифиллоботриоз)?",
+    "options": ["Широкий лентец (Diphyllobothrium latum)", "Аскарида", "Острица", "Трихинелла"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_47",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какой надежный способ гарантированно обеззараживает речную рыбу от личинок описторхоза перед употреблением?",
+    "options": ["Глубокая заморозка при температуре -20 °C не менее чем на 14 суток, либо тщательная термическая обработка (варка не менее 20 минут с момента закипания)", "Ополаскивание столовым уксусом", "Посыпание молотым черным перцем", "Замачивание в молоке на 1 час"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_48",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что представляет собой знаменитый фестиваль подледной рыбалки Санчхон (Sancheoneo Ice Festival) в Южной Корее, собирающий более миллиона участников?",
+    "options": ["Массовая ловля форели-масу через тысячи лунок на замерзшей реке, а также традиционные соревнования по ловле рыбы голыми руками в ледяных бассейнах", "Фестиваль поедания сушеной акулы", "Гонки на моторных лодках по льду", "Выставка древних сетей"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_49",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая международная пресноводная рыбалка в Бразилии на притоках Амазонки считается культовой благодаря поимке яростного павлиньего окуня (Peacock Bass)?",
+    "options": ["Ловля тукунаре (павлиньего басса) на гигантские поверхностные пропеллерные приманки (Woodchopper)", "Ловля пираний на поплавок", "Ловля электрического угря на донку", "Ловля кайманов на блесну"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_50",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая колоссальная пресноводная рыба бассейна реки Амазонки с чешуей, выдерживающей укусы пираний, и легким для дыхания воздухом вырастает до 3 метров и веса 200 кг?",
+    "options": ["Арапайма (пираруку)", "Сом-плоскоголовик", "Паку", "Павлиний окунь"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_51",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая рыба африканской реки Конго и озера Танганьика носит имя 'тигровая рыба Голиаф' (Goliath Tigerfish) и обладает 32 зубами размером с зубы большой белой акулы?",
+    "options": ["Большая тигровая рыба (Hydrocynus goliath)", "Нильский окунь", "Протоптер", "Рыба-слон"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_52",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "В чем заключается философия карпфишинга (Carpfishing), зародившаяся в Великобритании в 1970–80-х годах?",
+    "options": ["Бережное отношение к каждому пойманному карпу: использование карповых матов, антисептиков для ран, безопасных монтажей и обязательный выпуск всей пойманной рыбы", "Быстрое наполнение морозилки рыбой", "Ловля на максимальное количество донок", "Использование тяжелых промышленных сетей"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_53",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что такое карповый мат (Cradle / Unhooking mat)?",
+    "options": ["Мягкий влажный матрас или люлька с бортами, на который укладывают пойманного карпа на берегу для безопасного извлечения крючка, взвешивания и фотосессии", "Коврик под ноги рыболова в палатке", "Подстилка для сидения на сырой земле", "Специальная сетка для сушки бойлов"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_54",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая британская легенда карпфишинга по имени 'Clarissa' была поймана Ричардом Уокером в 1952 году на озере Редмайр Пул и стала рекордным карпом на 28 лет?",
+    "options": ["Зеркальный карп весом 44 фунта (около 20 кг), перевезенный живым в Лондонский зоопарк", "Чешуйчатый сазан весом 60 кг", "Белый амур весом 35 кг", "Золотой карась на 5 кг"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_55",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что представляет собой ловля нахлыстом лосося на Кольском полуострове техникой Spey Cast (двуручным удилищем)?",
+    "options": ["Аристократическая техника заброса тяжелого шнура со сменой направления за счет водного якоря (D-loop), позволяющая делать 30-метровые забросы при заросшем лесом крутом береге", "Заброс блесны с разбега", "Ловля нахлыстом с борта моторной лодки", "Ловля в отвес с моста"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_56",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая река Кольского полуострова считается одной из лучших лососевых рек планеты по среднему размеру атлантического лосося (семги весом свыше 15–20 кг)?",
+    "options": ["Река Поной и река Йоканьга", "Волга", "Обь", "Днепр"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_57",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какую старинную деревянную приманку для ловли тайменя и щуки в Сибири и на Урале вырезали из кедра и оснащали пропеллером на носу?",
+    "options": ["Девон", "Кастмастер", "Джиг-риг", "Цикада"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_58",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что представляет собой престижнейший турнир по спортивной ловле хищной рыбы спиннингом с лодок в России, основанный в 2012 году?",
+    "options": ["PAL (Pro Anglers League — Лига профессиональных рыболовов)", "Кубок Гагарина", "Формула-1", "Золотая шайба"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_59",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какое ключевое спортивное требование к сохранению улова действует на этапах турнира Pro Anglers League (PAL)?",
+    "options": ["Вся пойманная рыба должна быть доставлена на официальное взвешивание живой в специальных аэрируемых бассейнах (лайвелах) катеров и отпущена в водоем", "Рыба должна быть заморожена", "Рыбу нужно выпотрошить на воде", "Улов отдается судьям в копченом виде"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_60",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая японская пресноводная рыба семейства карповых выведена селекционерами в сотни декоративных цветовых вариаций (кохаку, тайсё сансёку) и может жить более 50–70 лет?",
+    "options": ["Карп кои (парчовый карп)", "Золотая рыбка телескоп", "Барбус суматранский", "Гуппи"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_61",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какой знаменитый русский баснописец написал нравоучительную басню 'Демьянова уха'?",
+    "options": ["Иван Андреевич Крылов", "Александр Сергеевич Грибоедов", "Денис Иванович Фонвизин", "Гавриил Романович Державин"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_62",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая традиционная шотландская мушка для ловли форели и хариуса вяжется из ости оленьего меха с перьевым ершиком и прекрасно держится на бурлящей воде?",
+    "options": ["Каддис (Elk Hair Caddis)", "Вулли Баггер", "Красный червь", "Серебряный доктор"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_63",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "В рассказе Антона Павловича Чехова 'Налим' плотники Герасим и Любим долго и безуспешно пытаются поймать руками под корягой спрятавшегося налима. Чем заканчивается рассказ?",
+    "options": ["Налим выскользнул из рук барина, взмахнул хвостом и уплыл обратно в глубину", "Они сварили царскую уху", "Налим укусил старосту за палец", "Они поймали щуку вместо налима"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_64",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что такое 'красная рыба' в историческом русском словоупотреблении на Руси до XX века?",
+    "options": ["Рыба семейства осетровых (белуга, осетр, севрюга, стерлядь) — от слова 'красивая, ценная, дорогая', а вовсе не лосось с красным мясом", "Лосось и форель", "Только карась с золотой чешуей", "Рыба, запеченная с томатами"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_65",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что представляет собой знаменитая 'паюсная' икра осетровых рыб в отличие от зернистой?",
+    "options": ["Икра, засоленная в теплом тузлуке прямо в ястыках, а затем спрессованная в плотную однородную массу, которую можно резать ножом на ломти", "Икра, замороженная в жидком азоте", "Икра, сваренная с луком", "Икра с добавлением сливочного масла"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_66",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая американская пресноводная рыба семейства центрарховых (большеротый окунь — Largemouth bass) породила многомиллиардную индустрию басс-фишинга в США и Японии?",
+    "options": ["Большеротый черный окунь (басс)", "Радужная форель", "Щука-маскинонг", "Панцирная щука"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_67",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какая пресноводная рыба Северной Америки является крупнейшим представителем щуковых (до 1.8 м и веса 30+ кг) и получила прозвище 'рыба десяти тысяч забросов' за крайнюю осторожность?",
+    "options": ["Маскинонг (Muskellunge)", "Травяная щука", "Черная щука", "Полосатый лаврак"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_68",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Что представляет собой метод ловли 'херабуна' (Herabuna), пришедший из Японии?",
+    "options": ["Высокоточная ловля карася на сверхлегкие маховые удочки с использованием пылящего теста на двух крючках и сверхчувствительного длинного поплавка", "Ловля сома на деревянные колотушки", "Троллинг на море", "Ловля на живца с лодки"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_69",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какую породу ценнейших осетровых рыб вывели советские селекционеры во ВНИРО в 1952 году путем скрещивания белуги и стерляди?",
+    "options": ["Бестер (сочетает быстрый рост гигантской белуги и раннее созревание пресноводной стерляди)", "Осетр ленский", "Калужонок", "Шип волжский"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "fishing_fishing_general_knowledge_70",
+    "categoryId": "fishing",
+    "subcategoryId": "fishing_general_knowledge",
+    "difficulty": 2,
+    "question": "Какое традиционное пожелание говорят друг другу рыболовы перед выходом на рыбалку, на которое принято отвечать 'К черту!'?",
+    "options": ["'Ни хвоста, ни чешуи!'", "'Большого улова!'", "'Спокойного ветра!'", "'Семь футов под килем!'"],
+    "correctIndex": 0,
+    "image": null
+  }
+]

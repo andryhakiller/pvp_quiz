@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "math_ege_math_1",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "По какой формуле вычисляется радиус окружности r, вписанной в прямоугольный треугольник с катетами a, b и гипотенузой c?",
+    "options": [
+      "r = (a + b - c) / 2",
+      "r = (a + b + c) / 2",
+      "r = (a + b) / c",
+      "r = ab / (a + b)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_2",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Около выпуклого четырехугольника можно описать окружность тогда и только тогда, когда сумма его противоположных углов равна:",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_3",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равна длина медианы, проведенной к гипотенузе прямоугольного треугольника, если длина гипотенузы равна 14?",
+    "options": [
+      "14",
+      "3,5",
+      "7",
+      "7√2"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_4",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равно значение логарифма log₂ 64?",
+    "options": [
+      "8",
+      "16",
+      "32",
+      "6"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_5",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "В чем заключается геометрический смысл производной функции y = f(x) в точке x₀?",
+    "options": [
+      "Угловой коэффициент касательной к графику функции в этой точке",
+      "Длина отрезка нормали к графику",
+      "Площадь под графиком функции на отрезке",
+      "Координата точки пересечения с осью абсцисс"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_6",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Если все линейные размеры трехмерного тела увеличить ровно в 3 раза, во сколько раз увеличится его объем?",
+    "options": [
+      "В 9 раз",
+      "В 27 раз",
+      "В 3 раза",
+      "В 81 раз"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_7",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "По какой формуле вычисляется площадь правильного (равностороннего) треугольника со стороной a?",
+    "options": [
+      "S = (a²√3) / 2",
+      "S = a² / 2",
+      "S = (a²√3) / 4",
+      "S = a²√3"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_8",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Автомобиль проехал первую половину всего пути со скоростью 60 км/ч, а вторую половину — со скоростью 90 км/ч. Какова средняя скорость автомобиля на всем пути?",
+    "options": [
+      "75 км/ч",
+      "80 км/ч",
+      "70 км/ч",
+      "72 км/ч"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_9",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "В выпуклый четырехугольник можно вписать окружность тогда и только тогда, когда:",
+    "options": [
+      "Суммы его противоположных сторон равны",
+      "Суммы его противоположных углов равны 180°",
+      "Его диагонали взаимно перпендикулярны",
+      "Все его углы равны между собой"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_10",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равен наименьший положительный период тригонометрической функции y = tg(x)?",
+    "options": [
+      "2π",
+      "π",
+      "π / 2",
+      "4π"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_11",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Сколько всего существует различных типов правильных многогранников (Платоновых тел) в трехмерном евклидовом пространстве?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_12",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Биссектриса внутреннего угла треугольника делит противоположную сторону на отрезки, которые:",
+    "options": [
+      "Равны половине противоположной стороны",
+      "Обратно пропорциональны прилежащим сторонам",
+      "Пропорциональны высотам треугольника",
+      "Пропорциональны прилежащим сторонам"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_13",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равно точное значение числового выражения log₃ 2 + log₃ 4,5?",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "9"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_14",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "По теореме синусов отношение стороны треугольника a к синусу противолежащего угла α равно:",
+    "options": [
+      "Радиусу описанной окружности R",
+      "Удвоенному радиусу описанной окружности 2R",
+      "Радиусу вписанной окружности r",
+      "Площади треугольника S"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_15",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Симметричную монету бросают трижды. Какова вероятность того, что орел выпадет ровно один раз?",
+    "options": [
+      "1/8",
+      "1/2",
+      "3/8",
+      "1/4"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_16",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Согласно теореме о трех перпендикулярах, прямая, проведенная на плоскости через основание наклонной перпендикулярно ее проекции:",
+    "options": [
+      "Параллельна самой наклонной",
+      "Пересекает наклонную под углом 45°",
+      "Лежит в одной плоскости с наклонной",
+      "Перпендикулярна и самой наклонной"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_17",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равно точное значение cos(120°)?",
+    "options": [
+      "-0,5",
+      "0,5",
+      "-√3 / 2",
+      "√3 / 2"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_18",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Во сколько раз объем пирамиды меньше объема призмы с точно такими же основанием и высотой?",
+    "options": [
+      "В 2 раза",
+      "В 3 раза",
+      "В 4 раза",
+      "В 6 раз"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_19",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равна сумма действительных корней квадратного уравнения x² - 7x + 10 = 0 по теореме Виета?",
+    "options": [
+      "-7",
+      "-10",
+      "7",
+      "10"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_20",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Какова вероятность того, что при случайном бросании стандартного шестигранного кубика выпадет число очков, кратное 3?",
+    "options": [
+      "1/6",
+      "1/2",
+      "2/3",
+      "1/3"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_21",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Высота прямоугольного треугольника, опущенная из вершины прямого угла на гипотенузу, делит ее на отрезки длиной 4 и 9. Чему равна эта высота?",
+    "options": [
+      "6",
+      "6,5",
+      "5",
+      "36"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_22",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равно значение тригонометрического выражения sin²(17°) + cos²(17°)?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "sin(34°)"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_23",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Какая геометрическая фигура получается в сечении сферы абсолютно любой секущей плоскостью?",
+    "options": [
+      "Эллипс",
+      "Парабола",
+      "Окружность",
+      "Гипербола"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_24",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Чему равно значение производной функции f(x) = x³ - 5x + 4 в точке с абсциссой x = 2?",
+    "options": [
+      "12",
+      "3",
+      "4",
+      "7"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_25",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равна длина главной пространственной диагонали куба с ребром 5?",
+    "options": [
+      "5√3",
+      "5√2",
+      "15",
+      "10"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_26",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Из внешней точки к окружности проведены касательная длиной 6 и секущая. Внутренний отрезок секущей равен 5. Чему равна длина всей секущей?",
+    "options": [
+      "4",
+      "9",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_27",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Непрерывная функция f(x) дифференцируема, и ее производная f'(x) меняет знак с плюса на минус при переходе слева направо через точку x₀. Точка x₀ является:",
+    "options": [
+      "Точкой минимума",
+      "Точкой перегиба",
+      "Точкой максимума",
+      "Точкой устранимого разрыва"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_28",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равно значение выражения log₅ 0,04?",
+    "options": [
+      "-1",
+      "0,2",
+      "2",
+      "-2"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_29",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Основания трапеции равны 6 и 14. Чему равна длина отрезка, соединяющего середины диагоналей этой трапеции?",
+    "options": [
+      "4",
+      "5",
+      "8",
+      "10"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_30",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равен первый замечательный предел: предел отношения sin(x) к x при x, стремящемся к 0?",
+    "options": [
+      "0",
+      "1",
+      "Бесконечность",
+      "Предел не существует"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_31",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Сколько ребер имеет правильный октаэдр?",
+    "options": [
+      "8",
+      "6",
+      "12",
+      "14"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_32",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равна площадь ромба, диагонали которого имеют длины 8 и 15?",
+    "options": [
+      "120",
+      "30",
+      "46",
+      "60"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_33",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "События A и B независимы, причем P(A) = 0,4, а P(B) = 0,5. Чему равна вероятность их одновременного наступления P(A ∩ B)?",
+    "options": [
+      "0,2",
+      "0,9",
+      "0,1",
+      "0,45"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_34",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Касательная к графику функции f(x) в точке x₀ параллельна прямой y = 4x - 7. Чему равно значение производной f'(x₀)?",
+    "options": [
+      "-7",
+      "4",
+      "0",
+      "1/4"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_35",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равна градусная мера каждого внутреннего угла правильного шестиугольника?",
+    "options": [
+      "108°",
+      "135°",
+      "120°",
+      "140°"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_36",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Чему равно точное значение выражения 2^(log₂ 7 + 1)?",
+    "options": [
+      "8",
+      "9",
+      "7",
+      "14"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_37",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Какая фундаментальная топологическая теорема связывает число вершин (V), ребер (E) и граней (F) выпуклого многогранника формулой V - E + F = 2?",
+    "options": [
+      "Теорема Эйлера",
+      "Теорема Коши",
+      "Теорема Гаусса",
+      "Теорема Пуанкаре"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_38",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равна длина (модуль) вектора с координатами a(3; -4)?",
+    "options": [
+      "7",
+      "5",
+      "1",
+      "25"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_39",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Если скалярное произведение двух ненулевых векторов равно нулю, то угол между ними равен:",
+    "options": [
+      "0°",
+      "180°",
+      "90°",
+      "45°"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_40",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равен радиус окружности, описанной около прямоугольного треугольника с катетами 6 и 8?",
+    "options": [
+      "10",
+      "2",
+      "4",
+      "5"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_41",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Если площадь круга равна 36π, чему равна длина ограничивающей его окружности?",
+    "options": [
+      "12π",
+      "6π",
+      "18π",
+      "24π"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_42",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Чему равен угол между часовой и минутной стрелками механических часов, когда они показывают ровно 3 часа 30 минут?",
+    "options": [
+      "90°",
+      "75°",
+      "80°",
+      "85°"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_43",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Какое наибольшее значение может принимать функция y = 3 sin(x) - 4 cos(x)?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_44",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "В урне лежат 4 белых и 6 черных шаров. Наугад извлекают один шар. Какова вероятность того, что извлеченный шар окажется белым?",
+    "options": [
+      "0,6",
+      "0,25",
+      "0,5",
+      "0,4"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_45",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Стороны треугольника равны 5, 7 и 8. Чему равен косинус угла, лежащего напротив стороны длиной 7?",
+    "options": [
+      "1/2",
+      "1/7",
+      "3/5",
+      "1/4"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_46",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равна площадь полной поверхности куба с ребром 4?",
+    "options": [
+      "64",
+      "96",
+      "16",
+      "48"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_47",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Точка движется прямолинейно по закону s(t) = t³ - 2t² + 5t (где s — метры, t — секунды). Какова мгновенная скорость точки в момент времени t = 2 с?",
+    "options": [
+      "5 м/с",
+      "8 м/с",
+      "9 м/с",
+      "12 м/с"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_48",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Чему равно значение логарифма log√₃ 9?",
+    "options": [
+      "2",
+      "3",
+      "6",
+      "4"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_49",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Сколько осей симметрии имеет правильный треугольник?",
+    "options": [
+      "3",
+      "1",
+      "6",
+      "Бесконечно много"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_50",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равна сумма внутренних углов любого выпуклого пятиугольника?",
+    "options": [
+      "360°",
+      "540°",
+      "720°",
+      "450°"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_51",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "В правильной четырехугольной пирамиде сторона основания равна 6, а высота пирамиды равна 4. Чему равна длина апофемы боковой грани?",
+    "options": [
+      "6",
+      "3",
+      "5",
+      "4√2"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_52",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равно числовое значение степени выражения (3²)³ / 3⁴?",
+    "options": [
+      "3",
+      "27",
+      "81",
+      "9"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_53",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Измерения прямоугольного параллелепипеда равны 2, 3 и 6. Чему равна длина его главной пространственной диагонали?",
+    "options": [
+      "7",
+      "11",
+      "√41",
+      "49"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_54",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Какое аналитическое уравнение задает окружность с центром в точке C(2; -3) и радиусом R = 5 на координатной плоскости?",
+    "options": [
+      "(x + 2)² + (y - 3)² = 25",
+      "(x - 2)² + (y + 3)² = 25",
+      "(x - 2)² + (y + 3)² = 5",
+      "(x + 2)² + (y - 3)² = 5"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_55",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Чему равен sin(2α), если sin(α) = 3/5 и угол α принадлежит первой четверти (0 < α < π/2)?",
+    "options": [
+      "6/5",
+      "12/25",
+      "24/25",
+      "7/25"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_56",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Каким математическим термином называется точка пересечения всех трех высот треугольника (или их продолжений)?",
+    "options": [
+      "Инцентр",
+      "Барицентр (центроид)",
+      "Циркумцентр",
+      "Ортоцентр"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_57",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Какова вероятность того, что случайно выбранное натуральное двузначное число (от 10 до 99 включительно) делится нацело на 10?",
+    "options": [
+      "1/10",
+      "1/9",
+      "9/100",
+      "1/11"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_58",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Если радиус основания цилиндра увеличить в 2 раза, а его высоту уменьшить в 4 раза, как изменится объем цилиндра?",
+    "options": [
+      "Увеличится в 2 раза",
+      "Не изменится",
+      "Уменьшится в 2 раза",
+      "Увеличится в 4 раза"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_59",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Чему равен тангенс угла наклона касательной к графику параболы y = x² в точке с абсциссой x = 3?",
+    "options": [
+      "9",
+      "3",
+      "6",
+      "1/6"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_60",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Сколько всего диагоналей имеет выпуклый семиугольник?",
+    "options": [
+      "7",
+      "21",
+      "28",
+      "14"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_61",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Где всегда расположен центр окружности, описанной около прямоугольного треугольника?",
+    "options": [
+      "На середине гипотенузы",
+      "В точке пересечения биссектрис внутри треугольника",
+      "В вершине прямого угла",
+      "Вне треугольника напротив прямого угла"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_62",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равно значение логарифмического выражения log₂ 48 - log₂ 3?",
+    "options": [
+      "2",
+      "4",
+      "16",
+      "8"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_63",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Какая формула связывает площадь любого треугольника S с его полупериметром p и радиусом вписанной окружности r?",
+    "options": [
+      "S = p / r",
+      "S = 2pr",
+      "S = pr",
+      "S = p²r"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_64",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Чему равна производная показательной функции f(x) = e^(2x)?",
+    "options": [
+      "e^(2x)",
+      "2e^x",
+      "0,5 e^(2x)",
+      "2e^(2x)"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_65",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "В коробке лежат 5 синих и 3 красных карандаша. Наугад последовательно достают два карандаша без возвращения. Какова вероятность того, что оба окажутся синими?",
+    "options": [
+      "5/14",
+      "25/64",
+      "10/28",
+      "15/56"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_66",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Чему равен предел числовой последовательности aₙ = (4n² + 3n) / (2n² - 5) при n, стремящемся к бесконечности?",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "Бесконечность"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_67",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Площадь ромба равна 24, а одна из его диагоналей равна 6. Чему равна длина стороны этого ромба?",
+    "options": [
+      "10",
+      "8",
+      "5",
+      "4"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_68",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Чему равно точное значение выражения log₅ 125 + log₇ 1?",
+    "options": [
+      "4",
+      "1",
+      "0",
+      "3"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_69",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 1,
+    "question": "Какая из базовых тригонометрических функций является строго нечетной на всей своей области определения?",
+    "options": [
+      "Синус: f(-x) = -f(x)",
+      "Косинус: f(-x) = f(x)",
+      "Квадрат синуса: f(-x) = sin²(x)",
+      "Модуль косинуса"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_70",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 2,
+    "question": "Две трубы, работая одновременно, наполняют резервуар за 6 часов. Первая труба в одиночку наполняет его за 10 часов. За сколько часов наполнит резервуар вторая труба, работая отдельно?",
+    "options": [
+      "12 часов",
+      "15 часов",
+      "16 часов",
+      "20 часов"
+    ],
+    "correctIndex": 1,
+    "image": null
+  }
+]

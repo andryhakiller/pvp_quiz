@@ -1,0 +1,907 @@
+[
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_1",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Чему равен теоретический максимальный коэффициент полезного действия (КПД) тепловой машины, работающей по идеальному циклу Карно?",
+    "options": [
+      "η = (Tнагр - Tхол) / Tнагр",
+      "η = (Tнагр + Tхол) / Tнагр",
+      "η = Tхол / Tнагр",
+      "η = 1 - (V1 / V2)^(γ-1)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_2",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какое число степеней свободы (i) имеет жесткая нелинейная трехатомная молекула (например, молекула водяного пара H2O)?",
+    "options": ["6 (3 поступательные + 3 вращательные)", "3", "5", "7"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_3",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Чему равен показатель адиабаты (коэффициент Пуассона γ = Cp / Cv) для идеального двухатомного газа (например, N2 или O2 при комнатной температуре)?",
+    "options": ["7/5 = 1.40", "5/3 = 1.67", "4/3 = 1.33", "9/7 = 1.29"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_4",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Как формулируется уравнение Майера, связывающее молярные теплоемкости идеального газа при постоянном давлении (Cp) и объеме (Cv)?",
+    "options": ["Cp - Cv = R", "Cp + Cv = R", "Cp / Cv = R", "Cp · Cv = R²"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_5",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что утверждает теорема Больцмана о равномерном распределении энергии по степеням свободы?",
+    "options": [
+      "На каждую поступательную и вращательную степень свободы молекулы в среднем приходится кинетическая энергия (1/2)·k·T",
+      "Энергия распределяется только между поступательными степенями свободы",
+      "Вращательные степени свободы несут в 2 раза больше энергии, чем поступательные",
+      "При абсолютном нуле энергия молекулы строго равна k·T"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_6",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "По какой формуле вычисляется среднеквадратичная скорость теплового движения молекул идеального газа массы m0?",
+    "options": ["vкв = √(3·k·T / m0) = √(3·R·T / M)", "vкв = √(8·k·T / (π·m0))", "vкв = √(2·k·T / m0)", "vкв = 3·k·T / (2·m0)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_7",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какая скорость молекул в распределении Максвелла соответствует максимуму функции распределения f(v)?",
+    "options": [
+      "Наиболее вероятная скорость vвер = √(2·k·T / m0)",
+      "Средняя арифметическая скорость",
+      "Среднеквадратичная скорость",
+      "Скорость звука в газе"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_8",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой барометрическая формула Больцмана для распределения давления идеального газа по высоте h в однородном поле тяжести?",
+    "options": ["p(h) = p0 · exp(-M·g·h / (R·T))", "p(h) = p0 - ρ·g·h", "p(h) = p0 · (1 - g·h / c²)", "p(h) = p0 · exp(+M·g·h / (R·T))"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_9",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какие две поправки к уравнению Менделеева-Клапейрона введены в уравнении Ван-дер-Ваальса для реальных газов: (p + a/Vm²)·(Vm - b) = R·T?",
+    "options": [
+      "a/Vm² — внутреннее давление от сил межмолекулярного притяжения; b — учет собственного объема самих молекул газа",
+      "a — вязкость газа; b — электропроводность",
+      "a — скорость диффузии; b — теплопроводность",
+      "a — гравитационный потенциал; b — теплота фазового перехода"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_10",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что происходит с различием между жидкостью и ее насыщенным паром при достижении критической температуры и критического давления?",
+    "options": [
+      "Плотность жидкости и пара сравниваются, поверхностное натяжение падает до нуля, и граница раздела фаз полностью исчезает (сверхкритическое состояние)",
+      "Жидкость мгновенно кристаллизуется в твердое тело",
+      "Пар распадается на плазму",
+      "Жидкость приобретает сверхтекучесть"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_11",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какую температуру имеет критическая точка для чистой воды (H2O)?",
+    "options": ["374.1 °C (647.3 K) при давлении 218 атм (22.06 МПа)", "100.0 °C при 1 атм", "250.0 °C при 50 атм", "500.0 °C при 1000 атм"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_12",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 1,
+    "question": "Какое физическое состояние вещества соответствует тройной точке на фазовой диаграмме (p-T)?",
+    "options": [
+      "Уникальное состояние термодинамического равновесия, при котором одновременно сосуществуют три фазы: твердая, жидкая и газообразная",
+      "Точка кипения при нормальном давлении",
+      "Точка перехода в плазму",
+      "Состояние сверхпроводимости"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_13",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какая точная температура тройной точки воды принята в Международной температурной шкале ITS-90?",
+    "options": ["0.01 °C (273.16 K) при давлении 611.65 Па (4.58 мм рт. ст.)", "0.00 °C при 760 мм рт. ст.", "-0.01 °C", "4.00 °C"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_14",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Как формулируется первое начало термодинамики для элементарного квазистатического процесса?",
+    "options": ["δQ = dU + δA (подведенная теплота идет на изменение внутренней энергии и совершение работы системой)", "δQ = dU - δA", "dU = δQ + p·dV", "δA = dU · dS"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_15",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какая фундаментальная функция состояния определяется вторым началом термодинамики через соотношение dS = δQ_обр / T?",
+    "options": ["Энтропия (S)", "Энтальпия (H)", "Свободная энергия Гельмгольца (F)", "Химический потенциал (μ)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_16",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что утверждает теорема Нернста (третье начало термодинамики)?",
+    "options": [
+      "При стремлении абсолютной температуры к нулю (T → 0 K) энтропия любой равновесной термодинамической системы стремится к универсальной постоянной (равной нулю для идеального кристалла)",
+      "Абсолютный ноль может быть достигнут за конечное число шагов",
+      "При абсолютном нуле давление любого газа равно 1 атм",
+      "Энтропия замкнутой системы всегда строго убывает"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_17",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какое статистическое определение энтропии выбито на могильном памятнике Людвига Больцмана в Вене?",
+    "options": ["S = k · ln W (где W — термодинамическая вероятность макросостояния)", "E = m · c²", "F = m · a", "p · V = N · k · T"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_18",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что происходит с энтропией изолированной (замкнутой) системы в любых самопроизвольных реальных необратимых процессах?",
+    "options": [
+      "Она монотонно возрастает (ΔS > 0), достигая максимума при термодинамическом равновесии",
+      "Она строго уменьшается до нуля",
+      "Она остается абсолютно постоянной (ΔS = 0)",
+      "Она колеблется с постоянной частотой"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_19",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой термодинамический потенциал Гиббса (G = H - T·S = U + p·V - T·S)?",
+    "options": [
+      "Изобарно-изотермический потенциал, убывающий до минимума при равновесии при постоянных давлении p и температуре T",
+      "Полная кинетическая энергия электронов",
+      "Теплота сгорания топлива в калориметре",
+      "Работа адиабатного расширения"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_20",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какое условие определяет самопроизвольное протекание химической реакции при постоянных давлении и температуре (p, T = const)?",
+    "options": ["Изменение свободной энергии Гиббса отрицательно (ΔG < 0)", "ΔG > 0", "ΔH > 0", "ΔS < 0"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_21",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "По какому уравнению рассчитывается наклон кривой фазового перехода (dp/dT) на диаграмме p-T для фазовых переходов 1-го рода (плавление, кипение)?",
+    "options": ["Уравнение Клапейрона — Клаузиуса: dp/dT = L / (T · ΔV)", "Уравнение Ван-дер-Ваальса", "Закон Рауля", "Формула Больцмана"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_22",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Почему температура плавления льда понижается при увеличении внешнего давления (уникальное свойство воды)?",
+    "options": [
+      "Удельный объем льда больше удельного объема жидкой воды (ΔV < 0 при плавлении), поэтому dp/dT < 0 в уравнении Клапейрона-Клаузиуса",
+      "Из-за высокой теплоемкости воды",
+      "Лед является диэлектриком",
+      "Из-за поверхностного натяжения"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_23",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Чем фазовые переходы 2-го рода (по классификации Эренфеста) отличаются от фазовых переходов 1-го рода?",
+    "options": [
+      "При переходе 2-го рода нет скачка объема и скрытой теплоты перехода (ΔV = 0, Q = 0), но претерпевают скачок вторые производные потенциала Гиббса (теплоемкость, сжимаемость)",
+      "Они происходят мгновенно со взрывом",
+      "Они происходят только при температуре выше 1000 °C",
+      "При них всегда разрушается кристаллическая решетка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_24",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какой из перечисленных процессов является примером фазового перехода второго рода?",
+    "options": [
+      "Переход жидкого гелия-4 в сверхтекучее состояние (лямбда-переход при 2.17 K) или переход ферромагнетика в парамагнетик в точке Кюри",
+      "Кипение воды при 100 °C",
+      "Плавление железа в доменной печи",
+      "Сублимация сухого льда"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_25",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой эффект Джоуля — Томсона при адиабатическом дросселировании реального газа через пористую перегородку?",
+    "options": [
+      "Изменение температуры реального газа при протекании через местное сужение без совершения внешней работы и теплообмена с окружающей средой (dH = 0)",
+      "Нагрев газа от трения о стенки трубы",
+      "Взрыв смеси при резком повышении давления",
+      "Ионизация молекул при дросселировании"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_26",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что такое «температура инверсии» эффекта Джоуля — Томсона?",
+    "options": [
+      "Температура, при которой дифференциальный коэффициент Джоуля-Томсона равен нулю: ниже нее газ при дросселировании охлаждается, а выше — нагревается",
+      "Температура кипения жидкого азота",
+      "Температура вспышки паров топлива",
+      "Критическая температура газа"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_27",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Почему водород и гелий при дросселировании при нормальной комнатной температуре нагреваются, а не охлаждаются?",
+    "options": [
+      "Их температура инверсии эффекта Джоуля-Томсона лежит глубоко в области отрицательных температур (около 200 K для H2 и 40 K для He)",
+      "Они химически реагируют с дросселем",
+      "Они являются идеальными газами без сил притяжения",
+      "Из-за релятивистских эффектов в легких ядрах"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_28",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Из каких четырех термодинамических процессов состоит идеальный замкнутый цикл Карно?",
+    "options": [
+      "Две изотермы и две адиабаты",
+      "Две изохоры и две изобары",
+      "Две изотермы и две изохоры",
+      "Две изобары и две адиабаты"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_29",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Из каких термодинамических процессов состоит замкнутый цикл двигателя Стирлинга с регенерацией тепла?",
+    "options": ["Две изотермы и две изохоры", "Две изотермы и две адиабаты", "Две изобары и две изохоры", "Две адиабаты и две изобары"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_30",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какой цикл лежит в основе работы современных авиационных газотурбинных двигателей (ГТД) и стационарных газовых турбин?",
+    "options": ["Цикл Брайтона (две адиабаты и две изобары)", "Цикл Дизеля", "Цикл Отто", "Цикл Стирлинга"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_31",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какой термодинамический цикл является идеальным эталоном для паротурбинных установок современных тепловых (ТЭС) и атомных (АЭС) электростанций?",
+    "options": ["Цикл Ренкина на водяном паре", "Цикл Карно", "Цикл Брайтона", "Цикл Ленуара"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_32",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой «тепловая трубка» (heat pipe), широко используемая для охлаждения процессоров и космических аппаратов?",
+    "options": [
+      "Герметичная трубка с фитилем (капиллярной структурой) и легкокипящей жидкостью, передающая гигантские тепловые потоки за счет замкнутого цикла испарения и конденсации",
+      "Медный стержень с алмазным напылением",
+      "Трубка с циркулирующим жидким азотом под давлением",
+      "Элемент Пельтье с радиатором"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_33",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какую эквивалентную теплопроводность может иметь качественная тепловая трубка по сравнению с чистой медью?",
+    "options": [
+      "В 100–1000 раз выше теплопроводности сплошного медного стержня того же сечения",
+      "Примерно такую же, как у меди",
+      "В 2 раза ниже меди",
+      "Теплопроводность равна нулю"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_34",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что такое термоэлектрический эффект Пельтье?",
+    "options": [
+      "Выделение или поглощение тепла на контакте двух разнородных проводников/полупроводников при прохождении через них постоянного электрического тока",
+      "Возникновение ЭДС в замкнутой цепи при разности температур спаев",
+      "Нагрев проводника электрическим током по закону Джоуля-Ленца",
+      "Изменение сопротивления проводника в магнитном поле"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_35",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "На каком полупроводниковом материале чаще всего изготавливают современные коммерческие термоэлектрические модули Пельтье?",
+    "options": ["Теллурид висмута (Bi2Te3)", "Чистый монокристаллический кремний", "Арсенид галлия (GaAs)", "Германий с примесью фосфора"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_36",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой термодинамический парадокс Гиббса?",
+    "options": [
+      "Скачкообразное возникновение энтропии смешения при объединении объемов двух газов, которая не стремится к нулю, сколь бы малыми ни были различия между газами, но строго равна нулю для тождественных газов",
+      "Парадокс тепловой смерти Вселенной",
+      "Невозможность охладить тело до абсолютного нуля",
+      "Отрицательная теплоемкость гравитирующих систем"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_37",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какой гипотетический мысленный эксперимент предложил Джеймс Клерк Максвелл в 1867 году для иллюстрации кажущейся возможности нарушения 2-го начала термодинамики?",
+    "options": ["«Демон Максвелла»", "«Кот Шрёдингера»", "«Парадокс близнецов»", "«Китайская комната»"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_38",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 3,
+    "question": "Как Лео Силард и Рольф Ландауэр разрешили парадокс демона Максвелла с точки зрения теории информации?",
+    "options": [
+      "Демон обязан собирать и стирать информацию о скоростях молекул; стирание 1 бита информации в памяти требует диссипации тепла k·T·ln 2 (принцип Ландауэра), компенсируя энтропию",
+      "Демон тратит механическую энергию на трение створки двери",
+      "В микромире нарушается закон сохранения импульса",
+      "Второй закон термодинамики неверен для одиночных молекул"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_39",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой вихревая трубка Ранка — Хилша (Vortex tube)?",
+    "options": [
+      "Простое устройство без движущихся частей, разделяющее входящий сжатый поток воздуха на две фракции — горячую по периферии и холодную по оси",
+      "Ультразвуковой генератор тумана",
+      "Криогенный насос с жидким водородом",
+      "Эжектор для откачки вакуума"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_40",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какую разность температур между горячим и холодным концами может создавать вихревая трубка Ранка-Хилша при давлении на входе 6 бар?",
+    "options": ["Разность до 70–80 °C (например, от -30 °C до +50 °C)", "Не более 2–3 °C", "Свыше 500 °C", "Ровно 0 °C"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_41",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что такое «сублимация» (возгонка) в термодинамике?",
+    "options": [
+      "Прямой фазовый переход вещества из твердого состояния в газообразное, минуя жидкую фазу",
+      "Переход газа непосредственно в жидкость",
+      "Отвердевание расплавленного металла",
+      "Растворение твердого тела в кислоте"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_42",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 1,
+    "question": "Какое вещество при нормальном атмосферном давлении сублимирует при температуре -78.5 °C, переходя сразу в газ без образования жидкости?",
+    "options": ["Диоксид углерода («сухой лед» CO2)", "Водяной лед", "Йод кристаллический", "Нафталин"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_43",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой процесс лиофилизации (сублимационной сушки) продуктов и лекарств?",
+    "options": [
+      "Замораживание продукта с последующим удалением растворителя (льда) путем сублимации в глубоком вакууме при низких температурах с сохранением структуры",
+      "Сушка горячим воздухом при 150 °C",
+      "Обезвоживание концентрированной серной кислотой",
+      "Центрифугирование на высоких оборотах"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_44",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что такое закон теплопроводности Фурье?",
+    "options": [
+      "Плотность теплового потока прямо пропорциональна градиенту температуры со знаком минус: q = -λ · grad(T)",
+      "Количество переданного тепла пропорционально квадрату времени",
+      "Тепловой поток не зависит от геометрии тела",
+      "Теплопроводность идеального газа пропорциональна давлению в кубе"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_45",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "По какому закону Стефана — Больцмана абсолютно черное тело излучает интегральную энергию с единицы поверхности?",
+    "options": ["j = σ · T⁴ (пропорционально четвертой степени абсолютной температуры)", "j = σ · T²", "j = σ · T", "j = σ · ln(T)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_46",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что утверждает закон смещения Вина для спектра излучения абсолютно черного тела?",
+    "options": [
+      "Длина волны λ_max, на которую приходится максимум спектральной плотности излучения, обратно пропорциональна абсолютной температуре: λ_max · T = b",
+      "Интенсивность излучения одинакова на всех длинах волн",
+      "Максимум излучения смещается в инфракрасную область при нагреве",
+      "Частота максимума падает с ростом температуры"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_47",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Чему равна постоянная Вина b в законе смещения Вина?",
+    "options": ["≈ 2.898 · 10⁻³ м·K", "1.38 · 10⁻²³ Дж/K", "5.67 · 10⁻⁸ Вт/(м²·K⁴)", "8.314 Дж/(моль·K)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_48",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какую формулу вывел Макс Планк в 1900 году, положив начало квантовой механике и устранив «ультрафиолетовую катастрофу» Рэлея — Джинса?",
+    "options": [
+      "Формулу спектральной плотности излучения абсолютно черного тела на основе гипотезы о квантовании энергии E = h·ν",
+      "Формулу фотоэффекта Эйнштейна",
+      "Уравнение Шрёдингера",
+      "Принцип неопределенности Гейзенберга"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_49",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой теплоемкость твердого тела по закону Дюлонга — Пти при температурах выше характеристической температуры Дебая?",
+    "options": [
+      "Атомная молярная теплоемкость любого простого кристаллического твердого тела стремится к постоянной величине C = 3·R ≈ 25 Дж/(моль·K)",
+      "Теплоемкость растет пропорционально температуре T",
+      "Теплоемкость падает до нуля",
+      "Теплоемкость равна R/2"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_50",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Как ведет себя решеточная теплоемкость диэлектриков при сверхнизких температурах (T ≪ ΘD) согласно квантовой теории Дебая?",
+    "options": [
+      "Пропорциональна кубу температуры: C_v ∝ T³ («закон кубов Дебая»)",
+      "Остается строго постоянной",
+      "Пропорциональна экспоненте exp(T)",
+      "Линейно зависит от T"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_51",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какая составляющая дает линейный вклад по температуре (C_el = γ·T) в теплоемкость металлов при температурах вблизи абсолютного нуля?",
+    "options": [
+      "Электронный вырожденный газ свободных электронов проводимости (статистика Ферми-Дирака)",
+      "Колебания ядер в узлах кристаллической решетки",
+      "Тепловое расширение объема металла",
+      "Магнитные домены"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_52",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой температура Дебая (ΘD) твердого тела?",
+    "options": [
+      "Температура, выше которой возбуждены все возможные нормальные моды колебаний решетки (фононы), а ниже — начинают проявляться квантовые эффекты вымерзания мод",
+      "Температура плавления кристаллической решетки",
+      "Температура перехода в сверхпроводящее состояние",
+      "Температура испарения электронов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_53",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какое твердое вещество в природе имеет рекордно высокую температуру Дебая (около 2200 K), благодаря чему обладает невероятной теплопроводностью при комнатной температуре?",
+    "options": ["Алмаз (чистый углерод)", "Медь", "Свинец", "Золото"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_54",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Чему равна теплопроводность монокристаллического синтетического или природного алмаза при комнатной температуре (в 5 раз выше чистой меди)?",
+    "options": ["Около 2000–2200 Вт/(м·K)", "Около 400 Вт/(м·K)", "50 Вт/(м·K)", "0.5 Вт/(м·K)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_55",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какими квазичастицами переносится тепло в неметаллических кристаллах (диэлектриках, алмазе)?",
+    "options": ["Фононами (квантами коллективных колебаний кристаллической решетки)", "Электронами проводимости", "Фотонами", "Магнонами"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_56",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой процесс переброса (U-процесс / Umklapp-процесс), открытый Пайерлсом в физике твердого тела?",
+    "options": [
+      "Процесс рассеяния фонона на фононе с выходом суммарного квазиимпульса за пределы первой зоны Бриллюэна, создающий фундаментальное решеточное тепловое сопротивление",
+      "Переход электрона с орбитали на орбиталь",
+      "Отражение волны от границы образца",
+      "Захват нейтрона ядром атома"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_57",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что такое закон Видемана — Франца для металлов?",
+    "options": [
+      "Отношение коэффициента теплопроводности (k) к удельной электрической проводимости (σ) прямо пропорционально абсолютной температуре: k / (σ · T) = L (число Лоренца)",
+      "Электрическое сопротивление падает до нуля при 100 °C",
+      "Теплопроводность металла не зависит от чистоты образца",
+      "Сила тока в металле пропорциональна теплоемкости"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_58",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Чему равно теоретическое число Лоренца L = (π²/3)·(k/e)² в законе Видемана — Франца?",
+    "options": ["2.44 · 10⁻⁸ Вт·Ом/K²", "1.60 · 10⁻¹⁹ Кл", "9.11 · 10⁻³¹ кг", "8.85 · 10⁻¹² Ф/м"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_59",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой эффект Мембы (Mpemba effect)?",
+    "options": [
+      "Парадоксальный феномен, при котором горячая вода при определенных условиях замерзает быстрее, чем изначально холодная вода",
+      "Кипение воды при отрицательных температурах",
+      "Расширение льда при охлаждении ниже -200 °C",
+      "Самопроизвольное разделение смеси спирта и воды"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_60",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "В честь кого назван эффект Мпембы?",
+    "options": [
+      "В честь танзанийского школьника Эраста Мпембы, заметившего в 1963 году, что горячая смесь для мороженого замерзает быстрее холодной",
+      "В честь японского физика Мпембы Сато",
+      "В честь древнеегипетского жреца",
+      "В честь реки в Кении"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_61",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что представляет собой эффект Лейденфроста при контакте жидкости с раскаленной поверхностью?",
+    "options": [
+      "Капля жидкости зависает над поверхностью на изолирующей паровой подушке, резко снижающей теплопередачу и замедляющей выкипание",
+      "Мгновенный взрыв капли при соприкосновении с металлом",
+      "Растекание жидкости тончайшей пленкой",
+      "Прилипание капли к раскаленной сковороде"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_62",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какая точка на кривой кипения Нукиямы соответствует началу формирования сплошной паровой пленки (кризис кипения)?",
+    "options": ["Первый критический тепловой поток (кризис пузырькового кипения)", "Точка замерзания", "Точка росы", "Тройная точка"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_63",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Почему кризис кипения (DNB — Departure from Nucleate Boiling) смертельно опасен для тепловыделяющих сборок (ТВС) ядерных реакторов?",
+    "options": [
+      "Образование паровой пленки резко снижает коэффициент теплоотдачи, приводя к лавинообразному перегреву и расплавлению оболочки ТВЭЛов",
+      "Пар блокирует ядерную цепную реакцию",
+      "Давление в активной зоне падает до нуля",
+      "Вода распадается на чистый водород и кислород со взрывом"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_64",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что такое «тепловая смерть Вселенной» — гипотеза, выдвинутая Рудольфом Клаузиусом в 1865 году?",
+    "options": [
+      "Конечное состояние Вселенной, когда вся энергия необратимо деградирует в тепловое движение с максимальной энтропией, сделав невозможными любые процессы и жизнь",
+      "Сжатие Вселенной в сингулярность с бесконечной температурой",
+      "Охлаждение Вселенной до температуры -500 °C",
+      "Аннигиляция всей материи с темной энергией"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_65",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Почему гравитирующие астрофизические объекты (например, звезды или черные дыры) обладают отрицательной теплоемкостью (C < 0)?",
+    "options": [
+      "При потере тепловой энергии звезда сжимается под действием гравитации, при этом потенциальная энергия падает в 2 раза сильнее, разогревая ядро (теорема вириала)",
+      "Внутри звезд нарушается закон сохранения энергии",
+      "Звезды состоят из антивещества",
+      "Энтропия звезд равна нулю"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_66",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 3,
+    "question": "Какую формулу для энтропии черной дыры вывели Стивен Хокинг и Яаков Бекенштейн?",
+    "options": ["S = (k · c³ · A) / (4 · G · ħ) (энтропия пропорциональна площади горизонта событий A)", "S = M · c² / T", "S = G · M² / ħ", "S = 4 · π · R³ / 3"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_67",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Что такое Бозе — Эйнштейновская конденсация (БЭК) идеального бозе-газа при сверхнизких температурах?",
+    "options": [
+      "Квантовый фазовый переход, при котором макроскопическая доля бозонов скапливается в едином основном квантовом состоянии с нулевым импульсом, образуя единую когерентную волновую функцию",
+      "Отвердевание газа в твердый кристалл",
+      "Распад атомов на кварки",
+      "Ионизация электронных оболочек"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_68",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Кто впервые экспериментально получил конденсат Бозе — Эйнштейна в разреженном газе атомов рубидия-87 в 1995 году (Нобелевская премия 2001)?",
+    "options": ["Эрик Корнелл и Карл Виман (JILA / NIST)", "Лев Ландау и Петр Капица", "Альберт Эйнштейн и Шатьендранат Бозе", "Хейке Камерлинг-Оннес"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_69",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Кто открыл явление сверхтекучести жидкого гелия-4 при температуре ниже лямбда-точки (2.17 K) в 1937 году?",
+    "options": ["Петр Капица (в Москве) и независимо Джон Аллен и Дон Майзнер (в Кембридже)", "Лев Ландау", "Нильс Бор", "Игорь Курчатов"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_mkt_thermodynamics_70",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "mkt_thermodynamics",
+    "difficulty": 2,
+    "question": "Какую двухжидкостную модель для объяснения сверхтекучести гелия-II создал академик Лев Ландау в 1941 году (Нобелевская премия 1962)?",
+    "options": [
+      "Гелий-II рассматривается как смесь двух взаимно проникающих компонент: сверхтекучей (с нулевой вязкостью и нулевой энтропией) и нормальной (переносящей все тепло и вязкость в виде квазичастиц фононов и ротонов)",
+      "Смесь жидкого гелия и твердого льда",
+      "Смесь электронов и позитронов",
+      "Модель идеального классического газа"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

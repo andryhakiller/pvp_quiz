@@ -1,0 +1,702 @@
+[
+  {
+    "id": "math_linalg_geometry_141",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Чему равен определитель произведения двух квадратных матриц A и B одинакового порядка n?",
+    "options": ["det(A) · det(B)", "det(A) + det(B)", "det(A) · det(B)ⁿ", "n · det(A) · det(B)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_142",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Какое свойство умножения чисел в общем случае НЕ выполняется для произведения квадратных матриц одинакового размера?",
+    "options": ["Ассоциативность (сочетательность)", "Коммутативность (переместительность): AB = BA", "Дистрибутивность относительно сложения", "Существование единичной нейтральной матрицы"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_143",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Чему равна обратная матрица произведения двух невырожденных квадратных матриц (AB)⁻¹?",
+    "options": ["A⁻¹B⁻¹", "(BA)⁻¹ · det(A)", "B⁻¹A⁻¹", "A⁻¹ + B⁻¹"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_144",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Как изменится определитель квадратной матрицы при ее транспонировании (замене строк соответствующими столбцами)?",
+    "options": ["Изменит знак на противоположный", "Увеличится в n раз", "Станет равен нулю", "Не изменится: det(Aᵀ) = det(A)"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_145",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Квадратная матрица A является обратимой (невырожденной) тогда и только тогда, когда:",
+    "options": ["Ее определитель отличен от нуля: det(A) ≠ 0", "Все ее элементы строго положительны", "Она является симметричной: A = Aᵀ", "Ее след равен нулю: tr(A) = 0"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_146",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Какая числовая характеристика квадратной матрицы называется ее следом (tr(A) или Sp(A))?",
+    "options": ["Произведение элементов главной диагонали", "Сумма элементов главной диагонали", "Максимальный по модулю элемент", "Сумма элементов первой строки"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_147",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Если все элементы одной строки квадратной матрицы умножить на ненулевое число k, как изменится ее определитель?",
+    "options": ["Увеличится в kⁿ раз", "Не изменится", "Увеличится ровно в k раз", "Увеличится на k"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_148",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Согласно теореме Кронекера — Капелли, система линейных алгебраических уравнений совместна (имеет хотя бы одно решение) тогда и только тогда, когда:",
+    "options": ["Определитель основной матрицы строго больше нуля", "Число уравнений строго равно числу неизвестных", "Матрица системы симметрична", "Ранг основной матрицы равен рангу расширенной матрицы"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_149",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Что произойдет со значением определителя матрицы, если поменять местами две любые ее строки?",
+    "options": ["Определитель изменит знак на противоположный", "Определитель не изменится", "Определитель станет равен единице", "Определитель обратится в ноль"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_150",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Чему численно равен модуль векторного произведения |a × b| двух неколлинеарных векторов a и b в трехмерном пространстве?",
+    "options": ["Периметру параллелограмма", "Площади параллелограмма, построенного на этих векторах", "Площади треугольника на этих векторах", "Объему тетраэдра"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_151",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Три вектора в трехмерном евклидовом пространстве являются компланарными (лежат в одной плоскости) тогда и только тогда, когда их:",
+    "options": ["Скалярное произведение равно единице", "Векторное произведение равно сумме длин", "Смешанное произведение равно нулю", "Длины образуют геометрическую прогрессию"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_152",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Чему равна сумма всех собственных значений квадратной матрицы с учетом их алгебраической кратности?",
+    "options": ["Определителю матрицы", "Рангу матрицы", "Единице", "Следу матрицы (сумме диагональных элементов)"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_153",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Чему равно произведение всех собственных значений квадратной матрицы A с учетом их кратности?",
+    "options": ["Определителю матрицы det(A)", "Следу матрицы tr(A)", "Рангу матрицы", "Норме матрицы"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_154",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Плоскость в пространстве задана уравнением 3x - 4y + 5z - 12 = 0. Какие координаты имеет вектор нормали, перпендикулярный этой плоскости?",
+    "options": ["(-3; 4; -5)", "(3; -4; 5)", "(4; 3; -12)", "(3; 4; 5)"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_155",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Чему равно скалярное произведение векторов a = (2; -3; 4) и b = (5; 2; -1)?",
+    "options": ["16", "2", "0", "-2"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_156",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Сколько векторов входит в фундаментальную систему решений (ФСР) однородной системы из m линейных уравнений с n неизвестными, если ранг матрицы равен r?",
+    "options": ["m - r", "n + r", "r", "n - r"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_157",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Квадратная вещественная матрица Q называется ортогональной, если ее транспонированная матрица совпадает с:",
+    "options": ["Обратной матрицей: Qᵀ = Q⁻¹", "Противоположной матрицей: Qᵀ = -Q", "Исходной матрицей: Qᵀ = Q", "Нулевой матрицей"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_158",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Какие значения может принимать определитель вещественной ортогональной матрицы?",
+    "options": ["Только 0", "Только +1 или -1", "Любое неотрицательное число", "Строго +1"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_159",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Согласно критерию Сильвестра, квадратичная форма является положительно определенной тогда и только тогда, когда:",
+    "options": ["Все ее коэффициенты четные", "Определитель матрицы формы равен 0", "Все ее главные ведущие (угловые) миноры строго положительны", "След матрицы формы равен единице"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_160",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Каким свойством обладают собственные векторы вещественной симметричной матрицы (A = Aᵀ), отвечающие различным собственным значениям?",
+    "options": ["Они коллинеарны", "Они компланарны любой заданной плоскости", "Их длины строго равны единице", "Они взаимно ортогональны"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_161",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Чему равен определитель квадратной матрицы, если две ее строки пропорциональны или равны между собой?",
+    "options": ["0", "1", "-1", "Произведению элементов диагонали"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_162",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Чему равен объем пирамиды (тетраэдра), построенной на трех некомпланарных векторах a, b, c, выходящих из одной вершины?",
+    "options": ["| (a, b, c) |", "1/6 | (a, b, c) |", "1/3 | (a, b, c) |", "1/2 | (a, b, c) |"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_163",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "При каком условии система n линейных уравнений с n неизвестными имеет единственное решение по правилу Крамера?",
+    "options": ["Главный определитель системы равен нулю (Δ = 0)", "Все свободные члены уравнений равны нулю", "Главный определитель системы отличен от нуля (Δ ≠ 0)", "Все вспомогательные определители равны единице"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_164",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Чему равен определитель матрицы k · A, если A — квадратная матрица порядка n, а k — действительное число?",
+    "options": ["k · det(A)", "n · k · det(A)", "k² · det(A)", "kⁿ · det(A)"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_165",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Какое определение соответствует рангу матрицы?",
+    "options": ["Максимальное число линейно независимых строк или столбцов", "Сумма элементов на главной диагонали", "Число нулевых строк в ступенчатом виде", "Общее число столбцов матрицы"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_166",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Система векторов называется линейно зависимой, если существует нетривиальная линейная комбинация этих векторов (не все коэффициенты равны нулю), дающая в результате:",
+    "options": ["Единичный вектор", "Нулевой вектор", "Вектор нормали", "Сумму длин векторов"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_167",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Для чего в евклидовых пространствах применяется классический алгоритм Грама — Шмидта?",
+    "options": ["Для приведения матрицы к диагональному виду", "Для обращения вырожденных матриц", "Для построения ортогонального базиса из произвольной системы векторов", "Для приближенного решения систем уравнений"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_168",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Какое соотношение для скалярного произведения векторов x и y выражает неравенство Коши — Буняковского?",
+    "options": ["(x, y) ≥ |x| · |y|", "(x, y)² = |x|² + |y|²", "(x, y) ≤ 0", "|(x, y)| ≤ |x| · |y|"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_169",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Какое свойство (антикоммутативность) связывает векторные произведения a × b и b × a в трехмерном пространстве?",
+    "options": ["b × a = -(a × b)", "b × a = a × b", "(b × a) · (a × b) = 1", "b × a = 0"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_170",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "По какой формуле вычисляется расстояние d от точки M₀(x₀, y₀, z₀) до плоскости Ax + By + Cz + D = 0?",
+    "options": ["d = |Ax₀ + By₀ + Cz₀| / (A + B + C)", "d = |Ax₀ + By₀ + Cz₀ + D| / √(A² + B² + C²)", "d = (Ax₀ + By₀ + Cz₀ + D)²", "d = √( (x₀ - A)² + (y₀ - B)² + (z₀ - C)² )"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_171",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Две матрицы A и B называются подобными (B = P⁻¹AP). Какая характеристика гарантированно совпадает у подобных матриц?",
+    "options": ["Диагональные элементы", "Количество нулевых элементов", "Определители, следы и спектры собственных значений", "Суммы всех элементов матрицы"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_172",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Матрица A называется нильпотентной, если существует такое натуральное число k, что Aᵏ = 0. Какими являются все собственные значения такой матрицы?",
+    "options": ["Все равны 1", "Все чисто мнимые", "Лежат на единичной окружности", "Все строго равны 0"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_173",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Для линейного оператора T: V → W, действующего из конечномерного пространства V, сумма размерности ядра dim(Ker T) и размерности образа dim(Im T) равна:",
+    "options": ["Размерности исходного пространства dim(V)", "Размерности целевого пространства dim(W)", "Рангу единичной матрицы пространства W", "Нулю"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_174",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Чему равно векторное произведение a × b, если ненулевые векторы a и b коллинеарны (параллельны друг другу)?",
+    "options": ["Произведению их длин |a|·|b|", "Нулевому вектору 0", "Скалярному произведению (a, b)", "Единичному вектору в направлении a"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_175",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "В каких границах лежит эксцентриситет e эллипса, не являющегося окружностью?",
+    "options": ["e = 0", "e = 1", "0 < e < 1", "e > 1"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_176",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Чему равен эксцентриситет любой параболы на плоскости?",
+    "options": ["0", "1/2", "Бесконечности", "1"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_177",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Множество всех линейных комбинаций фиксированной системы векторов v₁, ..., vₖ называется их:",
+    "options": ["Линейной оболочкой (подпространством)", "Ортогональным дополнением", "Аффинным репером", "Ядром отображения"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_178",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Каким свойством обладают все собственные значения вещественного симметричного (самосопряженного) оператора?",
+    "options": ["Они чисто мнимые", "Они всегда вещественны (действительны)", "Они строго положительны", "Их модули равны единице"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_179",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Какая поверхность второго порядка («седло») задается каноническим уравнением x²/a² - y²/b² = 2z?",
+    "options": ["Однополостный гиперболоид", "Двуполостный гиперболоид", "Гиперболический параболоид", "Эллиптический конус"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_180",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Чему тождественно равно скалярное произведение вектора самого на себя (a, a)?",
+    "options": ["Нулю", "Удвоенной длине 2|a|", "Единице", "Квадрату его длины |a|²"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_181",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Столбцами матрицы перехода C от исходного базиса к новому базису векторного пространства являются:",
+    "options": ["Координаты векторов нового базиса в исходном базисе", "Координаты нормалей к базисным плоскостям", "Скалярные произведения базисных векторов", "Собственные значения оператора"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_182",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Матрица P называется идемпотентной (проектором), если P² = P. Какими могут быть ее собственные значения?",
+    "options": ["Только 1 и -1", "Только 0 и 1", "Любыми положительными числами", "Только чисто мнимыми"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_183",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Согласно теореме Гамильтона — Кэли, всякая квадратная матрица A обращает в ноль:",
+    "options": ["Свой след", "Свой базисный минор", "Свой собственный характеристический многочлен", "Свой вронскиан"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_184",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Какая пространственная фигура второго порядка описывается каноническим уравнением x²/a² + y²/b² + z²/c² = 1?",
+    "options": ["Параболоид вращения", "Конус второго порядка", "Гиперболоид", "Эллипсоид"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_185",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Какое неравенство всегда выполняется для ранга произведения двух матриц rank(AB)?",
+    "options": ["rank(AB) ≤ min(rank(A), rank(B))", "rank(AB) ≥ rank(A) + rank(B)", "rank(AB) = rank(A) · rank(B)", "rank(AB) > max(rank(A), rank(B))"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_186",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "По какой формуле через направляющие векторы s₁ и s₂ вычисляется косинус угла φ между двумя прямыми в пространстве?",
+    "options": ["cos φ = |s₁ × s₂| / (|s₁| · |s₂|)", "cos φ = |(s₁, s₂)| / (|s₁| · |s₂|)", "cos φ = (s₁, s₂) / |s₁ + s₂|", "cos φ = |s₁ - s₂|"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_187",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Для квадратной матрицы A условие кососимметричности имеет вид Aᵀ = -A. Что обязательно находится на ее главной диагонали?",
+    "options": ["Все единицы", "Все отрицательные числа", "Все нули", "Произвольные нечетные числа"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_188",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Чему равна размерность векторного пространства всех вещественных матриц размера m × n относительно стандартных операций сложения и умножения на число?",
+    "options": ["m + n", "2^(m+n)", "max(m, n)", "m · n"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_189",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Как выглядит характеристическое уравнение матрицы A второго порядка (размера 2 × 2)?",
+    "options": ["λ² - tr(A)·λ + det(A) = 0", "λ² + tr(A)·λ - det(A) = 0", "λ² - det(A)·λ + tr(A) = 0", "λ² - tr(A)·λ - det(A) = 0"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_190",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Плоскости A₁x + B₁y + C₁z + D₁ = 0 и A₂x + B₂y + C₂z + D₂ = 0 параллельны тогда и только тогда, когда:",
+    "options": ["A₁A₂ + B₁B₂ + C₁C₂ = 0", "Их коэффициенты при координатах пропорциональны: A₁/A₂ = B₁/B₂ = C₁/C₂", "Свободные члены равны: D₁ = D₂", "A₁B₂ - A₂B₁ = 1"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_191",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Какая ортогональная матрица осуществляет поворот вектора на угол θ против часовой стрелки на плоскости (x, y)?",
+    "options": ["[cos θ, sin θ; sin θ, cos θ]", "[cos θ, sin θ; -sin θ, cos θ]", "[cos θ, -sin θ; sin θ, cos θ]", "[-cos θ, sin θ; sin θ, -cos θ]"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_192",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Если однородная система уравнений Ax = 0 с квадратной матрицей порядка n имеет ненулевое решение, то определитель матрицы A:",
+    "options": ["Строго равен 1", "Строго больше нуля", "Строго меньше нуля", "Равен нулю"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_193",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Чему равен определитель верхней треугольной матрицы любого порядка?",
+    "options": ["Произведению элементов главной диагонали", "Сумме диагональных элементов", "Нулю", "Единице"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_194",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Тройка некомпланарных векторов (a, b, c) называется правой, если их смешанное произведение (a, b, c):",
+    "options": ["Строго отрицательно", "Строго положительно", "Равно нулю", "Равно единице"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_195",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Как алгебраическое дополнение Aᵢⱼ элемента матрицы aᵢⱼ связано с его дополнительным минором Mᵢⱼ?",
+    "options": ["Aᵢⱼ = Mᵢⱼ", "Aᵢⱼ = -Mᵢⱼ", "Aᵢⱼ = (-1)ⁱ⁺ʲ · Mᵢⱼ", "Aᵢⱼ = Mᵢⱼ / (i + j)"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_196",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Какое свойство геометрических фигур всегда сохраняется при любом невырожденном аффинном преобразовании плоскости?",
+    "options": ["Длины отрезков", "Величины углов между прямыми", "Площади замкнутых фигур", "Параллельность прямых и отношение отрезков на одной прямой"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_197",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Для чего в вычислительной линейной алгебре применяется метод Жордана — Гаусса с приписанной справа единичной матрицей [A | I]?",
+    "options": ["Для нахождения обратной матрицы A⁻¹", "Для вычисления следа матрицы", "Для нахождения собственных векторов", "Для процесса Грама — Шмидта"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_198",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Какое свойство (цикличность следа) всегда выполняется для следа произведения подходящих матриц tr(AB)?",
+    "options": ["tr(AB) = tr(A) · tr(B)", "tr(AB) = tr(BA)", "tr(AB) = -tr(BA)", "tr(AB) = tr(A) + tr(B)"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_199",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Какая поверхность второго порядка задается уравнением x²/a² + y²/b² - z²/c² = 1 и является линейчатой (содержит семейства прямолинейных образующих)?",
+    "options": ["Двуполостный гиперболоид", "Эллипсоид", "Однополостный гиперболоид", "Эллиптический конус"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_200",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Отрезок общего перпендикуляра между двумя скрещивающимися прямыми в пространстве обладает свойством:",
+    "options": ["Параллелен направляющему вектору первой прямой", "Лежит в плоскости, проходящей через начало координат", "Образует угол 45° с обеими прямыми", "Перпендикулярен одновременно обеим этим прямым"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_201",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Комплексное векторное пространство, снабженное эрмитовым полуторалинейным положительно определенным скалярным произведением, называется:",
+    "options": ["Унитарным пространством", "Банаховым пространством", "Пространством Соболева", "Симплектическим пространством"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_202",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Согласно закону инерции квадратичных форм, при любых невырожденных вещественных заменах переменных остаются неизменными:",
+    "options": ["Сами коэффициенты канонического вида", "Число положительных и число отрицательных коэффициентов (индексы инерции)", "Определитель матрицы перехода", "Значения переменных в вершинах"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_203",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Как раскрывается двойное векторное произведение a × (b × c) согласно правилу «БАЦ минус ЦАБ»?",
+    "options": ["a(b·c) - c(a·b)", "b(a·c) + c(a·b)", "b(a·c) - c(a·b)", "c(a·b) - b(a·c)"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_204",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Квадратная матрица, строки которой составлены из последовательных степеней заданных чисел (1, xᵢ, xᵢ², ..., xᵢⁿ⁻¹), называется матрицей:",
+    "options": ["Адамара", "Гильберта", "Теплица", "Вандермонда"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_205",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Для чего в линейной алгебре и методе наименьших квадратов используется псевдообратная матрица Мура — Пенроуза A⁺?",
+    "options": ["Для нахождения наилучшего приближенного решения переопределенных систем", "Для вычисления определителя прямоугольной матрицы", "Для проверки ортогональности базиса", "Для вычисления следа вырожденной матрицы"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_206",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Квадратная матрица порядка n диагонализуема над полем комплексных чисел тогда и только тогда, когда:",
+    "options": ["Ее определитель строго равен единице", "Она имеет n линейно независимых собственных векторов", "Она является строго верхнетреугольной", "Все ее элементы вещественны"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_207",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Чему тождественно равна сумма циклических двойных векторных произведений [[a, b], c] + [[b, c], a] + [[c, a], b] (тождество Якоби)?",
+    "options": ["(a, b, c)", "2(a × b × c)", "Нулевому вектору 0", "1"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_208",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Ненулевой минор максимального порядка r матрицы называется базисным. Каким свойством обладают проходящие через него строки и столбцы?",
+    "options": ["Они ортогональны всем остальным", "Они содержат только целые числа", "Они линейно зависимы", "Они образуют базис в системе всех строк и столбцов матрицы"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_209",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 2,
+    "question": "Какая величина является инвариантом кривой второго порядка Ax² + 2Bxy + Cy² + ... = 0 и определяет ее тип (эллиптический, гиперболический или параболический)?",
+    "options": ["Дискриминант старшей части: AC - B²", "Свободный член уравнения", "Сумма линейных коэффициентов", "Отношение B / A"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_linalg_geometry_210",
+    "categoryId": "mathematics",
+    "subcategoryId": "linalg_geometry",
+    "difficulty": 1,
+    "question": "Множество всех векторов v линейного пространства, которые линейным оператором T переводятся в нулевой вектор (T(v) = 0), называется:",
+    "options": ["Образом оператора", "Ядром оператора (Ker T)", "Собственным подпространством", "Областью значений"],
+    "correctIndex": 1,
+    "image": null
+  }
+]

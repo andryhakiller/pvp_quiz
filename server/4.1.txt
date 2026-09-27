@@ -1,0 +1,952 @@
+[
+  {
+    "id": "construction_earth_residential_construction_1",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Какой тип фундамента называют «шведской плитой» (УШП) в малоэтажном строительстве?",
+    "options": [
+      "Свайный фундамент с висячим монолитным ростверком",
+      "Утеплённая монолитная плита со встроенными коммуникациями и тёплым полом",
+      "Сборно-ленточный фундамент из блоков ФБС с гидроизоляцией",
+      "Столбчатый фундамент с деревянным лежнем"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_2",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Почему при утеплении каркасной стены пароизоляционную плёнку монтируют строго изнутри помещения, а ветровлагозащитную мембрану — снаружи?",
+    "options": [
+      "Чтобы влага из комнат не проникала в утеплитель, а пар из утеплителя выходил на улицу",
+      "Для защиты от продувания сильными ветрами с обеих сторон одинаково",
+      "Чтобы предотвратить возгорание базальтовой ваты при коротком замыкании",
+      "Чтобы мыши и насекомые не могли проникнуть внутрь каркаса"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_3",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Какой минимальный уклон рекомендуется для стандартной металлочерепицы, чтобы избежать затекания воды на стыках?",
+    "options": ["5 градусов", "12–14 градусов", "25–30 градусов", "45 градусов"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_4",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «мостик холода» в ограждающих конструкциях здания?",
+    "options": [
+      "Зона повышенной теплопроводности, где тепло уходит быстрее и может выпадать конденсат",
+      "Металлическая перемычка в окне для проветривания",
+      "Зазор между цоколем и грунтом для компенсации пучения",
+      "Специальный деформационный шов между пристройкой и домом"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_5",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Для чего в конструкции вентилируемого фасада обязательно оставляют воздушный зазор между утеплителем и облицовкой?",
+    "options": [
+      "Для прокладки скрытой электропроводки и труб",
+      "Для естественной циркуляции воздуха и выветривания влаги из диффузионной мембраны",
+      "Для снижения общей массы конструкции фасада",
+      "Для гашения акустического шума от ветра"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_6",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какова основная функция армопояса (железобетонного монолитного пояса) в доме из газобетонных блоков?",
+    "options": [
+      "Декоративное разделение этажей здания",
+      "Равномерное распределение точечных нагрузок от перекрытий/кровли и предотвращение раскрытия трещин",
+      "Увеличение общей толщины наружной стены для теплоизоляции",
+      "Защита газобетона от атмосферных осадков"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_7",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Какая глубина заложения подошвы ленточного фундамента считается нормативной для пучинистых грунтов без специального утепления?",
+    "options": [
+      "Строго 0.5 метра от планировочной отметки",
+      "Ниже расчетной глубины сезонного промерзания грунта",
+      "Ровно 2 метра во всех климатических зонах РФ",
+      "На уровне грунтовых вод"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_8",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что представляет собой «точка росы» в толще стены жилого дома?",
+    "options": [
+      "Температура, при которой водяной пар в воздухе становится насыщенным и начинает конденсироваться",
+      "Самая холодная точка на внешней поверхности фасада",
+      "Место стыка фундаментной плиты со стеной",
+      "Влажность древесины, при которой начинается гниение"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_9",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Какое дерево чаще всего используется для силового каркаса и стропильной системы в российском малоэтажном строительстве?",
+    "options": ["Дуб и ясень", "Сосна и ель", "Берёза и осина", "Липа и ольха"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_10",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Зачем в углах каркасного дома монтируют диагональные связи (укосины), врезаемые под углом 45–60 градусов?",
+    "options": [
+      "Для обеспечения пространственной жесткости и сопротивления ветровым нагрузкам",
+      "Для удобства крепления гипсокартона",
+      "Для подвешивания радиаторов отопления",
+      "Для фиксации утеплителя от сползания"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_11",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что произойдет с газобетонной стеной, если ее снаружи утеплить экструдированным пенополистиролом (ЭППС) недостаточной толщины без паробарьера изнутри?",
+    "options": [
+      "Стена пересохнет и потрескается от недостатка влаги",
+      "Пар запрется внутри газобетона перед паронепроницаемым ЭППС, вызывая увлажнение и плесень",
+      "ЭППС растворится под воздействием щелочи газобетона",
+      "Плиты ЭППС сползут из-за отсутствия адгезии"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_12",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «компенсационный зазор» при укладке ламината или инженерной доски по периметру помещения?",
+    "options": [
+      "Зазор 8–12 мм у стен для температурно-влажностного расширения покрытия",
+      "Зазор под дверью для вентиляции",
+      "Шов между полосами подложки",
+      "Расстояние между чистовым полом и теплым полом"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_13",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какую функцию выполняет гидравлический разделитель (гидрострелка) в сложной котельной частного дома?",
+    "options": [
+      "Очищает теплоноситель от взвешенных механических частиц и песка",
+      "Гидравлически развязывает контур котла и вторичные контуры отопления (радиаторы, тёплый пол)",
+      "Снижает давление газа перед горелкой",
+      "Нагревает воду для ГВС за счет тепла дымовых газов"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_14",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Какое сечение медного кабеля (ВВГ-Пнг) по нормам ПУЭ выбирается для стандартных розеточных групп с автоматом на 16 А?",
+    "options": ["0.75 мм²", "1.5 мм²", "2.5 мм²", "4.0 мм²"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_15",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «утеплённая отмостка» вокруг дома и для чего она нужна?",
+    "options": [
+      "Дорожка из брусчатки с кабельным обогревом от наледи",
+      "Горизонтальный слой экструдированного пенополистирола по периметру дома для предотвращения промерзания грунта под фундаментом",
+      "Бетонный бордюр, удерживающий насыпной грунт",
+      "Слой керамзита для отвода верховодки"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_16",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какой уклон канализационной трубы диаметром 110 мм является нормативным для самотёчной безнапорной сети частного дома?",
+    "options": ["0.5 см на метр (0.005)", "2 см на метр (0.02)", "5 см на метр (0.05)", "10 см на метр (0.10)"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_17",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 3,
+    "question": "Почему чрезмерно большой уклон канализационной трубы (например, 7-10 см/м для трубы 110 мм) приводит к регулярным засорам?",
+    "options": [
+      "Вода стекает слишком быстро, не успевая транспортировать тяжелые твердые фракции",
+      "Возникает кавитационный износ стенок трубы",
+      "Срываются гидрозатворы во всех сифонах дома",
+      "Труба вибрирует и расстыковывается в раструбах"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_18",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Зачем в системе канализации двухэтажного дома устанавливается фановый стояк, выходящий на кровлю?",
+    "options": [
+      "Для сбора дождевой воды с крыши в канализацию",
+      "Для выравнивания давления и предотвращения срыва водяных затворов в сифонах сантехприборов",
+      "Для подогрева канализационных стоков теплым воздухом чердака",
+      "Для аварийного сброса стоков при переполнении септика"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_19",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Какая влажность древесины считается нормой для технической сушки, используемой в каркасном домостроении?",
+    "options": ["3–5%", "12–18%", "30–35%", "50–60%"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_20",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что представляет собой «плавающий пол» в деревянном или монолитном доме?",
+    "options": [
+      "Пол на понтонах для домов в зоне паводков",
+      "Стяжка или настил, не имеющий жесткой механической связи с плитой перекрытия и стенами (через упругую прослойку)",
+      "Пол из влагостойкой фанеры, плавающей на песчаной подушке",
+      "Наливной полимерный эпоксидный пол"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_21",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какой класс прочности на сжатие имеет наиболее популярный автоклавный газобетон марки плотности D400?",
+    "options": ["B1.0", "B2.5", "B7.5", "B15"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_22",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «ростверк» в конструкции свайного фундамента?",
+    "options": [
+      "Верхняя часть фундамента (балка или плита), объединяющая сваи и передающая нагрузку от стен",
+      "Оголовок сваи с резьбой для регулировки горизонта",
+      "Бетонный башмак на глубине погружения сваи",
+      "Гидроизоляционный слой под первым венцом"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_23",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Почему висячий монолитный ростверк на пучинистых грунтах устраивают с обязательным воздушным зазором 10–15 см от грунта?",
+    "options": [
+      "Для вентиляции подполья от радона",
+      "Чтобы морозное пучение грунта не оторвало ростверк от свай",
+      "Для свободного стока талых вод под домом",
+      "Чтобы исключить контакт бетона с агрессивными грунтовыми водами"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_24",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 3,
+    "question": "Какое максимальное расчетное сопротивление R0 (кПа) обычно имеет сухой песок средней крупности плотного сложения?",
+    "options": ["100–150 кПа", "200–250 кПа", "400–500 кПа", "800–1000 кПа"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_25",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Для чего в деревянном срубе над оконными и дверными коробками оставляют «усадочный зазор»?",
+    "options": [
+      "Для заполнения монтажной пеной для теплоизоляции",
+      "Для компенсации естественной усадки бревен/бруса при высыхании без заклинивания и деформации окон",
+      "Для прокладки кабельных трасс скрытой проводки",
+      "Для естественного воздухообмена помещения"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_26",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «обсада» (или «окосячка») в деревянном домостроении?",
+    "options": [
+      "Деревянный короб в проеме с пазогребневым скользящим соединением, независимый от вертикальной усадки стен",
+      "Финишный наличник с резьбой для наружной отделки",
+      "Подпорная балка под подоконником",
+      "Металлический анкер, жестко притягивающий раму к бревну"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_27",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Какую толщину песчаной подушки обычно закладывают под мелкозаглубленную монолитную плиту?",
+    "options": ["2–5 см", "20–40 см", "100–150 см", "200–250 см"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_28",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Зачем песчаную и щебеночную подушку фундамента послойно проливают водой и трамбуют виброплитой?",
+    "options": [
+      "Для ускорения химической реакции гидратации песка",
+      "Для достижения максимальной плотности скелета грунта и минимизации последующей остаточной осадки",
+      "Для создания водоупорного глиняного замка",
+      "Для охлаждения виброплиты во время работы"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_29",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какой материал используют для разделения песчаной подушки и материнского грунта во избежание заиливания дренажа?",
+    "options": ["Полиэтиленовую пленку 200 мкм", "Иглопробивной геотекстиль (дорнит)", "Рубероид РКП-350", "Стеклохолст паутинку"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_30",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Какая максимальная температура поверхности пола установлена санитарными нормами для жилых зон с водяным теплым полом?",
+    "options": ["26–29 °C", "35–38 °C", "42–45 °C", "50–55 °C"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_31",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какая труба считается наиболее долговечной и технологичной для монтажа контуров водяного тёплого пола в стяжку?",
+    "options": [
+      "Черная стальная шовная труба",
+      "Труба из сшитого полиэтилена (PEX-A / PE-RT) с кислородным барьером EVOH",
+      "ПВХ канализационная тонкостенная труба",
+      "Свинцовая гибкая трубка"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_32",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Зачем в бетонную стяжку тёплого пола обязательно добавляют пластификатор?",
+    "options": [
+      "Для придания бетону приятного глянцевого оттенка",
+      "Для снижения водоцементного отношения, повышения плотности, прочности и теплопроводности стяжки без пустот вокруг труб",
+      "Для замедления набора прочности до 6 месяцев",
+      "Для отпугивания грызунов и насекомых"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_33",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какую толщину защитного слоя бетона необходимо обеспечить до рабочей арматуры в фундаментной плите при наличии бетонной подготовки?",
+    "options": ["10–15 мм", "35–40 мм", "70–80 мм", "100–120 мм"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_34",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 3,
+    "question": "Почему при отсутствии бетонной подготовки (укладка на песчано-щебеночное основание с пленкой) защитный слой бетона увеличивают до 70 мм?",
+    "options": [
+      "Для компенсации неровностей грунта и надежной защиты стали от коррозии грунтовыми водами",
+      "Из-за требований пожарной безопасности класса К0",
+      "Для повышения морозостойкости бетона с F100 до F300",
+      "Чтобы арматура не проткнула слой геотекстиля"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_35",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что представляет собой «мауэрлат» в конструкции скатной крыши?",
+    "options": [
+      "Брус или бревно, уложенное сверху по периметру наружной стены для опирания стропильных ног",
+      "Самая верхняя коньковая доска",
+      "Вертикальная стойка под стропилом",
+      "Карнизная планка под желобом водостока"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_36",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Как мауэрлат надежно крепится к стенам из ячеистого бетона (газобетона)?",
+    "options": [
+      "Обычными черными саморезами по дереву длиной 75 мм",
+      "Резьбовыми шпильками или анкерами, заранее замоноличенными в ж/б армопояс",
+      "Монтажной пеной высокой плотности",
+      "Просто укладывается под собственным весом стропильной системы"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_37",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Какая пропитка обязательна для деревянных элементов стропильной системы по требованиям строительных норм?",
+    "options": ["Олифа натуральная", "Огнебиозащитный состав (антипирен + антисептик)", "Битумный лак (кузбасслак)", "Акриловая фасадная краска"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_38",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «ригель» в стропильной ферме?",
+    "options": [
+      "Горизонтальная балка (затяжка), соединяющая противоположные стропильные ноги и работающая на сжатие или растяжение",
+      "Металлический крюк водостока",
+      "Конек крыши из оцинкованной стали",
+      "Ветровая планка на фронтоне"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_39",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Чем супердиффузионная мембрана в утеплённой кровле отличается от обычной гидроизоляционной плёнки?",
+    "options": [
+      "Ее можно укладывать вплотную к утеплителю без нижнего вентиляционного зазора благодаря высокой паропроницаемости",
+      "Она абсолютно непроницаема ни для пара, ни для воды",
+      "Она имеет встроенный нагревательный греющий кабель",
+      "Она сделана из алюминиевой фольги на стеклосетке"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_40",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какую функцию выполняет контробрешетка (брусок 50х50 мм вдоль стропил) под кровельным покрытием?",
+    "options": [
+      "Создает вентиляционный зазор между гидроизоляцией и сплошной/шаговой обрешеткой",
+      "Служит опорой для снегозадержателей",
+      "Удерживает утеплитель от выпадения внутрь мансарды",
+      "Защищает крышу от попадания молнии"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_41",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какое минимальное расстояние от септика до водозаборной скважины на песчаный горизонт рекомендуется по санитарным нормам при проницаемых грунтах?",
+    "options": ["5 метров", "15–20 метров", "30–50 метров", "100–120 метров"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_42",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что представляет собой станция биологической очистки (АУ — аэрационная установка) сточных вод?",
+    "options": [
+      "Герметичная емкость для отстаивания осадка без подачи кислорода",
+      "Многокамерная емкость с принудительной аэрацией компрессором, где микроорганизмы активного ила окисляют органику",
+      "Химический фильтр с хлорными таблетками",
+      "Колодец из перфорированных колец без дна"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_43",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Для чего в частном доме организуют приточно-вытяжную вентиляцию с рекуперацией тепла?",
+    "options": [
+      "Чтобы подогревать свежий приточный воздух за счёт тепла удаляемого комнатного воздуха без их перемешивания",
+      "Чтобы кондиционировать воздух только в летний период",
+      "Для сбора конденсата и использования его в качестве питьевой воды",
+      "Для автоматического тушения пожара в вентканалах"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_44",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какой теплоизоляционный материал категорически не рекомендуется использовать для утепления вентилируемых фасадов из-за горючести?",
+    "options": ["Базальтовая минераловатная плита", "Обычный пенополистирол (пенопласт)", "Пеностекло", "Эковата с антипиренами"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_45",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «греющий кабель саморегулирующийся» в системах водоснабжения частного дома?",
+    "options": [
+      "Кабель, у которого полимерная матрица меняет сопротивление и мощность нагрева в зависимости от окружающей температуры на каждом участке",
+      "Кабель с механическим термостатом на конце",
+      "Кабель постоянной мощности, управляемый вручную тумблером",
+      "Кабель, работающий исключительно от солнечной батареи"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_46",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Какое давление воздуха в мембранном расширительном баке системы отопления должно быть до заполнения теплоносителем?",
+    "options": [
+      "На 0.2–0.3 бара ниже статического давления холодной системы",
+      "Строго 0 бар (полный вакуум)",
+      "5.0 бар независимо от высоты дома",
+      "В 2 раза выше давления срабатывания сбросного клапана"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_47",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «деревянный двутавр» (I-joist) в современных перекрытиях?",
+    "options": [
+      "Клееный брус квадратного сечения 200х200 мм",
+      "Балка с поясами из цельного бруса/LVL и стенкой из ориентированно-стружечной плиты (OSB)",
+      "Стальной прокатный двутавр №20, обшитый вагонкой",
+      "Бревно, отесанное с двух противоположных сторон"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_48",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Почему перекрытия из балок I-joist практически не скрипят по сравнению с перекрытиями из сырой доски 50х200 мм?",
+    "options": [
+      "Их покрывают специальным силиконовым маслом на заводе",
+      "Они изготовлены из сухих стабильных материалов и не подвержены кручению и усушке",
+      "Они всегда заливаются 15-сантиметровым слоем бетона",
+      "Балки соединяются между собой резиновыми прокладками"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_49",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какую марку бетона по прочности на сжатие чаще всего заказывают для заливки монолитной фундаментной плиты частного дома?",
+    "options": ["М100 (B7.5)", "М200 (B15)", "М300–М350 (B22.5–B25)", "М600 (B45)"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_50",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Сколько суток при нормальной температуре (+20 °C) и влажности бетон набирает свои проектные 100% марочной прочности?",
+    "options": ["3 дня", "7 дней", "28 дней", "90 дней"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_51",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Зачем свежеуложенный монолитный бетон укрывают полиэтиленовой пленкой и регулярно поливают водой в первые дни?",
+    "options": [
+      "Чтобы предотвратить быстрое испарение воды, необходимой для гидратации цемента, и появление усадочных трещин",
+      "Чтобы бетон быстрее охладился до 0 градусов",
+      "Для смыва цементного молочка с поверхности",
+      "Чтобы защитить бетон от ультрафиолетовых лучей"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_52",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что представляет собой кессон над скважиной водоснабжения?",
+    "options": [
+      "Заглубленная ниже точки промерзания герметичная камера над обсадной трубой для размещения оголовка и оборудования",
+      "Насос глубокого погружения с гидроаккумулятором",
+      "Фильтрующая загрузка из активированного угля",
+      "Декоративный домик из бруса над скважиной"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_53",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какая альтернатива кессону позволяет вывести водопроводную трубу из скважины ниже глубины промерзания без строительства камеры?",
+    "options": ["Скважинный адаптер", "Обратный клапан", "Погружной эжектор", "Винтовой фланец"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_54",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Для чего в системе горячего водоснабжения частного дома организуют рециркуляцию через бойлер косвенного нагрева?",
+    "options": [
+      "Чтобы горячая вода текла из смесителя мгновенно без ожидания и слива остывшей воды",
+      "Для охлаждения бойлера в случае перегрева",
+      "Чтобы экономить электроэнергию циркуляционного насоса",
+      "Для промывки водонагревателя от накипи"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_55",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «мягкая кровля» (гибкая черепица) и какое основание под нее требуется?",
+    "options": [
+      "Битумно-полимерные гонты на основе стеклохолста с базальтовой посыпкой; требуется сплошное основание из ОСП-3 или влагостойкой фанеры",
+      "Рулонный рубероид, уложенный прямо на стропила без настила",
+      "Пластиковые панели, монтируемые на разреженную обрешетку с шагом 50 см",
+      "Листовой свинец, раскатанный по теплоизоляции"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_56",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какую роль играют снегозадержатели на металлической кровле?",
+    "options": [
+      "Предотвращают лавинообразный сход снега и льда, защищая водостоки, людей и припаркованные машины",
+      "Увеличивают теплоизоляцию крыши за счет толстого слоя снега",
+      "Усиливают жесткость стропильных ног",
+      "Очищают кровлю от мха и пыли"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_57",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «двойной фальц» в металлических кровлях?",
+    "options": [
+      "Герметичный механический шов с двойным загибом кромок соседних металлических картин, исключающий сквозные саморезы",
+      "Кровля из профнастила в два слоя",
+      "Лист металлочерепицы с двойной полимерной окраской",
+      "Крепление листа двумя саморезами в каждую волну"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_58",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какое преимущество дает использование клееного бруса по сравнению с брусом естественной влажности?",
+    "options": [
+      "Минимальная усадка (менее 1–1.5%), отсутствие глубоких трещин и сохранение геометрии",
+      "В 10 раз меньший вес при том же объеме",
+      "Абсолютная негорючесть без обработки антипиренами",
+      "Возможность собирать дом без проекта и фундамента"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_59",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 1,
+    "question": "Какой газ закачивают в межстекольное пространство качественных энергосберегающих стеклопакетов?",
+    "options": ["Аргон или криптон", "Углекислый газ", "Чистый водород", "Фреон R410A"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_60",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «И-стекло» (Low-E стекло) в современных окнах?",
+    "options": [
+      "Стекло с микроскопическим напылением оксидов металлов (серебра), отражающим тепловое инфракрасное излучение обратно в помещение",
+      "Матовое ударопрочное стекло для ванных комнат",
+      "Тонированное стекло, полностью поглощающее видимый свет",
+      "Самоочищающееся стекло с диоксидом титана"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_61",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Зачем в частном доме устанавливают трехфазное реле напряжения на вводе в электрощит?",
+    "options": [
+      "Для защиты бытовой техники от обрыва нуля, скачков и просадок сетевого напряжения",
+      "Для учета потребляемой реактивной электроэнергии",
+      "Для автоматической подзарядки солнечных аккумуляторов",
+      "Для экономии электричества путем снижения частоты тока"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_62",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «УЗО» (устройство защитного отключения) и от чего оно спасает человека?",
+    "options": [
+      "Отключает цепь при возникновении дифференциального тока утечки на землю при случайном касании фазы человеком",
+      "Отключает ток при коротком замыкании между фазой и нулем",
+      "Снижает силу тока при включении мощных электромоторов",
+      "Защищает линии связи от атмосферных грозовых разрядов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_63",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какое сопротивление растеканию тока контура заземления для частного дома с сетью 380 В является нормативным по ПУЭ (при системе TN-C-S)?",
+    "options": ["Не более 4–10 Ом", "Строго 100 Ом", "500 Ом", "1000 Ом"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_64",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какой материал обычно используют для вертикальных электродов модульно-штыревого заземления?",
+    "options": ["Омедненные или оцинкованные стальные стержни длиной 1.5 м, соединяемые резьбовыми муфтами", "Алюминиевые трубки", "Медные гибкие многожильные тросы", "Чугунные канализационные трубы"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_65",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 3,
+    "question": "Что такое «тепловой насос воздух-вода» для отопления загородного дома?",
+    "options": [
+      "Установка, извлекающая низкопотенциальное тепло из наружного атмосферного воздуха за счет цикла Карно и передающая его в систему водяного отопления",
+      "Дизельная тепловая пушка с водяным радиатором",
+      "Электрический калорифер со встроенным увлажнителем",
+      "Вентилятор, обдувающий трубы горячего водоснабжения"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_66",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что показывает коэффициент эффективности (COP) теплового насоса?",
+    "options": [
+      "Отношение выработанной тепловой энергии к затраченной электрической энергии",
+      "Максимальную температуру нагрева теплоносителя в градусах Цельсия",
+      "Процент содержания фреона в компрессоре",
+      "Уровень акустического шума внешнего блока в децибелах"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_67",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Зачем в системе автономного водоснабжения частного дома устанавливают гидроаккумулятор (мембранный бак)?",
+    "options": [
+      "Для поддержания постоянного давления, запаса воды и снижения частоты включений скважинного насоса",
+      "Для фильтрации железа и марганца",
+      "Для нагрева воды перед подачей в кран",
+      "Для насыщения воды кислородом"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_68",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Что такое «суффозия» вблизи фундаментов зданий?",
+    "options": [
+      "Вымывание и вынос мелких минеральных частиц грунта фильтрующимся потоком воды, ведущее к просадкам",
+      "Замерзание воды в трещинах фундамента",
+      "Окисление арматуры внутри бетона кислородом воздуха",
+      "Капиллярный подъем влаги по порам кирпичной кладки"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_69",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Для чего предназначен пристенный или кольцевой дренаж фундамента?",
+    "options": [
+      "Для перехвата и отвода грунтовых и верховодных вод от фундамента во избежание подтопления подвала и снижения несущей способности грунта",
+      "Для подачи воды под фундамент во время засухи",
+      "Для вентиляции подвальных помещений",
+      "Для сброса очищенных стоков из септика"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_residential_construction_70",
+    "categoryId": "construction_earth",
+    "subcategoryId": "residential_construction",
+    "difficulty": 2,
+    "question": "Какую перфорированную трубу чаще всего используют при устройстве пристенного дренажа вокруг загородного дома?",
+    "options": [
+      "Гофрированную полимерную трубу (HDPE/ПВХ) в фильтре из геотекстиля, уложенную в щебеночную призму",
+      "Чугунную раструбную трубу без отверстий",
+      "Металлопластиковую трубу диаметром 16 мм",
+      "Асбестоцементную глухую трубу"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

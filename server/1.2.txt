@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "geography_physical_geography_1",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Территория какого южноамериканского государства вытянута узкой полосой более чем на 4300 км вдоль Тихого океана при средней ширине всего около 175 км?",
+    "options": [
+      "Чили",
+      "Перу",
+      "Аргентина",
+      "Эквадор"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_2",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какое карликовое королевство является полным географическим анклавом, со всех сторон окруженным территорией ЮАР?",
+    "options": [
+      "Эсватини",
+      "Лесото",
+      "Ботсвана",
+      "Бурунди"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_3",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Контур какого штата США имеет прямоугольную основу с характерной узкой полосой на северо-западе в форме «ручки сковороды» (panhandle)?",
+    "options": [
+      "Техас",
+      "Канзас",
+      "Оклахома",
+      "Небраска"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_4",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какой субъект Российской Федерации является полуэксклавом на побережье Балтийского моря и не имеет сухопутной границы с остальной Россией?",
+    "options": [
+      "Ленинградская область",
+      "Республика Карелия",
+      "Псковская область",
+      "Калининградская область"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_5",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какая крупнейшая по площади провинция Канады является официально франкоязычной и омывается Гудзоновым проливом и заливом Джеймс?",
+    "options": [
+      "Квебек",
+      "Онтарио",
+      "Британская Колумбия",
+      "Нью-Брансуик"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_6",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Границы какого балканского государства очерчены в форме подковы или бумеранга, из-за чего оно охватывает соседа с севера и запада и забирает почти все побережье Адриатики?",
+    "options": [
+      "Словения",
+      "Хорватия",
+      "Черногория",
+      "Албания"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_7",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какое африканское государство представляет собой узкую полосу земли шириной от 25 до 50 км вдоль русла одноименной реки, глубоко врезанную в территорию Сенегала?",
+    "options": [
+      "Гвинея-Бисау",
+      "Сьерра-Леоне",
+      "Гамбия",
+      "Бенин"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_8",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какой штат США физически разделен проливом Макино на два обособленных региона — Верхний лесистый полуостров и Нижний полуостров, напоминающий по форме варежку?",
+    "options": [
+      "Висконсин",
+      "Миннесота",
+      "Иллинойс",
+      "Мичиган"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_9",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какой крупный дальневосточный полуостров России протяженностью 1200 км разделяет Охотское море и Тихий океан и насчитывает около 30 действующих вулканов?",
+    "options": [
+      "Камчатский край",
+      "Чукотский АО",
+      "Магаданская область",
+      "Хабаровский край"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_10",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какое государство Восточной Африки занимает географический выступ суши, известный как «Африканский рог»?",
+    "options": [
+      "Эритрея",
+      "Сомали",
+      "Джибути",
+      "Кения"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_11",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какой австралийский штат представляет собой обособленный остров треугольной формы, отделенный от материка Бассовым проливом?",
+    "options": [
+      "Виктория",
+      "Квинсленд",
+      "Тасмания",
+      "Южная Австралия"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_12",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какой исторический регион Румынии представляет собой горное плато, со всех сторон окруженное дугой Карпатских гор?",
+    "options": [
+      "Валахия",
+      "Молдова",
+      "Добруджа",
+      "Трансильвания"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_13",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какая североевропейская страна протянулась узкой скалистой полосой с тысячами фьордов вдоль побережья Атлантики, огибая с севера Швецию и Финляндию?",
+    "options": [
+      "Норвегия",
+      "Исландия",
+      "Дания",
+      "Ирландия"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_14",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какой южный штат США в низовьях и заболоченной дельте реки Миссисипи легко узнать на карте по форме сапога («The Boot»)?",
+    "options": [
+      "Миссисипи",
+      "Луизиана",
+      "Алабама",
+      "Арканзас"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_15",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какой субъект РФ является крупнейшей административно-территориальной единицей в мире (более 3 млн кв. км), занимая почти всю северо-восточную Сибирь?",
+    "options": [
+      "Красноярский край",
+      "Хабаровский край",
+      "Республика Саха (Якутия)",
+      "Чукотский АО"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_16",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какая богатая нефтью провинция-эксклав Анголы полностью отделена от основной территории страны узким выходом ДР Конго к океану?",
+    "options": [
+      "Бенгела",
+      "Уамбо",
+      "Луанда",
+      "Кабинда"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_17",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какой автономный регион Испании расположен на крайнем северо-западе Пиренейского полуострова прямо над Португалией (с мысом Финистерре)?",
+    "options": [
+      "Галисия",
+      "Астурия",
+      "Кантабрия",
+      "Арагон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_18",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какой штат США, уступающий по площади только Аляске, получил официальное прозвище «Штат одинокой звезды» и отделен от Мексики руслом реки Рио-Гранде?",
+    "options": [
+      "Нью-Мексико",
+      "Техас",
+      "Аризона",
+      "Колорадо"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_19",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какое государство расположено на узком изогнутом перешейке в форме горизонтальной буквы S, соединяющем Северную и Южную Америку?",
+    "options": [
+      "Коста-Рика",
+      "Никарагуа",
+      "Панама",
+      "Гондурас"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_20",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какой исторический регион Франции представляет собой массивный полуостров между Ла-Маншем и Бискайским заливом, жители которого говорят на кельтском языке?",
+    "options": [
+      "Нормандия",
+      "Аквитания",
+      "Окситания",
+      "Бретань"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_21",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какая страна Юго-Западной Африки имеет на северо-востоке узкий выступ суши длиной 450 км (полосу Каприви), дающий выход к реке Замбези?",
+    "options": [
+      "Намибия",
+      "Ботсвана",
+      "Ангола",
+      "Замбия"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_22",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Контур какого штата США представляет собой плоский низменный полуостров длиной около 700 км, разделяющий Мексиканский залив и Атлантику?",
+    "options": [
+      "Джорджия",
+      "Флорида",
+      "Северная Каролина",
+      "Южная Каролина"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_23",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какое государство Центральной Азии с высохшим Аральским морем на севере является одним из двух в мире «дважды не имеющих выхода к морю»?",
+    "options": [
+      "Казахстан",
+      "Туркменистан",
+      "Узбекистан",
+      "Таджикистан"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_24",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какой регион России занимает крайнюю восточную точку Евразии (мыс Дежнёва) и отделен от Аляски Беринговым проливом шириной всего 86 км?",
+    "options": [
+      "Якутия",
+      "Магаданская область",
+      "Камчатский край",
+      "Чукотский автономный округ"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_25",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какая самая крупная и малонаселенная административная единица Канады охватывает Канадский Арктический архипелаг и остров Баффинова Земля?",
+    "options": [
+      "Нунавут",
+      "Северо-Западные территории",
+      "Юкон",
+      "Ньюфаундленд и Лабрадор"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_26",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какой крупнейший по площади регион Китая на крайнем северо-западе страны занят песчаной пустыней Такла-Макан и хребтами Тянь-Шаня?",
+    "options": [
+      "Тибетский АР",
+      "Синьцзян-Уйгурский АР",
+      "Внутренняя Монголия",
+      "Цинхай"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_27",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Территория какого крупнейшего штата США включает огромный полуостров на северо-западе континента и протяженную вулканическую дугу Алеутских островов?",
+    "options": [
+      "Монтана",
+      "Вашингтон",
+      "Аляска",
+      "Орегон"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_28",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какая единственная страна полуострова Индокитай не имеет прямого выхода к Мировому океану и вытянута с севера на юг вдоль реки Меконг?",
+    "options": [
+      "Камбоджа",
+      "Мьянма",
+      "Таиланд",
+      "Лаос"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_29",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какая автономная республика-эксклав Азербайджана полностью изолирована от основной территории страны Арменией, гранича также с Ираном и Турцией?",
+    "options": [
+      "Нахичеванская Автономная Республика",
+      "Карабах",
+      "Аджария",
+      "Гагаузия"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_30",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какой регион Италии на карте занимает самый «носок» Апеннинского полуострова прямо напротив Мессинского пролива и острова Сицилия?",
+    "options": [
+      "Апулия",
+      "Калабрия",
+      "Базиликата",
+      "Кампания"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_31",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Взрыв какого вулкана в Зондском проливе в 1883 году породил воздушную волну, обогнувшую Землю несколько раз, и считается самым громким звуком в истории наблюдений?",
+    "options": [
+      "Кракатау",
+      "Тамбора",
+      "Мерапи",
+      "Тоба"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_32",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Извержение какого вулкана в 1815 году выбросило в стратосферу столько серы и пепла, что вызвало глобальное похолодание, известное как «Год без лета» (1816)?",
+    "options": [
+      "Пинатубо",
+      "Тамбора",
+      "Кракатау",
+      "Невадо-дель-Руис"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_33",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Через какую реку — самую полноводную на планете — на всем ее протяжении (более 6400 км) не построено ни одного постоянного моста?",
+    "options": [
+      "Конго",
+      "Янцзы",
+      "Амазонка",
+      "Миссисипи"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_34",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какая река является самой глубокой в мире, превышая в отдельных каньонах глубину в 220 метров, и дважды пересекает линию экватора?",
+    "options": [
+      "Замбези",
+      "Нил",
+      "Нигер",
+      "Конго"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_35",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "В каком озере сосредоточено около 20% всех мировых запасов незамерзшей поверхностной пресной воды Земли?",
+    "options": [
+      "Байкал",
+      "Озеро Верхнее",
+      "Танганьика",
+      "Виктория"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_36",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какая океаническая впадина на западе Тихого океана содержит глубочайшую точку Мирового океана — Бездну Челленджера (около 11 000 м)?",
+    "options": [
+      "Желоб Пуэрто-Рико",
+      "Марианский желоб",
+      "Филиппинский желоб",
+      "Зондский желоб"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_37",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Землетрясение какой рекордной магнитуды, зарегистрированное в Вальдивии (Чили) в мае 1960 года, является мощнейшим за всю историю инструментальных наблюдений?",
+    "options": [
+      "Магнитуда 8,8",
+      "Магнитуда 9,1",
+      "Магнитуда 9,5",
+      "Магнитуда 9,9"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_38",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какое море Атлантического океана является единственным в мире водоемом без сухопутных берегов, так как его границы очерчены кольцом океанических течений?",
+    "options": [
+      "Берингово море",
+      "Коралловое море",
+      "Море Уэдделла",
+      "Саргассово море"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_39",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какая река Азии получила свое историческое название из-за гигантского объема взвешенного лессового ила, окрашивающего ее поток в мутно-желтый цвет?",
+    "options": [
+      "Хуанхэ",
+      "Янцзы",
+      "Инд",
+      "Брахмапутра"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_40",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Извержение какого исландского подледного вулкана весной 2010 года привело к крупнейшему в послевоенной истории закрытию воздушного пространства над Европой?",
+    "options": [
+      "Гекла",
+      "Эйяфьядлайёкюдль",
+      "Катла",
+      "Гримсвётн"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_41",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 3,
+    "question": "Из-за какого редкого природного явления в 1986 году на высокогорном вулканическом озере Ньос в Камеруне произошел внезапный выброс удушающего облака CO2, погубивший 1700 человек?",
+    "options": [
+      "Пирокластический взрыв",
+      "Гидротермальный прорыв",
+      "Лимнологическая катастрофа",
+      "Выброс метанггидратов"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_42",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Если измерять высоту горы от ее истинного подводного подножия на дне океана (более 10 200 м), какая вершина Гавайев превосходит Эверест?",
+    "options": [
+      "Килауэа",
+      "Килиманджаро",
+      "Охос-дель-Саладо",
+      "Мауна-Кеа"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_43",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "В бессточный бассейн какого изолированного водоема несет свои воды длиннейшая река Европы — Волга?",
+    "options": [
+      "Каспийское море",
+      "Черное море",
+      "Азовское море",
+      "Аральское море"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_44",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какое африканское рифтовое озеро занимает второе место в мире по глубине (1470 м) и является самым длинным пресноводным озером планеты (около 670 км)?",
+    "options": [
+      "Виктория",
+      "Танганьика",
+      "Малави (Ньяса)",
+      "Альберт"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_45",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "1 ноября 1755 года столица какого европейского государства была почти полностью уничтожена тройным ударом: подземными толчками, 15-метровым цунами и пятидневным пожаром?",
+    "options": [
+      "Испания (Мадрид)",
+      "Италия (Неаполь)",
+      "Португалия (Лиссабон)",
+      "Греция (Афины)"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_46",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какое самое опасное вулканическое явление представляет собой лавину из раскаленных газов, пепла и камней, несущуюся по склону со скоростью сотен км/ч при температуре до 800 °C?",
+    "options": [
+      "Лахар",
+      "Бомбовый шлейф",
+      "Базальтовый излив",
+      "Пирокластический поток"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_47",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какой знаменитый трансформный разлом земной коры длиной 1300 км проходит через штат Калифорния, разделяя Тихоокеанскую и Североамериканскую литосферные плиты?",
+    "options": [
+      "Разлом Сан-Андреас",
+      "Анатолийский разлом",
+      "Байкальский рифт",
+      "Альпийский разлом"
+    ],
+    "correctIndex": 0,
+    "image": "Аэрофотосъемка разлома Сан-Андреас в пустынной долине Карризо-Плейн."
+  },
+  {
+    "id": "geography_physical_geography_48",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какое крупное бессточное озеро в Казахстане обладает уникальным гидрологическим свойством: его западная половина пресная, а восточная — солоноватая?",
+    "options": [
+      "Зайсан",
+      "Балхаш",
+      "Алаколь",
+      "Севан"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_49",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Почему Красное море является самым соленым среди всех открытых морей Мирового океана (до 41‰)?",
+    "options": [
+      "Из-за подводных соляных гейзеров",
+      "Из-за постоянных солевых сбросов Индийского океана",
+      "В него не впадает ни одна постоянная река при высоком испарении",
+      "Из-за специфического состава прибрежных известняков"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_50",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "На какой реке Южной Африки находится водопад Виктория, срывающийся с километрового уступа в узкую расщелину?",
+    "options": [
+      "Конго",
+      "Нигер",
+      "Лимпопо",
+      "Замбези"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_51",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Подводное землетрясение у берегов какого индонезийского острова 26 декабря 2004 года вызвало катастрофическое цунами, унесшее более 220 тысяч жизней?",
+    "options": [
+      "Суматра",
+      "Ява",
+      "Бали",
+      "Сулавеси"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_52",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какой пролив между Огненной Землей и Антарктидой является самым широким и глубоким на планете, отличаясь штормовыми ветрами «неистовых пятидесятых»?",
+    "options": [
+      "Магелланов пролив",
+      "Пролив Дрейка",
+      "Берингов пролив",
+      "Пролив Лаперуза"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_53",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какое гигантское пресное реликтовое озеро лежит подо льдами Антарктиды на глубине почти 4000 метров и было изолировано от внешнего мира миллионы лет?",
+    "options": [
+      "Озеро Элсуэрт",
+      "Озеро Мерсер",
+      "Озеро Восток",
+      "Озеро Ванда"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_54",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какое мощное теплое поверхностное течение Атлантического океана переносит колоссальные массы тепла из Мексиканского залива к берегам Европы?",
+    "options": [
+      "Куросио",
+      "Канарское течение",
+      "Бенгельское течение",
+      "Гольфстрим"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_55",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Какой вулкан в Андах на границе Чили и Аргентины (высота 6893 м) признан высочайшим действующим вулканом на Земле?",
+    "options": [
+      "Охос-дель-Саладо",
+      "Льюльяйльяко",
+      "Котопахи",
+      "Чимборасо"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_56",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Воды какой реки на протяжении миллионов лет размывали осадочные породы плато в США, сформировав Гранд-Каньон глубиной до 1800 метров?",
+    "options": [
+      "Рио-Гранде",
+      "Колорадо",
+      "Колумбия",
+      "Миссури"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_57",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Уровень поверхности какого бессточного соленого озера находится на отметке более 430 метров ниже уровня океана, являясь самой низкой точкой суши?",
+    "options": [
+      "Озеро Ассаль",
+      "Озеро Эйр",
+      "Мертвое море",
+      "Турфанская впадина"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_58",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Как называется периодический природный феномен, при котором потепление поверхностных вод экваториальной зоны Тихого океана нарушает атмосферную циркуляцию по всей Земле?",
+    "options": [
+      "Ла-Нинья",
+      "Атлантическая осцилляция",
+      "Индоокеанский диполь",
+      "Эль-Ниньо"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_59",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Слияние каких двух рек образует Бенгальскую дельту — крупнейшую по площади речную дельту на планете, покрытую мангровыми лесами Сундарбан?",
+    "options": [
+      "Ганг и Брахмапутра",
+      "Инд и Сатледж",
+      "Тигр и Евфрат",
+      "Янцзы и Хуанхэ"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_60",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Под каким национальным парком США находится активная вулканическая горячая точка и кальдера супервулкана размером 55 на 72 км?",
+    "options": [
+      "Йосемити",
+      "Йеллоустоун",
+      "Гранд-Титон",
+      "Долина Смерти"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_61",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Как в океанологии называется вертикальный подъем холодных глубинных вод, богатых минеральными веществами, к поверхности водоема?",
+    "options": [
+      "Даунвеллинг",
+      "Термохалинная циркуляция",
+      "Апвеллинг",
+      "Сгонное течение"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_62",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какое озеро в Андах на высоте 3812 м на границе Перу и Боливии признано самым высокогорным в мире среди коммерчески судоходных водоемов?",
+    "options": [
+      "Поопо",
+      "Хунин",
+      "Мар-Чикита",
+      "Титикака"
+    ],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_63",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "В пределах какой геологической структуры длиной более 6000 км происходит постепенный раскол Африканской литосферной плиты на плиты Сомали и Нубия?",
+    "options": [
+      "Восточно-Африканский рифт",
+      "Байкальская рифтовая зона",
+      "Красное море",
+      "Рейнский грабен"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_64",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "Какая река Сибири протяженностью свыше 4400 км целиком протекает в зоне сплошной вечной мерзлоты и образует гигантскую арктическую дельту в море Лаптевых?",
+    "options": [
+      "Обь",
+      "Лена",
+      "Енисей",
+      "Колыма"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_65",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 1,
+    "question": "В какой зоне вдоль границ океанических плит расположено более 75% всех действующих вулканов Земли и происходит около 90% всех мировых землетрясений?",
+    "options": [
+      "Альпийско-Гималайский пояс",
+      "Срединно-Атлантический пояс",
+      "Тихоокеанское огненное кольцо",
+      "Урало-Монгольский пояс"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_66",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "На территории какого государства Срединно-Атлантический хребет (граница Североамериканской и Евразийской плит) выходит прямо на сушу в виде рифтовой долины?",
+    "options": [
+      "Новая Зеландия",
+      "Япония",
+      "Индонезия",
+      "Исландия"
+    ],
+    "correctIndex": 3,
+    "image": "Национальный парк Тингведлир в Исландии с каньоном на стыке тектонических плит."
+  },
+  {
+    "id": "geography_physical_geography_67",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "У города Манаус черные прозрачные воды Риу-Негру текут параллельно, не смешиваясь, с песчано-желтыми водами Солимойнс. Какая река образуется ниже их слияния?",
+    "options": [
+      "Амазонка",
+      "Ориноко",
+      "Парана",
+      "Мадейра"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_68",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Как называется грязевой вулканический поток из смеси воды, пепла и камней, возникающий при быстром таянии ледников на вершине во время извержения?",
+    "options": [
+      "Оползень",
+      "Лахар",
+      "Сель",
+      "Осыпь"
+    ],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_69",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "В какой стране Юго-Восточной Азии озеро Тонлесап в сезон муссонов увеличивается в несколько раз, заставляя вытекающую из него реку поворачивать вспять?",
+    "options": [
+      "Вьетнам",
+      "Таиланд",
+      "Камбоджа",
+      "Лаос"
+    ],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_physical_geography_70",
+    "categoryId": "geography",
+    "subcategoryId": "physical_geography",
+    "difficulty": 2,
+    "question": "Извержение какого вулкана во II тысячелетии до н.э. вызвало волны цунами в Эгейском море и связывается историками с упадком минойской цивилизации Крита?",
+    "options": [
+      "Этна",
+      "Стромболи",
+      "Везувий",
+      "Санторин (Тира)"
+    ],
+    "correctIndex": 3,
+    "image": null
+  }
+]

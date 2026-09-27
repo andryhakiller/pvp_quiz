@@ -1,0 +1,702 @@
+[
+  {
+    "id": "geography_flags_heraldry_1",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Флаг какого единственного признанного государства мира представлен на фотографии?",
+    "options": ["Непал", "Бутан", "Мьянма", "Шри-Ланка"],
+    "correctIndex": 0,
+    "image": "Государственный флаг Непала уникальной формы из двух соединенных вымпелов с солнцем и полумесяцем (без текстовых надписей)."
+  },
+  {
+    "id": "geography_flags_heraldry_2",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Какая европейская страна, наряду с Ватиканом, официально утвердила государственный флаг строго квадратной формы?",
+    "options": ["Лихтенштейн", "Швейцария", "Монако", "Сан-Марино"],
+    "correctIndex": 1,
+    "image": "Квадратный красный флаг Швейцарии с прямым белым крестом в центре."
+  },
+  {
+    "id": "geography_flags_heraldry_3",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Флаг какой африканской страны с изображением автомата Калашникова со штыком показан на фото?",
+    "options": ["Ангола", "Зимбабве", "Мозамбик", "Сомали"],
+    "correctIndex": 2,
+    "image": "Флаг Мозамбика: зеленый, черный и желтый горизонтальные пояса, в красном треугольнике у древка — звезда, книга, мотыга и автомат Калашникова."
+  },
+  {
+    "id": "geography_flags_heraldry_4",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Какое островное государство Средиземноморья разместило силуэт своего острова на государственном флаге?",
+    "options": ["Мальта", "Исландия", "Крит", "Кипр"],
+    "correctIndex": 3,
+    "image": "Флаг Республики Кипр: белое полотно с медным силуэтом карты острова и двумя оливковыми ветвями под ним."
+  },
+  {
+    "id": "geography_flags_heraldry_5",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Флаг какого исторического социалистического государства с эмблемой из молота и циркуля в венке из колосьев показан на фото?",
+    "options": ["ГДР", "ПНР (Польша)", "ВНР (Венгрия)", "ЧССР"],
+    "correctIndex": 0,
+    "image": "Государственный флаг ГДР: черно-красно-золотой триколор с гербом в центре — молот, циркуль и венок из колосьев ржи."
+  },
+  {
+    "id": "geography_flags_heraldry_6",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Флаг какого европейского государства (1920–1992) с синим клином у древка изображен на фотографии?",
+    "options": ["Югославия", "Чехословакия", "Австро-Венгрия", "Болгария"],
+    "correctIndex": 1,
+    "image": "Исторический флаг Чехословакии: синий равнобедренный треугольник у древка, верхняя полоса белая, нижняя — красная."
+  },
+  {
+    "id": "geography_flags_heraldry_7",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Какое распавшееся балканское федеративное государство использовало данный триколор с красной звездой?",
+    "options": ["Болгария", "Румыния", "СФР Югославия", "Албания"],
+    "correctIndex": 2,
+    "image": "Флаг СФР Югославии: сине-бело-красный триколор с большой красной пятиконечной звездой в золотой кайме по центру."
+  },
+  {
+    "id": "geography_flags_heraldry_8",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Какой европейский город использует флаг с тремя белыми андреевскими крестами на черной вертикальной полосе?",
+    "options": ["Брюссель", "Копенгаген", "Гамбург", "Амстердам"],
+    "correctIndex": 3,
+    "image": "Флаг Амстердама: красно-черно-красное полотно с тремя белыми косыми крестами (символ XXX) на черной центральной полосе."
+  },
+  {
+    "id": "geography_flags_heraldry_9",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Исторический флаг какой морской республики украшает крылатый лев с шестью развевающимися хвостами-лентами?",
+    "options": ["Венеция", "Генуя", "Пиза", "Амальфи"],
+    "correctIndex": 0,
+    "image": "Флаг Венецианской республики: темно-красное полотно с золотым крылатым львом святого Марка и шестью языками-лентами."
+  },
+  {
+    "id": "geography_flags_heraldry_10",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Символом какого средиземноморского острова является голова мавра с белой повязкой на лбу (Testa di Moru)?",
+    "options": ["Сардиния", "Корсика", "Мальорка", "Сицилия"],
+    "correctIndex": 1,
+    "image": "Флаг Корсики: белое полотно с профилем черной головы мавра с белой повязкой на лбу."
+  },
+  {
+    "id": "geography_flags_heraldry_11",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Тринакрия — три бегущие ноги, растущие из головы Медузы, — изображена на флаге какого острова?",
+    "options": ["Крит", "Кипр", "Сицилия", "Родос"],
+    "correctIndex": 2,
+    "image": "Флаг Сицилии: диагонально разделенное желто-красное поле с трискелионом из трех ног и крылатой головой в центре."
+  },
+  {
+    "id": "geography_flags_heraldry_12",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Флаг «Икурринья» с зеленым андреевским и белым прямым крестом является национальным символом какого народа?",
+    "options": ["Каталонцы", "Галисийцы", "Бретонцы", "Баски"],
+    "correctIndex": 3,
+    "image": "Флаг Страны Басков (Икурринья): красное полотнище с зеленым косым и белым прямым крестами."
+  },
+  {
+    "id": "geography_flags_heraldry_13",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Флаг какого американского штата показан на изображении?",
+    "options": ["Калифорния", "Монтана", "Орегон", "Вайоминг"],
+    "correctIndex": 0,
+    "image": "Флаг штата Калифорния без каких-либо текстовых надписей: белый фон, широкая красная полоса внизу, красная звезда и бурый медведь гризли."
+  },
+  {
+    "id": "geography_flags_heraldry_14",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Какой штат США использует данный уникальный флаг, объединяющий геральдические кресты и узоры двух дворянских родов?",
+    "options": ["Виргиния", "Мэриленд", "Северная Каролина", "Пенсильвания"],
+    "correctIndex": 1,
+    "image": "Флаг штата Мэриленд: четвертованное полотнище с черно-золотыми шевронами рода Калвертов и красно-белыми крестами рода Кросслендов."
+  },
+  {
+    "id": "geography_flags_heraldry_15",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "В какой исторический период данный черно-желто-белый триколор официально являлся государственным гербовым флагом Российской империи?",
+    "options": ["1721–1741 гг.", "1796–1801 гг.", "1858–1883 гг.", "1914–1917 гг."],
+    "correctIndex": 2,
+    "image": "Официальный гербовый флаг Российской империи 1858–1883 годов: черно-желто-белый горизонтальный триколор."
+  },
+  {
+    "id": "geography_flags_heraldry_16",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Какое непризнанное государственное образование до сих пор официально использует советский флаг с серпом и молотом?",
+    "options": ["Гагаузия", "Южная Осетия", "Абхазия", "Приднестровье (ПМР)"],
+    "correctIndex": 3,
+    "image": "Флаг Приднестровской Молдавской Республики: красно-зелено-красное полотно с золотыми серпом, молотом и звездой в углу."
+  },
+  {
+    "id": "geography_flags_heraldry_17",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Исторический флаг какого региона с изображением горы со снежными львами представлен на рисунке?",
+    "options": ["Тибет", "Бутан", "Сикким", "Ладакх"],
+    "correctIndex": 0,
+    "image": "Исторический флаг Тибета: белая гора, два снежных льва с пылающими драгоценностями и расходящиеся красно-синие лучи."
+  },
+  {
+    "id": "geography_flags_heraldry_18",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Какое арктическое островное сообщество утвердило данный флаг «Эрфаласорпут» вместо традиционного скандинавского креста?",
+    "options": ["Фарерские острова", "Гренландия", "Аландские острова", "Шпицберген"],
+    "correctIndex": 1,
+    "image": "Флаг Гренландии: бело-красное полотно с кругом противоположных цветов, смещенным к древку."
+  },
+  {
+    "id": "geography_flags_heraldry_19",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Какой регион Великобритании использует флаг с красным шагающим драконом (Y Ddraig Goch)?",
+    "options": ["Шотландия", "Северная Ирландия", "Уэльс", "Остров Мэн"],
+    "correctIndex": 2,
+    "image": "Флаг Уэльса: красный дракон на горизонтально разделенном бело-зеленом поле."
+  },
+  {
+    "id": "geography_flags_heraldry_20",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Официальным символом какой немецкой федеральной земли является данный бело-голубой ромбовидный узор (Rautenflagge)?",
+    "options": ["Саксония", "Гессен", "Баден-Вюртемберг", "Бавария"],
+    "correctIndex": 3,
+    "image": "Флаг Баварии с косыми бело-голубыми ромбами."
+  },
+  {
+    "id": "geography_flags_heraldry_21",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Какой знаменитый пират XVIII века поднимал на своем флагмане данный вариант «Веселого Роджера» со скрещенными саблями?",
+    "options": ["Калико Джек (Джон Рэкхем)", "Эдвард Тич (Черная Борода)", "Бартоломью Робертс", "Генри Морган"],
+    "correctIndex": 0,
+    "image": "Пиратский флаг Калико Джека: белый череп и две скрещенные абордажные сабли под ним на черном фоне."
+  },
+  {
+    "id": "geography_flags_heraldry_22",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Что в международном морском своде сигналов означает поднятый на мачте одноцветный желтый флаг («Квебек»)?",
+    "options": ["На судне вспыхнул пожар", "Судно свободно от карантина и просит разрешения войти", "Судно потеряло управление", "Человек за бортом"],
+    "correctIndex": 1,
+    "image": "Международный морской сигнальный флаг Q («Квебек»): квадратное сплошное желтое полотно."
+  },
+  {
+    "id": "geography_flags_heraldry_23",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Какой исторический флаг времен Войны за независимость США с девизом «Don't tread on me» изображен на фото?",
+    "options": ["Бетси Росс", "Флаг Континентальной армии", "Флаг Гадсдена", "Флаг Большого Союза"],
+    "correctIndex": 2,
+    "image": "Желтый флаг Гадсдена со свернувшейся гремучей змеей на зеленой траве (без надписи)."
+  },
+  {
+    "id": "geography_flags_heraldry_24",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Флаг какого виртуального микрогосударства на заброшенной военной морской платформе показан на рисунке?",
+    "options": ["Христиания", "Ладония", "Хатт-Ривер", "Силенд"],
+    "correctIndex": 3,
+    "image": "Флаг Княжества Силенд: полотнище, разделенное широкой диагональной белой полосой на красный и черный треугольники."
+  },
+  {
+    "id": "geography_flags_heraldry_25",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Торговый флаг какой дуалистической империи XIX века совмещал два разных герба на одном разделенном полотнище?",
+    "options": ["Австро-Венгрия", "Шведско-Норвежская уния", "Речь Посполитая", "Дано-Норвежское королевство"],
+    "correctIndex": 0,
+    "image": "Торговый флаг Австро-Венгрии 1869–1918 гг.: слева австрийский красно-бело-красный триколор с гербом, справа венгерский красно-бело-зеленый с гербом."
+  },
+  {
+    "id": "geography_flags_heraldry_26",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Флаг какого южноамериканского государства с «Майским солнцем» в кантоне изображен на фото?",
+    "options": ["Аргентина", "Уругвай", "Парагвай", "Перу"],
+    "correctIndex": 1,
+    "image": "Флаг Уругвая: 9 бело-синих горизонтальных полос и белое поле в кантоне с золотым «Майским солнцем»."
+  },
+  {
+    "id": "geography_flags_heraldry_27",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "На гербе какого государства Центральной Америки официально изображены люди — двое лесорубов с топором и веслом?",
+    "options": ["Гватемала", "Гондурас", "Белиз", "Никарагуа"],
+    "correctIndex": 2,
+    "image": "Герб в центре флага Белиза: два лесоруба с инструментами по бокам щита под сенью дерева махагони."
+  },
+  {
+    "id": "geography_flags_heraldry_28",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Какое гималайское королевство поместило на свой диагонально разделенный флаг белого дракона Друка с драгоценностями?",
+    "options": ["Непал", "Сикким", "Мьянма", "Бутан"],
+    "correctIndex": 3,
+    "image": "Флаг Бутана: диагонально разделенное желто-оранжевое поле с белым громовым драконом в центре."
+  },
+  {
+    "id": "geography_flags_heraldry_29",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Флаг какого карибского государства содержит в левом треугольнике изображение расколотого плода мускатного ореха?",
+    "options": ["Гренада", "Барбадос", "Сент-Люсия", "Доминика"],
+    "correctIndex": 0,
+    "image": "Флаг Гренады: золотисто-зеленые треугольники в красной рамке со звездами и мускатным орехом слева."
+  },
+  {
+    "id": "geography_flags_heraldry_30",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Флаг какого островного государства Карибского моря украшает черный сломанный наконечник трезубца бога Нептуна?",
+    "options": ["Багамы", "Барбадос", "Тринидад и Тобаго", "Ямайка"],
+    "correctIndex": 1,
+    "image": "Флаг Барбадоса: ультрамариново-золотой вертикальный триколор с черным сломанным трезубцем в центре."
+  },
+  {
+    "id": "geography_flags_heraldry_31",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Традиционный боевой щит народа нгуни из воловьей кожи с копьями изображен на флаге какого африканского королевства?",
+    "options": ["Лесото", "Ботсвана", "Эсватини (Свазиленд)", "Намибия"],
+    "correctIndex": 2,
+    "image": "Флаг Эсватини: сине-желто-малиновые полосы с черно-белым щитом и перьями птицы турако в центре."
+  },
+  {
+    "id": "geography_flags_heraldry_32",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Пять традиционных ковровых узоров (гелей), символизирующих пять племен, украшают флаг какого государства?",
+    "options": ["Узбекистан", "Азербайджан", "Казахстан", "Туркменистан"],
+    "correctIndex": 3,
+    "image": "Флаг Туркменистана: зеленое поле с полумесяцем, звездами и вертикальной красной полосой с пятью ковровыми гелями."
+  },
+  {
+    "id": "geography_flags_heraldry_33",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Флаг какого государства с парящим степным орлом под 32-лучевым солнцем представлен на фотографии?",
+    "options": ["Казахстан", "Монголия", "Кыргызстан", "Узбекистан"],
+    "correctIndex": 0,
+    "image": "Государственный флаг Казахстана: лазурное поле с золотым солнцем, парящим беркутом и национальным орнаментом."
+  },
+  {
+    "id": "geography_flags_heraldry_34",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "В 1994 году после ликвидации апартеида это государство приняло новый многоцветный флаг с полосой в виде буквы Y. Какая это страна?",
+    "options": ["Намибия", "ЮАР", "Зимбабве", "Ангола"],
+    "correctIndex": 1,
+    "image": "Флаг Южно-Африканской Республики с 6 цветами и сходящейся горизонтальной полосой в форме латинской буквы Y."
+  },
+  {
+    "id": "geography_flags_heraldry_35",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Золотой силуэт птицы фрегата над восходящим солнцем и шестью океанскими волнами изображен на флаге какого государства Океании?",
+    "options": ["Фиджи", "Самоа", "Кирибати", "Тонга"],
+    "correctIndex": 2,
+    "image": "Флаг Кирибати: в верхней половине летящий золотой фрегат над солнцем на красном поле, в нижней — шесть бело-синих волнистых полос."
+  },
+  {
+    "id": "geography_flags_heraldry_36",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Какое государство с 1977 по 2011 год при Муаммаре Каддафи имело единственный в мире полностью одноцветный зеленый флаг без рисунков и надписей?",
+    "options": ["Оман", "Судан", "Йемен", "Ливия"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_37",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Государственный флаг какой страны намеренно переворачивают красной полосой вверх, только если страна официально находится в состоянии войны?",
+    "options": ["Филиппины", "Индонезия", "Таиланд", "Сингапур"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_38",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "На флаге какого государства изображен орел, сидящий на кактусе и пожирающий змею, что отсылает к ацтекской легенде об основании Теночтитлана?",
+    "options": ["Перу", "Мексика", "Гватемала", "Боливия"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_39",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 3,
+    "question": "Какая признанная страна мира имеет государственный флаг, на котором изображения гербов на лицевой и оборотной стороне полотнища официально различаются?",
+    "options": ["Уругвай", "Эквадор", "Парагвай", "Гондурас"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_40",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Флаг какой европейской страны («Даннеброг») считается старейшим непрерывно действующим государственным флагом в мире (с 1219 года)?",
+    "options": ["Швеция", "Норвегия", "Нидерланды", "Дания"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_41",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Панафриканские цвета (зеленый, желтый, красный) скопированы с флага единственной страны региона, сумевшей отстоять независимость в XIX веке. Какой?",
+    "options": ["Эфиопия", "Либерия", "Гана", "Марокко"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_42",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "На красном флаге какого коронного владения Великобритании в Ирландском море изображен трискелион — три бегущие ноги в латных доспехах?",
+    "options": ["Остров Джерси", "Остров Мэн", "Остров Гернси", "Остров Уайт"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_43",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 3,
+    "question": "Какое карликовое государство Полинезии сохранило Юнион Джек в кантоне флага, а расположение 9 желтых звезд отражает географию его атоллов?",
+    "options": ["Науру", "Вануату", "Тувалу", "Палау"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_44",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 3,
+    "question": "На синем флаге тихоокеанской республики Науру изображена желтая горизонтальная полоса и белая звезда под ней. Что символизирует эта полоса?",
+    "options": ["Нулевой меридиан", "Линию перемены дат", "Тропик Козерога", "Линию экватора"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_45",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Какой девиз на португальском языке начертан на белой ленте, опоясывающей звездную небесную сферу на флаге Бразилии?",
+    "options": ["Ordem e Progresso", "Libertad y Orden", "Dieu et mon droit", "In God We Trust"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_46",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "В XVI веке на историческом флаге принца Вильгельма Оранского верхняя полоса голландского триколора была не красной, а какого цвета?",
+    "options": ["Черной", "Оранжевой", "Желтой", "Зеленой"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_47",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Изображение какого всемирно известного древнего храмового комплекса размещено на государственном флаге Камбоджи?",
+    "options": ["Боробудур", "Шведагон", "Ангкор-Ват", "Прамбанан"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_48",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "На Олимпиаде 1936 года выяснилось, что флаги двух стран идентичны. Из-за этого одна из них добавила на синюю полосу золотую корону. Какая?",
+    "options": ["Андорра", "Люксембург", "Монако", "Лихтенштейн"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_49",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Флаги каких двух признанных суверенных государств имеют идентичные полосы (синий, желтый, красный) и различаются лишь едва уловимым оттенком синего?",
+    "options": ["Чад и Румыния", "Колумбия и Эквадор", "Индонезия и Монако", "Мали и Гвинея"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_50",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Какая единственная признанная страна мира имеет современный флаг, в палитре которого нет ни красного, ни белого, ни синего цветов?",
+    "options": ["Шри-Ланка", "Ямайка", "Замбия", "Мавритания"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_51",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "На флаге какого карликового государства Карибского бассейна присутствует редчайший фиолетовый цвет благодаря изображению попугая сиссеру?",
+    "options": ["Гренада", "Сент-Люсия", "Доминика", "Барбадос"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_52",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Флаг какой ближневосточной страны никогда не приспускается в знак траура, поскольку на нем вышита священная Шахада?",
+    "options": ["Иран", "Оман", "ОАЭ", "Саудовская Аравия"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_53",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Центральная эмблема на флаге Ирана графически выполнена в виде стилизованного цветка какого растения, образующего слово «Аллах»?",
+    "options": ["Тюльпан", "Лотос", "Роза", "Гвоздика"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_54",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Четыре черные даосские триграммы по углам южнокорейского флага Тэгыкки символизируют четыре фундаментальные стихии: Небо, Землю, Огонь и...",
+    "options": ["Ветер", "Воду", "Дерево", "Металл"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_55",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Древний государственный символ Соёмбо — колонна геометрических знаков, символизирующих огонь, солнце, луну и две рыбы, — украшает флаг какой страны?",
+    "options": ["Бутан", "Тибет", "Монголия", "Непал"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_56",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Зеленый силуэт какого реликтового дерева изображен в центре флага Ливана между двумя красными горизонтальными полосами?",
+    "options": ["Дуб", "Кипарис", "Пихта", "Кедр"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_57",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "По легенде, красно-бело-красный флаг Австрии возник в 1191 году после осады Акры, когда вся белая туника герцога Леопольда V пропиталась кровью, за исключением полосы под...",
+    "options": ["Его поясом с мечом", "Его щитом", "Его нагрудным крестом", "Его плащом"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_58",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Какая африканская страна в 2001 году полностью сменила флаг (убрав красно-желто-зеленый триколор с буквой 'R'), чтобы стереть ассоциации с геноцидом 1994 года?",
+    "options": ["Бурунди", "Руанда", "Уганда", "Конго"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_59",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 3,
+    "question": "Какое государство в 2017 году изменило свой зеленый флаг с полумесяцем, добавив сверху и снизу две красные полосы в память о пролитой за независимость крови?",
+    "options": ["Алжир", "Пакистан", "Мавритания", "Тунис"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_60",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Желтый треугольник, гипотенуза которого усеяна рядом белых звезд, делит синее поле государственного флага какой балканской страны?",
+    "options": ["Северная Македония", "Косово", "Черногория", "Босния и Герцеговина"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_61",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Колонны Геркулеса, обвитые красной лентой с латинским девизом «Plus Ultra», изображены на гербе какого европейского государства?",
+    "options": ["Испания", "Португалия", "Греция", "Италия"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_62",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Пять разноцветных полос, расходящихся веером из левого нижнего угла полотнища, делают безошибочно узнаваемым флаг какого островного государства Индийского океана?",
+    "options": ["Мальдивы", "Сейшельские Острова", "Маврикий", "Коморы"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_63",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "В результате бурных национальных дебатов 1964–1965 годов Канада отказалась от британского красного кормового флага («Ред Энсайн») в пользу флага с:",
+    "options": ["Бобром и сосной", "Полярной звездой и щитом", "Кленовым листом с 11 вершинами", "Силуэтом белого медведя"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_64",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 3,
+    "question": "Герб на флаге какой латиноамериканской страны содержит изображение радуги, из-за чего флаг формально включает едва заметный фиолетовый цвет спектра?",
+    "options": ["Эквадор", "Колумбия", "Венесуэла", "Никарагуа"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_65",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Британский «Юнион Джек» объединяет кресты святых Англии, Шотландии и Ирландии. Крест покровителя какого региона исторически отсутствует на флаге?",
+    "options": ["Уэльс", "Остров Мэн", "Корнуолл", "Северная Ирландия"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_66",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Какая африканская страна поместила на свой флаг шестерню и мачете, прямо отсылающие к советскому символу серпа и молота?",
+    "options": ["Мозамбик", "Ангола", "Зимбабве", "Конго"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_67",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Какая уникальная птица с роскошным золотистым оперением изображена парящей на государственном флаге Папуа — Новой Гвинеи рядом с Южным Крестом?",
+    "options": ["Венценосный голубь", "Шлемоносный казуар", "Райская птица", "Птица-носорог"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_68",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Созвездие Южного Креста часто встречается в геральдике. У какой из этих стран Южного полушария Южный Крест полностью отсутствует на флаге?",
+    "options": ["Австралия", "Новая Зеландия", "Бразилия", "ЮАР"],
+    "correctIndex": 3,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_69",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 2,
+    "question": "Боевое знамя армии Конфедеративных Штатов Америки времен Гражданской войны в США (Battle Flag) представляло собой:",
+    "options": ["Синий косой крест с 13 белыми звездами на красном поле", "Белую полосу и золотого орла на синем поле", "Три горизонтальные полосы и круг из 13 звезд", "Синий кантон и змею с девизом на белом поле"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "geography_flags_heraldry_70",
+    "categoryId": "geography",
+    "subcategoryId": "flags_heraldry",
+    "difficulty": 1,
+    "question": "Какой международный символ, созданный Пьером де Кубертеном в 1913 году, объединяет 5 переплетенных колец на белом шелковом полотнище?",
+    "options": ["Флаг Красного Креста", "Олимпийский флаг", "Флаг Лиги Наций", "Флаг ЮНЕСКО"],
+    "correctIndex": 1,
+    "image": null
+  }
+]

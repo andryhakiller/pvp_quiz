@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "cinema_arts_childhood_cartoons_1",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В культовом мультфильме «Шрек» (2001) главный герой объясняет Ослу глубинную натуру огров с помощью кулинарной метафоры. С каким овощем Шрек сравнивает огров?",
+    "options": [
+      "С репчатым луком («У огров есть слои! И у лука есть слои!»)",
+      "С белокочанной капустой",
+      "С клубнем сырого картофеля",
+      "С артишоком"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_2",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Какой российский актер театра и кино озвучил Шрека в официальном русском дубляже, причем студия DreamWorks признала эту работу лучшим дубляжем зеленого огра в мире?",
+    "options": [
+      "Алексей Колган",
+      "Сергей Гармаш",
+      "Армен Джигарханян",
+      "Михаил Пореченков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_3",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какое сладкое блюдо настойчиво предлагает приготовить Шреку на завтрак неугомонный Осёл после их первой встречи в лесу?",
+    "options": [
+      "«А утром я сделаю вафли!» (Waffles)",
+      "Оладьи со сгущенкой",
+      "Черничный пирог",
+      "Пончики с глазурью"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_4",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Тачки» (Cars, 2006) Док Хадсон учит зазнавшегося Молнию Маккуина секрету прохождения крутых поворотов на скользком грунтовом треке. Какое золотое раллийное правило формулирует старый чемпион?",
+    "options": [
+      "«Повернешь налево, если руль крутить направо» (контрруление при заносе)",
+      "«Тормози в апексе, газуй на выходе»",
+      "«Никогда не сбрасывай газ на подъеме»",
+      "«Входи на третьей передаче, выходи на первой»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_5",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Какой реальный легендарный винтажный автомобиль 1951 года выпуска стал прообразом судьи и тренера Дока Хадсона в мультфильме «Тачки»?",
+    "options": [
+      "Hudson Hornet («Невероятный Гудзонский Шершень»)",
+      "Chevrolet Bel Air 1957",
+      "Cadillac Eldorado 1959",
+      "Buick Roadmaster 1953"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_6",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какой коронный победный возглас выкрикивает гоночный болид Молния Маккуин, сопровождая его ослепительной вспышкой наклейки-молнии?",
+    "options": [
+      "«Кчау!» (Ka-Chow!)",
+      "«Вжжжух!»",
+      "«Бугага!»",
+      "«Йахууу!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_7",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В шедевре Pixar «Корпорация монстров» (Monsters, Inc., 2001) фабрика вырабатывала энергию для города Монстрополиса из криков страха человеческих детей. Какое открытие сделали Салли и Майк в финале?",
+    "options": [
+      "Детский искренний смех вырабатывает в 10 раз больше энергии, чем крик ужаса",
+      "Энергию можно добывать из тепла детских снов",
+      "Монстры способны питаться солнечным светом через двери",
+      "Крики взрослых в 100 раз мощнее детских"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_8",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какой кодовый номер выкрикивает охрана Агентства обнаружения детей (CDA), когда на спине монстра Джорджа Сандерсона случайно обнаруживается белый детский носок?",
+    "options": [
+      "«Код 23-19!»",
+      "«Тревога 911!»",
+      "«Объект Альфа-ноль!»",
+      "«Код 404!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_9",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В мультсериале «Смешарики» как звучит знаменитое любимое эмоциональное восклицание медведя-огородника Копатыча?",
+    "options": [
+      "«Укуси меня пчела!»",
+      "«О, майн гот!»",
+      "«Феноменально!»",
+      "«Раздави меня комар!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_10",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В одной из самых философских серий «Смешариков» («Смысл жизни») у Бараша наступает глубокая экзистенциальная депрессия, и Карыч ведет его сквозь метель искать загадочную:",
+    "options": [
+      "Кузинатру (дающую смысл жизни)",
+      "Синюю птицу",
+      "Полярную звезду",
+      "Золотую рыбку"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_11",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Кем по национальности и с каким характерным акцентом говорит гениальный механик и изобретатель пингвин Пин в «Смешариках»?",
+    "options": [
+      "Немец с фразами вроде «О, майн гот!», «Компрессия», «Натюрлих»",
+      "Француз с картавым акцентом",
+      "Швед с прибалтийскими интонациями",
+      "Английский джентльмен"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_12",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В мультфильме «Жил-был пес» Эдуарда Назарова растолстевший от сытной еды под свадебным столом Волк произносит культовую фразу перед тем как завыть:",
+    "options": [
+      "«Щас спою!»",
+      "«Ты заходи, если че...»",
+      "«Ну ты и собака!»",
+      "«Шо, опять?!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_13",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Какой великий актер озвучил Волка в мультфильме «Жил-был пес», придав персонажу свою неповторимую хрипотцу и даже внешнее портретное сходство?",
+    "options": [
+      "Армен Джигарханян",
+      "Георгий Бурков",
+      "Анатолий Папанов",
+      "Евгений Леонов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_14",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В шедевре советской анимации «Остров сокровищ» (1988) режиссера Давида Черкасского какую фирменную фразу со звонким жизнерадостным смехом повторяет доктор Ливси?",
+    "options": [
+      "«Слово «ром» и слово «смерть» для вас означает одно и то же! Ха-ха-ха!»",
+      "«Живые позавидуют мертвым!»",
+      "«Через час те из вас, кто останется в живых...»",
+      "«Йо-хо-хо и бутылка рома!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_15",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Приключения капитана Врунгеля» на старте кругосветной регаты от борта яхты отвалились первые две буквы названия. Какое новое имя получил корабль?",
+    "options": [
+      "«Беда» (вместо «Победа»)",
+      "«Орда»",
+      "«Еда»",
+      "«Беда-2»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_16",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какой афоризм формулирует Христофор Бонифатьевич Врунгель относительно влияния имени судна на его мореходные качества?",
+    "options": [
+      "«Как вы яхту назовете, так она и поплывет!»",
+      "«Семь футов под килем только храбрым!»",
+      "«Море любит отважных, а буря — сильных!»",
+      "«Без компаса и попутный ветер не поможет!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_17",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В фантастическом мультфильме «Тайна третьей планеты» (1981) какую универсальную успокоительную дозу заказывает инопланетный археолог Громозека в космическом кафе?",
+    "options": [
+      "«Четыреста капель валерьянки и салат!»",
+      "«Литр чистого ракетного топлива»",
+      "«Триста граммов спирта с перцем»",
+      "«Бокал туманности Андромеды»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_18",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какую знаменитую присказку повторяет необычная птица Говорун из мультфильма «Тайна третьей планеты»?",
+    "options": [
+      "«Птица Говорун отличается умом и сообразительностью!»",
+      "«Пиастры! Пиастры!»",
+      "«Держи курс на Медузу!»",
+      "«Внимание, пираты на хвосте!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_19",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Трое из Простоквашино» кот Матроскин учит дядю Федора правильно есть бутерброд с колбасой. Почему, по мнению кота, бутерброд надо класть колбасой на язык?",
+    "options": [
+      "«Так вкуснее получается, потому что колбаса сразу попадает на вкусовые рецепторы»",
+      "«Хлеб не крошится на пол»",
+      "«Меньше шансов подавиться коркой»",
+      "«Так в деревнях испокон веков ели»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_20",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какое необычное приобретение сделал почтальон Печкин в Простоквашино, после чего, по его собственным словам, «сразу добреть начал»?",
+    "options": [
+      "Велосипед («Это я раньше почему злой был? Потому что у меня велосипеда не было!»)",
+      "Фуражку почтальона",
+      "Цветной телевизор",
+      "Пару теплых валенок"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_21",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Что профессор Селезнев приобрел на космическом базаре планеты Блук в качестве домашнего питомца — хамелеоноподобного шарика, меняющего цвет в зависимости от настроения?",
+    "options": [
+      "Индикатора",
+      "Ушанчика",
+      "Склисса",
+      "Пучеглазика"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_22",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В советской экранизации «Винни-Пуха» Федора Хитрука почему голос Евгения Леонова звучал так необычно, забавно и комично ускоренно?",
+    "options": [
+      "Звукорежиссер ускорил магнитную пленку с записью голоса Леонова примерно на 30–35%",
+      "Леонов вдыхал гелий перед каждой записанной фразой",
+      "Актер намеренно зажимал горло прищепкой",
+      "Использовался ранний японский вокодер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_23",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какую песенку поет Винни-Пух, паря на синем воздушном шаре возле пчелиного дупла и маскируясь под грозовую тучу?",
+    "options": [
+      "«Я тучка, тучка, тучка, я вовсе не медведь...»",
+      "«Кто ходит в гости по утрам, тот поступает мудро!»",
+      "«Куда идем мы с Пятачком — большой-большой секрет!»",
+      "«Если я чешу в затылке — не беда!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_24",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Что подарила ослику Иа на день рождения Сова в мультфильме «Винни-Пух и день забот»?",
+    "options": [
+      "Его собственный оторванный хвост (найденный в лесу и повешенный вместо шнурка на колокольчик)",
+      "Пустой лопнувший зеленый шарик",
+      "Горшок из-под меда без меда",
+      "Букет чертополоха"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_25",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В культовом мультсериале «Ну, погоди!» какой заяц с горящими красными глазами преследует Волка в Доме юных техников в 14-м выпуске, пугая поколения детей фразой «За-яц... Волк...»?",
+    "options": [
+      "Робот-Заяц",
+      "Голограмма зайца",
+      "Заяц-киборг с лазером",
+      "Механический манекен"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_26",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Кто из великих советских актеров озвучивал Волка в классических первых 16 выпусках «Ну, погоди!» режиссера Вячеслава Котёночкина?",
+    "options": [
+      "Анатолий Папанов",
+      "Владимир Высоцкий",
+      "Михаил Ножкин",
+      "Евгений Евстигнеев"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_27",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В мультфильме «Малыш и Карлсон» кем отрекомендовал себя Карлсон домоправительнице фрекен Бок при первой неожиданной встрече на кухне?",
+    "options": [
+      "«Мужчина в самом расцвете сил»",
+      "«Лучший в мире укротитель домомучительниц»",
+      "«Летающий жилец с крыши»",
+      "«Мастер по поеданию плюшек»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_28",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Какая великая советская актриса подарила свой незабываемый бас и интонации «домомучительнице» фрекен Бок в мультфильме «Карлсон вернулся»?",
+    "options": [
+      "Фаина Раневская",
+      "Рина Зеленая",
+      "Татьяна Пельтцер",
+      "Клара Румянова"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_29",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Бременские музыканты» (1969) Олег Анофриев совершил рекорд: он в одиночку озвучил и спел партии почти всех персонажей фильма. Кого из персонажей он НЕ озвучивал?",
+    "options": [
+      "Принцессу (ее спела Эльмира Жерздева)",
+      "Трубадура",
+      "Атаманшу разбойников",
+      "Короля"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_30",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В диснеевском шедевре «Король Лев» (The Lion King, 1994) какую философию беззаботной жизни проповедуют сурикат Тимон и бородавочник Пумба?",
+    "options": [
+      "«Хакуна Матата» («Никаких забот на все оставшиеся дни» на языке суахили)",
+      "«Carpe Diem»",
+      "«Белла Чао»",
+      "«Симба Лайф»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_31",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Сюжет мультфильма «Король Лев» практически покадрово и архетипически повторяет структуру знаменитой трагедии Уильяма Шекспира:",
+    "options": [
+      "«Гамлет» (брат-убийца узурпирует трон, а призрак отца наставляет сына-принца)",
+      "«Король Лир»",
+      "«Макбет»",
+      "«Отелло»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_32",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В шедевре Pixar «Рататуй» (Ratatouille, 2007) суровый ресторанный критик Антон Эго пробует блюдо рататуй, приготовленное крысом Реми. Что происходит с критиком в этот момент?",
+    "options": [
+      "Вкус крестьянского блюда мгновенно переносит его в теплое детство, когда мама утешала его домашней едой после падения с велосипеда",
+      "Он обвиняет ресторан в нарушении санитарных норм",
+      "Он требует немедленно раскрыть тайный ингредиент шефа",
+      "Он падает в обморок от остроты чеснока"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_33",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какое главное кулинарное кредо шеф-повара Огюста Гюсто вдохновляет Реми на осуществление мечты стать великим поваром?",
+    "options": [
+      "«Готовить может каждый!» (Anyone can cook)",
+      "«Специи решают всё»",
+      "«Высокая кухня не терпит компромиссов»",
+      "«Клиент всегда прав»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_34",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В фантастическом мультфильме Pixar «ВАЛЛ-И» (WALL-E, 2008) маленький робот-уплотнитель мусора проводит на покинутой Земле сотни лет. Какой единственный живой компаньон составляет ему компанию до прилета ЕВЫ?",
+    "options": [
+      "Неубиваемый домашний таракан по кличке Хэл",
+      "Ржавый механический щенок",
+      "Почтовый голубь",
+      "Маленькая песчаная мышь"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_35",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Что находит ВАЛЛ-И в ржавом старом ботинке на свалке, что запускает директиву ЕВЫ и возвращение человечества на Землю?",
+    "options": [
+      "Живой зеленый росток растения",
+      "Чистый кристалл пресной воды",
+      "Семечко яблока",
+      "Горсть плодородной живой почвы"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_36",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме Pixar «Вверх» (Up, 2009) пожилой вдовец Карл Фредриксен отправляется к Райскому водопаду. Каким образом он поднял свой двухэтажный дом в воздух?",
+    "options": [
+      "Привязал к каминной трубе десятки тысяч воздушных шаров, надутых гелием",
+      "Установил мощные вертолетные винты на крыше",
+      "Использовал антигравитационный двигатель",
+      "Запустил дом на гигантском воздушном змее"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_37",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "На какое слово мгновенно и панически отвлекаются говорящие псы Чарльза Мантца в мультфильме «Вверх», прерывая любую серьезную речь?",
+    "options": [
+      "«Белка!» (Squirrel!)",
+      "«Кость!»",
+      "«Мячик!»",
+      "«Фас!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_38",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В мультсериале «Губка Боб Квадратные Штаны» (SpongeBob SquarePants) в каком подводном городе на дне Тихого океана происходят все события?",
+    "options": [
+      "Бикини Боттом (Bikini Bottom)",
+      "Атлантида-Сити",
+      "Марианская впадина",
+      "Коралловый риф"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_39",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Какую знаменитую нелепую реплику выдает морская звезда Патрик Стар на уроке музыки в оркестре Бикини Боттом?",
+    "options": [
+      "«А майонез — это инструмент?»",
+      "«Кетчуп звучит громче горна!»",
+      "«На соленых огурцах играть нельзя?»",
+      "«Где у этой дудки кнопка включения?»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_40",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Что безуспешно пытается выкрасть крошечный одноклеточный злодей Шелдон Планктон из ресторана «Красти Краб» на протяжении сотен серий?",
+    "options": [
+      "Секретную формулу крабсбургера",
+      "Сейф с золотыми монетами мистера Крабса",
+      "Лопатку для жарки котлет Губки Боба",
+      "Волшебную поварскую шляпу"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_41",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В культовом анимационном сериале «Аватар: Легенда об Аанге» слепая девочка Тоф Бейфонг открывает новую, ранее не существовавшую подмагию стихии земли. Какую именно магию изобрела Тоф?",
+    "options": [
+      "Магию металла (ощущая микрочастицы неочищенной земли внутри металла)",
+      "Магию лавы",
+      "Магию песка",
+      "Магию кристаллов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_42",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какую команду Аанг произносит летающему шестиногому бизону Аппе, чтобы заставить его взмыть в воздух?",
+    "options": [
+      "«Аппа, йип-йип!» (Yip-yip!)",
+      "«Аппа, на взлет!»",
+      "«Ввысь, Аппа!»",
+      "«Хопа-хопа!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_43",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Какой напиток мудрый и добродушный дядя Айро считает высшим наслаждением в жизни, возмущаясь, когда племянник Зуко называет его «горячим листовым соком»?",
+    "options": [
+      "Чай (особенно жасминовый чай и чай из белого лотоса)",
+      "Кофе по-восточному",
+      "Имбирный отвар",
+      "Рисовое вино"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_44",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В мультфильме «Мадагаскар» (2005) какую культовую инструкцию дает капитан пингвинов Шкипер своим бойцам при виде публики в зоопарке Центрального парка Нью-Йорка?",
+    "options": [
+      "«Улыбаемся и машем, парни! Улыбаемся и машем!»",
+      "«В рассыпную, это засада!»",
+      "«Держать строй, хвост пистолетом!»",
+      "«Притвориться мягкими игрушками!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_45",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какой зажигательный танцевальный евроденс-трек самопровозглашенный король лемуров Джулиан XIII считает гимном своего племени на Мадагаскаре?",
+    "options": [
+      "«I Like to Move It» (Reel 2 Real)",
+      "«Macarena»",
+      "«What Is Love»",
+      "«Stayin' Alive»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_46",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В франшизе «Ледниковый период» (Ice Age) саблезубая белка Скрат постоянно вызывает планетарные тектонические катаклизмы из-за маниакальной попытки спрятать:",
+    "options": [
+      "Желудь",
+      "Грецкий орех",
+      "Шишку гигантской секвойи",
+      "Кокос"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_47",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Какое животное из доисторической троицы друзей в «Ледниковом периоде» зовут Сид?",
+    "options": [
+      "Гигантский ленивец",
+      "Шерстистый мамонт",
+      "Саблезубый тигр смилодон",
+      "Броненосец глиптодонт"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_48",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «В поисках Немо» (Finding Nemo, 2003) синяя рыбка Дори с амнезией помнит единственный адрес на очках водолаза. Как звучит этот легендарный адрес?",
+    "options": [
+      "«П. Шерман, Уоллаби-вей 42, Сидней» (P. Sherman, 42 Wallaby Way, Sydney)",
+      "«Бейкер-стрит 221Б, Лондон»",
+      "«Оушен-драйв 10, Майами»",
+      "«Квинс-авеню 55, Мельбурн»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_49",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какой девиз хором скандируют белые акулы на собрании общества трезвенников в мультфильме «В поисках Немо»?",
+    "options": [
+      "«Рыба — друг, а не еда!»",
+      "«Мясо полезнее чешуи!»",
+      "«Плавники береги с молоду!»",
+      "«Нет охоте в заповеднике!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_50",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Кунг-фу Панда» (Kung Fu Panda, 2008) в чем заключался главный секрет свитка Дракона, который панда По открывает для обретения абсолютной силы?",
+    "options": [
+      "Свиток был совершенно пуст и зеркален: сила заключается в вере в самого себя, никакого секретного ингредиента нет",
+      "В нем была записана древняя техника удара мизинцем Уси",
+      "Там был нарисован рецепт супа с секретным ингредиентом его отца",
+      "Там было имя истинного Воина Дракона"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_51",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Каким смертоносным приемом панда По побеждает свирепого снежного барса Тай Лунга в культовом финале «Кунг-фу Панды»?",
+    "options": [
+      "«Пальцевый захват Уси» (Wuxi Finger Hold: «Скидыщ!»)",
+      "Удар падающего пельменя",
+      "Двойной драконий коготь",
+      "Удар стального пуза"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_52",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Как приручить дракона» (How to Train Your Dragon, 2010) Иккинг приручает дракона Беззубика редчайшей и самой опасной породы, стреляющего сгустками плазмы. Как называется эта порода?",
+    "options": [
+      "Ночная Фурия (Night Fury)",
+      "Громобой",
+      "Ужасный Чудовище",
+      "Злобный Змеевик"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_53",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Суперсемейка» (The Incredibles, 2004) гениальный дизайнер суперкостюмов Эдна Мод категорически отказывается добавлять одну деталь в костюм Мистера Исключительного. Какую деталь и почему?",
+    "options": [
+      "Плащ (из-за плащей многие супергерои трагически погибли, зацепившись за ракеты, турбины самолетов и лифты)",
+      "Капюшон (ухудшает периферическое зрение)",
+      "Наколенники (снижают гибкость ног)",
+      "Пояс с гаджетами (утяжеляет вес костюма)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_54",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Шрек 2» (2004) Фея-Крестная исполняет грандиозный кавер на песню «Holding Out for a Hero», пока Шрек штурмует замок на гигантском пряничном человечке по кличке:",
+    "options": [
+      "Монго",
+      "Пряня",
+      "Голиаф",
+      "Бамблби"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_55",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В какое грациозное благородное животное превращается Осёл после того, как выпивает магическое зелье «Красота неземная» на фабрике Феи-Крестной в «Шреке 2»?",
+    "options": [
+      "В белоснежного чистокровного скакуна (жеребца)",
+      "В золотого крылатого пегаса",
+      "В королевского единорога",
+      "В статного оленя"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_56",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультсериале «Гравити Фолз» (Gravity Falls) Диппер и Мэйбл Пайнс проводят каникулы у двоюродного дедушки Стэна. Как называется его туристическая ловушка для доверчивых туристов?",
+    "options": [
+      "«Хижина Чудес» (Mystery Shack)",
+      "«Лавка Тайн»",
+      "«Дом Монстров»",
+      "«Музей Аномалий»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_57",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Какой желтый треугольный демон разума в черном цилиндре с галстуком-бабочкой является главным манипулятором и антагонистом в «Гравити Фолз»?",
+    "options": [
+      "Билл Шифр (Bill Cipher)",
+      "Гидеон Глифул",
+      "Шестипалый",
+      "Слепой Глаз"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_58",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Зверополис» (Zootopia, 2016) крольчиха Джуди Хопс и лис Ник Уайлд приходят в автотранспортный департамент (DMV) пробить автомобильный номер. К какому виду животных принадлежат все сотрудники этого учреждения?",
+    "options": [
+      "Ленивцы (работающие мучительно медленно)",
+      "Черепахи",
+      "Улитки",
+      "Бегемоты"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_59",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Как зовут самого быстрого ленивца в автотранспортной инспекции Зверополиса, над шуткой которого Ник и Джуди застревают на долгие часы?",
+    "options": [
+      "Блиц, скорость без границ (Flash)",
+      "Молния",
+      "Спиди",
+      "Турбо"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_60",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Мегамозг» (Megamind, 2010) синекожий суперзлодей с гигантской головой объясняет разницу между обычным рядовым злодеем и настоящим суперзлодеем. В чем она заключается?",
+    "options": [
+      "«В спецэффектах!» (Presentation!)",
+      "В разрушительной мощи лазеров",
+      "В наличии тайного логова",
+      "В коварстве финального плана"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_61",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В мультфильме «Чебурашка и крокодил Гена» (1969) в ящике с какими экзотическими фруктами работники овощного магазина обнаружили спящего ушастого зверька?",
+    "options": [
+      "Апельсины",
+      "Бананы",
+      "Ананасы",
+      "Манго"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_62",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Как звали ручную дрессированную крыску старухи Шапокляк, которую та носила в своей дамской сумочке-ридикюле?",
+    "options": [
+      "Лариска",
+      "Анфиска",
+      "Шушера",
+      "Клариса"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_63",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Аладдин» (Aladdin, 1992) Джинна из волшебной лампы в оригинале озвучил гениальный американский комедийный актер, сымпровизировавший десятки часов реплик:",
+    "options": [
+      "Робин Уильямс",
+      "Джим Керри",
+      "Эдди Мерфи",
+      "Билл Мюррей"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_64",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "Какое главное правило и ограничение озвучивает Джинн, объясняя Аладдину границы своих трех желаний?",
+    "options": [
+      "Нельзя никого убивать, нельзя заставить полюбить и нельзя воскрешать мертвых (а также загадывать новые желания)",
+      "Нельзя создавать золото из воздуха",
+      "Нельзя менять прошлое",
+      "Желания действуют только до полуночи"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_65",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В анимационном фильме «Тайна Коко» (Coco, 2017) мальчик Мигель попадает в Страну Мертвых во время традиционного мексиканского праздника. Как называется этот праздник?",
+    "options": [
+      "День мертвых (Día de los Muertos)",
+      "Синко де Майо",
+      "Ла Томатина",
+      "Ночь сомбреро"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_66",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Какая душераздирающая колыбельная песня, написанная Гектором для своей маленькой дочки Коко, спасает его от вечного забвения в финале мультфильма «Тайна Коко»?",
+    "options": [
+      "«Не забывай» (Remember Me)",
+      "«La Llorona»",
+      "«Un Poco Loco»",
+      "«Proud Corazón»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_67",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультсериале «Рик и Морти» (Rick and Morty) в какой овощ превращает себя гениальный дедушка-ученый Рик Санчез, чтобы не идти на скучный сеанс к семейному психотерапевту?",
+    "options": [
+      "В соленый огурец («Огурчик Рик» / Pickle Rick)",
+      "В спелый баклажан",
+      "В гигантский кабачок",
+      "В сырую кукурузу"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_68",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "Какой легендарный соус для куриных наггетсов из McDonald's, выпущенный в 1998 году к премьере мультфильма «Мулан», Рик Санчез клянется найти любой ценой во всех измерениях?",
+    "options": [
+      "Сычуаньский соус (Szechuan Sauce)",
+      "Кисло-сладкий чили соус",
+      "Барбекю по-пекински",
+      "Терияки соус"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_69",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 2,
+    "question": "В мультфильме «Геркулес» (Hercules, 1997) повелитель подземного царства мертвых Аид держит двух бестолковых демонов-прислужников, способных превращаться в кого угодно. Как их зовут?",
+    "options": [
+      "Боль и Паника (Pain and Panic)",
+      "Шок и Трепет",
+      "Мрак и Хаос",
+      "Страх и Ужас"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "cinema_arts_childhood_cartoons_70",
+    "categoryId": "cinema_arts",
+    "subcategoryId": "childhood_cartoons",
+    "difficulty": 1,
+    "question": "В мультфильме «Красавица и Чудовище» (Beauty and the Beast, 1991) заколдованный принц должен полюбить и заслужить взаимность до того, как с волшебного цветка упадет последний лепесток. Какой это был цветок?",
+    "options": [
+      "Алая роза под стеклянным колпаком",
+      "Белая лилия",
+      "Черный тюльпан",
+      "Синяя орхидея"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

@@ -1,0 +1,912 @@
+[
+  {
+    "id": "physics_chemistry_general_chemistry_1",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая максимальная емкость d-подуровня по числу электронов определяется квантовыми числами и принципом Паули?",
+    "options": ["10 электронов (5 орбиталей с ml от -2 до +2)", "6 электронов", "14 электронов", "2 электрона"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_2",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что представляет собой явление «провала (проскока) электрона» у атомов хрома (Cr, Z=24) и меди (Cu, Z=29)?",
+    "options": [
+      "Переход одного электрона с внешнего 4s-подуровня на предвнешний 3d-подуровень для формирования энергетически выгодной наполовину (3d5) или полностью (3d10) заполненной d-оболочки",
+      "Вылет электрона из ядра атома",
+      "Переход электрона на 4p-подуровень",
+      "Захват электрона ядром (электронный захват)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_3",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Как формулируется закон Гесса в термохимии?",
+    "options": [
+      "Тепловой эффект химической реакции зависит только от начального и конечного состояний реагирующих веществ и не зависит от пути перехода и промежуточных стадий",
+      "Скорость реакции прямо пропорциональна концентрации реагирующих веществ",
+      "В равных объемах газов содержится одинаковое число молекул",
+      "Масса веществ, вступивших в реакцию, равна массе продуктов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_4",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какое эмпирическое правило Вант-Гоффа описывает влияние температуры на скорость большинства гомогенных химических реакций?",
+    "options": [
+      "При повышении температуры на каждые 10 °C скорость гомогенной реакции возрастает в 2–4 раза",
+      "Скорость реакции удваивается при каждом повышении давления на 1 атм",
+      "Скорость реакции не зависит от температуры",
+      "Скорость реакции пропорциональна квадратному корню из температуры"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_5",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Как записывается уравнение Аррениуса для константы скорости химической реакции k в зависимости от абсолютной температуры T?",
+    "options": ["k = A · exp(-Ea / (R·T))", "k = A · (R·T / Ea)", "k = A · exp(+Ea / (R·T))", "k = A · T^(1/2)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_6",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что представляет собой энергия активации (Ea) химической реакции?",
+    "options": [
+      "Минимальная избыточная кинетическая энергия сталкивающихся частиц, необходимая для преодоления потенциального барьера и вступления в химическое превращение",
+      "Полная теплота сгорания вещества",
+      "Энергия ионизации внешнего электрона",
+      "Энергия связи в молекуле водорода"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_7",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Как катализатор ускоряет химическую реакцию с точки зрения теории переходного состояния?",
+    "options": [
+      "Предоставляет альтернативный многостадийный путь реакции с существенно более низкой энергией активации (Ea), не смещая при этом термодинамическое равновесие",
+      "Увеличивает тепловой эффект реакции (ΔH)",
+      "Сдвигает равновесие в сторону 100% выхода продуктов",
+      "Нагревает раствор локально на 500 °C"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_8",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Куда сместится равновесие экзотермической реакции синтеза аммиака Габера-Боша: N2(г) + 3H2(г) ⇄ 2NH3(г) + Q при повышении давления и понижении температуры (по принципу Ле Шателье)?",
+    "options": [
+      "Вправо, в сторону образования аммиака (уменьшение числа молей газа с 4 до 2 и выделение тепла)",
+      "Влево, в сторону исходных газов",
+      "Равновесие не изменится",
+      "Сначала влево, затем вправо"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_9",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какой гетерогенный катализатор на основе железа с промоторами (K2O, Al2O3, CaO) традиционно применяется в промышленном синтезе аммиака?",
+    "options": ["Пористое промотированное металлическое железо (Fe)", "Платиновая сетка", "Оксид ванадия(V) V2O5", "Мелкодисперсный никель Ренея"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_10",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что представляет собой уравнение Нернста для электродного потенциала окислительно-восстановительной пары E = E° + (R·T / (n·F)) · ln([Ox]/[Red])?",
+    "options": [
+      "Зависимость реального электродного потенциала от активности (концентрации) окисленной и восстановленной форм и температуры",
+      "Формулу для расчета скорости коррозии металла",
+      "Уравнение для расчета массы выделившегося на катоде вещества",
+      "Закон эквивалентов для титрования"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_11",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Чему равна постоянная Фарадея (F = e · N_A) — заряд одного моля электронов?",
+    "options": ["≈ 96 485 Кл/моль", "≈ 6.022 · 10²³ Кл", "1.602 · 10⁻¹⁹ Кл", "8.314 Дж/(моль·K)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_12",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какой процесс протекает на катоде при электролизе водного раствора сульфата меди(II) CuSO4 с инертными графитовыми электродами?",
+    "options": [
+      "Восстановление катионов меди до металлической меди: Cu²⁺ + 2e⁻ → Cu↓",
+      "Выделение газообразного водорода: 2H2O + 2e⁻ → H2↑ + 2OH⁻",
+      "Окисление сульфат-ионов",
+      "Растворение графитового стержня"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_13",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какой газ выделяется на аноде при электролизе водного раствора сульфата меди(II) CuSO4 на инертных электродах?",
+    "options": [
+      "Кислород (из-за окисления молекул воды: 2H2O - 4e⁻ → O2↑ + 4H⁺)",
+      "Сернистый газ SO2",
+      "Озон O3",
+      "Водород H2"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_14",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 1,
+    "question": "Чему равен водородный показатель pH чистой нейтральной дистиллированной воды при стандартной температуре 25 °C (Kw = 10⁻¹⁴)?",
+    "options": ["pH = 7.0 (-lg[H⁺])", "pH = 0", "pH = 14.0", "pH = 1.0"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_15",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Почему pH нейтральной воды при нагревании до 100 °C падает примерно до 6.14, оставаясь при этом строго нейтральной средой?",
+    "options": [
+      "Автопротолиз воды H2O ⇄ H⁺ + OH⁻ — эндотермический процесс, при нагреве ионное произведение воды Kw растет до 10⁻¹², а [H⁺] = [OH⁻] = 10^(-6.14)",
+      "Вода поглощает углекислый газ из воздуха с образованием угольной кислоты",
+      "Вода становится слабой щелочью",
+      "Из-за испарения кислорода"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_16",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что представляет собой кислота по теории кислот и оснований Льюиса (электронная теория)?",
+    "options": [
+      "Акцептор неподеленной пары электронов (имеет свободную вакантную орбиталь, например, BF3, AlCl3, катионы металлов)",
+      "Донор протона (H⁺)",
+      "Вещество, диссоциирующее на ионы OH⁻",
+      "Вещество с pH меньше 7"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_17",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что такое буферный раствор в аналитической химии?",
+    "options": [
+      "Раствор, содержащий смесь слабой кислоты и ее сопряженного основания (или слабого основания и его соли), сохраняющий практически постоянный pH при добавлении малых количеств кислот или щелочей",
+      "Насыщенный раствор соли с нерастворившимся осадком",
+      "Раствор сильной кислоты в чистом спирте",
+      "Раствор, кипящий при строго постоянной температуре"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_18",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая главная буферная система поддерживает стабильный pH крови человека в узчайшем диапазоне 7.35–7.45?",
+    "options": [
+      "Гидрокарбонатная буферная система (H2CO3 / HCO3⁻)",
+      "Ацетатная буферная система",
+      "Боратная буферная система",
+      "Аммиачный буфер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_19",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что такое координационное число (КЧ) атома в кристаллической решетке?",
+    "options": [
+      "Число ближайших соседних атомов (или ионов), находящихся на одинаковом наименьшем расстоянии от данного атома",
+      "Число электронов на внешнем энергетическом уровне",
+      "Номер группы в периодической таблице",
+      "Степень окисления элемента"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_20",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Чему равно координационное число и коэффициент компактности упаковки для гранецентрированной кубической решетки (ГЦК — медь, золото, аустенит железа)?",
+    "options": ["КЧ = 12, коэффициент заполнения объема 74% (плотнейшая упаковка)", "КЧ = 8, заполнение 68%", "КЧ = 6, заполнение 52%", "КЧ = 4, заполнение 34%"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_21",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какую кристаллическую решетку имеет альфа-железо (феррит) при комнатной температуре?",
+    "options": [
+      "Объемноцентрированная кубическая (ОЦК, КЧ = 8, плотность упаковки 68%)",
+      "Гранецентрированная кубическая (ГЦК)",
+      "Гексагональная плотноупакованная (ГПУ)",
+      "Тетрагональная решетка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_22",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "При какой температуре (точка Кюри для железа, 770 °C) альфа-железо теряет свои ферромагнитные свойства и превращается в парамагнитное бета-железо?",
+    "options": ["769–770 °C (точка Кюри железа)", "912 °C (точка A3 превращения в гамма-железо)", "1538 °C (температура плавления)", "100 °C"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_23",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что представляет собой мартенсит в закаленной стали с точки зрения кристаллохимии?",
+    "options": [
+      "Пересыщенный твердый раствор внедрения углерода в альфа-железе с неравновесной объемно-центрированной тетрагональной решеткой (ОЦТ), обладающий огромной твердостью",
+      "Механическая смесь феррита и цементита",
+      "Чистый карбид железа Fe3C",
+      "Раствор углерода в расплаве железа"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_24",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 1,
+    "question": "Какой минерал дисульфида железа FeS2 («золото дураков») с металлическим золотистым блеском является главным источником сырья для производства серной кислоты?",
+    "options": ["Пирит (серный колчедан)", "Халькопирит", "Гематит", "Магнетит"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_25",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какую химическую формулу имеет главный минерал медных руд — халькопирит (медный колчедан)?",
+    "options": ["CuFeS2", "Cu2S (халькозин)", "CuS (ковеллин)", "Cu2O (куприт)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_26",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какой сульфидный минерал свинца PbS со свинцово-серым цветом и совершенной спайностью по кубу является главной рудой свинца?",
+    "options": ["Галенит (свинцовый блеск)", "Церуссит (PbCO3)", "Англезит (PbSO4)", "Киноварь (HgS)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_27",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какой минерал сульфида цинка ZnS («цинковая обманка») служит главным мировым источником цинка и редких элементов (индия, кадмия, галлия)?",
+    "options": ["Сфалерит", "Вюртцит", "Смитсонит (ZnCO3)", "Каламин"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_28",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какой минерал ртути ярко-красного цвета HgS на протяжении тысячелетий использовался в качестве природного пигмента киновари и руды ртути?",
+    "options": ["Киноварь", "Реальгар", "Аурипигмент", "Каломель (Hg2Cl2)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_29",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Из какой горной породы, состоящей из гидратов оксида алюминия (гиббсита, диаспора, бемита), получают практически весь первичный алюминий в мире?",
+    "options": ["Бокситы", "Нефелины", "Каолинит", "Корунд"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_30",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "В расплаве какого минерала (криолита Na3AlF6) растворяют глинозем Al2O3 при электролитическом получении алюминия по процессу Холла — Эру при температуре ~950 °C?",
+    "options": ["Криолит (гексафтороалюминат натрия Na3AlF6)", "Флюорит (CaF2)", "Галит (NaCl)", "Сильвинит (KCl·NaCl)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_31",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Почему алюминий невозможно получить электролизом его солей из водного раствора?",
+    "options": [
+      "Стандартный электродный потенциал алюминия (E° = -1.66 В) значительно отрицательнее потенциала восстановления водорода из воды, поэтому на катоде восстанавливается только водород",
+      "Соли алюминия нерастворимы в воде",
+      "Алюминий мгновенно взрывается при контакте с водой",
+      "Алюминий не проводит электрический ток"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_32",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что представляет собой процесс Байера в металлургии алюминия?",
+    "options": [
+      "Автоклавное выщелачивание бокситов концентрированным раствором едкого натра NaOH при температуре 150–250 °C с переходом алюминия в растворимый алюминат натрия Na[Al(OH)4]",
+      "Прямое восстановление глинозема коксом в электропечи",
+      "Хлорирование бокситов газообразным хлором",
+      "Флотационное обогащение в кислой среде"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_33",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какой нерастворимый токсичный щелочной отход гидрометаллургического процесса Байера образуется в гигантских объемах (около 1.5 тонны на 1 тонну глинозема)?",
+    "options": ["Красный шлам (содержит оксиды железа, титана, кремния и остаточную щелочь)", "Белый шлам", "Доменный шлак", "Хвосты флотации"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_34",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какую формулу имеет оксид титана(IV) TiO2 в виде минерала рутила, являющийся белейшим и самым укрывистым пигментом (титановые белила)?",
+    "options": ["TiO2", "Ti2O3", "Ti3O5", "FeTiO3 (ильменит)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_35",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "По какому магниетермическому процессу Кролла в вакуумных ретортах при 850 °C получают губчатый металлический титан из тетрахлорида титана TiCl4?",
+    "options": ["TiCl4 + 2Mg → Ti + 2MgCl2", "TiO2 + C → Ti + CO2", "TiO2 + 2H2 → Ti + 2H2O", "TiCl4 + 4Na → Ti + 4NaCl (натриетермия Хантера)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_36",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какое химическое соединение благородного газа впервые в истории синтезировал Нил Бартлетт в 1962 году, разрушив догму о полной химической инертности благородных газов?",
+    "options": [
+      "Гексафтороплатинат ксенона Xe⁺[PtF6]⁻ (желто-оранжевое кристаллическое вещество)",
+      "Дифторид криптона KrF2",
+      "Оксид гелия HeO",
+      "Тетрафторид неона NeF4"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_37",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какую форму имеет молекула дифторида ксенона XeF2 согласно теории отталкивания электронных пар Гиллеспи (ОЭПВХ)?",
+    "options": [
+      "Строго линейная форма (3 неподеленные электронные пары ксенона расположены в экваториальной плоскости тригональной бипирамиды под 120°)",
+      "Угловая форма (как у воды)",
+      "Тетраэдрическая форма",
+      "Плоский квадрат"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_38",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какую форму имеет молекула тетрафторида ксенона XeF4?",
+    "options": [
+      "Плоский квадрат (d²sp³-гибридизация, октаэдр с двумя неподеленными парами на аксиальных вершинах)",
+      "Правильный тетраэдр",
+      "Тригональная пирамида",
+      "Линейная форма"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_39",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая смесь концентрированных кислот называется «царской водкой» (Aqua Regia), способной растворять золото и платину?",
+    "options": [
+      "Смесь концентрированной соляной (HCl) и азотной (HNO3) кислот в объемном соотношении 3 : 1",
+      "Смесь серной и азотной кислот 1 : 1",
+      "Чистая плавиковая кислота HF",
+      "Концентрированная хлорная кислота HClO4"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_40",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какое комплексное соединение образуется при растворении золота в царской водке?",
+    "options": ["Золотохлористоводородная кислота H[AuCl4]", "Нитрат золота(III) Au(NO3)3", "Оксид золота Au2O3", "Хлорид золота(I) AuCl"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_41",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая кислота способна растворять силикатное стекло и кварц, реагируя с диоксидом кремния с образованием летучего тетрафторида кремния SiF4?",
+    "options": ["Плавиковая кислота (фтороводородная кислота HF)", "Соляная кислота", "Серная кислота", "Ортофосфорная кислота"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_42",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Почему плавиковая кислота HF, несмотря на сильнейшую химическую агрессивность к стеклу и плоти, в водных растворах является термодинамически слабой кислотой (pKa = 3.17)?",
+    "options": [
+      "Колоссальная прочность ковалентной связи H-F (567 кДж/моль) и высокая энергия гидратации препятствуют полной диссоциации на свободные гидратированные ионы",
+      "Фтор имеет минимальную электроотрицательность",
+      "HF не растворяется в воде",
+      "Она полимеризуется в твердые кольца"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_43",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая неорганическая суперкислота (фторсурьмяная кислота H[SbF6] — смесь жидкого HF и пентафторида сурьмы SbF5) является сильнейшей из известных кислот (в 2·10¹⁹ раз сильнее 100% серной кислоты)?",
+    "options": ["Фторсурьмяная кислота (HSbF6)", "Трифторуксусная кислота", "Азотная кислота", "Карборановая суперкислота H(CHB11Cl11)"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_44",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая функция кислотности Гаммета (H0) используется для количественной характеристики силы суперкислот, где шкала pH уже неприменима?",
+    "options": ["Функция кислотности Гаммета H0 = -lg(a_H+ · f_B / f_BH+)", "Шкала Болинга", "Константа Вант-Гоффа", "Число Тафеля"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_45",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что представляет собой процесс пассивации железа, хрома и алюминия в концентрированной холодной азотной кислоте HNO3?",
+    "options": [
+      "Образование на поверхности металла сверхтонкой, плотной, химически стойкой оксидной пленки, полностью прекращающей дальнейшее растворение металла",
+      "Мгновенное растворение образца с взрывом",
+      "Выпадение металлического осадка на дно",
+      "Превращение металла в карбид"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_46",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какой газ преимущественно выделяется при взаимодействии меди с концентрированной азотной кислотой (HNO3 конц.)?",
+    "options": [
+      "Диоксид азота NO2 («бурый газ» / «лисий хвост»)",
+      "Оксид азота(II) NO (бесцветный)",
+      "Водород H2",
+      "Чистый азот N2"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_47",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какой газ выделяется при взаимодействии меди с разбавленной азотной кислотой (HNO3 разб.) на холоду?",
+    "options": [
+      "Оксид азота(II) NO (буреющий на воздухе при окислении кислородом в NO2)",
+      "Водород H2",
+      "Сернистый газ",
+      "Закись азота N2O"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_48",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что происходит при пропускании углекислого газа CO2 через прозрачный раствор известковой воды Ca(OH)2 длительное время (в избытке CO2)?",
+    "options": [
+      "Раствор сначала мутнеет из-за осадка CaCO3, а затем снова становится полностью прозрачным из-за образования растворимого гидрокарбоната Ca(HCO3)2",
+      "Раствор окрашивается в ярко-синий цвет",
+      "Выпадает осадок металлического кальция",
+      "Никаких видимых изменений не происходит"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_49",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая качественная реакция с раствором хлорида железа(III) FeCl3 дает интенсивное темно-синее окрашивание «берлинской лазури»?",
+    "options": [
+      "Реакция с гексацианоферратом(II) калия K4[Fe(CN)6] (желтая кровяная соль)",
+      "Реакция с роданидом калия KSCN",
+      "Реакция с аммиаком",
+      "Реакция с сульфатом натрия"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_50",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая качественная реакция на ионы Fe³⁺ дает кроваво-красное окрашивание раствора даже при микроскопических следах железа?",
+    "options": [
+      "Реакция с роданид-ионами SCN⁻ (образуется комплекс тиоцианата железа(III) [Fe(SCN)n]³⁻ⁿ)",
+      "Реакция с нитратом серебра AgNO3",
+      "Реакция с соляной кислотой",
+      "Реакция с фенолфталеином"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_51",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что представляет собой аллотропная модификация углерода фуллерен C60, открытая в 1985 году Смолли, Крото и Кёрлом (Нобелевская премия 1996)?",
+    "options": [
+      "Замкнутая сферическая молекула из 60 атомов углерода в форме усеченного икосаэдра (20 шестиугольников и 12 пятиугольников, как футбольный мяч)",
+      "Свернутая в трубку графитовая плоскость",
+      "Алмазоподобная тетраэдрическая нанопленка",
+      "Линейная углеродная цепочка карбина"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_52",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая гибридизация атомных орбиталей углерода характерна для кристаллической решетки алмаза?",
+    "options": ["sp³-гибридизация (углы связей 109°28')", "sp²-гибридизация (углы 120°)", "sp-гибридизация (линейная 180°)", "d²sp³-гибридизация"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_53",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая гибридизация углерода наблюдается в двумерном монослое графена и слоях графита?",
+    "options": ["sp²-гибридизация (правильная гексагональная сетка пчелиных сот с делокализованной π-системой)", "sp³", "sp", "sp³d"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_54",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Кто из физиков впервые получил свободный стабильный графен с помощью обычного скотча в Манчестерском университете в 2004 году (Нобелевская премия 2010)?",
+    "options": ["Андрей Гейм и Константин Новоселов", "Сумио Иидзима", "Роберт Кёрл и Гарольд Крото", "Алексей Абрикосов"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_55",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какое правило Хюккеля определяет ароматичность плоских моноциклических сопряженных органических систем?",
+    "options": [
+      "Система ароматична, если она содержит (4n + 2) делокализованных π-электронов, где n = 0, 1, 2, 3...",
+      "Число π-электронов строго равно 4n",
+      "Число электронов должно быть нечетным",
+      "В кольце обязательно должны быть гетероатомы"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_56",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Почему молекула циклооктатетраена C8H8 (8 π-электронов, 4n при n=2) не является ароматической и имеет ваннообразную непланарную форму?",
+    "options": [
+      "В плоском состоянии она была бы антиароматической и крайне нестабильной, поэтому кольцо изгибается в пространстве («ванна»), разрывая сопряжение",
+      "Из-за электростатического отталкивания протонов",
+      "Она существует только в виде димера",
+      "Углеродные атомы находятся в sp-гибридизации"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_57",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какое правило Марковникова описывает региоселективность присоединения галогеноводородов (H-X) к несимметричным алкенам?",
+    "options": [
+      "Водород присоединяется к наиболее гидрированному атому углерода при двойной связи (где больше атомов H), а галоген — к менее гидрированному",
+      "Водород всегда идет к атому углерода с меньшим числом водородов",
+      "Галоген присоединяется строго в середину молекулы",
+      "Реакция идет исключительно против правила Зайцева"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_58",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "В каких условиях присоединение бромоводорода HBr к алкенам протекает против правила Марковникова (эффект Караша)?",
+    "options": [
+      "В присутствии органических пероксидов (ROOR) или под действием ультрафиолета по свободнорадикальному механизму",
+      "В концентрированной серной кислоте",
+      "В присутствии катализатора платины",
+      "При температуре абсолютного нуля"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_59",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Как формулируется правило Зайцева для реакций отщепления (дегидрогалогенирования и дегидратации спиртов)?",
+    "options": [
+      "Атом водорода отщепляется преимущественно от наименее гидрированного соседнего атома углерода с образованием наиболее замещенного устойчивого алкена",
+      "Водород отщепляется от наиболее гидрированного атома",
+      "Двойная связь всегда образуется на конце цепи",
+      "Реакция отщепления никогда не дает изомеров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_60",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что представляет собой хиральность молекулы в стереохимии?",
+    "options": [
+      "Свойство молекулы быть несовместимой со своим зеркальным отображением любыми поворотами и трансляциями (отсутствие плоскости и центра симметрии)",
+      "Способность молекулы проводить электрический ток",
+      "Наличие тройной углерод-углеродной связи",
+      "Высокая растворимость в полярных растворителях"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_61",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Как называют пару стереоизомеров, являющихся несовместимыми зеркальными отражениями друг друга и вращающих плоскость поляризации света на равный угол в противоположные стороны?",
+    "options": ["Энантиомеры (оптические антиподы)", "Диастереомеры", "Таутомеры", "Конформеры"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_62",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что такое рацемат (рацемическая смесь)?",
+    "options": [
+      "Эквимолярная смесь (1 : 1) правого (D-) и левого (L-) энантиомеров, оптически недеятельная из-за взаимной компенсации вращения поляризации",
+      "Чистый правовращающий изомер",
+      "Смесь геометрических цис- и транс-изомеров",
+      "Неразделенная смесь спирта и воды"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_63",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая страшная медицинская трагедия конца 1950-х — начала 1960-х годов с рождением тысяч детей с аномалиями конечностей (фокомелией) доказала критическую важность хиральности лекарств?",
+    "options": [
+      "«Талидомидная трагедия» (R-энантиомер талидомида обладал седативным эффектом, а S-энантиомер вызывал тяжелейшие тератогенные мутации)",
+      "Отравление аспирином",
+      "Пенициллиновый шок",
+      "Сульфаниламидный кризис"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_64",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какую оптическую конфигурацию имеют практически все природные аминокислоты, входящие в состав белков живых организмов на Земле?",
+    "options": [
+      "Строго L-конфигурация (левовращающие L-аминокислоты — гомохиральность жизни)",
+      "Строго D-конфигурация",
+      "Всегда рацемическая смесь 50/50",
+      "Конфигурация меняется каждый клеточный цикл"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_65",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какую конфигурацию имеют остатки рибозы и дезоксирибозы в молекулах РНК и ДНК всех живых существ?",
+    "options": ["Строго D-сахара (D-рибоза и D-дезоксирибоза)", "L-сахара", "Смесь D и L форм", "Ахиральная плоская форма"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_66",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что представляет собой реакция Кучерова в органической химии, открытая в 1881 году?",
+    "options": [
+      "Гидратация ацетилена (и алкинов) водой в присутствии солей ртути(II) и кислоты с образованием ацетальдегида (или кетонов)",
+      "Синтез углеводородов по Вюрцу",
+      "Хлорирование метана на свету",
+      "Омыление сложных эфиров щелочью"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_67",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какая качественная проба («реакция серебряного зеркала») используется для обнаружения альдегидной группы?",
+    "options": [
+      "Окисление аммиачным раствором оксида серебра [Ag(NH3)2]OH при слабом нагревании с осаждением блестящего слоя металлического серебра на стенках колбы",
+      "Осаждение хлорида серебра в виде белого творожистого осадка",
+      "Окрашивание раствора в ярко-зеленый цвет солями хрома",
+      "Обесцвечивание бромной воды"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_68",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какой кирпично-красный осадок оксида меди(I) Cu2O выпадает при нагревании альдегидов со свежеосажденным гидроксидом меди(II) Cu(OH)2 (проба Фелинга / Троммера)?",
+    "options": ["Кирпично-красный оксид меди(I) Cu2O", "Черный оксид меди(II) CuO", "Зеленый гидроксокарбонат меди", "Металлическая медная фольга"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_69",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Что представляет собой реакция серебрения (реакция Толленса) применительно к глюкозе?",
+    "options": [
+      "Глюкоза окисляется до глюконовой кислоты благодаря открытой альдегидной форме, восстанавливая катионы Ag⁺ до зеркального металлического серебра",
+      "Глюкоза распадается на этанол и CO2",
+      "Глюкоза полимеризуется в крахмал",
+      "Глюкоза образует нерастворимый хелат с ионами серебра"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "physics_chemistry_general_chemistry_70",
+    "categoryId": "physics_chemistry",
+    "subcategoryId": "general_chemistry",
+    "difficulty": 2,
+    "question": "Какое химическое вещество придает характерный запах жженой карамели при термической деструкции сахаров?",
+    "options": ["Мальтол (и изомальтол, фураны и диацетил)", "Формальдегид", "Уксусная кислота", "Ацетон"],
+    "correctIndex": 0,
+    "image": null
+  }
+]

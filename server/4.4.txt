@@ -1,0 +1,702 @@
+[
+  {
+    "id": "construction_earth_historical_geology_tectonics_1",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Какое массовое вымирание, произошедшее ~252 млн лет назад, уничтожило около 96% морских видов и 70% наземных — крупнейшее в истории Земли?",
+    "options": ["Мел-палеогеновое (K-Pg)", "Пермско-триасовое (Великая смерть)", "Девонское (позднефаменское)", "Ордовикско-силурийское"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_2",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Как называется суперконтинент, существовавший ~300–200 млн лет назад до распада на современные материки?",
+    "options": ["Лавразия", "Гондвана", "Пангея", "Родиния"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_3",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "В каком геологическом периоде появились первые динозавры?",
+    "options": ["Юрский", "Триасовый", "Меловой", "Пермский"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_4",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Кто первым научно сформулировал теорию дрейфа континентов в 1912 году?",
+    "options": ["Чарлз Лайель", "Альфред Вегенер", "Эдуард Зюсс", "Гарри Хесс"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_5",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «субдукция» в тектонике плит?",
+    "options": ["Столкновение двух материковых плит с горообразованием", "Погружение одной литосферной плиты под другую в зоне конвергентных границ", "Раздвижение плит в зонах рифтов", "Горизонтальное скольжение плит вдоль разлома"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_6",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Какой возраст имеют древнейшие известные минералы на Земле (цирконы из Западной Австралии)?",
+    "options": ["2.5 млрд лет", "3.5 млрд лет", "4.4 млрд лет", "4.1 млрд лет"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_7",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Как называется крупнейший орогенный пояс мира, протянувшийся от Пиренеев через Альпы и Кавказ до Гималаев?",
+    "options": ["Альпийско-Гималайский пояс", "Тихоокеанское огненное кольцо", "Уральский пояс", "Каледонский пояс"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_8",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Какой метод радиометрического датирования использует изотоп углерода-14 для определения возраста органических материалов?",
+    "options": ["Уран-свинцовый метод", "Радиоуглеродный (¹⁴C) метод", "Калий-аргоновый метод", "Рубидий-стронциевый метод"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_9",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «Великое кислородное событие» (~2.4 млрд лет назад)?",
+    "options": ["Первая крупная вулканическая эрупция", "Накопление свободного кислорода в атмосфере Земли в результате фотосинтеза цианобактерий, изменившее химию атмосферы", "Образование первого океана", "Кристаллизация земной коры из магматического океана"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_10",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Как называется крупнейший вулканический регион России, где в палеогене произошло одно из крупнейших излияний базальтов в истории?",
+    "options": ["Сибирские трапы (пермско-триасовые)", "Восточно-Сибирская платформа", "Камчатско-Курильская дуга", "Колымский вулканический пояс"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_11",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «палеомагнетизм» и как он помог доказать теорию тектоники плит?",
+    "options": ["Изучение магнетизма горных пород; симметричные полосы намагниченности по обе стороны срединно-океанических хребтов доказали спрединг", "Изучение магнитных аномалий в рудных залежах", "Измерение магнитного поля Земли через геологическое время", "Метод поиска железных руд по магнитным отклонениям"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_12",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Как называется область земной коры, не испытывавшая значительной деформации с докембрия — фундамент материков?",
+    "options": ["Геосинклиналь", "Платформа (кратон)", "Ороген", "Рифт"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_13",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Почему Гималаи продолжают расти и сейчас?",
+    "options": ["Вулканическая активность поднимает породы", "Индостанская плита продолжает двигаться на север и коллидировать с Евразийской", "Эрозия по краям компенсируется поднятием в центре", "Подземные воды растворяют нижние слои и поднимают верхние"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_14",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Чем «ледниковый период» отличается от «ледниковой эпохи» в климатической геологии?",
+    "options": ["Ледниковая эпоха — крупный интервал (десятки млн лет), ледниковый период — отдельная холодная стадия внутри неё", "Это синонимы", "Ледниковый период охватывает всю планету, ледниковая эпоха — только полюса", "Ледниковый период — задокументированный историей, ледниковая эпоха — только геологический"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_15",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Что такое «стратиграфия» и какую главную задачу она решает?",
+    "options": ["Наука о минералах; определяет химический состав пород", "Наука о слоях горных пород; устанавливает их относительный и абсолютный возраст и последовательность образования", "Наука об ископаемых организмах", "Наука о вулканических процессах"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_16",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что доказал Луис Альварес в 1980 году, найдя иридиевый слой на границе мела и палеогена?",
+    "options": ["Что иридий — главный элемент ядра Земли", "Что мел-палеогеновое вымирание вызвано падением астероида (иридий — типичный метеоритный элемент)", "Что Декканские траппы уничтожили динозавров", "Что в конце мела произошло глобальное таяние льдов"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_17",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Какая глобальная геологическая структура обеспечивает «спрединг» океанского дна и расширение Атлантики на ~2.5 см/год?",
+    "options": ["Срединно-Атлантический хребет", "Тихоокеанское кольцо огня", "Зоны субдукции Атлантики", "Карибский сдвиговый разлом"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_18",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 3,
+    "question": "Что такое «Снежный ком» (Snowball Earth) и когда это предположительно происходило?",
+    "options": ["Массовое обледенение всей планеты ~700 млн лет назад, когда даже тропики были покрыты льдом", "Падение ледяного астероида 65 млн лет назад", "Ядерная зима от вулканов в перми", "Гипотеза о ледяном ядре Земли"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_19",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Каков правильный порядок геологических эр от древней к новой?",
+    "options": ["Палеозой → Мезозой → Кайнозой → Протерозой", "Протерозой → Палеозой → Мезозой → Кайнозой", "Архей → Кайнозой → Мезозой → Палеозой", "Мезозой → Палеозой → Кайнозой → Протерозой"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_20",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Чем «мантийный плюм» отличается от обычной зоны вулканизма на границах плит?",
+    "options": ["Мантийный плюм — вулканизм в центре плиты, вызванный узкой горячей колонной вещества мантии, а не краевым взаимодействием плит", "Мантийный плюм — подводный вулкан", "Мантийный плюм — зона субдукции под океаном", "Мантийный плюм — холодная область мантии"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_21",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «закон суперпозиции» Николауса Стено и почему он фундаментален для стратиграфии?",
+    "options": ["В ненарушенных слоях каждый нижний слой древнее вышележащего — основа относительного датирования пород", "Сила тяжести распределяется равномерно по слоям", "Мощность слоёв пропорциональна времени осадконакопления", "Состав слоёв отражает климат эпохи"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_22",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Как называется крупнейший ударный кратер Земли, связанный с массовым вымиранием динозавров?",
+    "options": ["Вредефорт (ЮАР)", "Садбери (Канада)", "Чиксулуб (Мексика)", "Маникуаган (Канада)"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_23",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «офиолиты» и почему они важны для понимания тектоники плит?",
+    "options": ["Зелёные минералы, маркирующие разломы", "Фрагменты древней океанской коры и мантии, «насаженные» на континент в зонах субдукции — «ключи» к составу океанского дна", "Вулканические породы рифтовых зон", "Мраморы контактового метаморфизма"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_24",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Как называется процесс превращения осадочных пород в метаморфические под воздействием температуры и давления?",
+    "options": ["Диагенез", "Катагенез", "Метаморфизм", "Магматизм"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_25",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «Байкальская рифтовая зона» в тектоническом смысле?",
+    "options": ["Зона субдукции под озером Байкал", "Активный рифт — континент разрывается и раздвигается; Байкал — начало нового океана (как когда-то Красное море)", "Древняя зона складчатости без активных движений", "Вулканический пояс"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_26",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «изохрона» в геохронологии?",
+    "options": ["Линия одного возраста на карте", "Прямая на графике изотопных отношений, наклон которой определяет возраст породы методом Rb-Sr или Sm-Nd", "Граница между двумя геологическими периодами", "Линия равной мощности слоёв на карте изопахит"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_27",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Как называется самая молодая геологическая эра, в которой мы живём?",
+    "options": ["Мезозой", "Палеозой", "Кайнозой", "Протерозой"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_28",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Какой процесс образует антраксолит, нефть и природный газ из органических остатков согласно органической теории?",
+    "options": ["Метаморфизм осадков при высоком давлении", "Термическое созревание органического вещества (кероген) в ходе погружения и нагрева в осадочных бассейнах", "Биологическая деятельность бактерий в глубоких горизонтах", "Вулканический синтез углеводородов из СО₂ и Н₂"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_29",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «флексура» как геологическая структура?",
+    "options": ["Крупный разлом с вертикальным смещением", "Коленообразный изгиб слоёв без разрыва сплошности, ступенчато опускающий один блок относительно другого", "Тип складки со сдвигом", "Зона трещиноватости без смещения"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_30",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 3,
+    "question": "Почему Восточно-Африканский рифт интересен геологам с точки зрения будущего распада Африки?",
+    "options": ["Там ожидается крупнейшее землетрясение XXI века", "Рифт активно раздвигается на 6-7 мм/год; через ~10 млн лет восток Африки (с Сомали и Кенией) отколется и образует новый океан", "Там найдены запасы редкоземельных металлов", "Это тектонически мёртвая зона с реликтовыми движениями"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_31",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Как называются горные породы, образованные из осадков на дне водоёмов или на суше?",
+    "options": ["Метаморфические", "Магматические", "Осадочные", "Ультраосновные"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_32",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «стромatolиты» и почему они геологически уникальны?",
+    "options": ["Особый тип метаморфических пород", "Слоистые структуры, образованные цианобактериями ~3.5 млрд лет назад — древнейшие следы жизни на Земле", "Признак нефтеносности пород", "Ледниковые отложения протерозоя"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_33",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «коллизия» в тектонике плит и чем она отличается от субдукции?",
+    "options": ["При коллизии сталкиваются два континента и ни один не погружается; при субдукции океаническая плита уходит под материковую или другую океаническую", "Коллизия — медленная субдукция; субдукция — быстрая коллизия", "Разница только в скорости движения плит", "Это синонимы для разных океанских регионов"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_34",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «геосинклиналь» как историческая концепция и чем её заменила тектоника плит?",
+    "options": ["Геосинклиналь — линейная подвижная зона с накоплением мощных осадков; тектоника плит объяснила её как пассивные окраины и островные дуги", "Геосинклиналь — синоним рифта в тектонике плит", "Геосинклиналь — тип вулканической провинции", "Тектоника плит подтвердила концепцию геосинклинали"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_35",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Чем вулкан Йеллоустоун (США) интересен геологам и чем он отличается от обычного стратовулкана?",
+    "options": ["Йеллоустоун — супервулкан над мантийным плюмом; его кальдера 70×45 км; последнее извержение ~640 000 лет назад выбросило 1000 км³ магмы", "Йеллоустоун — крупнейший стратовулкан с ежегодными извержениями", "Йеллоустоун опасен только гейзерами", "Йеллоустоун — потухший вулкан без активности"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_36",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Как называется самый длинный горный хребет Земли, протяжённостью ~65 000 км?",
+    "options": ["Гималаи", "Кордильеры", "Срединно-Океанический хребет (подводный)", "Анды"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_37",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «изостазия» в геофизике?",
+    "options": ["Равновесие литосферы в астеносфере: горные массивы «плавают» на мантии, как айсберги в воде, имея глубокий корень", "Равенство давления по всей мантии", "Постоянство скорости движения плит", "Уравнение состояния горных пород"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_38",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «Великое кембрийское взрывное событие» (~541 млн лет назад)?",
+    "options": ["Крупнейшее вулканическое извержение в протерозое", "Геологически мгновенное (несколько млн лет) появление практически всех современных типов многоклеточных животных в ископаемой летописи", "Массовое вымирание протерозойских организмов", "Первое оледенение Земли"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_39",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что произошло с Уральскими горами: почему они сейчас невысоки, хотя в своё время были выше Гималаев?",
+    "options": ["Уральские горы утонули в мантии из-за субдукции", "Герцинские горы ~300 млн лет назад; миллионы лет денудации (эрозии) снизили их до нынешних 1000–1895 м", "Уральские горы были сформированы вулканами, которые потухли", "Поднятие Западно-Сибирской платформы скрыло основание гор"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_40",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Как называется период, когда уровень мирового океана был на ~120 м ниже современного (последний ледниковый максимум, ~20 000 лет назад)?",
+    "options": ["Голоценовый трансгрессивный максимум", "Плейстоценовый ледниковый максимум (Last Glacial Maximum)", "Мессинский кризис солёности", "Позднеплиоценовая регрессия"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_41",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «Мессинский кризис солёности» (5.96–5.33 млн лет назад)?",
+    "options": ["Повышение солёности мирового океана из-за вулканизма", "Практически полное высыхание Средиземного моря при его изоляции от Атлантики — образование мощных пластов эвапоритов", "Кризис рыболовства в Средиземноморье в плиоцене", "Извержение Везувия, засолившее прибрежные воды"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_42",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Как называются линзовидные скопления нефти или газа в пористых породах, запертые непроницаемой кровлей?",
+    "options": ["Нефтяные ловушки (антиклинали, стратиграфические и литологические)", "Нефтяные бассейны", "Углеводородные рифты", "Нефтяные платформы"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_43",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «метаморфические фации» и что они указывают?",
+    "options": ["Тип морских отложений по глубине", "Совокупность минеральных ассоциаций, отвечающих определённым условиям температуры и давления при метаморфизме (P-T-условия)", "Степень окисления железа в породе", "Скорость осадконакопления в геологическом прошлом"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_44",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Как объясняется странный факт, что угольные пласты Антарктиды содержат отпечатки тропических растений?",
+    "options": ["Климат Антарктиды когда-то был тропическим в своём нынешнем положении", "Антарктида в каменноугольном периоде входила в состав Гондваны и располагалась в умеренных широтах", "Ветер переносил листья тропиков с других континентов", "Угольные пласты принесены ледниками с других континентов"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_45",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «трансформный разлом» на дне океана?",
+    "options": ["Разлом, где одна плита трансформируется в другую при субдукции", "Горизонтальный сдвиговый разлом, перпендикулярный срединно-океаническому хребту, смещающий его сегменты", "Вертикальный разрыв океанической коры", "Зона перехода от океана к континенту"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_46",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Чем «гранит» фундаментально отличается от «базальта»?",
+    "options": ["Гранит — кислая интрузивная порода (кремний >65%, светлая), базальт — основная эффузивная (кремний <52%, тёмная)", "Гранит — осадочный, базальт — метаморфический", "Гранит — морской, базальт — континентальный", "Они различаются только цветом"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_47",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «диастрофизм» в исторической геологии?",
+    "options": ["Разрушение горных пород водой", "Совокупность тектонических деформаций земной коры (складкообразование, разломы, горообразование) за геологическое время", "Переотложение горных пород", "Процесс образования осадочных пород"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_48",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Почему Красное море геологически уникально?",
+    "options": ["Самое солёное море — кристаллизует соль при испарении", "Активный молодой океан — Аравийская и Африканская плиты раздвигаются, Красное море расширяется", "Самое тёплое море с уникальной биосферой", "Оно заполнено преимущественно гидротермальными водами"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_49",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Как называется крупнейшая геологическая провинция России — докембрийский кратон, фундамент Сибирской платформы?",
+    "options": ["Восточно-Европейская платформа", "Сибирский кратон (Ангарида)", "Западно-Сибирская плита", "Байкальский щит"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_50",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «реликтовый магнетизм» горных пород и как он помогает реконструировать положение материков?",
+    "options": ["Магнитные свойства, унаследованные от предыдущей намагниченности Земли", "Первичная намагниченность горных пород в момент застывания, фиксирующая направление поля Земли в прошлом — позволяет определить палеошироту", "Намагниченность, возникшая при ударе метеорита", "Магнетизм, усиленный давлением в зонах субдукции"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_51",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Какой период геологической истории называют «Золотым веком рыб» из-за расцвета бесчелюстных и первых челюстных позвоночных?",
+    "options": ["Силурийский", "Девонский", "Ордовикский", "Каменноугольный"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_52",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 3,
+    "question": "Почему Западно-Сибирская низменность — крупнейшая аккумулятивная равнина мира — является основным нефтегазоносным бассейном России?",
+    "options": ["Там сосредоточены кратонные выходы нефти", "Мощный чехол мезозойских осадков с богатым органическим веществом погружён на нужные P-T условия нефтегенерации; структурные ловушки хорошо сохранены из-за стабильности плиты", "Нефть мигрировала туда с Урала за миллионы лет", "Западная Сибирь сложена гудронсодержащими песчаниками"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_53",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Чем «складки» подразделяются на «антиклинали» и «синклинали»?",
+    "options": ["По размеру: антиклинали крупные, синклинали мелкие", "Антиклиналь — свод, ядро из более древних пород; синклиналь — мульда, ядро из более молодых", "Антиклиналь — в осадочных, синклиналь — в магматических породах", "По скорости образования: антиклинали быстрые, синклинали медленные"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_54",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Что такое «трилобиты» и в чём их значение для биостратиграфии?",
+    "options": ["Морские беспозвоночные палеозоя, широко распространённые руководящие ископаемые для датирования палеозойских отложений", "Наземные насекомые каменноугольного периода", "Первые рыбы ордовика", "Ракообразные мелового периода"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_55",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «сейсмическая стратиграфия» и в каких целях применяется в нефтяной геологии?",
+    "options": ["Изучение сейсмических волн для датирования осадков", "Интерпретация отражений сейсмических волн в разрезе для реконструкции геологического строения и поиска ловушек углеводородов", "Датирование землетрясений по слоям грунта", "Расчёт сейсмической опасности по разломам"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_56",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Какое отличие между «трансгрессией» и «регрессией» моря в стратиграфии?",
+    "options": ["Трансгрессия — наступление моря на сушу (глубоководные отложения над мелководными); регрессия — отступление", "Трансгрессия — подъём уровня дна; регрессия — его опускание", "Трансгрессия — в тёплые периоды; регрессия — в ледниковые эпохи", "Это синонимы"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_57",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Чем «абсолютный возраст» пород (геохронология) отличается от «относительного» (стратиграфия)?",
+    "options": ["Абсолютный — в годах по радиоизотопам; относительный — «старше/моложе» по позиции в разрезе или руководящим ископаемым", "Абсолютный — полевой метод; относительный — лабораторный", "Абсолютный — менее точный; относительный — более точный", "Это одно и то же"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_58",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «диапир» в геологии и как он образует нефтяные ловушки?",
+    "options": ["Пластовая интрузия в осадочном разрезе", "Соляной или глинистый купол, пробивающий вышележащие слои — изогнутые крылья купола образуют антиклинальные ловушки для нефти", "Тип оползня в глинах", "Вертикальный разлом в солевой толще"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_59",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Как называется самый молодой отдел кайнозоя — эпоха, в которой мы живём (начавшаяся ~11 700 лет назад)?",
+    "options": ["Плейстоцен", "Плиоцен", "Голоцен", "Эоцен"],
+    "correctIndex": 2,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_60",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «псевдотахилит» — стеклоподобная порода в зонах крупных разломов?",
+    "options": ["Метаморфическая порода высоких давлений", "Мгновенно расплавленная и застывшая порода при сейсмическом скольжении — «ископаемое» землетрясение", "Вулканическое стекло в разломе", "Импактная стекловатая порода"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_61",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Почему Индийский полуостров движется на север быстрее других материков (~5 см/год)?",
+    "options": ["Мощный мантийный плюм толкает его снизу", "Под ним тонкая, более тёплая литосфера и мощная астеносферная конвекция; кроме того, субдукция Тетиса тянула его вперёд", "Движение вызвано отдачей от Антарктиды", "Вращение Земли ускоряет движение тропических плит"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_62",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «эрозионный несогласие» (unconformity) в стратиграфии?",
+    "options": ["Граница между двумя слоями, где нет перерыва в осадконакоплении", "Поверхность между пачками пород, разделённых перерывом в осадконакоплении — следствие поднятия и эрозии", "Тектонический контакт в зоне надвига", "Граница между осадочными и магматическими породами"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_63",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 1,
+    "question": "Как называются конусообразные вулканы, построенные из переслаивающихся лав и пирокластических материалов?",
+    "options": ["Щитовые вулканы", "Стратовулканы (составные конусы)", "Кальдеры", "Маары"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_64",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Почему Гавайские острова расположены в виде цепи с юго-востока на северо-запад, причём более молодые острова на юго-востоке?",
+    "options": ["Это зона субдукции, двигающаяся в одном направлении", "Тихоокеанская плита движется над стационарным мантийным плюмом; каждый новый вулкан возникает над горячей точкой, старые удаляются", "Тихоокеанские течения определяют направление вулканизма", "Это магматическая дуга островной системы"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_65",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «глубоководные желоба» и как они образуются?",
+    "options": ["Рифтовые долины в срединно-океанических хребтах", "Длинные узкие депрессии у края континентов — зоны субдукции, где океаническая плита погружается в мантию", "Эрозионные каньоны на склонах континентов", "Следы метеоритных ударов на дне океана"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_66",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «углефикация» и как она связана с рангом угля?",
+    "options": ["Превращение растительных остатков в уголь при погружении и нагреве; ранг растёт: торф → бурый → каменный → антрацит", "Сжигание биомассы в безкислородных условиях", "Образование угля из нефти при давлении", "Процесс окисления пирита в угольных пластах"],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_67",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Какой тип осадочных пород является «донором» кварцевого песка для строительства и стекольного производства и где они преимущественно образуются?",
+    "options": ["Карбонаты морских мелководий", "Эоловые и прибрежно-морские кварцевые пески из хорошо сортированных обломков кварца", "Флювиогляциальные глинистые пески", "Вулканические туфы с кремнезёмом"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_68",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Почему крупнейшие месторождения алмазов (кимберлиты) сосредоточены в древних кратонах (Якутия, ЮАР, Канада)?",
+    "options": ["Алмазы образовались при падении метеоритов на кратоны", "Кимберлитовые трубки — быстро поднявшиеся из мантии (>200 км глубины) породы; стабильные кратоны обеспечили сохранность алмазов без их перекристаллизации", "Алмазы в кратонах накоплены из осадков богатых морей", "Кратоны имеют повышенное содержание углерода в фундаменте"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_69",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 3,
+    "question": "Что произошло 56 млн лет назад в «Палеоцен-Эоценовом температурном максимуме» (PETM) и чем это важно для понимания современного изменения климата?",
+    "options": ["Резкое оледенение убило тропическую биоту", "Температура планеты резко выросла на 5-8°C за ~20 000 лет из-за массового выброса углерода; параллели с современным потеплением изучаются как аналог", "Образовалась Атлантика из-за вулканизма", "Первое массовое вымирание млекопитающих"],
+    "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "construction_earth_historical_geology_tectonics_70",
+    "categoryId": "construction_earth",
+    "subcategoryId": "historical_geology_tectonics",
+    "difficulty": 2,
+    "question": "Что такое «циклотемы» в каменноугольных отложениях Пенсильвании и Донбасса?",
+    "options": ["Крупные тектонические циклы складчатости", "Ритмично повторяющиеся последовательности морских и континентальных отложений (от угля до известняка), отражающие периодические трансгрессии-регрессии моря", "Сейсмические циклы в угольных бассейнах", "Ритмичное чередование кислых и основных вулканических пород"],
+    "correctIndex": 1,
+    "image": null
+  }
+]
