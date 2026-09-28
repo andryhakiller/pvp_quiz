@@ -753,7 +753,6 @@ io.on('connection', socket => {
 
         // Apply settings passed directly with start_game if provided
         if (customSettings && typeof customSettings === 'object') {
-<<<<<<< HEAD
             if (customSettings.maxTurns !== undefined && Number.isFinite(Number(customSettings.maxTurns))) gameSettings.maxTurns = Number(customSettings.maxTurns);
             if (customSettings.disabledCategories !== undefined && Array.isArray(customSettings.disabledCategories))     gameSettings.disabledCategories     = customSettings.disabledCategories;
             if (customSettings.disabledSubcategories !== undefined && Array.isArray(customSettings.disabledSubcategories))  gameSettings.disabledSubcategories  = customSettings.disabledSubcategories;
@@ -764,12 +763,6 @@ io.on('connection', socket => {
                     }
                 }
             }
-=======
-            if (customSettings.maxTurns !== undefined)               gameSettings.maxTurns               = customSettings.maxTurns;
-            if (customSettings.disabledCategories !== undefined)     gameSettings.disabledCategories     = customSettings.disabledCategories;
-            if (customSettings.disabledSubcategories !== undefined)  gameSettings.disabledSubcategories  = customSettings.disabledSubcategories;
-            if (customSettings.scores)                               gameSettings.scores = { ...gameSettings.scores, ...customSettings.scores };
->>>>>>> 2ecf6f007e4c460eb904eb76f7338382b1025719
             io.emit('settings_updated', gameSettings);
         }
 
@@ -1031,10 +1024,6 @@ io.on('connection', socket => {
         const me = players[socket.id];
         if (!me) return;
         const wasAdmin = me.isAdmin;
-<<<<<<< HEAD
-=======
-        delete players[socket.id];
->>>>>>> 2ecf6f007e4c460eb904eb76f7338382b1025719
 
         if (isGameStarted) {
             // Keep player state intact so they can rejoin!
@@ -1050,22 +1039,6 @@ io.on('connection', socket => {
                     remaining[0].isAdmin = true;
                 }
             }
-<<<<<<< HEAD
-=======
-            if (gs.pendingCapture?.socketId === socket.id) {
-                clearQuestionTimer();
-                gs.pendingCapture = null;
-                nextTurn();
-            }
-        } else {
-            // If the host disconnected before game start, transfer admin to lowest slot player
-            if (wasAdmin) {
-                const remaining = playerList().sort((a, b) => a.slot - b.slot);
-                if (remaining.length > 0) {
-                    remaining[0].isAdmin = true;
-                }
-            }
->>>>>>> 2ecf6f007e4c460eb904eb76f7338382b1025719
             io.emit('update_player_list', playerList());
             log(`${me.nickname} вышел из лобби`, 'info');
         }
