@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "music_legends_1",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "На каком благотворительном стадионном фестивале 1985 года выступление группы Queen было признано лучшим лайвом в истории рока?",
+    "options": [
+      "Фестиваль Live Aid на Уэмбли",
+      "Фестиваль Вудсток",
+      "Фестиваль Гластонбери",
+      "Фестиваль Монстры Рока"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_2",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "В каком оперном стиле Фредди Меркьюри написал шестиминутный шедевр «Bohemian Rhapsody» вопреки протестам продюсеров?",
+    "options": [
+      "Симфоническая рок-рапсодия",
+      "Классический джазовый блюз",
+      "Акустическая баллада кантри",
+      "Тяжелый маршевый спид-метал"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_3",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "На какой знаменитой гитаре Red Special, собранной вручную из старинного камина, всю жизнь играет Брайан Мэй?",
+    "options": [
+      "Самодельная Red Special",
+      "Fender Stratocaster 1965",
+      "Gibson Les Paul Goldtop",
+      "Ibanez Steve Vai"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_4",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "В каком английском портовом городе в 1960 году зародилась группа The Beatles?",
+    "options": [
+      "Город Ливерпуль",
+      "Город Манчестер",
+      "Город Бирмингем",
+      "Город Бристоль"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_5",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой клуб в Ливерпуле стал культовой колыбелью The Beatles, где они отыграли почти 300 концертов?",
+    "options": [
+      "Клуб «The Cavern» (Каверна)",
+      "Клуб «Marquee»",
+      "Клуб «Roxy»",
+      "Клуб «CBGB»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_6",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "В каком году The Beatles дали свой последний импровизированный публичный концерт на крыше студии Apple Corps?",
+    "options": [
+      "В 1969 году",
+      "В 1965 году",
+      "В 1975 году",
+      "В 1980 году"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_7",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какой танцевальный элемент, создающий иллюзию скольжения назад, Майкл Джексон впервые показал в 1983 году на песню «Billie Jean»?",
+    "options": [
+      "Лунная походка (Moonwalk)",
+      "Робот-поппинг",
+      "Брейкданс-спин",
+      "Твист-шаффл"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_8",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой альбом Майкла Джексона 1982 года с клипом про зомби стал самым продаваемым музыкальным альбомом всех времен?",
+    "options": [
+      "Альбом «Thriller»",
+      "Альбом «Bad»",
+      "Альбом «Dangerous»",
+      "Альбом «Off the Wall»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_9",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какая рок-звезда сыграла легендарное виртуозное гитарное соло в песне Майкла Джексона «Beat It»?",
+    "options": [
+      "Эдди Ван Хален",
+      "Слэш (Slash)",
+      "Джими Хендрикс",
+      "Эрик Клэптон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_10",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "В каком американском городе родился гранж-рок благодаря группам Nirvana, Soundgarden и Alice in Chains?",
+    "options": [
+      "Город Сиэтл (штат Вашингтон)",
+      "Город Портленд (Орегон)",
+      "Город Чикаго (Иллинойс)",
+      "Город Сан-Франциско"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_11",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какая песня группы Nirvana в сентябре 1991 года сбросила Майкла Джексона с вершины чарта Billboard 200?",
+    "options": [
+      "«Smells Like Teen Spirit»",
+      "«Come As You Are»",
+      "«Lithium»",
+      "«Heart-Shaped Box»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_12",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "На каком акустическом концерте 1993 года Курт Кобейн спел в кардигане среди черных свечей и лилий?",
+    "options": [
+      "MTV Unplugged in New York",
+      "Live at Reading Festival",
+      "Live at the Paramount",
+      "Live and Loud Seattle"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_13",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какой гитарист был уволен из Metallica в 1983 году за пьянство и буйство, после чего основал группу Megadeth?",
+    "options": [
+      "Дейв Мастейн",
+      "Кирк Хэмметт",
+      "Клифф Бёртон",
+      "Джейсон Ньюстед"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_14",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой гениальный бас-гитарист группы Metallica трагически погиб в аварии гастрольного автобуса в Швеции в 1986 году?",
+    "options": [
+      "Клифф Бёртон",
+      "Джейсон Ньюстед",
+      "Роберт Трухильо",
+      "Рон Макговни"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_15",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какая баллада группы Metallica с одноименного «Черного альбома» 1991 года начинается с перебора открытых струн E-G-B-E?",
+    "options": [
+      "«Nothing Else Matters»",
+      "«The Unforgiven»",
+      "«Fade to Black»",
+      "«One»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_16",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какой соло-гитарист группы AC/DC всю карьеру выступает на сцене в форме австралийского школьника в шортах?",
+    "options": [
+      "Ангус Янг",
+      "Малкольм Янг",
+      "Бон Скотт",
+      "Брайан Джонсон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_17",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой вокалист AC/DC трагически погиб в Лондоне в феврале 1980 года, после чего группа записала «Back in Black»?",
+    "options": [
+      "Бон Скотт",
+      "Брайан Джонсон",
+      "Дэйв Эванс",
+      "Марк Эванс"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_18",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какая песня AC/DC начинается с ударов похоронного колокола и посвящена ушедшему из жизни Бону Скотту?",
+    "options": [
+      "«Hells Bells»",
+      "«Highway to Hell»",
+      "«Thunderstruck»",
+      "«TNT»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_19",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какой хит группы AC/DC 1990 года открывается скоростным теппинговым риффом Ангуса Янга на одной струне?",
+    "options": [
+      "«Thunderstruck»",
+      "«Shoot to Thrill»",
+      "«Moneytalks»",
+      "«Are You Ready»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_20",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Кто является бессменным ударником и сооснователем рок-группы Metallica вместе с Джеймсом Хетфилдом?",
+    "options": [
+      "Ларс Ульрих",
+      "Дэйв Ломбардо",
+      "Майк Портной",
+      "Ник Менца"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_21",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какой концептуальный двойной альбом Pink Floyd 1979 года рассказывает историю рок-звезды Пинка и изоляции от общества?",
+    "options": [
+      "«The Wall» («Стена»)",
+      "«Animals»",
+      "«Meddle»",
+      "«The Final Cut»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_22",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какой гитарист Pink Floyd исполнил легендарные эмоциональные соло в песне «Comfortably Numb»?",
+    "options": [
+      "Дэвид Гилмор",
+      "Роджер Уотерс",
+      "Сид Барретт",
+      "Ричард Райт"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_23",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Кто был первым лидером и автором ранней психоделической эры Pink Floyd, покинувшим группу из-за проблем с психикой?",
+    "options": [
+      "Сид Барретт",
+      "Дэвид Гилмор",
+      "Ник Мейсон",
+      "Кевин Айерс"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_24",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какая легендарная баллада группы Led Zeppelin с четвертого альбома начинается со слов «There's a lady who's sure...»?",
+    "options": [
+      "«Stairway to Heaven»",
+      "«Kashmir»",
+      "«Whole Lotta Love»",
+      "«Immigrant Song»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_25",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какой гитарист Led Zeppelin виртуозно играл на электрогитаре скрипичным смычком в песне «Dazed and Confused»?",
+    "options": [
+      "Джимми Пейдж",
+      "Джефф Бек",
+      "Эрик Клэптон",
+      "Тони Айомми"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_26",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой великий вокалист с львиной гривой волос пел в «золотом составе» Led Zeppelin?",
+    "options": [
+      "Роберт Плант",
+      "Иэн Гиллан",
+      "Оззи Осборн",
+      "Дэвид Ковердейл"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_27",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какой ударник Led Zeppelin по прозвищу Бонзо обладал сокрушительным ударом и ушел из жизни в 1980 году?",
+    "options": [
+      "Джон Бонэм",
+      "Кит Мун",
+      "Джинджер Бейкер",
+      "Кози Пауэлл"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_28",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какая группа из Бирмингема во главе с Тони Айомми и Оззи Осборном считается отцами-основателями жанра хеви-метал?",
+    "options": [
+      "Black Sabbath",
+      "Deep Purple",
+      "Judas Priest",
+      "Iron Maiden"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_29",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какое несчастье на заводе заставило гитариста Тони Айомми сделать пластиковые наперстки и ослабить натяжение струн?",
+    "options": [
+      "Потеря кончиков двух пальцев",
+      "Перелом правой кисти",
+      "Ожог пальцев кислотой",
+      "Разрыв сухожилий запястья"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_30",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какая песня Black Sabbath с альбома 1970 года рассказывает о человеке из стали, путешествующем во времени?",
+    "options": [
+      "«Iron Man»",
+      "«Paranoid»",
+      "«War Pigs»",
+      "«Children of the Grave»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_31",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какой клавишник Deep Purple создал уникальный рычащий звук электрооргана Hammond B3 через усилитель Marshall?",
+    "options": [
+      "Джон Лорд",
+      "Рик Уэйкман",
+      "Кен Хенсли",
+      "Кит Эмерсон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_32",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой гитарист-виртуоз Deep Purple написал бессмертный рифф «Smoke on the Water» из четырех нот?",
+    "options": [
+      "Ричи Блэкмор",
+      "Томми Болин",
+      "Стив Морс",
+      "Джо Сатриани"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_33",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "О каком реальном событии поется в песне Deep Purple «Smoke on the Water»?",
+    "options": [
+      "О пожаре в казино в Монтрё",
+      "О крушении военного корабля",
+      "О тумане над Темзой",
+      "О взрыве на угольной шахте"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_34",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какая группа во главе с Джимом Моррисоном выпустила хиты «Light My Fire», «Riders on the Storm» и «The End»?",
+    "options": [
+      "The Doors",
+      "Jefferson Airplane",
+      "The Byrds",
+      "Creedence"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_35",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "В каком возрасте ушли из жизни Джими Хендрикс, Дженис Джоплин, Джим Моррисон и Курт Кобейн («Клуб 27»)?",
+    "options": [
+      "В возрасте 27 лет",
+      "В возрасте 30 лет",
+      "В возрасте 25 лет",
+      "В возрасте 33 лет"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_36",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какой леворукий гитарист-виртуоз сжег свою гитару Fender Stratocaster на фестивале в Монтерее в 1967 году?",
+    "options": [
+      "Джими Хендрикс",
+      "Эрик Клэптон",
+      "Би Би Кинг",
+      "Чак Берри"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_37",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какая группа во главе с Миком Джаггером и Китом Ричардсом выпустила песню «(I Can't Get No) Satisfaction»?",
+    "options": [
+      "The Rolling Stones",
+      "The Who",
+      "The Kinks",
+      "The Animals"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_38",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какая песня The Rolling Stones 1968 года написана от лица Сатаны под ритмичные латиноамериканские барабаны?",
+    "options": [
+      "«Sympathy for the Devil»",
+      "«Paint It Black»",
+      "«Gimme Shelter»",
+      "«Jumpin' Jack Flash»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_39",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Кто был ямайским пророком стиля регги и автором гимнов «No Woman, No Cry» и «One Love»?",
+    "options": [
+      "Боб Марли",
+      "Питер Тош",
+      "Джимми Клифф",
+      "Банни Уэйлер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_40",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какой британский певец-хамелеон создал космический альтер-эго Зигги Стардаста в 1972 году?",
+    "options": [
+      "Дэвид Боуи",
+      "Марк Болан",
+      "Элтон Джон",
+      "Игги Поп"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_41",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какая нью-йоркская четверка в кожаных куртках основала американский панк-рок в клубе CBGB с песней «Blitzkrieg Bop»?",
+    "options": [
+      "Ramones",
+      "Television",
+      "Talking Heads",
+      "Blondie"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_42",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какой британский панк-квартет во главе с Джонни Роттеном выпустил скандальный антимонархический гимн «God Save the Queen»?",
+    "options": [
+      "Sex Pistols",
+      "The Clash",
+      "The Damned",
+      "Buzzcocks"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_43",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какой басист Sex Pistols стал воплощением панк-нигилизма и ушел из жизни в возрасте 21 года?",
+    "options": [
+      "Сид Вишес",
+      "Глен Мэтлок",
+      "Пол Кук",
+      "Стив Джонс"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_44",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой альбом группы The Clash 1979 года журнал Rolling Stone назвал лучшим альбомом 1980-х годов?",
+    "options": [
+      "«London Calling»",
+      "«Combat Rock»",
+      "«Sandinista!»",
+      "«Give 'Em Enough Rope»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_45",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какая ирландская рок-группа во главе с Боно выпустила эпохальный альбом «The Joshua Tree» (1987)?",
+    "options": [
+      "U2",
+      "The Cranberries",
+      "Thin Lizzy",
+      "The Pogues"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_46",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Кто является фронтменом и креативным лидером немецкой индастриал-метал группы Rammstein с 1994 года?",
+    "options": [
+      "Тилль Линдеманн",
+      "Рихард Круспе",
+      "Пауль Ландерс",
+      "Кристиан Лоренц"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_47",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какая песня группы Rammstein построена на игре немецких слов «du hast» (ты имеешь) и «du hasst» (ты ненавидишь)?",
+    "options": [
+      "«Du hast»",
+      "«Engel»",
+      "«Sonne»",
+      "«Ich will»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_48",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какая группа во главе с Акселем Роузом и гитаристом Слэшем выпустила балладу «November Rain»?",
+    "options": [
+      "Guns N' Roses",
+      "Aerosmith",
+      "Bon Jovi",
+      "Motley Crue"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_49",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какая бостонская группа во главе со Стивеном Тайлером и Джо Перри спела бессмертную балладу «Dream On»?",
+    "options": [
+      "Aerosmith",
+      "Kiss",
+      "Van Halen",
+      "Def Leppard"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_50",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой вокалист группы Kiss выходил на сцену в образе Демона и плевался огнем и искусственной кровью?",
+    "options": [
+      "Джин Симмонс",
+      "Пол Стэнли",
+      "Эйс Фрейли",
+      "Питер Крисс"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_51",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какая рок-группа выпустила песню «We Will Rock You» с ритмичным топотом ног и хлопками в ладоши?",
+    "options": [
+      "Queen",
+      "Kiss",
+      "Slade",
+      "Status Quo"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_52",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какая британская группа записала хит «Satisfaction»?",
+    "options": [
+      "The Rolling Stones",
+      "The Beatles",
+      "The Who",
+      "The Kinks"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_53",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой рок-музыкант прославился тем, что откусил голову летучей мыши прямо на сцене в 1982 году?",
+    "options": [
+      "Оззи Осборн",
+      "Элис Купер",
+      "Мэрилин Мэнсон",
+      "Роб Хэлфорд"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_54",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какой шок-рокер выступает на сцене с гильотиной, виселицей и живым удавом на шее с 1970-х годов?",
+    "options": [
+      "Элис Купер",
+      "Оззи Осборн",
+      "Кинг Даймонд",
+      "Артур Браун"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_55",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Кто является «Крестным отцом панк-рока», выступавшим топлес с группой The Stooges («Search and Destroy»)?",
+    "options": [
+      "Игги Поп",
+      "Лу Рид",
+      "Джон Кейл",
+      "Патти Смит"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_56",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой рок-музыкант возглавлял группу The Velvet Underground и спел знаменитую песню «Walk on the Wild Side»?",
+    "options": [
+      "Лу Рид",
+      "Джон Кейл",
+      "Дэвид Бирн",
+      "Том Верлен"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_57",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какая рок-поэтесса выпустила знаковый дебютный альбом «Horses» (1975) и песню «Because the Night»?",
+    "options": [
+      "Патти Смит",
+      "Джоан Джетт",
+      "Дебби Харри",
+      "Дженис Джоплин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_58",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какая американская певица спела гимн «I Love Rock 'n' Roll» со своей группой The Blackhearts в 1981 году?",
+    "options": [
+      "Джоан Джетт",
+      "Сьюзи Кватро",
+      "Лизи Хейл",
+      "Пэт Бенатар"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_59",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какая королева глэм-рока 70-х первой из женщин взяла в руки тяжелую бас-гитару («Stumblin' In»)?",
+    "options": [
+      "Сьюзи Кватро",
+      "Джоан Джетт",
+      "Бонни Тайлер",
+      "Крисси Хайнд"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_60",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какая валлийская певица с хриплым тембром спела всемирный суперхит «Total Eclipse of the Heart»?",
+    "options": [
+      "Бонни Тайлер",
+      "Тина Тёрнер",
+      "Шер",
+      "Ким Карнс"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_61",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какая «Королева рок-н-ролла» спела гимн «The Best» («Simply the Best») и «What's Love Got to Do with It»?",
+    "options": [
+      "Тина Тёрнер",
+      "Дайана Росс",
+      "Арета Франклин",
+      "Донна Саммер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_62",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой гитарист с цилиндром на голове и сигаретой в зубах исполнил соло в хите «Sweet Child o' Mine»?",
+    "options": [
+      "Слэш (Slash)",
+      "Джо Перри",
+      "Закк Уайлд",
+      "Кирк Хэмметт"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_63",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какой британский вокалист хеви-метал группы Iron Maiden управляет самолетом Boeing 747 «Ed Force One»?",
+    "options": [
+      "Брюс Дикинсон",
+      "Пол Ди'Анно",
+      "Блейз Бейли",
+      "Роб Хэлфорд"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_64",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какой вокалист группы Judas Priest ввел в моду кожаную байкерскую одежду с заклепками и цепями?",
+    "options": [
+      "Роб Хэлфорд",
+      "Тим Риппер Оуэнс",
+      "Дио",
+      "Ян Гиллан"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_65",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой великий хард-рок вокалист маленького роста пел в Rainbow, Black Sabbath и группе имени себя?",
+    "options": [
+      "Ронни Джеймс Дио",
+      "Дэвид Ковердейл",
+      "Грэм Боннет",
+      "Гленн Хьюз"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_66",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какой барабанщик группы Def Leppard потерял левую руку в аварии 1984 года, но продолжил играть на спец-установке?",
+    "options": [
+      "Рик Аллен",
+      "Томми Ли",
+      "Нико Макбрейн",
+      "Мэтт Сорум"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_67",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какой хит группы Scorpions с художественным свистом Клауса Майне стал символом падения Берлинской стены?",
+    "options": [
+      "«Wind of Change»",
+      "«Still Loving You»",
+      "«Rock You Like a Hurricane»",
+      "«Send Me an Angel»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_68",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 2,
+    "question": "Какой американский рок-квартет во главе с Джоном Бон Джови выпустил гимны «Livin' on a Prayer» и «It's My Life»?",
+    "options": [
+      "Bon Jovi",
+      "Europe",
+      "Whitesnake",
+      "Poison"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_69",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 3,
+    "question": "Какая шведская группа спела эпический стадионный синтезаторный хит «The Final Countdown» (1986)?",
+    "options": [
+      "Europe",
+      "Survivor",
+      "Foreigner",
+      "Asia"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_legends_70",
+    "categoryId": "music",
+    "subcategoryId": "music_legends",
+    "difficulty": 1,
+    "question": "Какая американская рок-группа выпустила боевик «Eye of the Tiger», ставший главной темой фильма «Рокки 3»?",
+    "options": [
+      "Survivor",
+      "Journey",
+      "Boston",
+      "Toto"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

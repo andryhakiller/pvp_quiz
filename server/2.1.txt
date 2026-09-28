@@ -66,7 +66,7 @@
     "difficulty": 1,
     "question": "В чем заключается геометрический смысл производной функции y = f(x) в точке x₀?",
     "options": [
-      "Угловой коэффициент касательной к графику функции в этой точке",
+      "Угловой коэффициент касательной",
       "Длина отрезка нормали к графику",
       "Площадь под графиком функции на отрезке",
       "Координата точки пересечения с осью абсцисс"
@@ -202,7 +202,7 @@
     "question": "По теореме синусов отношение стороны треугольника a к синусу противолежащего угла α равно:",
     "options": [
       "Радиусу описанной окружности R",
-      "Удвоенному радиусу описанной окружности 2R",
+      "Удвоенному радиусу описанной",
       "Радиусу вписанной окружности r",
       "Площади треугольника S"
     ],
@@ -296,8 +296,7 @@
       "2/3",
       "1/3"
     ],
-    "correctIndex": 3,
-    "image": null
+    "correctIndex": 3
   },
   {
     "id": "math_ege_math_21",
@@ -341,8 +340,7 @@
       "Окружность",
       "Гипербола"
     ],
-    "correctIndex": 2,
-    "image": null
+    "correctIndex": 2
   },
   {
     "id": "math_ege_math_24",
@@ -371,8 +369,7 @@
       "15",
       "10"
     ],
-    "correctIndex": 0,
-    "image": null
+    "correctIndex": 0
   },
   {
     "id": "math_ege_math_26",
@@ -686,8 +683,7 @@
       "16",
       "48"
     ],
-    "correctIndex": 1,
-    "image": null
+    "correctIndex": 1
   },
   {
     "id": "math_ege_math_47",
@@ -836,8 +832,7 @@
       "Циркумцентр",
       "Ортоцентр"
     ],
-    "correctIndex": 3,
-    "image": null
+    "correctIndex": 3
   },
   {
     "id": "math_ege_math_57",
@@ -881,8 +876,7 @@
       "6",
       "1/6"
     ],
-    "correctIndex": 2,
-    "image": null
+    "correctIndex": 2
   },
   {
     "id": "math_ege_math_60",
@@ -1028,7 +1022,7 @@
     "options": [
       "Синус: f(-x) = -f(x)",
       "Косинус: f(-x) = f(x)",
-      "Квадрат синуса: f(-x) = sin²(x)",
+      "Квадрат синуса",
       "Модуль косинуса"
     ],
     "correctIndex": 0,
@@ -1039,7 +1033,7 @@
     "categoryId": "mathematics",
     "subcategoryId": "ege_math",
     "difficulty": 2,
-    "question": "Две трубы, работая одновременно, наполняют резервуар за 6 часов. Первая труба в одиночку наполняет его за 10 часов. За сколько часов наполнит резервуар вторая труба, работая отдельно?",
+    "question": "Две трубы, работая одновременно, наполняют резервуар за 6 часов. За сколько часов наполнит резервуар вторая труба, работая отдельно?",
     "options": [
       "12 часов",
       "15 часов",
@@ -1047,6 +1041,153 @@
       "20 часов"
     ],
     "correctIndex": 1,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_olympiad_1",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 3,
+    "question": "Найдите количество целых решений неравенства: log_{0,5}(x² - 5x + 6) ≥ -1.",
+    "options": [
+      "2",
+      "4",
+      "3",
+      "0"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_olympiad_2",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 3,
+    "question": "Чему равно наибольшее значение функции y = 12sin x - 5cos x + 4 на числовой прямой?",
+    "options": [
+      "17",
+      "13",
+      "19",
+      "15"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "math_ege_math_olympiad_3",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 3,
+    "question": "В правильной треугольной призме ABCA₁B₁C₁ все ребра равны 2. Найдите расстояние между скрещивающимися прямыми AA₁ и BC.",
+    "options": [
+      "√3",
+      "1",
+      "2",
+      "√2"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_olympiad_4",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 3,
+    "question": "При каких значениях параметра 'a' уравнение x² - 2(a - 1)x + (a + 5) = 0 имеет два различных положительных корня?",
+    "options": [
+      "a > 4",
+      "a < -1",
+      "-1 < a < 4",
+      "a ≥ 4"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "math_ege_math_olympiad_5",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 3,
+    "question": "Какое наибольшее число частей может образоваться при делении плоскости n прямыми общего положения (формула Штейнера)?",
+    "options": [
+      "(n² + n + 2)/2",
+      "n(n + 1)/2",
+      "2ⁿ",
+      "n² - n + 2"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_olympiad_6",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 3,
+    "question": "Какая фигура получается в сечении правильного куба плоскостью, проходящей через середины шести ребер, не содержащих ни одну общую вершину?",
+    "options": [
+      "Правильный шестиугольник",
+      "Правильный пятиугольник",
+      "Неравносторонний ромб",
+      "Прямоугольная трапеция"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": "math_ege_math_olympiad_7",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 3,
+    "question": "Сколькими нулями оканчивается произведение всех натуральных чисел от 1 до 100 включительно (100!)?",
+    "options": [
+      "24",
+      "20",
+      "25",
+      "22"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_olympiad_8",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 3,
+    "question": "Какова вероятность того, что при случайном бросании двух игральных костей сумма выпавших очков будет простым числом?",
+    "options": [
+      "15/36",
+      "13/36",
+      "17/36",
+      "18/36"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_olympiad_9",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 3,
+    "question": "Найдите площадь треугольника со сторонами 13, 14, 15.",
+    "options": [
+      "84",
+      "96",
+      "78",
+      "82"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_ege_math_olympiad_10",
+    "categoryId": "mathematics",
+    "subcategoryId": "ege_math",
+    "difficulty": 3,
+    "question": "Чему равен предел последовательности lim (n→∞) ((n + 3)/(n + 1))ⁿ?",
+    "options": [
+      "e²",
+      "e³",
+      "e",
+      "1"
+    ],
+    "correctIndex": 0,
     "image": null
   }
 ]

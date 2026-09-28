@@ -37,6 +37,8 @@ const el = {
     // login
     nickname:     $('nickname'),
     joinBtn:      $('join-btn'),
+    rejoinSection:$('rejoin-section'),
+    rejoinSlots:  $('rejoin-slots'),
     // lobby
     playersList:  $('players-list'),
     playerCount:  $('player-count'),
@@ -50,6 +52,8 @@ const el = {
     scorePvpWin:  $('score-pvp-win'),
     scorePenalty: $('score-penalty'),
     topicFilter:  $('topic-filter'),
+    filterAllBtn: $('filter-all-btn'),
+    filterNoneBtn:$('filter-none-btn'),
     lobbyLog:     $('lobby-log-body'),
     // game
     turnNum:      $('current-turn-num'),
@@ -73,6 +77,7 @@ const el = {
     // gameover
     finalScores:  $('final-scores'),
     restartBtn:   $('restart-btn'),
+    abortBtnGame: $('abort-btn-game'),
 };
 
 // ─── TOASTS ───────────────────────────────────────────
@@ -130,6 +135,49 @@ function updateLobbyList() {
     if (el.playerCount) el.playerCount.textContent = `${currentPlayers.length} / 6`;
 }
 
+function renderRejoinSlots(players) {
+    if (!el.rejoinSection || !el.rejoinSlots) return;
+    if (!players || players.length === 0) {
+        el.rejoinSection.classList.add('hidden');
+        return;
+    }
+    el.rejoinSection.classList.remove('hidden');
+
+    const slotButtons = players.map(p => `
+        <button class="rejoin-slot-btn" data-slot="${p.slot}" style="border-color: ${p.color}66;">
+            <span class="rejoin-slot-color" style="background: ${p.color}; box-shadow: 0 0 10px ${p.color}88;"></span>
+            <span class="rejoin-slot-name" style="color: ${p.color};">${p.nickname}</span>
+            <span class="rejoin-slot-status">${p.connected ? 'В сети' : 'Офлайн'} · ${p.score} pts</span>
+        </button>
+    `).join('');
+
+    const abortButton = `
+        <button class="rejoin-slot-btn abort-slot-btn" id="rejoin-abort-btn">
+            <span class="rejoin-slot-color abort-slot-icon">🛑</span>
+            <span class="rejoin-slot-name abort-slot-title">Аборт гейм</span>
+            <span class="rejoin-slot-status abort-slot-sub">Сбросить игру</span>
+        </button>
+    `;
+
+    el.rejoinSlots.innerHTML = slotButtons + abortButton;
+
+    el.rejoinSlots.querySelectorAll('.rejoin-slot-btn[data-slot]').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const slot = parseInt(btn.dataset.slot);
+            socket.emit('rejoin_game', { slot });
+        });
+    });
+
+    const abortBtn = $('rejoin-abort-btn');
+    if (abortBtn) {
+        abortBtn.addEventListener('click', () => {
+            if (confirm('Прервать текущую битву и сбросить игру в лобби?')) {
+                socket.emit('abort_game');
+            }
+        });
+    }
+}
+
 // ─── TOPIC FILTER (LOBBY) ─────────────────────────────
 
 const CATEGORY_LABELS = {
@@ -143,6 +191,7 @@ const CATEGORY_LABELS = {
     fishing:           '🎣 Рыбалка',
     literature:        '📚 Литература',
     logic_chgk:        '🧩 Логика и ЧГК',
+    music:             '🎵 Музыка',
 };
 
 const SUBCATEGORY_LABELS = {
@@ -199,18 +248,55 @@ const SUBCATEGORY_LABELS = {
     iconic_literature:           '📚 Литература: культовые книги',
     foreign_literature:          '📚 Литература: зарубежная литература',
     // 🧩 Логика и ЧГК
-    chgk_deduction:              '🧩 Логика: ЧГК-дедукция',
-    everyday_design_logic:       '🧩 Логика: физика вещей',
-    lateral_thinking_traps:      '🧩 Логика: мысленные ловушки',
-    historical_wit:              '🧩 Логика: историческое остроумие',
-    paradoxes_game_theory:       '🧩 Логика: парадоксы и теория игр',
+    chgk_deduction:              '🧩 Логика: ЧГК и дедукция',
+    // 🎵 Музыка
+    russian_rock_punk:           '🎸 Музыка: рурок и панк',
+    era_90s_10s:                 '📼 Музыка: хиты 90-х — 10-х',
+    music_legends:               '👑 Музыка: мировые легенды',
+    album_covers_merch:          '🖼️ Музыка: культовые обложки',
 };
 
+
+let _syncSettingsTimeout = null;
+
+function getScoreVal(input, defaultVal) {
+    if (!input) return defaultVal;
+    const v = parseInt(input.value);
+    return Number.isFinite(v) ? v : defaultVal;
+}
+
+function syncSettingsToServer() {
+    const me = currentPlayers.find(p => p.id === myPlayerId);
+    if (!me?.isAdmin) return; // Only admin updates settings
+
+    const { disabledCategories, disabledSubcategories } = collectFilterSettings();
+    socket.emit('update_settings', {
+        maxTurns: getScoreVal(el.settingTurns, 15),
+        disabledCategories,
+        disabledSubcategories,
+        scores: {
+            CAPTURE:       getScoreVal(el.scoreCapture, 200),
+            HOLD_CELL:     getScoreVal(el.scoreHold, 100),
+            PVP_WIN:       getScoreVal(el.scorePvpWin, 600),
+            WRONG_PENALTY: getScoreVal(el.scorePenalty, 100),
+        },
+    });
+}
+
+function debouncedSyncSettings() {
+    clearTimeout(_syncSettingsTimeout);
+    _syncSettingsTimeout = setTimeout(() => {
+        syncSettingsToServer();
+    }, 300);
+}
 
 function buildTopicFilter() {
     const container = el.topicFilter;
     if (!container) return;
     container.innerHTML = '';
+
+    const disabledCats = new Set(gameSettings.disabledCategories || []);
+    const disabledSubs = new Set(gameSettings.disabledSubcategories || []);
 
     for (const [catId, subs] of Object.entries(categoryIndex)) {
         const label = CATEGORY_LABELS[catId] || catId;
@@ -225,7 +311,6 @@ function buildTopicFilter() {
         const catCb = document.createElement('input');
         catCb.type = 'checkbox';
         catCb.id   = `cat_${catId}`;
-        catCb.checked = true;
         catCb.className = 'filter-cb filter-cat-cb';
 
         const catLabel = document.createElement('label');
@@ -247,18 +332,25 @@ function buildTopicFilter() {
         const subList = document.createElement('div');
         subList.className = 'filter-sub-list';
 
+        const isCatDisabled = disabledCats.has(catId);
+        let checkedCount = 0;
+
         for (const subId of subs) {
             const subLabel = SUBCATEGORY_LABELS[subId] || subId;
             const row = document.createElement('div');
             row.className = 'filter-sub-row';
 
+            const isSubDisabled = isCatDisabled || disabledSubs.has(subId);
+
             const subCb = document.createElement('input');
             subCb.type = 'checkbox';
             subCb.id   = `sub_${catId}_${subId}`;
-            subCb.checked = true;
+            subCb.checked = !isSubDisabled;
             subCb.dataset.catId = catId;
             subCb.dataset.subId = subId;
             subCb.className = 'filter-cb filter-sub-cb';
+
+            if (subCb.checked) checkedCount++;
 
             const lbl = document.createElement('label');
             lbl.htmlFor = `sub_${catId}_${subId}`;
@@ -268,6 +360,18 @@ function buildTopicFilter() {
             row.appendChild(subCb);
             row.appendChild(lbl);
             subList.appendChild(row);
+        }
+
+        // Initialize catCb based on subcategories
+        if (checkedCount === 0) {
+            catCb.checked = false;
+            catCb.indeterminate = false;
+        } else if (checkedCount === subs.length) {
+            catCb.checked = true;
+            catCb.indeterminate = false;
+        } else {
+            catCb.checked = false;
+            catCb.indeterminate = true;
         }
 
         group.appendChild(subList);
@@ -284,9 +388,11 @@ function buildTopicFilter() {
 
         // Cat checkbox → toggle all subcats
         catCb.addEventListener('change', () => {
+            catCb.indeterminate = false;
             subList.querySelectorAll('.filter-sub-cb').forEach(cb => {
                 cb.checked = catCb.checked;
             });
+            debouncedSyncSettings();
         });
 
         // Sub checkbox → sync cat checkbox state
@@ -296,27 +402,73 @@ function buildTopicFilter() {
             const all_ = all.every(cb => cb.checked);
             catCb.checked = all_;
             catCb.indeterminate = any && !all_;
+            debouncedSyncSettings();
         });
     }
 }
 
+function applySettingsToFilterUI(s) {
+    if (!s || !el.topicFilter) return;
+    const disabledCats = new Set(s.disabledCategories || []);
+    const disabledSubs = new Set(s.disabledSubcategories || []);
+
+    document.querySelectorAll('.filter-group').forEach(group => {
+        const catCb = group.querySelector('.filter-cat-cb');
+        if (!catCb) return;
+        const catId = catCb.id.replace('cat_', '');
+        const subCbs = [...group.querySelectorAll('.filter-sub-cb')];
+
+        const isCatDisabled = disabledCats.has(catId);
+        let checkedCount = 0;
+
+        subCbs.forEach(subCb => {
+            const subId = subCb.dataset.subId;
+            const isSubDisabled = isCatDisabled || disabledSubs.has(subId);
+            subCb.checked = !isSubDisabled;
+            if (subCb.checked) checkedCount++;
+        });
+
+        if (checkedCount === 0) {
+            catCb.checked = false;
+            catCb.indeterminate = false;
+        } else if (checkedCount === subCbs.length) {
+            catCb.checked = true;
+            catCb.indeterminate = false;
+        } else {
+            catCb.checked = false;
+            catCb.indeterminate = true;
+        }
+    });
+}
+
 function collectFilterSettings() {
-    const disabledCats = [];
-    const disabledSubs = [];
+    const disabledCategories = [];
+    const disabledSubcategories = [];
 
-    document.querySelectorAll('.filter-cat-cb').forEach(cb => {
-        if (!cb.checked && !cb.indeterminate) {
-            disabledCats.push(cb.id.replace('cat_', ''));
+    document.querySelectorAll('.filter-group').forEach(group => {
+        const catCb = group.querySelector('.filter-cat-cb');
+        if (!catCb) return;
+        const catId = catCb.id.replace('cat_', '');
+        const subCbs = [...group.querySelectorAll('.filter-sub-cb')];
+
+        const allUnchecked = subCbs.every(cb => !cb.checked);
+        if (allUnchecked || (!catCb.checked && !catCb.indeterminate)) {
+            disabledCategories.push(catId);
         }
+
+        subCbs.forEach(cb => {
+            if (!cb.checked || allUnchecked || (!catCb.checked && !catCb.indeterminate)) {
+                disabledSubcategories.push(cb.dataset.subId);
+            }
+        });
     });
 
-    document.querySelectorAll('.filter-sub-cb').forEach(cb => {
-        if (!cb.checked) {
-            disabledSubs.push(cb.dataset.subId);
-        }
-    });
-
-    return { disabledCats, disabledSubs };
+    return {
+        disabledCategories:    [...new Set(disabledCategories)],
+        disabledSubcategories: [...new Set(disabledSubcategories)],
+        disabledCats:          [...new Set(disabledCategories)],
+        disabledSubs:          [...new Set(disabledSubcategories)],
+    };
 }
 
 // ─── MODAL ────────────────────────────────────────────
@@ -399,12 +551,25 @@ function updateCountdownDisplay() {
 
 // ─── QUESTION DISPLAY ─────────────────────────────────
 
-function buildQuestionHTML(q, round = null, isDuel = false) {
+window.zoomImage = function(imgEl) {
+    if (!imgEl) return;
+    const existing = document.getElementById('image-zoom-overlay');
+    if (existing) { existing.remove(); return; }
+    const overlay = document.createElement('div');
+    overlay.id = 'image-zoom-overlay';
+    overlay.className = 'image-zoom-overlay';
+    overlay.onclick = () => overlay.remove();
+    overlay.innerHTML = `<img src="${imgEl.src}" alt="Zoomed" class="zoomed-image">`;
+    document.body.appendChild(overlay);
+};
+
+function buildQuestionHTML(q, round = null, isDuel = false, isSpectator = false) {
     const LETTERS = ['А', 'Б', 'В', 'Г'];
     const isSvg   = q.image && q.image.endsWith('.svg');
     const img     = q.image
         ? `<img src="${q.image}" class="question-image${isSvg ? ' flag-svg' : ''}" alt="Изображение к вопросу" onclick="zoomImage(this)">`
         : '';
+    const spectatorBadge = isSpectator ? `<div class="spectator-badge">👀 Режим зрителя</div>` : '';
     const title   = isDuel
         ? `<h3 class="modal-title">⚔️ Раунд ${round}</h3><p class="modal-subtitle qtext">${q.question}</p>`
         : `<h3 class="modal-title qtext">${q.question}</h3>`;
@@ -414,10 +579,15 @@ function buildQuestionHTML(q, round = null, isDuel = false) {
         : (i => `submitCaptureAnswer(${i})`);
 
     const answers = q.options.map((o, i) =>
-        `<button class="answer-btn" id="ans-btn-${i}" onclick="${ansEv(i)}"><span class="ans-letter">${LETTERS[i]}</span>${o}</button>`
+        isSpectator
+            ? `<button class="answer-btn view-only" id="ans-btn-${i}" disabled><span class="ans-letter">${LETTERS[i]}</span>${o}</button>`
+            : `<button class="answer-btn" id="ans-btn-${i}" onclick="${ansEv(i)}"><span class="ans-letter">${LETTERS[i]}</span>${o}</button>`
     ).join('');
 
+    const passBtn = isSpectator ? '' : `<button class="pass-btn" id="pass-btn" onclick="${passEv}">🏳️ Я не знаю / Пас</button>`;
+
     return `
+        ${spectatorBadge}
         ${title}
         ${img}
         <div class="countdown-wrap">
@@ -427,18 +597,27 @@ function buildQuestionHTML(q, round = null, isDuel = false) {
         <div class="answer-buttons" id="answer-buttons-wrap">
             ${answers}
         </div>
-        <button class="pass-btn" id="pass-btn" onclick="${passEv}">🏳️ Я не знаю / Пас</button>
+        ${passBtn}
     `;
 }
 
-
 function showCaptureQuestion(q) {
-    openModal(buildQuestionHTML(q, null, false));
+    openModal(buildQuestionHTML(q, null, false, false));
+    startCountdown(30);
+}
+
+function showSpectatorCaptureQuestion(q) {
+    openModal(buildQuestionHTML(q, null, false, true));
     startCountdown(30);
 }
 
 function showDuelQuestion(q, round) {
-    openModal(buildQuestionHTML(q, round, true));
+    openModal(buildQuestionHTML(q, round, true, false));
+    startCountdown(30);
+}
+
+function showSpectatorDuelQuestion(q, round) {
+    openModal(buildQuestionHTML(q, round, true, true));
     startCountdown(30);
 }
 
@@ -467,7 +646,30 @@ function revealAnswer(correctIndex, chosenIndex) {
         if (i === correctIndex) {
             btn.classList.add('ans-correct');
         }
-        if (chosenIndex !== null && chosenIndex !== undefined && i === chosenIndex && i !== correctIndex) {
+        if (chosenIndex !== null && chosenIndex !== undefined && chosenIndex !== 'pass' && i === chosenIndex && i !== correctIndex) {
+            btn.classList.add('ans-wrong');
+        }
+    }
+}
+
+function revealDuelAnswers(correctIndex, attackerAnswer, defenderAnswer, aName, dName, aCorrect, dCorrect) {
+    stopCountdown();
+    const bar = document.getElementById('countdown-bar');
+    if (bar) { bar.style.width = '0%'; bar.className = 'countdown-fill'; }
+
+    for (let i = 0; i < 4; i++) {
+        const btn = document.getElementById(`ans-btn-${i}`);
+        if (!btn) continue;
+        btn.disabled = true;
+        btn.classList.remove('ans-correct', 'ans-wrong', 'ans-chosen');
+
+        if (i === correctIndex) {
+            btn.classList.add('ans-correct');
+        }
+        if (attackerAnswer !== null && attackerAnswer !== undefined && attackerAnswer !== 'pass' && i === attackerAnswer && i !== correctIndex) {
+            btn.classList.add('ans-wrong');
+        }
+        if (defenderAnswer !== null && defenderAnswer !== undefined && defenderAnswer !== 'pass' && i === defenderAnswer && i !== correctIndex) {
             btn.classList.add('ans-wrong');
         }
     }
@@ -592,31 +794,90 @@ el.nickname?.addEventListener('keydown', e => {
     if (e.key === 'Enter') el.joinBtn.click();
 });
 
-el.applyBtn?.addEventListener('click', () => {
-    const { disabledCats, disabledSubs } = collectFilterSettings();
-    socket.emit('update_settings', {
-        maxTurns: parseInt(el.settingTurns?.value) || 15,
-        disabledCategories:    disabledCats,
-        disabledSubcategories: disabledSubs,
-        scores: {
-            CAPTURE:       parseInt(el.scoreCapture?.value) || 200,
-            HOLD_CELL:     parseInt(el.scoreHold?.value)    || 100,
-            PVP_WIN:       parseInt(el.scorePvpWin?.value)  || 600,
-            WRONG_PENALTY: parseInt(el.scorePenalty?.value) || 100,
-        },
+el.filterAllBtn?.addEventListener('click', () => {
+    document.querySelectorAll('.filter-cat-cb').forEach(cb => {
+        cb.checked = true;
+        cb.indeterminate = false;
     });
+    document.querySelectorAll('.filter-sub-cb').forEach(cb => {
+        cb.checked = true;
+    });
+    debouncedSyncSettings();
+});
+
+el.filterNoneBtn?.addEventListener('click', () => {
+    document.querySelectorAll('.filter-cat-cb').forEach(cb => {
+        cb.checked = false;
+        cb.indeterminate = false;
+    });
+    document.querySelectorAll('.filter-sub-cb').forEach(cb => {
+        cb.checked = false;
+    });
+    debouncedSyncSettings();
+});
+
+[el.settingTurns, el.scoreCapture, el.scoreHold, el.scorePvpWin, el.scorePenalty].forEach(input => {
+    input?.addEventListener('input', () => debouncedSyncSettings());
+});
+
+el.applyBtn?.addEventListener('click', () => {
+    syncSettingsToServer();
     toast('Настройки применены', 'success');
 });
 
-el.startBtn?.addEventListener('click', () => socket.emit('start_game'));
+el.startBtn?.addEventListener('click', () => {
+    const { disabledCategories, disabledSubcategories } = collectFilterSettings();
+    const settings = {
+        maxTurns: getScoreVal(el.settingTurns, 15),
+        disabledCategories,
+        disabledSubcategories,
+        scores: {
+            CAPTURE:       getScoreVal(el.scoreCapture, 200),
+            HOLD_CELL:     getScoreVal(el.scoreHold, 100),
+            PVP_WIN:       getScoreVal(el.scorePvpWin, 600),
+            WRONG_PENALTY: getScoreVal(el.scorePenalty, 100),
+        },
+    };
+    socket.emit('update_settings', settings);
+    socket.emit('start_game', settings);
+});
 el.restartBtn?.addEventListener('click', () => location.reload());
+
+el.abortBtnGame?.addEventListener('click', () => {
+    if (confirm('Прервать текущую битву и сбросить игру в лобби?')) {
+        socket.emit('abort_game');
+    }
+});
 
 // ─── SOCKET EVENTS ────────────────────────────────────
 
-// ──── LOBBY ────
+// ──── LOBBY & REJOIN ────
+socket.on('game_status', ({ isGameStarted, players }) => {
+    if (isGameStarted) {
+        renderRejoinSlots(players);
+    } else {
+        if (el.rejoinSection) el.rejoinSection.classList.add('hidden');
+    }
+});
+
+socket.on('game_aborted', () => {
+    closeModal();
+    closeDuelOverlay();
+    toast('🛑 Игра была сброшена (Аборт)!', 'error', 4500);
+    const me = currentPlayers.find(p => p.id === myPlayerId);
+    if (me) {
+        showScreen('lobby');
+        lobbyLog('🛑 Битва была прервана. Вы вернулись в лобби.', 'fail');
+    } else {
+        showScreen('login');
+        if (el.rejoinSection) el.rejoinSection.classList.add('hidden');
+    }
+});
+
 socket.on('joined_successfully', player => {
     myPlayerId = player.id;
     mySlot     = player.slot;
+    try { sessionStorage.setItem('qb_slot', player.slot); } catch (e) {}
     showScreen('lobby');
     lobbyLog(`Привет, ${player.nickname}! 👋`, 'info');
 });
@@ -652,23 +913,24 @@ socket.on('settings_updated', s => {
         if (el.scorePvpWin)  el.scorePvpWin.value  = s.scores.PVP_WIN   || 600;
         if (el.scorePenalty) el.scorePenalty.value  = s.scores.WRONG_PENALTY || 100;
     }
+    applySettingsToFilterUI(s);
 });
 
 // ──── GAME START ────
-socket.on('game_started', ({ turn, players, settings, board, capitals }) => {
+socket.on('game_started', ({ turn, players, settings, board, capitals, turnNumber }) => {
     currentPlayers = players;
     gameSettings   = settings;
 
     showScreen('game');
 
     if (el.maxRounds) el.maxRounds.textContent = settings.maxTurns;
-    if (el.roundNum)  el.roundNum.textContent  = '1';
+    if (el.roundNum)  el.roundNum.textContent  = turnNumber || '1';
 
     if (typeof initBoard === 'function') {
         setTimeout(() => {
             initBoard(board, capitals);
             setCurrentPlayerSlot(turn);
-            applyTurnUI(turn, 1);
+            applyTurnUI(turn, turnNumber || 1);
             updateScoreboard();
         }, 80);
     }
@@ -718,28 +980,32 @@ socket.on('ask_question', ({ question }) => {
     showCaptureQuestion(question);
 });
 
-socket.on('spectator_question', ({ playerSlot, playerName }) => {
-    gameLog(`👀 ${playerName} отвечает...`, 'info');
+socket.on('spectator_question', ({ playerSlot, playerName, question }) => {
+    if (playerSlot !== mySlot) {
+        if (question) {
+            showSpectatorCaptureQuestion(question);
+        }
+        gameLog(`👀 ${playerName} отвечает...`, 'info');
+    }
 });
 
 socket.on('spectator_answer', ({ playerSlot, chosenIndex, correctIndex, isCorrect, isPass }) => {
-    // Only close modal if we are a SPECTATOR (our instant reveal already handled it if we were the player)
     const p = currentPlayers.find(pl => pl.slot === playerSlot);
     if (p?.slot !== mySlot) {
-        // We're a spectator — nothing to reveal in our modal
+        revealAnswer(correctIndex, chosenIndex);
     }
     setTimeout(() => {
         closeModal();
         if (isPass) {
-            gameLog(`⏩ ${p?.nickname} пасует`, 'info');
+            gameLog(`⏩ ${p?.nickname || 'Игрок'} пасует`, 'info');
         } else if (isCorrect) {
-            gameLog(`✅ ${p?.nickname} ответил верно!`, 'success');
-            toast(`✅ ${p?.nickname} верно`, 'success');
+            gameLog(`✅ ${p?.nickname || 'Игрок'} ответил верно!`, 'success');
+            toast(`✅ ${p?.nickname || 'Игрок'} верно`, 'success');
         } else {
-            gameLog(`❌ ${p?.nickname} ошибся — штраф!`, 'fail');
-            toast(`❌ ${p?.nickname} ошибся — штраф!`, 'error');
+            gameLog(`❌ ${p?.nickname || 'Игрок'} ошибся — штраф!`, 'fail');
+            toast(`❌ ${p?.nickname || 'Игрок'} ошибся — штраф!`, 'error');
         }
-    }, 1800);
+    }, 2200);
 });
 
 // Question timeout from server
@@ -767,15 +1033,23 @@ socket.on('duel_pick_topic', ({ round, picker, categories }) => {
     showTopicSelect(categories, true, round, picker);
 });
 
-socket.on('duel_round_started', ({ round, topic, attackerSlot, defenderSlot }) => {
+socket.on('duel_round_started', ({ round, topic, attackerScore, defenderScore, attackerSlot, defenderSlot }) => {
     const label = SUBCATEGORY_LABELS[topic] || topic;
-    updateDuel(round, 0, 0, `Раунд ${round}: тема «${label}» — ждём ответов...`);
+    const sA = attackerScore !== undefined ? attackerScore : 0;
+    const sD = defenderScore !== undefined ? defenderScore : 0;
+    updateDuel(round, sA, sD, `Раунд ${round}: тема «${label}» — ждём ответов...`);
     gameLog(`🎯 Раунд ${round}: тема «${label}»`, 'duel');
 });
 
 socket.on('duel_question', ({ question, round }) => {
     _currentCorrectIdx = question.correctIndex ?? null;
     showDuelQuestion(question, round);
+});
+
+socket.on('duel_spectator_question', ({ round, topic, attackerSlot, defenderSlot, question }) => {
+    if (mySlot !== attackerSlot && mySlot !== defenderSlot) {
+        showSpectatorDuelQuestion(question, round);
+    }
 });
 
 socket.on('duel_waiting_opponent', () => {
@@ -787,41 +1061,55 @@ socket.on('duel_round_result', ({
     questionText, questionOptions,
     attackerAnswer, defenderAnswer, correctIndex,
     attackerCorrect, defenderCorrect,
+    attackerScore, defenderScore,
     attackerWins, defenderWins,
 }) => {
-    // Instant reveal already fired on click — just update duel overlay scores
+    const sA = attackerScore !== undefined ? attackerScore : (attackerWins !== undefined ? attackerWins : 0);
+    const sD = defenderScore !== undefined ? defenderScore : (defenderWins !== undefined ? defenderWins : 0);
+    el.duelScoreA.textContent = sA;
+    el.duelScoreD.textContent = sD;
+
     const aP = currentPlayers.find(p => p.slot === attackerSlot);
     const dP = currentPlayers.find(p => p.slot === defenderSlot);
 
-    el.duelScoreA.textContent = attackerWins;
-    el.duelScoreD.textContent = defenderWins;
-
     let roundMsg = '';
     if (attackerCorrect && !defenderCorrect) {
-        roundMsg = `${aP?.nickname} берёт раунд! ⚔️`;
+        roundMsg = `${aP?.nickname || 'Атакующий'} берёт раунд! (+1.0) ⚔️`;
     } else if (defenderCorrect && !attackerCorrect) {
-        roundMsg = `${dP?.nickname} берёт раунд! 🛡️`;
+        roundMsg = `${dP?.nickname || 'Защитник'} берёт раунд! (+1.0) 🛡️`;
     } else if (attackerCorrect && defenderCorrect) {
-        roundMsg = 'Оба ответили верно — ничья в раунде';
+        roundMsg = 'Оба ответили верно (+1.0 каждому)';
     } else {
-        roundMsg = 'Оба ошиблись — ничья в раунде';
+        roundMsg = 'Раунд завершён';
     }
     el.duelStatus.textContent = roundMsg;
 
+    revealDuelAnswers(correctIndex, attackerAnswer, defenderAnswer, aP?.nickname, dP?.nickname, attackerCorrect, defenderCorrect);
+
     if (questionText) gameLog(`❓ ${questionText}`, 'duel');
     if (questionOptions) {
-        const aAns = attackerAnswer !== null && attackerAnswer !== undefined ? questionOptions[attackerAnswer] : '—';
-        const dAns = defenderAnswer !== null && defenderAnswer !== undefined ? questionOptions[defenderAnswer] : '—';
-        gameLog(`⚔️ ${aP?.nickname}: «${aAns}» ${attackerCorrect ? '✅' : '❌'}`, attackerCorrect ? 'success' : 'fail');
-        gameLog(`🛡️ ${dP?.nickname}: «${dAns}» ${defenderCorrect ? '✅' : '❌'}`, defenderCorrect ? 'success' : 'fail');
+        const aAns = (attackerAnswer !== null && attackerAnswer !== undefined && attackerAnswer !== 'pass')
+            ? questionOptions[attackerAnswer]
+            : (attackerAnswer === 'pass' || attackerAnswer === null ? 'Пас' : '—');
+        const dAns = (defenderAnswer !== null && defenderAnswer !== undefined && defenderAnswer !== 'pass')
+            ? questionOptions[defenderAnswer]
+            : (defenderAnswer === 'pass' || defenderAnswer === null ? 'Пас' : '—');
+        gameLog(`⚔️ ${aP?.nickname || 'Атакующий'}: «${aAns}» ${attackerCorrect ? '✅ (+1.0)' : (attackerAnswer === null || attackerAnswer === 'pass' ? '🏳️ (+0.4)' : '❌ (штраф)')}`, attackerCorrect ? 'success' : 'fail');
+        gameLog(`🛡️ ${dP?.nickname || 'Защитник'}: «${dAns}» ${defenderCorrect ? '✅ (+1.0)' : (defenderAnswer === null || defenderAnswer === 'pass' ? '🏳️ (+0.4)' : '❌ (штраф)')}`, defenderCorrect ? 'success' : 'fail');
     }
-    gameLog(`Счёт раунда ${round}: ${attackerWins}:${defenderWins}`, 'duel');
+    gameLog(`Счёт дуэли: ${sA} : ${sD}`, 'duel');
+
+    setTimeout(() => {
+        closeModal();
+    }, 2800);
 });
 
-socket.on('duel_next_round', ({ round, picker, topic, attackerWins, defenderWins }) => {
+socket.on('duel_next_round', ({ round, picker, topic, attackerScore, defenderScore, attackerWins, defenderWins }) => {
+    const sA = attackerScore !== undefined ? attackerScore : (attackerWins !== undefined ? attackerWins : 0);
+    const sD = defenderScore !== undefined ? defenderScore : (defenderWins !== undefined ? defenderWins : 0);
     el.duelRoundLbl.textContent = `Раунд ${round} / 3`;
-    el.duelScoreA.textContent   = attackerWins;
-    el.duelScoreD.textContent   = defenderWins;
+    el.duelScoreA.textContent   = sA;
+    el.duelScoreD.textContent   = sD;
 
     if (picker === 'defender') {
         el.duelStatus.textContent = 'Защитник выбирает тему...';
@@ -831,8 +1119,13 @@ socket.on('duel_next_round', ({ round, picker, topic, attackerWins, defenderWins
     }
 });
 
-socket.on('duel_ended', ({ attackerSlot, defenderSlot, attackerName, defenderName, attackerWins, defenderWins, winner }) => {
+socket.on('duel_ended', ({ attackerSlot, defenderSlot, attackerName, defenderName, attackerScore, defenderScore, attackerWins, defenderWins, winner }) => {
     closeModal();
+    const sA = attackerScore !== undefined ? attackerScore : (attackerWins !== undefined ? attackerWins : 0);
+    const sD = defenderScore !== undefined ? defenderScore : (defenderWins !== undefined ? defenderWins : 0);
+    el.duelScoreA.textContent = sA;
+    el.duelScoreD.textContent = sD;
+
     if (winner === 'disconnect') {
         el.duelStatus && (el.duelStatus.textContent = 'Игрок вышел из игры');
         setTimeout(() => closeDuelOverlay(), 2000);
@@ -840,13 +1133,13 @@ socket.on('duel_ended', ({ attackerSlot, defenderSlot, attackerName, defenderNam
     }
 
     const winnerName = winner === 'attacker' ? attackerName : winner === 'defender' ? defenderName : null;
-    const msg = winnerName ? `🏆 ${winnerName} выиграл дуэль!` : `🤝 Ничья в дуэли!`;
+    const msg = winnerName ? `🏆 ${winnerName} выиграл дуэль! (${sA}:${sD})` : `🤝 Ничья в дуэли! (${sA}:${sD})`;
 
     if (el.duelStatus) el.duelStatus.textContent = msg;
-    gameLog(`${msg} (${attackerWins}:${defenderWins})`, 'duel');
-    toast(msg, winner === 'tie' ? 'info' : 'duel', 3500);
+    gameLog(`${msg} (${sA}:${sD})`, 'duel');
+    toast(msg, winner === 'tie' ? 'info' : 'duel', 4000);
 
-    setTimeout(() => closeDuelOverlay(), 3500);
+    setTimeout(() => closeDuelOverlay(), 4000);
 });
 
 // ──── ELIMINATION ────

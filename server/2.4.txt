@@ -1,102 +1,152 @@
 [
   {
-    "id": "math_mental_math_211",
+    "id": "math_mental_215_sq",
     "categoryId": "mathematics",
     "subcategoryId": "mental_math",
-    "difficulty": 1,
-    "question": "Чему равен квадрат числа 65 при быстром вычислении по правилу чисел, оканчивающихся на 5?",
-    "options": ["4225", "4025", "4255", "3625"],
+    "difficulty": 3,
+    "question": "Вычислите устно: 215² = ?",
+    "options": [
+      "46 225",
+      "44 225",
+      "45 125",
+      "46 125"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "math_mental_math_212",
-    "categoryId": "mathematics",
-    "subcategoryId": "mental_math",
-    "difficulty": 1,
-    "question": "Чему равна разность квадратов 73² - 27², вычисленная устно через формулу (a - b)(a + b)?",
-    "options": ["4200", "4600", "5000", "4800"],
-    "correctIndex": 1,
-    "image": null
-  },
-  {
-    "id": "math_mental_math_213",
-    "categoryId": "mathematics",
-    "subcategoryId": "mental_math",
-    "difficulty": 1,
-    "question": "Чему равны 16% от 25, если применить трюк перестановки процентов: x% от y равно y% от x?",
-    "options": ["2", "8", "4", "3,2"],
-    "correctIndex": 2,
-    "image": null
-  },
-  {
-    "id": "math_mental_math_214",
-    "categoryId": "mathematics",
-    "subcategoryId": "mental_math",
-    "difficulty": 1,
-    "question": "Чему равна сумма всех натуральных чисел от 1 до 100 включительно?",
-    "options": ["5000", "5100", "10100", "5050"],
-    "correctIndex": 3,
-    "image": null
-  },
-  {
-    "id": "math_mental_math_215",
+    "id": "math_mental_19_47",
     "categoryId": "mathematics",
     "subcategoryId": "mental_math",
     "difficulty": 2,
-    "question": "Какой остаток дает число 2¹⁰⁰ при делении на 3?",
-    "options": ["1", "2", "0", "Остаток не определен"],
+    "question": "Вычислите устно: 19 × 47 = ?",
+    "options": [
+      "893",
+      "883",
+      "913",
+      "873"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "math_mental_math_216",
+    "id": "math_mental_68_72",
     "categoryId": "mathematics",
     "subcategoryId": "mental_math",
     "difficulty": 2,
-    "question": "Чему равна сумма первых 15 последовательных нечетных натуральных чисел (1 + 3 + 5 + ... + 29)?",
-    "options": ["210", "225", "240", "196"],
-    "correctIndex": 1,
-    "image": null
-  },
-  {
-    "id": "math_mental_math_217",
-    "categoryId": "mathematics",
-    "subcategoryId": "mental_math",
-    "difficulty": 2,
-    "question": "Чему равно значение бесконечного вложенного радикала x = √(20 + √(20 + √(20 + ...)))?",
-    "options": ["4", "2√5", "5", "6"],
-    "correctIndex": 2,
-    "image": null
-  },
-  {
-    "id": "math_mental_math_218",
-    "categoryId": "mathematics",
-    "subcategoryId": "mental_math",
-    "difficulty": 2,
-    "question": "Какова последняя цифра значения степени 7²⁰²⁶?",
-    "options": ["7", "1", "3", "9"],
-    "correctIndex": 3,
-    "image": null
-  },
-  {
-    "id": "math_mental_math_219",
-    "categoryId": "mathematics",
-    "subcategoryId": "mental_math",
-    "difficulty": 2,
-    "question": "Сколькими нулями оканчивается факториал числа 50 (значение 50!) в десятичной записи?",
-    "options": ["12", "10", "14", "15"],
+    "question": "Вычислите значение произведения: 68 × 72 = ?",
+    "options": [
+      "4896",
+      "4886",
+      "4916",
+      "4796"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "math_mental_math_220",
+    "id": "math_mental_97_103",
     "categoryId": "mathematics",
     "subcategoryId": "mental_math",
     "difficulty": 2,
-    "question": "Чему равен наибольший общий делитель (НОД) чисел 143 и 91?",
-    "options": ["7", "13", "11", "17"],
-    "correctIndex": 1,
+    "question": "Вычислите значение выражения: 97 × 103 = ?",
+    "options": [
+      "9991",
+      "9981",
+      "9971",
+      "10001"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_mental_sqrt_5625",
+    "categoryId": "mathematics",
+    "subcategoryId": "mental_math",
+    "difficulty": 2,
+    "question": "Чему равен арифметический квадратный корень: √5625 = ?",
+    "options": [
+      "75",
+      "65",
+      "85",
+      "72"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_mental_34_28",
+    "categoryId": "mathematics",
+    "subcategoryId": "mental_math",
+    "difficulty": 2,
+    "question": "Вычислите устно: 34 × 28 = ?",
+    "options": [
+      "952",
+      "942",
+      "962",
+      "932"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_mental_pct_18_350",
+    "categoryId": "mathematics",
+    "subcategoryId": "mental_math",
+    "difficulty": 2,
+    "question": "Найдите значение: 18% от 350 = ?",
+    "options": [
+      "63",
+      "54",
+      "72",
+      "68"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_mental_sqrt_11664",
+    "categoryId": "mathematics",
+    "subcategoryId": "mental_math",
+    "difficulty": 3,
+    "question": "Вычислите точное значение: √11 664 = ?",
+    "options": [
+      "108",
+      "104",
+      "112",
+      "106"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_mental_52_sq",
+    "categoryId": "mathematics",
+    "subcategoryId": "mental_math",
+    "difficulty": 2,
+    "question": "Вычислите квадрат числа: 52² = ?",
+    "options": [
+      "2704",
+      "2604",
+      "2714",
+      "2804"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "math_mental_cube_15",
+    "categoryId": "mathematics",
+    "subcategoryId": "mental_math",
+    "difficulty": 2,
+    "question": "Чему равен куб числа: 15³ = ?",
+    "options": [
+      "3375",
+      "3125",
+      "3275",
+      "3475"
+    ],
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -105,7 +155,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Упростите устно алгебраическое выражение (x + y)² - (x - y)²:",
-    "options": ["2(x² + y²)", "2xy", "4xy", "x² - y²"],
+    "options": [
+      "2(x² + y²)",
+      "2xy",
+      "4xy",
+      "x² - y²"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -115,7 +170,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Чему равно общее количество всех натуральных делителей числа 72 (включая 1 и 72)?",
-    "options": ["8", "10", "16", "12"],
+    "options": [
+      "8",
+      "10",
+      "16",
+      "12"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -125,7 +185,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равно произведение 98 × 102, вычисленное устно через разность квадратов (100 - 2)(100 + 2)?",
-    "options": ["9996", "9984", "9992", "9976"],
+    "options": [
+      "9996",
+      "9984",
+      "9992",
+      "9976"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -135,7 +200,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равно значение числового выражения 2¹⁰ - 2⁹ - 2⁸?",
-    "options": ["128", "256", "512", "64"],
+    "options": [
+      "128",
+      "256",
+      "512",
+      "64"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -144,8 +214,13 @@
     "categoryId": "mathematics",
     "subcategoryId": "mental_math",
     "difficulty": 1,
-    "question": "Чему равен квадрат числа 105, вычисленный по правилу умножения 10 × 11 и приписывания 25?",
-    "options": ["10025", "10225", "11025", "11225"],
+    "question": "Чему равен квадрат числа 105, вычисленный?",
+    "options": [
+      "10025",
+      "10225",
+      "11025",
+      "11225"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -155,7 +230,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Число делится на 11 без остатка тогда и только тогда, когда знакочередующаяся сумма его цифр:",
-    "options": ["Оканчивается на 1", "Всегда строго равна 0", "Нечетна", "Делится на 11 или равна 0"],
+    "options": [
+      "Оканчивается на 1",
+      "Всегда строго равна 0",
+      "Нечетна",
+      "на 11 или равна 0"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -165,7 +245,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Чему равен результат вычисления бесконечного радикала x = √(6 + √(6 + √(6 + ...)))?",
-    "options": ["3", "2", "√6", "4"],
+    "options": [
+      "3",
+      "2",
+      "√6",
+      "4"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -175,7 +260,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равен биномиальный коэффициент C₇² (число сочетаний из 7 по 2)?",
-    "options": ["14", "21", "28", "42"],
+    "options": [
+      "14",
+      "21",
+      "28",
+      "42"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -185,7 +275,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Каков остаток от деления числа 5⁴³ на 4?",
-    "options": ["0", "2", "1", "3"],
+    "options": [
+      "0",
+      "2",
+      "1",
+      "3"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -195,7 +290,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равна сумма действительных корней уравнения 3x² - 15x + 7 = 0 по теореме Виета?",
-    "options": ["-5", "7/3", "15", "5"],
+    "options": [
+      "-5",
+      "7/3",
+      "15",
+      "5"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -205,7 +305,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равна сумма 1/2 + 1/4 + 1/8 + 1/16 + 1/32 + 1/64, вычисленная через 1 - 1/2ⁿ?",
-    "options": ["63/64", "61/64", "31/32", "127/128"],
+    "options": [
+      "63/64",
+      "61/64",
+      "31/32",
+      "127/128"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -215,7 +320,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Если среднее арифметическое двух положительных чисел равно 20, а среднее геометрическое равно 12, чему равны эти числа?",
-    "options": ["16 и 24", "4 и 36", "10 и 30", "8 и 32"],
+    "options": [
+      "16 и 24",
+      "4 и 36",
+      "10 и 30",
+      "8 и 32"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -225,7 +335,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равно произведение (a - b)(a² + ab + b²) согласно формуле сокращенного умножения?",
-    "options": ["(a - b)³", "a³ + b³", "a³ - b³", "a³ - 3a²b + b³"],
+    "options": [
+      "(a - b)³",
+      "a³ + b³",
+      "a³ - b³",
+      "a³ - 3a²b + b³"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -235,7 +350,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Какова последняя цифра числа 2²⁰²⁴?",
-    "options": ["2", "4", "8", "6"],
+    "options": [
+      "2",
+      "4",
+      "8",
+      "6"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -245,7 +365,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равен результат быстрого деления 825 на 25 по схеме (825 × 4) / 100?",
-    "options": ["33", "35", "31", "37"],
+    "options": [
+      "33",
+      "35",
+      "31",
+      "37"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -255,7 +380,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Сколько нулей на конце имеет десятичная запись факториала 25!?",
-    "options": ["5", "6", "4", "7"],
+    "options": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -265,7 +395,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Чему равно упрощенное значение корня √(7 + 4√3), если представить подкоренное выражение как полный квадрат?",
-    "options": ["1 + 2√3", "3 + √3", "2 + √3", "√3 + 4"],
+    "options": [
+      "1 + 2√3",
+      "3 + √3",
+      "2 + √3",
+      "√3 + 4"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -275,7 +410,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Произведение НОД и НОК двух натуральных чисел равно 480. Одно из чисел равно 16. Чему равно второе число?",
-    "options": ["24", "32", "40", "30"],
+    "options": [
+      "24",
+      "32",
+      "40",
+      "30"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -285,7 +425,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему тождественно равно выражение (a + b + c)² - (a² + b² + c²)?",
-    "options": ["2(ab + bc + ac)", "ab + bc + ac", "3(ab + bc + ac)", "4(ab + bc + ac)"],
+    "options": [
+      "2(ab + bc + ac)",
+      "ab + bc + ac",
+      "3(ab + bc + ac)",
+      "4(ab + bc + ac)"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -295,7 +440,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Каков остаток от деления девятизначного числа 123456789 на 9 по признаку делимости по сумме цифр?",
-    "options": ["3", "0", "1", "6"],
+    "options": [
+      "3",
+      "0",
+      "1",
+      "6"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -305,7 +455,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равен квадрат числа 45?",
-    "options": ["1825", "1925", "2025", "2125"],
+    "options": [
+      "1825",
+      "1925",
+      "2025",
+      "2125"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -315,7 +470,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Сколькими способами можно выбрать двух дежурных из группы в 10 человек (C₁₀²)?",
-    "options": ["20", "90", "50", "45"],
+    "options": [
+      "20",
+      "90",
+      "50",
+      "45"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -325,7 +485,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Если x + 1/x = 3, чему равно точное значение выражения x² + 1/x²?",
-    "options": ["7", "9", "8", "6"],
+    "options": [
+      "7",
+      "9",
+      "8",
+      "6"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -334,8 +499,13 @@
     "categoryId": "mathematics",
     "subcategoryId": "mental_math",
     "difficulty": 1,
-    "question": "Чему равна сумма внутренних углов выпуклого 8-угольника по формуле 180° × (n - 2)?",
-    "options": ["900°", "1080°", "1260°", "720°"],
+    "question": "Чему равна сумма внутренних углов выпуклого 8-угольника?",
+    "options": [
+      "900°",
+      "1080°",
+      "1260°",
+      "720°"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -345,7 +515,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равно значение числового выражения 51² - 49²?",
-    "options": ["100", "400", "200", "300"],
+    "options": [
+      "100",
+      "400",
+      "200",
+      "300"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -355,7 +530,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равно количество простых чисел в первом десятке (на отрезке от 1 до 10 включительно)?",
-    "options": ["3", "5", "6", "4"],
+    "options": [
+      "3",
+      "5",
+      "6",
+      "4"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -365,7 +545,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Какова последняя цифра произведения всех нечетных простых чисел, меньших 100?",
-    "options": ["5", "1", "3", "7"],
+    "options": [
+      "5",
+      "1",
+      "3",
+      "7"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -375,7 +560,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равно значение произведения 999 × 7, вычисленное устно через (1000 - 1) × 7?",
-    "options": ["6983", "6993", "6997", "7003"],
+    "options": [
+      "6983",
+      "6993",
+      "6997",
+      "7003"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -385,7 +575,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Чему равно значение выражения x³ + 1/x³, если x + 1/x = 3?",
-    "options": ["27", "21", "18", "24"],
+    "options": [
+      "27",
+      "21",
+      "18",
+      "24"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -395,7 +590,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Чему равна гипотенуза прямоугольного треугольника с катетами 9 и 40 (пифагорова тройка)?",
-    "options": ["49", "42", "43", "41"],
+    "options": [
+      "49",
+      "42",
+      "43",
+      "41"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -405,7 +605,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Чему равно значение логарифмического выражения log₂(log₃(log₂ 512))?",
-    "options": ["1", "0", "2", "3"],
+    "options": [
+      "1",
+      "0",
+      "2",
+      "3"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -415,7 +620,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равен квадрат числа 75?",
-    "options": ["5425", "5625", "5525", "5725"],
+    "options": [
+      "5425",
+      "5625",
+      "5525",
+      "5725"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -425,7 +635,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равно наименьшее общее кратное (НОК) чисел 12 и 18?",
-    "options": ["72", "216", "36", "54"],
+    "options": [
+      "72",
+      "216",
+      "36",
+      "54"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -435,7 +650,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Каков остаток от деления числа 3¹⁰⁰ на 7 по Малой теореме Ферма?",
-    "options": ["1", "2", "3", "4"],
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -445,7 +665,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равен квадрат числа 111 при быстром возведении в квадрат репдиджитов из единиц?",
-    "options": ["12321", "12231", "123321", "11211"],
+    "options": [
+      "12321",
+      "12231",
+      "123321",
+      "11211"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -455,7 +680,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равен результат быстрого умножения 48 × 125 по схеме (48 / 8) × 1000?",
-    "options": ["5000", "6000", "6250", "4800"],
+    "options": [
+      "5000",
+      "6000",
+      "6250",
+      "4800"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -465,7 +695,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равен действительный корень уравнения √x + √x = 8?",
-    "options": ["4", "8", "16", "64"],
+    "options": [
+      "4",
+      "8",
+      "16",
+      "64"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -474,8 +709,13 @@
     "categoryId": "mathematics",
     "subcategoryId": "mental_math",
     "difficulty": 2,
-    "question": "На какое максимальное число частей делят плоскость 4 прямые линии общего положения (по формуле 1 + n(n+1)/2)?",
-    "options": ["8", "16", "10", "11"],
+    "question": "На какое максимальное число частей делят плоскость 4 прямые линии общего положения (?",
+    "options": [
+      "8",
+      "16",
+      "10",
+      "11"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -485,7 +725,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равен средний (третий) член возрастающей арифметической прогрессии из 5 членов, если их сумма равна 100?",
-    "options": ["20", "25", "15", "10"],
+    "options": [
+      "20",
+      "25",
+      "15",
+      "10"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -495,7 +740,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Какова последняя цифра числа 9⁹⁹?",
-    "options": ["1", "9", "3", "7"],
+    "options": [
+      "1",
+      "9",
+      "3",
+      "7"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -505,7 +755,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Чему равно значение бесконечного радикала x = √(42 - √(42 - √(42 - ...)))?",
-    "options": ["7", "21", "6", "√42"],
+    "options": [
+      "7",
+      "21",
+      "6",
+      "√42"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -515,7 +770,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Сколько нулей содержит десятичная запись числа 2⁸ × 5⁶?",
-    "options": ["8", "14", "2", "6"],
+    "options": [
+      "8",
+      "14",
+      "2",
+      "6"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -525,7 +785,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равно значение числового выражения 25² - 24²?",
-    "options": ["49", "1", "98", "47"],
+    "options": [
+      "49",
+      "1",
+      "98",
+      "47"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -534,8 +799,13 @@
     "categoryId": "mathematics",
     "subcategoryId": "mental_math",
     "difficulty": 1,
-    "question": "Чему равен результат быстрого умножения 35 на 11 по правилу суммы цифр?",
-    "options": ["375", "385", "395", "365"],
+    "question": "Чему равен результат быстрого умножения 35 на 11?",
+    "options": [
+      "375",
+      "385",
+      "395",
+      "365"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -545,7 +815,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Какое число надо прибавить к выражению x² + 14x, чтобы получился точный квадрат суммы?",
-    "options": ["14", "28", "49", "196"],
+    "options": [
+      "14",
+      "28",
+      "49",
+      "196"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -555,7 +830,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равно значение числового выражения (1001 × 999) + 1?",
-    "options": ["999999", "1000001", "1001000", "1000000"],
+    "options": [
+      "999999",
+      "1000001",
+      "1001000",
+      "1000000"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -565,7 +845,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равен квадрат числа 95?",
-    "options": ["9025", "8925", "9125", "8525"],
+    "options": [
+      "9025",
+      "8925",
+      "9125",
+      "8525"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -575,7 +860,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Сколько различных натуральных делителей имеет квадрат любого простого числа p² (например, числа 9, 25 или 49)?",
-    "options": ["2", "3", "4", "p"],
+    "options": [
+      "2",
+      "3",
+      "4",
+      "p"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -585,7 +875,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Если в геометрической прогрессии b₁ = 3, а знаменатель q = 2, чему равна сумма первых 6 членов прогрессии?",
-    "options": ["96", "186", "189", "192"],
+    "options": [
+      "96",
+      "186",
+      "189",
+      "192"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -595,7 +890,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равен остаток от деления числа 2026 на 9 по признаку делимости по сумме цифр?",
-    "options": ["2", "0", "3", "1"],
+    "options": [
+      "2",
+      "0",
+      "3",
+      "1"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -605,7 +905,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равно произведение корней уравнения 2x² + 11x - 18 = 0 по теореме Виета?",
-    "options": ["-9", "9", "-18", "-5,5"],
+    "options": [
+      "-9",
+      "9",
+      "-18",
+      "-5,5"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -615,7 +920,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Какое двузначное шестнадцатеричное число соответствует десятичному числу 255?",
-    "options": ["FE", "FF", "100", "EE"],
+    "options": [
+      "FE",
+      "FF",
+      "100",
+      "EE"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -625,7 +935,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Чему равна сумма всех числовых коэффициентов разложения многочлена P(x) = (2x - 1)⁵?",
-    "options": ["32", "0", "1", "-1"],
+    "options": [
+      "32",
+      "0",
+      "1",
+      "-1"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -635,7 +950,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "Чему равно значение произведения логарифмов log₃ 8 × log₂ 27?",
-    "options": ["6", "8", "3", "9"],
+    "options": [
+      "6",
+      "8",
+      "3",
+      "9"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -645,7 +965,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равна гипотенуза прямоугольного треугольника с катетами 8 и 15?",
-    "options": ["17", "19", "23", "16"],
+    "options": [
+      "17",
+      "19",
+      "23",
+      "16"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -655,7 +980,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равно числовое значение факториального выражения 10! / (8! × 2!)?",
-    "options": ["90", "45", "10", "20"],
+    "options": [
+      "90",
+      "45",
+      "10",
+      "20"
+    ],
     "correctIndex": 1,
     "image": null
   },
@@ -664,8 +994,13 @@
     "categoryId": "mathematics",
     "subcategoryId": "mental_math",
     "difficulty": 2,
-    "question": "Чему равно среднее гармоническое двух чисел 3 и 6 по формуле 2ab / (a + b)?",
-    "options": ["4,5", "3√2", "4", "4,2"],
+    "question": "Чему равно среднее гармоническое двух чисел 3 и 6?",
+    "options": [
+      "4,5",
+      "3√2",
+      "4",
+      "4,2"
+    ],
     "correctIndex": 2,
     "image": null
   },
@@ -675,7 +1010,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Какова последняя цифра значения числового выражения 11⁶ + 15⁶ - 16⁶?",
-    "options": ["1", "5", "6", "0"],
+    "options": [
+      "1",
+      "5",
+      "6",
+      "0"
+    ],
     "correctIndex": 3,
     "image": null
   },
@@ -685,7 +1025,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 1,
     "question": "Чему равен квадрат числа 85?",
-    "options": ["7225", "7025", "7125", "7425"],
+    "options": [
+      "7225",
+      "7025",
+      "7125",
+      "7425"
+    ],
     "correctIndex": 0,
     "image": null
   },
@@ -695,7 +1040,12 @@
     "subcategoryId": "mental_math",
     "difficulty": 2,
     "question": "В прямоугольном треугольнике сумма катетов равна 14, а гипотенуза равна 10. Чему равна площадь этого треугольника?",
-    "options": ["20", "24", "48", "25"],
+    "options": [
+      "20",
+      "24",
+      "48",
+      "25"
+    ],
     "correctIndex": 1,
     "image": null
   }

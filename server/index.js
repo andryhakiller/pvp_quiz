@@ -41,9 +41,16 @@ const DEFAULT_SCORES = {
 
 let QUESTIONS_RAW = [];
 try {
-    const raw = fs.readFileSync(path.join(__dirname, 'questions.json'), 'utf8');
+    let qPath = path.join(__dirname, 'questions.json');
+    if (!fs.existsSync(qPath) || fs.statSync(qPath).size < 100) {
+        const rootPath = path.join(__dirname, '..', 'questions.json');
+        if (fs.existsSync(rootPath) && fs.statSync(rootPath).size >= 100) {
+            qPath = rootPath;
+        }
+    }
+    const raw = fs.readFileSync(qPath, 'utf8');
     QUESTIONS_RAW = JSON.parse(raw);
-    console.log(`✅ Loaded ${QUESTIONS_RAW.length} questions`);
+    console.log(`✅ Loaded ${QUESTIONS_RAW.length} questions from ${path.basename(qPath)}`);
 } catch (e) {
     console.error('❌ Cannot load questions.json:', e.message);
 }
@@ -148,17 +155,35 @@ function get3Subs() {
     const enabledCats = getEnabledCategories().filter(cat =>
         (CATEGORY_INDEX[cat] || []).some(s => !gameSettings.disabledSubcategories.includes(s))
     );
-    if (!enabledCats.length) return [];
+
+    // Collect all valid, enabled subcategories across all enabled categories
+    const allAvailableSubs = [];
+    for (const cat of enabledCats) {
+        const subs = (CATEGORY_INDEX[cat] || []).filter(s => !gameSettings.disabledSubcategories.includes(s));
+        allAvailableSubs.push(...subs);
+    }
+
+    // Safety fallback only if user disabled literally all subcategories/categories:
+    if (!allAvailableSubs.length) {
+        console.warn('⚠️ No enabled subcategories available! Falling back to all.');
+        const allSubs = Object.values(CATEGORY_INDEX).flat();
+        return allSubs.sort(() => Math.random() - 0.5).slice(0, 3);
+    }
+
+    // If 3 or fewer subcategories total are available:
+    if (allAvailableSubs.length <= 3) {
+        return [...allAvailableSubs];
+    }
 
     const chosen = new Set();
     const result = [];
     let attempts = 0;
 
-    while (result.length < 3 && attempts < 60) {
+    while (result.length < 3 && attempts < 100) {
         attempts++;
-        // Step 1: random category (equal weight)
+        // Step 1: random enabled category
         const cat = enabledCats[Math.floor(Math.random() * enabledCats.length)];
-        // Step 2: random subcategory from that category (equal weight within cat)
+        // Step 2: random enabled subcategory from that category
         const subs = (CATEGORY_INDEX[cat] || []).filter(s => !gameSettings.disabledSubcategories.includes(s));
         if (!subs.length) continue;
         const sub = subs[Math.floor(Math.random() * subs.length)];
@@ -167,6 +192,18 @@ function get3Subs() {
             result.push(sub);
         }
     }
+
+    // Fallback if loop hit attempt limit with fewer than 3 results:
+    if (result.length < 3) {
+        for (const s of allAvailableSubs) {
+            if (!chosen.has(s)) {
+                chosen.add(s);
+                result.push(s);
+                if (result.length === 3) break;
+            }
+        }
+    }
+
     return result;
 }
 
@@ -175,6 +212,7 @@ function getQuestion(subcategoryId) {
     const all = QUESTIONS_RAW.filter(q => {
         if (q.subcategoryId !== subcategoryId) return false;
         if (gameSettings.disabledCategories.includes(q.categoryId)) return false;
+        if (gameSettings.disabledSubcategories.includes(q.subcategoryId)) return false;
         return true;
     });
 
@@ -337,7 +375,7 @@ function startDuelRound(subcategoryId) {
     };
     d.answers = { attacker: null, defender: null };
 
-    // Send correctIndex to both fighters for instant reveal
+    // Send question with correctIndex to fighters
     const clientQ = { question: q.question, options: q.options, image: q.image || null, correctIndex: q.correctIndex };
 
     const aSock = io.sockets.sockets.get(d.attackerSockId);
@@ -345,16 +383,33 @@ function startDuelRound(subcategoryId) {
     if (aSock) aSock.emit('duel_question', { question: clientQ, round: d.round });
     if (dSock) dSock.emit('duel_question', { question: clientQ, round: d.round });
 
+    // Send question without correctIndex to spectators
+    const spectatorQ = { question: q.question, options: q.options, image: q.image || null };
+    for (const [sockId, sock] of io.sockets.sockets) {
+        if (sockId !== d.attackerSockId && sockId !== d.defenderSockId) {
+            sock.emit('duel_spectator_question', {
+                round:        d.round,
+                topic:        subcategoryId,
+                attackerSlot: d.attackerSlot,
+                defenderSlot: d.defenderSlot,
+                question:     spectatorQ,
+            });
+        }
+    }
+
     io.emit('duel_round_started', {
-        round:        d.round,
-        topic:        subcategoryId,
-        attackerSlot: d.attackerSlot,
-        defenderSlot: d.defenderSlot,
+        round:         d.round,
+        topic:         subcategoryId,
+        attackerSlot:  d.attackerSlot,
+        defenderSlot:  d.defenderSlot,
+        attackerScore: d.attackerScore || 0,
+        defenderScore: d.defenderScore || 0,
+        attackerWins:  d.attackerScore || 0,
+        defenderWins:  d.defenderScore || 0,
     });
 
     // Server-side timeout for duel round
     startQuestionTimer(() => {
-        // Auto-pass for anyone who hasn't answered
         const d2 = gs.activeDuel;
         if (!d2 || !d2.questionData) return;
         if (d2.answers.attacker === null) d2.answers.attacker = 'pass';
@@ -370,22 +425,40 @@ function resolveRound(attackerAns, defenderAns, correctIndex, topic) {
     const d = gs.activeDuel;
     if (!d) return;
 
+    if (d.attackerScore === undefined) d.attackerScore = 0;
+    if (d.defenderScore === undefined) d.defenderScore = 0;
+
+    const aPass = (attackerAns === null || attackerAns === 'pass');
+    const dPass = (defenderAns === null || defenderAns === 'pass');
+
     let aCorrect = false, dCorrect = false;
     if (correctIndex !== null && correctIndex !== undefined) {
-        aCorrect = attackerAns !== null && attackerAns === correctIndex;
-        dCorrect = defenderAns !== null && defenderAns === correctIndex;
+        aCorrect = !aPass && attackerAns === correctIndex;
+        dCorrect = !dPass && defenderAns === correctIndex;
     }
 
-    // Penalty for wrong answer in duel
+    // Duel points calculation:
+    // Correct = +1.0
+    // Pass = +0.4
+    // Wrong = +0.0 (penalty deducted from overall game score)
     const penalty = gameSettings.scores.WRONG_PENALTY;
-    if (attackerAns !== null && !aCorrect) {
+    if (aCorrect) {
+        d.attackerScore = Math.round((d.attackerScore + 1.0) * 10) / 10;
+    } else if (aPass) {
+        d.attackerScore = Math.round((d.attackerScore + 0.4) * 10) / 10;
+    } else {
         const atk = playerBySlot(d.attackerSlot);
         if (atk && penalty > 0) {
             atk.score = Math.max(0, atk.score - penalty);
             io.emit('score_update', { slot: d.attackerSlot, score: atk.score, added: -penalty });
         }
     }
-    if (defenderAns !== null && !dCorrect) {
+
+    if (dCorrect) {
+        d.defenderScore = Math.round((d.defenderScore + 1.0) * 10) / 10;
+    } else if (dPass) {
+        d.defenderScore = Math.round((d.defenderScore + 0.4) * 10) / 10;
+    } else {
         const def = playerBySlot(d.defenderSlot);
         if (def && penalty > 0) {
             def.score = Math.max(0, def.score - penalty);
@@ -393,27 +466,32 @@ function resolveRound(attackerAns, defenderAns, correctIndex, topic) {
         }
     }
 
-    if      (aCorrect && !dCorrect) d.attackerWins++;
-    else if (dCorrect && !aCorrect) d.defenderWins++;
+    d.attackerWins = d.attackerScore;
+    d.defenderWins = d.defenderScore;
 
     io.emit('duel_round_result', {
-        round:          d.round,
-        attackerSlot:   d.attackerSlot,
-        defenderSlot:   d.defenderSlot,
-        topic:          topic || d.topic,
-        questionText:   d.questionData?.question   || null,
+        round:           d.round,
+        attackerSlot:    d.attackerSlot,
+        defenderSlot:    d.defenderSlot,
+        topic:           topic || d.topic,
+        questionText:    d.questionData?.question   || null,
         questionOptions: d.questionData?.options   || null,
-        attackerAnswer: attackerAns,
-        defenderAnswer: defenderAns,
+        attackerAnswer:  attackerAns,
+        defenderAnswer:  defenderAns,
         correctIndex,
         attackerCorrect: aCorrect,
         defenderCorrect: dCorrect,
-        attackerWins:   d.attackerWins,
-        defenderWins:   d.defenderWins,
+        attackerPass:    aPass,
+        defenderPass:    dPass,
+        attackerScore:   d.attackerScore,
+        defenderScore:   d.defenderScore,
+        attackerWins:    d.attackerScore,
+        defenderWins:    d.defenderScore,
     });
 
-    if (d.attackerWins >= 2 || d.defenderWins >= 2 || d.round >= 3) {
-        setTimeout(() => finalizeDuel(), 3000);
+    // Play all 3 rounds of the duel
+    if (d.round >= 3) {
+        setTimeout(() => finalizeDuel(), 3500);
         return;
     }
 
@@ -426,13 +504,28 @@ function resolveRound(attackerAns, defenderAns, correctIndex, topic) {
         if (d.round === 2) {
             const dSock = io.sockets.sockets.get(d.defenderSockId);
             if (dSock) dSock.emit('duel_pick_topic', { round: 2, picker: 'defender', categories: subs3 });
-            io.emit('duel_next_round', { round: 2, picker: 'defender', attackerWins: d.attackerWins, defenderWins: d.defenderWins });
+            io.emit('duel_next_round', {
+                round: 2,
+                picker: 'defender',
+                attackerScore: d.attackerScore,
+                defenderScore: d.defenderScore,
+                attackerWins:  d.attackerScore,
+                defenderWins:  d.defenderScore,
+            });
         } else {
             const rndSub = subs3[Math.floor(Math.random() * subs3.length)];
-            io.emit('duel_next_round', { round: 3, picker: 'random', topic: rndSub, attackerWins: d.attackerWins, defenderWins: d.defenderWins });
+            io.emit('duel_next_round', {
+                round: 3,
+                picker: 'random',
+                topic: rndSub,
+                attackerScore: d.attackerScore,
+                defenderScore: d.defenderScore,
+                attackerWins:  d.attackerScore,
+                defenderWins:  d.defenderScore,
+            });
             startDuelRound(rndSub);
         }
-    }, 3000);
+    }, 3500);
 }
 
 function finalizeDuel() {
@@ -440,8 +533,8 @@ function finalizeDuel() {
     if (!d) return;
     clearQuestionTimer();
 
-    const aWon = d.attackerWins > d.defenderWins;
-    const tie  = d.attackerWins === d.defenderWins;
+    const aWon = d.attackerScore > d.defenderScore;
+    const tie  = d.attackerScore === d.defenderScore;
 
     const attacker = playerBySlot(d.attackerSlot);
     const defender = playerBySlot(d.defenderSlot);
@@ -455,7 +548,7 @@ function finalizeDuel() {
             io.emit('score_update', { slot: d.attackerSlot, score: attacker.score, added: gameSettings.scores.PVP_WIN });
         }
         io.emit('board_update', { q: d.targetQ, r: d.targetR, owner: d.attackerSlot });
-        log(`⚔️ ${attacker?.nickname || '?'} победил в дуэли и захватил клетку!`, 'duel');
+        log(`⚔️ ${attacker?.nickname || '?'} победил в дуэли (${d.attackerScore}:${d.defenderScore}) и захватил клетку!`, 'duel');
         if (isCapital) {
             setTimeout(() => eliminatePlayer(d.defenderSlot), 600);
         }
@@ -468,13 +561,13 @@ function finalizeDuel() {
             defender.score += gameSettings.scores.PVP_DRAW_DEFENDER;
             io.emit('score_update', { slot: d.defenderSlot, score: defender.score, added: gameSettings.scores.PVP_DRAW_DEFENDER });
         }
-        log(`🤝 Ничья — клетка остаётся у ${defender?.nickname || '?'}`, 'info');
+        log(`🤝 Ничья в дуэли (${d.attackerScore}:${d.defenderScore}) — клетка остаётся у ${defender?.nickname || '?'}`, 'info');
     } else {
         if (defender) {
             defender.score += gameSettings.scores.PVP_WIN;
             io.emit('score_update', { slot: d.defenderSlot, score: defender.score, added: gameSettings.scores.PVP_WIN });
         }
-        log(`🛡️ ${defender?.nickname || '?'} отстоял клетку!`, 'info');
+        log(`🛡️ ${defender?.nickname || '?'} отстоял клетку (${d.defenderScore}:${d.attackerScore})!`, 'info');
     }
 
     io.emit('duel_ended', {
@@ -482,8 +575,10 @@ function finalizeDuel() {
         defenderSlot:  d.defenderSlot,
         attackerName:  attacker?.nickname || '?',
         defenderName:  defender?.nickname || '?',
-        attackerWins:  d.attackerWins,
-        defenderWins:  d.defenderWins,
+        attackerScore: d.attackerScore,
+        defenderScore: d.defenderScore,
+        attackerWins:  d.attackerScore,
+        defenderWins:  d.defenderScore,
         winner:        aWon ? 'attacker' : tie ? 'tie' : 'defender',
     });
 
@@ -495,9 +590,15 @@ function finalizeDuel() {
 
 io.on('connection', socket => {
 
-    // ── JOIN ──
+    // Send current game status to newly connected client
+    socket.emit('game_status', {
+        isGameStarted,
+        players: playerList().sort((a, b) => a.slot - b.slot),
+    });
+
+    // ── JOIN (LOBBY) ──
     socket.on('join_game', nickname => {
-        if (isGameStarted)                            return socket.emit('error_msg', 'Игра уже идёт!');
+        if (isGameStarted)                            return socket.emit('error_msg', 'Игра уже идёт! Воспользуйся кнопкой присоединения к текущей игре.');
         if (Object.keys(players).length >= MAX_PLAYERS) return socket.emit('error_msg', 'Нет свободных мест!');
 
         const takenSlots = Object.values(players).map(p => p.slot);
@@ -506,12 +607,13 @@ io.on('connection', socket => {
 
         players[socket.id] = {
             id:         socket.id,
-            nickname:   (nickname || '').trim() || `Игрок ${slot + 1}`,
+            nickname:   (nickname || '').trim().slice(0, 30) || `Игрок ${slot + 1}`,
             slot,
             color:      PLAYER_COLORS[slot],
             score:      0,
             isAdmin:    Object.keys(players).length === 0,
             eliminated: false,
+            connected:  true,
         };
 
         io.emit('update_player_list', playerList());
@@ -520,21 +622,152 @@ io.on('connection', socket => {
         socket.emit('category_index', CATEGORY_INDEX);
     });
 
+    // ── REJOIN (ONGOING GAME) ──
+    socket.on('rejoin_game', ({ slot }) => {
+        if (!isGameStarted) return socket.emit('error_msg', 'Игра ещё не началась!');
+        const targetPlayer = playerBySlot(slot);
+        if (!targetPlayer) return socket.emit('error_msg', 'Игрок для выбранного цвета не найден!');
+
+        // Detach old socket mapping if different
+        for (const [sId, p] of Object.entries(players)) {
+            if (p.slot === slot && sId !== socket.id) {
+                delete players[sId];
+            }
+        }
+
+        targetPlayer.id = socket.id;
+        targetPlayer.connected = true;
+        players[socket.id] = targetPlayer;
+
+        // Reconnect active duel socket IDs if reconnected player is fighting
+        if (gs.activeDuel) {
+            const d = gs.activeDuel;
+            if (d.attackerSlot === slot) d.attackerSockId = socket.id;
+            if (d.defenderSlot === slot) d.defenderSockId = socket.id;
+        }
+        if (gs.pendingCapture?.playerSlot === slot) {
+            gs.pendingCapture.socketId = socket.id;
+        }
+
+        socket.emit('joined_successfully', targetPlayer);
+        socket.emit('game_started', {
+            turn:       currentSlot(),
+            players:    playerList().sort((a, b) => a.slot - b.slot),
+            settings:   gameSettings,
+            board:      gs.board,
+            capitals:   gs.capitals,
+            turnNumber: gs.turnNumber,
+            maxTurns:   gameSettings.maxTurns,
+        });
+
+        socket.emit('turn_change', {
+            slot:       currentSlot(),
+            turnNumber: gs.turnNumber,
+            maxTurns:   gameSettings.maxTurns,
+        });
+
+        // Restore duel state if a duel is active
+        if (gs.activeDuel) {
+            const d = gs.activeDuel;
+            const aP = playerBySlot(d.attackerSlot);
+            const dP = playerBySlot(d.defenderSlot);
+            socket.emit('duel_started', {
+                attackerSlot:  d.attackerSlot,
+                attackerName:  aP?.nickname || '?',
+                defenderSlot:  d.defenderSlot,
+                defenderName:  dP?.nickname || '?',
+                targetQ:       d.targetQ,
+                targetR:       d.targetR,
+                attackerScore: d.attackerScore || 0,
+                defenderScore: d.defenderScore || 0,
+                attackerWins:  d.attackerScore || 0,
+                defenderWins:  d.defenderScore || 0,
+            });
+
+            if (d.questionData) {
+                if (socket.id === d.attackerSockId || socket.id === d.defenderSockId) {
+                    const clientQ = {
+                        question:     d.questionData.question,
+                        options:      d.questionData.options,
+                        image:        d.questionData.image,
+                        correctIndex: d.questionData.correctIndex,
+                    };
+                    socket.emit('duel_question', { question: clientQ, round: d.round });
+                } else {
+                    const spectatorQ = {
+                        question: d.questionData.question,
+                        options:  d.questionData.options,
+                        image:    d.questionData.image,
+                    };
+                    socket.emit('duel_spectator_question', {
+                        round:        d.round,
+                        topic:        d.topic,
+                        attackerSlot: d.attackerSlot,
+                        defenderSlot: d.defenderSlot,
+                        question:     spectatorQ,
+                    });
+                }
+            }
+        }
+
+        // Restore pending capture question if active
+        if (gs.pendingCapture?.question) {
+            const pc = gs.pendingCapture;
+            const answeringP = playerBySlot(pc.playerSlot) || playerBySock(pc.socketId);
+            if (pc.socketId === socket.id) {
+                socket.emit('ask_question', { question: pc.clientQ, context: { type: 'capture', q: pc.q, r: pc.r } });
+            } else {
+                socket.emit('spectator_question', {
+                    playerSlot: answeringP?.slot,
+                    playerName: answeringP?.nickname,
+                    question:   pc.spectatorQ,
+                });
+            }
+        }
+
+        io.emit('update_player_list', playerList());
+        log(`🔄 ${targetPlayer.nickname} вернулся в битву!`, 'info');
+    });
+
     // ── SETTINGS ──
     socket.on('update_settings', s => {
         if (!players[socket.id]?.isAdmin) return;
-        if (s.maxTurns !== undefined)               gameSettings.maxTurns               = s.maxTurns;
-        if (s.disabledCategories !== undefined)     gameSettings.disabledCategories     = s.disabledCategories;
-        if (s.disabledSubcategories !== undefined)  gameSettings.disabledSubcategories  = s.disabledSubcategories;
-        if (s.scores)                               gameSettings.scores = { ...gameSettings.scores, ...s.scores };
+        if (s.maxTurns !== undefined && Number.isFinite(Number(s.maxTurns))) gameSettings.maxTurns = Number(s.maxTurns);
+        if (s.disabledCategories !== undefined && Array.isArray(s.disabledCategories))     gameSettings.disabledCategories     = s.disabledCategories;
+        if (s.disabledSubcategories !== undefined && Array.isArray(s.disabledSubcategories))  gameSettings.disabledSubcategories  = s.disabledSubcategories;
+        if (s.scores && typeof s.scores === 'object') {
+            for (const [k, v] of Object.entries(s.scores)) {
+                if (Number.isFinite(Number(v))) {
+                    gameSettings.scores[k] = Number(v);
+                }
+            }
+        }
         io.emit('settings_updated', gameSettings);
     });
 
     // ── START ──
-    socket.on('start_game', () => {
+    socket.on('start_game', (customSettings) => {
         const me = players[socket.id];
         if (!me?.isAdmin) return;
         if (Object.keys(players).length < 2) return socket.emit('error_msg', 'Нужно минимум 2 игрока!');
+
+        // Apply settings passed directly with start_game if provided
+        if (customSettings && typeof customSettings === 'object') {
+            if (customSettings.maxTurns !== undefined && Number.isFinite(Number(customSettings.maxTurns))) gameSettings.maxTurns = Number(customSettings.maxTurns);
+            if (customSettings.disabledCategories !== undefined && Array.isArray(customSettings.disabledCategories))     gameSettings.disabledCategories     = customSettings.disabledCategories;
+            if (customSettings.disabledSubcategories !== undefined && Array.isArray(customSettings.disabledSubcategories))  gameSettings.disabledSubcategories  = customSettings.disabledSubcategories;
+            if (customSettings.scores && typeof customSettings.scores === 'object') {
+                for (const [k, v] of Object.entries(customSettings.scores)) {
+                    if (Number.isFinite(Number(v))) {
+                        gameSettings.scores[k] = Number(v);
+                    }
+                }
+            }
+            io.emit('settings_updated', gameSettings);
+        }
+
+        console.log('🎮 Starting game. Disabled categories:', gameSettings.disabledCategories);
+        console.log('🎮 Disabled subcategories count:', (gameSettings.disabledSubcategories || []).length);
 
         isGameStarted       = true;
         gs.board            = {};
@@ -557,6 +790,12 @@ io.on('connection', socket => {
             gs.capitals[p.slot] = key;
         });
 
+        // First player holds capital at turn 1 start -> award HOLD_CELL income!
+        const first = playerBySlot(gs.turnOrder[0]);
+        if (first) {
+            first.score += gameSettings.scores.HOLD_CELL;
+        }
+
         io.emit('game_started', {
             turn:     gs.turnOrder[0],
             players:  sorted,
@@ -566,7 +805,6 @@ io.on('connection', socket => {
         });
 
         log('🔥 Битва началась!', 'start');
-        const first = playerBySlot(gs.turnOrder[0]);
         if (first) log(`Ход: ${first.nickname}`, 'turn');
     });
 
@@ -639,10 +877,24 @@ io.on('connection', socket => {
             return;
         }
 
+        const cq = {
+            id:           qObj.id,
+            question:     qObj.question,
+            options:      qObj.options,
+            image:        qObj.image || null,
+            correctIndex: qObj.correctIndex,
+        };
+        const spectatorQ = {
+            id:       qObj.id,
+            question: qObj.question,
+            options:  qObj.options,
+            image:    qObj.image || null,
+        };
+
         pc.question = { id: qObj.id, correctIndex: qObj.correctIndex };
-        // Send correctIndex only to the answering player (for instant client-side reveal)
-        const cq = { question: qObj.question, options: qObj.options, image: qObj.image || null, correctIndex: qObj.correctIndex };
-        const spectatorQ = { question: qObj.question, options: qObj.options, image: qObj.image || null };
+        pc.clientQ = cq;
+        pc.spectatorQ = spectatorQ;
+        pc.playerSlot = me.slot;
 
         socket.emit('ask_question', { question: cq, context: { type: 'capture', q, r } });
 
@@ -723,33 +975,75 @@ io.on('connection', socket => {
         }
     });
 
+    // ── ABORT GAME ──
+    socket.on('abort_game', () => {
+        log('🛑 Игра была сброшена/прервана (Аборт)!', 'warn');
+        isGameStarted = false;
+        clearQuestionTimer();
+
+        gs.turnOrder      = [];
+        gs.turnIndex      = 0;
+        gs.turnNumber     = 1;
+        gs.board          = {};
+        gs.capitals       = {};
+        gs.usedIds        = new Set();
+        gs.pendingCapture = null;
+        gs.activeDuel     = null;
+        if (gs.questionTimer) {
+            clearTimeout(gs.questionTimer);
+            gs.questionTimer = null;
+        }
+
+        // Clean up offline/disconnected players and reset scores
+        for (const [sId, p] of Object.entries(players)) {
+            if (!p.connected) {
+                delete players[sId];
+            } else {
+                p.score = 0;
+                p.eliminated = false;
+            }
+        }
+
+        const remaining = playerList().sort((a, b) => a.slot - b.slot);
+        remaining.forEach((p, idx) => {
+            p.slot = idx;
+            p.isAdmin = (idx === 0);
+        });
+
+        io.emit('game_aborted');
+        io.emit('game_status', {
+            isGameStarted: false,
+            players: remaining,
+        });
+        io.emit('update_player_list', remaining);
+        io.emit('board_full_sync', { board: {} });
+    });
+
     // ── DISCONNECT ──
     socket.on('disconnect', () => {
         const me = players[socket.id];
         if (!me) return;
-        delete players[socket.id];
+        const wasAdmin = me.isAdmin;
 
         if (isGameStarted) {
-            if (gs.activeDuel) {
-                const d = gs.activeDuel;
-                if (socket.id === d.attackerSockId || socket.id === d.defenderSockId) {
-                    clearQuestionTimer();
-                    gs.activeDuel = null;
-                    io.emit('duel_ended', { winner: 'disconnect' });
-                    nextTurn();
+            // Keep player state intact so they can rejoin!
+            me.connected = false;
+            io.emit('update_player_list', playerList());
+            log(`${me.nickname} временно отключился`, 'info');
+        } else {
+            delete players[socket.id];
+            // If the host disconnected before game start, transfer admin to lowest slot player
+            if (wasAdmin) {
+                const remaining = playerList().sort((a, b) => a.slot - b.slot);
+                if (remaining.length > 0) {
+                    remaining[0].isAdmin = true;
                 }
             }
-            if (gs.pendingCapture?.socketId === socket.id) {
-                clearQuestionTimer();
-                gs.pendingCapture = null;
-                nextTurn();
-            }
-        } else {
             io.emit('update_player_list', playerList());
+            log(`${me.nickname} вышел из лобби`, 'info');
         }
-
-        log(`${me.nickname} вышел из игры`, 'info');
     });
 });
 
-http.listen(3000, () => console.log('✅ Quiz Battle → http://localhost:3000'));
+const PORT = process.env.PORT || 3000;
+http.listen(PORT, () => console.log(`✅ Quiz Battle → http://localhost:${PORT}`));

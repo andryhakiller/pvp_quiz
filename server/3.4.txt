@@ -1,916 +1,1051 @@
 [
   {
-    "id": "transport_brands_history_logos_1",
+    "id": "trans_brands_1",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
     "difficulty": 1,
-    "question": "Что на самом деле символизирует бело-голубая эмблема BMW, разделенная на четыре сектора?",
+    "question": "Какое созвездие из шести звезд изображено на эмблеме японской автомобильной марки Subaru?",
     "options": [
-      "Цвета государственного флага Баварии (в зеркальном порядке из-за тогдашнего запрета на коммерческое использование гербов)",
-      "Вращающийся белый пропеллер самолета на фоне голубого неба (миф, придуманный рекламой 1929 года)",
-      "Четыре цилиндра первого авиадвигателя",
-      "Прицел снайперской винтовки"
+      "Плеяды (Телец)",
+      "Большая Медведица",
+      "Пояс Ориона",
+      "Кассиопея"
     ],
     "correctIndex": 0,
-    "image": null
+    "image": "/images/trans_subaru_stars.png"
   },
   {
-    "id": "transport_brands_history_logos_2",
+    "id": "trans_brands_2",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
     "difficulty": 1,
-    "question": "Что символизируют четыре сплетенных кольца на эмблеме Audi?",
+    "question": "Какое животное изображено на гербе и фирменной эмблеме суперкаров Ferrari?",
     "options": [
-      "Слияние четырех саксонских автопроизводителей в концерн Auto Union в 1932 году (Audi, DKW, Horch и Wanderer)",
-      "Четыре ведущих колеса системы quattro",
-      "Четыре такта работы двигателя внутреннего сгорания",
-      "Четыре победы в гонках Ле-Мана"
+      "Гарцующий жеребец",
+      "Атакующий бык",
+      "Свирепый ягуар",
+      "Королевский лев"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_3",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Как переводится латинское слово «Audi», давшее имя марке Августа Хорьха после того, как он потерял право использовать собственную фамилию?",
-    "options": [
-      "«Слушай!» («Послушай!») — точный латинский перевод немецкого слова «Horch!»",
-      "«Быстрый как ветер»",
-      "«Золотой орел»",
-      "«Первый среди равных»"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_4",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Откуда на капоте спорткаров Ferrari появился знаменитый гарцующий конь (Cavallino Rampante)?",
-    "options": [
-      "Эмблема аса Первой мировой войны Франческо Баракки, которую его мать, графиня Паолина, предложила Энцо Феррари как талисман на удачу",
-      "Символ конезавода в Маранелло",
-      "Память о кавалерийском полку Энцо Феррари",
-      "Знак зодиака Альфредо Феррари"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_5",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Почему гарцующий конь также присутствует в центре эмблемы Porsche?",
-    "options": [
-      "Конь взят с официального исторического герба города Штутгарт (бывший «Stutengarten» — сад кобыл)",
-      "Фердинанд Порше выкупил права у семьи Баракка",
-      "В честь любимого скакуна папы римского",
-      "Символ мощности первых моторов Porsche"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_6",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что изображено на гербе королевства Вюртемберг, окружающем коня на эмблеме Porsche?",
-    "options": [
-      "Черно-красные полосы и оленьи рога",
-      "Золотые львы и дубовые ветви",
-      "Корона и скрещенные шпаги",
-      "Орлиные крылья и крест"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_7",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что вдохновило братьев Мазерати на создание знаменитой эмблемы с трезубцем?",
-    "options": [
-      "Статуя Нептуна с фонтана на площади Пьяцца Маджоре в Болонье, родном городе марки",
-      "Трехрожковая вилка для спагетти",
-      "Греческий миф о Посейдоне",
-      "Символ трех цилиндров первого гоночного мотора"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_8",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что означает трехлучевая звезда Mercedes-Benz, придуманная Готтлибом Даймлером?",
-    "options": [
-      "Превосходство двигателей Даймлера в трех стихиях: на земле, на воде и в воздухе",
-      "Союз трех инженеров-основателей",
-      "Символ трех континентов продаж",
-      "Вифлеемская звезда надежды"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_9",
+    "id": "trans_brands_3",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
     "difficulty": 1,
-    "question": "В честь кого марка «Mercedes» получила свое всемирно известное имя?",
+    "question": "Какое свирепое животное украшает эмблему итальянских суперкаров Lamborghini?",
     "options": [
-      "В честь Мерседес Еллинек — дочери австрийского дипломата и предпринимателя Эмиля Еллинека",
-      "В честь жены Карла Бенца",
-      "В честь испанской королевы",
-      "Это латинское слово, означающее «милосердие»"
+      "Разъяренный боевой бык",
+      "Дикий степной мустанг",
+      "Прыгающий горный барс",
+      "Крылатый грифон"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_10",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Кто совершил первую в мировой истории междугороднюю автомобильную поездку (106 км) на Patent-Motorwagen втайне от мужа в августе 1888 года, доказав практичность авто?",
-    "options": ["Берта Бенц (жена Карла Бенца)", "Мерседес Еллинек", "Клара Форд", "Элеонора Торнтон"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_11",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что представляет собой знаменитая статуэтка «Дух экстаза» (Spirit of Ecstasy) на радиаторе Rolls-Royce?",
-    "options": [
-      "Скульптура женщины в развевающихся одеждах, моделью для которой послужила Элеонора Торнтон — возлюбленная барона Монтегю",
-      "Древнегреческая богиня Ника",
-      "Ангел-хранитель путешественников",
-      "Аллегория королевы Виктории"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_12",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Почему все суперкары Lamborghini (Miura, Islero, Espada, Diablo, Murciélago, Gallardo, Aventador) традиционно называют именами испанских боевых быков?",
-    "options": [
-      "Ферруччо Ламборгини был Тельцом по гороскопу и страстным поклонником испанской корриды",
-      "Фамилия Ламборгини переводится с итальянского как «пастух»",
-      "Компания начинала с производства загонов для скота",
-      "В честь победы на выставке в Мадриде"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_13",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "В честь какого конкретного заводчика боевых быков была названа первая среднемоторная легенда Lamborghini Miura?",
-    "options": ["В честь дона Эдуардо Миуры Фернандеса", "В честь матадора Хуана Бельмонте", "В честь корриды в Памплоне", "В честь быка Ислеро"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_14",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какая легендарная ссора побудила Ферруччо Ламборгини основать собственное производство спорткаров в Сант-Агата-Болоньезе в 1963 году?",
-    "options": [
-      "Ферруччо пожаловался Энцо Феррари на поломку сцепления в своей 250 GT, на что Энцо грубо ответил: «Ты просто тракторист и ничего не смыслишь в суперкарах!»",
-      "Ссора с Генри Фордом из-за покупки завода",
-      "Отказ Maserati продать двигатель для трактора",
-      "Судебный иск от Alfa Romeo"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_15",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что означает четырехлистный клевер (Quadrifoglio) на спортивных моделях Alfa Romeo?",
-    "options": [
-      "Талисман на удачу, впервые нарисованный гонщиком Уго Сивоччи на болиде перед победной гонкой Targa Florio 1923 года",
-      "Символ экологической чистоты мотора",
-      "Четыре победы в чемпионате мира",
-      "Четыре клапана на цилиндр"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_16",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что изображено на эмблеме Alfa Romeo рядом с красным крестом Милана?",
-    "options": [
-      "Бисцион (Biscione) — коронованный змей дома Висконти, проглатывающий человека",
-      "Золотой дракон",
-      "Грифон с мечом",
-      "Римская волчица, кормящая близнецов"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_17",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что символизируют двойные шевроны на эмблеме французской марки Citroën?",
-    "options": [
-      "Шевронные шестерни с V-образными зубьями, производство которых Андре Ситроен запатентовал и с которых начинал бизнес",
-      "Сержантские лычки французской армии",
-      "Эйфелеву башню в перспективе",
-      "Два берега реки Сены"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_18",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Почему эмблема Peugeot украшена стоящим на задних лапах львом?",
-    "options": [
-      "Гербовый символ региона Франш-Конте, где братья Пежо начинали с производства пил и лезвий (символизирует остроту зубов, гибкость полотна и скорость распила)",
-      "В честь охоты основателя в Африке",
-      "Символ королевской власти Франции",
-      "Знак зодиака Армана Пежо"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_19",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что представляет собой эмблема Subaru (шесть звезд разного размера на синем фоне)?",
-    "options": [
-      "Звездное скопление Плеяды (по-японски «Субару») в созвездии Тельца, символизирующее объединение 6 компаний в концерн Fuji Heavy Industries",
-      "Шесть главных островов Японии",
-      "Шесть основателей компании",
-      "Символ шестицилиндрового оппозитного мотора"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_20",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Как переводится латинское слово «Volvo», давшее имя шведскому автоконцерну?",
-    "options": ["«Я качусь» (от латинского volvere — катить, вращать)", "«Безопасность»", "«Северный ветер»", "«Стальной щит»"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_21",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что означает круг со стрелкой в верхнем правом углу на эмблеме Volvo?",
-    "options": [
-      "Древний алхимический символ железа и астрономический знак планеты Марс, символизирующий шведскую сталелитейную промышленность и стойкость",
-      "Стрелка компаса, указывающая на север",
-      "Символ мужского начала основателей",
-      "Спидометр автомобиля"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_22",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что скрыто в трех пересекающихся овалах эмблемы Toyota?",
-    "options": [
-      "Объединение сердец клиента и продукта, буква «Т», а также скрытое игольное ушко с продетой нитью (память о ткацких станках Toyoda)",
-      "Символ Земли, Луны и Солнца",
-      "Три принципа бережливого производства Toyota",
-      "Три поколения семьи Тоёда"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_23",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Почему фамилия основателя Киитиро Тоёда (Toyoda) была изменена в названии автомобильной компании на Тойота (Toyota)?",
-    "options": [
-      "Написание слова «Тойота» на японском языке катаканой состоит ровно из 8 штрихов — счастливого числа процветания в Японии",
-      "Из-за требований закона о торговых марках США",
-      "Потому что слово Тойода переводилось как «грязное поле»",
-      "По рекомендации нумеролога императора"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_24",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "В честь кого названа японская марка Mazda (основатель Дзюдзиро Мацуда)?",
-    "options": [
-      "В честь Ахура Мазды — верховного зороастрийского бога света, мудрости и гармонии (созвучно фамилии Мацуда)",
-      "В честь японского самурая 16 века",
-      "Это аббревиатура моторов с воздушным охлаждением",
-      "В честь города на острове Хонсю"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_25",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что на самом деле символизирует наклонная буква «H» в овале на эмблеме Hyundai?",
-    "options": [
-      "Стилизованное рукопожатие двух людей — представителя компании и довольного клиента",
-      "Первую букву столицы Южной Кореи — Ханъян",
-      "Мост через реку Ханган",
-      "Два скрещенных крыла птицы"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_26",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Как переводится корейское слово «Hyundai»?",
-    "options": ["«Современность» («Новое время»)", "«Восходящее солнце»", "«Великая мощь»", "«Стальной тигр»"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_27",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Как переводится корейское название марки «Kia»?",
-    "options": [
-      "«Выходец из Азии» / «Восходящий из Азии в мир» (Ки — восходить, А — Азия)",
-      "«Быстрая стрела»",
-      "«Надежный спутник»",
-      "«Народный автомобиль»"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_28",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "С производства какой продукции в 1944 году начинала корейская компания Kia (Kyungsung Precision Industry)?",
-    "options": [
-      "Стальных труб и деталей для велосипедов (выпустив первый корейский велосипед Samchuly в 1952)",
-      "Стирального порошка",
-      "Тракторных прицепов",
-      "Электронных ламп"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_29",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что производила шведская компания Saab (Svenska Aeroplan Aktiebolaget) до начала выпуска легковых автомобилей в 1949 году?",
-    "options": [
-      "Военные самолеты и истребители для ВВС Швеции",
-      "Охотничьи ружья и швейные машинки",
-      "Паровые локомотивы",
-      "Судовые дизели"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_30",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какое мифическое существо с короной на голове красовалось на эмблемах Saab и Scania?",
-    "options": ["Грифон (с герба провинции Скания)", "Василиск", "Крылатый кентавр", "Сфинкс"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_31",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что производила компания Suzuki на момент своего основания Митио Судзуки в 1909 году?",
-    "options": ["Ткацкие станки для шелковой промышленности", "Моторные лодки", "Оружейные патроны", "Музыкальные инструменты"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_32",
+    "id": "trans_brands_4",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
     "difficulty": 1,
-    "question": "С производства какого музыкального инструмента начиналась корпорация Yamaha, три скрещенных камертона которой до сих пор украшают ее эмблему?",
-    "options": ["Язычковые органы (фисгармонии) и пианино Торакусу Ямахи", "Скрипки", "Акустические гитары", "Барабаны"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_33",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "С чего начинал основатель Honda Соитиро Хонда в тяжелые послевоенные годы в 1946 году?",
+    "question": "Что символизируют четыре сплетенных кольца в знаменитом логотипе немецкой марки Audi?",
     "options": [
-      "Устанавливал крошечные 50-кубовые военные бензомоторы от армейских радиостанций на обычные велосипеды («мопед Бата-Бата»)",
-      "Чинил американские армейские джипы Willys",
-      "Торговал авиационным керосином",
-      "Производил рисоварки"
+      "Слияние четырех автокомпаний",
+      "Четыре ведущих колеса авто",
+      "Четыре такта работы мотора",
+      "Четыре стороны света"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_34",
+    "id": "trans_brands_5",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
     "difficulty": 1,
-    "question": "Какой двухколесный транспорт марки Honda, появившийся в 1958 году, стал самым массовым моторным средством в истории человечества (выпущено более 100 млн штук)?",
-    "options": ["Honda Super Cub", "Honda Monkey", "Honda CB750", "Honda Gold Wing"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_35",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какой транснациональный автомобильный гигант образовался в 2021 году в результате слияния концернов PSA Group (Peugeot/Citroën) и FCA (Fiat Chrysler)?",
-    "options": ["Stellantis", "Geely Holding", "Alliance Ventures", "Mobility One"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_36",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Сколько автомобильных брендов (включая Alfa Romeo, Maserati, Jeep, Dodge, RAM, Peugeot, Opel и др.) объединяет под своим крылом концерн Stellantis?",
-    "options": ["14 автомобильных брендов", "7 брендов", "20 брендов", "10 брендов"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_37",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какая китайская автомобильная корпорация во главе с Ли Шуфу выкупила шведский бренд Volvo у Ford в 2010 году, а затем возродила Lotus и создала Polestar и Zeekr?",
-    "options": ["Zhejiang Geely Holding Group", "SAIC Motor", "BYD Auto", "Great Wall Motors"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_38",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Как расшифровывается аббревиатура китайского гиганта электромобилей BYD?",
-    "options": ["Build Your Dreams («Построй свои мечты»)", "Beijing Yanqing Dynamics", "Battery Yield Drive", "Beyond Your Destination"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_39",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какой немецкий промышленник и конструктор создал марку Maybach и разработал первый легендарный Mercedes 35 PS в 1901 году?",
-    "options": ["Вильгельм Майбах («Король конструкторов»)", "Карл Бенц", "Роберт Бош", "Фердинанд Порше"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_40",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что означали переплетенные буквы «MM» на исторической эмблеме роскошных довоенных лимузинов Maybach?",
-    "options": ["Maybach-Motorenbau", "Mercedes-Maybach", "Munich Motors", "Masterpiece Machines"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_41",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какая фамилия двух инженеров — основателей компании AMG в 1967 году зашифрована в первых двух буквах ее названия (A и M)?",
-    "options": ["Ауфрехт (Ханс Вернер Ауфрехт) и Мельхер (Эрхард Мельхер)", "Альбрехт и Майер", "Амманн и Мюллер", "Альтман и Мартин"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_42",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что означает буква «G» в названии тюнинг-ателье AMG?",
+    "question": "Что изображено в правой половине гербовой эмблемы Alfa Romeo?",
     "options": [
-      "Гроссаспах (Großaspach) — родной город Ханса Вернера Ауфрехта",
-      "Германия (Germany)",
-      "Гран-туризмо (Gran Turismo)",
-      "Гарантия (Garantie)"
+      "Змей, глотающий человека",
+      "Золотой имперский орел",
+      "Рыцарский турнирный меч",
+      "Двуглавый лев Милана"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_43",
+    "id": "trans_brands_6",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что представляет собой знаменитый седан Mercedes-Benz 300 SEL 6.8 AMG 1971 года, завоевавший второе место в 24 часах Спа под прозвищем «Красная свинья» (Rote Sau)?",
+    "difficulty": 1,
+    "question": "Как расшифровывается аббревиатура названия баварского автогиганта BMW?",
     "options": [
-      "Тяжелый роскошный ярко-красный лимузин с расточенным до 6.8 литра V8 мощностью 428 л.с., разгромивший легкие спорткары на прямых",
-      "Грузовик для перевозки свиней на гонки",
-      "Броневик с пуленепробиваемыми стеклами",
-      "Дизельный универсал"
+      "Bayerische Motoren Werke",
+      "Berlin Motor Wagen",
+      "Bavaria Modern Wheels",
+      "Baltic Machine Works"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_44",
+    "id": "trans_brands_7",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какое главное правило ручной сборки двигателей V8 и V12 культивируется на мануфактуре Mercedes-AMG в Аффальтербахе?",
+    "difficulty": 1,
+    "question": "Какая трехлучевая звезда символизирует превосходство моторов марки Mercedes-Benz на земле, в воде и в воздухе?",
     "options": [
-      "«One man, one engine» («Один человек — один двигатель») с персональной табличкой с подписью мастера-сборщика",
-      "Сборка двигателя строго в темноте",
-      "Сборка только женщинами-инженерами",
-      "Каждый мотор собирают роботы без участия человека"
+      "Звезда -Benz",
+      "Звезда Maybach",
+      "Звезда Horch",
+      "Звезда Borgward"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_45",
+    "id": "trans_brands_8",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что означают три косые полосы фирменных цветов BMW M (голубой, темно-синий/фиолетовый, красный)?",
+    "difficulty": 1,
+    "question": "Какая фигурка на капоте роскошных автомобилей Rolls-Royce носит имя «Дух экстаза» (Spirit of Ecstasy)?",
     "options": [
-      "Голубой — цвет Баварии, красный — цвет компании Texaco (планировавшегося спонсора гоночной программы 1970-х), темно-синий — их объединение",
-      "Цвета флага Франции",
-      "Символ огня, льда и бензина",
-      "Цвета формы немецкой олимпийской сборной"
+      "Летящая женщина с крыльями",
+      "Гермес с жезлом кадуцея",
+      "Британский боевой лев",
+      "Пегас с золотой гривой"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_46",
+    "id": "trans_brands_9",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какая модель стала первым самостоятельным суперкаром с центральным расположением двигателя подразделения BMW Motorsport в 1978 году?",
-    "options": ["BMW M1 (E26)", "BMW 3.0 CSL", "BMW M3 (E30)", "BMW 850 CSi"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_47",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Кто из великих дизайнеров разработал клиновидный кузов суперкара BMW M1?",
-    "options": ["Джорджетто Джуджаро (Italdesign)", "Марчелло Гандини", "Вальтер де Сильва", "Бруно Сакко"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_48",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какой легендарный итальянский шеф-дизайнер Mercedes-Benz создал эталоны классического автодизайна: W126, W124, W201 (190E) и R129?",
-    "options": ["Бруно Сакко", "Поль Брак", "Фридрих Гейгер", "Петер Пфайффер"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_49",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "В чем заключалась знаменитая дизайнерская философия Бруно Сакко в Mercedes-Benz?",
+    "difficulty": 1,
+    "question": "Какой японский бренд начинал свою историю как фабрика автоматических ткацких станков Sakichi Toyoda?",
     "options": [
-      "«Горизонтальная однородность» (все модели линейки должны нести общий узнаваемый ДНК) и «Вертикальная преемственность» (новое поколение не должно делать старое устаревшим)",
-      "«Каждое поколение должно быть радикально непохоже на предыдущее»",
-      "«Форма следует за стоимостью материалов»",
-      "«Дизайн должен шокировать зрителя»"
+      "Toyota Motor",
+      "Suzuki Motor",
+      "Mazda Motor",
+      "Mitsubishi Motors"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_50",
+    "id": "trans_brands_10",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какое знаменитое американское кузовное ателье создало неповторимый облик купе Shelby Daytona Coupe в 1964 году для победы над Ferrari 250 GTO?",
-    "options": ["Питер Брок (Peter Brock)", "Чип Фуз", "Джордж Бэррис", "Бойд Коддингтон"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_51",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что представляет собой аэродинамическая форма кормы Камма (Kammback / Kamm-tail), примененная на Shelby Daytona, Citroën SM и Toyota Prius?",
+    "difficulty": 1,
+    "question": "Какой французский автопроизводитель имеет логотип в форме геометрического ромба (бриллианта)?",
     "options": [
-      "Плавная каплевидная крыша, резко вертикально усеченная на хвосте, что уменьшает турбулентный след и лобовое сопротивление воздуха",
-      "Огромное антикрыло на стойках выше крыши",
-      "Выдвижной спойлер с электроприводом",
-      "Длинный сужающийся хвост длиной более 2 метров"
+      "Renault",
+      "Peugeot",
+      "Citroen",
+      "Bugatti"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_52",
+    "id": "trans_brands_11",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какой немецкий профессор аэродинамики в 1930-х годах научно обосновал эффективность усеченной капли (хвоста Камма)?",
-    "options": ["Вунибальд Камм", "Людвиг Прандтль", "Теодор фон Карман", "Хуго Юнкерс"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_53",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Почему эмблема Chevrolet имеет форму характерного «галстука-бабочки» (Bowtie)?",
+    "difficulty": 1,
+    "question": "Какой зверь красуется на эмблеме британской люксовой марки Jaguar?",
     "options": [
-      "Уильям Дюрант увидел этот геометрический узор на обоях в парижском отеле в 1908 году (по другой версии — в газете штата Вирджиния)",
-      "Символ скрещенных поршней",
-      "Швейцарский крест Луи Шевроле",
-      "Форма галстука президента США"
+      "Прыгающий ягуар",
+      "Бегущий гепард",
+      "Крадущаяся пантера",
+      "Сибирский тигр"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_54",
+    "id": "trans_brands_12",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Кем по национальности и профессии был Луи Шевроле — человек, подаривший имя марке Chevrolet?",
+    "difficulty": 1,
+    "question": "Какая марка автомобилей названа в честь выдающегося физика и изобретателя Николы Теслы?",
     "options": [
-      "Швейцарским автогонщиком и механиком, родившимся в Ла-Шо-де-Фон",
-      "Французским банкиром из Парижа",
-      "Американским нефтяным магнатом",
-      "Канадским лесопромышленником"
+      "Tesla",
+      "Edison Motors",
+      "Faraday Future",
+      "Lucid Motors"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_55",
+    "id": "trans_brands_13",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какую эмблему имеет марка Pontiac, названная в честь индейского вождя оттава Понтиака?",
+    "difficulty": 1,
+    "question": "Что означает название шведской марки Volvo в буквальном переводе с латинского языка?",
     "options": [
-      "Стреловидный наконечник индейской стрелы красного цвета (ранее — профиль индейца в головном уборе из перьев)",
-      "Томагавк в круге",
-      "Голову белоголового орлана",
-      "Крылатый щит"
+      "«Я качусь» (Volvere)",
+      "«Я лечу» (Volare)",
+      "«Я побеждаю» (Vincere)",
+      "«Я живу» (Vivere)"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_56",
+    "id": "trans_brands_14",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что означали три щита на эмблеме марки Buick?",
+    "difficulty": 1,
+    "question": "Какая фигура животного украшает герб и решетку радиатора французских автомобилей Peugeot?",
     "options": [
-      "Фамильный герб шотландского изобретателя Дэвида Данбара Бьюика (три щита символизировали три модели: LeSabre, Invicta и Electra в 1960 году)",
-      "Три завода в Детройте",
-      "Символ надежности, скорости и комфорта",
-      "Щиты трех мушкетеров"
+      "Геральдический лев",
+      "Французский петух",
+      "Дикий кабан",
+      "Благородный олень"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_57",
+    "id": "trans_brands_15",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "В честь какого французского исследователя и основателя города Детройт (Антуана Ломе де Ламот де Кадильяка) была названа люксовая марка Cadillac?",
-    "options": ["Антуан де Ламот-Кадильяк", "Жак Картье", "Самюэль де Шамплен", "Рене де Ла Саль"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_58",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что символизирует птица мерлетка на историческом фамильном гербе марки Cadillac?",
+    "difficulty": 1,
+    "question": "Какой корейский автомобильный бренд в переводе означает «Восход из Азии в мир»?",
     "options": [
-      "Мифическая геральдическая ласточка без клюва и лапок, символизирующая постоянный полет и неутомимый труд",
-      "Орел победителя",
-      "Сокол на охоте",
-      "Голубь мира"
+      "Kia Motors",
+      "Hyundai Motor",
+      "Genesis Motors",
+      "SsangYong Motors"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_59",
+    "id": "trans_brands_16",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какой гениальный американский механик основал Lincoln Motor Company в 1917 году после ухода из Cadillac из-за спора о выпуске авиамоторов Liberty V12?",
-    "options": ["Генри Лиланд («Мастер точных измерений»)", "Билли Дюрант", "Уолтер Крайслер", "Чарльз Кеттеринг"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_60",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "В честь какого президента США Генри Лиланд назвал компанию Lincoln, будучи его преданным сторонником и голосовавшим за него на выборах 1864 года?",
-    "options": ["Авраам Линкольн", "Джордж Вашингтон", "Томас Джефферсон", "Теодор Рузвельт"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_61",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какая знаменитая гоночная трасса в Бельгии с опаснейшим связкой поворотов О Руж — Радийон (Eau Rouge — Raidillon) считается Меккой автоспорта?",
-    "options": ["Спа-Франкоршам", "Зольдер", "Нивель-Болер", "Шиме"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_62",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Почему поворот О Руж (Eau Rouge — «Красная вода») получил такое название?",
+    "difficulty": 1,
+    "question": "Какая марка автомобилей имеет на логотипе шевронные зубья шестерен (двойной шеврон)?",
     "options": [
-      "Трасса пересекает ручей О Руж, вода которого имеет красновато-ржавый оттенок из-за высокого содержания оксидов железа",
-      "В память о пролитой крови гонщиков",
-      "Из-за красных поребриков виража",
-      "Из-за цвета почвы на холме"
+      "Citroen",
+      "Renault",
+      "Alpine",
+      "Matra"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_63",
+    "id": "trans_brands_17",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какую эмблему имеет чешская марка Škoda, основанная Вацлавом Лаурином и Вацлавом Клементом (Laurin & Klement)?",
+    "difficulty": 1,
+    "question": "В каком городе находится историческая штаб-квартира и главный завод Porsche и Mercedes-Benz?",
     "options": [
-      "Крылатая стрела с глазом в круге (символ полета технической мысли, точности производства и широты кругозора)",
-      "Шестеренка с короной",
-      "Богемский двухвостый лев",
-      "Пшеничный колос на колесе"
+      "Штутгарт",
+      "Мюнхен",
+      "Ингольштадт",
+      "Вольфсбург"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_64",
+    "id": "trans_brands_18",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какая историческая испанская оружейная компания из Эйбара начала выпускать культовые мотоциклы и автомобили под маркой Pegaso?",
-    "options": ["ENASA (Empresa Nacional de Autocamiones S.A.)", "SEAT", "Hispano-Suiza", "Santana Motor"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_65",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Что символизировал летящий аист на капоте роскошных довоенных автомобилей Hispano-Suiza?",
+    "difficulty": 1,
+    "question": "Какой немецкий автомобильный концерн владеет брендами Skoda, SEAT, Audi, Bentley и Lamborghini?",
     "options": [
-      "Эмблема эскадрильи знаменитого французского аса Первой мировой войны Жоржа Гинемера, летавшего на самолетах с моторами Hispano-Suiza V8",
-      "Символ мира между Испанией и Швейцарией",
-      "Скорость перелетных птиц",
-      "Герб семьи короля Альфонсо XIII"
+      "Volkswagen Group (VAG)",
+      "BMW Group",
+      "Mercedes-Benz AG",
+      "Stellantis Group"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_66",
+    "id": "trans_brands_19",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Какая фамилия двух братьев зашифрована в названии немецкого люксового внедорожного бренда Wiesmann с логотипом геккона?",
+    "difficulty": 1,
+    "question": "Какая американская автомобильная компания основана Генри Фордом и первой внедрила конвейер для модели Model T?",
     "options": [
-      "Мартин Висманн (инженер) и Фридхельм Висманн (коммерсант)",
-      "Карл и Отто Висманны",
-      "Ганс и Юрген Висманны",
-      "Гельмут и Клаус Висманны"
+      "Ford Motor Company",
+      "General Motors",
+      "Chrysler Corporation",
+      "Packard Motor"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_67",
+    "id": "trans_brands_20",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Почему символом спорткаров Wiesmann был выбран именно геккон?",
+    "difficulty": 1,
+    "question": "Какая японская марка выбрала эмблему из трех ромбов (водяных каштанов), означающих надежность?",
     "options": [
-      "Символ феноменального сцепления колес с дорогой («липнет к асфальту, как геккон к стене»)",
-      "В честь любимого домашнего питомца конструктора",
-      "Геккон умеет менять цвет кузова",
-      "Символ бесшумного движения ночью"
+      "Mitsubishi",
+      "Daihatsu",
+      "Isuzu",
+      "Subaru"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_68",
+    "id": "trans_brands_21",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Как переводится название британской марки Land Rover?",
-    "options": ["«Земляной бродяга» / «Скиталец по земле»", "«Повелитель грязи»", "«Горный рыцарь»", "«Крепкий защитник»"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_brands_history_logos_69",
-    "categoryId": "transport",
-    "subcategoryId": "brands_history_logos",
-    "difficulty": 2,
-    "question": "Почему кузов первого Land Rover Series I в 1948 году братьями Уилкс был сделан из алюминиевого сплава Birmabright?",
+    "difficulty": 1,
+    "question": "Какой город является автомобильной столицей США («Motor City»)?",
     "options": [
-      "В послевоенной Великобритании был жесточайший дефицит листовой стали, но в избытке оставался авиационный алюминий от военных самолетов",
-      "Чтобы машина могла плавать по рекам",
-      "Из-за требований королевского двора",
-      "Алюминий был в 10 раз дешевле чугуна"
+      "Детройт (штат Мичиган)",
+      "Чикаго (Иллинойс)",
+      "Питтсбург (Пенсильвания)",
+      "Кливленд (Огайо)"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_brands_history_logos_70",
+    "id": "trans_brands_22",
     "categoryId": "transport",
     "subcategoryId": "brands_history_logos",
     "difficulty": 2,
-    "question": "Какой знаменитый авиаконструктор и основатель компании Lotus сформулировал легендарное кредо: «Увеличение мощности делает вас быстрее на прямых. Уменьшение массы делает вас быстрее везде»?",
-    "options": ["Колин Чепмен", "Джон Купер", "Брюс Макларен", "Фрэнк Уильямс"],
+    "question": "Какая марка автомобилей была основана гонщиком Луи Шевроле и Уильямом Дюрантом в 1911 году?",
+    "options": [
+      "Chevrolet",
+      "Pontiac",
+      "Oldsmobile",
+      "Buick"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_23",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какой чешский автопроизводитель ведет историю с 1895 года от велосипедной мастерской Laurin & Klement?",
+    "options": [
+      "Skoda Auto",
+      "Tatra Trucks",
+      "Praga Cars",
+      "Jawa Moto"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_24",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какой итальянский город является родиной суперкаров Ferrari, Lamborghini, Maserati и Pagani?",
+    "options": [
+      "Модена (Эмилия-Романья)",
+      "Турин (Пьемонт)",
+      "Милан (Ломбардия)",
+      "Генуя (Лигурия)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_25",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какая британская марка выпускает внедорожники Defender, Discovery и серию Range Rover?",
+    "options": [
+      "Land Rover",
+      "Vauxhall",
+      "MG Motor",
+      "Ineos Grenadier"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_26",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какая автомобильная корпорация объединила бренды Fiat, Chrysler, Peugeot, Citroen, Opel и Jeep в 2021 году?",
+    "options": [
+      "Альянс Stellantis",
+      "Группа VAG",
+      "Альянс Renault-Nissan",
+      "Geely Holding"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_27",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какой шведский бренд выпускал самолеты-истребители, а затем самобытные турбированные автомобили с замком зажигания у КПП?",
+    "options": [
+      "Saab Automobile",
+      "Volvo Cars",
+      "Koenigsegg",
+      "Scania AB"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_28",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какой испанский бренд входит в концерн Volkswagen и выпускает автомобили Ibiza, Leon и бренд Cupra?",
+    "options": [
+      "SEAT",
+      "Hispano-Suiza",
+      "Pegaso",
+      "Santana"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_29",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какая японская марка автомобилей названа в честь зороастрийского бога света Ахура Мазды?",
+    "options": [
+      "Mazda",
+      "Nissan",
+      "Mitsuoka",
+      "Datsun"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_30",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какой бренд роскошных автомобилей был основан братьями Чарльзом и Уолтером Бентли в 1919 году?",
+    "options": [
+      "Bentley",
+      "Aston Martin",
+      "Lagonda",
+      "Morgan"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_31",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какой итальянский бренд спортивных авто имеет эмблему с трезубцем бога морей Нептуна?",
+    "options": [
+      "Maserati",
+      "Ferrari",
+      "Lancia",
+      "Abarth"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_32",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какая немецкая марка славилась легендарными моделями Kadett, Rekord, Omega и Astra?",
+    "options": [
+      "Opel",
+      "Borgward",
+      "Wartburg",
+      "Trabant"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_33",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какая марка роскошных внедорожников и седанов является премиальным подразделением Toyota?",
+    "options": [
+      "Lexus",
+      "Infiniti",
+      "Acura",
+      "Genesis"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_34",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какая премиальная марка была создана компанией Honda для рынка Северной Америки в 1986 году?",
+    "options": [
+      "Acura",
+      "Lexus",
+      "Infiniti",
+      "Eunos"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_35",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какая премиальная японская марка автомобилей является люксовым подразделением концерна Nissan?",
+    "options": [
+      "Infiniti",
+      "Lexus",
+      "Acura",
+      "Mitsuoka"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_36",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какая корейская премиальная марка выделилась из состава корпорации Hyundai в 2015 году?",
+    "options": [
+      "Genesis",
+      "SsangYong",
+      "Daewoo",
+      "Samsung Motors"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_37",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какой китайский частный автогигант приобрел шведскую марку Volvo Cars в 2010 году?",
+    "options": [
+      "Geely Auto",
+      "Chery Automobile",
+      "BYD Company",
+      "Great Wall Motor"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_38",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какой китайский производитель стал мировым лидером по выпуску электромобилей и гибридов (NEV) к 2024 году?",
+    "options": [
+      "BYD Auto",
+      "NIO Electric",
+      "XPeng Motors",
+      "Li Auto"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_39",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "В каком городе Германии находится главный завод и музей автоконцерна BMW?",
+    "options": [
+      "Мюнхен",
+      "Франкфурт",
+      "Кельн",
+      "Ганновер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_40",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "В каком городе расположен гигантский автозавод АВТОВАЗ, выпускающий автомобили Lada?",
+    "options": [
+      "Тольятти",
+      "Самара",
+      "Нижний Новгород",
+      "Набережные Челны"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_41",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какой британский спорткар носил эмблему с зелеными крыльями и буквы AM?",
+    "options": [
+      "Aston Martin",
+      "Austin Healey",
+      "Alvis Cars",
+      "Armstrong Siddeley"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_42",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какой французский бренд ультра-роскошных гиперкаров основан итальянцем Этторе Бугатти в Мольсеме?",
+    "options": [
+      "Bugatti",
+      "Delahaye",
+      "Talbot-Lago",
+      "Facel Vega"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_43",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какой советский автозавод выпускал знаменитые грузовики ЗИС-5 («Захар») и ЗИЛ-130?",
+    "options": [
+      "Завод имени Лихачева (ЗИЛ)",
+      "Горьковский автозавод (ГАЗ)",
+      "Ярославский моторный (ЯМЗ)",
+      "Минский автозавод (МАЗ)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_44",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какой автозавод в Набережных Челнах специализируется на тяжелых дизельных грузовиках?",
+    "options": [
+      "КАМАЗ",
+      "УралАЗ",
+      "КрАЗ",
+      "БелАЗ"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_45",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какая эмблема украшает капот автомобилей Lada?",
+    "options": [
+      "Ладья под парусом",
+      "Стремительный олень",
+      "Зубчатое колесо",
+      "Крылатая чайка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_46",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какое геральдическое животное Нижнего Новгорода изображено на эмблеме автомобилей ГАЗ («Волга», «ГАЗель»)?",
+    "options": [
+      "Бегущий олень",
+      "Бурый медведь",
+      "Русский сокол",
+      "Степной барс"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_47",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какая итальянская марка прославилась спортивными хэтчбеками со скорпионом на эмблеме?",
+    "options": [
+      "Abarth",
+      "Autobianchi",
+      "Innocenti",
+      "Cisitalia"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_48",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какой британский бренд производит эксклюзивные спортивные родстеры с деревянным каркасом из ясеня?",
+    "options": [
+      "Morgan Motor Company",
+      "Caterham Cars",
+      "Ariel Motor",
+      "BAC Mono"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_49",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какой автопроизводитель запатентовал и первым выпустил серийный гибридный автомобиль Prius в 1997 году?",
+    "options": [
+      "Toyota Motor",
+      "Honda Motor",
+      "Nissan Motor",
+      "General Motors"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_50",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какая марка выпускает компактные двухместные городские автомобили Fortwo и Forfour?",
+    "options": [
+      "Smart",
+      "Mini",
+      "Fiat",
+      "Renault"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_51",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какая американская марка электромобилей выпустила футуристичный угловатый пикап Cybertruck из нержавеющей стали?",
+    "options": [
+      "Tesla",
+      "Rivian",
+      "Lucid",
+      "Fisker"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_52",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какой немецкий инженер считается официальным создателем первого в мире бензинового автомобиля (патент 1886 года)?",
+    "options": [
+      "Карл Бенц",
+      "Готтлиб Даймлер",
+      "Рудольф Дизель",
+      "Николаус Отто"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_53",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Кто совершил первую в мире междугороднюю поездку на автомобиле в 1888 году для рекламы изобретения мужа?",
+    "options": [
+      "Берта Бенц",
+      "Клара Форд",
+      "Мерседес Еллинек",
+      "Мария Кюри"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_54",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "В честь чьей дочери австрийский предприниматель Эмиль Еллинек назвал знаменитую марку Mercedes?",
+    "options": [
+      "В честь Мерседес",
+      "В честь сестры фрау Бенц",
+      "В честь королевы Австрии",
+      "В честь богини победы"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_55",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какой советский народный автомобиль выпускался на заводе АЗЛК в Москве?",
+    "options": [
+      "Москвич",
+      "Жигули",
+      "Запорожец",
+      "Волга"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_56",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какой американский концерн выпускал престижные автомобили Cadillac, Buick, Oldsmobile и Pontiac?",
+    "options": [
+      "General Motors",
+      "Chrysler Group",
+      "American Motors",
+      "Studebaker Corp"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_57",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какая японская марка использовала девиз «Zoom-Zoom», подчеркивая удовольствие от вождения?",
+    "options": [
+      "Mazda",
+      "Subaru",
+      "Nissan",
+      "Honda"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_58",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какая марка выпускает знаменитый английский кэб (черное лондонское такси LEVC)?",
+    "options": [
+      "London EV Company (LEVC)",
+      "Rolls-Royce Motor",
+      "Rover Group",
+      "Triumph Motor"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_59",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какая марка внедорожников дала нарицательное имя всему классу полноприводных машин в русском языке?",
+    "options": [
+      "Jeep",
+      "Land Rover",
+      "Toyota",
+      "Nissan"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_60",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какой производитель создал самый быстрый серийный автомобиль 1980-х Ferrari F40 без усилителя руля и ковриков?",
+    "options": [
+      "",
+      "Lamborghini",
+      "Maserati",
+      "De Tomaso"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_61",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какая японская корпорация выпускает квадроциклы, гидроциклы, мотоциклы и музыкальные инструменты с тремя камертонами на эмблеме?",
+    "options": [
+      "Yamaha",
+      "Kawasaki",
+      "Honda",
+      "Suzuki"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_62",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какой итальянский производитель скутеров подарил миру культовый моторизованный мотороллер Vespa?",
+    "options": [
+      "Piaggio",
+      "Ducati",
+      "Aprilia",
+      "Moto Guzzi"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_63",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какая шведская марка грузовых автомобилей и тягачей славится легендарными мощными моторами V8?",
+    "options": [
+      "Scania",
+      "Volvo Trucks",
+      "MAN Truck",
+      "DAF Trucks"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_64",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какой производитель грузовиков из Нидерландов входит в корпорацию PACCAR?",
+    "options": [
+      "DAF Trucks",
+      "Iveco SpA",
+      "Renault Trucks",
+      "Sisu Auto"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_65",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какая марка автомобилей имеет на логотипе крылатую стрелу в круге с глазом индейца?",
+    "options": [
+      "Skoda",
+      "Vauxhall",
+      "Holden",
+      "Pontiac"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_66",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какой бренд спортивных автомобилей из Великобритании принадлежит китайскому концерну Geely с 2017 года?",
+    "options": [
+      "Lotus Cars",
+      "TVR Motors",
+      "Noble Automotive",
+      "Ginetta Cars"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_67",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какая японская компания выпускает малолитражные кей-кары (kei-cars) Mira, Move и Taft?",
+    "options": [
+      "Daihatsu",
+      "Subaru",
+      "Mazda",
+      "Isuzu"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_68",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 3,
+    "question": "Какой американский бренд маслкаров выпускал мощные модели Challenger и Charger с моторами Hellcat?",
+    "options": [
+      "Dodge",
+      "Ford",
+      "Chevrolet",
+      "Plymouth"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_69",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 1,
+    "question": "Какой символ украшал капот культовых советских автомобилей ГАЗ-21 «Волга» третьей серии?",
+    "options": [
+      "Хромированная птица (чайка)",
+      "Хромированный олень",
+      "Красная рубиновая звезда",
+      "Золотой колос пшеницы"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_brands_70",
+    "categoryId": "transport",
+    "subcategoryId": "brands_history_logos",
+    "difficulty": 2,
+    "question": "Какой производитель шин из Франции выпускает знаменитый кулинарный путеводитель Мишлен со звездами?",
+    "options": [
+      "Michelin",
+      "Pirelli",
+      "Continental",
+      "Goodyear"
+    ],
     "correctIndex": 0,
     "image": null
   }

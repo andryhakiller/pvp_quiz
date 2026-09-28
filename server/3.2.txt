@@ -1,766 +1,1051 @@
 [
   {
-    "id": "transport_iconic_cars_culture_1",
+    "id": "trans_culture_1",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "Какой легендарный рядный 6-цилиндровый мотор с чугунным блоком устанавливался на Toyota Supra поколения A80?",
-    "options": ["2JZ-GTE", "RB26DETT", "13B-REW", "4G63T"],
+    "question": "Какой культовый спорткар выпускается с заднемоторной компоновкой с 1964 года?",
+    "options": [
+      "Porsche 911",
+      "Ferrari F40",
+      "Ford Mustang",
+      "Chevrolet Corvette"
+    ],
+    "correctIndex": 0,
+    "image": "/images/trans_porsche_911.png"
+  },
+  {
+    "id": "trans_culture_2",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какой японский спорткар получил всемирное прозвище «Годзилла» (Godzilla)?",
+    "options": [
+      "Nissan Skyline GT-R",
+      "Toyota Supra Turbo",
+      "Mazda RX-7 Spirit",
+      "Honda NSX Type-R"
+    ],
+    "correctIndex": 0,
+    "image": "/images/trans_skyline_gtr.png"
+  },
+  {
+    "id": "trans_culture_3",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой автомобиль доставки тофу прославился в культовом аниме Initial D?",
+    "options": [
+      "Toyota Sprinter Trueno AE86",
+      "Nissan Silvia S15",
+      "Mazda MX-5 Miata",
+      "Mitsubishi Lancer Evo"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_2",
+    "id": "trans_culture_4",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "За какое прозвище Nissan Skyline GT-R (начиная с поколения R32) получил мировую славу после доминирования в австралийском кузовном чемпионате в 1990 году?",
-    "options": ["Годзилла (Godzilla)", "Самурай (Samurai)", "Серебряная стрела", "Черный призрак"],
+    "question": "Какой маслкар водил Доминик Торетто в культовой франшизе «Форсаж»?",
+    "options": [
+      "Dodge Charger 1970",
+      "Ford Mustang Boss 429",
+      "Chevrolet Camaro SS",
+      "Pontiac GTO Judge"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_3",
+    "id": "trans_culture_5",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 2,
-    "question": "Какой легендарный пилот Формулы-1 лично участвовал в доводке управляемости суперкара Honda NSX первого поколения на треке Судзука?",
-    "options": ["Айртон Сенна", "Михаэль Шумахер", "Ален Прост", "Найджел Мэнселл"],
+    "question": "В какой автомобиль был встроен темпоральный контур времени в фильме «Назад в будущее»?",
+    "options": [
+      "DeLorean DMC-12",
+      "Ferrari Testarossa",
+      "Lamborghini Countach",
+      "Lotus Esprit Turbo"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_4",
+    "id": "trans_culture_6",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой британский люксовый бренд оснащает свои колеса центральными эмблемами, которые не крутятся?",
+    "options": [
+      "Rolls-Royce",
+      "Bentley Motors",
+      "Aston Martin",
+      "Jaguar Cars"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_7",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "Какой автомобиль с кузовом «хатироку» стал культовым символом японского дрифта благодаря манге и аниме Initial D?",
-    "options": ["Toyota Sprinter Trueno / Corolla Levin (AE86)", "Nissan Silvia S13", "Mazda RX-7 FC", "Honda Civic EK9"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_5",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой мотор стоял под капотом культового спорткара Mazda RX-7 поколения FD?",
+    "question": "Какой суперкар 1990-х годов имел центральную посадку водителя и моторный отсек с золотой фольгой?",
     "options": [
-      "Двухсекционный роторно-поршневой двигатель 13B-REW с последовательным твин-турбо",
-      "Рядный четырехцилиндровый SR20DET",
-      "Оппозитный турбомотор EJ20",
-      "Атмосферный V6 VQ35DE"
+      "McLaren F1",
+      "Bugatti EB110",
+      "Jaguar XJ220",
+      "Porsche 959"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_6",
+    "id": "trans_culture_8",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 2,
-    "question": "На каком заводе в Цуффенхаузене вручную собирался легендарный седан Mercedes-Benz 500E (W124), получивший в России прозвище «Волчок»?",
-    "options": ["На заводе Porsche (линия Rössle-Bau)", "На заводе AMG в Аффальтербахе", "На заводе BMW в Мюнхене", "На заводе Karmann в Оснабрюке"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_7",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой суперкар стал последним автомобилем, созданным при жизни Энцо Феррари, отметившим 40-летие марки в 1987 году?",
-    "options": ["Ferrari F40", "Ferrari Testarossa", "Ferrari 288 GTO", "Ferrari Enzo"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_8",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какую максимальную скорость (386.4 км/ч) установил трёхместный McLaren F1 с мотором BMW V12 в 1998 году на полигоне Эра-Лессин, став быстрейшим атмосферным серийным автомобилем?",
-    "options": ["386.4 км/ч", "325.0 км/ч", "407.5 км/ч", "431.0 км/ч"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_9",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Из какого драгоценного металла было сделано теплоотражающее покрытие моторного отсека McLaren F1?",
-    "options": ["Из чистого золота (сусальное золото)", "Из платины", "Из полированного серебра", "Из титановой фольги"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_10",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какое поколение Porsche 911 стало последним с классическим двигателем воздушного охлаждения?",
-    "options": ["Поколение 993", "Поколение 964", "Поколение 996", "Поколение 930"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_11",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Почему первое поколение Porsche 911 Turbo (930) 1970-х годов в народе прозвали «Вдоводелом» (Widowmaker)?",
+    "question": "Какой немецкий автомобиль ласково называют «Жуком» (Käfer / Beetle)?",
     "options": [
-      "Из-за заднемоторной компоновки, резкого турбоподхвата и отсутствия систем стабилизации, вызывавших внезапный занос в вираже",
-      "Из-за отказа тормозов на треке",
-      "Из-за отсутствия ремней безопасности в базовой комплектации",
-      "Из-за ядовитых паров топлива в салоне"
+      "Volkswagen Kafer",
+      "Opel Kadett",
+      "BMW Isetta",
+      "Mercedes 190"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_12",
+    "id": "trans_culture_9",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какая раллийная легенда группы Б оснащалась 5-цилиндровым турбомотором и революционной системой полного привода quattro?",
-    "options": ["Audi Sport Quattro S1", "Lancia 037", "Peugeot 205 T16", "Ford RS200"],
+    "difficulty": 3,
+    "question": "Какая модель BMW получила у фанатов культовое прозвище «Акула» за агрессивный скос носа?",
+    "options": [
+      "BMW E24 6-Series",
+      "BMW E30 3-Series",
+      "BMW E39 5-Series",
+      "BMW E38 7-Series"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_13",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой хэтчбек выиграл чемпионат мира по ралли (WRC) среди конструкторов рекордные 6 раз подряд с 1987 по 1992 год?",
-    "options": ["Lancia Delta HF Integrale", "Subaru Impreza 555", "Mitsubishi Lancer Evo", "Toyota Celica GT-Four"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_14",
+    "id": "trans_culture_10",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "Какой культовый маслкар 1969 года с оранжевым кузовом и флагом Конфедерации на крыше снимался в сериале «Придурки из Хаззарда» под именем Генерал Ли?",
-    "options": ["Dodge Charger 1969", "Ford Mustang Mach 1", "Chevrolet Chevelle SS", "Pontiac GTO"],
+    "question": "Какой автомобиль Джеймса Бонда впервые получил пулеметы и кресло-катапульту в «Голдфингере»?",
+    "options": [
+      "Aston Martin DB5",
+      "Lotus Esprit S1",
+      "BMW Z8 Roadster",
+      "Jaguar E-Type"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_15",
+    "id": "trans_culture_11",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 2,
-    "question": "Какой автомобиль с открывающимися вверх дверями «крыло чайки» и кузовом из нержавеющей стали стал машиной времени в фильме «Назад в будущее»?",
-    "options": ["DeLorean DMC-12", "Bricklin SV-1", "Mercedes-Benz 300 SL", "Lamborghini Countach"],
+    "question": "Какое культовое прозвище носит полноприводный седан Subaru Impreza со звездой ралли Колином Макреем?",
+    "options": [
+      "Врыкса (WRX STI)",
+      "Эвик (Lancer Evolution)",
+      "Хачироку (Hachi-Roku)",
+      "Чайзер (Tourer V)"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_16",
+    "id": "trans_culture_12",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой спорткар 1954 года первым в мире получил серийный механический прямой впрыск бензина Bosch и двери типа «крыло чайки» (Gullwing)?",
-    "options": ["Mercedes-Benz 300 SL (W198)", "BMW 507", "Jaguar E-Type", "Ferrari 250 Testa Rossa"],
+    "difficulty": 3,
+    "question": "Какой японский седан 1990-х годов с легендарным мотором 1JZ-GTE стал иконой дрифта в России?",
+    "options": [
+      "Toyota Mark II / Chaser",
+      "Nissan Teana V6",
+      "Honda Accord Euro-R",
+      "Mazda 6 MPS"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_17",
+    "id": "trans_culture_13",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "О каком автомобиле Энцо Феррари однажды восторженно отозвался: «Это самый красивый автомобиль из когда-либо созданных»?",
-    "options": ["Jaguar E-Type", "Aston Martin DB5", "Chevrolet Corvette Sting Ray", "Alfa Romeo 33 Stradale"],
+    "question": "Какой американский внедорожник берет начало от армейского многоцелевого вездехода Willys MB?",
+    "options": [
+      "Jeep Wrangler",
+      "Ford Bronco",
+      "Chevrolet Tahoe",
+      "Dodge Durango"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_18",
+    "id": "trans_culture_14",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какой автомобиль стал первым в мире гиперкаром, преодолевшим рубеж скорости в 400 км/ч?",
+    "options": [
+      "Bugatti Veyron 16.4",
+      "Koenigsegg CC8S",
+      "Saleen S7 Twin Turbo",
+      "Pagani Zonda C12"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_15",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой спорткар оснащался легендарным трехсекционным роторным двигателем 13B-REW с завода?",
+    "options": [
+      "Mazda RX-7 (FD3S)",
+      "Toyota Supra (A80)",
+      "Nissan 300ZX (Z32)",
+      "Subaru SVX Boxer"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_16",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "Какой британский спорткар неразрывно связан с образом Джеймса Бонда, начиная с фильма «Голдфингер» (1964)?",
-    "options": ["Aston Martin DB5", "Lotus Esprit", "Jaguar XKR", "Bentley Blower"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_19",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой легендарный хот-хэтч 1976 года фактически основал популярнейший класс «заряженных» компактных хэтчбеков?",
-    "options": ["Volkswagen Golf GTI (Mk1)", "Peugeot 205 GTI", "Ford Escort RS2000", "Renault 5 Turbo"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_20",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой суперкар с клиновидным футуристическим дизайном Марчелло Гандини и мотором V12 стал главным постером на стенах спален подростков в 1980-е годы?",
-    "options": ["Lamborghini Countach", "Ferrari Testarossa", "De Tomaso Pantera", "Vector W8"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_21",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой серийный гиперкар в 2005 году впервые перешагнул рубеж максимальной скорости 400 км/ч (407 км/ч) с мотором W16 и 4 турбинами?",
-    "options": ["Bugatti Veyron 16.4", "Koenigsegg CCR", "Saleen S7 Twin Turbo", "SSC Ultimate Aero"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_22",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Сколько радиаторов охлаждения установлено в конструкции гиперкара Bugatti Veyron для надежной работы всех систем?",
-    "options": ["10 радиаторов", "3 радиатора", "6 радиаторов", "16 радиаторов"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_23",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой атмосферный мотор V12 от подразделения Mercedes-AMG стоял в среднемоторном шедевре Pagani Zonda C12?",
-    "options": ["Серия M120 (объемом от 6.0 до 7.3 литра)", "Серия M275 biturbo", "Серия OM606", "Серия M156 6.2L"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_24",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Что представляет собой уникальный углепластик «карботаниум» (carbotanium), запатентованный Горацио Пагани для суперкара Huayra?",
+    "question": "Какой спорткар Энцо Феррари создал к 40-летию марки как свой последний одобренный шедевр?",
     "options": [
-      "Композит из углеродного волокна, переплетенного с тончайшими нитями титанового сплава для предотвращения катастрофического растрескивания",
-      "Листовой титан с карбоновым принтом",
-      "Сплав алюминия с добавлением алмазной пыли",
-      "Кевларовая ткань, пропитанная эпоксидной смолой с графеном"
+      "Ferrari F40",
+      "Ferrari 250 GTO",
+      "Ferrari Enzo",
+      "Ferrari Testarossa"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_25",
+    "id": "trans_culture_17",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 2,
-    "question": "Какой автомобиль одержал историческую победу над Ferrari в марафоне «24 часа Ле-Мана» 1966 года, заняв все три первых места на подиуме?",
-    "options": ["Ford GT40 Mk II", "Shelby Cobra Daytona Coupe", "Porsche 906", "Chaparral 2D"],
+    "question": "Какой суперкар потряс мир клиновидным дизайном кузова от Марчелло Гандини в 1974 году?",
+    "options": [
+      "Lamborghini Countach",
+      "De Tomaso Pantera",
+      "Lancia Stratos HF",
+      "Maserati Bora"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_26",
+    "id": "trans_culture_18",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Кто был легендарным тест-пилотом и конструктором, который вместе с Кэрроллом Шелби доводил Ford GT40 до триумфа в Ле-Мане?",
-    "options": ["Кен Майлз (Ken Miles)", "Брюс Макларен", "Дэн Герни", "Марио Андретти"],
+    "difficulty": 3,
+    "question": "Какое прозвище получил советский внедорожник ВАЗ-2121 за сочетание полного привода и легкового кузова?",
+    "options": [
+      "Нива",
+      "Уазик",
+      "Буханка",
+      "Козел"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_27",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой британский родстер AC Ace послужил основой для создания легендарного монстра Shelby Cobra с двигателем Ford V8?",
-    "options": ["AC Ace", "Austin-Healey 3000", "Triumph TR6", "MG MGB"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_28",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой объем в кубических дюймах (и литрах) имел знаменитый двигатель Ford V8 в Shelby Cobra 427?",
-    "options": ["427 куб. дюймов (7.0 литра)", "302 куб. дюйма (5.0 литра)", "350 куб. дюймов (5.7 литра)", "454 куб. дюйма (7.4 литра)"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_29",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой японский спорткар 1967 года с кузовом от Yamaha и алюминиевыми панелями считается первым настоящим суперкаром Японии?",
-    "options": ["Toyota 2000GT", "Datsun 240Z", "Mazda Cosmo Sport 110S", "Prince Skyline 2000GT-B"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_30",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой автомобиль стал первым в мире серийным автомобилем с роторно-поршневым двигателем Ванкеля в 1967 году?",
-    "options": ["Mazda Cosmo Sport (110S)", "NSU Ro 80", "Citroën GS Birotor", "Mercedes-Benz C111"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_31",
+    "id": "trans_culture_19",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "Какое неофициальное прозвище получил советский внедорожник ВАЗ-2121 «Нива», вышедший в 1977 году с революционным несущим кузовом и постоянным полным приводом?",
-    "options": ["Русский Range Rover", "Король тайги", "Бобик", "Советский Гелик"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_32",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой итальянский автомобиль 1966 года стал европейским «Автомобилем года» и был взят за основу при разработке советского ВАЗ-2101?",
-    "options": ["Fiat 124", "Fiat 128", "Alfa Romeo Giulia", "Lancia Fulvia"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_33",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какое главное принципиальное изменение внесли советские инженеры в мотор ВАЗ-2101 по сравнению с оригинальным мотором Fiat 124?",
+    "question": "Какой культовый микроавтобус стал главным символом движения хиппи в 1960-е годы?",
     "options": [
-      "Перенесли распределительный вал из нижнего положения в блоке цилиндров наверх в головку блока (схема OHC)",
-      "Заменили бензин на дизельное топливо",
-      "Установили турбонаддув",
-      "Сделали двигатель оппозитным"
+      "Volkswagen Type 2 (T1)",
+      "Ford Econoline Van",
+      "Chevrolet Corvair Van",
+      "Citroen Type H"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_34",
+    "id": "trans_culture_20",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 2,
-    "question": "Какая знаменитая немецкая инжиниринговая компания помогала АвтоВАЗу в доводке переднеприводного семейства ВАЗ-2108 «Самара» в начале 1980-х годов?",
-    "options": ["Porsche", "BMW Motorsport", "Mercedes-Benz", "Audi"],
+    "question": "Какая шведская автомобильная марка подарила миру трехточечный ремень безопасности, открыв патент?",
+    "options": [
+      "Volvo",
+      "Saab",
+      "Scania",
+      "Koenigsegg"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_35",
+    "id": "trans_culture_21",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой родстер стал самым продаваемым двухместным спортивным автомобилем в мировой истории?",
+    "options": [
+      "Mazda MX-5 Miata",
+      "BMW Z3 Roadster",
+      "Porsche Boxster",
+      "Mercedes SLK AMG"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_22",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "Какое народное прозвище получил автомобиль ВАЗ-2108 в СССР из-за характерной клиновидной формы передка?",
-    "options": ["Зубило", "Чебурашка", "Каблук", "Утюг"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_36",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой двигатель стоял в специальной модификации «Волги» ГАЗ-23 и ГАЗ-24-24, выпускавшейся для нужд 9-го управления КГБ СССР («догонялка»)?",
+    "question": "Какой советский автомобиль представительского класса имел прозвище «Чайка»?",
     "options": [
-      "V-образная «восьмерка» ЗМЗ объемом 5.53 литра мощностью 195 л.с. с автоматической коробкой передач от «Чайки»",
-      "Рядный шестицилиндровый двигатель BMW",
-      "Двухроторный двигатель ВАЗ-415",
-      "Турбодизель ЯМЗ"
+      "ГАЗ-13 и ГАЗ-14",
+      "ЗИЛ-111 и ЗИЛ-114",
+      "Москвич-408",
+      "Волга ГАЗ-21"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_37",
+    "id": "trans_culture_23",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 2,
-    "question": "Какой редчайший советский серийный спорткар ВАЗ оснащался роторно-поршневым двигателем ВАЗ-415 мощностью 140 л.с.?",
-    "options": ["ВАЗ-2109-91 (роторная Самара)", "ВАЗ-2105 ВФТС", "Москвич-2141 КР", "Лада Тарзан"],
+    "question": "Какой гиперкар из Швеции прославился дверями с уникальным механизмом «диэдрической синхро-спирали»?",
+    "options": [
+      "Koenigsegg Agera",
+      "Rimac Nevera",
+      "Pagani Huayra",
+      "Apollo Intensa"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_38",
+    "id": "trans_culture_24",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Кто создал знаменитую раллийную команду VFTS (Вильнюсская фабрика транспортных средств), строившую спортивные болиды Lada 2105 VFTS группы Б?",
-    "options": ["Стасис Брундза", "Эдуард Вагисов", "Николай Больших", "Виктор Поляков"],
+    "difficulty": 3,
+    "question": "Какой легендарный маслкар выпускался компанией Ford с эмблемой бегущего коня?",
+    "options": [
+      "Ford Mustang",
+      "Ford Falcon",
+      "Ford Thunderbird",
+      "Ford Torino"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_39",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какое поколение BMW 3-серии в кузове E30 впервые получило легендарную модификацию M3 с расширенными крыльями и высокооборотистым мотором S14?",
-    "options": ["BMW M3 E30 (1986)", "BMW M3 E36 (1992)", "BMW M3 E46 (2000)", "BMW 2002 Turbo (1973)"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_40",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой атмосферный мотор с индивидуальными дроссельными заслонками на каждый цилиндр стоял в культовой BMW M3 E46?",
-    "options": ["S54B32 (3.2 литра, 343 л.с.)", "S50B30 (3.0 литра)", "S65B40 (4.0 литра V8)", "M54B30 (231 л.с.)"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_41",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой культовый седан BMW E39 M5 впервые в истории подразделения Motorsport оснащался двигателем конфигурации V8?",
-    "options": ["BMW M5 E39 с мотором S62B50 (400 л.с.)", "BMW M5 E34", "BMW M5 E60", "BMW M5 F10"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_42",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой уникальный высокооборотистый двигатель V10 формульного типа (крутящийся до 8250 об/мин) стоял в BMW M5 поколения E60?",
-    "options": ["S85B50", "S65B40", "N63B44", "S70/2"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_43",
+    "id": "trans_culture_25",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "Какой цвет кузова и золотые диски стали каноническим фирменным стилем Subaru Impreza WRX STI благодаря раллийным победам Колина Макрея?",
-    "options": ["Синий World Rally Blue (WR Blue) с золотыми дисками", "Красный Rosso Corsa с белыми дисками", "Черный металлик с хромом", "Желтый с карбоновыми колесами"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_44",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой двигатель с чугунным блоком цилиндров служил сердцем всех девяти поколений Mitsubishi Lancer Evolution (I по IX)?",
-    "options": ["4G63T (2.0L Turbo)", "4B11T (алюминиевый)", "EJ207", "SR20DET"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_45",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Что такое система AYC (Active Yaw Control) в полноприводной трансмиссии Mitsubishi Lancer Evolution?",
+    "question": "Какой автомобиль с дверьми типа «крыло чайки» выпускался компанией Mercedes-Benz в 1954 году?",
     "options": [
-      "Активный задний дифференциал, перераспределяющий крутящий момент между правым и левым задними колесами с помощью гидравлических фрикционов для ввинчивания в поворот",
-      "Система впрыска метанола в интеркулер",
-      "Электронный ручник для дрифта",
-      "Система автоматического подруливания задней оси"
+      "Mercedes-Benz 300 SL",
+      "Mercedes-Benz SSK",
+      "Mercedes-Benz 190 SL",
+      "Mercedes-Benz 540 K"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_46",
+    "id": "trans_culture_26",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 2,
-    "question": "Какой спорткар носил неофициальное звание «Феррари для бедных» благодаря центральномоторной компоновке и доступной цене в трех поколениях (W10, W20, W30)?",
-    "options": ["Toyota MR2", "Fiat Barchetta", "Mazda MX-5 Miata", "Pontiac Fiero"],
+    "question": "Какой спортивный универсал Audi прославился разработкой совместно с Porsche в 1994 году?",
+    "options": [
+      "Audi RS2 Avant",
+      "Audi S4 Quattro",
+      "Audi RS6 V10",
+      "Audi Quattro Sport"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_47",
+    "id": "trans_culture_27",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какая серия внедорожников Toyota выпускается с 1951 года и считается эталоном надежности в экспедициях?",
+    "options": [
+      "Toyota Land Cruiser",
+      "Toyota 4Runner",
+      "Toyota Hilux Surf",
+      "Toyota Sequoia"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_28",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "Какой легкий заднеприводный родстер стал самым продаваемым двухместным спортивным автомобилем в мировой истории (внесен в Книгу рекордов Гиннесса)?",
-    "options": ["Mazda MX-5 Miata", "BMW Z4", "Porsche Boxster", "Mercedes-Benz SLK"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_48",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой японский концепт философии объединения всадника и лошади (Jinba Ittai) лежит в основе каждого поколения Mazda MX-5?",
-    "options": ["Дзинба иттай (единение коня и всадника)", "Кайдзен (постоянное улучшение)", "Ваби-саби", "Бусидо"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_49",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какое знаменитое джентльменское соглашение действовало между японскими автопроизводителями с 1989 по 2004 год касательно мощности серийных авто?",
+    "question": "Какой культовый маслкар Chevrolet носит имя хищной ядовитой змеи или рыбы?",
     "options": [
-      "Ограничение заявленной мощности на уровне 280 л.с. (206 кВт) и максимальной скорости 180 км/ч",
-      "Запрет на использование турбонаддува в городе",
-      "Обязательный выпуск только полноприводных седанов",
-      "Запрет на установку механических коробок передач"
+      "Chevrolet Corvette Stingray",
+      "Chevrolet Impala SS",
+      "Chevrolet Chevelle SS",
+      "Chevrolet Monte Carlo"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_50",
+    "id": "trans_culture_29",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 2,
-    "question": "Какой американский суперкар 1992 года выпускался без ABS, без трекшн-контроля, с мотором V10 8.0L, разработанным при участии инженеров Lamborghini?",
-    "options": ["Dodge Viper RT/10", "Chevrolet Corvette ZR-1", "Ford GT", "Vector Avtech WX-3"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_51",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой суперкар с центральным мотором V12 стал первым в истории дорожным автомобилем, построенным вокруг полноценного карбонового монокока в 1995 году?",
-    "options": ["Ferrari F50", "McLaren F1", "Jaguar XJ220", "Bugatti EB110"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_52",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой рекорд скорости (349.4 км/ч) установил полноприводный суперкар Bugatti EB110 GT с четырьмя турбинами в 1990-х годах до банкротства компании Артиоли?",
-    "options": ["349.4 км/ч", "295.0 км/ч", "380.0 км/ч", "410.0 км/ч"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_53",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какая модель Mercedes-Benz конца 1990-х годов в омологационной версии для гонок FIA GT имела съемную крышу и двигатель V12 6.9 литра?",
-    "options": ["Mercedes-Benz CLK GTR", "Mercedes-Benz SLR McLaren", "Mercedes-Benz SL73 AMG", "Mercedes-Benz C112"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_54",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой совместный суперкар Mercedes-Benz и McLaren собирался в британском Уокинге и оснащался компрессорным V8 5.4L с боковым выхлопом перед передними дверями?",
-    "options": ["Mercedes-Benz SLR McLaren", "McLaren MP4-12C", "Mercedes-AMG GT", "SLS AMG"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_55",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой суперкар возродил легендарные подъемные двери «крыло чайки» в линейке Mercedes-Benz в 2010 году с безнаддувным мотором M159 6.2L?",
-    "options": ["Mercedes-Benz SLS AMG", "Mercedes-AMG GT Black Series", "SL65 AMG Black Series", "CLK DTM AMG"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_56",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой японский седан с полным приводом и турбомотором 1JZ-GTE / 2JZ-GTE стал иконой сибирского и дальневосточного дрифта в кузовах JZX90 и JZX100?",
-    "options": ["Toyota Chaser / Mark II / Cresta", "Nissan Laurel", "Subaru Legacy B4", "Mitsubishi Galant VR-4"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_57",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "В чем главное конструктивное отличие мотора 1JZ-GTE (2.5L) от 2JZ-GTE (3.0L)?",
+    "question": "Какое неформальное название носит автокультура владельцев заниженных автомобилей с экстремальным развалом?",
     "options": [
-      "1JZ имеет квадратную геометрию (ход поршня равен диаметру цилиндра 71.5х86 мм), раскручиваясь охотнее на верхах, а 2JZ длинноходный (86х86 мм) с паровозной тягой на низах",
-      "У 1JZ алюминиевый блок, а у 2JZ чугунный",
-      "У 1JZ 4 клапана на цилиндр, а у 2JZ 5 клапанов",
-      "1JZ ставился только на переднеприводные машины"
+      "Stance-культура",
+      "Off-road трофи",
+      "Hot-rod классика",
+      "Time Attack трек"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_58",
+    "id": "trans_culture_30",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой спортивный автомобиль Nissan в кузовах S13, S14 и S15 стал самым популярным шасси для профессионального соревновательного дрифта во всем мире?",
-    "options": ["Nissan Silvia / 180SX / 200SX", "Nissan Fairlady Z 350Z", "Nissan Cefiro A31", "Nissan Pulsar GTI-R"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_59",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой легендарный 4-цилиндровый турбомотор стоял под капотом большинства спортивных версий Nissan Silvia (S13-S15)?",
-    "options": ["SR20DET", "CA18DET", "FJ20ET", "RB20DET"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_60",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой суперкар с высокооборотным мотором V10 4.8L (звучащим благодаря акустической настройке Yamaha как болид Ф-1) выпустила компания Lexus тиражом всего 500 экземпляров?",
-    "options": ["Lexus LFA", "Lexus LC 500", "Lexus RC F", "Lexus IS F"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_61",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Почему приборная панель в Lexus LFA была сделана полностью цифровой с подвижным металлическим кольцом?",
+    "difficulty": 3,
+    "question": "Какой седан марки Mercedes-Benz в кузове W124 с мотором V8 5.0 л собирался на заводе Porsche?",
     "options": [
-      "Стрелка аналогового тахометра физически не успевала за раскруткой двигателя с холостых до 9000 об/мин за 0.6 секунды",
-      "Аналоговые датчики не выдерживали вибраций карбонового кузова",
-      "Это требовалось по закону Японии о защите пешеходов",
-      "Для снижения массы приборного щитка на 10 кг"
+      "Mercedes-Benz 500 E (Волчок)",
+      "Mercedes-Benz 300 E-24",
+      "Mercedes-Benz 190 E Evo",
+      "Mercedes-Benz CL 600"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_62",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой культовый тюнинг-стиль в Японии зародился среди нелегальных ночных гонщиков на автомагистрали Ванган (Шуто Косоку)?",
-    "options": ["Миднайт Клаб (Mid Night Club)", "Босодзоку (Bosozoku)", "Итася (Itasha)", "Шакотан (Shakotan)"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_63",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Что представляет собой японская тюнинг-субкультура «Босодзоку» (Bosozoku)?",
-    "options": [
-      "Экстремальный эпатажный стиль с огромными выхлопными трубами («такеяри»), гигантскими спойлерами, длинными выступающими «губами» спереди и яркой раскраской",
-      "Наклейки с аниме-персонажами на весь кузов",
-      "Установка огромных хромированных колес диаметром 24 дюйма",
-      "Полное облегчение кузова для дрэг-рейсинга без фар и салона"
-    ],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_64",
+    "id": "trans_culture_31",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "Как называется стиль тюнинга, когда кузов автомобиля максимально занижают до асфальта («fitment»), устанавливая диски с экстремальным развалом и узкой резиной домиком?",
-    "options": ["Стенс (Stance)", "Рэт-лук (Rat Look)", "Слипер (Sleeper)", "Офф-роуд (Off-road)"],
+    "question": "Какой итальянский бренд выпускает штучные гиперкары Zonda и Huayra в Модене?",
+    "options": [
+      "Pagani Automobili",
+      "Mazzanti Automobili",
+      "De Tomaso Automobili",
+      "Iso Rivolta"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_65",
+    "id": "trans_culture_32",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какой автомобиль стал главным героем культового фильма «Угнать за 60 секунд» по имени Элеонор?",
+    "options": [
+      "Ford Mustang Shelby GT500",
+      "Chevrolet Corvette C2",
+      "Dodge Challenger R/T",
+      "Plymouth Hemi Cuda"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_33",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какая марка автомобилей прославилась фирменными «ноздрями» решетки радиатора с 1933 года?",
+    "options": [
+      "BMW",
+      "Audi",
+      "Opel",
+      "Volkswagen"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_34",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 1,
-    "question": "Что в автокультуре называют термином «Слипер» (Sleeper)?",
+    "question": "Какой внедорожник Mercedes-Benz изначально создавался для военных нужд и имеет индекс кузова W463?",
     "options": [
-      "Внешне абсолютно невзрачный, стандартный или даже потрепанный автомобиль, под капотом которого спрятан колоссально форсированный мощный двигатель",
-      "Машина со спальным местом в багажнике",
-      "Автомобиль с автопилотом, позволяющим спать за рулем",
-      "Коллекционный автомобиль, который годами стоит в гараже без выезда"
+      "G-Class (Гелендваген)",
+      "GL-Class (Флагман)",
+      "ML-Class (Кроссовер)",
+      "GLE-Class (Купе)"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_66",
+    "id": "trans_culture_35",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 2,
-    "question": "Какой шведский гиперкар Koenigsegg Agera RS в 2017 году на перекрытом шоссе в Неваде установил официальный мировой рекорд средней скорости для дорожных авто (447.19 км/ч)?",
-    "options": ["Koenigsegg Agera RS", "Koenigsegg CCX", "Koenigsegg One:1", "Koenigsegg Regera"],
-    "correctIndex": 0,
-    "image": null
-  },
-  {
-    "id": "transport_iconic_cars_culture_67",
-    "categoryId": "transport",
-    "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Что означает название гиперкара Koenigsegg One:1?",
+    "question": "Какой английский спорткар Энцо Феррари назвал «самым красивым автомобилем из когда-либо созданных»?",
     "options": [
-      "Соотношение мощности к массе ровно 1 л.с. на 1 кг снаряженной массы (1360 л.с. на 1360 кг)",
-      "Выпущен в единственном экземпляре в мире",
-      "Способен разогнаться от 0 до 100 км/ч за 1.0 секунду",
-      "Оснащен ровно одной турбиной на весь мотор"
+      "Jaguar E-Type",
+      "Aston Martin DB4",
+      "Lotus Elan S2",
+      "MG B Roadster"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_68",
+    "id": "trans_culture_36",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какой уникальный инновационный привод без традиционной коробки передач применил Кристиан фон Кёнигсегг в гиперкаре Regera?",
+    "difficulty": 3,
+    "question": "Какой суперкар Bugatti был назван в честь легендарного французского гонщика Луи Широна?",
     "options": [
-      "Koenigsegg Direct Drive (KDD): ДВС соединен с задней осью через гидравлическую муфту с постоянным передаточным числом 2.73 и тремя электромоторами",
-      "9-ступенчатый преселективный робот с тремя сцеплениями",
-      "Два клиноременных вариатора от снегохода",
-      "Пневматическую гидротурбину высокого давления"
+      "Bugatti Chiron",
+      "Bugatti Divo",
+      "Bugatti Centodieci",
+      "Bugatti Bolide"
     ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_69",
+    "id": "trans_culture_37",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
-    "difficulty": 2,
-    "question": "Какая знаменитая трасса в Германии длиной 20.8 км, прозванная Джеки Стюартом «Зеленый ад» (Green Hell), служит главным мировым мерилом управляемости спорткаров?",
-    "options": ["Северная петля Нюрбургринга (Nordschleife)", "Хоккенхаймринг", "Спа-Франкоршам", "Монца"],
+    "difficulty": 1,
+    "question": "Какое народное название получил микролитражный автомобиль ЗАЗ-965 в СССР?",
+    "options": [
+      "Горбатый Запорожец",
+      "Ушастый Запорожец",
+      "Инвалидка СМЗ",
+      "Копейка Жигули"
+    ],
     "correctIndex": 0,
     "image": null
   },
   {
-    "id": "transport_iconic_cars_culture_70",
+    "id": "trans_culture_38",
     "categoryId": "transport",
     "subcategoryId": "iconic_cars_culture",
     "difficulty": 2,
-    "question": "Какой гоночный прототип Porsche 919 Hybrid Evo под управлением Тимо Бернхарда в 2018 году побил абсолютный рекорд круга Северной петли Нюрбургринга со временем 5 минут 19.546 секунды?",
-    "options": ["Porsche 919 Hybrid Evo", "Volkswagen ID.R", "Mercedes-AMG One", "Porsche 911 GT2 RS MR"],
+    "question": "Какой спортивный хэтчбек положил начало целому классу доступных «хот-хэтчей» в 1976 году?",
+    "options": [
+      "Volkswagen Golf GTI",
+      "Peugeot 205 GTI",
+      "Renault 5 Turbo",
+      "Ford Fiesta XR2"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_39",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой японский спорткар оснащался легендарным рядным 6-цилиндровым твин-турбо мотором 2JZ-GTE?",
+    "options": [
+      "Toyota Supra A80",
+      "Nissan Silvia S14",
+      "Mitsubishi GTO",
+      "Mazda Cosmo 20B"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_40",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 1,
+    "question": "Какой маслкар 1970 года с гигантским антикрылом и клиновидным носом побеждал в гонках NASCAR?",
+    "options": [
+      "Plymouth Superbird",
+      "Mercury Cyclone",
+      "Dodge Dart Swinger",
+      "AMC Javelin AMX"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_41",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какая французская малолитражка с гофрированным капотом и мягкой подвеской выпускалась с 1948 по 1990 год?",
+    "options": [
+      "Citroen 2CV (Де-шво)",
+      "Renault 4L",
+      "Peugeot 204",
+      "Simca 1000"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_42",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой автомобиль создал Кэрролл Шелби, установив мощный американский V8 в легкий британский кузов AC?",
+    "options": [
+      "Shelby Cobra 427",
+      "Ford GT40 Mk I",
+      "Sunbeam Tiger V8",
+      "Cheetah Race Car"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_43",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 1,
+    "question": "Какой электромобиль Илона Маска стал самым продаваемым автомобилем в мире по итогам 2023 года?",
+    "options": [
+      "Tesla Model Y",
+      "Tesla Model 3",
+      "Tesla Model S",
+      "Tesla Model X"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_44",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какой суперкар компании McLaren получил имя великого бразильского чемпиона Формулы-1?",
+    "options": [
+      "McLaren Senna",
+      "McLaren P1",
+      "McLaren Speedtail",
+      "McLaren Artura"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_45",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какое прозвище носит классический ВАЗ-2101 в российской автомобильной культуре?",
+    "options": [
+      "Копейка",
+      "Шестерка",
+      "Девятка",
+      "Зубило"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_46",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 1,
+    "question": "Какой американский пикап Ford серии F остается бестселлером в США на протяжении более 40 лет?",
+    "options": [
+      "Ford F-150",
+      "Ford Ranger",
+      "Ford Maverick",
+      "Ford Super Duty"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_47",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какой автомобиль победил 4 раза подряд в Ле-Мане с 1966 по 1969 год, бросив вызов Ferrari?",
+    "options": [
+      "Ford GT40",
+      "Porsche 917K",
+      "Lola T70",
+      "Chaparral 2F"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_48",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой бренд выпускает культовые спортивные купе 718 Cayman и 718 Boxster с центральным мотором?",
+    "options": [
+      "Porsche",
+      "Lotus",
+      "Alpine",
+      "Alfa Romeo"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_49",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 1,
+    "question": "Какой автомобиль стал символом такси в Нью-Йорке на долгие десятилетия благодаря желтому цвету?",
+    "options": [
+      "Checker Marathon",
+      "Ford Crown Victoria",
+      "Chevrolet Caprice",
+      "Lincoln Town Car"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_50",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какая модель Lada с кузовом хэтчбек получила у советских автолюбителей прозвище «Зубило»?",
+    "options": [
+      "ВАЗ-2108 / 2109",
+      "ВАЗ-2105 / 2107",
+      "ВАЗ-2110 / 2112",
+      "ВАЗ-1111 Ока"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_51",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой суперкар от Lamborghini получил гибридный V12 мощностью 1015 л.с. в 2023 году?",
+    "options": [
+      "Lamborghini Revuelto",
+      "Lamborghini Sian",
+      "Lamborghini Aventador",
+      "Lamborghini Huracan"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_52",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 1,
+    "question": "Какой британский компактный автомобиль разработал Алек Иссигонис с поперечным мотором в 1959 году?",
+    "options": [
+      "Classic Mini Cooper",
+      "Austin Healey Sprite",
+      "Triumph Spitfire",
+      "Morris Minor 1000"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_53",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какой седан марки Subaru в раллийной раскраске имел ярко-золотистые диски и синий кузов 02C?",
+    "options": [
+      "Subaru Impreza WRX",
+      "Subaru Legacy RS",
+      "Subaru Forester STI",
+      "Subaru BRZ Sport"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_54",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой легендарный японский мотор V6 твин-турбо ставился на спорткар Nissan GT-R R35?",
+    "options": [
+      "VR38DETT",
+      "RB26DETT",
+      "VQ35DE",
+      "1JZ-GTE"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_55",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 1,
+    "question": "Какой раллийный омологационный хэтчбек Toyota с полным приводом GR-Four вышел в 2020 году?",
+    "options": [
+      "Toyota GR Yaris",
+      "Toyota GR Corolla",
+      "Toyota GT86 TRD",
+      "Toyota Celica GT-Four"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_56",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какое прозвище носит переднеприводный хэтчбек Honda Civic Type-R за агрессивный спортивный стиль?",
+    "options": [
+      "Топор (Type-R)",
+      "Пушка-гонка",
+      "Бешеный тапок",
+      "Самурайский меч"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_57",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой спортивный автомобиль Chevrolet выпускается исключительно со стеклопластиковым/композитным кузовом?",
+    "options": [
+      "Chevrolet Corvette",
+      "Chevrolet Camaro",
+      "Chevrolet Chevelle",
+      "Chevrolet SS Sedan"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_58",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 1,
+    "question": "Какой компактный внедорожник марки Suzuki имеет жесткую рамную конструкцию и два неразрезных моста?",
+    "options": [
+      "Suzuki Jimny",
+      "Suzuki Vitara",
+      "Suzuki Samurai",
+      "Suzuki Ignis 4x4"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_59",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какой бренд суперкаров из Маранелло традиционно окрашивает свои гоночные болиды в цвет Rosso Corsa?",
+    "options": [
+      "Ferrari",
+      "Alfa Romeo",
+      "Maserati",
+      "Ducati Corse"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_60",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой автомобиль победил в легендарном ралли Монте-Карло 1964 года, обогнав мощные Falcon V8?",
+    "options": [
+      "Mini Cooper S",
+      "Saab 96 V4",
+      "Porsche 904 GTS",
+      "Lancia Fulvia HF"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_61",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 1,
+    "question": "Какой электромобиль установил рекорд среди серийных машин на разгон до 100 км/ч быстрее 1,9 секунды?",
+    "options": [
+      "Rimac Nevera",
+      "Tesla Model S Plaid",
+      "Lucid Air Sapphire",
+      "Porsche Taycan Turbo"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_62",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какой легендарный немецкий спорткар 1980-х имел регулируемый дорожный просвет и полный привод с завода?",
+    "options": [
+      "Porsche 959",
+      "BMW M1 Procar",
+      "Audi Sport Quattro",
+      "Mercedes 190 Evo II"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_63",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какой внедорожник Ульяновского автозавода получил народное прозвище «Буханка» за форму кузова?",
+    "options": [
+      "УАЗ-452 / 3741",
+      "УАЗ-469 / 3151",
+      "УАЗ Патриот",
+      "УАЗ Хантер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_64",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 1,
+    "question": "Какой английский внедорожник королева Елизавета II водила лично на протяжении многих десятилетий?",
+    "options": [
+      "Land Rover Defender",
+      "Range Rover Classic",
+      "Bentley Bentayga",
+      "Aston Martin DBX"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_65",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какой американский суперкар 1990-х оснащался огромным 8,0-литровым мотором V10 без ABS и трекшн-контроля?",
+    "options": [
+      "Dodge Viper RT/10",
+      "Chevrolet Corvette ZR1",
+      "Vector M12 V12",
+      "Panoz Esperante"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_66",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какая марка спортивных автомобилей использует слоган «The Ultimate Driving Machine»?",
+    "options": [
+      "BMW",
+      "Audi",
+      "Mercedes-Benz",
+      "Porsche"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_67",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 1,
+    "question": "Какой седан марки Mitsubishi стал главным вечным соперником Subaru Impreza WRX STI на раллийных трассах?",
+    "options": [
+      "Lancer Evolution",
+      "Galant VR-4",
+      "Eclipse GSX Turbo",
+      "3000GT VR-4"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_68",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 2,
+    "question": "Какой советский правительственный лимузин высшего класса выпускался на заводе имени Лихачева?",
+    "options": [
+      "ЗИЛ-41047",
+      "ГАЗ-14 Чайка",
+      "Москвич-2140",
+      "Волга ГАЗ-3102"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_69",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 3,
+    "question": "Какая модель Audi первой получила постоянный полный привод Quattro и перевернула чемпионат WRC?",
+    "options": [
+      "Audi A1/A2",
+      "Audi RS4 Avant",
+      "Audi TT Coupe",
+      "Audi R8 V10"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "trans_culture_70",
+    "categoryId": "transport",
+    "subcategoryId": "iconic_cars_culture",
+    "difficulty": 1,
+    "question": "Какой суперкар Lamborghini получил открывающиеся вверх двери («ножницы»), ставшие визитной карточкой марки?",
+    "options": [
+      "Lamborghini Countach",
+      "Lamborghini Miura",
+      "Lamborghini Espada",
+      "Lamborghini Jarama"
+    ],
     "correctIndex": 0,
     "image": null
   }

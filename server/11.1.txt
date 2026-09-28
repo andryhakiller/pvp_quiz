@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "music_rurock_1",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "В песне «Лесник» группы «Король и Шут» чем старик в лесной избушке любил кормить волков?",
+    "options": [
+      "Путниками и гостями",
+      "Сырым оленьим мясом",
+      "Остатками каши из печи",
+      "Лесными ягодами и грибами"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_2",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Что пытался поймать дурак в мешок в одной из самых известных песен «Короля и Шута»?",
+    "options": [
+      "Сверкающую молнию",
+      "Лунное отражение",
+      "Утренний туман",
+      "Северный ветер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_3",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какую карточную пару карт оживил колдун в песне «Короля и Шута»?",
+    "options": [
+      "Валета и Даму",
+      "Туза и Короля",
+      "Джокера и Семерку",
+      "Шестерку и Десятку"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_4",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Откуда герой культовой песни группы «Король и Шут» собирался прыгнуть со словами «Вот меня не стало...»?",
+    "options": [
+      "С высокой скалы",
+      "С каменного моста",
+      "С крепостной стены",
+      "С крыши мельницы"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_5",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "В каком городе был основан легендарный рок-клуб, давший старт группам Кино, Аквариум и Алиса?",
+    "options": [
+      "Ленинград",
+      "Москва",
+      "Свердловск",
+      "Новосибирск"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_6",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "В какой знаменитой котельной в Ленинграде кочегаром работал Виктор Цой?",
+    "options": [
+      "Котельная «Камчатка»",
+      "Котельная «Тайга»",
+      "Котельная «Байкал»",
+      "Котельная «Аврора»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_7",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Что сажал на брезентовом поле герой знаменитой песни Виктора Цоя?",
+    "options": [
+      "Алюминиевые огурцы",
+      "Чугунные яблоки",
+      "Стеклянные помидоры",
+      "Медные колосья"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_8",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "В каком культовом советском фильме 1988 года режиссера Рашида Нугманова Виктор Цой сыграл роль Моро?",
+    "options": [
+      "Художественный фильм «Игла»",
+      "Фильм «Асса»",
+      "Фильм «Курьер»",
+      "Фильм «Брат»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_9",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Кто был бессменным лидером, основателем и автором всех песен панк-группы «Сектор Газа»?",
+    "options": [
+      "Юрий Клинских (Хой)",
+      "Михаил Горшенев",
+      "Егор Летов",
+      "Константин Кинчев"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_10",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "В каком городе была основана группа «Сектор Газа», откуда и пошло название левобережного промышленного района?",
+    "options": [
+      "Город Воронеж",
+      "Город Волгоград",
+      "Город Самара",
+      "Город Ростов-на-Дону"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_11",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какой юбилей праздновал герой знаменитой застольной песни Юрия Хоя: «В этот день родили меня на свет...»?",
+    "options": [
+      "30 лет",
+      "20 лет",
+      "25 лет",
+      "40 лет"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_12",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Кто основал в Омске легендарную панк-группу «Гражданская Оборона» в 1984 году?",
+    "options": [
+      "Игорь (Егор) Летов",
+      "Янка Дягилева",
+      "Олег Судаков",
+      "Кузя УО (Рябинов)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_13",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Как называется главная антиутопическая песня Гражданской Обороны с рефреном «А при коммунизме все будет...»?",
+    "options": [
+      "«Все идет по плану»",
+      "«Русское поле экспериментов»",
+      "«Моя оборона»",
+      "«Винтовка — это праздник»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_14",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какой легендарный вокалист пел в «золотом составе» хеви-метал группы «Ария» до 2002 года?",
+    "options": [
+      "Валерий Кипелов",
+      "Артур Беркут",
+      "Михаил Житняков",
+      "Сергей Маврин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_15",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "О ком поется в культовом хите группы «Ария»: «Грязь бродячих дорог на суровом лице...»?",
+    "options": [
+      "О беспечном ангеле-байкере",
+      "О средневековом рыцаре",
+      "О древнем гладиаторе",
+      "О ночном инквизиторе"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_16",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Кто является автором поэтических текстов большинства классических хитов группы «Ария»?",
+    "options": [
+      "Маргарита Пушкина",
+      "Илья Кормильцев",
+      "Александр Шаганов",
+      "Марина Цветаева"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_17",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какая группа во главе с Александром Васильевым записала альбом «Гранатовый альбом» и песню «Орбит без сахара»?",
+    "options": [
+      "Группа «Сплин»",
+      "Группа «Мумий Тролль»",
+      "Группа «Би-2»",
+      "Группа «Смысловые Галлюцинации»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_18",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какая песня группы «Сплин» заканчивается строчкой «И мое сердце остановилось, отдышалось немного и...»?",
+    "options": [
+      "Снова пошло",
+      "Снова забилось",
+      "Снова запело",
+      "Вспыхнуло ярко"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_19",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какой хит группы «Би-2» стал главным лейтмотивом культового фильма Алексея Балабанова «Брат-2»?",
+    "options": [
+      "«Полковнику никто не пишет»",
+      "«Варвара»",
+      "«Серебро»",
+      "«Мой рок-н-ролл»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_20",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "В какой стране родились и основали свою группу Лева и Шура из «Би-2» до отъезда в Австралию?",
+    "options": [
+      "Белорусская ССР",
+      "Украинская ССР",
+      "Казахская ССР",
+      "РСФСР"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_21",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какое время года воспел Юрий Шевчук в бессмертной песне: «Что такое ... — это небо, плачущее небо под ногами»?",
+    "options": [
+      "Осень золотая",
+      "Зима морозная",
+      "Весна капельная",
+      "Лето жаркое"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_22",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Кто был автором пронзительных текстов группы «Наутилус Помпилиус» («Я хочу быть с тобой», «Скованные одной цепью»)?",
+    "options": [
+      "Илья Кормильцев",
+      "Вячеслав Бутусов",
+      "Дмитрий Умецкий",
+      "Глеб Самойлов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_23",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какая свердловская рок-группа во главе с братьями Самойловыми записала альбом «Опиум» и песню «Сказочная тайга»?",
+    "options": [
+      "«Агата Кристи»",
+      "«Чайф»",
+      "«Наутилус Помпилиус»",
+      "«Настя»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_24",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какой эстрадный хит Леонида Гайдая процитирован в припеве «Сказочной тайги» («Эх, тайга, да кипяток...»)?",
+    "options": [
+      "«Разговор со счастьем»",
+      "«Остров невезения»",
+      "«Песенка о медведях»",
+      "«Постой, паровоз»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_25",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какой лидер группы «Ленинград» прославился хулиганскими текстами с нецензурной лексикой и мощной духовой секцией?",
+    "options": [
+      "Сергей Шнуров (Шнур)",
+      "Гарик Сукачев",
+      "Константин Кинчев",
+      "Илья Лагутенко"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_26",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "В каком городе, согласно знаменитому клипу группы «Ленинград», «лучше всего пить»?",
+    "options": [
+      "В Санкт-Петербурге",
+      "В Москве",
+      "В Ростове-на-Дону",
+      "Во Владивостоке"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_27",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какая обувь с ярко-красной подошвой стала героиней суперхита «Экспонат» («На лабутенах»)?",
+    "options": [
+      "Туфли Christian Louboutin",
+      "Кроссовки Nike Air Max",
+      "Кеды Converse All-Star",
+      "Ботинки Dr. Martens"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_28",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Кто является бессменным лидером панк-рок группы «Наив» с 1988 года?",
+    "options": [
+      "Александр (Чача) Иванов",
+      "Дмитрий Спирин (Сид)",
+      "Рустем Булатов (Тэм)",
+      "Илья Черт"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_29",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какая московская панк-группа под руководством Дмитрия Спирина (Сида) пела «Я смотрю на них» и «Тишина — это смерть»?",
+    "options": [
+      "Группа «Тараканы!»",
+      "Группа «Пурген»",
+      "Группа «Элизиум»",
+      "Группа «Distemper»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_30",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какая современная панк-рок группа из подмосковной Дубны во главе с Володей Котляровым поет «Это пройдет»?",
+    "options": [
+      "«Порнофильмы»",
+      "«План Ломоносова»",
+      "«Операция Пластилин»",
+      "«Йорш»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_31",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какая группа Ильи Лагутенко ввела термин «рокапопс» и выпустила альбом «Морская» с хитом «Утекай»?",
+    "options": [
+      "«Мумий Тролль»",
+      "«Смысловые Галлюцинации»",
+      "«Танцы Минус»",
+      "«Ногу Свело!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_32",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "О каком дальневосточном городе поется в хите группы «Мумий Тролль» с кодом 2000?",
+    "options": [
+      "Город Владивосток",
+      "Город Хабаровск",
+      "Город Магадан",
+      "Город Южно-Сахалинск"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_33",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какая екатеринбургская группа во главе с Владимиром Шахриным спела знаменитую песню про поражение Ямайки от Аргентины 5:0?",
+    "options": [
+      "Группа «Чайф»",
+      "Группа «Чиж & Co»",
+      "Группа «Пикник»",
+      "Группа «Калинов Мост»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_34",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какой напиток дал название свердловской группе «Чайф» от смеси крепкого чая и кофе?",
+    "options": [
+      "Шахтерский чифирь (чайф)",
+      "Травяной сбор с мятой",
+      "Крепкий грог с ромом",
+      "Варварский эспрессо"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_35",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Кто написал песню «Вечно молодой, вечно пьяный», ставшую символом поколения в фильме «Брат-2»?",
+    "options": [
+      "«Смысловые Галлюцинации»",
+      "«Сплин»",
+      "«Агата Кристи»",
+      "«Торба-на-Круче»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_36",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какая питерская группа во главе с Эдмундом Шклярским известна мистическими шоу и песней «У шамана три руки»?",
+    "options": [
+      "Группа «Пикник»",
+      "Группа «Алиса»",
+      "Группа «Крематорий»",
+      "Группа «АукцЫон»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_37",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Как называется объединение фанатов рок-группы «Алиса» во главе с Константином Кинчевым?",
+    "options": [
+      "«Армия Алиса»",
+      "«Клуб красно-черных»",
+      "«Орда Кинчева»",
+      "«Шабаш рокеров»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_38",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "В какой цвет традиционно окрашивают флаги и шарфы фанаты группы «Алиса»?",
+    "options": [
+      "Черный и красный",
+      "Синий и белый",
+      "Желтый и зеленый",
+      "Фиолетовый и серый"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_39",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Кто спел знаменитую песню «О любви» («А не спеть ли мне песню о любви...»)?",
+    "options": [
+      "Сергей Чиграков (Чиж)",
+      "Вячеслав Бутусов",
+      "Александр Ф. Скляр",
+      "Найк Борзов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_40",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какой скандальный хит Максима Покровского и группы «Ногу Свело!» звучал на вымышленном тарабарском языке?",
+    "options": [
+      "«Хару Мамбуру»",
+      "«Лилипутская любовь»",
+      "«Наши юные смешные голоса»",
+      "«Идем на Восток!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_41",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какой певец исполнил хит про «Маленькую лошадку», которая везет кокаин?",
+    "options": [
+      "Найк Борзов",
+      "Дельфин (Dolphin)",
+      "Децл (Le Truk)",
+      "Михей"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_42",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "В какой культовой группе играл на бас-гитаре Александр Балунов (Балу)?",
+    "options": [
+      "«Король и Шут»",
+      "«Кукрыниксы»",
+      "«Северный Флот»",
+      "«Бригадный Подряд»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_43",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какая рок-группа была создана младшим братом Михаила Горшенева — Алексеем Горшеневым?",
+    "options": [
+      "«Кукрыниксы»",
+      "«Пилот»",
+      "«Эпидемия»",
+      "«КняZz»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_44",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Как называется сольный музыкальный проект Андрея Князева после ухода из «Короля и Шута»?",
+    "options": [
+      "Группа «КняZz»",
+      "«Северный Флот»",
+      "«Королевский Гамбит»",
+      "«Старая Книга»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_45",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какая рок-группа была образована музыкантами «Короля и Шута» после трагической гибели Михаила Горшенева?",
+    "options": [
+      "«Северный Флот»",
+      "«Черный Обелиск»",
+      "«КняZz»",
+      "«Кукрыниксы»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_46",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какая метал-опера группы «Эпидемия» 2004 года стала главным фэнтези-хитом отечественного пауэр-метала?",
+    "options": [
+      "«Эльфийская рукопись»",
+      "«Сокровище Энии»",
+      "«Всадник из льда»",
+      "«Дорога домой»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_47",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какая фолк-рок группа во главе с Хелависой (Натальей О'Шей) поет песни «Дракон», «Опасное лето» и «Травушка»?",
+    "options": [
+      "Группа «Мельница»",
+      "Группа «Калинов Мост»",
+      "Группа «Тролль Гнет Ель»",
+      "Группа «Зилант»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_48",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Кто является бессменным лидером и поэтом группы «Аквариум» с 1972 года?",
+    "options": [
+      "Борис Гребенщиков (БГ)",
+      "Майк Науменко",
+      "Олег Гаркуша",
+      "Анатолий Гуницкий"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_49",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какая рок-группа Майка Науменко записала альбом «Сладкая N и другие» и песню «Пригородный блюз»?",
+    "options": [
+      "Группа «Зоопарк»",
+      "Группа «Секрет»",
+      "Группа «Странные Игры»",
+      "Группа «Мифы»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_50",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какой бит-квартет в стильных красных галстуках пел «Привет», «Алиса» и «Моя любовь на пятом этаже»?",
+    "options": [
+      "Бит-квартет «Секрет»",
+      "Группа «Браво»",
+      "Группа «Бригада С»",
+      "Группа «Рондо»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_51",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Кто был солисткой группы «Браво» до начала сольной эстрадной карьеры в 1988 году?",
+    "options": [
+      "Жанна Агузарова",
+      "Валерия",
+      "Земфира Рамазанова",
+      "Светлана Сурганова"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_52",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какой певец пел в группе «Браво» главные хиты «Стильный оранжевый галстук», «Вася» и «Московский бит»?",
+    "options": [
+      "Валерий Сюткин",
+      "Роберт Ленц",
+      "Евгений Осин",
+      "Валерий Меладзе"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_53",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какая уфимская рок-певица взорвала чарты в 1999 году дебютным альбомом с песнями «Ариведерчи» и «Ромашки»?",
+    "options": [
+      "Земфира",
+      "Диана Арбенина",
+      "Юлия Чичерина",
+      "Мара"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_54",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Кто является бессменным лидером и автором песен рок-группы «Ночные Снайперы»?",
+    "options": [
+      "Диана Арбенина",
+      "Светлана Сурганова",
+      "Ольга Кормухина",
+      "Мара Кана"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_55",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какая певица спела хит «Ту-лу-ла», ставший саундтреком фильма «Брат-2»?",
+    "options": [
+      "Юлия Чичерина",
+      "Земфира",
+      "Настя Полева",
+      "Маша Макарова"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_56",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какой хит группы «Маша и Медведи» 1998 года был записан на стихи датского писателя о Рейкьявике?",
+    "options": [
+      "«Любочка»",
+      "«Б/Т»",
+      "«Земля»",
+      "«Миратами»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_57",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какая уфимская альтернативная рок-группа во главе с Рустемом Булатовым (Тэмом) поет «Гореть» и «Сид и Нэнси»?",
+    "options": [
+      "Группа «Lumen»",
+      "Группа «7раса»",
+      "Группа «Animal ДжаZ»",
+      "Группа «Психея»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_58",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какой хит питерской группы Animal ДжаZ стал неофициальным гимном студенческой юности («Джинсы порезаны...»)?",
+    "options": [
+      "«Три полоски»",
+      "«Шаг Вдох»",
+      "«Чувства»",
+      "«Этажи»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_59",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какая группа во главе с Александром Красовицким (Михалычем) играет альтернативный рок с 2000 года?",
+    "options": [
+      "«Animal ДжаZ»",
+      "«Jane Air»",
+      "«Amatory»",
+      "«Stigmata»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_60",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какой хит металкор-группы Stigmata 2007 года породил бессмертный мем про «Сентябрь горит»?",
+    "options": [
+      "«Сентябрь»",
+      "«Крылья»",
+      "«Лед»",
+      "«Танцуй»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_61",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какая питерская металкор-группа выпустила в 2004 году тяжелый альбом «Неизбежность» и трек «Черно-белые дни»?",
+    "options": [
+      "Группа «[Amatory]»",
+      "Группа «Jane Air»",
+      "Группа «Korea»",
+      "Группа «Rashamba»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_62",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Кто основал хардкор-панк группу «Пурген» в Москве в 1989 году и является ее бессменным фронтменом?",
+    "options": [
+      "Руслан (Пурген) Гвоздев",
+      "Александр Иванов",
+      "Дмитрий Спирин",
+      "Константин Ступин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_63",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какой орловский рок-бард и бунтарь прославился вирусным видео «Ты втираешь мне какую-то дичь»?",
+    "options": [
+      "Константин Ступин (Ступа)",
+      "Александр Башлачев",
+      "Веня Д'ркин",
+      "Янка Дягилева"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_64",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какая великая сибирская панк-поэтесса и певица трагически погибла в реке Иня в мае 1991 года?",
+    "options": [
+      "Янка Дягилева",
+      "Ольга Арефьева",
+      "Настя Полева",
+      "Умка (Анна Герасимова)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_65",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какой череповецкий поэт и рок-бард написал песни «Время колокольчиков» и «Лихо»?",
+    "options": [
+      "Александр Башлачев (СашБаш)",
+      "Юрий Наумов",
+      "Майк Науменко",
+      "Святослав Задерий"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_66",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Как называлась первая группа Константина Кинчева до объединения с коллективом Святослава Задерия?",
+    "options": [
+      "«Зона отдыха»",
+      "«Хрустальный шар»",
+      "«Алиса»",
+      "«Взломщики»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_67",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какой альбом группы «Алиса» 1985 года с песнями «Мы вместе» и «Мое поколение» стал их всесоюзным прорывом?",
+    "options": [
+      "Альбом «Энергия»",
+      "Альбом «БлокАда»",
+      "Альбом «Шабаш»",
+      "Альбом «Черная метка»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_68",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какая петербургская панк-группа записала альбом «Член перегибается через забор» в 1986 году?",
+    "options": [
+      "«Автоматические Удовлетворители»",
+      "«Бригадный Подряд»",
+      "«Объект Насмешек»",
+      "«Чуфелла Марзуфелла»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_69",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Кто был лидером первой советской панк-группы «Автоматические Удовлетворители» по прозвищу Свин?",
+    "options": [
+      "Андрей Панов (Свин)",
+      "Алексей Рыбин",
+      "Михаил Горшенев",
+      "Николай Михайлов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_70",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какая ска-панк группа из Нижнего Новгорода во главе с Дмитрием Кузнецовым поет «Остров собачий» и «Не верю»?",
+    "options": [
+      "Группа «Элизиум»",
+      "Группа «Distemper»",
+      "Группа «Шлюз»",
+      "Группа «Clockwork Times»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_71",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Чем, согласно тексту песни «Ели мясо мужики», конюх Федор угостил деревенских гостей за столом?",
+    "options": [
+      "Мясом неверной жены",
+      "Мясом старого волка",
+      "Мясом лесного кабана",
+      "Мясом сбежавшего коня"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_72",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "С какими словами лирический герой песни «Прыгну со скалы» решает сделать роковой шаг вниз?",
+    "options": [
+      "«И вот я был, и вот меня не стало»",
+      "«И пусть весь мир меня забудет навеки»",
+      "«И полечу навстречу черным скалам»",
+      "«И разобьюсь на тысячи осколков»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_73",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Чего ни в коем случае не должен делать путник из песни «Кукла колдуна», чтобы не попасть под чары?",
+    "options": [
+      "Смотреть ей прямо в глаза",
+      "Пить вино из рук колдуна",
+      "Входить в заброшенный дом",
+      "Отвечать на ласковый зов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_74",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "К кому в ночную глушь пришел замерзший путник в завязке знаменитого хита «Лесник»?",
+    "options": [
+      "К старику в избушке на краю леса",
+      "К охотнику на высоком холме",
+      "К пастуху в заброшенном хлеву",
+      "К мельнику у лесного ручья"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_75",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "С помощью какого предмета дурак из песни «Дурак и молния» пытался поймать молнию в сумку?",
+    "options": [
+      "Длинной деревянной палкой",
+      "Тяжелым кузнечным молотом",
+      "Острым железным багром",
+      "Длинным кожаным кнутом"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_76",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какой боевой клич орал оживший мертвец в кожаном плаще в песне «Мертвый анархист»?",
+    "options": [
+      "«Хой, челюсть капает с плеча!»",
+      "«Эй, берегись честной народ!»",
+      "«Панки, на штурм кабака!»",
+      "«Смерть подлым богачам!»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_77",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Что пожелал лирический герой песни «Группа крови» себе и товарищам перед тяжелым боем?",
+    "options": [
+      "Не остаться в этой траве",
+      "Вернуться живым на рассвете",
+      "Не уронить боевое знамя",
+      "Сберечь свое верное сердце"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_78",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Что, согласно тексту песни «Пачка сигарет», означает, что «не так уж все плохо на сегодняшний день»?",
+    "options": [
+      "Есть пачка сигарет в кармане",
+      "Есть билет на утренний поезд",
+      "Горит огонек в чужом окне",
+      "Звенит струна гитары в руках"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_79",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "О чем просит вещую птицу лирический герой песни Виктора Цоя «Кукушка» в первом куплете?",
+    "options": [
+      "Пропеть, сколько песен недопето",
+      "Сказать, сколько лет еще жить",
+      "Подсказать, где искать покой",
+      "Назвать имя верного друга"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_80",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Чем лирический герой песни «Восьмиклассница» угощает юную спутницу во время вечерней прогулки?",
+    "options": [
+      "Конфетами «Каракум»",
+      "Шоколадными вафлями",
+      "Мятными леденцами",
+      "Сливочным пломбиром"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_81",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Где лирический герой песни Виктора Цоя упорно «сажает алюминиевые огурцы»?",
+    "options": [
+      "На брезентовом поле",
+      "На асфальтовом дворе",
+      "На песчаном карьере",
+      "На чугунном перроне"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_82",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Через что, согласно тексту Юрия Хоя, пройдут бойцы в песне «Туман», пока не упадут в траву?",
+    "options": [
+      "Через клубы ядовитого тумана",
+      "Через грохот разрывных гранат",
+      "Через пламя пылающих мостов",
+      "Через холод бесконечных снегов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_83",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "С каких слов Юрий Хой начинает свой знаменитый гимн юбиляра в песне «30 лет»?",
+    "options": [
+      "«В этот день родили меня на свет»",
+      "«Вот и молодость моя пронеслась»",
+      "«Эх, налейте граненый стакан»",
+      "«Снова водка рекою течет»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_84",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Что с радостью видит дембель в окно скорого поезда в припеве песни «Пора домой»?",
+    "options": [
+      "Зеленый огонек светофора",
+      "Золотые купола церквей",
+      "Родные огни вокзала",
+      "Белые березы у путей"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_85",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какой марки мотоцикл с коляской оседлал герой песни Юрия Хоя «Колхозный панк»?",
+    "options": [
+      "Красная блестящая «Ява»",
+      "Старый тяжелый «Урал»",
+      "Синий разбитый «Иж-Юпитер»",
+      "Черный армейский «Днепр»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_86",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какой предмет назван «пластмассовым миром, который победил» в припеве песни «Моя оборона»?",
+    "options": [
+      "Пластмассовый стаканчик",
+      "Пластмассовый солдатик",
+      "Пластмассовый телефон",
+      "Пластмассовый будильник"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_87",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Чей портрет на стене или в банке упоминает Егор Летов в куплете песни «Все идет по плану»?",
+    "options": [
+      "Портрет дедушки Ленина",
+      "Портрет товарища Сталина",
+      "Портрет Леонида Брежнева",
+      "Портрет Никиты Хрущева"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_88",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Кто, согласно рефрену знаменитой песни Егора Летова, «идет по лесу, ищет дурака»?",
+    "options": [
+      "Мертвый месяц",
+      "Серый волк",
+      "Черный ворон",
+      "Хмурый леший"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_89",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какое имя носит роковая героиня песни «Улица Роз», которой бросают упрек «грязь под ногами бродяг»?",
+    "options": [
+      "Жанна",
+      "Анжелика",
+      "Маргарита",
+      "Кристина"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_90",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Ради чего измученные моряки на застрявшем паруснике тянут жребий в балладе «Штиль»?",
+    "options": [
+      "Ради глотка пресной воды",
+      "Ради куска сушеного мяса",
+      "Ради броска спасательного круга",
+      "Ради права сесть на весла"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_91",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Куда, согласно тексту адаптации «Going to the Run» («Беспечный ангел»), мчал байкер на мотоцикле?",
+    "options": [
+      "Прямо на закат солнца",
+      "К огням большого города",
+      "Навстречу вольному ветру",
+      "Вдоль заброшенной трассы"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_92",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Какой футбольный матч упоминает Александр Васильев в третьем куплете песни «Мое сердце»?",
+    "options": [
+      "Матч Россия — Украина",
+      "Финал Спартак — Реал",
+      "Матч Россия — Франция",
+      "Финал ЦСКА — Спортинг"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_93",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "С чем, согласно припеву песни «Орбит без сахара», осталась героиня после бурной вечеринки?",
+    "options": [
+      "Она жует свой Orbit без сахара",
+      "Она включает магнитофон",
+      "Она курит длинную сигарету",
+      "Она пьет холодный лимонад"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_94",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какие слова открывают припев главного хита Би-2 «Полковнику никто не пишет»?",
+    "options": [
+      "«Большие города, пустые поезда»",
+      "«Холодный серый дождь стеной»",
+      "«Слепящий белый зимний снег»",
+      "«Густой удушливый сырой туман»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_95",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "С чем Юрий Шевчук напрямую сравнивает осень в припеве знаменитого хита 1991 года?",
+    "options": [
+      "Это небо, плачущее под ногами",
+      "Это холод в опустевшем доме",
+      "Это птицы, улетающие к морю",
+      "Это грусть в затуманенных глазах"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_96",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Какой французский актер-красавец в песне «Взгляд с экрана» группы Наутилус «не пьет одеколон»?",
+    "options": [
+      "Ален Делон",
+      "Жан-Поль Бельмондо",
+      "Жерар Депардье",
+      "Пьер Ришар"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_97",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Что Спаситель предложил Андрею делать вместе в припеве песни «Прогулки по воде»?",
+    "options": [
+      "Ходить со мной по воде",
+      "Строить храм на горе",
+      "Исцелять больных словом",
+      "Пасти заблудших овец"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_98",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 2,
+    "question": "Что забирает с собой лирический герой песни «Как на войне», когда решает уйти навсегда?",
+    "options": [
+      "Я беру свой портфель и иду домой",
+      "Я беру свою шинель и ухожу в ночь",
+      "Я беру чемодан и сажусь на поезд",
+      "Я беру гитару и захлопну дверь"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_99",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 3,
+    "question": "Под какую народную песню кружится лирический герой в припеве хита «Сказочная тайга»?",
+    "options": [
+      "Когда я на почте служил ямщиком",
+      "Когда вечерний звон звучит вдали",
+      "Когда шумел камыш, деревья гнулись",
+      "Когда горела роща золотая"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_rurock_100",
+    "categoryId": "music",
+    "subcategoryId": "russian_rock_punk",
+    "difficulty": 1,
+    "question": "Какая строчка звучит в припеве песни группы Чайф «17 лет» о беззаботной юности?",
+    "options": [
+      "«Ой-йо, никто не услышит...»",
+      "«А не спеть ли мне песню...»",
+      "«Пусть все будет так, как ты захочешь...»",
+      "«Какая боль, Аргентина — Ямайка...»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

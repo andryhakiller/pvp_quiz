@@ -23,10 +23,17 @@
             </div>
         </div>
         <div class="form-group">
-            <input type="text" id="nickname" placeholder="Введи никнейм" maxlength="15" autocomplete="off" autofocus>
+            <input type="text" id="nickname" placeholder="Введи никнейм" maxlength="30" autocomplete="off" autofocus>
             <button id="join-btn" class="btn btn-gold">Войти в лобби →</button>
         </div>
         <p class="login-hint">До 6 игроков · Захват территорий · PvP дуэли</p>
+
+        <!-- Rejoin ongoing game section -->
+        <div id="rejoin-section" class="rejoin-section hidden">
+            <div class="rejoin-divider"><span>⚔️ БИТВА УЖЕ ИДЁТ</span></div>
+            <p class="rejoin-hint">Нажми на свой цвет/слот, чтобы вернуться в игру:</p>
+            <div id="rejoin-slots" class="rejoin-slots-grid"></div>
+        </div>
     </div>
 </div>
 
@@ -85,8 +92,8 @@
                     <div class="filter-header">
                         <span class="filter-title">🎯 Темы вопросов</span>
                         <div class="filter-actions">
-                            <button class="btn-link" onclick="document.querySelectorAll('.filter-cat-cb,.filter-sub-cb').forEach(cb=>{cb.checked=true;cb.indeterminate=false})">Все</button>
-                            <button class="btn-link" onclick="document.querySelectorAll('.filter-cat-cb,.filter-sub-cb').forEach(cb=>{cb.checked=false;cb.indeterminate=false})">Никакие</button>
+                            <button id="filter-all-btn" class="btn-link" type="button">Все</button>
+                            <button id="filter-none-btn" class="btn-link" type="button">Никакие</button>
                         </div>
                     </div>
                     <div id="topic-filter" class="topic-filter-tree"></div>
@@ -122,6 +129,7 @@
         </div>
         <span class="game-logo">⬡ Quiz Battle</span>
         <div class="gh-item gh-right">
+            <button id="abort-btn-game" class="btn-abort-sm" title="Прервать и сбросить игру">🛑 Аборт гейм</button>
             <span class="gh-label">Раунд</span>
             <span id="round-number" class="gh-value">1</span>
             <span class="gh-label">/ <span id="max-rounds">15</span></span>

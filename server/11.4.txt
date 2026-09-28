@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "music_covers_1",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Культовый снимок 1963 года на обложке дебютника. Какая группа выпустила этот альбом?",
+    "options": [
+      "Rage Against the Machine",
+      "System of a Down",
+      "Audioslave",
+      "Limp Bizkit"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_ratm_monk.png"
+  },
+  {
+    "id": "music_covers_2",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Культовый пешеходный переход. Обложка какого альбома The Beatles перед вами?",
+    "options": [
+      "«Abbey Road»",
+      "«Let It Be»",
+      "«Revolver»",
+      "«Help!»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_beatles_abbey_road.png"
+  },
+  {
+    "id": "music_covers_3",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Стеклянная призма и радужный спектр на черном фоне. Какой альбом Pink Floyd перед вами?",
+    "options": [
+      "«The Dark Side of the Moon»",
+      "«Wish You Were Here»",
+      "«The Wall»",
+      "«Animals»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_pink_floyd_prism.png"
+  },
+  {
+    "id": "music_covers_4",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Два бизнесмена пожимают руки, один в огне. Какой альбом Pink Floyd перед вами?",
+    "options": [
+      "«Wish You Were Here»",
+      "«The Dark Side of the Moon»",
+      "«Animals»",
+      "«Meddle»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_pink_floyd_wywh.png"
+  },
+  {
+    "id": "music_covers_5",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Старик с вязанкой хвороста на стене. Какой номерной альбом Led Zeppelin перед вами?",
+    "options": [
+      "«Led Zeppelin IV»",
+      "«Physical Graffiti»",
+      "«Houses of the Holy»",
+      "«Led Zeppelin II»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_led_zeppelin_iv.png"
+  },
+  {
+    "id": "music_covers_6",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Искаженное от ужаса лицо (картина Барри Годбера). Какой дебютный альбом перед вами?",
+    "options": [
+      "«In the Court of the Crimson King»",
+      "«The Dark Side of the Moon»",
+      "«Thick as a Brick»",
+      "«Close to the Edge»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_crimson_king.png"
+  },
+  {
+    "id": "music_covers_7",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Радиоволны первого открытого пульсара CP 1919. Чей это культовый дебютный альбом?",
+    "options": [
+      "Joy Division",
+      "New Order",
+      "The Cure",
+      "Bauhaus"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_joy_division_waves.png"
+  },
+  {
+    "id": "music_covers_8",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Желтый банан Энди Уорхола. Какой легендарный прото-панк альбом перед вами?",
+    "options": [
+      "The Velvet Underground",
+      "The Stooges",
+      "MC5",
+      "Television"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_velvet_banana.png"
+  },
+  {
+    "id": "music_covers_9",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Плывущий под водой за долларом младенец. Какой альбом группы Nirvana перед вами?",
+    "options": [
+      "«Nevermind»",
+      "«In Utero»",
+      "«Bleach»",
+      "«Incesticide»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_nirvana_nevermind.png"
+  },
+  {
+    "id": "music_covers_10",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Рука с гранатой в форме бьющегося сердца. Какой альбом группы Green Day перед вами?",
+    "options": [
+      "«American Idiot»",
+      "«Dookie»",
+      "«Nimrod»",
+      "«21st Century Breakdown»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_greenday_grenade.png"
+  },
+  {
+    "id": "music_covers_11",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Оранжевый бассейн на фоне синего неба. Какой альбом Red Hot Chili Peppers перед вами?",
+    "options": [
+      "«Californication»",
+      "«By the Way»",
+      "«Stadium Arcadium»",
+      "«Blood Sugar Sex Magik»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_rhcp_californication.png"
+  },
+  {
+    "id": "music_covers_12",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Два шлема роботов на черном фоне. Какой альбом французского дуэта Daft Punk перед вами?",
+    "options": [
+      "«Random Access Memories»",
+      "«Discovery»",
+      "«Homework»",
+      "«Human After All»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_daft_punk_helmets.png"
+  },
+  {
+    "id": "music_covers_13",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Четыре рисованных профиля в сетке 2x2. Какой альбом группы Gorillaz перед вами?",
+    "options": [
+      "«Demon Days»",
+      "«Plastic Beach»",
+      "«Gorillaz»",
+      "«The Now Now»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_gorillaz_grid.png"
+  },
+  {
+    "id": "music_covers_14",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Красная роза на минималистичном черном фоне. Какой альбом группы Depeche Mode перед вами?",
+    "options": [
+      "«Violator»",
+      "«Music for the Masses»",
+      "«Songs of Faith and Devotion»",
+      "«Black Celebration»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_depeche_mode_rose.png"
+  },
+  {
+    "id": "music_covers_15",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Светящийся желтый глобус в темноте. Какой дебютный альбом группы Coldplay перед вами?",
+    "options": [
+      "«Parachutes»",
+      "«Ghost Stories»",
+      "«Mylo Xyloto»",
+      "«Viva la Vida»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_coldplay_globe.png"
+  },
+  {
+    "id": "music_covers_16",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Культовая двухцветная молния на лице музыканта. Какой альбом Дэвида Боуи перед вами?",
+    "options": [
+      "«Aladdin Sane»",
+      "«Heroes»",
+      "«Ziggy Stardust»",
+      "«Low»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_bowie_lightning.png"
+  },
+  {
+    "id": "music_covers_17",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Четыре подсвеченных лица ромбом на черном фоне. Какой альбом группы Queen перед вами?",
+    "options": [
+      "«Queen II»",
+      "«A Night at the Opera»",
+      "«News of the World»",
+      "«The Game»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_queen_diamond_faces.png"
+  },
+  {
+    "id": "music_covers_18",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Кладбище белых крестов с нитями с неба. Какой альбом группы Metallica перед вами?",
+    "options": [
+      "«Master of Puppets»",
+      "«Ride the Lightning»",
+      "«Kill 'Em All»",
+      "«...And Justice for All»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_metallica_puppets.png"
+  },
+  {
+    "id": "music_covers_19",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Взгляд мальчика Питера Роуэна крупным планом. Какой альбом группы U2 перед вами?",
+    "options": [
+      "«War»",
+      "«Boy»",
+      "«The Joshua Tree»",
+      "«Achtung Baby»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_u2_war_boy.png"
+  },
+  {
+    "id": "music_covers_20",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Медсестра, натягивающая резиновую перчатку. Какой альбом группы Blink-182 перед вами?",
+    "options": [
+      "«Enema of the State»",
+      "«Take Off Your Pants and Jacket»",
+      "«Dude Ranch»",
+      "«California»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_blink182_nurse.png"
+  },
+  {
+    "id": "music_covers_21",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Музыкант разбивает бас о сцену в клубе Palladium. Какой альбом группы The Clash перед вами?",
+    "options": [
+      "«London Calling»",
+      "«Combat Rock»",
+      "«Sandinista!»",
+      "«Give 'Em Enough Rope»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_clash_london_calling.png"
+  },
+  {
+    "id": "music_covers_22",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Женщина в черном у старинной водяной мельницы. Какой дебютный альбом перед вами?",
+    "options": [
+      "Black Sabbath",
+      "Deep Purple",
+      "Uriah Heep",
+      "Led Zeppelin"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_black_sabbath_mill.png"
+  },
+  {
+    "id": "music_covers_23",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Черный жук-рогач на белом фоне. Какой трип-хоп альбом группы Massive Attack перед вами?",
+    "options": [
+      "«Mezzanine»",
+      "«Blue Lines»",
+      "«Protection»",
+      "«100th Window»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_massive_attack_beetle.png"
+  },
+  {
+    "id": "music_covers_24",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Одиночная не зажженная спичка на белом фоне. Альбом какой группы перед вами?",
+    "options": [
+      "Rammstein",
+      "Oomph!",
+      "Megaherz",
+      "Eisbrecher"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_rammstein_match.png"
+  },
+  {
+    "id": "music_covers_25",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Крупный морской краб на песчаном пляже. Какой альбом группы The Prodigy перед вами?",
+    "options": [
+      "«The Fat of the Land»",
+      "«The Day Is My Enemy»",
+      "«Invaders Must Die»",
+      "«Always Outnumbered»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_prodigy_crab.png"
+  },
+  {
+    "id": "music_covers_26",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Красные губы и высунутый язык Джона Паша. Символом какой группы они являются?",
+    "options": [
+      "The Rolling Stones",
+      "The Who",
+      "Aerosmith",
+      "Kiss"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_stones_tongue.png"
+  },
+  {
+    "id": "music_covers_27",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Светящиеся красные дьявольские рога. С какой хард-рок группой неразрывно связан этот символ?",
+    "options": [
+      "AC/DC",
+      "Judas Priest",
+      "Black Sabbath",
+      "Iron Maiden"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_acdc_horns.png"
+  },
+  {
+    "id": "music_covers_28",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Металлическая девятиконечная звезда (нонаграмма). Логотипом какой метал-группы она служит?",
+    "options": [
+      "Slipknot",
+      "Mushroomhead",
+      "Mudvayne",
+      "Disturbed"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_slipknot_nonagram.png"
+  },
+  {
+    "id": "music_covers_29",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Желто-черный диск солнечного затмения. Какой альбом группы «Кино» перед вами?",
+    "options": [
+      "«Звезда по имени Солнце»",
+      "«Группа крови»",
+      "«Ночь»",
+      "«Черный альбом»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_kino_sun.png"
+  },
+  {
+    "id": "music_covers_30",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Супрематический авангардный арт Варвары Степановой. Какой альбом «Кино» перед вами?",
+    "options": [
+      "«Группа крови»",
+      "«Звезда по имени Солнце»",
+      "«Начальник Камчатки»",
+      "«Это не любовь»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_kino_gruppa_krovi.png"
+  },
+  {
+    "id": "music_covers_31",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Мужик и летящий сверху булыжник (рисунок Князя). Какой альбом «Короля и Шута» перед вами?",
+    "options": [
+      "«Камнем по голове»",
+      "«Бунт на корабле»",
+      "«Герои и Злодеи»",
+      "«Акустический альбом»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_kish_kamnem.png"
+  },
+  {
+    "id": "music_covers_32",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Авангардный коллаж Егора Летова. Какой альбом «Гражданской Обороны» перед вами?",
+    "options": [
+      "«Русское поле экспериментов»",
+      "«Все идет по плану»",
+      "«Здорово и вечно»",
+      "«Армагеддон-попс»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_grob_pole.png"
+  },
+  {
+    "id": "music_covers_33",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Мотоциклист, прорывающийся сквозь пламя. Какой альбом группы «Ария» перед вами?",
+    "options": [
+      "«Герой асфальта»",
+      "«Мания величия»",
+      "«Игра с огнем»",
+      "«Кровь за кровь»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_aria_geroy.png"
+  },
+  {
+    "id": "music_covers_34",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Череп в косухе и красная «Ява» у забора. Какой альбом «Сектора Газа» перед вами?",
+    "options": [
+      "«Колхозный панк»",
+      "«Ядрена вошь»",
+      "«Гуляй, мужик!»",
+      "«Нажми на газ»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_sektor_jawa.png"
+  },
+  {
+    "id": "music_covers_35",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Трафаретный солдат с крыльями стрекозы. Какой дебютный альбом Linkin Park перед вами?",
+    "options": [
+      "«Hybrid Theory»",
+      "«Meteora»",
+      "«Minutes to Midnight»",
+      "«A Thousand Suns»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_linkin_park_soldier.png"
+  },
+  {
+    "id": "music_covers_36",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Красные бархатные театральные кулисы. Какой сольный альбом Эминема перед вами?",
+    "options": [
+      "«The Eminem Show»",
+      "«The Marshall Mathers LP»",
+      "«The Slim Shady LP»",
+      "«Encore»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_eminem_curtains.png"
+  },
+  {
+    "id": "music_covers_37",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Зубастая стилизованная морда медведя. Маскотом какой рок-группы является этот арт?",
+    "options": [
+      "Radiohead",
+      "Muse",
+      "Placebo",
+      "Coldplay"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_radiohead_bear.png"
+  },
+  {
+    "id": "music_covers_38",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Черная шляпа-федора и сверкающая перчатка. Кому принадлежат эти сценические атрибуты?",
+    "options": [
+      "Michael Jackson",
+      "Prince",
+      "Freddie Mercury",
+      "James Brown"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_mj_hat_glove.png"
+  },
+  {
+    "id": "music_covers_39",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Два стилизованных геометрических белых треугольника. Чьим логотипом они являются?",
+    "options": [
+      "Avicii",
+      "Martin Garrix",
+      "Calvin Harris",
+      "David Guetta"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_avicii_triangles.png"
+  },
+  {
+    "id": "music_covers_40",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Девушка со свечой у окна и силуэт чёрта в ночи (культовый арт Андрея Князева). Какой альбом «Короля и Шута» перед вами?",
+    "options": [
+      "«Акустический альбом»",
+      "«Как в старой сказке»",
+      "«Жаль, нет ружья»",
+      "«Герои и Злодеи»"
+    ],
+    "correctIndex": 0,
+    "image": "/images/cover_kish_acoustic.png"
+  },
+  {
+    "id": "music_covers_41",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Обложку какого альбома The Beatles 1968 года украшало абсолютно пустое белое поле без единого рисунка?",
+    "options": [
+      "«The White Album»",
+      "«Sgt. Pepper's»",
+      "«Revolver»",
+      "«Rubber Soul»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_42",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Какая группа поместила на обложку альбома «Sgt. Pepper's» картонные ростовые фигуры десятков знаменитостей?",
+    "options": [
+      "The Beatles",
+      "The Rolling Stones",
+      "Pink Floyd",
+      "The Beach Boys"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_43",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Какой горящий в воздухе дирижабль «Гинденбург» изображен на обложке дебютного альбома 1969 года?",
+    "options": [
+      "«Led Zeppelin I»",
+      "«Black Sabbath»",
+      "«In Rock»",
+      "«Paranoid»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_44",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "На обложке какого альбома Pink Floyd изображена летающая надувная свинья над лондонской электростанцией Баттерси?",
+    "options": [
+      "Альбом «Animals»",
+      "Альбом «The Wall»",
+      "Альбом «Meddle»",
+      "Альбом «Ummagumma»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_45",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Какая группа поместила на обложку «Appetite for Destruction» кельтский крест с черепами всех 5 участников?",
+    "options": [
+      "Guns N' Roses",
+      "Motley Crue",
+      "Poison",
+      "Def Leppard"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_46",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Участники какой американской глэм-рок группы выходили на сцену в черно-белом гриме Демона, Звездного дитя и Кота?",
+    "options": [
+      "Группа «KISS»",
+      "Группа «Alice Cooper»",
+      "Группа «Twisted Sister»",
+      "Группа «W.A.S.P.»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_47",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Какой культовый маскот-монстр по имени Эдди появляется на абсолютно всех обложках и мерче группы Iron Maiden?",
+    "options": [
+      "Зомби-киборг Эдди",
+      "Горгулья Мюррей",
+      "Пес Сникерс",
+      "Призрак Гуль"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_48",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Какая рок-группа выпустила альбом «Sticky Fingers» с настоящей расстегивающейся металлической молнией на джинсах?",
+    "options": [
+      "The Rolling Stones",
+      "The Who",
+      "Led Zeppelin",
+      "Aerosmith"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_49",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Какой хэви-метал альбом 1980 года группы AC/DC вышел в траурном абсолютно черном оформлении в память о Боне Скотте?",
+    "options": [
+      "«Back in Black»",
+      "«Highway to Hell»",
+      "«Powerage»",
+      "«Let There Be Rock»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_50",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Какой зверь изображен на обложке альбома «The Fat of the Land» группы The Prodigy?",
+    "options": [
+      "Морской краб",
+      "Скорпион пустыни",
+      "Летучая мышь",
+      "Бешеный волк"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_51",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Какой цвет имеет монохромная обложка культового «Черного альбома» группы Metallica (1991) со змеей в углу?",
+    "options": [
+      "Глубокий черный цвет",
+      "Темно-синий цвет",
+      "Серый металлик",
+      "Темно-бордовый цвет"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_52",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Что изображено на обложке альбома «Mellon Collie and the Infinite Sadness» (1995) группы The Smashing Pumpkins?",
+    "options": [
+      "Девушка в звезде",
+      "Мальчик на луне",
+      "Кот в шляпе",
+      "Ангел с мечом"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_53",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Какой талисман в виде плюшевого медвежонка в университетской куртке украшал первые альбомы Канье Уэста?",
+    "options": [
+      "Медвежонок Dropout Bear",
+      "Бульдог Спайк",
+      "Тигренок Честер",
+      "Панда По"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_54",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Какая рок-группа изобразила на обложке альбома «Dookie» (1994) взрыв с бомбами и собаками, сбрасывающими грязь?",
+    "options": [
+      "Green Day",
+      "Blink-182",
+      "The Offspring",
+      "Rancid"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_55",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Какая группа поместила на обложку альбома «Smash» (1994) рентгеновский снимок человеческого скелета?",
+    "options": [
+      "The Offspring",
+      "Bad Religion",
+      "Pennywise",
+      "NOFX"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_56",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Какая группа поместила на обложку альбома «Follow the Leader» (1998) девочку, играющую в классики над обрывом?",
+    "options": [
+      "Korn",
+      "Limp Bizkit",
+      "Deftones",
+      "Staind"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_57",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Что изображено на обложке альбома «Significant Other» (1999) группы Limp Bizkit?",
+    "options": [
+      "Человек в капюшоне спиной",
+      "Красная бейсболка на полу",
+      "Разбитый скейтборд",
+      "Клоун с гитарой"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_58",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Какая группа использовала обложку с кардиограммой биения сердца и надписью «Pulse» на концертных релизах?",
+    "options": [
+      "Pink Floyd",
+      "Queen",
+      "U2",
+      "Genesis"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_59",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Какой символ изображен на обложке альбома «Led Zeppelin IV» вместо названия группы?",
+    "options": [
+      "Четыре мистических символа (Zoso)",
+      "Кельтский крест",
+      "Глаз в пирамиде",
+      "Римская цифра IV"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_60",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Какая группа поместила свои лица, высеченные в скале Рашмор вместо американских президентов, на обложку альбома 1970 года?",
+    "options": [
+      "Deep Purple («In Rock»)",
+      "Led Zeppelin",
+      "The Who",
+      "Black Sabbath"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_61",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Какой предмет изображен на обложке альбома «British Steel» (1980) группы Judas Priest?",
+    "options": [
+      "Рука с лезвием бритвы",
+      "Стальной кастет",
+      "Тяжелая цепь с замком",
+      "Окровавленный кинжал"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_62",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Какая деталь одежды стала главным сценическим символом Гарика Сукачева?",
+    "options": [
+      "Кепка-хулиганка и тельняшка",
+      "Шляпа-котелок и галстук",
+      "Кожаная косуха с заклепками",
+      "Черный шелковый цилиндр"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_63",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Какой цвет водолазки и очки с круглыми темными стеклами стали визитной карточкой Ильи Лагутенко в клипе «Утекай»?",
+    "options": [
+      "Черная водолазка и очки",
+      "Белый спортивный костюм",
+      "Ярко-красный пиджак",
+      "Джинсовая куртка с мехом"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_64",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Какая советская рок-группа выступала в гриме Пьеро, Арлекина и фраках на сцене Ленинградского рок-клуба?",
+    "options": [
+      "Группа «АукцЫон»",
+      "Группа «Аквариум»",
+      "Группа «Телевизор»",
+      "Группа «Странные Игры»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_65",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Какая группа во главе с Арменом Григоряном использовала шляпу джентльмена и название в честь кремации?",
+    "options": [
+      "Группа «Крематорий»",
+      "Группа «Калинов Мост»",
+      "Группа «Черный Кофе»",
+      "Группа «Тайм-Аут»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_66",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Какой музыкант выступает на сцене с ведерком из-под курицы KFC на голове и белой театральной маске?",
+    "options": [
+      "Buckethead (Бакетхэд)",
+      "Слэш",
+      "Закк Уайлд",
+      "Том Морелло"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_67",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Какая гитара с двумя грифами (12 и 6 струн) Gibson EDS-1275 прославилась благодаря Джимми Пейджу?",
+    "options": [
+      "Двухгрифовая гитара Gibson",
+      "Классический Stratocaster",
+      "Акустический Martin",
+      "Бас-гитара Rickenbacker"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_68",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 2,
+    "question": "Какой формы была гитара Flying V, ставшая символом тяжелого рока у Рудольфа Шенкера из Scorpions?",
+    "options": [
+      "Форма стрелы (латинской V)",
+      "Круглая форма шайбы",
+      "Форма звезды Давида",
+      "Форма полумесяца"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_69",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 3,
+    "question": "Какая гитарная фирма выпустила культовые модели Stratocaster и Telecaster, на которых играли Хендрикс и Клэптон?",
+    "options": [
+      "Компания Fender",
+      "Компания Gibson",
+      "Компания Ibanez",
+      "Компания Jackson"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "music_covers_70",
+    "categoryId": "music",
+    "subcategoryId": "album_covers_merch",
+    "difficulty": 1,
+    "question": "Какая фирма выпустила культовую модель электрогитары Les Paul с тяжелым корпусом из красного дерева?",
+    "options": [
+      "Компания Gibson",
+      "Компания Fender",
+      "Компания ESP",
+      "Компания Yamaha"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]
