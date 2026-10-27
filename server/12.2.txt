@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "sports_hockey_1",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой легендарный канадский хоккеист по прозвищу «Великий» удерживает абсолютный рекорд по очкам и голам в НХЛ?",
+    "options": [
+      "Уэйн Гретцки",
+      "Марио Лемье",
+      "Горди Хоу",
+      "Бобби Орр"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_2",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой главный трофей ежегодно вручается победителю плей-офф Национальной хоккейной лиги (НХЛ)?",
+    "options": [
+      "Кубок Стэнли",
+      "Кубок Гагарина",
+      "Президентский кубок",
+      "Кубок Канады"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_3",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Российский капитан «Вашингтон Кэпиталз» Александр Овечкин ведет историческую погоню за вечным рекордом заброшенных шайб. Чей рекорд он штурмует?",
+    "options": [
+      "Уэйна Гретцки (894 шайбы)",
+      "Горди Хоу",
+      "Яромира Ягра",
+      "Бретта Халла"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_4",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Сколько полевых игроков от одной команды одновременно находится на льду при стандартной игре равных составов?",
+    "options": [
+      "5 полевых игроков",
+      "6 полевых игроков",
+      "4 полевых игрока",
+      "7 полевых игроков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_5",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Как в хоккее называется результативное действие, включающее гол, голевой пас и драку за один матч?",
+    "options": [
+      "«Хет-трик Горди Хоу»",
+      "«Большой шлем»",
+      "«Канадский хет-трик»",
+      "«Силовой покер»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_6",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой трофей является главным кубком Континентальной хоккейной лиги (КХЛ)?",
+    "options": [
+      "Кубок Гагарина",
+      "Кубок Континента",
+      "Кубок Харламова",
+      "Кубок Братины"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_7",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какое неофициальное уважительное прозвище носила сборная СССР по хоккею на международной арене?",
+    "options": [
+      "«Красная машина»",
+      "«Ледовая дружина»",
+      "«Советские ястребы»",
+      "«Русский каток»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_8",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Сколько периодов длится стандартный хоккейный матч и какова продолжительность одного периода?",
+    "options": [
+      "3 периода по 20 минут чистого времени",
+      "2 периода по 30 минут",
+      "4 периода по 15 минут",
+      "3 периода по 15 минут"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_9",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Как называется индивидуальный штрафной бросок в хоккее, когда нападающий выходит один на один с вратарем?",
+    "options": [
+      "Буллит",
+      "Пенальти",
+      "Вбрасывание",
+      "Слэпшот"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_10",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Кто забил золотой гол сборной России в овертайме финала ЧМ-2008 в Квебеке против Канады, прервав 15-летнее бестрофейное ожидание?",
+    "options": [
+      "Илья Ковальчук",
+      "Александр Овечкин",
+      "Алексей Морозов",
+      "Александр Семин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_11",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой легендарный номер 17 носил нападающий ЦСКА и сборной СССР Валерий Харламов?",
+    "options": [
+      "17",
+      "20",
+      "13",
+      "71"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_12",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какой канадский клуб выиграл Кубок Стэнли рекордное количество раз (24 раза)?",
+    "options": [
+      "«Монреаль Канадиенс»",
+      "«Торонто Мейпл Лифс»",
+      "«Эдмонтон Ойлерз»",
+      "«Бостон Брюинз»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_13",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Как называется нарушение в хоккее, когда шайба пролетает через среднюю и лицевую линии ворот соперника без касания игроков?",
+    "options": [
+      "Проброс (Icing)",
+      "Офсайд",
+      "Выброс шайбы",
+      "Блокировка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_14",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "В каком году состоялась легендарная Суперсерия СССР — Канада, где советские хоккеисты впервые сыграли против канадских профессионалов?",
+    "options": [
+      "1972 год",
+      "1980 год",
+      "1976 год",
+      "1968 год"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_15",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой великий советский вратарь трижды признавался лучшим хоккеистом Европы и был первым европейцем в Зале хоккейной славы в Торонто?",
+    "options": [
+      "Владислав Третьяк",
+      "Виктор Коноваленко",
+      "Николай Пучков",
+      "Владимир Мышкин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_16",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой мощный бросок шайбы в хоккее выполняется с широким замахом клюшки и ударом по льду перед шайбой?",
+    "options": [
+      "Щелчок (Slap shot)",
+      "Кистевой бросок (Wrist shot)",
+      "Подброс (Snap shot)",
+      "Бэкхенд"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_17",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какое знаменитое событие на Олимпиаде-1980 в Лейк-Плэсиде вошло в историю спорта под названием «Чудо на льду» (Miracle on Ice)?",
+    "options": [
+      "Победа сборной американских студентов над сборной СССР",
+      "Победа Канады над Швецией в овертайме",
+      "Отказ сборной Финляндии от финала",
+      "Матч Чехословакия — СССР"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_18",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой российский нападающий «Питтсбург Пингвинз» трижды выигрывал Кубок Стэнли и становился MVP плей-офф (Конн Смайт Трофи)?",
+    "options": [
+      "Евгений Малкин",
+      "Сергей Гончар",
+      "Павел Дацюк",
+      "Сергей Бобровский"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_19",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какое стандартное наказание получает хоккеист за малый штраф (подножка, задержка клюшкой, грубость)?",
+    "options": [
+      "2 минуты на скамейке штрафников",
+      "5 минут",
+      "10 минут",
+      "Удаление до конца периода"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_20",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой клуб КХЛ из Казани трижды становился обладателем Кубка Гагарина?",
+    "options": [
+      "«Ак Барс»",
+      "«Салават Юлаев»",
+      "«Металлург» (Магнитогорск)",
+      "«Авангард»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_21",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой уникальный хоккеист по прозвищу «Волшебник» славился невероятным дриблингом и выступал за «Детройт Ред Уингз»?",
+    "options": [
+      "Павел Дацюк",
+      "Илья Ковальчук",
+      "Алексей Яшин",
+      "Сергей Федоров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_22",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Из какого материала изготавливают современные официальные хоккейные шайбы?",
+    "options": [
+      "Вулканизированная резина (каучук)",
+      "Углепластик (карбон)",
+      "Твердый поливинилхлорид",
+      "Древесный композит"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_23",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Зачем хоккейные шайбы перед официальной игрой замораживают в специальном холодильнике?",
+    "options": [
+      "Чтобы шайба меньше подскакивала и лучше скользила по льду",
+      "Чтобы шайба стала тяжелее",
+      "Чтобы она не оставляла черных следов на бортах",
+      "По соображениям гигиены"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_24",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Как в хоккее называется ситуация, когда одна команда имеет численное преимущество из-за удаления соперника?",
+    "options": [
+      "Большинство (Power play)",
+      "Меньшинство (Penalty kill)",
+      "Тайм-аут",
+      "Овертайм"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_25",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какой канадский хоккеист совершил революцию в игре защитников, дважды выиграв «Арт Росс Трофи» как лучший бомбардир всей НХЛ?",
+    "options": [
+      "Бобби Орр",
+      "Никлас Лидстрем",
+      "Рэй Бурк",
+      "Пол Коффи"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_26",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Кто стал автором золотого гола сборной России (Олимпийских атлетов из России) в овертайме финала Олимпиады-2018 в Пхёнчхане против Германии?",
+    "options": [
+      "Кирилл Капризов",
+      "Никита Гусев",
+      "Илья Ковальчук",
+      "Павел Дацюк"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_27",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой чешский нападающий выступал под номером 68 в память о событиях «Пражской весны» и набрал почти 2000 очков в НХЛ?",
+    "options": [
+      "Яромир Ягр",
+      "Доминик Гашек",
+      "Патрик Элиаш",
+      "Милан Гейдук"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_28",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой легендарный чешский вратарь по прозвищу «Доминатор» привел Чехию к золоту Олимпиады-1998 в Нагано?",
+    "options": [
+      "Доминик Гашек",
+      "Томаш Вокоун",
+      "Петр Мразек",
+      "Роман Чехманек"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_29",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какая ширина хоккейных ворот в метрах согласно международным стандартам IIHF?",
+    "options": [
+      "1,83 метра (6 футов)",
+      "1,50 метра",
+      "2,10 метра",
+      "2,44 метра"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_30",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Как называется «Русская пятерка», блиставшая в «Детройт Ред Уингз» Скотти Боумена в середине 1990-х годов?",
+    "options": [
+      "Федоров, Ларионов, Козлов, Фетисов, Константинов",
+      "Буре, Могильный, Федоров, Каспарайтис, Юшкевич",
+      "Дацюк, Ковальчук, Овечкин, Марков, Гончар",
+      "Харламов, Петров, Михайлов, Васильев, Гусев"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_31",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой хоккеист получил прозвище «Русская ракета» за феноменальную скорость на льду в составе «Ванкувер Кэнакс»?",
+    "options": [
+      "Павел Буре",
+      "Валерий Буре",
+      "Александр Могильный",
+      "Сергей Федоров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_32",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Как в хоккее называется зона площадки, ограниченная синей линией и лицевым бортом соперника?",
+    "options": [
+      "Зона атаки",
+      "Нейтральная зона",
+      "Зона защиты",
+      "Трапеция за воротами"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_33",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какой индивидуальный приз вручается лучшему вратарю регулярного сезона НХЛ по итогам голосования генеральных менеджеров?",
+    "options": [
+      "«Везина Трофи»",
+      "«Харт Трофи»",
+      "«Колдер Трофи»",
+      "«Норрис Трофи»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_34",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Кто из российских вратарей первым в истории завоевал два трофея «Везина Трофи» в составе «Коламбус Блю Джекетс»?",
+    "options": [
+      "Сергей Бобровский",
+      "Андрей Василевский",
+      "Игорь Шестеркин",
+      "Николай Хабибулин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_35",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Сколько очков начисляется команде за победу в основное время матча в чемпионате КХЛ?",
+    "options": [
+      "2 очка",
+      "3 очка",
+      "1 очко",
+      "4 очка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_36",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой канадский капитан «Питтсбурга» забил победный «золотой гол» в овертайме финала Олимпиады-2010 в Ванкувере против США?",
+    "options": [
+      "Сидни Кросби",
+      "Джонатан Тэйвз",
+      "Райан Гецлаф",
+      "Ши Уэбер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_37",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Что такое «Тройной золотой клуб» в хоккее?",
+    "options": [
+      "Игроки, выигравшие золото Олимпиады, ЧМ и Кубок Стэнли",
+      "Игроки с 500 голами, 500 передачами и 1000 матчами",
+      "Вратари с тремя сухими матчами в финале",
+      "Победители трех разных молодежных турниров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_38",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Как называется ситуация, когда вратарь не пропускает ни одной шайбы за весь матч?",
+    "options": [
+      "Шатаут («сухой матч»)",
+      "Хет-трик",
+      "Клин-шит",
+      "Суперсейв"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_39",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 3,
+    "question": "Какой тренер привел магнитогорский «Металлург» к Кубку Гагарина 2024 года, играя в зрелищный комбинационный хоккей?",
+    "options": [
+      "Андрей Разин",
+      "Илья Воробьев",
+      "Зинэтула Билялетдинов",
+      "Олег Знарок"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_40",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какое специальное снаряжение вратаря предназначено для ловли шайбы рукой?",
+    "options": [
+      "Ловушка",
+      "Блин (блокер)",
+      "Щиток",
+      "Нагрудник"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_41",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Сколько судей обычно работают на площадке в матчах НХЛ и КХЛ?",
+    "options": [
+      "Четыре (два главных и два линейных)",
+      "Три (один главный и два лайнсмена)",
+      "Два судьи",
+      "Пять судей"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_42",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой клуб НХЛ базируется в Лас-Вегасе и сенсационно завоевал Кубок Стэнли уже на шестой год своего существования (2023)?",
+    "options": [
+      "«Вегас Голден Найтс»",
+      "«Сиэтл Кракен»",
+      "«Аризона Койотис»",
+      "«Анахайм Дакс»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_43",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 3,
+    "question": "В каком возрасте игрок считается «новичком» (руки) для вручения награды «Колдер Трофи» в НХЛ (верхняя планка)?",
+    "options": [
+      "Не старше 26 лет",
+      "Не старше 21 года",
+      "Не старше 23 лет",
+      "Не старше 18 лет"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_44",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какая команда выиграла первый в истории Кубок Гагарина весной 2009 года под руководством Зинэтулы Билялетдинова?",
+    "options": [
+      "«Ак Барс» (Казань)",
+      "«Локомотив» (Ярославль)",
+      "«Салават Юлаев»",
+      "ХК МВД"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_45",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 3,
+    "question": "Как в хоккее называется разметка за линией ворот, за пределами которой вратарю запрещено играть шайбой по правилам НХЛ?",
+    "options": [
+      "Трапеция Бродо",
+      "Круг вбрасывания",
+      "Вратарский пятак",
+      "Красная дуга"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_46",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 3,
+    "question": "Кто стал первым европейцем, выбранным под общим 1-м номером на драфте НХЛ в 1989 году (шведский нападающий)?",
+    "options": [
+      "Матс Сундин",
+      "Петер Форсберг",
+      "Никлас Лидстрем",
+      "Теэму Селянне"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_47",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какой российский хоккеист по прозвищу «Танк» выступал за «Сент-Луис Блюз» и выиграл Кубок Стэнли в 2019 году?",
+    "options": [
+      "Владимир Тарасенко",
+      "Иван Барбашев",
+      "Дмитрий Яшкин",
+      "Артемий Панарин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_48",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какое наказание накладывается, если защищающаяся команда намеренно выбрасывает шайбу через заградительное стекло из своей зоны?",
+    "options": [
+      "Малый штраф за задержку игры (2 минуты)",
+      "Штрафной бросок (буллит)",
+      "Предупреждение",
+      "Перенос вбрасывания"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_49",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какой знаменитый финский форвард по прозвищу «Финская вспышка» забросил рекордные 76 шайб в дебютном сезоне в НХЛ (1992/93)?",
+    "options": [
+      "Теэму Селянне",
+      "Яри Курри",
+      "Саку Койву",
+      "Александр Барков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_50",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какое символическое действие традиционно совершают болельщики на трибунах, если хоккеист их команды оформляет хет-трик?",
+    "options": [
+      "Бросают бейсболки и кепки на лед",
+      "Поют гимн клуба стоя",
+      "Бросают плюшевых медведей",
+      "Зажигают фонарики на телефонах"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_51",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой нападающий «Тампа-Бэй Лайтнинг» набрал рекордные среди российских игроков 144 очка за один регулярный чемпионат НХЛ?",
+    "options": [
+      "Никита Кучеров",
+      "Артемий Панарин",
+      "Александр Овечкин",
+      "Евгений Малкин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_52",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какая сборная сенсационно выиграла чемпионат мира по хоккею 2019 года без единого игрока из НХЛ в основном составе?",
+    "options": [
+      "Финляндия",
+      "Швейцария",
+      "Германия",
+      "Швеция"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_53",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 3,
+    "question": "Какой длины должна быть стандартная хоккейная коробка по североамериканским стандартам НХЛ?",
+    "options": [
+      "60,96 метра (200 футов)",
+      "50 метров",
+      "70 метров",
+      "65 метров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_54",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какой советский нападающий прославился феноменальным голом на Суперсерии-72, обыграв всю канадскую защиту на противоходе?",
+    "options": [
+      "Валерий Харламов",
+      "Борис Михайлов",
+      "Владимир Петров",
+      "Александр Мальцев"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_55",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой российский хоккеист носит прозвище «Хлебушек» (Breadman) в Северной Америке?",
+    "options": [
+      "Артемий Панарин",
+      "Евгений Кузнецов",
+      "Никита Задоров",
+      "Иван Проворов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_56",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какое максимальное количество полевых игроков команды может одновременно отбывать малый штраф на скамейке штрафников?",
+    "options": [
+      "Два игрока (состав не может быть менее 3 полевых)",
+      "Три игрока",
+      "Четыре игрока",
+      "Один игрок"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_57",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 3,
+    "question": "Какой клуб выиграл первый в истории розыгрыш Кубка Стэнли в 1893 году?",
+    "options": [
+      "«Монреаль ААА»",
+      "«Оттава Сенаторз»",
+      "«Торонто Аренас»",
+      "«Квебек Бульдогз»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_58",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какой жест показывает главный арбитр, фиксируя отложенный штраф?",
+    "options": [
+      "Поднимает одну руку вертикально вверх",
+      "Скрещивает руки перед грудью",
+      "Разводит руки в стороны",
+      "Указывает пальцем на нарушителя"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_59",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Кто стал первым советским хоккеистом, набравшим 100 очков в регулярном сезоне НХЛ (сезон 1992/93 в «Баффало»)?",
+    "options": [
+      "Александр Могильный",
+      "Сергей Федоров",
+      "Павел Буре",
+      "Алексей Жамнов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_60",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какой трофей ежегодно вручается клубу, набравшему наибольшее количество очков в регулярном чемпионате НХЛ?",
+    "options": [
+      "Президентский кубок (Presidents' Trophy)",
+      "Приз принца Уэльского",
+      "Кубок Кларенса Кэмпбелла",
+      "Кубок Стэнли"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_61",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой вратарь «Флориды Пантерз» стал обладателем Кубка Стэнли 2024 года, отразив решающие атаки «Эдмонтона»?",
+    "options": [
+      "Сергей Бобровский",
+      "Андрей Василевский",
+      "Игорь Шестеркин",
+      "Илья Самсонов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_62",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой канадский клуб выступал в финалах Кубка Стэнли под предводительством Уэйна Гретцки в 1980-х годах?",
+    "options": [
+      "«Эдмонтон Ойлерз»",
+      "«Калгари Флэймз»",
+      "«Ванкувер Кэнакс»",
+      "«Виннипег Джетс»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_63",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Что происходит в хоккее, если игрок атакующей команды намеренно бьет по шайбе коньком и она влетает в ворота?",
+    "options": [
+      "Гол не засчитывается",
+      "Гол засчитывается",
+      "Назначается буллит",
+      "Игрок удаляется на 2 минуты"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_64",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой номер заблокирован во всей НХЛ и выведен из обращения во всех клубах лиги?",
+    "options": [
+      "Номер 99 (Уэйн Гретцки)",
+      "Номер 66 (Марио Лемье)",
+      "Номер 9 (Горди Хоу)",
+      "Номер 4 (Бобби Орр)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_65",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой клуб КХЛ представляет город Омск и носит ястреба на логотипе?",
+    "options": [
+      "«Авангард»",
+      "«Сибирь»",
+      "«Трактор»",
+      "«Барыс»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_66",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какое максимальное время дается командам на перерыв между периодами в матчах КХЛ и НХЛ?",
+    "options": [
+      "17–18 минут (для заливки льда)",
+      "10 минут",
+      "25 минут",
+      "12 минут"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_67",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Кто из великих тренеров руководил хоккейным клубом ЦСКА и сборной СССР на протяжении более 15 лет (1977–1996)?",
+    "options": [
+      "Виктор Тихонов",
+      "Анатолий Тарасов",
+      "Аркадий Чернышев",
+      "Всеволод Бобров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_68",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 3,
+    "question": "Какой приз в НХЛ вручается игроку, проявившему высочайшее спортивное мастерство и джентльменское поведение на льду?",
+    "options": [
+      "«Леди Бинг Трофи»",
+      "«Кинг Клэнси Трофи»",
+      "«Марк Мессье Трофи»",
+      "«Билл Мастертон Трофи»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_69",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Сколько раз сборная России по хоккею выигрывала золотые медали чемпионатов мира с момента распада СССР?",
+    "options": [
+      "5 раз (1993, 2008, 2009, 2012, 2014)",
+      "3 раза",
+      "7 раз",
+      "2 раза"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_70",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой цвет имеют две линии, делящие хоккейную площадку на три зоны?",
+    "options": [
+      "Синий цвет",
+      "Красный цвет",
+      "Зеленый цвет",
+      "Желтый цвет"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_71",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какой нападающий «Колорадо Эвеланш» стал MVP победного Кубка Стэнли 2022 года и признан лучшим защитником мира?",
+    "options": [
+      "Кейл Макар",
+      "Нэтан Маккиннон",
+      "Микко Рантанен",
+      "Габриэль Ландескуг"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_72",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "В каком канадском городе находится официальный Зал хоккейной славы (Hockey Hall of Fame)?",
+    "options": [
+      "Торонто",
+      "Монреаль",
+      "Оттава",
+      "Калгари"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_73",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 2,
+    "question": "Какой элемент экипировки полевого игрока в хоккее защищает горло и шею от порезов коньком?",
+    "options": [
+      "Ошейник (защита шеи)",
+      "Капа",
+      "Визор",
+      "Наплечник"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_74",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какой легендарный хоккеист по прозвищу «Супермарио» преодолел тяжелую болезнь и стал совладельцем «Питтсбурга»?",
+    "options": [
+      "Марио Лемье",
+      "Марк Мессье",
+      "Люк Робитайл",
+      "Стив Айзерман"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_hockey_75",
+    "categoryId": "sports",
+    "subcategoryId": "sports_hockey",
+    "difficulty": 1,
+    "question": "Какое максимальное количество шайб может быть заброшено в одном хоккейном матче?",
+    "options": [
+      "Не ограничено правилами",
+      "Не более 20",
+      "Не более 15",
+      "Не более 30"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

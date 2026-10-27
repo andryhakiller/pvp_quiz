@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "sports_esports_1",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая легендарная карта в шутере Counter-Strike с двумя точками закладки бомбы (A и B) через «длину» и «зигу» является самой популярной в истории?",
+    "options": [
+      "Dust II (de_dust2)",
+      "Mirage (de_mirage)",
+      "Inferno (de_inferno)",
+      "Nuke (de_nuke)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_2",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой украинский снайпер (Александр Костылев) признан лучшим игроком в истории Counter-Strike: Global Offensive?",
+    "options": [
+      "s1mple",
+      "ZywOo",
+      "NiKo",
+      "device"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_3",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой главный ежегодный мировой чемпионат по Dota 2 от компании Valve разыгрывал рекордные призовые фонды до 40 млн долларов?",
+    "options": [
+      "The International (TI)",
+      "Dota Major",
+      "Riyadh Masters",
+      "ESL One"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_4",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой трофей в виде щита из бронзы и серебра вручается победителям турнира The International по Dota 2?",
+    "options": [
+      "Aegis of Champions (Эгида чемпионов)",
+      "Кубок Рошана",
+      "Кубок Доты",
+      "Трофей Габена"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_5",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая российско-сербская команда по Dota 2 сенсационно выиграла The International 10 в Бухаресте в 2021 году, заработав свыше $18 млн?",
+    "options": [
+      "Team Spirit (Yatoro, TORONTOTOKYO, Collapse, Mira, Miposhka)",
+      "Virtus.pro",
+      "Natus Vincere (NAVI)",
+      "BetBoom Team"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_6",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "На каком герое в финале The International 10 оффлейнер Магомед «Collapse» Халилов крушил врагов знаменитой комбинацией со скипетром?",
+    "options": [
+      "Magnus («такси на базу» с Skewer)",
+      "Tidehunter",
+      "Mars",
+      "Axe"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_7",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой корейский киберспортсмен Ли Сан Хёк по прозвищу «Faker» считается величайшим игроком в истории League of Legends (LoL)?",
+    "options": [
+      "Faker (Ли Сан Хёк)",
+      "ShowMaker",
+      "Chovy",
+      "Rookie"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_8",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой нейтральный монстр в Dota 2 обитает в своем логове и после гибели оставляет предмет перерождения Aegis of the Immortal?",
+    "options": [
+      "Рошан (Roshan)",
+      "Терзатель",
+      "Торментор",
+      "Древний дракон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_9",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая снайперская винтовка в Counter-Strike убивает любого соперника с одного выстрела в тело и стоит $4750?",
+    "options": [
+      "AWP («Слон»)",
+      "SSG 08 («Муха»)",
+      "SCAR-20",
+      "G3SG1"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_10",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая популярная фраза и звуковой сигнал звучат в начале каждого раунда матча в Counter-Strike?",
+    "options": [
+      "«Go, go, go!» или «Let's roll-oll!»",
+      "«Victory or Death»",
+      "«Start Game»",
+      "«Fire in the hole»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_11",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой предмет покупают спецназовцы (CT) в Counter-Strike для ускорения обезвреживания бомбы с 10 до 5 секунд?",
+    "options": [
+      "Defuse Kit (набор сапера)",
+      "Бронежилет и шлем",
+      "Тактический фонарик",
+      "Rescue Kit"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_12",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой легендарный хайлайт NAVI в матче против Invictus Gaming на The International 2 вошел в историю киберспорта под названием «The Play»?",
+    "options": [
+      "Переворот драки через сон Наги, BKB и Black Hole Соннейко/Хвоста/Денди",
+      "Убийство Рошана на первой минуте",
+      "Снос трона крипами",
+      "Хук под фонтан"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_13",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой легендарный украинский мидер Natus Vincere (Данил Ишутин) стал суперзвездой золотой эры Dota 2 благодаря виртуозной игре на герое Pudge?",
+    "options": [
+      "Dendi",
+      "Resolut1on",
+      "No[o]ne",
+      "Iceberg"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_14",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой скандальный прием с телепортацией Pudge и Чен на базу NAVI использовали на The International 2013 («хук на фонтан»)?",
+    "options": [
+      "Фонтанные хуки (Fountain Hooks)",
+      "Инвиз-пуш",
+      "Астральный блок",
+      "Двойной рефрешер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_15",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая легендарная стратегия в StarCraft заключается в сверхбыстрой постройке пула и атаке шестью дешевыми боевыми единицами на первой минуте?",
+    "options": [
+      "Зерг-раш (Zergling rush / 6-pool)",
+      "Протосс-дроп",
+      "Танковый пуш",
+      "Бараки на базе врага"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_16",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "В какой стране стратегия в реальном времени StarCraft: Brood War стала национальным видом спорта с трансляциями на федеральном ТВ в 2000-х?",
+    "options": [
+      "Южная Корея",
+      "США",
+      "Германия",
+      "Швеция"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_17",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой знаменитый хайлайт в файтингах на турнире EVO 2004 известен как «Moment 37» (Daigo parry)?",
+    "options": [
+      "Дайго Умэхара парировал все 15 ударов суператаки Чунь-Ли на 1 HP в Street Fighter III",
+      "Фаталити на последней секунде в Mortal Kombat",
+      "Перфектный раунд в Tekken 5",
+      "Ринг-аут в Soulcalibur"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_18",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Сколько раундов длится половина матча в соревновательном режиме Counter-Strike 2 (система MR12)?",
+    "options": [
+      "12 раундов (до 13 побед)",
+      "15 раундов (до 16 побед)",
+      "10 раундов",
+      "8 раундов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_19",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Как в шутерах и MOBA называют уничтожение пяти игроков команды соперника одним игроком за короткий промежуток времени?",
+    "options": [
+      "Эйс (Ace) / Рэмпейдж (Rampage)",
+      "Фёрст блад",
+      "Хедшот",
+      "Вайп"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_20",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Как в Counter-Strike называют прыжок одного игрока на плечи другого для получения нестандартного угла обзора?",
+    "options": [
+      "Буст (Подсадка)",
+      "Банни-хоп",
+      "Дроп",
+      "Стрейф"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_21",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какая шведская командаFnatic совершила скандальный «Olofboost» на карте de_overpass на мейджоре DreamHack Winter 2014?",
+    "options": [
+      "Fnatic (Олоф «olofmeister» Кайбьер)",
+      "Ninjas in Pyjamas",
+      "Team EnVyUs",
+      "Titan"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_22",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какая датская команда во главе с капитаном gla1ve выиграла рекордные четыре мейджора по CS:GO, включая три подряд?",
+    "options": [
+      "Astralis",
+      "FaZe Clan",
+      "Natus Vincere",
+      "Team Liquid"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_23",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой французский снайпер Матье «ZywOo» Эрбо является главным соперником s1mple за звание лучшего игрока мира в CS:GO и CS2?",
+    "options": [
+      "ZywOo (Team Vitality)",
+      "shox",
+      "KennyS",
+      "apEX"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_24",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой французский снайпер в 2014–2015 годах славился самой быстрой реакцией с AWP в истории CS («KennyS era»)?",
+    "options": [
+      "KennyS (Кенни Шраб)",
+      "JW",
+      "GuardiaN",
+      "FalleN"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_25",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой тактический соревновательный шутер 5 на 5 с уникальными агентами и способностями выпустила компания Riot Games в 2020 году?",
+    "options": [
+      "Valorant",
+      "Overwatch",
+      "Apex Legends",
+      "Rainbow Six Siege"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_26",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой класс персонажей в шутерах и RPG отвечает за выдерживание огромного урона и прикрытие союзников щитом?",
+    "options": [
+      "Танк",
+      "Саппорт (поддержка)",
+      "Керри (стрелок)",
+      "Ассасин (убийца)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_27",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Как в MOBA-играх называют процесс добивания вражеских крипов ради золота и опыта?",
+    "options": [
+      "Ластхит (Last hit) / Фарм",
+      "Пуш",
+      "Ганк",
+      "Сплит-пуш"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_28",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Как называется добивание собственных крипов в Dota 2, чтобы лишить соперника золота и части опыта?",
+    "options": [
+      "Денай (Deny)",
+      "Ластхит",
+      "Стек",
+      "Отвод"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_29",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой предмет в Dota 2 дает временную полную невосприимчивость к большинству магических заклинаний (Black King Bar)?",
+    "options": [
+      "BKB (Black King Bar)",
+      "Manta Style",
+      "Blink Dagger",
+      "Heart of Tarrasque"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_30",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой артефакт в Dota 2 позволяет герою мгновенно телепортироваться на расстояние до 1200 единиц (Blink Dagger)?",
+    "options": [
+      "Даггер (Blink Dagger)",
+      "Форс стафф (Force Staff)",
+      "Шэдоу блейд",
+      "Трэвела (Boots of Travel)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_31",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой международный турнир по CS:GO в Кракове в 2017 году сенсационно выиграла команда Gambit Esports во главе с Михаилом «Dosia» Столяровым?",
+    "options": [
+      "PGL Major Krakow 2017",
+      "ELEAGUE Major 2017",
+      "MLG Columbus",
+      "ESL One Cologne"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_32",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой киберспортсмен в CS получил шутливое прозвище «X-God» и удостоился памятного знака на Inferno за гранату в пески?",
+    "options": [
+      "Михаил Столяров (Dosia)",
+      "Ярослав Яжомбковски (pashaBiceps)",
+      "Данил Тесленко (Zeus)",
+      "Егор Васильев (flamie)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_33",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой польский культовый игрок Virtus.pro славился крепким телосложением, фразой «You are not my friend, you are my brother, my friend»?",
+    "options": [
+      "pashaBiceps (Ярослав Яжомбковски)",
+      "TaZ",
+      "NEO",
+      "Snax"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_34",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая соревновательная «королевская битва» компании Respawn Entertainment во вселенной Titanfall завоевала миллионы игроков?",
+    "options": [
+      "Apex Legends",
+      "PUBG",
+      "Fortnite",
+      "Call of Duty: Warzone"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_35",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая игра жанра «Battle Royale» установила абсолютный рекорд одновременного онлайна в Steam (3,2 миллиона игроков в 2018 году)?",
+    "options": [
+      "PUBG: Battlegrounds",
+      "Dota 2",
+      "CS:GO",
+      "Cyberpunk 2077"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_36",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой турнир по Fortnite в Нью-Йорке в 2019 году выиграл 16-летний американец Кайл «Bugha» Гирсдорф, получив $3 000 000?",
+    "options": [
+      "Fortnite World Cup",
+      "FNCS Finals",
+      "Fortnite Fall Skirmish",
+      "Epic Major"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_37",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая европейская организация по Dota 2 стала первым двукратным чемпионом The International (TI8 и TI9 подряд под руководством n0tail)?",
+    "options": [
+      "OG",
+      "Team Liquid",
+      "Team Secret",
+      "Evil Geniuses"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_38",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой предмет в Dota 2 стоимостью 6200 золота выпадает при смерти и наносит максимальный чистый урон (+330 к атаке)?",
+    "options": [
+      "Рапира (Divine Rapier)",
+      "Daedalus",
+      "Butterfly",
+      "Bloodthorn"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_39",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая граната в Counter-Strike полностью ослепляет игроков белым экраном при прямом взгляде на нее?",
+    "options": [
+      "Flashbang (светошумовая граната)",
+      "HE grenade (осколочная)",
+      "Smoke grenade (дым)",
+      "Decoy (ложная)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_40",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Сколько игроков в одной команде одновременно сражается на арене в стандартном соревновательном матче в Rainbow Six Siege?",
+    "options": [
+      "5 игроков",
+      "6 игроков",
+      "4 игрока",
+      "7 игроков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_41",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой герой в Overwatch управляет огромным боевым мехом с ядерным самоуничтожением и озвучивает фразы геймерши на корейском?",
+    "options": [
+      "D.Va (Хана Сонг)",
+      "Трейсер",
+      "Мерси (Ангел)",
+      "Фарра"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_42",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какая шведская киберспортивная организация известна легендарным составом 87-0 по картам на заре CS:GO (f0rest, GeT_RiGhT)?",
+    "options": [
+      "Ninjas in Pyjamas (NiP)",
+      "Fnatic",
+      "Dignitas",
+      "Alliance"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_43",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Как в киберспорте называют зрителя, транслирующего чужой матч с задержкой и аналитическими комментариями?",
+    "options": [
+      "Кастер (комментатор) / Стример",
+      "Коуч (тренер)",
+      "Менеджер",
+      "Гейм-мастер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_44",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой статус получает игрок, если он исключается из состава, но продолжает числиться на контракте организации на скамейке?",
+    "options": [
+      "Инактив (на скамейке запасных / бенч)",
+      "Свободный агент",
+      "Забаненный игрок",
+      "Легионер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_45",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой античит на уровне ядра операционной системы (Ring 0) разработала компания Riot Games для игры Valorant?",
+    "options": [
+      "Vanguard",
+      "VAC (Valve Anti-Cheat)",
+      "Easy Anti-Cheat",
+      "BattlEye"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_46",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой трофей мейджора по CS:GO впервые в своей карьере завоевал легендарный снайпер s1mple в Стокгольме в 2021 году в составе NAVI?",
+    "options": [
+      "PGL Major Stockholm 2021",
+      "StarLadder Berlin Major 2019",
+      "IEM Katowice 2019",
+      "FACEIT Major London 2018"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_47",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какая раса в StarCraft II использует летающие биомеханические корабли «Авианосцы» (Carriers) с роем перехватчиков?",
+    "options": [
+      "Протоссы",
+      "Зерги",
+      "Терраны",
+      "Зел-нага"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_48",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой шведский капитан Маркус «Notan» или Йохан «N0tail» Сундштайн стал самым богатым киберспортсменом в мире по сумме призовых?",
+    "options": [
+      "N0tail (Йохан Сундштайн)",
+      "JerAx",
+      "Ceb",
+      "KuroKy"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_49",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Как в соревновательных играх называют тактику внезапного нападения на линию из засады с помощью союзника из леса?",
+    "options": [
+      "Ганк (Gank)",
+      "Фарм",
+      "Пуш",
+      "Бэкдор"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_50",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Что такое «Бэкдор» (Backdoor) в Dota 2 и League of Legends?",
+    "options": [
+      "Атака вражеских построек в обход крипов без союзной волны крипов",
+      "Покупка запрещенных предметов",
+      "Телепортация на базу в тайне",
+      "Обход через логово Рошана"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_51",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая организация по CS2 в 2024 году выиграла первый мейджор в истории новой игры в Копенгагене (PGL Major Copenhagen)?",
+    "options": [
+      "Natus Vincere (NAVI)",
+      "FaZe Clan",
+      "Team Vitality",
+      "G2 Esports"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_52",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой боснийский стрелок Никола «NiKo» Ковач считается одним из величайших рифлеров мира, долго шедшим к первому мейджору?",
+    "options": [
+      "NiKo",
+      "huNter-",
+      "m0NESY",
+      "jks"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_53",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой юный российский вундеркинд-снайпер (Илья Осипов) выступает за международный состав G2 Esports?",
+    "options": [
+      "m0NESY",
+      "donk",
+      "sh1ro",
+      "degster"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_54",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой 17-летний российский феномен Данил «donk» Крышковец разнес мировых грандов на IEM Katowice 2024 в составе Team Spirit?",
+    "options": [
+      "donk",
+      "magixx",
+      "chopper",
+      "zonixx"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_55",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой предмет в Dota 2 дает герою мгновенное увеличение дальности атаки и возможность перепрыгивать препятствия на скале?",
+    "options": [
+      "Hurricane Pike / Dragon Lance",
+      "Force Staff",
+      "Shadow Blade",
+      "Sange and Yasha"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_56",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Что такое «смоук» (Smoke of Deceit) в Dota 2?",
+    "options": [
+      "Расходный предмет, дающий команде временную невидимость и ускорение передвижения",
+      "Дымовая завеса на реке",
+      "Способность героя Рики",
+      "Артефакт для обнаружения вардов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_57",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какое максимальное количество вардов наблюдения (Observer Wards) может одновременно находиться на карте в Dota 2?",
+    "options": [
+      "Ограничено временем кулдауна в лавке (обычно до 4 штук на команду)",
+      "Не более 10",
+      "Неограниченно при покупке",
+      "Не более 2"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_58",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая карта в соревновательном пуле Counter-Strike славится двумя ядерными реакторами, расположенными строго друг над другом?",
+    "options": [
+      "Nuke (de_nuke)",
+      "Vertigo",
+      "Train",
+      "Overpass"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_59",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "На какой карте в CS:GO действие происходит на вершине строящегося небоскреба с возможностью сорваться вниз?",
+    "options": [
+      "Vertigo (de_vertigo)",
+      "Agency",
+      "Overpass",
+      "Office"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_60",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какое максимальное количество денег ($) может накопить игрок на своем счету в соревновательном матче Counter-Strike?",
+    "options": [
+      "$16 000",
+      "$10 000",
+      "$20 000",
+      "$12 500"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_61",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какая сумма денег ($) начисляется террористу за успешную установку бомбы C4, даже если раунд проигран?",
+    "options": [
+      "+$300 лично и +$800 всей команде",
+      "+$500",
+      "+$1000",
+      "+$200"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_62",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какая MOBA-игра для мобильных платформ от компании Moonton стала суперхитом в Юго-Восточной Азии и собирает миллионы зрителей на финалах M-Series?",
+    "options": [
+      "Mobile Legends: Bang Bang (MLBB)",
+      "Wild Rift",
+      "Honor of Kings",
+      "Brawl Stars"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_63",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Как в киберспорте называется ситуация, когда команда или игрок проигрывает почти выигранный матч из-за нервов или грубых ошибок?",
+    "options": [
+      "Чок (Choke)",
+      "Тилт",
+      "Камбэк",
+      "Смурф"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_64",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Как называется эмоциональное состояние раздражения и злости игрока, приводящее к цепочке глупых ошибок и поражению?",
+    "options": [
+      "Тилт (Tilt)",
+      "Хайп",
+      "Фарм",
+      "Керри"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_65",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой статус в онлайн-играх имеет опытный игрок высокого ранга, играющий на новом аккаунте против новичков?",
+    "options": [
+      "Смурф (Smurf)",
+      "Бустер",
+      "Бот",
+      "Читер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_66",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой герой в Dota 2 может призывать иллюзии с помощью способности Juxtapose и за секунды заполнять экран клонами?",
+    "options": [
+      "Phantom Lancer",
+      "Chaos Knight",
+      "Naga Siren",
+      "Terrorblade"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_67",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какой предмет в Dota 2 позволяет сбрасывать кулдауны всех способностей и предметов персонажа (Refresher Orb)?",
+    "options": [
+      "Рефрешер (Refresher Orb)",
+      "Октарин (Octarine Core)",
+      "Хекс (Scythe of Vyse)",
+      "Бладстоун (Bloodstone)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_68",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Как называется престижнейший турнир по файтингам, ежегодно проходящий в Лас-Вегасе с тысячами участников со всего мира?",
+    "options": [
+      "EVO (Evolution Championship Series)",
+      "Capcom Cup",
+      "The King of Iron Fist",
+      "Red Bull Kumite"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_69",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая игровая платформа компании Valve является главным цифровым магазином и хабом для соревновательных игр на ПК?",
+    "options": [
+      "Steam",
+      "Epic Games Store",
+      "Battle.net",
+      "GOG"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_70",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Как зовут сооснователя и бессменного главу корпорации Valve, открывающего The International традиционной фразой «Welcome to The International»?",
+    "options": [
+      "Гейб Ньюэлл (Gabe Newell)",
+      "Тодд Говард",
+      "Фил Спенсер",
+      "Хидэо Кодзима"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_71",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какое оружие ближнего боя в CS дает наибольшую награду за убийство в соревновательном режиме ($1500)?",
+    "options": [
+      "Нож",
+      "Дробовик Nova",
+      "Пистолет-пулемет P90",
+      "Зевс (Zeus x27)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_72",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какое электрошоковое оружие в Counter-Strike наносит мгновенный смертельный разряд на сверхближней дистанции?",
+    "options": [
+      "Zeus x27",
+      "Taser",
+      "Stun Gun",
+      "Shockwave"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_73",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Сколько игроков в одной команде сражается на поле в соревновательном матче по Rocket League (футбол на машинах)?",
+    "options": [
+      "3 игрока (формат 3v3)",
+      "2 игрока",
+      "4 игрока",
+      "5 игроков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_74",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 1,
+    "question": "Какая знаменитая карта в CS с узким бананом и двумя котлами ведет к пленту B в живописном итальянском городке?",
+    "options": [
+      "Inferno (de_inferno)",
+      "Italy (cs_italy)",
+      "Tuscan",
+      "Mirage"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_esports_75",
+    "categoryId": "sports",
+    "subcategoryId": "sports_esports",
+    "difficulty": 2,
+    "question": "Какой кулдаун на выкуп в игру (Buyback) действует в Dota 2 после того, как игрок оживил своего героя за золото?",
+    "options": [
+      "8 минут (480 секунд)",
+      "5 минут",
+      "10 минут",
+      "3 минуты"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

@@ -93,7 +93,21 @@ let gs = {
     pendingCapture: null,
     activeDuel:     null,
     questionTimer:  null,  // active setTimeout handle
+    history:        [],    // snapshots for undo
 };
+
+function saveTurnSnapshot() {
+    gs.history.push({
+        turnIndex:  gs.turnIndex,
+        turnNumber: gs.turnNumber,
+        board:      { ...gs.board },
+        capitals:   { ...gs.capitals },
+        scores:     Object.fromEntries(playerList().map(p => [p.slot, p.score])),
+        eliminated: Object.fromEntries(playerList().map(p => [p.slot, p.eliminated])),
+        turnOrder:  [...gs.turnOrder],
+    });
+    if (gs.history.length > 50) gs.history.shift();
+}
 
 // ─── HELPERS ──────────────────────────────────────────────────────────────────
 
@@ -207,7 +221,28 @@ function get3Subs() {
     return result;
 }
 
-/** Get a question by subcategoryId */
+// Persistent played questions history across games and restarts
+const PLAYED_HISTORY_PATH = path.join(__dirname, 'played_history.json');
+let playedHistory = new Set();
+try {
+    if (fs.existsSync(PLAYED_HISTORY_PATH)) {
+        const raw = JSON.parse(fs.readFileSync(PLAYED_HISTORY_PATH, 'utf8'));
+        if (Array.isArray(raw)) playedHistory = new Set(raw);
+        console.log(`📜 Loaded ${playedHistory.size} played questions from ${path.basename(PLAYED_HISTORY_PATH)}`);
+    }
+} catch (e) {
+    console.warn('⚠️ Could not load played_history.json:', e.message);
+}
+
+function savePlayedHistory() {
+    try {
+        fs.writeFileSync(PLAYED_HISTORY_PATH, JSON.stringify([...playedHistory], null, 2), 'utf8');
+    } catch (e) {
+        console.error('❌ Could not save played_history.json:', e.message);
+    }
+}
+
+/** Get a question by subcategoryId with persistent anti-repetition */
 function getQuestion(subcategoryId) {
     const all = QUESTIONS_RAW.filter(q => {
         if (q.subcategoryId !== subcategoryId) return false;
@@ -218,14 +253,24 @@ function getQuestion(subcategoryId) {
 
     if (!all.length) return null;
 
-    let pool = all.filter(q => !gs.usedIds.has(q.id));
+    // Filter out questions played in previous sessions OR in this game
+    let pool = all.filter(q => !playedHistory.has(q.id) && !gs.usedIds.has(q.id));
+
+    // If pool is exhausted for this subcategory, clear history for this subcategory only!
     if (!pool.length) {
-        all.forEach(q => gs.usedIds.delete(q.id));
-        pool = [...all];
+        all.forEach(q => playedHistory.delete(q.id));
+        savePlayedHistory();
+        pool = all.filter(q => !gs.usedIds.has(q.id));
+        if (!pool.length) {
+            all.forEach(q => gs.usedIds.delete(q.id));
+            pool = [...all];
+        }
     }
 
     const q = pool[Math.floor(Math.random() * pool.length)];
     gs.usedIds.add(q.id);
+    playedHistory.add(q.id);
+    savePlayedHistory();
     return q;
 }
 
@@ -278,6 +323,8 @@ function nextTurn() {
         p.score += income;
         io.emit('score_update', { slot, score: p.score, added: income });
     }
+
+    saveTurnSnapshot();
 
     io.emit('turn_change', { slot, turnNumber: gs.turnNumber, maxTurns: gameSettings.maxTurns });
     if (p) log(`Ход: ${p.nickname}`, 'turn');
@@ -375,8 +422,8 @@ function startDuelRound(subcategoryId) {
     };
     d.answers = { attacker: null, defender: null };
 
-    // Send question with correctIndex to fighters
-    const clientQ = { question: q.question, options: q.options, image: q.image || null, correctIndex: q.correctIndex };
+    // Send question without correctIndex to fighters
+    const clientQ = { question: q.question, options: q.options, image: q.image || null };
 
     const aSock = io.sockets.sockets.get(d.attackerSockId);
     const dSock = io.sockets.sockets.get(d.defenderSockId);
@@ -796,6 +843,8 @@ io.on('connection', socket => {
             first.score += gameSettings.scores.HOLD_CELL;
         }
 
+        saveTurnSnapshot();
+
         io.emit('game_started', {
             turn:     gs.turnOrder[0],
             players:  sorted,
@@ -882,7 +931,6 @@ io.on('connection', socket => {
             question:     qObj.question,
             options:      qObj.options,
             image:        qObj.image || null,
-            correctIndex: qObj.correctIndex,
         };
         const spectatorQ = {
             id:       qObj.id,
@@ -975,6 +1023,61 @@ io.on('connection', socket => {
         }
     });
 
+    // ── UNDO TURN ──
+    socket.on('undo_turn', () => {
+        if (!isGameStarted) return socket.emit('error_msg', 'Игра ещё не началась!');
+        if (!gs.history || gs.history.length === 0) {
+            return socket.emit('error_msg', 'Нет предыдущих ходов для отмены!');
+        }
+
+        clearQuestionTimer();
+        gs.pendingCapture = null;
+        gs.activeDuel = null;
+
+        let snap = gs.history.pop();
+        // If the popped snapshot is identical to current state, pop the previous one
+        if (snap && snap.turnIndex === gs.turnIndex && snap.turnNumber === gs.turnNumber && JSON.stringify(snap.board) === JSON.stringify(gs.board)) {
+            if (gs.history.length > 0) {
+                snap = gs.history.pop();
+            }
+        }
+
+        if (!snap) {
+            return socket.emit('error_msg', 'Нет предыдущих ходов для отмены!');
+        }
+
+        gs.turnIndex  = snap.turnIndex;
+        gs.turnNumber = snap.turnNumber;
+        gs.board      = { ...snap.board };
+        gs.capitals   = { ...snap.capitals };
+        gs.turnOrder  = [...snap.turnOrder];
+
+        for (const [slotStr, score] of Object.entries(snap.scores)) {
+            const p = playerBySlot(Number(slotStr));
+            if (p) p.score = score;
+        }
+        for (const [slotStr, elim] of Object.entries(snap.eliminated)) {
+            const p = playerBySlot(Number(slotStr));
+            if (p) p.eliminated = elim;
+        }
+
+        const curSlot = currentSlot();
+        const curP = playerBySlot(curSlot);
+        const caller = players[socket.id]?.nickname || 'Игрок';
+
+        io.emit('close_modals');
+        io.emit('board_full_sync', { board: gs.board });
+        for (const p of playerList()) {
+            io.emit('score_update', { slot: p.slot, score: p.score, added: 0 });
+        }
+        io.emit('turn_change', {
+            slot: curSlot,
+            turnNumber: gs.turnNumber,
+            maxTurns: gameSettings.maxTurns,
+        });
+        log(`↩️ ${caller} отменил ход — игра возвращена назад к: ${curP?.nickname || 'Игрок'}`, 'warn');
+    });
+
     // ── ABORT GAME ──
     socket.on('abort_game', () => {
         log('🛑 Игра была сброшена/прервана (Аборт)!', 'warn');
@@ -987,6 +1090,7 @@ io.on('connection', socket => {
         gs.board          = {};
         gs.capitals       = {};
         gs.usedIds        = new Set();
+        gs.history        = [];
         gs.pendingCapture = null;
         gs.activeDuel     = null;
         if (gs.questionTimer) {

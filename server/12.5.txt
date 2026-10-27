@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "sports_chess_1",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой норвежский гроссмейстер владел титулом чемпиона мира по шахматам с 2013 по 2023 год и имеет наивысший рейтинг в истории (2882)?",
+    "options": [
+      "Магнус Карлсен",
+      "Хикару Накамура",
+      "Фабиано Каруана",
+      "Вишванатан Ананд"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_2",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой 13-й чемпион мира по шахматам стал самым молодым чемпионом в истории в возрасте 22 лет и удерживал титул 15 лет?",
+    "options": [
+      "Гарри Каспаров",
+      "Анатолий Карпов",
+      "Бобби Фишер",
+      "Михаил Таль"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_3",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой американский гений победил Бориса Спасского в «Матче века» в Рейкьявике в 1972 году в разгар Холодной войны?",
+    "options": [
+      "Роберт (Бобби) Фишер",
+      "Пол Морфи",
+      "Сэмюэль Решевский",
+      "Фабиано Каруана"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_4",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Как в шахматах называется ситуация, когда король игрока не находится под шахом, но у него нет ни одного легального хода?",
+    "options": [
+      "Пат (ничья)",
+      "Мат",
+      "Цейтнот",
+      "Цугцванг"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_5",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Как называется одновременный ход короля и ладьи, служащий для защиты короля и ввода ладьи в игру?",
+    "options": [
+      "Рокировка",
+      "Взятие на проходе",
+      "Гамбит",
+      "Вилка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_6",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какое специальное правило позволяет пешке сбить пешку соперника, сделавшую двойной ход через битое поле?",
+    "options": [
+      "Взятие на проходе (en passant)",
+      "Превращение пешки",
+      "Рокировка",
+      "Вскрытый шах"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_7",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какая шахматная фигура является самой сильной на доске, объединяя силу ладьи и слона?",
+    "options": [
+      "Ферзь (королева)",
+      "Ладья",
+      "Конь",
+      "Слон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_8",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какая единственная шахматная фигура может перепрыгивать через другие свои и чужие фигуры?",
+    "options": [
+      "Конь",
+      "Пешка",
+      "Слон",
+      "Ладья"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_9",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Сколько клеток всего на стандартной шахматной доске?",
+    "options": [
+      "64 клетки (8 на 8)",
+      "100 клеток",
+      "49 клеток",
+      "81 клетка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_10",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Как называется ситуация в партии, когда любой возможный ход игрока ведет к неизбежному ухудшению его позиции?",
+    "options": [
+      "Цугцванг",
+      "Цейтнот",
+      "Зевок",
+      "Миттельшпиль"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_11",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Как называется острая нехватка времени на обдумывание ходов в шахматной партии с контролем времени?",
+    "options": [
+      "Цейтнот",
+      "Цугцванг",
+      "Пат",
+      "Эндшпиль"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_12",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "За какое минимальное количество ходов белые могут поставить самый быстрый мат в шахматах («дурацкий мат»)?",
+    "options": [
+      "За 2 хода (со стороны черных)",
+      "За 4 хода",
+      "За 3 хода",
+      "За 1 ход"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_13",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "За сколько ходов ставится популярный «детский мат» с выходом ферзя и белопольного слона на поле f7?",
+    "options": [
+      "За 4 хода",
+      "За 3 хода",
+      "За 2 хода",
+      "За 5 ходов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_14",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Как называется дебютная жертва пешки или фигуры ради быстрого развития и захвата инициативы в начале партии?",
+    "options": [
+      "Гамбит",
+      "Этюд",
+      "Форточка",
+      "Цугцванг"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_15",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой суперкомпьютер компании IBM сенсационно победил Гарри Каспарова в матче из шести партий в 1997 году?",
+    "options": [
+      "Deep Blue",
+      "Watson",
+      "AlphaZero",
+      "Stockfish"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_16",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Кто стал первым официальным чемпионом мира по шахматам в 1886 году, победив Иоганна Цукерторта?",
+    "options": [
+      "Вильгельм Стейниц",
+      "Эмануил Ласкер",
+      "Хосе Рауль Капабланка",
+      "Пол Морфи"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_17",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какой кубинский чемпион мира по шахматам обладал феноменальной интуицией в эндшпиле и не проигрывал ни одной партии в течение 8 лет?",
+    "options": [
+      "Хосе Рауль Капабланка",
+      "Александр Алехин",
+      "Макс Эйве",
+      "Михаил Ботвинник"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_18",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какой русский гроссмейстер победил Капабланку в Буэнос-Айресе в 1927 году и умер непобежденным чемпионом мира?",
+    "options": [
+      "Александр Алехин",
+      "Михаил Чигорин",
+      "Арон Нимцович",
+      "Михаил Ботвинник"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_19",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Как в теории шахмат называется заключительная стадия шахматной партии, когда на доске осталось мало фигур?",
+    "options": [
+      "Эндшпиль",
+      "Миттельшпиль",
+      "Дебют",
+      "Цейтнот"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_20",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Как называется середина шахматной партии, следующая сразу за дебютом?",
+    "options": [
+      "Миттельшпиль",
+      "Эндшпиль",
+      "Цугцванг",
+      "Паттерн"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_21",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой советский чемпион мира по шахматам носил прозвище «Рижский кудесник» за фантастические дерзкие жертвы фигур?",
+    "options": [
+      "Михаил Таль",
+      "Тигран Петросян",
+      "Василий Смыслов",
+      "Борис Спасский"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_22",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какой советский чемпион мира славился непробиваемой «железной» позиционной защитой и профилактикой ходов соперника?",
+    "options": [
+      "Тигран Петросян",
+      "Михаил Таль",
+      "Анатолий Карпов",
+      "Виктор Корчной"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_23",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какое нападение одной фигурой сразу на две (или более) фигуры соперника называется в шахматах «вилкой»?",
+    "options": [
+      "Двойной удар (вилка)",
+      "Вскрытый шах",
+      "Связка",
+      "Линейный мат"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_24",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "В какую фигуру чаще всего превращается пешка при достижении последней горизонтали доски?",
+    "options": [
+      "В ферзя",
+      "В ладью",
+      "В коня",
+      "В короля"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_25",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Может ли пешка превратиться во второго ферзя, если на доске уже есть один ферзь того же цвета?",
+    "options": [
+      "Да, число ферзей одного цвета правилами не ограничено (до 9)",
+      "Нет, только если первый ферзь был сбит",
+      "Нет, только в ладью или коня",
+      "Только с согласия соперника"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_26",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой российский гроссмейстер стал чемпионом мира по классическим шахматам, сенсационно победив Гарри Каспарова в Лондоне в 2000 году?",
+    "options": [
+      "Владимир Крамник",
+      "Петр Свидлер",
+      "Александр Морозевич",
+      "Александр Грищук"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_27",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой китайский гроссмейстер завоевал титул 17-го чемпиона мира по шахматам в 2023 году в Астане, победив Яна Непомнящего на тай-брейке?",
+    "options": [
+      "Дин Лижэнь",
+      "Ван Хао",
+      "Юй Янъи",
+      "Вэй И"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_28",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой индийский 17-летний вундеркинд выиграл турнир претендентов 2024 года в Торонто, став самым молодым претендентом на шахматную корону?",
+    "options": [
+      "Гукеш Доммараджу",
+      "Рамешбабу Прагнанандха",
+      "Арджун Эригайси",
+      "Нихал Сарин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_29",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какое правило объявляет партию ничьей, если за последние 50 ходов обеих сторон не было сделано ни одного взятия и ни одного хода пешкой?",
+    "options": [
+      "Правило 50 ходов",
+      "Троекратное повторение позиции",
+      "Вечный шах",
+      "Правило недостаточного материала"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_30",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какой международный шахматный рейтинг, разработанный американским профессором физики, используется ФИДЕ с 1970 года?",
+    "options": [
+      "Рейтинг Эло (Арпад Эло)",
+      "Рейтинг Глико",
+      "Рейтинг Соннеборна — Бергера",
+      "Шахматный индекс Трумена"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_31",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой популярнейший полуоткрытый дебют начинается ходами: 1. e4 c5?",
+    "options": [
+      "Сицилианская защита",
+      "Французская защита",
+      "Защита Каро — Канн",
+      "Испанская партия"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_32",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Как называется дебют, начинающийся ходами 1. e4 e5 2. Кf3 Кc6 3. Сb5 («дебют Руя Лопеса»)?",
+    "options": [
+      "Испанская партия",
+      "Итальянская партия",
+      "Шотландская партия",
+      "Русская партия (Петрова)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_33",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какое тактическое положение возникает, когда дальнобойная фигура сковывает движение вражеской фигуры, прикрывающей короля?",
+    "options": [
+      "Абсолютная связка",
+      "Двойной шах",
+      "Гамбит",
+      "Цугцванг"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_34",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какое минимальное количество ходов требуется королю и ферзю, чтобы поставить мат одинокому королю из любой позиции?",
+    "options": [
+      "Не более 10 ходов",
+      "Не более 5 ходов",
+      "Не менее 20 ходов",
+      "Не менее 15 ходов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_35",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Возможен ли мат одинокому королю соперника при материале: король и два коня против короля при безошибочной защите?",
+    "options": [
+      "Нет, форсированного мата двумя конями не существует (ничья)",
+      "Да, форсированный мат ставится за 15 ходов",
+      "Да, только в углу доски",
+      "Да, если король соперника отрезан на краю"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_36",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какой великий советский шахматист и патриарх шахматной школы СССР был доктором технических наук и автором алгоритмов для ЭВМ?",
+    "options": [
+      "Михаил Ботвинник",
+      "Василий Смыслов",
+      "Давид Бронштейн",
+      "Ефим Геллер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_37",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какое шахматное звание является высшим пожизненным титулом в шахматах, присваиваемым Международной шахматной федерацией?",
+    "options": [
+      "Международный гроссмейстер (GM)",
+      "Международный мастер (IM)",
+      "Мастер ФИДЕ (FM)",
+      "Кандидат в мастера (CM)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_38",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой контроль времени в быстрых шахматах обычно выделяется каждому игроку на всю партию в блице?",
+    "options": [
+      "3 или 5 минут",
+      "15 минут",
+      "1 минута (пуля)",
+      "60 минут"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_39",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Как в шахматах называется сверхбыстрый контроль времени, где каждому игроку дается всего 1 минута на партию?",
+    "options": [
+      "Пуля (Bullet)",
+      "Блиц",
+      "Рапид",
+      "Армагеддон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_40",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Как называется решающая партия тай-брейка, в которой белым дается 5 минут, черным 4 минуты, но ничья трактуется в пользу черных?",
+    "options": [
+      "Армагеддон",
+      "Блиц-дуэль",
+      "Золотой эндшпиль",
+      "Супермат"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_41",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какая шахматная фигура начинает партию на полях c1 и f1 у белых?",
+    "options": [
+      "Слоны",
+      "Кони",
+      "Ладьи",
+      "Ферзь"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_42",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какого цвета поле должно всегда находиться в правом нижнем углу доски перед каждым из игроков при правильной расстановке?",
+    "options": [
+      "Белое поле («Белое справа»)",
+      "Черное поле",
+      "Цвет не имеет значения",
+      "Зависит от цвета фигур"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_43",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какое незыблемое правило гласит: если игрок намеренно дотронулся до своей фигуры при своем ходе, он обязан сделать ход именно ею?",
+    "options": [
+      "«Тронул — ходи» (Touch-move)",
+      "«Взялся — терпи»",
+      "«Ход сделан»",
+      "«Правило первого касания»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_44",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какое французское слово традиционно произносят шахматисты, если хотят поправить неровно стоящую фигуру без совершения хода?",
+    "options": [
+      "«J’adoube» («Поправляю»)",
+      "«Pardon»",
+      "«Merci»",
+      "«En garde»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_45",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какой венгерский тренер воспитал трех легендарных сестер-шахматисток (Сьюзан, Софию и Юдит Полгар), доказав силу раннего обучения?",
+    "options": [
+      "Ласло Полгар",
+      "Петер Леко",
+      "Геза Мароци",
+      "Лайош Портиш"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_46",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какая из сестер Полгар стала сильнейшей шахматисткой в истории, входила в топ-10 мужского рейтинга мира и побеждала Каспарова и Карпова?",
+    "options": [
+      "Юдит Полгар",
+      "Жужа (Сьюзан) Полгар",
+      "София Полгар",
+      "Хоу Ифань"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_47",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой открытый дебют начинается ходами: 1. d4 d5 2. c4?",
+    "options": [
+      "Ферзевый гамбит",
+      "Королевский гамбит",
+      "Славянская защита",
+      "Защита Нимцовича"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_48",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой популярный сериал Netflix о гениальной шахматистке-сироте Бет Хармон вызвал глобальный мировой бум интереса к шахматам в 2020 году?",
+    "options": [
+      "«Ход королевы» (The Queen's Gambit)",
+      "«Шах и мат»",
+      "«Жертва пешки»",
+      "«Защита Лужина»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_49",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какое название носит позиция, когда слоны игроков перемещаются по полям противоположных цветов?",
+    "options": [
+      "Разноцветные слоны",
+      "Одноцветные слоны",
+      "Фианкеттированные слоны",
+      "Испанские слоны"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_50",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Как называется развитие слона на большую диагональ на поля b2, g2 (для белых) или b7, g7 (для черных)?",
+    "options": [
+      "Фианкетто",
+      "Рокировка",
+      "Блокада",
+      "Форточка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_51",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какой советский гроссмейстер играл драматичные матчи за мировую корону против Карпова в Багио (1978) и Мерано (1981) после побега из СССР?",
+    "options": [
+      "Виктор Корчной",
+      "Борис Спасский",
+      "Ефим Геллер",
+      "Марк Тайманов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_52",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какое максимальное количество шагов может сделать пешка со своего начального положения вторым ходом?",
+    "options": [
+      "Только 1 шаг вперед",
+      "2 шага вперед",
+      "3 шага",
+      "Любое число шагов по диагонали"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_53",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какое количество ладей и королей участвует в постановке «линейного мата» по двум крайним горизонталям?",
+    "options": [
+      "Две ладьи (или ладья и ферзь)",
+      "Одна ладья",
+      "Два слона",
+      "Конь и слон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_54",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Сколько клеток контролирует конь, находящийся в самом центре доски (на полях d4, d5, e4 или e5)?",
+    "options": [
+      "8 клеток",
+      "6 клеток",
+      "4 клетки",
+      "10 клеток"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_55",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Сколько клеток контролирует конь, загнанный в самый угол доски (например, на поле a1)?",
+    "options": [
+      "Всего 2 клетки",
+      "4 клетки",
+      "3 клетки",
+      "1 клетку"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_56",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какая шахматная поговорка предупреждает об опасности увода легких фигур на край доски?",
+    "options": [
+      "«Конь на краю доски стоит плохо»",
+      "«Слон любит диагональ»",
+      "«Пешка назад не ходит»",
+      "«Ферзь спешки не прощает»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_57",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какой шахматный движок с самообучением нейросетей от компании DeepMind разгромил Stockfish в 2017 году, играя в романтическом стиле?",
+    "options": [
+      "AlphaZero",
+      "Leela Chess Zero",
+      "Komodo",
+      "Rybka"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_58",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "В каком году и в какой стране была основана Международная шахматная федерация (FIDE), чей девиз «Gens una sumus»?",
+    "options": [
+      "1924 год, Париж (Франция)",
+      "1900 год, Лондон",
+      "1948 год, Москва",
+      "1920 год, Цюрих"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_59",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой американский шахматист японского происхождения является пятикратным чемпионом США и ведущим шахматным стримером мира?",
+    "options": [
+      "Хикару Накамура",
+      "Фабиано Каруана",
+      "Уэсли Со",
+      "Левон Аронян"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_60",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Как называется ход пешкой от рокированного короля (h3 или g3), создающий поле для отступления короля при угрозе мата по первой линии?",
+    "options": [
+      "«Форточка»",
+      "«Окно»",
+      "«Лазейка»",
+      "«Карман»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_61",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 3,
+    "question": "Какой советский чемпион мира по шахматам был выдающимся оперным певцом-баритоном и выступал в Большом театре?",
+    "options": [
+      "Василий Смыслов",
+      "Тигран Петросян",
+      "Михаил Ботвинник",
+      "Анатолий Карпов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_62",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какая древнеиндийская настольная игра VI века нашей эры считается историческим прародителем современных шахмат?",
+    "options": [
+      "Чатуранга",
+      "Сянци",
+      "Нарды",
+      "Го"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_63",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Через какую популярную арабскую игру VI–VIII веков древнеиндийская чатуранга эволюционировала и проникла в средневековую Европу?",
+    "options": [
+      "Шатрандж",
+      "Манкала",
+      "Тавлеи",
+      "Сенигалия"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_64",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какой шахматный термин означает превращение пешки в фигуру меньшего достоинства, чем ферзь (например, в коня ради мата или вилки)?",
+    "options": [
+      "Слабое превращение (underpromotion)",
+      "Конверсия",
+      "Гамбит пешки",
+      "Размен"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_65",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Что происходит с королем, если он получает шах, от которого нельзя защититься ни закрытием, ни взятием атакующей фигуры, ни уходом?",
+    "options": [
+      "Мат (поражение)",
+      "Пат",
+      "Цугцванг",
+      "Ничья по согласию"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_66",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой шахматный турнир проводится ФИДЕ раз в два года для определения официального соперника действующего чемпиона мира?",
+    "options": [
+      "Турнир претендентов",
+      "Кубок мира ФИДЕ",
+      "Шахматная олимпиада",
+      "Гран-при ФИДЕ"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_67",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какое максимальное число пешек может иметь один игрок на доске в начале партии?",
+    "options": [
+      "8 пешек",
+      "10 пешек",
+      "7 пешек",
+      "6 пешек"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_68",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какой латинский девиз Международной шахматной федерации (FIDE) переводится как «Мы — одна семья»?",
+    "options": [
+      "Gens una sumus",
+      "Citius, Altius, Fortius",
+      "Per aspera ad astra",
+      "Veni, vidi, vici"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_69",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Какой гроссмейстер из Санкт-Петербурга является восьмикратным чемпионом России по шахматам?",
+    "options": [
+      "Петр Свидлер",
+      "Александр Грищук",
+      "Сергей Карякин",
+      "Даниил Дубов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_70",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой российский гроссмейстер в 2016 году боролся за шахматную корону против Карлсена в Нью-Йорке и уступил только на тай-брейке?",
+    "options": [
+      "Сергей Карякин",
+      "Ян Непомнящий",
+      "Владимир Крамник",
+      "Александр Морозевич"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_71",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какой российский гроссмейстер дважды подряд выигрывал турнир претендентов (2020/21 и 2022) и играл матчи за корону против Карлсена и Дин Лижэня?",
+    "options": [
+      "Ян Непомнящий",
+      "Сергей Карякин",
+      "Даниил Дубов",
+      "Владислав Артемьев"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_72",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Как называется ситуация, когда одна и та же позиция с одинаковой очередью хода повторяется на доске 3 раза?",
+    "options": [
+      "Ничья по троекратному повторению позиции",
+      "Пат",
+      "Поражение белых",
+      "Штраф 2 минуты"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_73",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 2,
+    "question": "Может ли король делать рокировку, если поле, через которое он должен переступить, находится под боем фигуры соперника?",
+    "options": [
+      "Нет, через битое поле рокировать запрещено правилами",
+      "Да, если сам король не под шахом",
+      "Да, если это короткая рокировка",
+      "Да, если ладья защищена"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_74",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Какое условное очковое соотношение принято в теории шахмат для ценности ладьи по сравнению с пешками?",
+    "options": [
+      "5 пешек",
+      "3 пешки",
+      "9 пешек",
+      "7 пешек"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_chess_75",
+    "categoryId": "sports",
+    "subcategoryId": "sports_chess",
+    "difficulty": 1,
+    "question": "Сколько пешек ориентировочно составляет боевая сила ферзя в классической шкале ценности фигур?",
+    "options": [
+      "9 пешек",
+      "5 пешек",
+      "7 пешек",
+      "12 пешек"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

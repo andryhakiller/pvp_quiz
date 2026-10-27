@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "sports_football_1",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой футбольный клуб выиграл Лигу чемпионов УЕФА рекордное количество раз (более 14 титулов)?",
+    "options": [
+      "«Реал Мадрид»",
+      "«Милан»",
+      "«Бавария»",
+      "«Ливерпуль»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_2",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какая сборная выиграла наибольшее количество чемпионатов мира по футболу (5 раз)?",
+    "options": [
+      "Бразилия",
+      "Германия",
+      "Италия",
+      "Аргентина"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_3",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Кто из футболистов является обладателем наибольшего числа наград «Золотой мяч» (8 трофеев)?",
+    "options": [
+      "Лионель Месси",
+      "Криштиану Роналду",
+      "Мишель Платини",
+      "Йохан Кройф"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_4",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "В каком знаменитом матче финала Лиги чемпионов 2005 года в Стамбуле «Ливерпуль» отыгрался со счета 0:3 против «Милана»?",
+    "options": [
+      "«Чудо в Стамбуле»",
+      "«Битва на Энфилде»",
+      "«Мюнхенская драма»",
+      "«Римский камбэк»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_5",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Как в футболе называют удар по мячу через себя в падении спиной к воротам?",
+    "options": [
+      "Бисиклета",
+      "Паненка",
+      "Рабона",
+      "Эластико"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_6",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой легендарный аргентинский футболист забил знаменитый гол «Рука Бога» в ворота Англии на ЧМ-1986?",
+    "options": [
+      "Диего Марадона",
+      "Марио Кемпес",
+      "Габриэль Батистута",
+      "Альфредо Ди Стефано"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_7",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой единственный советский вратарь в истории футбола был удостоен награды «Золотой мяч» (1963 год)?",
+    "options": [
+      "Лев Яшин",
+      "Ринат Дасаев",
+      "Игорь Акинфеев",
+      "Владимир Маслаченко"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_8",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какое расстояние от линии ворот до точки пробития пенальти (одиннадцатиметрового удара)?",
+    "options": [
+      "11 метров (12 ярдов)",
+      "9,15 метра",
+      "10 метров",
+      "12 метров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_9",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Как называется дерби между испанскими грандами «Реал Мадрид» и «Барселона»?",
+    "options": [
+      "«Эль-Класико»",
+      "«Дерби делла Мадоннина»",
+      "«Суперкласико»",
+      "«Рурское дерби»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_10",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой тренер выиграл чемпионат Англии с клубом-аутсайдером «Лестер Сити» в сезоне 2015/2016 с коэффициентом 5000 к 1?",
+    "options": [
+      "Клаудио Раньери",
+      "Жозе Моуринью",
+      "Карло Анчелотти",
+      "Арсен Венгер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_11",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какое минимальное количество игроков должно оставаться на поле в команде, чтобы футбольный матч не был прекращен?",
+    "options": [
+      "7 игроков",
+      "8 игроков",
+      "6 игроков",
+      "9 игроков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_12",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой португальский клуб выиграл Лигу чемпионов в 2004 году под руководством молодого Жозе Моуринью?",
+    "options": [
+      "«Порту»",
+      "«Бенфика»",
+      "«Спортинг»",
+      "«Брага»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_13",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "В каком году и в какой стране состоялся первый в истории чемпионат мира по футболу?",
+    "options": [
+      "1930 год, Уругвай",
+      "1934 год, Италия",
+      "1950 год, Бразилия",
+      "1928 год, Франция"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_14",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой футбольный финт заключается в скрещивании ног при ударе, когда бьющая нога заводится сзади опорной?",
+    "options": [
+      "Рабона",
+      "Фока",
+      "Хамелеон",
+      "Сомбреро"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_15",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Кто забил решающий победный пенальти за сборную Италии в финале чемпионата мира 2006 года против Франции?",
+    "options": [
+      "Фабио Гроссо",
+      "Франческо Тотти",
+      "Андреа Пирло",
+      "Алессандро Дель Пьеро"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_16",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой французский футболист забил три гола (хет-трик) в финале чемпионата мира 2022 года в Катаре?",
+    "options": [
+      "Килиан Мбаппе",
+      "Антуан Гризманн",
+      "Карим Бензема",
+      "Оливье Жиру"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_17",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой знаменитый лондонский стадион имеет арку высотой 134 метра и вмещает 90 тысяч зрителей?",
+    "options": [
+      "«Уэмбли»",
+      "«Эмирейтс»",
+      "«Стэмфорд Бридж»",
+      "«Тоттенхэм Хотспур Стэдиум»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_18",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Как называется ситуация в футболе, когда игрок атакующей команды находится ближе к линии ворот соперника, чем мяч и предпоследний игрок соперника?",
+    "options": [
+      "Офсайд (положение «вне игры»)",
+      "Аут",
+      "Фол последней надежды",
+      "Свободный удар"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_19",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой нидерландский тренер и теоретик создал всемирно известную концепцию «тотального футбола» в 1970-х годах?",
+    "options": [
+      "Ринус Михелс",
+      "Йохан Кройф",
+      "Луи ван Гал",
+      "Гус Хиддинк"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_20",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Кто из игроков стал лучшим бомбардиром сборной России на домашнем чемпионате мира 2018 года (по 3 гола)?",
+    "options": [
+      "Артем Дзюба и Денис Черышев",
+      "Александр Головин и Федор Смолов",
+      "Марио Фернандес и Алан Дзагоев",
+      "Роман Зобнин и Юрий Газинский"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_21",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой клуб Российской Премьер-Лиги впервые стал чемпионом страны под руководством Юрия Сёмина в 2002 году?",
+    "options": [
+      "«Локомотив» (Москва)",
+      "«Спартак» (Москва)",
+      "ЦСКА",
+      "«Зенит»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_22",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какое наказание получает игрок за «фол последней надежды» (лишение явной возможности забить гол без попытки сыграть в мяч)?",
+    "options": [
+      "Прямая красная карточка",
+      "Желтая карточка",
+      "Предупреждение капитану",
+      "Удаление на 10 минут"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_23",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Как неофициально называют сборную Нидерландов из-за традиционного цвета игровой формы?",
+    "options": [
+      "«Оранжевые»",
+      "«Красная фурия»",
+      "«Тре крунур»",
+      "«Альбиселесте»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_24",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Кто установил абсолютный рекорд по числу голов за календарный год (91 гол в 2012 году)?",
+    "options": [
+      "Лионель Месси",
+      "Герд Мюллер",
+      "Криштиану Роналду",
+      "Роберт Левандовски"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_25",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой стадион в Барселоне является крупнейшим футбольным стадионом в Европе?",
+    "options": [
+      "«Камп Ноу»",
+      "«Сантьяго Бернабеу»",
+      "«Сан-Сиро»",
+      "«Олимпийский стадион»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_26",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Как называется способ пробития пенальти мягким парашютом по центру ворот в расчете на падение вратаря в угол?",
+    "options": [
+      "«Удар Паненки»",
+      "«Сухой лист»",
+      "«Удар наклбол»",
+      "«Падающий лист»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_27",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой клуб выиграл Английскую Премьер-лигу в сезоне 2003/2004 без единого поражения («Непобедимые»)?",
+    "options": [
+      "«Арсенал»",
+      "«Манчестер Юнайтед»",
+      "«Челси»",
+      "«Ливерпуль»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_28",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой немецкий нападающий является лучшим бомбардиром в истории финальных турниров чемпионатов мира (16 голов)?",
+    "options": [
+      "Мирослав Клозе",
+      "Роналдо (Бразилия)",
+      "Герд Мюллер",
+      "Пеле"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_29",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какая система видеопомощи арбитрам была официально внедрена в правила футбола в 2018 году?",
+    "options": [
+      "VAR (Video Assistant Referee)",
+      "Hawk-Eye",
+      "Goal-Control",
+      "RefWatch"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_30",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой знаменитый советский и украинский тренер возглавлял киевское «Динамо» и привел клуб к двум Кубкам обладателей кубков?",
+    "options": [
+      "Валерий Лобановский",
+      "Константин Бесков",
+      "Эдуард Малофеев",
+      "Олег Романцев"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_31",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Сколько замен разрешено делать командам в основное время матча по современным правилам FIFA (с 2020 года)?",
+    "options": [
+      "5 замен (в 3 слота)",
+      "3 замены",
+      "4 замены",
+      "6 замен"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_32",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какая сборная сенсационно выиграла чемпионат Европы 2004 года в Португалии, играя в закрытый оборонительный футбол?",
+    "options": [
+      "Греция",
+      "Чехия",
+      "Дания",
+      "Турция"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_33",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой номер на футболке традиционно ассоциируется с позицией классического плеймейкера и атакующего полузащитника?",
+    "options": [
+      "Номер 10",
+      "Номер 9",
+      "Номер 7",
+      "Номер 1"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_34",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Кто был капитаном сборной Франции на победном домашнем чемпионате мира 1998 года?",
+    "options": [
+      "Дидье Дешам",
+      "Зинедин Зидан",
+      "Марсель Десайи",
+      "Лоран Блан"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_35",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой бразильский форвард получил прозвище «Зубастик» и оформил дубль в финале ЧМ-2002 против Германии?",
+    "options": [
+      "Роналдо",
+      "Роналдиньо",
+      "Ривалдо",
+      "Ромарио"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_36",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Сколько длится стандартный овертайм (дополнительное время) в матчах плей-офф до серии пенальти?",
+    "options": [
+      "Два тайма по 15 минут",
+      "Один тайм 20 минут",
+      "Два тайма по 10 минут",
+      "Один тайм 15 минут"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_37",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой клуб в 2019 году совершил легендарный камбэк в полуфинале ЛЧ, обыграв «Барселону» со счетом 4:0 после 0:3 в первом матче?",
+    "options": [
+      "«Ливерпуль»",
+      "«Тоттенхэм»",
+      "«Аякс»",
+      "«Манчестер Сити»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_38",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой футболист забил знаменитый гол «ударом скорпиона» за лондонский «Арсенал» в 2017 году, получив премию Пушкаша?",
+    "options": [
+      "Оливье Жиру",
+      "Месут Озил",
+      "Алексис Санчес",
+      "Аарон Рэмзи"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_39",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой единственный африканский футболист в истории стал обладателем «Золотого мяча» (в 1995 году)?",
+    "options": [
+      "Джордж Веа",
+      "Самюэль Это’о",
+      "Дидье Дрогба",
+      "Садио Мане"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_40",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какое прозвище носит туринский клуб «Ювентус»?",
+    "options": [
+      "«Старая синьора»",
+      "«Сливочные»",
+      "«Матрасники»",
+      "«Нерадзурри»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_41",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой футболист исполнял штрафные удары с уникальной непредсказуемой траекторией «наклбол» в конце 2000-х?",
+    "options": [
+      "Криштиану Роналду",
+      "Дэвид Бекхэм",
+      "Роберто Карлос",
+      "Андреа Пирло"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_42",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой клуб выиграл Лигу Европы УЕФА рекордное количество раз (более 7 побед)?",
+    "options": [
+      "«Севилья»",
+      "«Атлетико Мадрид»",
+      "«Интер»",
+      "«Челси»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_43",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой английский клуб в 1999 году завоевал исторический «требл» под руководством сэра Алекса Фергюсона?",
+    "options": [
+      "«Манчестер Юнайтед»",
+      "«Манчестер Сити»",
+      "«Челси»",
+      "«Ливерпуль»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_44",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "За какую сборную на международном уровне выступал великий футболист Эйсебио («Черная пантера»)?",
+    "options": [
+      "Португалия",
+      "Мозамбик",
+      "Ангола",
+      "Испания"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_45",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой длины должна быть стандартная футбольная разметка ворот (расстояние между штангами)?",
+    "options": [
+      "7,32 метра (8 ярдов)",
+      "6,50 метра",
+      "7,00 метров",
+      "8,00 метров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_46",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какая страна принимала первый чемпионат Европы по футболу в 1960 году, победителем которого стала сборная СССР?",
+    "options": [
+      "Франция",
+      "Югославия",
+      "Испания",
+      "СССР"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_47",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой российский футболист оформил покер (4 гола) на стадионе «Энфилд» в матче против «Ливерпуля» в 2009 году?",
+    "options": [
+      "Андрей Аршавин",
+      "Роман Павлюченко",
+      "Павел Погребняк",
+      "Александр Кержаков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_48",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Как называется ситуация, когда футболист забивает три гола за один матч?",
+    "options": [
+      "Хет-трик",
+      "Дубль",
+      "Покер",
+      "Пента-трик"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_49",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой арбитр судил финал ЧМ-2002 и финал ЛЧ-1999 и считался самым авторитетным судьей своего поколения?",
+    "options": [
+      "Пьерлуиджи Коллина",
+      "Маркус Мерк",
+      "Ховард Уэбб",
+      "Нестор Питана"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_50",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой футбольный клуб в Германии принципиально принадлежит болельщикам по правилу «50+1»?",
+    "options": [
+      "«Боруссия Дортмунд»",
+      "«РБ Лейпциг»",
+      "«Вольфсбург»",
+      "«Байер 04»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_51",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "В каком южноамериканском дерби встречаются непримиримые клубы «Бока Хуниорс» и «Ривер Плейт»?",
+    "options": [
+      "«Суперкласико» Аргентины",
+      "«Класико Махмуд»",
+      "«Фла-Флу»",
+      "«Дерби Паулиста»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_52",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Кто стал автором легендарного гола ударом с лета в девятку в финале ЛЧ 2002 года «Реал» — «Байер»?",
+    "options": [
+      "Зинедин Зидан",
+      "Рауль Гонсалес",
+      "Роберто Карлос",
+      "Луиш Фигу"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_53",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какое официальное прозвище носит сборная Испании по футболу?",
+    "options": [
+      "«Красная фурия» (La Furia Roja)",
+      "«Скуадра Адзурра»",
+      "«Селесао»",
+      "«Шашечные»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_54",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой приз вручается лучшему молодому футболисту года в Европе (до 21 года)?",
+    "options": [
+      "Golden Boy",
+      "Золотая бутса",
+      "Трофей Копа",
+      "Приз ФИФПро"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_55",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Кто из вратарей забил за карьеру более 130 официальных голов со штрафных и пенальти?",
+    "options": [
+      "Рожерио Сени",
+      "Хосе Луис Чилаверт",
+      "Рене Игита",
+      "Хорхе Кампос"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_56",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой колумбийский вратарь прославился трюком «удар скорпиона» в матче против Англии на «Уэмбли»?",
+    "options": [
+      "Рене Игита",
+      "Оскар Кордоба",
+      "Давид Оспина",
+      "Фарид Мондрагон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_57",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой итальянский клуб известен тем, что закрепил номер 3 навечно за легендарным защитником Паоло Мальдини?",
+    "options": [
+      "«Милан»",
+      "«Интер»",
+      "«Ювентус»",
+      "«Рома»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_58",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 3,
+    "question": "Какое максимальное давление воздуха должно быть в стандартном футбольном мяче (размер 5)?",
+    "options": [
+      "0,6 – 1,1 атмосферы",
+      "1,5 – 2,0 атмосферы",
+      "0,2 – 0,4 атмосферы",
+      "2,5 атмосферы"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_59",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Кто является рекордсменом по числу матчей за сборную Португалии и лучшим бомбардиром сборных в истории?",
+    "options": [
+      "Криштиану Роналду",
+      "Луиш Фигу",
+      "Эйсебио",
+      "Пепе"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_60",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой клуб стал победителем Лиги чемпионов сезона 2022/2023, оформив исторический требл под руководством Гвардиолы?",
+    "options": [
+      "«Манчестер Сити»",
+      "«Интер»",
+      "«Реал Мадрид»",
+      "«Бавария»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_61",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "В каком году сборная Дании, попавшая на Евро вместо Югославии в последний момент с пляжей, стала чемпионом Европы?",
+    "options": [
+      "1992 год",
+      "1988 год",
+      "1996 год",
+      "2000 год"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_62",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой испанский клуб называют «Матрасниками» (Los Colchoneros) из-за красно-белых полосатых футболок?",
+    "options": [
+      "«Атлетико Мадрид»",
+      "«Атлетик Бильбао»",
+      "«Севилья»",
+      "«Валенсия»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_63",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Кто отдал знаменитый пас с углового «Corner taken quickly... Origi!», выбивший «Барселону» из ЛЧ в 2019 году?",
+    "options": [
+      "Трент Александер-Арнольд",
+      "Джордан Хендерсон",
+      "Садио Мане",
+      "Джеймс Милнер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_64",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какое прозвище носит лондонский стадион клуба «Челси»?",
+    "options": [
+      "«Стэмфорд Бридж»",
+      "«Крейвен Коттедж»",
+      "«Вайт Харт Лейн»",
+      "«Селхерст Парк»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_65",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Кто тренировал сборную России, дошедшую до бронзовых медалей на чемпионате Европы 2008 года?",
+    "options": [
+      "Гус Хиддинк",
+      "Дик Адвокат",
+      "Фабио Капелло",
+      "Станислав Черчесов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_66",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой игрок получил «Золотой мяч» чемпионата мира 2018 года в России как лучший игрок турнира?",
+    "options": [
+      "Лука Модрич",
+      "Антуан Гризманн",
+      "Эден Азар",
+      "Килиан Мбаппе"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_67",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какое правило отменила FIFA в начале 2000-х, согласно которому матч в овертайме заканчивался сразу после первого забитого гола?",
+    "options": [
+      "Правило «золотого гола»",
+      "Правило офсайда",
+      "Правило трех пасов назад",
+      "Правило чистого времени"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_68",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой нападающий сборной Нидерландов забил фантастический гол с лета с острейшего угла в финале Евро-1988 сборной СССР?",
+    "options": [
+      "Марко ван Бастен",
+      "Рууд Гуллит",
+      "Франк Райкард",
+      "Рональд Куман"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_69",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "В каком немецком городе базируется футбольный клуб «Боруссия», стадион которого славится «Желтой стеной»?",
+    "options": [
+      "Дортмунд",
+      "Менхенгладбах",
+      "Гельзенкирхен",
+      "Дюссельдорф"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_70",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой единственный клуб в истории Российской Премьер-Лиги выигрывал Кубок УЕФА (в 2005 году)?",
+    "options": [
+      "ЦСКА",
+      "«Зенит»",
+      "«Спартак»",
+      "«Локомотив»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_71",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой шотландский клуб вместе с «Селтиком» образует знаменитое религиозно-футбольное дерби «Old Firm»?",
+    "options": [
+      "«Глазго Рейнджерс»",
+      "«Абердин»",
+      "«Хартс»",
+      "«Хиберниан»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_72",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой легендарный венгерский нападающий 1950-х годов дал имя ежегодной награде FIFA за самый красивый гол сезона?",
+    "options": [
+      "Ференц Пушкаш",
+      "Шандор Кочиш",
+      "Нандор Хидегкути",
+      "Золтан Цибор"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_73",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 2,
+    "question": "Какой итальянский клуб победил в финале Лиги чемпионов 2010 года на «Сантьяго Бернабеу», оформив «золотой хет-трик»?",
+    "options": [
+      "«Интернационале» (Интер)",
+      "«Милан»",
+      "«Ювентус»",
+      "«Рома»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_74",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Сколько игроков в одной команде одновременно находится на поле во время футзального матча (мини-футбол)?",
+    "options": [
+      "5 игроков (4 полевых + вратарь)",
+      "6 игроков",
+      "7 игроков",
+      "4 игрока"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_football_75",
+    "categoryId": "sports",
+    "subcategoryId": "sports_football",
+    "difficulty": 1,
+    "question": "Какой футбольный клуб носит неофициальное прозвище «Шпоры» (Spurs)?",
+    "options": [
+      "«Тоттенхэм Хотспур»",
+      "«Вест Хэм Юнайтед»",
+      "«Эвертон»",
+      "«Астон Вилла»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

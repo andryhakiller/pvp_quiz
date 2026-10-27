@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "sports_basketball_1",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой легендарный баскетболист выиграл 6 чемпионских титулов с «Чикаго Буллз» и считается величайшим игроком всех времен?",
+    "options": [
+      "Майкл Джордан",
+      "Коби Брайант",
+      "Мэджик Джонсон",
+      "Ларри Берд"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_2",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Кто стал абсолютным рекордсменом НБА по общему количеству набранных очков за карьеру, обогнав Карима Абдул-Джаббара?",
+    "options": [
+      "Леброн Джеймс",
+      "Майкл Джордан",
+      "Коби Брайант",
+      "Карл Мэлоун"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_3",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Сколько времени дается атакующей команде в НБА и европейском баскетболе на проведение атаки и бросок по кольцу?",
+    "options": [
+      "24 секунды",
+      "30 секунд",
+      "20 секунд",
+      "35 секунд"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_4",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "На какой высоте над уровнем пола закреплено стандартное баскетбольное кольцо?",
+    "options": [
+      "3,05 метра (10 футов)",
+      "2,90 метра",
+      "3,20 метра",
+      "3,00 метра"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_5",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой игрок «Голден Стэйт Уорриорз» совершил революцию в баскетболе своими дальними трехочковыми бросками?",
+    "options": [
+      "Стефен Карри",
+      "Клей Томпсон",
+      "Джеймс Харден",
+      "Кевин Дюрант"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_6",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой легендарный защитник «Лос-Анджелес Лейкерс» набрал феноменальное 81 очко в одном матче против «Торонто» в 2006 году?",
+    "options": [
+      "Коби Брайант",
+      "Шакил О’Нил",
+      "Аллен Айверсон",
+      "Трэйси Макгрэди"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_7",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Как в баскетболе называется бросок сверху двумя или одной рукой прямо в кольцо?",
+    "options": [
+      "Данк (слэм-данк)",
+      "Лэй-ап",
+      "Флоутер",
+      "Крюк"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_8",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Сколько очков начисляется за успешный точный бросок с линии штрафного броска?",
+    "options": [
+      "1 очко",
+      "2 очка",
+      "3 очка",
+      "0 очков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_9",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какое правило запрещает атакующему игроку непрерывно находиться в трехсекундной зоне («краске») под кольцом соперника?",
+    "options": [
+      "Правило трех секунд",
+      "Правило пяти секунд",
+      "Правило восьми секунд",
+      "Правило пробежки"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_10",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой центровой «Филадельфии» набрал рекордные в истории НБА 100 очков в одном матче в 1962 году?",
+    "options": [
+      "Уилт Чемберлен",
+      "Билл Расселл",
+      "Карим Абдул-Джаббар",
+      "Джордж Майкен"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_11",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Как называется нарушение правил, когда игрок с мячом делает больше двух шагов без ведения (дриблинга)?",
+    "options": [
+      "Пробежка",
+      "Двойное ведение",
+      "Пронос мяча",
+      "Фол в нападении"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_12",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой российский клуб становился многократным победителем баскетбольной Евролиги под руководством Мессины и Итудиса?",
+    "options": [
+      "ЦСКА (Москва)",
+      "«Химки»",
+      "УНИКС",
+      "«Локомотив-Кубань»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_13",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Сколько персональных фолов может получить игрок в матче НБА до удаления с площадки до конца игры?",
+    "options": [
+      "6 фолов",
+      "5 фолов",
+      "4 фола",
+      "7 фолов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_14",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Сколько персональных фолов допускается по правилам Международной федерации баскетбола (ФИБА)?",
+    "options": [
+      "5 фолов",
+      "6 фолов",
+      "4 фола",
+      "3 фола"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_15",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Как называется легендарная олимпийская сборная США 1992 года в Барселоне с Джорданом, Мэджиком и Бердом?",
+    "options": [
+      "«Dream Team» («Команда мечты»)",
+      "«All-Stars»",
+      "«Redeem Team»",
+      "«Golden Roster»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_16",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Кто стал автором легендарного золотого паса через всю площадку Александру Белову за 3 секунды до конца финала Олимпиады-1972 СССР — США?",
+    "options": [
+      "Иван Едешко",
+      "Модестас Паулаускас",
+      "Сергей Белов",
+      "Алжан Жармухамедов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_17",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Как называется ситуация, когда игрок за один матч набирает двузначные показатели сразу в трех статистических категориях?",
+    "options": [
+      "Трипл-дабл",
+      "Дабл-дабл",
+      "Квадрупл-дабл",
+      "Хет-трик"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_18",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой доминирующий центровой весом около 150 кг крушил щиты и выигрывал три чемпионских титула подряд с «Лейкерс»?",
+    "options": [
+      "Шакил О’Нил",
+      "Хаким Оладжьювон",
+      "Патрик Юинг",
+      "Дэвид Робинсон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_19",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Сколько четвертей длится стандартный баскетбольный матч в НБА и какова их продолжительность?",
+    "options": [
+      "4 четверти по 12 минут",
+      "4 четверти по 10 минут",
+      "2 половины по 20 минут",
+      "4 четверти по 15 минут"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_20",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какова продолжительность четверти в европейском баскетболе по правилам ФИБА?",
+    "options": [
+      "10 минут чистого времени",
+      "12 минут",
+      "15 минут",
+      "8 минут"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_21",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой греческий форвард родом из Нигерии по прозвищу «Грик Фрик» стал чемпионом и MVP финала НБА с «Милуоки Бакс»?",
+    "options": [
+      "Яннис Адетокунбо",
+      "Никола Йокич",
+      "Лука Дончич",
+      "Руди Гобер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_22",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой сербский центровой «Денвер Наггетс» стал трехкратным MVP НБА, славясь гениальными передачами через всю площадку?",
+    "options": [
+      "Никола Йокич",
+      "Богдан Богданович",
+      "Никола Вучевич",
+      "Бобан Марьянович"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_23",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какое расстояние от кольца до трехочковой дуги на вершине по стандартам НБА?",
+    "options": [
+      "7,24 метра (23 фута 9 дюймов)",
+      "6,75 метра",
+      "6,25 метра",
+      "7,50 метра"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_24",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какое расстояние до трехочковой линии по стандартам Международной федерации баскетбола (ФИБА)?",
+    "options": [
+      "6,75 метра",
+      "7,24 метра",
+      "6,25 метра",
+      "7,00 метров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_25",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Кто придумал баскетбол в 1891 году, привязав две корзины из-под персиков к перилам балкона спортзала?",
+    "options": [
+      "Джеймс Нейсмит",
+      "Уолтер Кэмп",
+      "Уильям Морган",
+      "Эбнер Даблдей"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_26",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой немецкий баскетболист провел все 21 сезон карьеры в «Даллас Маверикс» и привел клуб к чемпионству в 2011 году?",
+    "options": [
+      "Дирк Новицки",
+      "Детлеф Шремпф",
+      "Деннис Шредер",
+      "Даниэль Тайс"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_27",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Как в баскетболе называют финт со сменой направления движения с резким переводом мяча с одной руки на другую перед защитником?",
+    "options": [
+      "Кроссовер",
+      "Степ-бэк",
+      "Пивот",
+      "Евростеп"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_28",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой низкорослый защитник (183 см) с косичками и феноменальным кроссовером был иконой уличного стиля в НБА 2000-х?",
+    "options": [
+      "Аллен Айверсон",
+      "Крис Пол",
+      "Стив Нэш",
+      "Тони Паркер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_29",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Что происходит, если матч заканчивается с равным счетом в основное время?",
+    "options": [
+      "Назначается овертайм длительностью 5 минут",
+      "Назначается серия штрафных бросков",
+      "Фиксируется ничья",
+      "Игра продолжается до первого забитого мяча"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_30",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Сколько секунд дается команде на то, чтобы перевести мяч из своей половины площадки в передовую зону атаки?",
+    "options": [
+      "8 секунд",
+      "10 секунд",
+      "5 секунд",
+      "12 секунд"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_31",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой клуб НБА завоевал наибольшее количество чемпионских титулов в истории (18 титулов к 2024 году)?",
+    "options": [
+      "«Бостон Селтикс»",
+      "«Лос-Анджелес Лейкерс»",
+      "«Голден Стэйт Уорриорз»",
+      "«Чикаго Буллз»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_32",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой легендарный центровой «Бостон Селтикс» выиграл рекордные 11 чемпионских перстней в качестве игрока?",
+    "options": [
+      "Билл Расселл",
+      "Уилт Чемберлен",
+      "Джон Хавличек",
+      "Ларри Берд"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_33",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой российский центровой выступал за «Кливленд Кавальерс» и стал первым чемпионом НБА из России в 2016 году?",
+    "options": [
+      "Тимофей Мозгов",
+      "Андрей Кириленко",
+      "Алексей Швед",
+      "Виктор Хряпа"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_34",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой российский форвард по прозвищу «АК-47» выступал за «Юту Джаз» и входил в сборную всех звезд защиты НБА?",
+    "options": [
+      "Андрей Кириленко",
+      "Сергей Моня",
+      "Виталий Фридзон",
+      "Семен Антонов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_35",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Как называется тактический прием, когда игрок атаки ставит корпус перед защитником, освобождая дорогу партнеру с мячом?",
+    "options": [
+      "Заслон (Pick and roll)",
+      "Пресссинг",
+      "Зонная защита",
+      "Фолаут"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_36",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой фирменный элемент броска с отклонением назад и одной ногой вперед прославил Дирка Новицки?",
+    "options": [
+      "Бросок с отклонением (Fadeaway на одной ноге)",
+      "Крюк Карима",
+      "Степ-бэк трехочковый",
+      "Флоутер со щитом"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_37",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой уникальный бросок центрового Карима Абдул-Джаббара было практически невозможно заблокировать?",
+    "options": [
+      "«Небесный крюк» (Skyhook)",
+      "Слэм-данк с двух рук",
+      "Трехочковый со щита",
+      "Бросок из-под юбки"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_38",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Сколько времени дается игроку на ввод мяча в игру из аута?",
+    "options": [
+      "5 секунд",
+      "3 секунды",
+      "8 секунд",
+      "10 секунд"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_39",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой знаменитый китайский центровой ростом 229 см играл за «Хьюстон Рокетс» и стал глобальным послом баскетбола в Азии?",
+    "options": [
+      "Яо Мин",
+      "Ван Чжичжи",
+      "И Цзяньлянь",
+      "Сунь Минмин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_40",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Как называется прием дриблинга, когда атакующий игрок делает резкий длинный шаг в одну сторону и второй шаг в другую перед кольцом?",
+    "options": [
+      "Евростеп",
+      "Спин-мув",
+      "Шэмгод",
+      "Джаб-степ"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_41",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой аргентинский защитник прославился евростепом и завоевал 4 чемпионских титула с «Сан-Антонио Спёрс»?",
+    "options": [
+      "Ману Джинобили",
+      "Луис Скола",
+      "Факундо Кампаццо",
+      "Андрес Носиони"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_42",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой тренер привел «Чикаго Буллз» и «Лос-Анджелес Лейкерс» к 11 чемпионским перстням, используя систему «треугольного нападения»?",
+    "options": [
+      "Фил Джексон",
+      "Грегг Попович",
+      "Пэт Райли",
+      "Стив Керр"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_43",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какое нарушение фиксируется, если игрок после завершения ведения мяча и взятия его в две руки снова начинает дриблинг?",
+    "options": [
+      "Двойное ведение",
+      "Пробежка",
+      "Неспортивный фол",
+      "Пронос мяча"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_44",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой приз ежегодно вручается самому ценному игроку регулярного сезона НБА?",
+    "options": [
+      "MVP (Трофей Майкла Джордана)",
+      "Кубок Ларри О’Брайена",
+      "Приз Билла Расселла",
+      "Трофей Реда Ауэрбаха"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_45",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какая сборная сенсационно победила звездную сборную США в полуфинале Олимпиады 2004 года в Афинах?",
+    "options": [
+      "Аргентина",
+      "Литва",
+      "Италия",
+      "Испания"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_46",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Кто стал победителем конкурса слэм-данков НБА при росте всего 168 см в 1986 году?",
+    "options": [
+      "Спад Уэбб",
+      "Магси Богз",
+      "Нейт Робинсон",
+      "Айзейя Томас"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_47",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой самый низкорослый игрок в истории НБА имел рост всего 160 см и успешно играл 14 сезонов в лиге?",
+    "options": [
+      "Магси Богз",
+      "Эрл Бойкинс",
+      "Спад Уэбб",
+      "Нейт Робинсон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_48",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Как называется баскетбольная игра на одно кольцо составами 3 на 3, ставшая олимпийским видом спорта в Токио-2020?",
+    "options": [
+      "Баскетбол 3х3 (стритбол)",
+      "Мини-баскетбол",
+      "Стрит-хупс",
+      "Овертайм-бол"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_49",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 3,
+    "question": "Какое максимальное количество тайм-аутов может взять команда в концовке матча НБА?",
+    "options": [
+      "До 7 тайм-аутов за всю игру",
+      "Не более 3",
+      "Не более 10",
+      "Неограниченно при фолах"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_50",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой французский вундеркинд ростом 224 см с размахом рук 244 см был выбран под первым номером драфта НБА 2023 года?",
+    "options": [
+      "Виктор Вембаньяма",
+      "Руди Гобер",
+      "Алекс Сарр",
+      "Билаль Кулибали"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_51",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой словенский разыгрывающий набрал 73 очка за один матч в составе «Даллас Маверикс» в 2024 году?",
+    "options": [
+      "Лука Дончич",
+      "Горан Драгич",
+      "Богдан Богданович",
+      "Рики Рубио"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_52",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какое прозвище носит домашняя арена «Нью-Йорк Никс», считающаяся Меккой мирового баскетбола?",
+    "options": [
+      "«Мэдисон-сквер-гарден»",
+      "«Барклайс-центр»",
+      "«Крипто.ком Арена»",
+      "«Юнайтед-центр»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_53",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой защитник «Хьюстон Рокетс» и «Филадельфии» прославился густой бородой и коронным броском со степ-бэком?",
+    "options": [
+      "Джеймс Харден",
+      "Расселл Уэстбрук",
+      "Дэмьен Лиллард",
+      "Кайри Ирвинг"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_54",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Что фиксирует судья, если мяч при броске по кольцу коснулся щита или начал опускаться к кольцу, а защитник сбил его?",
+    "options": [
+      "Голтендинг (автоматическое засчитывание попадания)",
+      "Фол в защите",
+      "Спорный мяч",
+      "Технический фол"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_55",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой номер носил Майкл Джордан на протяжении большей части своей легендарной карьеры в «Чикаго Буллз»?",
+    "options": [
+      "23",
+      "45",
+      "9",
+      "12"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_56",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Под какими двумя номерами выступал Коби Брайант в «Лейкерс», оба из которых клуб вывел из обращения?",
+    "options": [
+      "8 и 24",
+      "23 и 6",
+      "10 и 20",
+      "3 и 33"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_57",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой разыгрывающий выиграл титул чемпиона НБА с тремя разными франшизами (Майами, Кливленд, Лейкерс)?",
+    "options": [
+      "Леброн Джеймс",
+      "Кавай Леонард",
+      "Роберт Орри",
+      "Рэй Аллен"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_58",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какое прозвище носил легкий форвард «Бостон Селтикс» Ларри Берд?",
+    "options": [
+      "«Легенда Ларри»",
+      "«Почтальон»",
+      "«Черная Мамба»",
+      "«Сэр Чарльз»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_59",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой канадский разыгрывающий дважды подряд признавался MVP НБА (2005, 2006) в составе быстрого «Финикс Санз»?",
+    "options": [
+      "Стив Нэш",
+      "Джейсон Кидд",
+      "Крис Пол",
+      "Гэри Пэйтон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_60",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Как в баскетболе называется ошибка, при которой игрок касается ногой или частью тела мяча?",
+    "options": [
+      "Умышленная игра ногой",
+      "Фол задержки",
+      "Аут",
+      "Технический фол"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_61",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой игрок «Оклахомы» вошел в историю, оформив трипл-дабл в среднем за сезон на протяжении трех сезонов подряд?",
+    "options": [
+      "Расселл Уэстбрук",
+      "Кевин Дюрант",
+      "Джеймс Харден",
+      "Крис Пол"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_62",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой длины должна быть стандартная баскетбольная площадка по регламенту ФИБА и НБА?",
+    "options": [
+      "28 метров",
+      "30 метров",
+      "25 метров",
+      "32 метра"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_63",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какова стандартная ширина баскетбольной площадки?",
+    "options": [
+      "15 метров",
+      "12 метров",
+      "18 метров",
+      "16 метров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_64",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой мяч используется в официальных мужских соревнованиях по баскетболу (размер мяча)?",
+    "options": [
+      "Размер 7",
+      "Размер 6",
+      "Размер 5",
+      "Размер 8"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_65",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой размер мяча используется в официальных женских баскетбольных турнирах?",
+    "options": [
+      "Размер 6",
+      "Размер 7",
+      "Размер 5",
+      "Размер 4"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_66",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Кто стал самым молодым игроком, признанным MVP регулярного чемпионата НБА в возрасте 22 лет (2011 год)?",
+    "options": [
+      "Деррик Роуз",
+      "Леброн Джеймс",
+      "Майкл Джордан",
+      "Мэджик Джонсон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_67",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой центровой «Хьюстона» родом из Нигерии прославился обманными движениями «Dream Shake»?",
+    "options": [
+      "Хаким Оладжьювон",
+      "Патрик Юинг",
+      "Дикембе Мутомбо",
+      "Мануте Бол"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_68",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой жест пальцем показывал центровой Дикембе Мутомбо соперникам после каждого успешного блок-шота («Not in my house»)?",
+    "options": [
+      "Качал указательным пальцем из стороны в сторону",
+      "Прикладывал палец к губам",
+      "Показывал большой палец вниз",
+      "Сжимал кулак"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_69",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какое максимальное число очков может набрать игрок за одно владение без учета овертайма (фол при точном 3-очковом)?",
+    "options": [
+      "4 очка (3+1 штрафной)",
+      "3 очка",
+      "5 очков",
+      "6 очков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_70",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какая сборная сенсационно выиграла чемпионат Европы 2007 года в Мадриде благодаря победному броску Джей Си Холдена?",
+    "options": [
+      "Сборная России",
+      "Сборная Испании",
+      "Сборная Греции",
+      "Сборная Литвы"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_71",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Кто тренировал сборную России по баскетболу, завоевавшую золото Евробаскета-2007 и бронзу Олимпиады-2012?",
+    "options": [
+      "Дэвид Блатт",
+      "Этторе Мессина",
+      "Сергей Базаревич",
+      "Евгений Пашутин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_72",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 1,
+    "question": "Какой калифорнийский клуб выиграл четыре чемпионских титула НБА в период с 2015 по 2022 год?",
+    "options": [
+      "«Голден Стэйт Уорриорз»",
+      "«Лос-Анджелес Клипперс»",
+      "«Сакраменто Кингз»",
+      "«Лос-Анджелес Лейкерс»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_73",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой нападающий стал MVP финала НБА 2019 года, приведя канадский «Торонто Рэпторс» к первому чемпионству в истории?",
+    "options": [
+      "Кавай Леонард",
+      "Паскаль Сиакам",
+      "Кайл Лаури",
+      "Марк Газоль"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_74",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Как называется ситуация, когда мяч застревает между кольцом и щитом во время броска?",
+    "options": [
+      "Спорный мяч (по стрелке владения)",
+      "Технический фол",
+      "Потеря мяча",
+      "Повторный штрафной бросок"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_basketball_75",
+    "categoryId": "sports",
+    "subcategoryId": "sports_basketball",
+    "difficulty": 2,
+    "question": "Какой легендарный логотип НБА с силуэтом дриблера основан на фотографии какого реального игрока «Лейкерс»?",
+    "options": [
+      "Джерри Уэста",
+      "Уолта Фрейзера",
+      "Оскара Робертсона",
+      "Боба Коузи"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

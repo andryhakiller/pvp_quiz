@@ -21,12 +21,12 @@
     "difficulty": 2,
     "question": "Какой японский спорткар получил всемирное прозвище «Годзилла» (Godzilla)?",
     "options": [
+      "Mazda RX-7 Spirit",
       "Nissan Skyline GT-R",
       "Toyota Supra Turbo",
-      "Mazda RX-7 Spirit",
       "Honda NSX Type-R"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": "/images/trans_skyline_gtr.png"
   },
   {
@@ -36,12 +36,12 @@
     "difficulty": 3,
     "question": "Какой автомобиль доставки тофу прославился в культовом аниме Initial D?",
     "options": [
-      "Toyota Sprinter Trueno AE86",
       "Nissan Silvia S15",
       "Mazda MX-5 Miata",
-      "Mitsubishi Lancer Evo"
+      "Mitsubishi Lancer Evo",
+      "Toyota Sprinter Trueno AE86"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -51,12 +51,12 @@
     "difficulty": 1,
     "question": "Какой маслкар водил Доминик Торетто в культовой франшизе «Форсаж»?",
     "options": [
-      "Dodge Charger 1970",
-      "Ford Mustang Boss 429",
+      "Pontiac GTO Judge",
       "Chevrolet Camaro SS",
-      "Pontiac GTO Judge"
+      "Ford Mustang Boss 429",
+      "Dodge Charger 1970"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -66,12 +66,12 @@
     "difficulty": 2,
     "question": "В какой автомобиль был встроен темпоральный контур времени в фильме «Назад в будущее»?",
     "options": [
-      "DeLorean DMC-12",
+      "Lotus Esprit Turbo",
       "Ferrari Testarossa",
-      "Lamborghini Countach",
-      "Lotus Esprit Turbo"
+      "DeLorean DMC-12",
+      "Lamborghini Countach"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -81,12 +81,12 @@
     "difficulty": 3,
     "question": "Какой британский люксовый бренд оснащает свои колеса центральными эмблемами, которые не крутятся?",
     "options": [
+      "Jaguar Cars",
       "Rolls-Royce",
       "Bentley Motors",
-      "Aston Martin",
-      "Jaguar Cars"
+      "Aston Martin"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -96,12 +96,12 @@
     "difficulty": 1,
     "question": "Какой суперкар 1990-х годов имел центральную посадку водителя и моторный отсек с золотой фольгой?",
     "options": [
-      "McLaren F1",
-      "Bugatti EB110",
       "Jaguar XJ220",
+      "Bugatti EB110",
+      "McLaren F1",
       "Porsche 959"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -111,12 +111,12 @@
     "difficulty": 2,
     "question": "Какой немецкий автомобиль ласково называют «Жуком» (Käfer / Beetle)?",
     "options": [
-      "Volkswagen Kafer",
-      "Opel Kadett",
+      "Mercedes 190",
       "BMW Isetta",
-      "Mercedes 190"
+      "Volkswagen Kafer",
+      "Opel Kadett"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -126,12 +126,12 @@
     "difficulty": 3,
     "question": "Какая модель BMW получила у фанатов культовое прозвище «Акула» за агрессивный скос носа?",
     "options": [
-      "BMW E24 6-Series",
       "BMW E30 3-Series",
-      "BMW E39 5-Series",
-      "BMW E38 7-Series"
+      "BMW E24 6-Series",
+      "BMW E38 7-Series",
+      "BMW E39 5-Series"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -142,9 +142,9 @@
     "question": "Какой автомобиль Джеймса Бонда впервые получил пулеметы и кресло-катапульту в «Голдфингере»?",
     "options": [
       "Aston Martin DB5",
+      "Jaguar E-Type",
       "Lotus Esprit S1",
-      "BMW Z8 Roadster",
-      "Jaguar E-Type"
+      "BMW Z8 Roadster"
     ],
     "correctIndex": 0,
     "image": null
@@ -156,12 +156,12 @@
     "difficulty": 2,
     "question": "Какое культовое прозвище носит полноприводный седан Subaru Impreza со звездой ралли Колином Макреем?",
     "options": [
-      "Врыкса (WRX STI)",
-      "Эвик (Lancer Evolution)",
+      "Чайзер (Tourer V)",
       "Хачироку (Hachi-Roku)",
-      "Чайзер (Tourer V)"
+      "Эвик (Lancer Evolution)",
+      "Врыкса (WRX STI)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -171,12 +171,12 @@
     "difficulty": 3,
     "question": "Какой японский седан 1990-х годов с легендарным мотором 1JZ-GTE стал иконой дрифта в России?",
     "options": [
-      "Toyota Mark II / Chaser",
+      "Mazda 6 MPS",
       "Nissan Teana V6",
       "Honda Accord Euro-R",
-      "Mazda 6 MPS"
+      "Toyota Mark II / Chaser"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -186,12 +186,12 @@
     "difficulty": 1,
     "question": "Какой американский внедорожник берет начало от армейского многоцелевого вездехода Willys MB?",
     "options": [
-      "Jeep Wrangler",
       "Ford Bronco",
       "Chevrolet Tahoe",
+      "Jeep Wrangler",
       "Dodge Durango"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -201,12 +201,12 @@
     "difficulty": 2,
     "question": "Какой автомобиль стал первым в мире гиперкаром, преодолевшим рубеж скорости в 400 км/ч?",
     "options": [
+      "Pagani Zonda C12",
       "Bugatti Veyron 16.4",
       "Koenigsegg CC8S",
-      "Saleen S7 Twin Turbo",
-      "Pagani Zonda C12"
+      "Saleen S7 Twin Turbo"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -216,12 +216,12 @@
     "difficulty": 3,
     "question": "Какой спорткар оснащался легендарным трехсекционным роторным двигателем 13B-REW с завода?",
     "options": [
-      "Mazda RX-7 (FD3S)",
       "Toyota Supra (A80)",
+      "Mazda RX-7 (FD3S)",
       "Nissan 300ZX (Z32)",
       "Subaru SVX Boxer"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -231,12 +231,12 @@
     "difficulty": 1,
     "question": "Какой спорткар Энцо Феррари создал к 40-летию марки как свой последний одобренный шедевр?",
     "options": [
-      "Ferrari F40",
       "Ferrari 250 GTO",
       "Ferrari Enzo",
-      "Ferrari Testarossa"
+      "Ferrari Testarossa",
+      "Ferrari F40"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -248,8 +248,8 @@
     "options": [
       "Lamborghini Countach",
       "De Tomaso Pantera",
-      "Lancia Stratos HF",
-      "Maserati Bora"
+      "Maserati Bora",
+      "Lancia Stratos HF"
     ],
     "correctIndex": 0,
     "image": null
@@ -261,12 +261,12 @@
     "difficulty": 3,
     "question": "Какое прозвище получил советский внедорожник ВАЗ-2121 за сочетание полного привода и легкового кузова?",
     "options": [
-      "Нива",
       "Уазик",
-      "Буханка",
-      "Козел"
+      "Нива",
+      "Козел",
+      "Буханка"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -278,8 +278,8 @@
     "options": [
       "Volkswagen Type 2 (T1)",
       "Ford Econoline Van",
-      "Chevrolet Corvair Van",
-      "Citroen Type H"
+      "Citroen Type H",
+      "Chevrolet Corvair Van"
     ],
     "correctIndex": 0,
     "image": null
@@ -292,9 +292,9 @@
     "question": "Какая шведская автомобильная марка подарила миру трехточечный ремень безопасности, открыв патент?",
     "options": [
       "Volvo",
-      "Saab",
+      "Koenigsegg",
       "Scania",
-      "Koenigsegg"
+      "Saab"
     ],
     "correctIndex": 0,
     "image": null
@@ -307,8 +307,8 @@
     "question": "Какой родстер стал самым продаваемым двухместным спортивным автомобилем в мировой истории?",
     "options": [
       "Mazda MX-5 Miata",
-      "BMW Z3 Roadster",
       "Porsche Boxster",
+      "BMW Z3 Roadster",
       "Mercedes SLK AMG"
     ],
     "correctIndex": 0,
@@ -321,12 +321,12 @@
     "difficulty": 1,
     "question": "Какой советский автомобиль представительского класса имел прозвище «Чайка»?",
     "options": [
-      "ГАЗ-13 и ГАЗ-14",
+      "Волга ГАЗ-21",
       "ЗИЛ-111 и ЗИЛ-114",
-      "Москвич-408",
-      "Волга ГАЗ-21"
+      "ГАЗ-13 и ГАЗ-14",
+      "Москвич-408"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -336,12 +336,12 @@
     "difficulty": 2,
     "question": "Какой гиперкар из Швеции прославился дверями с уникальным механизмом «диэдрической синхро-спирали»?",
     "options": [
-      "Koenigsegg Agera",
       "Rimac Nevera",
+      "Apollo Intensa",
       "Pagani Huayra",
-      "Apollo Intensa"
+      "Koenigsegg Agera"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -352,9 +352,9 @@
     "question": "Какой легендарный маслкар выпускался компанией Ford с эмблемой бегущего коня?",
     "options": [
       "Ford Mustang",
+      "Ford Torino",
       "Ford Falcon",
-      "Ford Thunderbird",
-      "Ford Torino"
+      "Ford Thunderbird"
     ],
     "correctIndex": 0,
     "image": null
@@ -366,12 +366,12 @@
     "difficulty": 1,
     "question": "Какой автомобиль с дверьми типа «крыло чайки» выпускался компанией Mercedes-Benz в 1954 году?",
     "options": [
+      "Mercedes-Benz 540 K",
       "Mercedes-Benz 300 SL",
       "Mercedes-Benz SSK",
-      "Mercedes-Benz 190 SL",
-      "Mercedes-Benz 540 K"
+      "Mercedes-Benz 190 SL"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -381,12 +381,12 @@
     "difficulty": 2,
     "question": "Какой спортивный универсал Audi прославился разработкой совместно с Porsche в 1994 году?",
     "options": [
-      "Audi RS2 Avant",
       "Audi S4 Quattro",
+      "Audi RS2 Avant",
       "Audi RS6 V10",
       "Audi Quattro Sport"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -396,12 +396,12 @@
     "difficulty": 3,
     "question": "Какая серия внедорожников Toyota выпускается с 1951 года и считается эталоном надежности в экспедициях?",
     "options": [
+      "Toyota Sequoia",
       "Toyota Land Cruiser",
-      "Toyota 4Runner",
       "Toyota Hilux Surf",
-      "Toyota Sequoia"
+      "Toyota 4Runner"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -411,12 +411,12 @@
     "difficulty": 1,
     "question": "Какой культовый маслкар Chevrolet носит имя хищной ядовитой змеи или рыбы?",
     "options": [
-      "Chevrolet Corvette Stingray",
       "Chevrolet Impala SS",
       "Chevrolet Chevelle SS",
+      "Chevrolet Corvette Stingray",
       "Chevrolet Monte Carlo"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -426,12 +426,12 @@
     "difficulty": 2,
     "question": "Какое неформальное название носит автокультура владельцев заниженных автомобилей с экстремальным развалом?",
     "options": [
-      "Stance-культура",
+      "Time Attack трек",
       "Off-road трофи",
-      "Hot-rod классика",
-      "Time Attack трек"
+      "Stance-культура",
+      "Hot-rod классика"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -441,12 +441,12 @@
     "difficulty": 3,
     "question": "Какой седан марки Mercedes-Benz в кузове W124 с мотором V8 5.0 л собирался на заводе Porsche?",
     "options": [
-      "Mercedes-Benz 500 E (Волчок)",
+      "Mercedes-Benz CL 600",
       "Mercedes-Benz 300 E-24",
-      "Mercedes-Benz 190 E Evo",
-      "Mercedes-Benz CL 600"
+      "Mercedes-Benz 500 E (Волчок)",
+      "Mercedes-Benz 190 E Evo"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -501,12 +501,12 @@
     "difficulty": 1,
     "question": "Какой внедорожник Mercedes-Benz изначально создавался для военных нужд и имеет индекс кузова W463?",
     "options": [
+      "ML-Class (Кроссовер)",
       "G-Class (Гелендваген)",
       "GL-Class (Флагман)",
-      "ML-Class (Кроссовер)",
       "GLE-Class (Купе)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -516,12 +516,12 @@
     "difficulty": 2,
     "question": "Какой английский спорткар Энцо Феррари назвал «самым красивым автомобилем из когда-либо созданных»?",
     "options": [
+      "MG B Roadster",
       "Jaguar E-Type",
       "Aston Martin DB4",
-      "Lotus Elan S2",
-      "MG B Roadster"
+      "Lotus Elan S2"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -531,12 +531,12 @@
     "difficulty": 3,
     "question": "Какой суперкар Bugatti был назван в честь легендарного французского гонщика Луи Широна?",
     "options": [
-      "Bugatti Chiron",
       "Bugatti Divo",
-      "Bugatti Centodieci",
-      "Bugatti Bolide"
+      "Bugatti Chiron",
+      "Bugatti Bolide",
+      "Bugatti Centodieci"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -546,12 +546,12 @@
     "difficulty": 1,
     "question": "Какое народное название получил микролитражный автомобиль ЗАЗ-965 в СССР?",
     "options": [
-      "Горбатый Запорожец",
-      "Ушастый Запорожец",
       "Инвалидка СМЗ",
-      "Копейка Жигули"
+      "Копейка Жигули",
+      "Горбатый Запорожец",
+      "Ушастый Запорожец"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -561,12 +561,12 @@
     "difficulty": 2,
     "question": "Какой спортивный хэтчбек положил начало целому классу доступных «хот-хэтчей» в 1976 году?",
     "options": [
-      "Volkswagen Golf GTI",
-      "Peugeot 205 GTI",
+      "Ford Fiesta XR2",
       "Renault 5 Turbo",
-      "Ford Fiesta XR2"
+      "Peugeot 205 GTI",
+      "Volkswagen Golf GTI"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -576,12 +576,12 @@
     "difficulty": 3,
     "question": "Какой японский спорткар оснащался легендарным рядным 6-цилиндровым твин-турбо мотором 2JZ-GTE?",
     "options": [
+      "Mitsubishi GTO",
       "Toyota Supra A80",
       "Nissan Silvia S14",
-      "Mitsubishi GTO",
       "Mazda Cosmo 20B"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -591,12 +591,12 @@
     "difficulty": 1,
     "question": "Какой маслкар 1970 года с гигантским антикрылом и клиновидным носом побеждал в гонках NASCAR?",
     "options": [
+      "AMC Javelin AMX",
       "Plymouth Superbird",
       "Mercury Cyclone",
-      "Dodge Dart Swinger",
-      "AMC Javelin AMX"
+      "Dodge Dart Swinger"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -606,12 +606,12 @@
     "difficulty": 2,
     "question": "Какая французская малолитражка с гофрированным капотом и мягкой подвеской выпускалась с 1948 по 1990 год?",
     "options": [
-      "Citroen 2CV (Де-шво)",
+      "Simca 1000",
       "Renault 4L",
-      "Peugeot 204",
-      "Simca 1000"
+      "Citroen 2CV (Де-шво)",
+      "Peugeot 204"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -621,12 +621,12 @@
     "difficulty": 3,
     "question": "Какой автомобиль создал Кэрролл Шелби, установив мощный американский V8 в легкий британский кузов AC?",
     "options": [
-      "Shelby Cobra 427",
       "Ford GT40 Mk I",
-      "Sunbeam Tiger V8",
-      "Cheetah Race Car"
+      "Cheetah Race Car",
+      "Shelby Cobra 427",
+      "Sunbeam Tiger V8"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -636,12 +636,12 @@
     "difficulty": 1,
     "question": "Какой электромобиль Илона Маска стал самым продаваемым автомобилем в мире по итогам 2023 года?",
     "options": [
-      "Tesla Model Y",
-      "Tesla Model 3",
       "Tesla Model S",
-      "Tesla Model X"
+      "Tesla Model 3",
+      "Tesla Model X",
+      "Tesla Model Y"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -653,8 +653,8 @@
     "options": [
       "McLaren Senna",
       "McLaren P1",
-      "McLaren Speedtail",
-      "McLaren Artura"
+      "McLaren Artura",
+      "McLaren Speedtail"
     ],
     "correctIndex": 0,
     "image": null
@@ -666,12 +666,12 @@
     "difficulty": 3,
     "question": "Какое прозвище носит классический ВАЗ-2101 в российской автомобильной культуре?",
     "options": [
-      "Копейка",
-      "Шестерка",
       "Девятка",
-      "Зубило"
+      "Копейка",
+      "Зубило",
+      "Шестерка"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -681,12 +681,12 @@
     "difficulty": 1,
     "question": "Какой американский пикап Ford серии F остается бестселлером в США на протяжении более 40 лет?",
     "options": [
-      "Ford F-150",
-      "Ford Ranger",
       "Ford Maverick",
+      "Ford Ranger",
+      "Ford F-150",
       "Ford Super Duty"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -696,12 +696,12 @@
     "difficulty": 2,
     "question": "Какой автомобиль победил 4 раза подряд в Ле-Мане с 1966 по 1969 год, бросив вызов Ferrari?",
     "options": [
-      "Ford GT40",
       "Porsche 917K",
-      "Lola T70",
-      "Chaparral 2F"
+      "Ford GT40",
+      "Chaparral 2F",
+      "Lola T70"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -711,12 +711,12 @@
     "difficulty": 3,
     "question": "Какой бренд выпускает культовые спортивные купе 718 Cayman и 718 Boxster с центральным мотором?",
     "options": [
-      "Porsche",
-      "Lotus",
       "Alpine",
-      "Alfa Romeo"
+      "Lotus",
+      "Alfa Romeo",
+      "Porsche"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -726,12 +726,12 @@
     "difficulty": 1,
     "question": "Какой автомобиль стал символом такси в Нью-Йорке на долгие десятилетия благодаря желтому цвету?",
     "options": [
-      "Checker Marathon",
-      "Ford Crown Victoria",
       "Chevrolet Caprice",
-      "Lincoln Town Car"
+      "Ford Crown Victoria",
+      "Lincoln Town Car",
+      "Checker Marathon"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -742,9 +742,9 @@
     "question": "Какая модель Lada с кузовом хэтчбек получила у советских автолюбителей прозвище «Зубило»?",
     "options": [
       "ВАЗ-2108 / 2109",
-      "ВАЗ-2105 / 2107",
+      "ВАЗ-1111 Ока",
       "ВАЗ-2110 / 2112",
-      "ВАЗ-1111 Ока"
+      "ВАЗ-2105 / 2107"
     ],
     "correctIndex": 0,
     "image": null
@@ -756,12 +756,12 @@
     "difficulty": 3,
     "question": "Какой суперкар от Lamborghini получил гибридный V12 мощностью 1015 л.с. в 2023 году?",
     "options": [
-      "Lamborghini Revuelto",
-      "Lamborghini Sian",
       "Lamborghini Aventador",
-      "Lamborghini Huracan"
+      "Lamborghini Huracan",
+      "Lamborghini Sian",
+      "Lamborghini Revuelto"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -771,12 +771,12 @@
     "difficulty": 1,
     "question": "Какой британский компактный автомобиль разработал Алек Иссигонис с поперечным мотором в 1959 году?",
     "options": [
-      "Classic Mini Cooper",
+      "Morris Minor 1000",
       "Austin Healey Sprite",
       "Triumph Spitfire",
-      "Morris Minor 1000"
+      "Classic Mini Cooper"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -786,12 +786,12 @@
     "difficulty": 2,
     "question": "Какой седан марки Subaru в раллийной раскраске имел ярко-золотистые диски и синий кузов 02C?",
     "options": [
+      "Subaru Forester STI",
       "Subaru Impreza WRX",
       "Subaru Legacy RS",
-      "Subaru Forester STI",
       "Subaru BRZ Sport"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -816,12 +816,12 @@
     "difficulty": 1,
     "question": "Какой раллийный омологационный хэтчбек Toyota с полным приводом GR-Four вышел в 2020 году?",
     "options": [
+      "Toyota GT86 TRD",
       "Toyota GR Yaris",
       "Toyota GR Corolla",
-      "Toyota GT86 TRD",
       "Toyota Celica GT-Four"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -832,9 +832,9 @@
     "question": "Какое прозвище носит переднеприводный хэтчбек Honda Civic Type-R за агрессивный спортивный стиль?",
     "options": [
       "Топор (Type-R)",
+      "Самурайский меч",
       "Пушка-гонка",
-      "Бешеный тапок",
-      "Самурайский меч"
+      "Бешеный тапок"
     ],
     "correctIndex": 0,
     "image": null
@@ -847,9 +847,9 @@
     "question": "Какой спортивный автомобиль Chevrolet выпускается исключительно со стеклопластиковым/композитным кузовом?",
     "options": [
       "Chevrolet Corvette",
-      "Chevrolet Camaro",
       "Chevrolet Chevelle",
-      "Chevrolet SS Sedan"
+      "Chevrolet SS Sedan",
+      "Chevrolet Camaro"
     ],
     "correctIndex": 0,
     "image": null
@@ -861,12 +861,12 @@
     "difficulty": 1,
     "question": "Какой компактный внедорожник марки Suzuki имеет жесткую рамную конструкцию и два неразрезных моста?",
     "options": [
+      "Suzuki Ignis 4x4",
       "Suzuki Jimny",
       "Suzuki Vitara",
-      "Suzuki Samurai",
-      "Suzuki Ignis 4x4"
+      "Suzuki Samurai"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -877,9 +877,9 @@
     "question": "Какой бренд суперкаров из Маранелло традиционно окрашивает свои гоночные болиды в цвет Rosso Corsa?",
     "options": [
       "Ferrari",
-      "Alfa Romeo",
       "Maserati",
-      "Ducati Corse"
+      "Ducati Corse",
+      "Alfa Romeo"
     ],
     "correctIndex": 0,
     "image": null
@@ -892,9 +892,9 @@
     "question": "Какой автомобиль победил в легендарном ралли Монте-Карло 1964 года, обогнав мощные Falcon V8?",
     "options": [
       "Mini Cooper S",
+      "Lancia Fulvia HF",
       "Saab 96 V4",
-      "Porsche 904 GTS",
-      "Lancia Fulvia HF"
+      "Porsche 904 GTS"
     ],
     "correctIndex": 0,
     "image": null
@@ -906,12 +906,12 @@
     "difficulty": 1,
     "question": "Какой электромобиль установил рекорд среди серийных машин на разгон до 100 км/ч быстрее 1,9 секунды?",
     "options": [
-      "Rimac Nevera",
+      "Porsche Taycan Turbo",
       "Tesla Model S Plaid",
       "Lucid Air Sapphire",
-      "Porsche Taycan Turbo"
+      "Rimac Nevera"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -921,12 +921,12 @@
     "difficulty": 2,
     "question": "Какой легендарный немецкий спорткар 1980-х имел регулируемый дорожный просвет и полный привод с завода?",
     "options": [
-      "Porsche 959",
-      "BMW M1 Procar",
       "Audi Sport Quattro",
-      "Mercedes 190 Evo II"
+      "BMW M1 Procar",
+      "Mercedes 190 Evo II",
+      "Porsche 959"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -951,12 +951,12 @@
     "difficulty": 1,
     "question": "Какой английский внедорожник королева Елизавета II водила лично на протяжении многих десятилетий?",
     "options": [
-      "Land Rover Defender",
-      "Range Rover Classic",
       "Bentley Bentayga",
-      "Aston Martin DBX"
+      "Aston Martin DBX",
+      "Range Rover Classic",
+      "Land Rover Defender"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -966,12 +966,12 @@
     "difficulty": 2,
     "question": "Какой американский суперкар 1990-х оснащался огромным 8,0-литровым мотором V10 без ABS и трекшн-контроля?",
     "options": [
-      "Dodge Viper RT/10",
       "Chevrolet Corvette ZR1",
       "Vector M12 V12",
-      "Panoz Esperante"
+      "Panoz Esperante",
+      "Dodge Viper RT/10"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -981,12 +981,12 @@
     "difficulty": 3,
     "question": "Какая марка спортивных автомобилей использует слоган «The Ultimate Driving Machine»?",
     "options": [
-      "BMW",
+      "Porsche",
       "Audi",
       "Mercedes-Benz",
-      "Porsche"
+      "BMW"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -997,9 +997,9 @@
     "question": "Какой седан марки Mitsubishi стал главным вечным соперником Subaru Impreza WRX STI на раллийных трассах?",
     "options": [
       "Lancer Evolution",
-      "Galant VR-4",
+      "3000GT VR-4",
       "Eclipse GSX Turbo",
-      "3000GT VR-4"
+      "Galant VR-4"
     ],
     "correctIndex": 0,
     "image": null
@@ -1011,12 +1011,12 @@
     "difficulty": 2,
     "question": "Какой советский правительственный лимузин высшего класса выпускался на заводе имени Лихачева?",
     "options": [
-      "ЗИЛ-41047",
+      "Волга ГАЗ-3102",
       "ГАЗ-14 Чайка",
-      "Москвич-2140",
-      "Волга ГАЗ-3102"
+      "ЗИЛ-41047",
+      "Москвич-2140"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -1041,12 +1041,12 @@
     "difficulty": 1,
     "question": "Какой суперкар Lamborghini получил открывающиеся вверх двери («ножницы»), ставшие визитной карточкой марки?",
     "options": [
-      "Lamborghini Countach",
-      "Lamborghini Miura",
       "Lamborghini Espada",
+      "Lamborghini Miura",
+      "Lamborghini Countach",
       "Lamborghini Jarama"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   }
 ]

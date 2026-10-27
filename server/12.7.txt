@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "sports_general_1",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой легендарный американский боксер тяжелого веса прославился фразой: «Порхай как бабочка, жаль как пчела»?",
+    "options": [
+      "Мухаммед Али (Кассиус Клей)",
+      "Майк Тайсон",
+      "Джордж Форман",
+      "Джо Фрейзер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_2",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой самый молодой чемпион мира в тяжелом весе в истории бокса (в 20 лет) получил прозвище «Железный Майк»?",
+    "options": [
+      "Майк Тайсон",
+      "Эвандер Холифилд",
+      "Леннокс Льюис",
+      "Рокки Марчиано"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_3",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой непобежденный российский боец UFC стал чемпионом в легком весе с профессиональным рекордом 29-0?",
+    "options": [
+      "Хабиб Нурмагомедов",
+      "Ислам Махачев",
+      "Федор Емельяненко",
+      "Петр Ян"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_4",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какое прозвище носил легендарный российский боец ММА Федор Емельяненко во времена доминирования в промоушене Pride FC?",
+    "options": [
+      "«Последний Император»",
+      "«Русский Молот»",
+      "«Медведь»",
+      "«Царь»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_5",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой швейцарский теннисист выиграл 20 турниров «Большого шлема» и славился филигранной элегантной техникой ударов?",
+    "options": [
+      "Роджер Федерер",
+      "Рафаэль Надаль",
+      "Новак Джокович",
+      "Энди Маррей"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_6",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой испанский теннисист получил прозвище «Король грунта» за рекордные 14 побед на Открытом чемпионате Франции («Ролан Гаррос»)?",
+    "options": [
+      "Рафаэль Надаль",
+      "Карлос Алькарас",
+      "Давид Феррер",
+      "Хуан Карлос Ферреро"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_7",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой сербский теннисист является рекордсменом в истории мужского тенниса по количеству титулов «Большого шлема» (более 24 побед)?",
+    "options": [
+      "Новак Джокович",
+      "Роджер Федерер",
+      "Рафаэль Надаль",
+      "Пит Сампрас"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_8",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Сколько турниров категории «Большого шлема» проводится в профессиональном теннисе в течение одного календарного года?",
+    "options": [
+      "4 турнира (Australian Open, Roland Garros, Wimbledon, US Open)",
+      "3 турнира",
+      "5 турниров",
+      "6 турниров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_9",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "На каком типе покрытия традиционно проводятся матчи старейшего теннисного турнира — Уимблдона в Лондоне?",
+    "options": [
+      "Натуральная трава (травяные корты)",
+      "Красный грунт",
+      "Хард (акриловое покрытие)",
+      "Ковер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_10",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какое угощение со сливками является традиционным гастрономическим символом Уимблдонского теннисного турнира?",
+    "options": [
+      "Клубника со сливками",
+      "Яблочный пирог",
+      "Черника с пломбиром",
+      "Английский пудинг"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_11",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Как в теннисном гейме называется счет 40:40, после которого для победы в гейме необходимо выиграть два очка подряд?",
+    "options": [
+      "«Ровно» (Deuce)",
+      "«Тай-брейк»",
+      "«Сет-пойнт»",
+      "«Матчбол»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_12",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой семикратный чемпион мира Формулы-1 выступал за «Феррари» в 2000-х и носил прозвище «Красный барон»?",
+    "options": [
+      "Михаэль Шумахер",
+      "Айртон Сенна",
+      "Ален Прост",
+      "Льюис Хэмилтон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_13",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой бразильский трехкратный чемпион Формулы-1 по прозвищу «Волшебник» трагически погиб в Имоле на Гран-при Сан-Марино 1994 года?",
+    "options": [
+      "Айртон Сенна",
+      "Нельсон Пике",
+      "Эмерсон Фиттипальди",
+      "Фелипе Масса"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_14",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какая знаменитая трасса Формулы-1 проходит прямо по узким извилистым городским улицам среди казино и порта с яхтами?",
+    "options": [
+      "Гран-при Монако (Монте-Карло)",
+      "Монца (Италия)",
+      "Спа-Франкоршам (Бельгия)",
+      "Сильверстоун (Великобритания)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_15",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какая система регулируемого заднего антикрыла (DRS) используется в Формуле-1 для облегчения обгонов на прямых?",
+    "options": [
+      "DRS (Drag Reduction System)",
+      "KERS",
+      "Halo",
+      "Turbo-boost"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_16",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какая титановая дуга безопасности над головой пилота («ореол») была введена в Формуле-1 в 2018 году и спасла множество жизней?",
+    "options": [
+      "Halo",
+      "Aeroscreen",
+      "Monocoque",
+      "Roll-hoop"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_17",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой флаг вывешивают маршалы на финише любой кольцевой автогонки, символизируя победу и окончание заезда?",
+    "options": [
+      "Черно-белый клетчатый флаг",
+      "Зеленый флаг",
+      "Желтый флаг",
+      "Красный флаг"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_18",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "В каком виде спорта специализированный игрок в футболке другого цвета называется «либеро» и играет только в защите на задней линии?",
+    "options": [
+      "Волейбол",
+      "Гандбол",
+      "Водное поло",
+      "Флорбол"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_19",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Сколько касаний мяча разрешено сделать волейбольной команде перед тем, как перебить мяч через сетку на сторону соперника?",
+    "options": [
+      "Не более 3 касаний (блок не считается)",
+      "Не более 4 касаний",
+      "Не более 2 касаний",
+      "Ровно 3 касания"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_20",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "До какого количества очков ведется счет в решающей пятой партии (тай-брейке) в классическом волейболе?",
+    "options": [
+      "До 15 очков (с разницей минимум в 2 очка)",
+      "До 25 очков",
+      "До 21 очка",
+      "До 11 очков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_21",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "Сколько игроков одной команды одновременно находится в бассейне во время матча по водному поло?",
+    "options": [
+      "7 игроков (6 полевых + вратарь)",
+      "6 игроков",
+      "8 игроков",
+      "5 игроков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_22",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какое максимальное количество раундов предусмотрено в титульных чемпионских боях промоушена UFC по ММА?",
+    "options": [
+      "5 раундов по 5 минут",
+      "3 раунда по 5 минут",
+      "12 раундов по 3 минуты",
+      "5 раундов по 3 минуты"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_23",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Как называется восьмиугольная клетка-арена со стальной сеткой, в которой проводятся поединки в UFC?",
+    "options": [
+      "Октагон",
+      "Ринг",
+      "Татами",
+      "Гексагон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_24",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "В каком скандальном поединке 1997 года Майк Тайсон был дисквалифицирован за то, что откусил сопернику кусок уха?",
+    "options": [
+      "Против Эвандера Холифилда",
+      "Против Леннокса Льюиса",
+      "Против Бастера Дугласа",
+      "Против Риддика Боу"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_25",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой ирландский боец смешанных единоборств стал первой суперзвездой UFC, завоевав чемпионские пояса в двух весовых категориях одновременно?",
+    "options": [
+      "Конор Макгрегор",
+      "Дастин Порье",
+      "Нейт Диас",
+      "Джастин Гейджи"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_26",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какое боевое искусство, основанное на борьбе в партере и болевых/удушающих приемах, лежит в основе современного ММА?",
+    "options": [
+      "Бразильское джиу-джитсу (BJJ)",
+      "Тхэквондо",
+      "Капоэйра",
+      "Крав-мага"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_27",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какое максимальное количество раундов проводится в профессиональных чемпионских боях по боксу?",
+    "options": [
+      "12 раундов по 3 минуты",
+      "10 раундов по 3 минуты",
+      "15 раундов по 2 минуты",
+      "8 раундов по 3 минуты"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_28",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой американский боксер завершил профессиональную карьеру непобежденным с идеальным рекордом 50 побед — 0 поражений?",
+    "options": [
+      "Флойд Мейвезер-младший",
+      "Рой Джонс-младший",
+      "Шугар Рэй Леонард",
+      "Мэнни Пакьяо"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_29",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "Какой филиппинский боксер стал единственным в истории чемпионом мира в 8 различных весовых категориях?",
+    "options": [
+      "Мэнни Пакьяо («Пакмэн»)",
+      "Нонито Донэр",
+      "Хуан Мануэль Маркес",
+      "Марко Антонио Баррера"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_30",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "Какой непобежденный чемпион мира в супертяжелом весе 1950-х годов с рекордом 49-0 послужил вдохновением для создания персонажа Рокки Бальбоа?",
+    "options": [
+      "Рокки Марчиано",
+      "Джек Демпси",
+      "Джо Луис",
+      "Джин Танни"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_31",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какое японское боевое искусство переводится как «путь пустой руки»?",
+    "options": [
+      "Карате",
+      "Дзюдо",
+      "Джиу-джитсу",
+      "Айкидо"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_32",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Как в дзюдо и карате называется традиционная хлопчатобумажная одежда для тренировок и соревнований?",
+    "options": [
+      "Кимоно (дзюдоги / каратеги)",
+      "Хакама",
+      "Рашгард",
+      "Самбовка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_33",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой отечественный вид спортивного единоборства в куртках с поясом был разработан в СССР в 1930-х годах («самозащита без оружия»)?",
+    "options": [
+      "Самбо",
+      "Рукопашный бой",
+      "Кудо",
+      "Ушу-саньда"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_34",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой снаряд используют игроки в бадминтоне вместо мяча?",
+    "options": [
+      "Волан (с перьями или пластиковый)",
+      "Шайба",
+      "Бита",
+      "Пак"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_35",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "Какой максимальной скорости полета может достигать перьевой волан после мощного смеша в профессиональном бадминтоне?",
+    "options": [
+      "Свыше 400–490 км/ч",
+      "Около 200 км/ч",
+      "Около 150 км/ч",
+      "Не более 250 км/ч"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_36",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "До какого количества очков ведется партия в современном настольном теннисе (пинг-понге)?",
+    "options": [
+      "До 11 очков (с отрывом в 2 очка)",
+      "До 21 очка",
+      "До 15 очков",
+      "До 25 очков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_37",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Через сколько подач происходит смена подающего игрока в настольном теннисе?",
+    "options": [
+      "Каждые 2 подачи",
+      "Каждую подачу",
+      "Каждые 5 подач",
+      "Каждые 3 подачи"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_38",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какая страна абсолютно доминирует в мировом настольном теннисе на протяжении последних 30 лет, выигрывая почти все золото Олимпиад?",
+    "options": [
+      "Китай",
+      "Япония",
+      "Южная Корея",
+      "Германия"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_39",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Как называется ситуация в боулинге, когда игрок сбивает все 10 кеглей с первого броска?",
+    "options": [
+      "Страйк (Strike)",
+      "Спэр (Spare)",
+      "Сплит",
+      "Турки"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_40",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какое максимальное количество очков можно набрать в одной идеальной игре в боулинг (12 страйков подряд)?",
+    "options": [
+      "300 очков",
+      "200 очков",
+      "250 очков",
+      "350 очков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_41",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Как называется игра, в которой игроки бросают дротики в круглую круглую настенную мишень, разделенную на 20 секторов?",
+    "options": [
+      "Дартс",
+      "Кёрлинг",
+      "Петанк",
+      "Крокет"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_42",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какое максимальное число очков можно выбить тремя дротиками за один подход в классическом дартсе 501?",
+    "options": [
+      "180 очков (три попадания в утроение 20)",
+      "150 очков",
+      "200 очков",
+      "300 очков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_43",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "В каком секторе дартс-мишени находится наивысший коэффициент утроения очков?",
+    "options": [
+      "Сектор 20 (утроение дает 60 очков)",
+      "Центр («яблочко», Bullseye дает 50 очков)",
+      "Сектор 19",
+      "Сектор 25"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_44",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Как называется разновидность бильярда с шестнадцатью пронумерованными цветными шарами и белым битком?",
+    "options": [
+      "Пул (американский бильярд)",
+      "Снукер",
+      "Русская пирамида",
+      "Карамболь"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_45",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "В какой разновидности бильярда играют на огромном 12-футовом столе 22 шарами, чередуя забивание красных и цветных шаров?",
+    "options": [
+      "Снукер",
+      "Пул-8",
+      "Карамболь",
+      "Американка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_46",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой легендарный английский снукерист по прозвищу «Ракета» является семикратным чемпионом мира и рекордсменом по сенчури-брейкам?",
+    "options": [
+      "Ронни О’Салливан",
+      "Стивен Хендри",
+      "Джон Хиггинс",
+      "Марк Селби"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_47",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "Какая максимальная серия очков («максимальный брейк») возможна в снукере без ошибок соперника?",
+    "options": [
+      "147 очков",
+      "155 очков",
+      "100 очков",
+      "180 очков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_48",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "В каком виде спорта команда из 15 игроков борется за овальный мяч, пытаясь занести «попытку» в зачетное поле соперника?",
+    "options": [
+      "Регби (Регби-15 / Rugby Union)",
+      "Американский футбол",
+      "Австралийский футбол",
+      "Бейсбол"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_49",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой традиционный ритуальный танец маори («Хака») исполняет сборная Новой Зеландии по регби перед каждым международным матчем?",
+    "options": [
+      "Ка-матэ (Ka Mate)",
+      "Хула",
+      "Сива тау",
+      "Коридори"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_50",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Как называется главное финальное соревнование по американскому футболу (NFL), являющееся крупнейшим медиасобытием года в США?",
+    "options": [
+      "Супербоул (Super Bowl)",
+      "Кубок Стэнли",
+      "Мировая серия",
+      "Гранд-финал"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_51",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой квотербек выиграл рекордные 7 титулов Супербоула в составе «Нью-Ингленд Пэтриотс» и «Тампа-Бэй Бакканирс»?",
+    "options": [
+      "Том Брэди",
+      "Пейтон Мэннинг",
+      "Патрик Махоумс",
+      "Джо Монтана"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_52",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "Сколько игроков одной команды находится на поле в бейсболе при игре в защите?",
+    "options": [
+      "9 игроков",
+      "11 игроков",
+      "7 игроков",
+      "8 игроков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_53",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Как в бейсболе называется удар, при котором бьющий выбивает мяч за пределы игрового поля и беспрепятственно обегает все 4 базы?",
+    "options": [
+      "Хоум-ран (Home run)",
+      "Страйк-аут",
+      "Сейф",
+      "Бантер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_54",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Сколько лунок традиционно входит в стандартный раунд игры в гольф на профессиональных полях?",
+    "options": [
+      "18 лунок",
+      "9 лунок",
+      "12 лунок",
+      "24 лунки"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_55",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой американский гольфист выиграл 15 мейджоров и стал одним из богатейших спортсменов в мировой истории?",
+    "options": [
+      "Тайгер Вудс",
+      "Джек Никлаус",
+      "Арнольд Палмер",
+      "Фил Микельсон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_56",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "Как в гольфе называют результат прохождения лунки на один удар меньше расчетного номинала («пара»)?",
+    "options": [
+      "Бёрди (Birdie)",
+      "Игл (Eagle)",
+      "Богги (Bogey)",
+      "Альбатрос"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_57",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой результат в гольфе означает попадание мяча в лунку с одного единственного удара со стартовой площадки («ти»)?",
+    "options": [
+      "Хоул-ин-ван (Hole-in-one)",
+      "Дабл-игл",
+      "Альбатрос",
+      "Пар"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_58",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какая французская многодневная велогонка является самой престижной и известной гранд-тур гонкой в мире с 1903 года?",
+    "options": [
+      "«Тур де Франс» (Tour de France)",
+      "«Джиро д’Италия»",
+      "«Вуэльта Испании»",
+      "«Париж — Рубе»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_59",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какого цвета майку носит текущий лидер генеральной классификации в велогонке «Тур де Франс»?",
+    "options": [
+      "Желтая майка",
+      "Розовая майка",
+      "Зеленая майка",
+      "Белая майка в красный горох"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_60",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "В каком техническом виде спорта экипажи соревнуются на сверхсложных грунтовых, гравийных и снежных трассах общего пользования?",
+    "options": [
+      "Ралли (WRC)",
+      "Формула-1",
+      "Наскар",
+      "Драг-рейсинг"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_61",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "Какой легендарный французский раллийный пилот стал девятикратным чемпионом мира по ралли (WRC) подряд (2004–2012)?",
+    "options": [
+      "Себастьен Лёб",
+      "Себастьен Ожье",
+      "Карлос Сайнс-старший",
+      "Томми Мякинен"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_62",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой знаменитый ралли-марафон ежегодно проходит по тяжелейшим пустынным дюнам и бездорожью (ранее по маршруту Париж — Дакар)?",
+    "options": [
+      "Ралли «Дакар»",
+      "«Шелковый путь»",
+      "Ралли Сафари",
+      "«Монте-Карло»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_63",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какая российская команда грузовиков является 19-кратным победителем сложнейшего ралли «Дакар»?",
+    "options": [
+      "«КАМАЗ-мастер»",
+      "«МАЗ-СПОРТавто»",
+      "«ГАЗ Рейд Спорт»",
+      "«УРАЛ Моторспорт»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_64",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой вид автогонок в США проводится преимущественно на высокоскоростных наклонных овалах на серийных сток-карах?",
+    "options": [
+      "NASCAR",
+      "IndyCar",
+      "NHRA Drag Racing",
+      "Formula Drift"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_65",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какая знаменитая американская кольцевая гонка «Инди-500» проходит на треке в Индианаполисе и длится 500 миль?",
+    "options": [
+      "500 миль Индианаполиса",
+      "24 часа Ле-Мана",
+      "12 часов Себринга",
+      "Дайтона 500"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_66",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какая суточная автомобильная гонка на выносливость ежегодно проводится во Франции с 1923 года?",
+    "options": [
+      "«24 часа Ле-Мана»",
+      "«24 часа Нюрбургринга»",
+      "«24 часа Спа»",
+      "«24 часа Дайтоны»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_67",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой вид спорта на роликовых досках (скейтбордах) с выполнением трюков («олли», «кикфлип») вошел в олимпийскую программу?",
+    "options": [
+      "Скейтбординг",
+      "Лонгбординг",
+      "Роллер-спорт",
+      "Фингерборд"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_68",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой легендарный американский скейтбордист впервые в истории приземлил поворот на 900 градусов («The 900») на X Games 1999 года?",
+    "options": [
+      "Тони Хоук (Tony Hawk)",
+      "Родни Маллен",
+      "Боб Бёрнквист",
+      "Бэм Марджера"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_69",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "Какой американский экстремал изобрел практически все базовые трюки современного уличного скейтбординга, включая флип и олли на плоскости?",
+    "options": [
+      "Родни Маллен",
+      "Тони Хоук",
+      "Эрик Костон",
+      "Пол Родригес"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_70",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "В каком горном виде спорта спортсмены спускаются на одной широкой доске с жестким или мягким креплением для обеих ног?",
+    "options": [
+      "Сноуборд",
+      "Горные лыжи",
+      "Скейтборд",
+      "Монолыжа"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_71",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какая максимальная высота над уровнем моря у вершины Эвереста (Джомолунгмы), наивысшей точки для альпинистов?",
+    "options": [
+      "8848 метров",
+      "8611 метров",
+      "7500 метров",
+      "9100 метров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_72",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "Какой итальянский альпинист первым в истории покорил все 14 восьмитысячников мира без использования кислородных баллонов?",
+    "options": [
+      "Райнхольд Месснер",
+      "Ежи Кукучка",
+      "Анатолий Букреев",
+      "Эдмунд Хиллари"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_73",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 2,
+    "question": "Какой непальский альпинист по прозвищу Нимсдай совершил невероятный подвиг «Project Possible», покорив все 14 восьмитысячников планеты всего за 6 месяцев?",
+    "options": [
+      "Нирмал Пурджа",
+      "Тенцинг Норгей",
+      "Аппа Шерпа",
+      "Ками Рита"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_74",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой вид спорта включает в себя греблю на байдарках и каноэ по бурным порожистым рекам и искусственным каналам?",
+    "options": [
+      "Гребной слалом",
+      "Академическая гребля",
+      "Рафтинг",
+      "Каякинг"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_general_75",
+    "categoryId": "sports",
+    "subcategoryId": "sports_general",
+    "difficulty": 1,
+    "question": "Какой традиционный снаряд для метания в легкой атлетике представляет собой тяжелый металлический шар, прикрепленный к рукоятке стальной проволокой?",
+    "options": [
+      "Молот",
+      "Ядро",
+      "Диск",
+      "Копье"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

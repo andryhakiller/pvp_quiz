@@ -1276,6 +1276,25 @@ input[type="number"] { padding: 10px 14px; font-size: 0.9rem; }
     transform: scale(1.03);
 }
 
+.btn-undo-sm {
+    background: rgba(74, 158, 255, 0.12);
+    border: 1px solid rgba(74, 158, 255, 0.4);
+    color: var(--blue);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-right: 8px;
+}
+.btn-undo-sm:hover {
+    background: rgba(74, 158, 255, 0.25);
+    border-color: var(--blue);
+    transform: scale(1.03);
+}
+
+
 
 /* ═══════════ SPECTATOR BANNER & VIEW-ONLY ═══════════ */
 .spectator-badge {

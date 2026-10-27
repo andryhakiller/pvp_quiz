@@ -6,12 +6,12 @@
     "difficulty": 1,
     "question": "Какое созвездие из шести звезд изображено на эмблеме японской автомобильной марки Subaru?",
     "options": [
-      "Плеяды (Телец)",
       "Большая Медведица",
       "Пояс Ориона",
+      "Плеяды (Телец)",
       "Кассиопея"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": "/images/trans_subaru_stars.png"
   },
   {
@@ -21,12 +21,12 @@
     "difficulty": 1,
     "question": "Какое животное изображено на гербе и фирменной эмблеме суперкаров Ferrari?",
     "options": [
-      "Гарцующий жеребец",
       "Атакующий бык",
+      "Гарцующий жеребец",
       "Свирепый ягуар",
       "Королевский лев"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -36,12 +36,12 @@
     "difficulty": 1,
     "question": "Какое свирепое животное украшает эмблему итальянских суперкаров Lamborghini?",
     "options": [
-      "Разъяренный боевой бык",
       "Дикий степной мустанг",
       "Прыгающий горный барс",
-      "Крылатый грифон"
+      "Крылатый грифон",
+      "Разъяренный боевой бык"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -51,12 +51,12 @@
     "difficulty": 1,
     "question": "Что символизируют четыре сплетенных кольца в знаменитом логотипе немецкой марки Audi?",
     "options": [
-      "Слияние четырех автокомпаний",
-      "Четыре ведущих колеса авто",
+      "Четыре стороны света",
       "Четыре такта работы мотора",
-      "Четыре стороны света"
+      "Четыре ведущих колеса авто",
+      "Слияние четырех автокомпаний"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -68,8 +68,8 @@
     "options": [
       "Змей, глотающий человека",
       "Золотой имперский орел",
-      "Рыцарский турнирный меч",
-      "Двуглавый лев Милана"
+      "Двуглавый лев Милана",
+      "Рыцарский турнирный меч"
     ],
     "correctIndex": 0,
     "image": null
@@ -81,12 +81,12 @@
     "difficulty": 1,
     "question": "Как расшифровывается аббревиатура названия баварского автогиганта BMW?",
     "options": [
-      "Bayerische Motoren Werke",
       "Berlin Motor Wagen",
       "Bavaria Modern Wheels",
+      "Bayerische Motoren Werke",
       "Baltic Machine Works"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -97,9 +97,9 @@
     "question": "Какая трехлучевая звезда символизирует превосходство моторов марки Mercedes-Benz на земле, в воде и в воздухе?",
     "options": [
       "Звезда -Benz",
-      "Звезда Maybach",
       "Звезда Horch",
-      "Звезда Borgward"
+      "Звезда Borgward",
+      "Звезда Maybach"
     ],
     "correctIndex": 0,
     "image": null
@@ -111,12 +111,12 @@
     "difficulty": 1,
     "question": "Какая фигурка на капоте роскошных автомобилей Rolls-Royce носит имя «Дух экстаза» (Spirit of Ecstasy)?",
     "options": [
-      "Летящая женщина с крыльями",
       "Гермес с жезлом кадуцея",
       "Британский боевой лев",
+      "Летящая женщина с крыльями",
       "Пегас с золотой гривой"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -127,9 +127,9 @@
     "question": "Какой японский бренд начинал свою историю как фабрика автоматических ткацких станков Sakichi Toyoda?",
     "options": [
       "Toyota Motor",
-      "Suzuki Motor",
       "Mazda Motor",
-      "Mitsubishi Motors"
+      "Mitsubishi Motors",
+      "Suzuki Motor"
     ],
     "correctIndex": 0,
     "image": null
@@ -142,9 +142,9 @@
     "question": "Какой французский автопроизводитель имеет логотип в форме геометрического ромба (бриллианта)?",
     "options": [
       "Renault",
+      "Bugatti",
       "Peugeot",
-      "Citroen",
-      "Bugatti"
+      "Citroen"
     ],
     "correctIndex": 0,
     "image": null
@@ -156,12 +156,12 @@
     "difficulty": 1,
     "question": "Какой зверь красуется на эмблеме британской люксовой марки Jaguar?",
     "options": [
-      "Прыгающий ягуар",
-      "Бегущий гепард",
+      "Сибирский тигр",
       "Крадущаяся пантера",
-      "Сибирский тигр"
+      "Бегущий гепард",
+      "Прыгающий ягуар"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -171,12 +171,12 @@
     "difficulty": 1,
     "question": "Какая марка автомобилей названа в честь выдающегося физика и изобретателя Николы Теслы?",
     "options": [
-      "Tesla",
+      "Lucid Motors",
       "Edison Motors",
-      "Faraday Future",
-      "Lucid Motors"
+      "Tesla",
+      "Faraday Future"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -186,12 +186,12 @@
     "difficulty": 1,
     "question": "Что означает название шведской марки Volvo в буквальном переводе с латинского языка?",
     "options": [
-      "«Я качусь» (Volvere)",
+      "«Я живу» (Vivere)",
       "«Я лечу» (Volare)",
-      "«Я побеждаю» (Vincere)",
-      "«Я живу» (Vivere)"
+      "«Я качусь» (Volvere)",
+      "«Я побеждаю» (Vincere)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -201,12 +201,12 @@
     "difficulty": 1,
     "question": "Какая фигура животного украшает герб и решетку радиатора французских автомобилей Peugeot?",
     "options": [
-      "Геральдический лев",
-      "Французский петух",
       "Дикий кабан",
-      "Благородный олень"
+      "Геральдический лев",
+      "Благородный олень",
+      "Французский петух"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -216,12 +216,12 @@
     "difficulty": 1,
     "question": "Какой корейский автомобильный бренд в переводе означает «Восход из Азии в мир»?",
     "options": [
-      "Kia Motors",
+      "SsangYong Motors",
       "Hyundai Motor",
-      "Genesis Motors",
-      "SsangYong Motors"
+      "Kia Motors",
+      "Genesis Motors"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -247,8 +247,8 @@
     "question": "В каком городе находится историческая штаб-квартира и главный завод Porsche и Mercedes-Benz?",
     "options": [
       "Штутгарт",
-      "Мюнхен",
       "Ингольштадт",
+      "Мюнхен",
       "Вольфсбург"
     ],
     "correctIndex": 0,
@@ -261,12 +261,12 @@
     "difficulty": 1,
     "question": "Какой немецкий автомобильный концерн владеет брендами Skoda, SEAT, Audi, Bentley и Lamborghini?",
     "options": [
-      "Volkswagen Group (VAG)",
+      "Stellantis Group",
       "BMW Group",
       "Mercedes-Benz AG",
-      "Stellantis Group"
+      "Volkswagen Group (VAG)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -277,8 +277,8 @@
     "question": "Какая американская автомобильная компания основана Генри Фордом и первой внедрила конвейер для модели Model T?",
     "options": [
       "Ford Motor Company",
-      "General Motors",
       "Chrysler Corporation",
+      "General Motors",
       "Packard Motor"
     ],
     "correctIndex": 0,
@@ -292,8 +292,8 @@
     "question": "Какая японская марка выбрала эмблему из трех ромбов (водяных каштанов), означающих надежность?",
     "options": [
       "Mitsubishi",
-      "Daihatsu",
       "Isuzu",
+      "Daihatsu",
       "Subaru"
     ],
     "correctIndex": 0,
@@ -306,12 +306,12 @@
     "difficulty": 1,
     "question": "Какой город является автомобильной столицей США («Motor City»)?",
     "options": [
-      "Детройт (штат Мичиган)",
+      "Кливленд (Огайо)",
       "Чикаго (Иллинойс)",
-      "Питтсбург (Пенсильвания)",
-      "Кливленд (Огайо)"
+      "Детройт (штат Мичиган)",
+      "Питтсбург (Пенсильвания)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -322,9 +322,9 @@
     "question": "Какая марка автомобилей была основана гонщиком Луи Шевроле и Уильямом Дюрантом в 1911 году?",
     "options": [
       "Chevrolet",
-      "Pontiac",
       "Oldsmobile",
-      "Buick"
+      "Buick",
+      "Pontiac"
     ],
     "correctIndex": 0,
     "image": null
@@ -336,12 +336,12 @@
     "difficulty": 3,
     "question": "Какой чешский автопроизводитель ведет историю с 1895 года от велосипедной мастерской Laurin & Klement?",
     "options": [
-      "Skoda Auto",
-      "Tatra Trucks",
       "Praga Cars",
-      "Jawa Moto"
+      "Tatra Trucks",
+      "Jawa Moto",
+      "Skoda Auto"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -351,12 +351,12 @@
     "difficulty": 1,
     "question": "Какой итальянский город является родиной суперкаров Ferrari, Lamborghini, Maserati и Pagani?",
     "options": [
-      "Модена (Эмилия-Романья)",
-      "Турин (Пьемонт)",
       "Милан (Ломбардия)",
+      "Турин (Пьемонт)",
+      "Модена (Эмилия-Романья)",
       "Генуя (Лигурия)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -366,12 +366,12 @@
     "difficulty": 2,
     "question": "Какая британская марка выпускает внедорожники Defender, Discovery и серию Range Rover?",
     "options": [
-      "Land Rover",
       "Vauxhall",
       "MG Motor",
-      "Ineos Grenadier"
+      "Ineos Grenadier",
+      "Land Rover"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -381,12 +381,12 @@
     "difficulty": 3,
     "question": "Какая автомобильная корпорация объединила бренды Fiat, Chrysler, Peugeot, Citroen, Opel и Jeep в 2021 году?",
     "options": [
-      "Альянс Stellantis",
-      "Группа VAG",
+      "Geely Holding",
       "Альянс Renault-Nissan",
-      "Geely Holding"
+      "Группа VAG",
+      "Альянс Stellantis"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -396,12 +396,12 @@
     "difficulty": 1,
     "question": "Какой шведский бренд выпускал самолеты-истребители, а затем самобытные турбированные автомобили с замком зажигания у КПП?",
     "options": [
-      "Saab Automobile",
       "Volvo Cars",
       "Koenigsegg",
+      "Saab Automobile",
       "Scania AB"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -411,12 +411,12 @@
     "difficulty": 2,
     "question": "Какой испанский бренд входит в концерн Volkswagen и выпускает автомобили Ibiza, Leon и бренд Cupra?",
     "options": [
-      "SEAT",
+      "Santana",
       "Hispano-Suiza",
       "Pegaso",
-      "Santana"
+      "SEAT"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -426,12 +426,12 @@
     "difficulty": 3,
     "question": "Какая японская марка автомобилей названа в честь зороастрийского бога света Ахура Мазды?",
     "options": [
-      "Mazda",
       "Nissan",
+      "Datsun",
       "Mitsuoka",
-      "Datsun"
+      "Mazda"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -441,12 +441,12 @@
     "difficulty": 1,
     "question": "Какой бренд роскошных автомобилей был основан братьями Чарльзом и Уолтером Бентли в 1919 году?",
     "options": [
+      "Morgan",
       "Bentley",
       "Aston Martin",
-      "Lagonda",
-      "Morgan"
+      "Lagonda"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -456,12 +456,12 @@
     "difficulty": 2,
     "question": "Какой итальянский бренд спортивных авто имеет эмблему с трезубцем бога морей Нептуна?",
     "options": [
-      "Maserati",
-      "Ferrari",
+      "Abarth",
       "Lancia",
-      "Abarth"
+      "Maserati",
+      "Ferrari"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -471,12 +471,12 @@
     "difficulty": 3,
     "question": "Какая немецкая марка славилась легендарными моделями Kadett, Rekord, Omega и Astra?",
     "options": [
-      "Opel",
       "Borgward",
       "Wartburg",
-      "Trabant"
+      "Trabant",
+      "Opel"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -487,9 +487,9 @@
     "question": "Какая марка роскошных внедорожников и седанов является премиальным подразделением Toyota?",
     "options": [
       "Lexus",
-      "Infiniti",
       "Acura",
-      "Genesis"
+      "Genesis",
+      "Infiniti"
     ],
     "correctIndex": 0,
     "image": null
@@ -501,12 +501,12 @@
     "difficulty": 2,
     "question": "Какая премиальная марка была создана компанией Honda для рынка Северной Америки в 1986 году?",
     "options": [
-      "Acura",
-      "Lexus",
       "Infiniti",
-      "Eunos"
+      "Eunos",
+      "Lexus",
+      "Acura"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -516,12 +516,12 @@
     "difficulty": 3,
     "question": "Какая премиальная японская марка автомобилей является люксовым подразделением концерна Nissan?",
     "options": [
+      "Mitsuoka",
       "Infiniti",
       "Lexus",
-      "Acura",
-      "Mitsuoka"
+      "Acura"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -531,12 +531,12 @@
     "difficulty": 1,
     "question": "Какая корейская премиальная марка выделилась из состава корпорации Hyundai в 2015 году?",
     "options": [
-      "Genesis",
       "SsangYong",
-      "Daewoo",
-      "Samsung Motors"
+      "Genesis",
+      "Samsung Motors",
+      "Daewoo"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -547,9 +547,9 @@
     "question": "Какой китайский частный автогигант приобрел шведскую марку Volvo Cars в 2010 году?",
     "options": [
       "Geely Auto",
+      "Great Wall Motor",
       "Chery Automobile",
-      "BYD Company",
-      "Great Wall Motor"
+      "BYD Company"
     ],
     "correctIndex": 0,
     "image": null
@@ -561,12 +561,12 @@
     "difficulty": 3,
     "question": "Какой китайский производитель стал мировым лидером по выпуску электромобилей и гибридов (NEV) к 2024 году?",
     "options": [
-      "BYD Auto",
-      "NIO Electric",
+      "Li Auto",
       "XPeng Motors",
-      "Li Auto"
+      "BYD Auto",
+      "NIO Electric"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -576,12 +576,12 @@
     "difficulty": 1,
     "question": "В каком городе Германии находится главный завод и музей автоконцерна BMW?",
     "options": [
-      "Мюнхен",
       "Франкфурт",
       "Кельн",
-      "Ганновер"
+      "Ганновер",
+      "Мюнхен"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -592,9 +592,9 @@
     "question": "В каком городе расположен гигантский автозавод АВТОВАЗ, выпускающий автомобили Lada?",
     "options": [
       "Тольятти",
+      "Набережные Челны",
       "Самара",
-      "Нижний Новгород",
-      "Набережные Челны"
+      "Нижний Новгород"
     ],
     "correctIndex": 0,
     "image": null
@@ -606,12 +606,12 @@
     "difficulty": 3,
     "question": "Какой британский спорткар носил эмблему с зелеными крыльями и буквы AM?",
     "options": [
-      "Aston Martin",
-      "Austin Healey",
       "Alvis Cars",
-      "Armstrong Siddeley"
+      "Armstrong Siddeley",
+      "Austin Healey",
+      "Aston Martin"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -621,12 +621,12 @@
     "difficulty": 1,
     "question": "Какой французский бренд ультра-роскошных гиперкаров основан итальянцем Этторе Бугатти в Мольсеме?",
     "options": [
-      "Bugatti",
       "Delahaye",
+      "Facel Vega",
       "Talbot-Lago",
-      "Facel Vega"
+      "Bugatti"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -636,12 +636,12 @@
     "difficulty": 2,
     "question": "Какой советский автозавод выпускал знаменитые грузовики ЗИС-5 («Захар») и ЗИЛ-130?",
     "options": [
-      "Завод имени Лихачева (ЗИЛ)",
       "Горьковский автозавод (ГАЗ)",
+      "Завод имени Лихачева (ЗИЛ)",
       "Ярославский моторный (ЯМЗ)",
       "Минский автозавод (МАЗ)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -651,12 +651,12 @@
     "difficulty": 3,
     "question": "Какой автозавод в Набережных Челнах специализируется на тяжелых дизельных грузовиках?",
     "options": [
+      "БелАЗ",
       "КАМАЗ",
-      "УралАЗ",
       "КрАЗ",
-      "БелАЗ"
+      "УралАЗ"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -666,12 +666,12 @@
     "difficulty": 1,
     "question": "Какая эмблема украшает капот автомобилей Lada?",
     "options": [
-      "Ладья под парусом",
+      "Крылатая чайка",
       "Стремительный олень",
-      "Зубчатое колесо",
-      "Крылатая чайка"
+      "Ладья под парусом",
+      "Зубчатое колесо"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -681,12 +681,12 @@
     "difficulty": 2,
     "question": "Какое геральдическое животное Нижнего Новгорода изображено на эмблеме автомобилей ГАЗ («Волга», «ГАЗель»)?",
     "options": [
-      "Бегущий олень",
+      "Степной барс",
       "Бурый медведь",
-      "Русский сокол",
-      "Степной барс"
+      "Бегущий олень",
+      "Русский сокол"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -696,12 +696,12 @@
     "difficulty": 3,
     "question": "Какая итальянская марка прославилась спортивными хэтчбеками со скорпионом на эмблеме?",
     "options": [
-      "Abarth",
       "Autobianchi",
       "Innocenti",
-      "Cisitalia"
+      "Cisitalia",
+      "Abarth"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -711,12 +711,12 @@
     "difficulty": 1,
     "question": "Какой британский бренд производит эксклюзивные спортивные родстеры с деревянным каркасом из ясеня?",
     "options": [
-      "Morgan Motor Company",
       "Caterham Cars",
+      "BAC Mono",
       "Ariel Motor",
-      "BAC Mono"
+      "Morgan Motor Company"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -726,12 +726,12 @@
     "difficulty": 2,
     "question": "Какой автопроизводитель запатентовал и первым выпустил серийный гибридный автомобиль Prius в 1997 году?",
     "options": [
-      "Toyota Motor",
       "Honda Motor",
-      "Nissan Motor",
-      "General Motors"
+      "General Motors",
+      "Toyota Motor",
+      "Nissan Motor"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -741,12 +741,12 @@
     "difficulty": 3,
     "question": "Какая марка выпускает компактные двухместные городские автомобили Fortwo и Forfour?",
     "options": [
+      "Renault",
       "Smart",
-      "Mini",
       "Fiat",
-      "Renault"
+      "Mini"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -757,9 +757,9 @@
     "question": "Какая американская марка электромобилей выпустила футуристичный угловатый пикап Cybertruck из нержавеющей стали?",
     "options": [
       "Tesla",
+      "Fisker",
       "Rivian",
-      "Lucid",
-      "Fisker"
+      "Lucid"
     ],
     "correctIndex": 0,
     "image": null
@@ -771,12 +771,12 @@
     "difficulty": 2,
     "question": "Какой немецкий инженер считается официальным создателем первого в мире бензинового автомобиля (патент 1886 года)?",
     "options": [
-      "Карл Бенц",
       "Готтлиб Даймлер",
       "Рудольф Дизель",
+      "Карл Бенц",
       "Николаус Отто"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -786,12 +786,12 @@
     "difficulty": 3,
     "question": "Кто совершил первую в мире междугороднюю поездку на автомобиле в 1888 году для рекламы изобретения мужа?",
     "options": [
-      "Берта Бенц",
       "Клара Форд",
-      "Мерседес Еллинек",
-      "Мария Кюри"
+      "Берта Бенц",
+      "Мария Кюри",
+      "Мерседес Еллинек"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -801,12 +801,12 @@
     "difficulty": 1,
     "question": "В честь чьей дочери австрийский предприниматель Эмиль Еллинек назвал знаменитую марку Mercedes?",
     "options": [
-      "В честь Мерседес",
       "В честь сестры фрау Бенц",
+      "В честь богини победы",
       "В честь королевы Австрии",
-      "В честь богини победы"
+      "В честь Мерседес"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -816,12 +816,12 @@
     "difficulty": 2,
     "question": "Какой советский народный автомобиль выпускался на заводе АЗЛК в Москве?",
     "options": [
+      "Волга",
       "Москвич",
-      "Жигули",
       "Запорожец",
-      "Волга"
+      "Жигули"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -831,12 +831,12 @@
     "difficulty": 3,
     "question": "Какой американский концерн выпускал престижные автомобили Cadillac, Buick, Oldsmobile и Pontiac?",
     "options": [
-      "General Motors",
-      "Chrysler Group",
       "American Motors",
-      "Studebaker Corp"
+      "General Motors",
+      "Studebaker Corp",
+      "Chrysler Group"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -846,12 +846,12 @@
     "difficulty": 1,
     "question": "Какая японская марка использовала девиз «Zoom-Zoom», подчеркивая удовольствие от вождения?",
     "options": [
-      "Mazda",
-      "Subaru",
       "Nissan",
+      "Subaru",
+      "Mazda",
       "Honda"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -861,12 +861,12 @@
     "difficulty": 2,
     "question": "Какая марка выпускает знаменитый английский кэб (черное лондонское такси LEVC)?",
     "options": [
-      "London EV Company (LEVC)",
       "Rolls-Royce Motor",
       "Rover Group",
+      "London EV Company (LEVC)",
       "Triumph Motor"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -876,12 +876,12 @@
     "difficulty": 3,
     "question": "Какая марка внедорожников дала нарицательное имя всему классу полноприводных машин в русском языке?",
     "options": [
-      "Jeep",
-      "Land Rover",
       "Toyota",
-      "Nissan"
+      "Jeep",
+      "Nissan",
+      "Land Rover"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -891,12 +891,12 @@
     "difficulty": 1,
     "question": "Какой производитель создал самый быстрый серийный автомобиль 1980-х Ferrari F40 без усилителя руля и ковриков?",
     "options": [
-      "",
+      "De Tomaso",
       "Lamborghini",
       "Maserati",
-      "De Tomaso"
+      ""
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -906,12 +906,12 @@
     "difficulty": 2,
     "question": "Какая японская корпорация выпускает квадроциклы, гидроциклы, мотоциклы и музыкальные инструменты с тремя камертонами на эмблеме?",
     "options": [
-      "Yamaha",
-      "Kawasaki",
+      "Suzuki",
       "Honda",
-      "Suzuki"
+      "Yamaha",
+      "Kawasaki"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -922,9 +922,9 @@
     "question": "Какой итальянский производитель скутеров подарил миру культовый моторизованный мотороллер Vespa?",
     "options": [
       "Piaggio",
-      "Ducati",
       "Aprilia",
-      "Moto Guzzi"
+      "Moto Guzzi",
+      "Ducati"
     ],
     "correctIndex": 0,
     "image": null
@@ -936,12 +936,12 @@
     "difficulty": 1,
     "question": "Какая шведская марка грузовых автомобилей и тягачей славится легендарными мощными моторами V8?",
     "options": [
-      "Scania",
-      "Volvo Trucks",
       "MAN Truck",
-      "DAF Trucks"
+      "DAF Trucks",
+      "Volvo Trucks",
+      "Scania"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -951,12 +951,12 @@
     "difficulty": 2,
     "question": "Какой производитель грузовиков из Нидерландов входит в корпорацию PACCAR?",
     "options": [
+      "Sisu Auto",
       "DAF Trucks",
       "Iveco SpA",
-      "Renault Trucks",
-      "Sisu Auto"
+      "Renault Trucks"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -967,9 +967,9 @@
     "question": "Какая марка автомобилей имеет на логотипе крылатую стрелу в круге с глазом индейца?",
     "options": [
       "Skoda",
-      "Vauxhall",
       "Holden",
-      "Pontiac"
+      "Pontiac",
+      "Vauxhall"
     ],
     "correctIndex": 0,
     "image": null
@@ -981,12 +981,12 @@
     "difficulty": 1,
     "question": "Какой бренд спортивных автомобилей из Великобритании принадлежит китайскому концерну Geely с 2017 года?",
     "options": [
-      "Lotus Cars",
+      "Ginetta Cars",
       "TVR Motors",
-      "Noble Automotive",
-      "Ginetta Cars"
+      "Lotus Cars",
+      "Noble Automotive"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -996,12 +996,12 @@
     "difficulty": 2,
     "question": "Какая японская компания выпускает малолитражные кей-кары (kei-cars) Mira, Move и Taft?",
     "options": [
+      "Mazda",
       "Daihatsu",
       "Subaru",
-      "Mazda",
       "Isuzu"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -1012,8 +1012,8 @@
     "question": "Какой американский бренд маслкаров выпускал мощные модели Challenger и Charger с моторами Hellcat?",
     "options": [
       "Dodge",
-      "Ford",
       "Chevrolet",
+      "Ford",
       "Plymouth"
     ],
     "correctIndex": 0,
@@ -1026,12 +1026,12 @@
     "difficulty": 1,
     "question": "Какой символ украшал капот культовых советских автомобилей ГАЗ-21 «Волга» третьей серии?",
     "options": [
+      "Красная рубиновая звезда",
       "Хромированная птица (чайка)",
       "Хромированный олень",
-      "Красная рубиновая звезда",
       "Золотой колос пшеницы"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -1041,12 +1041,12 @@
     "difficulty": 2,
     "question": "Какой производитель шин из Франции выпускает знаменитый кулинарный путеводитель Мишлен со звездами?",
     "options": [
-      "Michelin",
       "Pirelli",
+      "Michelin",
       "Continental",
       "Goodyear"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   }
 ]

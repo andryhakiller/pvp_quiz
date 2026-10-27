@@ -6,12 +6,12 @@
     "difficulty": 1,
     "question": "Какой рэпер из Детройта выпустил в 2000 году «The Marshall Mathers LP» со знаменитым альтер-эго Slim Shady?",
     "options": [
-      "Eminem",
-      "50 Cent",
       "Snoop Dogg",
-      "Dr. Dre"
+      "Dr. Dre",
+      "50 Cent",
+      "Eminem"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -21,12 +21,12 @@
     "difficulty": 2,
     "question": "Какой хит Эминема из автобиографического фильма «8 миля» (2002) выиграл премию «Оскар» за лучшую песню?",
     "options": [
-      "«Lose Yourself»",
-      "«Stan»",
       "«Without Me»",
-      "«The Real Slim Shady»"
+      "«The Real Slim Shady»",
+      "«Stan»",
+      "«Lose Yourself»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -37,8 +37,8 @@
     "question": "Какая британская электронная группа записала альбомы «The Fat of the Land» и хиты «Breathe» и «Firestarter»?",
     "options": [
       "The Prodigy",
-      "The Chemical Brothers",
       "Fatboy Slim",
+      "The Chemical Brothers",
       "Massive Attack"
     ],
     "correctIndex": 0,
@@ -51,12 +51,12 @@
     "difficulty": 1,
     "question": "Какой эпатажный танцор и вокалист The Prodigy с зелеными рожками на голове ушел из жизни в 2019 году?",
     "options": [
+      "Лирой Торнхилл",
       "Кит Флинт",
-      "Лиэм Хоулетт",
       "Максим Реалити",
-      "Лирой Торнхилл"
+      "Лиэм Хоулетт"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -66,12 +66,12 @@
     "difficulty": 2,
     "question": "Какой французский электронный дуэт выступал исключительно в футуристических шлемах роботов?",
     "options": [
-      "Daft Punk",
-      "Justice",
+      "Cassius",
       "Air",
-      "Cassius"
+      "Daft Punk",
+      "Justice"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -81,12 +81,12 @@
     "difficulty": 3,
     "question": "Какой суперхит дуэта Daft Punk и Фаррелла Уильямса взорвал все мировые чарты летом 2013 года?",
     "options": [
-      "«Get Lucky»",
       "«One More Time»",
-      "«Harder, Better, Faster»",
-      "«Around the World»"
+      "«Get Lucky»",
+      "«Around the World»",
+      "«Harder, Better, Faster»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -96,12 +96,12 @@
     "difficulty": 1,
     "question": "Кто является создателем виртуальной группы Gorillaz вместе с художником Джейми Хьюлеттом?",
     "options": [
-      "Деймон Албарн (Blur)",
       "Лиэм Галлахер",
+      "Бретт Андерсон",
       "Том Йорк (Radiohead)",
-      "Бретт Андерсон"
+      "Деймон Албарн (Blur)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -111,12 +111,12 @@
     "difficulty": 2,
     "question": "Как зовут бас-гитариста и самопровозглашенного лидера виртуального квартета Gorillaz с зеленой кожей?",
     "options": [
-      "Мёрдок Никкалс",
       "2D (Стюарт Пот)",
+      "Рассел Хоббс",
       "Нудл",
-      "Рассел Хоббс"
+      "Мёрдок Никкалс"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -126,12 +126,12 @@
     "difficulty": 3,
     "question": "Какой рэпер возглавлял команду G-Unit и выпустил мультиплатиновый дебютник «Get Rich or Die Tryin'» (2003)?",
     "options": [
-      "50 Cent (Кёртис Джексон)",
-      "The Game",
       "Ja Rule",
-      "Nelly"
+      "Nelly",
+      "The Game",
+      "50 Cent (Кёртис Джексон)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -141,12 +141,12 @@
     "difficulty": 1,
     "question": "Какой хит 50 Cent 2003 года начинался со слов «Go, shorty, it's your birthday...»?",
     "options": [
-      "«In Da Club»",
-      "«Candy Shop»",
       "«21 Questions»",
-      "«Just a Lil Bit»"
+      "«Just a Lil Bit»",
+      "«In Da Club»",
+      "«Candy Shop»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -156,12 +156,12 @@
     "difficulty": 2,
     "question": "Какой вокалист группы Linkin Park обладал уникальным пронзительным скримингом и ушел из жизни в 2017 году?",
     "options": [
+      "Роб Бурдон",
       "Честер Беннингтон",
       "Майк Шинода",
-      "Брэд Делсон",
-      "Роб Бурдон"
+      "Брэд Делсон"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -172,9 +172,9 @@
     "question": "Какая песня Linkin Park с альбома «Hybrid Theory» начинается со слов «It starts with one thing...»?",
     "options": [
       "«In the End»",
-      "«Crawling»",
+      "«Faint»",
       "«One Step Closer»",
-      "«Faint»"
+      "«Crawling»"
     ],
     "correctIndex": 0,
     "image": null
@@ -186,12 +186,12 @@
     "difficulty": 1,
     "question": "Какой хит Linkin Park с альбома «Meteora» стал саундтреком клипа с девушкой-художницей в классе?",
     "options": [
+      "«From the Inside»",
       "«Numb»",
       "«Somewhere I Belong»",
-      "«Breaking the Habit»",
-      "«From the Inside»"
+      "«Breaking the Habit»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -203,8 +203,8 @@
     "options": [
       "Фред Дерст",
       "Уэс Борланд",
-      "Джон Отто",
-      "Сэм Риверс"
+      "Сэм Риверс",
+      "Джон Отто"
     ],
     "correctIndex": 0,
     "image": null
@@ -216,12 +216,12 @@
     "difficulty": 3,
     "question": "Какая американская рок-группа выпустила панк-оперу «American Idiot» и хит «Boulevard of Broken Dreams»?",
     "options": [
-      "Green Day",
-      "The Offspring",
       "Blink-182",
+      "The Offspring",
+      "Green Day",
       "Sum 41"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -231,12 +231,12 @@
     "difficulty": 1,
     "question": "Какой хит группы The Offspring 1998 года высмеивал парня, который отчаянно пытается казаться крутым гангстером?",
     "options": [
-      "«Pretty Fly (For a White Guy)»",
       "«The Kids Aren't Alright»",
-      "«Self Esteem»",
-      "«Why Don't You Get a Job?»"
+      "«Why Don't You Get a Job?»",
+      "«Pretty Fly (For a White Guy)»",
+      "«Self Esteem»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -262,9 +262,9 @@
     "question": "Какая певица стала поп-принцессой рубежа веков с дебютным синглом «...Baby One More Time» в школьной форме?",
     "options": [
       "Бритни Спирс",
-      "Кристина Агилера",
       "Мадонна",
-      "Шакира"
+      "Шакира",
+      "Кристина Агилера"
     ],
     "correctIndex": 0,
     "image": null
@@ -277,9 +277,9 @@
     "question": "Какой колумбийской певице принесли мировую славу хиты «Whenever, Wherever» и гимн ЧМ-2010 «Waka Waka»?",
     "options": [
       "Шакира",
+      "Бекки Джи",
       "Дженнифер Лопес",
-      "Глория Эстефан",
-      "Бекки Джи"
+      "Глория Эстефан"
     ],
     "correctIndex": 0,
     "image": null
@@ -291,12 +291,12 @@
     "difficulty": 2,
     "question": "Какая рок-группа Эми Ли выпустила в 2003 году готический ню-метал хит «Bring Me to Life»?",
     "options": [
-      "Evanescence",
-      "Within Temptation",
       "Nightwish",
+      "Within Temptation",
+      "Evanescence",
       "Lacuna Coil"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -306,12 +306,12 @@
     "difficulty": 3,
     "question": "Кто является бессменным солистом и автором золотых хитов поп-группы «Руки Вверх!»?",
     "options": [
+      "Юрий Шатунов",
       "Сергей Жуков",
       "Алексей Потехин",
-      "Андрей Губин",
-      "Юрий Шатунов"
+      "Андрей Губин"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -321,12 +321,12 @@
     "difficulty": 1,
     "question": "Какая песня группы «Руки Вверх!» призывала: «Забирай меня скорей, увози за сто морей...»?",
     "options": [
+      "«Студент»",
       "«18 мне уже»",
       "«Крошка моя»",
-      "«Студент»",
       "«Чужие губы»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -336,12 +336,12 @@
     "difficulty": 2,
     "question": "Какой девичий дуэт Ивана Шаповалова в школьной форме покорил мировые чарты с песней «Я сошла с ума»?",
     "options": [
-      "Группа «Тату» (t.A.T.u.)",
-      "Группа «Блестящие»",
       "Группа «Стрелки»",
-      "Группа «ВИА Гра»"
+      "Группа «ВИА Гра»",
+      "Группа «Тату» (t.A.T.u.)",
+      "Группа «Блестящие»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -351,12 +351,12 @@
     "difficulty": 3,
     "question": "Какое место заняла группа «Тату» на международном конкурсе Евровидение-2003 в Риге с песней «Не верь, не бойся»?",
     "options": [
+      "Пятое место",
       "Третье место",
-      "Первое место",
       "Второе место",
-      "Пятое место"
+      "Первое место"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -366,12 +366,12 @@
     "difficulty": 1,
     "question": "Какой российский певец впервые в истории выиграл конкурс Евровидение для России в 2008 году («Believe»)?",
     "options": [
+      "Филипп Киркоров",
       "Дима Билан",
       "Сергей Лазарев",
-      "Филипп Киркоров",
       "Алексей Воробьев"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -381,12 +381,12 @@
     "difficulty": 2,
     "question": "Какой фигурист олимпийский чемпион выступал на искусственном льду на сцене во время победного номера Димы Билана?",
     "options": [
+      "Роман Костомаров",
       "Евгений Плющенко",
       "Алексей Ягудин",
-      "Илья Авербух",
-      "Роман Костомаров"
+      "Илья Авербух"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -396,12 +396,12 @@
     "difficulty": 3,
     "question": "Какой продюсер создал золотой состав группы «ВИА Гра» (Вера Брежнева, Надежда Грановская, Анна Седокова)?",
     "options": [
-      "Константин Меладзе",
-      "Игорь Матвиенко",
       "Максим Фадеев",
+      "Игорь Матвиенко",
+      "Константин Меладзе",
       "Виктор Дробыш"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -411,12 +411,12 @@
     "difficulty": 1,
     "question": "Какая поп-группа продюсера Игоря Матвиенко выпустила суперхиты «Тополиный пух» и «Тучи»?",
     "options": [
+      "«Дискотека Авария»",
       "«Иванушки International»",
       "«На-На»",
-      "«Корни»",
-      "«Дискотека Авария»"
+      "«Корни»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -427,9 +427,9 @@
     "question": "Какая юмористическая поп-группа из Иванова спела про «Новогоднюю», «Пей пиво» и «Малинки»?",
     "options": [
       "«Дискотека Авария»",
+      "«Кар-Мэн»",
       "«Отпетые Мошенники»",
-      "«Дюна»",
-      "«Кар-Мэн»"
+      "«Дюна»"
     ],
     "correctIndex": 0,
     "image": null
@@ -439,11 +439,11 @@
     "categoryId": "music",
     "subcategoryId": "era_90s_10s",
     "difficulty": 3,
-    "question": "Какой хит группы «Отпетые Мошенники» романтично утверждал: «Всяко-разно, это не заразно...» или «Люби меня, люби»?",
+    "question": "Какой главный романтический хит группы «Отпетые Мошенники» конца 90-х крутился на всех радиостанциях с припевом «...горячим поцелуем»?",
     "options": [
       "«Люби меня, люби»",
+      "«Всяко-разно»",
       "«Девушки бывают разные»",
-      "«Бросай курить»",
       "«Обратите внимание»"
     ],
     "correctIndex": 0,
@@ -456,12 +456,12 @@
     "difficulty": 1,
     "question": "Какой казахстанский рэпер и продюсер из Павлодара выпустил прорывной альбом «Дом с нормальными явлениями» в 2015 году?",
     "options": [
-      "Скриптонит",
+      "Truwer",
       "Jah Khalib",
       "Miyagi",
-      "Truwer"
+      "Скриптонит"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -471,12 +471,12 @@
     "difficulty": 2,
     "question": "Какой рэпер с дипломом Оксфорда записал концептуальный альбом-антиутопию «Горгород»?",
     "options": [
-      "Oxxxymiron",
       "Гнойный",
+      "Хаски",
       "Noize MC",
-      "Хаски"
+      "Oxxxymiron"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -486,12 +486,12 @@
     "difficulty": 3,
     "question": "В каком историческом рэп-баттле на площадке Versus в августе 2017 года Oxxxymiron потерпел сенсационное поражение 0:5?",
     "options": [
-      "Баттл против Гнойного",
+      "Баттл против Крипла",
       "Баттл против Johnyboy",
       "Баттл против Дуни",
-      "Баттл против Крипла"
+      "Баттл против Гнойного"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -501,12 +501,12 @@
     "difficulty": 1,
     "question": "Какой ростовский рэпер основал лейбл Gazgolder и выступает под псевдонимами Ноггано и N1NT3ND0?",
     "options": [
-      "Баста",
-      "Влади",
+      "Смоки Мо",
       "Рем Дигга",
-      "Смоки Мо"
+      "Влади",
+      "Баста"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -516,12 +516,12 @@
     "difficulty": 2,
     "question": "Какая песня Басты звучит на выпускных вечерах по всей стране со словами «Медлячок, чтобы ты заплакала...»?",
     "options": [
-      "«Выпускной»",
-      "«Сансара»",
+      "«Урбан»",
       "«Моя игра»",
-      "«Урбан»"
+      "«Выпускной»",
+      "«Сансара»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -531,12 +531,12 @@
     "difficulty": 3,
     "question": "Какая ростовская рэп-группа выпустила эпохальные треки «На порядок выше» и «Вокруг шум»?",
     "options": [
-      "Группа «Каста»",
       "Группа «Bad Balance»",
       "Группа «Многоточие»",
-      "Группа «Centr»"
+      "Группа «Centr»",
+      "Группа «Каста»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -546,12 +546,12 @@
     "difficulty": 1,
     "question": "Какая московская рэп-группа (Гуф, Slim, Птаха) выпустила в 2007 году платиновый альбом «Качели»?",
     "options": [
+      "Группа «АК-47»",
       "Группа «Centr»",
       "Группа «Кровосток»",
-      "Группа «АК-47»",
       "Группа «Триагрутрика»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -576,12 +576,12 @@
     "difficulty": 3,
     "question": "Какой белорусский певец из Лунинца покорил стадионы песнями «Малый повзрослел», «Жить в кайф» и «Небо поможет нам»?",
     "options": [
-      "Макс Корж",
       "ЛСП",
       "Тима Белорусских",
-      "Homie"
+      "Homie",
+      "Макс Корж"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -591,12 +591,12 @@
     "difficulty": 1,
     "question": "Какая группа из Владикавказа (Азамат Кудзаев и Сослан Бурнацев) создала мегахиты «I Got Love» и «Tamally Maak»?",
     "options": [
-      "Miyagi & Эндшпиль",
       "HammAli & Navai",
-      "Rauf & Faik",
-      "MiyaGi & Andy Panda"
+      "MiyaGi & Andy Panda",
+      "Miyagi & Эндшпиль",
+      "Rauf & Faik"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -606,12 +606,12 @@
     "difficulty": 2,
     "question": "Какой хит дуэта Miyagi & Эндшпиль стал самым просматриваемым российским клипом на YouTube (более 800 млн просмотров)?",
     "options": [
-      "«I Got Love»",
-      "«Колибри»",
+      "«Captain»",
       "«Minor»",
-      "«Captain»"
+      "«Колибри»",
+      "«I Got Love»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -622,9 +622,9 @@
     "question": "Какой шведский диджей и продюсер создал гимн фестивалей «Wake Me Up» и ушел из жизни в 2018 году в Омане?",
     "options": [
       "Avicii",
-      "Swedish House Mafia",
       "Alesso",
-      "Kygo"
+      "Kygo",
+      "Swedish House Mafia"
     ],
     "correctIndex": 0,
     "image": null
@@ -637,8 +637,8 @@
     "question": "Какой американский продюсер в очках с толстой оправой запустил мировую волну дабстепа хитом «Bangarang»?",
     "options": [
       "Skrillex",
-      "Deadmau5",
       "Diplo",
+      "Deadmau5",
       "Steve Aoki"
     ],
     "correctIndex": 0,
@@ -666,12 +666,12 @@
     "difficulty": 3,
     "question": "Какой южнокорейский рэпер взорвал YouTube в 2012 году клипом «Gangnam Style», впервые набравшим 1 миллиард просмотров?",
     "options": [
-      "PSY",
-      "BTS",
+      "Rain",
       "G-Dragon",
-      "Rain"
+      "PSY",
+      "BTS"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -681,12 +681,12 @@
     "difficulty": 1,
     "question": "Какой хит пуэрториканцев Луиса Фонси и Дэдди Янки побил все рекорды прослушиваний в 2017 году?",
     "options": [
-      "«Despacito»",
-      "«Bailando»",
+      "«Danza Kuduro»",
       "«Gasolina»",
-      "«Danza Kuduro»"
+      "«Bailando»",
+      "«Despacito»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -696,12 +696,12 @@
     "difficulty": 2,
     "question": "Какая певица спела главный хит фильма «Титаник» 1997 года «My Heart Will Go On»?",
     "options": [
-      "Селин Дион",
       "Уитни Хьюстон",
       "Мэрайя Кэри",
-      "Барбра Стрейзанд"
+      "Барбра Стрейзанд",
+      "Селин Дион"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -711,12 +711,12 @@
     "difficulty": 3,
     "question": "Какая певица установила рекорд продаж альбома «21» с балладами «Rolling in the Deep» и «Someone Like You»?",
     "options": [
-      "Адель (Adele)",
-      "Эми Уайнхаус",
       "Лана Дель Рей",
-      "Дуа Липа"
+      "Дуа Липа",
+      "Эми Уайнхаус",
+      "Адель (Adele)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -727,9 +727,9 @@
     "question": "Какой британский певец с рыжими волосами покорил стадионы хитами «Shape of You» и «Perfect» под одну гитару?",
     "options": [
       "Эд Ширан",
+      "Джеймс Блант",
       "Сэм Смит",
-      "Джордж Эзра",
-      "Джеймс Блант"
+      "Джордж Эзра"
     ],
     "correctIndex": 0,
     "image": null
@@ -741,12 +741,12 @@
     "difficulty": 2,
     "question": "Какой канадский артист выступал в красном пиджаке и с забинтованным лицом в эру суперхита «Blinding Lights»?",
     "options": [
+      "Post Malone",
       "The Weeknd",
       "Drake",
-      "Post Malone",
       "Travis Scott"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -754,12 +754,12 @@
     "categoryId": "music",
     "subcategoryId": "era_90s_10s",
     "difficulty": 3,
-    "question": "Какой немецкий диджей записал трек «The Bad Touch» («мы всего лишь млекопитающие...») с группой Bloodhound Gang?",
+    "question": "Какая скандальная американская панк-рок группа прославилась клипом в костюмах обезьян на хит «The Bad Touch» («You and me baby ain't nothin' but mammals...»)?",
     "options": [
-      "Bloodhound Gang",
-      "Scooter",
-      "Rammstein",
-      "Cascada"
+      "The Bloodhound Gang",
+      "Blink-182",
+      "Sum 41",
+      "Offspring"
     ],
     "correctIndex": 0,
     "image": null
@@ -771,12 +771,12 @@
     "difficulty": 1,
     "question": "Какая немецкая рейв-группа во главе с Эйч Пи Бакстером кричала «How Much Is the Fish?» и «Fire!»?",
     "options": [
-      "Группа «Scooter»",
-      "Группа «E-Rotic»",
       "Группа «ATC»",
-      "Группа «Masterboy»"
+      "Группа «Masterboy»",
+      "Группа «E-Rotic»",
+      "Группа «Scooter»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -786,12 +786,12 @@
     "difficulty": 2,
     "question": "Какой итальянский музыкант в образе бродячего диджея записал хит «Satisfaction» со звуком жужжащей пилы в 2002 году?",
     "options": [
+      "Роберт Майлз",
       "Бенни Бенасси",
       "Джиджи Д'Агостино",
-      "Роберт Майлз",
       "Алекс Гаудино"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -801,12 +801,12 @@
     "difficulty": 3,
     "question": "Какая швейцарско-немецкая евродэнс-группа выпустила хит 90-х «Coco Jamboo»?",
     "options": [
-      "Mr. President",
+      "La Bouche",
       "Culture Beat",
       "Snap!",
-      "La Bouche"
+      "Mr. President"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -816,12 +816,12 @@
     "difficulty": 1,
     "question": "Какая евродэнс-группа выпустила суперхит «Blue (Da Ba Dee)» про синего человечка в синем мире?",
     "options": [
-      "Eiffel 65",
-      "Vengaboys",
       "Aqua",
-      "2 Unlimited"
+      "2 Unlimited",
+      "Eiffel 65",
+      "Vengaboys"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -831,12 +831,12 @@
     "difficulty": 2,
     "question": "Какой датско-норвежский коллектив спел хит «Barbie Girl», вызвавший судебный иск от компании Mattel?",
     "options": [
+      "Группа «Army of Lovers»",
       "Группа «Aqua»",
       "Группа «Ace of Base»",
-      "Группа «A-ha»",
-      "Группа «Army of Lovers»"
+      "Группа «A-ha»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -846,12 +846,12 @@
     "difficulty": 3,
     "question": "Какая шведская четверка в 1993 году выпустила мегахиты «All That She Wants» и «The Sign»?",
     "options": [
-      "Ace of Base",
+      "The Cardigans",
       "ABBA",
-      "Roxette",
-      "The Cardigans"
+      "Ace of Base",
+      "Roxette"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -862,9 +862,9 @@
     "question": "Какой шведский рок-дуэт (Мари Фредрикссон и Пер Гессле) прославился балладой «It Must Have Been Love» из «Красотки»?",
     "options": [
       "Roxette",
-      "The Cardigans",
+      "Kent",
       "Europe",
-      "Kent"
+      "The Cardigans"
     ],
     "correctIndex": 0,
     "image": null
@@ -876,12 +876,12 @@
     "difficulty": 2,
     "question": "Какая финская рок-группа во главе с Лаури Юлёненом выпустила в 2003 году хит «In the Shadows» с перьями в волосах?",
     "options": [
-      "The Rasmus",
-      "HIM",
       "Apocalyptica",
-      "Nightwish"
+      "Nightwish",
+      "The Rasmus",
+      "HIM"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -892,9 +892,9 @@
     "question": "Какой финский коллектив исполняет тяжелый металл исключительно на четырех академических виолончелях?",
     "options": [
       "Apocalyptica",
-      "Nightwish",
+      "Amorphis",
       "Korpiklaani",
-      "Amorphis"
+      "Nightwish"
     ],
     "correctIndex": 0,
     "image": null
@@ -906,12 +906,12 @@
     "difficulty": 1,
     "question": "Какой готик-рок вокалист группы HIM ввел символ «Heartagram» (сердце, объединенное с пентаграммой)?",
     "options": [
-      "Вилле Вало",
-      "Лаури Юлёнен",
       "Тарья Турунен",
-      "Юрки 69"
+      "Юрки 69",
+      "Лаури Юлёнен",
+      "Вилле Вало"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -921,12 +921,12 @@
     "difficulty": 2,
     "question": "Какая финская симфоник-метал группа прославилась оперным вокалом Тарьи Турунен и хитом «Wish I Had an Angel»?",
     "options": [
-      "Nightwish",
-      "Within Temptation",
       "Epica",
-      "Sirenia"
+      "Nightwish",
+      "Sirenia",
+      "Within Temptation"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -936,12 +936,12 @@
     "difficulty": 3,
     "question": "Какая группа выиграла Евровидение-2006 в костюмах жутких латексных монстров с гимном «Hard Rock Hallelujah»?",
     "options": [
-      "Lordi (Финляндия)",
+      "Slipknot",
       "Rammstein",
       "Gwar",
-      "Slipknot"
+      "Lordi (Финляндия)"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -951,12 +951,12 @@
     "difficulty": 1,
     "question": "Какая американская рок-группа выпустила постапокалиптический хит «Radioactive» и клип с плюшевыми зверями?",
     "options": [
-      "Imagine Dragons",
       "OneRepublic",
       "Maroon 5",
-      "Fall Out Boy"
+      "Fall Out Boy",
+      "Imagine Dragons"
     ],
-    "correctIndex": 0,
+    "correctIndex": 3,
     "image": null
   },
   {
@@ -964,12 +964,12 @@
     "categoryId": "music",
     "subcategoryId": "era_90s_10s",
     "difficulty": 2,
-    "question": "Какой хит группы Franz Ferdinand заставлял прыгать танцполы инди-рока нулевых под гитарный рифф «Take Me Out»?",
+    "question": "Какой прорывной сингл шотландской инди-рок группы Franz Ferdinand 2004 года стал мировым хитом благодаря резкой смене гитарного ритма?",
     "options": [
       "«Take Me Out»",
       "«Do You Want To»",
-      "«No You Girls»",
-      "«This Fire»"
+      "«Seven Nation Army»",
+      "«Somebody Told Me»"
     ],
     "correctIndex": 0,
     "image": null
@@ -981,12 +981,12 @@
     "difficulty": 3,
     "question": "Какая британская группа братьев Галлахеров распалась в 2009 году после очередной драки за кулисами?",
     "options": [
-      "Группа «Oasis»",
       "Группа «Blur»",
-      "Группа «Kasabian»",
-      "Группа «Arctic Monkeys»"
+      "Группа «Arctic Monkeys»",
+      "Группа «Oasis»",
+      "Группа «Kasabian»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   },
   {
@@ -996,12 +996,12 @@
     "difficulty": 1,
     "question": "Какая песня группы Oasis является неофициальным народным гимном Великобритании: «And after all, you're my...»?",
     "options": [
-      "«Wonderwall»",
-      "«Don't Look Back in Anger»",
       "«Champagne Supernova»",
-      "«Stop Crying Your Heart Out»"
+      "«Wonderwall»",
+      "«Stop Crying Your Heart Out»",
+      "«Don't Look Back in Anger»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -1011,12 +1011,12 @@
     "difficulty": 2,
     "question": "Какой инди-рок коллектив из Шеффилда во главе с Алексом Тернером выпустил культовый альбом «AM» (2013)?",
     "options": [
+      "The Libertines",
       "Arctic Monkeys",
       "The Strokes",
-      "The Kooks",
-      "The Libertines"
+      "The Kooks"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "image": null
   },
   {
@@ -1028,8 +1028,8 @@
     "options": [
       "«Do I Wanna Know?»",
       "«R U Mine?»",
-      "«Arabella»",
-      "«505»"
+      "«505»",
+      "«Arabella»"
     ],
     "correctIndex": 0,
     "image": null
@@ -1041,12 +1041,12 @@
     "difficulty": 1,
     "question": "Какой хит австралийского певца Gotye и Кимбры взорвал мир в 2011 году клипом с геометрическим боди-артом на стене?",
     "options": [
-      "«Somebody That I Used to Know»",
       "«Eyes Wide Open»",
       "«Heart's a Mess»",
+      "«Somebody That I Used to Know»",
       "«Smoke and Mirrors»"
     ],
-    "correctIndex": 0,
+    "correctIndex": 2,
     "image": null
   }
 ]

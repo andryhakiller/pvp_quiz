@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "sports_olympics_1",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой американский пловец завоевал рекордные в истории 23 золотые олимпийские медали (всего 28 наград)?",
+    "options": [
+      "Майкл Фелпс",
+      "Марк Спитц",
+      "Райан Лохте",
+      "Калеб Дрессел"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_2",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой ямайский спринтер по прозвищу «Молния» установил мировые рекорды в беге на 100 м (9.58 с) и 200 м (19.19 с)?",
+    "options": [
+      "Усэйн Болт",
+      "Йохан Блейк",
+      "Асафа Пауэлл",
+      "Тайсон Гэй"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_3",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком городе Древней Греции зародились и регулярно проводились античные Олимпийские игры?",
+    "options": [
+      "Олимпия",
+      "Афины",
+      "Спарта",
+      "Дельфы"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_4",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой французский общественный деятель возродил современные Олимпийские игры и основал МОК в 1894 году?",
+    "options": [
+      "Пьер де Кубертен",
+      "Жюль Риме",
+      "Анри Дидон",
+      "Жан Боротра"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_5",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком городе состоялись первые летние Олимпийские игры современности в 1896 году?",
+    "options": [
+      "Афины (Греция)",
+      "Париж (Франция)",
+      "Лондон (Великобритания)",
+      "Рим (Италия)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_6",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Что символизируют пять переплетенных колец на официальном олимпийском флаге?",
+    "options": [
+      "Пять обитаемых континентов Земли",
+      "Пять античных видов спорта",
+      "Пять основателей МОК",
+      "Пять первых олимпиад"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_7",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком российском городе-курорте прошли XXII Зимние Олимпийские игры 2014 года?",
+    "options": [
+      "Сочи",
+      "Казань",
+      "Красноярск",
+      "Уфа"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_8",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какая советская гимнастка завоевала 9 золотых, 5 серебряных и 4 бронзовых олимпийских медалей в 1950–60-х годах?",
+    "options": [
+      "Лариса Латынина",
+      "Ольга Корбут",
+      "Людмила Турищева",
+      "Светлана Хоркина"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_9",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Как официально звучит обновленный олимпийский девиз, утвержденный в 2021 году?",
+    "options": [
+      "«Быстрее, выше, сильнее — вместе»",
+      "«Главное не победа, а участие»",
+      "«Спорт объединяет мир»",
+      "«Мир через спорт»"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_10",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком виде спорта российская спортсменка Елена Исинбаева установила 28 мировых рекордов и дважды выиграла олимпийское золото?",
+    "options": [
+      "Прыжки с шестом",
+      "Прыжки в высоту",
+      "Тройной прыжок",
+      "Прыжки в длину"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_11",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой норвежский биатлонист по прозвищу «Король биатлона» выиграл 8 золотых олимпийских медалей за карьеру?",
+    "options": [
+      "Уле-Эйнар Бьорндален",
+      "Мартен Фуркад",
+      "Йоханнес Бё",
+      "Эмиль Хегле Свендсен"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_12",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком году в Москве состоялись XXII Летние Олимпийские игры, талисманом которых был Олимпийский Мишка?",
+    "options": [
+      "1980 год",
+      "1976 год",
+      "1984 год",
+      "1988 год"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_13",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой американский легкоатлет повторил триумф Джесси Оуэнса, завоевав 4 золота на Олимпиаде-1984 в Лос-Анджелесе?",
+    "options": [
+      "Карл Льюис",
+      "Майкл Джонсон",
+      "Боб Бимон",
+      "Морис Грин"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_14",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какая точная дистанция классического легкоатлетического марафонского забега?",
+    "options": [
+      "42 километра 195 метров",
+      "40 километров",
+      "42 километра ровно",
+      "45 километров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_15",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой греческий воин, по преданию, пробежал без остановки от Марафона до Афин, воскликнул «Радуйтесь, мы победили!» и упал замертво?",
+    "options": [
+      "Фидиппид",
+      "Леонид",
+      "Мильтиад",
+      "Фемистокл"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_16",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой зимний вид спорта сочетает в себе лыжные гонки свободным стилем и стрельбу из малокалиберной винтовки?",
+    "options": [
+      "Биатлон",
+      "Лыжное двоеборье",
+      "Фристайл",
+      "Ски-альпинизм"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_17",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком олимпийском командном виде спорта игроки трут лед щетками перед скользящим тяжелым гранитным камнем?",
+    "options": [
+      "Кёрлинг",
+      "Бобслей",
+      "Скелетон",
+      "Шорт-трек"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_18",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какая советская фигуристка стала трехкратной олимпийской чемпионкой в парном катании с двумя разными партнерами (Улановым и Зайцевым)?",
+    "options": [
+      "Ирина Роднина",
+      "Людмила Белоусова",
+      "Екатерина Гордеева",
+      "Татьяна Навка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_19",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком городе прошли летние Олимпийские игры 2008 года с грандиозной церемонией открытия на стадионе «Птичье гнездо»?",
+    "options": [
+      "Пекин (Китай)",
+      "Токио (Япония)",
+      "Сеул (Южная Корея)",
+      "Сидней (Австралия)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_20",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой легкоатлет совершил феноменальный прыжок в длину на 8,90 метра в высокогорном Мехико-1968 («прыжок в XXI век»)?",
+    "options": [
+      "Боб Бимон",
+      "Карл Льюис",
+      "Майк Пауэлл",
+      "Иван Педросо"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_21",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой легендарный советский прыгун с шестом первым в истории преодолел планку на высоте 6 метров?",
+    "options": [
+      "Сергей Бубка",
+      "Максим Тарасов",
+      "Родион Гатауллин",
+      "Игорь Транденков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_22",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой борец греко-римского стиля из России выиграл три золота Олимпиад подряд и оставался непобежденным на протяжении 13 лет?",
+    "options": [
+      "Александр Карелин",
+      "Роман Власов",
+      "Мурат Карданов",
+      "Михаил Мамиашвили"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_23",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какое тяжелое поражение потерпел Александр Карелин в финале Олимпиады-2000 в Сиднее из-за разрыва захвата?",
+    "options": [
+      "От американца Рулона Гарднера (0:1)",
+      "От шведа Микаэля Юнгберга",
+      "От кубинца Эктора Милиана",
+      "От турка Хамзы Ерликая"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_24",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Из какого металла традиционно изготавливается медаль за второе место на Олимпийских играх?",
+    "options": [
+      "Серебро 925-й пробы",
+      "Белое золото",
+      "Платина",
+      "Мельхиор"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_25",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Из чего на самом деле состоит олимпийская «золотая» медаль согласно требованиям МОК?",
+    "options": [
+      "Из серебра (не менее 92,5%) с тонким золотым напылением (не менее 6 грамм золота)",
+      "Из чистого монолитного золота 999 пробы",
+      "Из бронзы с позолотой",
+      "Из латуни"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_26",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В какой стране по традиции всегда зажигается священный олимпийский огонь от солнечных лучей с помощью параболического зеркала?",
+    "options": [
+      "В Греции (у храма Геры в Олимпии)",
+      "Во Франции (в штаб-квартире МОК)",
+      "В Швейцарии (в Лозанне)",
+      "В стране-хозяйке Игр"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_27",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какая сборная всегда традиционно шествует первой на Параде наций церемонии открытия Олимпийских игр?",
+    "options": [
+      "Греция",
+      "Страна-организатор",
+      "Франция",
+      "По алфавиту"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_28",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какая сборная по традиции закрывает Парад наций и выходит на стадион самой последней?",
+    "options": [
+      "Страна-хозяйка текущих Олимпийских игр",
+      "Греция",
+      "США",
+      "Победитель предыдущих Игр"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_29",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой советский и российский лыжник стал единственным в истории четырехкратным чемпионом зимних Олимпиад по биатлону (1968, 1972, 1976, 1980)?",
+    "options": [
+      "Александр Тихонов",
+      "Николай Круглов",
+      "Сергей Чепиков",
+      "Анатолий Алябьев"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_30",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком виде спорта российские синхронистки не проигрывали ни одного олимпийского золота на протяжении более 20 лет (2000–2021)?",
+    "options": [
+      "Синхронное плавание",
+      "Художественная гимнастика",
+      "Прыжки в воду",
+      "Фигурное катание"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_31",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Кто стал первой в истории двукратной олимпийской чемпионкой в художественной гимнастике в индивидуальном многоборье (2008, 2012)?",
+    "options": [
+      "Евгения Канаева",
+      "Алина Кабаева",
+      "Ирина Чащина",
+      "Маргарита Мамун"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_32",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком городе должны были пройти летние Олимпийские игры 2020 года, которые были перенесены на 2021 год из-за пандемии?",
+    "options": [
+      "Токио (Япония)",
+      "Париж (Франция)",
+      "Лондон (Великобритания)",
+      "Мадрид (Испания)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_33",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой американский спринтер пробежал дистанцию 400 метров в золотых шиповках на Олимпиаде-1996 в Атланте с рекордом 43,49 с?",
+    "options": [
+      "Майкл Джонсон",
+      "Батч Рейнольдс",
+      "Лашон Мерритт",
+      "Джереми Уоринер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_34",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой рекорд по прыжкам в высоту (2,45 метра), установленный в 1993 году, остается непревзойденным олимпийским ориентиром?",
+    "options": [
+      "Хавьер Сотомайор (Куба)",
+      "Мутаз Баршим (Катар)",
+      "Стефан Хольм (Швеция)",
+      "Джанмарко Тамбери (Италия)"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_35",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой вид спорта вернулся в олимпийскую программу в Рио-2016 после 112-летнего перерыва?",
+    "options": [
+      "Гольф",
+      "Бейсбол",
+      "Поло",
+      "Крикет"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_36",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 3,
+    "question": "Какая африканская бегунья на длинные дистанции из Эфиопии стала трехкратной олимпийской чемпионкой на 5000 и 10 000 метров?",
+    "options": [
+      "Тирунеш Дибаба",
+      "Месерет Дефар",
+      "Дерарту Тулу",
+      "Алмаз Аяна"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_37",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком олимпийском виде спорта спортсмены спускаются по ледяному желобу на санях головой вперед на животе?",
+    "options": [
+      "Скелетон",
+      "Санный спорт",
+      "Бобслей",
+      "Натурбан"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_38",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой советский штангист в супертяжелом весе установил 80 мировых рекордов и дважды выиграл олимпийское золото (1972, 1976)?",
+    "options": [
+      "Василий Алексеев",
+      "Юрий Власов",
+      "Леонид Жаботинский",
+      "Султан Рахманов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_39",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 3,
+    "question": "В каком виде спорта советский фехтовальщик Виктор Кровопусков выиграл 4 золотые олимпийские медали?",
+    "options": [
+      "Фехтование на саблях",
+      "Фехтование на шпагах",
+      "Фехтование на рапирах",
+      "Стрельба из лука"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_40",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какая румынская гимнастка впервые в истории спортивной гимнастики получила абсолютную оценку 10.00 баллов на Олимпиаде-1976 в Монреале?",
+    "options": [
+      "Надя Команечи",
+      "Нелли Ким",
+      "Симона Байлз",
+      "Ольга Корбут"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_41",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какая американская гимнастка выиграла рекордные 7 олимпийских золотых медалей и выполняет элементы запредельной сложности?",
+    "options": [
+      "Симона Байлз",
+      "Габби Дуглас",
+      "Али Райсман",
+      "Шон Джонсон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_42",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "В каком виде спорта на зимних Олимпиадах разыгрываются медали в дисциплине «могул»?",
+    "options": [
+      "Фристайл",
+      "Сноуборд",
+      "Горнолыжный спорт",
+      "Шорт-трек"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_43",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Сколько спортсменов находится в экипаже самого тяжелого олимпийского боба в бобслее?",
+    "options": [
+      "4 спортсмена («четверка»)",
+      "2 спортсмена",
+      "3 спортсмена",
+      "6 спортсменов"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_44",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какая страна принимала первые в истории зимние Олимпийские игры 1924 года в городе Шамони?",
+    "options": [
+      "Франция",
+      "Швейцария",
+      "Норвегия",
+      "Австрия"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_45",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой советский конькобежец выиграл все 4 золотые дистанции на одной Олимпиаде 1964 года в Инсбруке (500, 1500, 5000 и 10 000 м)?",
+    "options": [
+      "Лидия Скобликова",
+      "Евгений Гришин",
+      "Виктор Косичкин",
+      "Олег Гончаренко"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_46",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какая российская фигуристка стала первой в истории одиночницей, приземлившей пять четверных прыжков на Олимпиаде-2022 в Пекине?",
+    "options": [
+      "Александра Трусова",
+      "Анна Щербакова",
+      "Камила Валиева",
+      "Алина Загитова"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_47",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Кто стал олимпийской чемпионкой 2018 года в Пхёнчхане в женском одиночном фигурном катании в возрасте 15 лет?",
+    "options": [
+      "Алина Загитова",
+      "Евгения Медведева",
+      "Юлия Липницкая",
+      "Аделина Сотникова"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_48",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой талисман прощался со зрителями под песню Александры Пахмутовой на закрытии Олимпиады-80 в Москве и улетал в небо?",
+    "options": [
+      "Олимпийский Мишка",
+      "Зайка",
+      "Леопард",
+      "Чебурашка"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_49",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой легкоатлет бежал босиком по мостовым Рима и выиграл олимпийский марафон 1960 года, принеся первое золото Эфиопии?",
+    "options": [
+      "Абебе Бикила",
+      "Мамо Волде",
+      "Хайле Гебреселассие",
+      "Кенениса Бекеле"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_50",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой олимпийский вид единоборств родом из Японии дебютировал на Играх 1964 года в Токио?",
+    "options": [
+      "Дзюдо",
+      "Карате",
+      "Тхэквондо",
+      "Айкидо"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_51",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком виде спорта соревнуются мужчины и женщины в смешанном олимпийском разряде «выездка» (дрессура)?",
+    "options": [
+      "Конный спорт",
+      "Парусный спорт",
+      "Синхронное плавание",
+      "Стрельба из лука"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_52",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой вид спорта включает плавание на 1,5 км, велогонку на 40 км и бег на 10 км на олимпийской дистанции?",
+    "options": [
+      "Триатлон",
+      "Современное пятиборье",
+      "Биатлон",
+      "Дуатлон"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_53",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какие пять дисциплин входят в олимпийское современное пятиборье?",
+    "options": [
+      "Плавание, фехтование, конкур (верховая езда), бег и лазерная стрельба",
+      "Плавание, бег, велогонка, гребля и стрельба",
+      "Легкая атлетика, гимнастика, дзюдо, бокс и плавание",
+      "Стрельба, метание копья, бег, фехтование и борьба"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_54",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой легендарный кубинский боксер тяжелого веса трижды подряд выигрывал золото Олимпиад (1972, 1976, 1980)?",
+    "options": [
+      "Теофило Стивенсон",
+      "Феликс Савон",
+      "Гильермо Ригондо",
+      "Роберто Баладо"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_55",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "В каком году на Олимпиаде в Сеуле мужская сборная СССР по футболу сенсационно победила сборную Бразилии со счетом 2:1 в финале?",
+    "options": [
+      "1988 год",
+      "1980 год",
+      "1992 год",
+      "1984 год"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_56",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Кто забил победный гол в овертайме финала Олимпиады-1988 СССР — Бразилия?",
+    "options": [
+      "Юрий Савичев",
+      "Игорь Добровольский",
+      "Алексей Михайличенко",
+      "Александр Бородюк"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_57",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какая сборная выиграла олимпийский мужской волейбольный турнир 2012 года в Лондоне, совершив камбэк со счета 0:2 по сетам против Бразилии?",
+    "options": [
+      "Сборная России (тренер Владимир Алекно)",
+      "Сборная США",
+      "Сборная Италии",
+      "Сборная Польши"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_58",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой российский волейболист ростом 218 см был переведен Алекно на позицию диагонального в финале Лондона-2012, решив исход матча?",
+    "options": [
+      "Дмитрий Мусэрский",
+      "Максим Михайлов",
+      "Сергей Тетюхин",
+      "Александр Волков"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_59",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой российский шорт-трекист, ранее выступавший за Южную Корею, принес России 3 золотые медали на Олимпиаде в Сочи-2014?",
+    "options": [
+      "Виктор Ан (Ан Хён Су)",
+      "Семен Елистратов",
+      "Владимир Григорьев",
+      "Руслан Захаров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_60",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой российский сноубордист американского происхождения выиграл 2 золотые медали в Сочи-2014 в параллельном гигантском слаломе?",
+    "options": [
+      "Вик Уайлд",
+      "Алексей Соболев",
+      "Николай Олюнин",
+      "Денис Салагаев"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_61",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой город в 2024 году принял летние Олимпийские игры в третий раз в своей истории (ранее в 1900 и 1924 годах)?",
+    "options": [
+      "Париж",
+      "Лондон",
+      "Лос-Анджелес",
+      "Афины"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_62",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой город примет зимние Олимпийские игры 2026 года в Италии?",
+    "options": [
+      "Милан и Кортина-д’Ампеццо",
+      "Турин",
+      "Рим",
+      "Больцано"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_63",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой вид уличного танца впервые официально дебютировал в качестве олимпийской дисциплины на Играх в Париже 2024 года?",
+    "options": [
+      "Брейк-данс (брейкинг)",
+      "Хип-хоп",
+      "Крамп",
+      "Тектоник"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_64",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какая австралийская бегунья на 400 метров зажгла олимпийский огонь в Сиднее-2000 и выиграла золотую медаль на глазах 110 тысяч соотечественников?",
+    "options": [
+      "Кэти Фримен",
+      "Салли Пирсон",
+      "Ширли Стрикленд",
+      "Бетти Катберт"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_65",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком олимпийском виде плавания спортсмены стартуют не с тумбочки, а находясь прямо в воде лицом к бортику?",
+    "options": [
+      "Плавание на спине",
+      "Брасс",
+      "Баттерфляй",
+      "Вольный стиль"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_66",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой чехословацкий бегун по прозвищу «Чешский локомотив» на Олимпиаде-1952 в Хельсинки выиграл золото на 5000 м, 10 000 м и в марафоне?",
+    "options": [
+      "Эмиль Затопек",
+      "Людвик Данек",
+      "Ян Железны",
+      "Йозеф Одложил"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_67",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какой чешский метатель копья трижды выигрывал олимпийское золото и удерживает вечный мировой рекорд (98,48 метра)?",
+    "options": [
+      "Ян Железны",
+      "Теро Питкямяки",
+      "Андреас Торкильдсен",
+      "Томас Рёлер"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_68",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какая дистанция является самой короткой в олимпийской программе плавания в 50-метровом бассейне?",
+    "options": [
+      "50 метров",
+      "25 метров",
+      "100 метров",
+      "75 метров"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_69",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "В каком виде спорта российская пара фигуристов Татьяна Волосожар и Максим Траньков завоевала два золота на Играх в Сочи-2014?",
+    "options": [
+      "Парное катание",
+      "Танцы на льду",
+      "Одиночное катание",
+      "Синхронное катание"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_70",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 3,
+    "question": "Какое максимальное количество золотых олимпийских медалей завоевал один спортсмен на одной зимней Олимпиаде (Эрик Хайден, 1980)?",
+    "options": [
+      "5 золотых медалей",
+      "4 медали",
+      "6 медалей",
+      "8 медалей"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_71",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "В каком году в Мехико афроамериканские призеры Томми Смит и Джон Карлос подняли кулаки в черных перчатках на пьедестале в знак протеста против расизма?",
+    "options": [
+      "1968 год",
+      "1964 год",
+      "1972 год",
+      "1976 год"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_72",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какой город стал первым в истории, принявшим как летние (2008), так и зимние (2022) Олимпийские игры?",
+    "options": [
+      "Пекин",
+      "Токио",
+      "Лондон",
+      "Париж"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_73",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Какая страна завоевала больше всего золотых медалей на летних Олимпийских играх за всю историю современных Игр?",
+    "options": [
+      "США (более 1000 золотых медалей)",
+      "СССР",
+      "Великобритания",
+      "Китай"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_74",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 2,
+    "question": "Какая страна завоевала наибольшее количество медалей на зимних Олимпийских играх за всю историю?",
+    "options": [
+      "Норвегия",
+      "Германия",
+      "США",
+      "Канада"
+    ],
+    "correctIndex": 0,
+    "image": null
+  },
+  {
+    "id": "sports_olympics_75",
+    "categoryId": "sports",
+    "subcategoryId": "sports_olympics",
+    "difficulty": 1,
+    "question": "Что традиционно вручали победителям Олимпийских игр в античной Греции вместо медалей?",
+    "options": [
+      "Венок из ветвей священной дикой оливы (котинос)",
+      "Золотой кубок с вином",
+      "Лавровый венок с рубинами",
+      "Бронзовый щит воина"
+    ],
+    "correctIndex": 0,
+    "image": null
+  }
+]

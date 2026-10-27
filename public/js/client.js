@@ -78,6 +78,7 @@ const el = {
     finalScores:  $('final-scores'),
     restartBtn:   $('restart-btn'),
     abortBtnGame: $('abort-btn-game'),
+    undoBtnGame:  $('undo-btn-game'),
 };
 
 // ─── TOASTS ───────────────────────────────────────────
@@ -192,6 +193,7 @@ const CATEGORY_LABELS = {
     literature:        '📚 Литература',
     logic_chgk:        '🧩 Логика и ЧГК',
     music:             '🎵 Музыка',
+    sports:            '🏆 Спорт',
 };
 
 const SUBCATEGORY_LABELS = {
@@ -254,6 +256,14 @@ const SUBCATEGORY_LABELS = {
     era_90s_10s:                 '📼 Музыка: хиты 90-х — 10-х',
     music_legends:               '👑 Музыка: мировые легенды',
     album_covers_merch:          '🖼️ Музыка: культовые обложки',
+    // 🏆 Спорт
+    sports_football:             '⚽ Спорт: футбол',
+    sports_hockey:               '🏒 Спорт: хоккей',
+    sports_basketball:           '🏀 Спорт: баскетбол',
+    sports_olympics:             '🥇 Спорт: олимпиада',
+    sports_chess:                '♟️ Спорт: шахматы',
+    sports_esports:              '🎮 Спорт: киберспорт',
+    sports_general:              '🥊 Спорт: разный спорт',
 };
 
 
@@ -695,20 +705,27 @@ window.pickCaptureTopic = topic => {
 
 window.submitCaptureAnswer = index => {
     stopCountdown();
-    revealAnswer(_currentCorrectIdx, index);  // instant reveal
-    setTimeout(() => {
-        socket.emit('submit_answer', { answerIndex: index });
-    }, 50);
-    setTimeout(() => closeModal(), 2000);
+    for (let i = 0; i < 4; i++) {
+        const btn = document.getElementById(`ans-btn-${i}`);
+        if (btn) {
+            btn.disabled = true;
+            if (i === index) btn.classList.add('ans-chosen');
+        }
+    }
+    const passBtn = document.getElementById('pass-btn');
+    if (passBtn) passBtn.disabled = true;
+    socket.emit('submit_answer', { answerIndex: index });
 };
 
 window.passCaptureAnswer = () => {
     stopCountdown();
-    revealAnswer(_currentCorrectIdx, null);   // show correct answer on pass
-    setTimeout(() => {
-        socket.emit('pass_question');
-    }, 50);
-    setTimeout(() => closeModal(), 2000);
+    const passBtn = document.getElementById('pass-btn');
+    if (passBtn) passBtn.disabled = true;
+    for (let i = 0; i < 4; i++) {
+        const btn = document.getElementById(`ans-btn-${i}`);
+        if (btn) btn.disabled = true;
+    }
+    socket.emit('pass_question');
 };
 
 window.pickDuelTopic = topic => {
@@ -849,7 +866,17 @@ el.abortBtnGame?.addEventListener('click', () => {
     }
 });
 
+el.undoBtnGame?.addEventListener('click', () => {
+    socket.emit('undo_turn');
+});
+
 // ─── SOCKET EVENTS ────────────────────────────────────
+
+socket.on('close_modals', () => {
+    closeModal();
+    closeDuelOverlay();
+    stopCountdown();
+});
 
 // ──── LOBBY & REJOIN ────
 socket.on('game_status', ({ isGameStarted, players }) => {
@@ -991,9 +1018,7 @@ socket.on('spectator_question', ({ playerSlot, playerName, question }) => {
 
 socket.on('spectator_answer', ({ playerSlot, chosenIndex, correctIndex, isCorrect, isPass }) => {
     const p = currentPlayers.find(pl => pl.slot === playerSlot);
-    if (p?.slot !== mySlot) {
-        revealAnswer(correctIndex, chosenIndex);
-    }
+    revealAnswer(correctIndex, chosenIndex);
     setTimeout(() => {
         closeModal();
         if (isPass) {
