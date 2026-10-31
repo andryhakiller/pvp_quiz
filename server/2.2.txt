@@ -399,7 +399,7 @@
       "∫ f(x)dx = F(b) - F(a)",
       "∫ f(x)dx = F(a) - F(b)",
       "∫ f(x)dx = F'(b) - F'(a)",
-      "∫ f(x)dx = f(b) - f(a)"
+      "∫ f(x)dx = F(a) + F(b)"
     ],
     "correctIndex": 0,
     "image": null

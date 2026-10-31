@@ -156,10 +156,10 @@
     "difficulty": 2,
     "question": "Какое культовое прозвище носит полноприводный седан Subaru Impreza со звездой ралли Колином Макреем?",
     "options": [
-      "Чайзер (Tourer V)",
-      "Хачироку (Hachi-Roku)",
-      "Эвик (Lancer Evolution)",
-      "Врыкса (WRX STI)"
+      "Чайзер",
+      "Хачироку",
+      "Эвик",
+      "Врыкса"
     ],
     "correctIndex": 3,
     "image": null
@@ -443,7 +443,7 @@
     "options": [
       "Mercedes-Benz CL 600",
       "Mercedes-Benz 300 E-24",
-      "Mercedes-Benz 500 E (Волчок)",
+      "Mercedes-Benz 500 E",
       "Mercedes-Benz 190 E Evo"
     ],
     "correctIndex": 2,
@@ -501,10 +501,10 @@
     "difficulty": 1,
     "question": "Какой внедорожник Mercedes-Benz изначально создавался для военных нужд и имеет индекс кузова W463?",
     "options": [
-      "ML-Class (Кроссовер)",
-      "G-Class (Гелендваген)",
-      "GL-Class (Флагман)",
-      "GLE-Class (Купе)"
+      "ML-Class",
+      "G-Class",
+      "GL-Class",
+      "GLE-Class"
     ],
     "correctIndex": 1,
     "image": null
@@ -608,7 +608,7 @@
     "options": [
       "Simca 1000",
       "Renault 4L",
-      "Citroen 2CV (Де-шво)",
+      "Citroen 2CV",
       "Peugeot 204"
     ],
     "correctIndex": 2,
@@ -831,7 +831,7 @@
     "difficulty": 2,
     "question": "Какое прозвище носит переднеприводный хэтчбек Honda Civic Type-R за агрессивный спортивный стиль?",
     "options": [
-      "Топор (Type-R)",
+      "Топор",
       "Самурайский меч",
       "Пушка-гонка",
       "Бешеный тапок"

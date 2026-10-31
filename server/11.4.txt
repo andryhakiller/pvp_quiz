@@ -7,7 +7,7 @@
     "question": "Культовый снимок 1963 года на обложке дебютника. Какая группа выпустила этот альбом?",
     "options": [
       "Rage Against the Machine",
-      "Audioslave",
+      "Creedence Clearwater Revival",
       "System of a Down",
       "Limp Bizkit"
     ],
@@ -21,12 +21,12 @@
     "difficulty": 2,
     "question": "Культовый пешеходный переход. Обложка какого альбома The Beatles перед вами?",
     "options": [
-      "«Let It Be»",
       "«Abbey Road»",
-      "«Revolver»",
-      "«Help!»"
+      "«Sgt. Pepper's Lonely Hearts Club Band»",
+      "«Let It Be»",
+      "«Revolver»"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "image": "/images/cover_beatles_abbey_road.png"
   },
   {
@@ -37,9 +37,9 @@
     "question": "Стеклянная призма и радужный спектр на черном фоне. Какой альбом Pink Floyd перед вами?",
     "options": [
       "«The Dark Side of the Moon»",
+      "«A Saucerful of Secrets Remastered»",
       "«Animals»",
-      "«The Wall»",
-      "«Wish You Were Here»"
+      "«The Wall»"
     ],
     "correctIndex": 0,
     "image": "/images/cover_pink_floyd_prism.png"
@@ -81,12 +81,12 @@
     "difficulty": 3,
     "question": "Искаженное от ужаса лицо (картина Барри Годбера). Какой дебютный альбом перед вами?",
     "options": [
+      "«In the Court of the Crimson King»",
+      "«The Rise and Fall of Ziggy Stardust»",
       "«Thick as a Brick»",
-      "«Close to the Edge»",
-      "«The Dark Side of the Moon»",
-      "«In the Court of the Crimson King»"
+      "«Close to the Edge»"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": "/images/cover_crimson_king.png"
   },
   {
@@ -97,7 +97,7 @@
     "question": "Радиоволны первого открытого пульсара CP 1919. Чей это культовый дебютный альбом?",
     "options": [
       "Joy Division",
-      "New Order",
+      "The Sisters of Mercy",
       "The Cure",
       "Bauhaus"
     ],
@@ -111,12 +111,12 @@
     "difficulty": 2,
     "question": "Желтый банан Энди Уорхола. Какой легендарный прото-панк альбом перед вами?",
     "options": [
+      "The Velvet Underground",
+      "Captain Beefheart and His Magic Band",
       "Television",
-      "The Stooges",
-      "MC5",
-      "The Velvet Underground"
+      "The Stooges"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": "/images/cover_velvet_banana.png"
   },
   {
@@ -172,7 +172,7 @@
     "question": "Два шлема роботов на черном фоне. Какой альбом французского дуэта Daft Punk перед вами?",
     "options": [
       "«Random Access Memories»",
-      "«Homework»",
+      "«Alive 2007 Deluxe Edition»",
       "«Human After All»",
       "«Discovery»"
     ],
@@ -321,12 +321,12 @@
     "difficulty": 1,
     "question": "Женщина в черном у старинной водяной мельницы. Какой дебютный альбом перед вами?",
     "options": [
-      "Led Zeppelin",
       "Black Sabbath",
-      "Uriah Heep",
+      "Blue Oyster Cult",
+      "Led Zeppelin",
       "Deep Purple"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "image": "/images/cover_black_sabbath_mill.png"
   },
   {
@@ -381,12 +381,12 @@
     "difficulty": 2,
     "question": "Красные губы и высунутый язык Джона Паша. Символом какой группы они являются?",
     "options": [
-      "Kiss",
-      "Aerosmith",
       "The Rolling Stones",
+      "Creedence Clearwater Revival",
+      "Aerosmith",
       "The Who"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "image": "/images/cover_stones_tongue.png"
   },
   {
@@ -427,8 +427,8 @@
     "question": "Желто-черный диск солнечного затмения. Какой альбом группы «Кино» перед вами?",
     "options": [
       "«Звезда по имени Солнце»",
+      "«Начальник Камчатки Коллекционный»",
       "«Черный альбом»",
-      "«Ночь»",
       "«Группа крови»"
     ],
     "correctIndex": 0,
@@ -472,8 +472,8 @@
     "question": "Авангардный коллаж Егора Летова. Какой альбом «Гражданской Обороны» перед вами?",
     "options": [
       "«Русское поле экспериментов»",
+      "«Посев: Поганая молодежь Раннее»",
       "«Здорово и вечно»",
-      "«Армагеддон-попс»",
       "«Все идет по плану»"
     ],
     "correctIndex": 0,
@@ -502,9 +502,9 @@
     "question": "Череп в косухе и красная «Ява» у забора. Какой альбом «Сектора Газа» перед вами?",
     "options": [
       "«Колхозный панк»",
+      "«Кащей Бессмертный»",
       "«Ядрена вошь»",
-      "«Нажми на газ»",
-      "«Гуляй, мужик!»"
+      "«Нажми на газ»"
     ],
     "correctIndex": 0,
     "image": "/images/cover_sektor_jawa.png"
@@ -547,9 +547,9 @@
     "question": "Зубастая стилизованная морда медведя. Маскотом какой рок-группы является этот арт?",
     "options": [
       "Radiohead",
+      "The Smashing Pumpkins",
       "Coldplay",
-      "Placebo",
-      "Muse"
+      "Placebo"
     ],
     "correctIndex": 0,
     "image": "/images/cover_radiohead_bear.png"
@@ -607,8 +607,8 @@
     "question": "Обложку какого альбома The Beatles 1968 года украшало абсолютно пустое белое поле без единого рисунка?",
     "options": [
       "«The White Album»",
+      "«Sgt. Pepper's Lonely Hearts Club Band»",
       "«Rubber Soul»",
-      "«Sgt. Pepper's»",
       "«Revolver»"
     ],
     "correctIndex": 0,
@@ -637,9 +637,9 @@
     "question": "Какой горящий в воздухе дирижабль «Гинденбург» изображен на обложке дебютного альбома 1969 года?",
     "options": [
       "«Led Zeppelin I»",
-      "«In Rock»",
-      "«Paranoid»",
-      "«Black Sabbath»"
+      "«Physical Graffiti»",
+      "«Black Sabbath»",
+      "«Paranoid»"
     ],
     "correctIndex": 0,
     "image": null
@@ -667,9 +667,9 @@
     "question": "Какая группа поместила на обложку «Appetite for Destruction» кельтский крест с черепами всех 5 участников?",
     "options": [
       "Guns N' Roses",
+      "Black Label Society",
       "Motley Crue",
-      "Def Leppard",
-      "Poison"
+      "Def Leppard"
     ],
     "correctIndex": 0,
     "image": null
@@ -696,7 +696,7 @@
     "difficulty": 2,
     "question": "Какой культовый маскот-монстр по имени Эдди появляется на абсолютно всех обложках и мерче группы Iron Maiden?",
     "options": [
-      "Зомби-киборг Эдди",
+      "Маскот Эдди",
       "Горгулья Мюррей",
       "Призрак Гуль",
       "Пес Сникерс"
@@ -711,12 +711,12 @@
     "difficulty": 3,
     "question": "Какая рок-группа выпустила альбом «Sticky Fingers» с настоящей расстегивающейся металлической молнией на джинсах?",
     "options": [
-      "Led Zeppelin",
+      "The Rolling Stones",
+      "Creedence Clearwater Revival",
       "Aerosmith",
-      "The Who",
-      "The Rolling Stones"
+      "Led Zeppelin"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -756,12 +756,12 @@
     "difficulty": 3,
     "question": "Какой цвет имеет монохромная обложка культового «Черного альбома» группы Metallica (1991) со змеей в углу?",
     "options": [
-      "Темно-синий цвет",
+      "Черный цвет",
       "Темно-бордовый цвет",
-      "Глубокий черный цвет",
+      "Темно-синий цвет",
       "Серый металлик"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -772,8 +772,8 @@
     "question": "Что изображено на обложке альбома «Mellon Collie and the Infinite Sadness» (1995) группы The Smashing Pumpkins?",
     "options": [
       "Девушка в звезде",
+      "Мальчик с крыльями на луне",
       "Кот в шляпе",
-      "Мальчик на луне",
       "Ангел с мечом"
     ],
     "correctIndex": 0,
@@ -786,9 +786,9 @@
     "difficulty": 2,
     "question": "Какой талисман в виде плюшевого медвежонка в университетской куртке украшал первые альбомы Канье Уэста?",
     "options": [
-      "Медвежонок Dropout Bear",
+      "Dropout Bear",
+      "Плюшевый тигренок Честер",
       "Бульдог Спайк",
-      "Тигренок Честер",
       "Панда По"
     ],
     "correctIndex": 0,
@@ -816,12 +816,12 @@
     "difficulty": 1,
     "question": "Какая группа поместила на обложку альбома «Smash» (1994) рентгеновский снимок человеческого скелета?",
     "options": [
+      "The Offspring",
+      "Dropkick Murphys",
       "Bad Religion",
-      "Pennywise",
-      "NOFX",
-      "The Offspring"
+      "Pennywise"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -861,12 +861,12 @@
     "difficulty": 1,
     "question": "Какая группа использовала обложку с кардиограммой биения сердца и надписью «Pulse» на концертных релизах?",
     "options": [
-      "Queen",
-      "U2",
+      "Pink Floyd",
+      "Fleetwood Mac",
       "Genesis",
-      "Pink Floyd"
+      "Queen"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -876,12 +876,12 @@
     "difficulty": 2,
     "question": "Какой символ изображен на обложке альбома «Led Zeppelin IV» вместо названия группы?",
     "options": [
+      "Четыре символа",
+      "Символы стихий природы",
       "Глаз в пирамиде",
-      "Четыре мистических символа (Zoso)",
-      "Римская цифра IV",
       "Кельтский крест"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -894,7 +894,7 @@
       "Black Sabbath",
       "Led Zeppelin",
       "The Who",
-      "Deep Purple («In Rock»)"
+      "Deep Purple"
     ],
     "correctIndex": 3,
     "image": null
@@ -981,7 +981,7 @@
     "difficulty": 3,
     "question": "Какой музыкант выступает на сцене с ведерком из-под курицы KFC на голове и белой театральной маске?",
     "options": [
-      "Buckethead (Бакетхэд)",
+      "Buckethead",
       "Слэш",
       "Том Морелло",
       "Закк Уайлд"
@@ -996,8 +996,8 @@
     "difficulty": 1,
     "question": "Какая гитара с двумя грифами (12 и 6 струн) Gibson EDS-1275 прославилась благодаря Джимми Пейджу?",
     "options": [
-      "Двухгрифовая гитара Gibson",
-      "Классический Stratocaster",
+      "Гитара Gibson EDS-1275",
+      "Классический американский Stratocaster",
       "Бас-гитара Rickenbacker",
       "Акустический Martin"
     ],
@@ -1013,7 +1013,7 @@
     "options": [
       "Форма звезды Давида",
       "Круглая форма шайбы",
-      "Форма стрелы (латинской V)",
+      "Форма стрелы",
       "Форма полумесяца"
     ],
     "correctIndex": 2,

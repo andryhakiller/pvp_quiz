@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,208 +8,278 @@
     <meta name="description" content="Мультиплеерная шестиугольная викторина для компании до 6 игроков">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- ══════════════ LOGIN ══════════════ -->
-<div id="login-screen" class="screen">
-    <div class="login-card glass-card">
-        <div class="brand">
-            <span class="brand-hex">⬡</span>
-            <div class="brand-text">
-                <h1 class="brand-name">Quiz Battle</h1>
-                <span class="brand-sub">Шестиугольная битва умов</span>
+    <!-- ══════════════ LOGIN ══════════════ -->
+    <div id="login-screen" class="screen">
+        <div class="login-card glass-card">
+            <div class="brand">
+                <span class="brand-hex">⬡</span>
+                <div class="brand-text">
+                    <h1 class="brand-name">Quiz Battle</h1>
+                    <span class="brand-sub">Шестиугольная битва умов</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="text" id="nickname" placeholder="Введи никнейм" maxlength="30" autocomplete="off"
+                    autofocus>
+                <button id="join-btn" class="btn btn-gold">Войти в лобби →</button>
+            </div>
+            <p class="login-hint">До 6 игроков · Захват территорий · PvP дуэли</p>
+
+            <!-- Rejoin ongoing game section -->
+            <div id="rejoin-section" class="rejoin-section hidden">
+                <div class="rejoin-divider"><span>⚔️ БИТВА УЖЕ ИДЁТ</span></div>
+                <p class="rejoin-hint">Нажми на свой цвет/слот, чтобы вернуться в игру:</p>
+                <div id="rejoin-slots" class="rejoin-slots-grid"></div>
             </div>
         </div>
-        <div class="form-group">
-            <input type="text" id="nickname" placeholder="Введи никнейм" maxlength="30" autocomplete="off" autofocus>
-            <button id="join-btn" class="btn btn-gold">Войти в лобби →</button>
-        </div>
-        <p class="login-hint">До 6 игроков · Захват территорий · PvP дуэли</p>
-
-        <!-- Rejoin ongoing game section -->
-        <div id="rejoin-section" class="rejoin-section hidden">
-            <div class="rejoin-divider"><span>⚔️ БИТВА УЖЕ ИДЁТ</span></div>
-            <p class="rejoin-hint">Нажми на свой цвет/слот, чтобы вернуться в игру:</p>
-            <div id="rejoin-slots" class="rejoin-slots-grid"></div>
-        </div>
     </div>
-</div>
 
-<!-- ══════════════ LOBBY ══════════════ -->
-<div id="lobby-screen" class="screen hidden">
-    <div class="lobby-header">
-        <span class="logo-sm">⬡ Quiz Battle</span>
-        <span id="lobby-ver" class="version-tag">v4.0</span>
-    </div>
-    <div class="lobby-wrap">
-
-        <!-- Players list -->
-        <div class="glass-card lobby-players-card">
-            <div class="card-header">
-                <h2>Игроки</h2>
-                <span id="player-count" class="pill">0 / 6</span>
-            </div>
-            <ul id="players-list"></ul>
-            <p id="lobby-msg" class="hint-text">Ожидание игроков...</p>
+    <!-- ══════════════ LOBBY ══════════════ -->
+    <div id="lobby-screen" class="screen hidden">
+        <div class="lobby-header">
+            <span class="logo-sm">⬡ Quiz Battle</span>
+            <span id="lobby-ver" class="version-tag">v4.0</span>
         </div>
+        <div class="lobby-wrap">
 
-        <!-- Right column -->
-        <div class="lobby-right">
-
-            <!-- Admin panel -->
-            <div id="lobby-settings" class="glass-card hidden">
+            <!-- Players list -->
+            <div class="glass-card lobby-players-card">
                 <div class="card-header">
-                    <h2>Настройки</h2>
-                    <span class="pill pill-gold">Админ</span>
+                    <h2>Игроки</h2>
+                    <span id="player-count" class="pill">0 / 6</span>
                 </div>
-                <div class="settings-grid">
-                    <div class="setting-row">
-                        <label>Раундов</label>
-                        <input type="number" id="setting-turns" value="15" min="5" max="99">
-                    </div>
-                    <div class="setting-row">
-                        <label>Очки захвата</label>
-                        <input type="number" id="score-capture" value="200">
-                    </div>
-                    <div class="setting-row">
-                        <label>Доход/клетка</label>
-                        <input type="number" id="score-hold" value="100">
-                    </div>
-                    <div class="setting-row">
-                        <label>PvP победа</label>
-                        <input type="number" id="score-pvp-win" value="600">
-                    </div>
-                    <div class="setting-row">
-                        <label>Штраф за ошибку</label>
-                        <input type="number" id="score-penalty" value="100">
-                    </div>
-                </div>
+                <ul id="players-list"></ul>
+                <p id="lobby-msg" class="hint-text">Ожидание игроков...</p>
 
-                <!-- Topic filter -->
-                <div class="filter-section">
-                    <div class="filter-header">
-                        <span class="filter-title">🎯 Темы вопросов</span>
-                        <div class="filter-actions">
-                            <button id="filter-all-btn" class="btn-link" type="button">Все</button>
-                            <button id="filter-none-btn" class="btn-link" type="button">Никакие</button>
+                <!-- Profile customizer (Color & Capital Emoji) -->
+                <div id="my-profile-card" class="my-profile-card hidden">
+                    <div class="customizer-header">
+                        <span class="customizer-title">🎨 Твой стиль</span>
+                        <span id="profile-preview-badge" class="profile-preview-badge">👑 Игрок</span>
+                    </div>
+
+                    <div class="customizer-group">
+                        <label class="customizer-label">Цвет территории:</label>
+                        <div id="color-palette" class="color-palette"></div>
+                    </div>
+
+                    <div class="customizer-group">
+                        <label class="customizer-label">Смайлик столицы:</label>
+                        <div id="emoji-palette" class="emoji-palette"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right column -->
+            <div class="lobby-right">
+
+                <!-- Admin panel -->
+                <div id="lobby-settings" class="glass-card hidden">
+                    <div class="card-header">
+                        <h2>Настройки</h2>
+                        <span class="pill pill-gold">Админ</span>
+                    </div>
+                    <div class="settings-grid">
+                        <div class="setting-row">
+                            <label>Раундов</label>
+                            <input type="number" id="setting-turns" value="15" min="5" max="99">
+                        </div>
+                        <div class="setting-row">
+                            <label>Очки захвата</label>
+                            <input type="number" id="score-capture" value="200">
+                        </div>
+                        <div class="setting-row">
+                            <label>Доход/клетка</label>
+                            <input type="number" id="score-hold" value="100">
+                        </div>
+                        <div class="setting-row">
+                            <label>PvP победа</label>
+                            <input type="number" id="score-pvp-win" value="600">
+                        </div>
+                        <div class="setting-row">
+                            <label>Штраф за ошибку</label>
+                            <input type="number" id="score-penalty" value="100">
                         </div>
                     </div>
-                    <div id="topic-filter" class="topic-filter-tree"></div>
+
+                    <!-- Topic filter -->
+                    <div class="filter-section">
+                        <div class="filter-header">
+                            <span class="filter-title">🎯 Темы вопросов</span>
+                            <div class="filter-actions">
+                                <button id="filter-all-btn" class="btn-link" type="button">Все</button>
+                                <button id="filter-none-btn" class="btn-link" type="button">Никакие</button>
+                            </div>
+                        </div>
+                        <div id="topic-filter" class="topic-filter-tree"></div>
+                    </div>
+
+                    <div class="settings-actions">
+                        <button id="apply-btn" class="btn btn-outline">Применить</button>
+                        <button id="start-btn" class="btn btn-gold btn-big">НАЧАТЬ ИГРУ</button>
+                    </div>
                 </div>
 
-                <div class="settings-actions">
-                    <button id="apply-btn" class="btn btn-outline">Применить</button>
-                    <button id="start-btn" class="btn btn-gold btn-big">НАЧАТЬ ИГРУ</button>
+                <!-- Battle log (all players see) -->
+                <div id="lobby-log-card" class="glass-card">
+                    <div class="card-header">
+                        <h2>📋 История битв</h2>
+                    </div>
+                    <div id="lobby-log-body" class="log-body">
+                        <p class="hint-text">Записи появятся здесь...</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ══════════════ GAME ══════════════ -->
+    <div id="game-screen" class="screen hidden">
+
+        <div class="game-header">
+            <div class="gh-item">
+                <span class="gh-label">Ход</span>
+                <span id="current-turn-num" class="gh-value">1</span>
+            </div>
+            <span class="game-logo">⬡ Quiz Battle</span>
+            <div class="gh-item gh-right">
+                <button id="undo-btn-game" class="btn-undo-sm" title="Откатить ход назад">↩️ Отмена хода</button>
+                <button id="abort-btn-game" class="btn-abort-sm" title="Прервать и сбросить игру">🛑 Аборт гейм</button>
+                <span class="gh-label">Раунд</span>
+                <span id="round-number" class="gh-value">1</span>
+                <span class="gh-label">/ <span id="max-rounds">15</span></span>
+            </div>
+        </div>
+
+        <div class="game-body">
+
+            <div class="canvas-area">
+                <canvas id="game-canvas"></canvas>
+                <div id="turn-banner" class="turn-banner">
+                    Ход: <span id="turn-name" class="turn-name-span">...</span>
                 </div>
             </div>
 
-            <!-- Battle log (all players see) -->
-            <div id="lobby-log-card" class="glass-card">
-                <div class="card-header">
-                    <h2>📋 История битв</h2>
+            <aside class="game-sidebar">
+                <div class="glass-card side-card">
+                    <div class="card-header">
+                        <h3>Счёт</h3>
+                    </div>
+                    <ul id="scores-list" class="scores-list"></ul>
                 </div>
-                <div id="lobby-log-body" class="log-body">
-                    <p class="hint-text">Записи появятся здесь...</p>
+                <div class="glass-card side-card chronicle-card">
+                    <div class="card-header">
+                        <h3>Хроника</h3>
+                    </div>
+                    <div id="chronicle-log" class="log-body"></div>
                 </div>
-            </div>
+            </aside>
 
         </div>
     </div>
-</div>
 
-<!-- ══════════════ GAME ══════════════ -->
-<div id="game-screen" class="screen hidden">
-
-    <div class="game-header">
-        <div class="gh-item">
-            <span class="gh-label">Ход</span>
-            <span id="current-turn-num" class="gh-value">1</span>
-        </div>
-        <span class="game-logo">⬡ Quiz Battle</span>
-        <div class="gh-item gh-right">
-            <button id="undo-btn-game" class="btn-undo-sm" title="Откатить ход назад">↩️ Отмена хода</button>
-            <button id="abort-btn-game" class="btn-abort-sm" title="Прервать и сбросить игру">🛑 Аборт гейм</button>
-            <span class="gh-label">Раунд</span>
-            <span id="round-number" class="gh-value">1</span>
-            <span class="gh-label">/ <span id="max-rounds">15</span></span>
+    <!-- ══════════════ GAME OVER ══════════════ -->
+    <div id="gameover-screen" class="screen hidden">
+        <div class="glass-card gameover-card">
+            <h1 class="gameover-title">🏆 Игра окончена</h1>
+            <div id="final-scores" class="final-scores"></div>
+            <button id="restart-btn" class="btn btn-gold btn-big">Новая игра</button>
         </div>
     </div>
 
-    <div class="game-body">
-
-        <div class="canvas-area">
-            <canvas id="game-canvas"></canvas>
-            <div id="turn-banner" class="turn-banner">
-                Ход: <span id="turn-name" class="turn-name-span">...</span>
-            </div>
+    <!-- ══════════════ MODAL (questions / topic select) ══════════════ -->
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div class="modal-box glass-card">
+            <div id="modal-content"></div>
         </div>
-
-        <aside class="game-sidebar">
-            <div class="glass-card side-card">
-                <div class="card-header"><h3>Счёт</h3></div>
-                <ul id="scores-list" class="scores-list"></ul>
-            </div>
-            <div class="glass-card side-card chronicle-card">
-                <div class="card-header"><h3>Хроника</h3></div>
-                <div id="chronicle-log" class="log-body"></div>
-            </div>
-        </aside>
-
     </div>
-</div>
 
-<!-- ══════════════ GAME OVER ══════════════ -->
-<div id="gameover-screen" class="screen hidden">
-    <div class="glass-card gameover-card">
-        <h1 class="gameover-title">🏆 Игра окончена</h1>
-        <div id="final-scores" class="final-scores"></div>
-        <button id="restart-btn" class="btn btn-gold btn-big">Новая игра</button>
-    </div>
-</div>
-
-<!-- ══════════════ MODAL (questions / topic select) ══════════════ -->
-<div id="modal-overlay" class="modal-overlay hidden">
-    <div class="modal-box glass-card">
-        <div id="modal-content"></div>
-    </div>
-</div>
-
-<!-- ══════════════ DUEL SIDEBAR ══════════════ -->
-<div id="duel-overlay" class="duel-overlay hidden">
-    <div class="duel-box glass-card">
-        <div class="duel-title-row">
-            <span class="duel-badge">⚔️ ДУЭЛЬ</span>
-            <span id="duel-round-label" class="duel-round-label">Раунд 1 / 3</span>
-        </div>
-        <div class="duel-players-row">
-            <div class="duel-player-col">
-                <div id="duel-atk-name" class="duel-player-name">—</div>
-                <div class="duel-role">Атака</div>
+    <!-- ══════════════ DUEL SIDEBAR ══════════════ -->
+    <div id="duel-overlay" class="duel-overlay hidden">
+        <div class="duel-box glass-card">
+            <div class="duel-title-row">
+                <span class="duel-badge">⚔️ ДУЭЛЬ</span>
+                <span id="duel-round-label" class="duel-round-label">Раунд 1 / 3</span>
             </div>
-            <div class="duel-vs-col">
-                <div class="duel-score-line">
-                    <span id="duel-score-a" class="duel-score">0</span>
-                    <span class="duel-colon">:</span>
-                    <span id="duel-score-d" class="duel-score">0</span>
+            <div class="duel-players-row">
+                <div class="duel-player-col">
+                    <div id="duel-atk-name" class="duel-player-name">—</div>
+                    <div class="duel-role">Атака</div>
+                </div>
+                <div class="duel-vs-col">
+                    <div class="duel-score-line">
+                        <span id="duel-score-a" class="duel-score">0</span>
+                        <span class="duel-colon">:</span>
+                        <span id="duel-score-d" class="duel-score">0</span>
+                    </div>
+                </div>
+                <div class="duel-player-col duel-player-col-right">
+                    <div id="duel-def-name" class="duel-player-name">—</div>
+                    <div class="duel-role">Защита</div>
                 </div>
             </div>
-            <div class="duel-player-col duel-player-col-right">
-                <div id="duel-def-name" class="duel-player-name">—</div>
-                <div class="duel-role">Защита</div>
-            </div>
+            <div id="duel-status" class="duel-status">Выбор темы...</div>
         </div>
-        <div id="duel-status" class="duel-status">Выбор темы...</div>
     </div>
-</div>
 
-<!-- ══════════════ TOASTS ══════════════ -->
-<div id="toast-container"></div>
+    <!-- ══════════════ FLOATING REACTIONS LAYER ══════════════ -->
+    <div id="reactions-container" class="reactions-container"></div>
 
-<script src="/socket.io/socket.io.js"></script>
-<script src="js/board.js"></script>
-<script src="js/client.js"></script>
+    <!-- ══════════════ BANTER & CHAT BAR ══════════════ -->
+    <div id="bm-bar" class="bm-bar hidden">
+        <div class="bm-emojis">
+            <button class="bm-btn" data-emoji="🤡" title="Клоун">🤡</button>
+            <button class="bm-btn" data-emoji="💀" title="Череп">💀</button>
+            <button class="bm-btn" data-emoji="🔥" title="Огонь">🔥</button>
+            <button class="bm-btn" data-emoji="💩" title="Какашка">💩</button>
+            <button class="bm-btn" data-emoji="🧠" title="Биг Брейн">🧠</button>
+            <button class="bm-btn" data-emoji="🤬" title="Рейдж">🤬</button>
+            <button class="bm-btn" data-emoji="👑" title="Король">👑</button>
+            <button class="bm-btn" data-emoji="🎯" title="В яблочко">🎯</button>
+            <button class="bm-btn" data-emoji="🥱" title="Скучно">🥱</button>
+            <button class="bm-btn" data-emoji="🍿" title="Попкорн">🍿</button>
+        </div>
+        <div class="bm-divider"></div>
+        <button id="chat-toggle-btn" class="chat-toggle-btn" title="Открыть чат">
+            <span class="chat-icon">💬</span>
+            <span class="chat-label">Чат</span>
+            <span id="chat-unread-badge" class="chat-badge hidden">0</span>
+        </button>
+    </div>
+
+    <!-- ══════════════ LIVE CHAT DRAWER ══════════════ -->
+    <div id="chat-drawer" class="chat-drawer hidden">
+        <div class="chat-header">
+            <div class="chat-header-title">
+                <span class="chat-title-icon">💬</span>
+                <span class="chat-title-text">Чат битвы</span>
+                <span id="chat-online-count" class="chat-online-pill">0 игроков</span>
+            </div>
+            <button id="chat-close-btn" class="chat-close-btn" title="Закрыть">✕</button>
+        </div>
+        <div id="chat-messages" class="chat-messages">
+            <div class="chat-system-msg">🔥 Поташёв мымра 😈</div>
+        </div>
+        <form id="chat-form" class="chat-form">
+            <input type="text" id="chat-input" placeholder="Напиши что-нибудь..." maxlength="250" autocomplete="off">
+            <button type="submit" id="chat-send-btn" class="chat-send-btn">➤</button>
+        </form>
+    </div>
+
+    <!-- ══════════════ TOASTS ══════════════ -->
+    <div id="toast-container"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/board.js"></script>
+    <script src="js/client.js"></script>
 </body>
+
 </html>

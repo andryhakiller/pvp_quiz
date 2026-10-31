@@ -13,6 +13,7 @@ let gameCells        = [];
 let selectedCell     = null;
 let capitalsMap      = {};   // slot (int) → { q, r }
 let currentPlayerSlot = null; // whose turn it is
+let hoveredCell       = null; // cell under mouse pointer
 
 // Shared globals from client.js (declared there, used here):
 // currentPlayers  → array of player objects
@@ -73,12 +74,24 @@ function drawHex(cx, cy, size, fill, stroke, lw, dash = []) {
     ctx.setLineDash([]);
 }
 
-function drawStar(cx, cy, size, color) {
-    ctx.font = `bold ${Math.round(size * 0.55)}px sans-serif`;
-    ctx.fillStyle = color;
+function drawCapitalIcon(cx, cy, size, icon, color) {
+    // Dark circular badge behind emoji so it stands out cleanly on any hex color
+    const r = size * 0.46;
+    ctx.beginPath();
+    ctx.arc(cx, cy, r, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(13, 17, 23, 0.85)';
+    ctx.fill();
+    ctx.lineWidth = 1.8;
+    ctx.strokeStyle = color || '#ffd700';
+    ctx.stroke();
+
+    // Render emoji or symbol with fallback font stack
+    const fontSize = Math.round(size * 0.52);
+    ctx.font = `${fontSize}px "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif`;
+    ctx.fillStyle = color || '#ffffff';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillText('★', cx, cy);
+    ctx.fillText(icon || '👑', cx, cy + 1);
 }
 
 function roundRect(x, y, w, h, r) {
@@ -175,17 +188,22 @@ function drawBoard() {
         ctx.shadowColor = 'transparent';
         ctx.shadowBlur  = 0;
 
-        // Available move dashed outline
-        if (isAvail && !isSel) {
+        const isHover = hoveredCell && hoveredCell.q === cell.q && hoveredCell.r === cell.r;
+
+        // Available move dashed outline or hover highlight
+        if (isHover && isAvail) {
+            drawHex(cell.cx, cell.cy, DRAW_SIZE, 'rgba(76, 201, 240, 0.25)', '#4cc9f0', 2.2);
+        } else if (isAvail && !isSel) {
             drawHex(cell.cx, cell.cy, DRAW_SIZE - 1,
                 'transparent', 'rgba(74,158,255,0.55)', 1.5, [4, 4]);
         }
 
-        // Capital star
+        // Capital icon
         if (capSlot !== null) {
             const capPlayer = Array.isArray(currentPlayers) && currentPlayers.find(p => p.slot === capSlot);
-            const starColor = capPlayer ? capPlayer.color : '#fff';
-            drawStar(cell.cx, cell.cy, DRAW_SIZE, starColor);
+            const capColor  = capPlayer ? capPlayer.color : '#ffd700';
+            const capIcon   = capPlayer?.capitalEmoji || '👑';
+            drawCapitalIcon(cell.cx, cell.cy, DRAW_SIZE, capIcon, capColor);
         }
     });
 
@@ -217,9 +235,10 @@ function drawPlayerLabels() {
         const ly   = Math.max(18, Math.min(canvas.height - 18, capCell.cy + off.y));
 
         const income = gameCells.filter(c => c.owner === p.slot).length * 100;
+        const icon   = p.capitalEmoji || '👑';
         const label  = p.eliminated
-            ? `${p.nickname}: 💀`
-            : `${p.nickname}: ${p.score} | +${income}`;
+            ? `${icon} ${p.nickname}: 💀`
+            : `${icon} ${p.nickname}: ${p.score} | +${income}`;
 
         ctx.font = '11px "Space Grotesk", sans-serif';
         const tw   = ctx.measureText(label).width;
@@ -270,6 +289,42 @@ function handleCanvasClick(e) {
     }
 }
 
+function handleCanvasMouseMove(e) {
+    if (!canvas) return;
+    const rect  = canvas.getBoundingClientRect();
+    const scaleX = canvas.width  / rect.width;
+    const scaleY = canvas.height / rect.height;
+    const mx = (e.clientX - rect.left) * scaleX;
+    const my = (e.clientY - rect.top)  * scaleY;
+
+    let found = null;
+    for (const cell of gameCells) {
+        if (cell.contains(mx, my)) {
+            found = cell;
+            break;
+        }
+    }
+
+    if (found !== hoveredCell) {
+        hoveredCell = found;
+        const myP = typeof currentPlayers !== 'undefined' && Array.isArray(currentPlayers)
+            ? currentPlayers.find(p => p.id === myPlayerId)
+            : null;
+        const isMyTurn = myP && myP.slot === currentPlayerSlot;
+        const isAvail = found && isMyTurn && canReach(myP.slot, found.q, found.r) && found.owner !== myP.slot;
+        canvas.style.cursor = isAvail ? 'pointer' : 'default';
+        drawBoard();
+    }
+}
+
+function handleCanvasMouseLeave() {
+    if (hoveredCell) {
+        hoveredCell = null;
+        if (canvas) canvas.style.cursor = 'default';
+        drawBoard();
+    }
+}
+
 // ─── PUBLIC API ───────────────────────────────────────
 
 function initBoard(boardState, capitals) {
@@ -303,7 +358,17 @@ function initBoard(boardState, capitals) {
     }
 
     drawBoard();
+
+    // Avoid duplicate event listener bindings on restart/rejoin
+    canvas.removeEventListener('click', handleCanvasClick);
     canvas.addEventListener('click', handleCanvasClick);
+
+    canvas.removeEventListener('mousemove', handleCanvasMouseMove);
+    canvas.addEventListener('mousemove', handleCanvasMouseMove);
+
+    canvas.removeEventListener('mouseleave', handleCanvasMouseLeave);
+    canvas.addEventListener('mouseleave', handleCanvasMouseLeave);
+
     console.log(`Board ready: ${gameCells.length} cells, ${Object.keys(capitalsMap).length} capitals`);
 }
 

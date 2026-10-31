@@ -6,8 +6,8 @@
     "difficulty": 1,
     "question": "На каком благотворительном стадионном фестивале 1985 года выступление группы Queen было признано лучшим лайвом в истории рока?",
     "options": [
-      "Фестиваль Live Aid на Уэмбли",
-      "Фестиваль Монстры Рока",
+      "Фестиваль Live Aid",
+      "Фестиваль Монстры Рока в Тушино",
       "Фестиваль Вудсток",
       "Фестиваль Гластонбери"
     ],
@@ -66,12 +66,12 @@
     "difficulty": 2,
     "question": "Какой клуб в Ливерпуле стал культовой колыбелью The Beatles, где они отыграли почти 300 концертов?",
     "options": [
-      "Клуб «Roxy»",
+      "Клуб «Cavern»",
+      "Клуб «Whisky a Go Go»",
       "Клуб «Marquee»",
-      "Клуб «CBGB»",
-      "Клуб «The Cavern» (Каверна)"
+      "Клуб «CBGB»"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -98,7 +98,7 @@
     "options": [
       "Брейкданс-спин",
       "Твист-шаффл",
-      "Лунная походка (Moonwalk)",
+      "Лунная походка",
       "Робот-поппинг"
     ],
     "correctIndex": 2,
@@ -127,7 +127,7 @@
     "question": "Какая рок-звезда сыграла легендарное виртуозное гитарное соло в песне Майкла Джексона «Beat It»?",
     "options": [
       "Эрик Клэптон",
-      "Слэш (Slash)",
+      "Слэш",
       "Эдди Ван Хален",
       "Джими Хендрикс"
     ],
@@ -141,9 +141,9 @@
     "difficulty": 1,
     "question": "В каком американском городе родился гранж-рок благодаря группам Nirvana, Soundgarden и Alice in Chains?",
     "options": [
-      "Город Портленд (Орегон)",
-      "Город Сиэтл (штат Вашингтон)",
-      "Город Чикаго (Иллинойс)",
+      "Город Портленд",
+      "Город Сиэтл",
+      "Город Чикаго",
       "Город Сан-Франциско"
     ],
     "correctIndex": 1,
@@ -156,12 +156,12 @@
     "difficulty": 2,
     "question": "Какая песня группы Nirvana в сентябре 1991 года сбросила Майкла Джексона с вершины чарта Billboard 200?",
     "options": [
-      "«Come As You Are»",
-      "«Heart-Shaped Box»",
       "«Smells Like Teen Spirit»",
-      "«Lithium»"
+      "«The Man Who Sold the World»",
+      "«Come As You Are»",
+      "«Heart-Shaped Box»"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -171,12 +171,12 @@
     "difficulty": 3,
     "question": "На каком акустическом концерте 1993 года Курт Кобейн спел в кардигане среди черных свечей и лилий?",
     "options": [
+      "MTV Unplugged in New York",
+      "Live at the Reading Festival 1992",
       "Live at the Paramount",
-      "Live at Reading Festival",
-      "Live and Loud Seattle",
-      "MTV Unplugged in New York"
+      "Live and Loud Seattle"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -216,12 +216,12 @@
     "difficulty": 3,
     "question": "Какая баллада группы Metallica с одноименного «Черного альбома» 1991 года начинается с перебора открытых струн E-G-B-E?",
     "options": [
-      "«Fade to Black»",
-      "«The Unforgiven»",
       "«Nothing Else Matters»",
-      "«One»"
+      "«Master of Puppets Remastered»",
+      "«The Unforgiven»",
+      "«Fade to Black»"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -309,7 +309,7 @@
       "«The Final Cut»",
       "«Meddle»",
       "«Animals»",
-      "«The Wall» («Стена»)"
+      "«The Wall»"
     ],
     "correctIndex": 3,
     "image": null
@@ -351,12 +351,12 @@
     "difficulty": 3,
     "question": "Какая легендарная баллада группы Led Zeppelin с четвертого альбома начинается со слов «There's a lady who's sure...»?",
     "options": [
-      "«Kashmir»",
+      "«Stairway to Heaven»",
+      "«Since I've Been Loving You»",
       "«Immigrant Song»",
-      "«Whole Lotta Love»",
-      "«Stairway to Heaven»"
+      "«Whole Lotta Love»"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -412,9 +412,9 @@
     "question": "Какая группа из Бирмингема во главе с Тони Айомми и Оззи Осборном считается отцами-основателями жанра хеви-метал?",
     "options": [
       "Black Sabbath",
+      "Blue Oyster Cult",
       "Iron Maiden",
-      "Judas Priest",
-      "Deep Purple"
+      "Judas Priest"
     ],
     "correctIndex": 0,
     "image": null
@@ -426,12 +426,12 @@
     "difficulty": 2,
     "question": "Какое несчастье на заводе заставило гитариста Тони Айомми сделать пластиковые наперстки и ослабить натяжение струн?",
     "options": [
+      "Травма двух пальцев",
+      "Сложный перелом костей правой кисти",
       "Ожог пальцев кислотой",
-      "Перелом правой кисти",
-      "Потеря кончиков двух пальцев",
       "Разрыв сухожилий запястья"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -532,9 +532,9 @@
     "question": "Какой леворукий гитарист-виртуоз сжег свою гитару Fender Stratocaster на фестивале в Монтерее в 1967 году?",
     "options": [
       "Джими Хендрикс",
+      "Эрик Патрик Клэптон",
       "Би Би Кинг",
-      "Чак Берри",
-      "Эрик Клэптон"
+      "Чак Берри"
     ],
     "correctIndex": 0,
     "image": null
@@ -547,8 +547,8 @@
     "question": "Какая группа во главе с Миком Джаггером и Китом Ричардсом выпустила песню «(I Can't Get No) Satisfaction»?",
     "options": [
       "The Rolling Stones",
+      "Creedence Clearwater Revival",
       "The Animals",
-      "The Kinks",
       "The Who"
     ],
     "correctIndex": 0,
@@ -561,12 +561,12 @@
     "difficulty": 2,
     "question": "Какая песня The Rolling Stones 1968 года написана от лица Сатаны под ритмичные латиноамериканские барабаны?",
     "options": [
+      "«Sympathy for the Devil»",
+      "«I Can't Get No Satisfaction»",
       "«Paint It Black»",
-      "«Jumpin' Jack Flash»",
-      "«Gimme Shelter»",
-      "«Sympathy for the Devil»"
+      "«Gimme Shelter»"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -621,12 +621,12 @@
     "difficulty": 3,
     "question": "Какой британский панк-квартет во главе с Джонни Роттеном выпустил скандальный антимонархический гимн «God Save the Queen»?",
     "options": [
-      "The Damned",
-      "The Clash",
       "Sex Pistols",
-      "Buzzcocks"
+      "The Boomtown Rats",
+      "The Damned",
+      "The Clash"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -712,7 +712,7 @@
     "question": "Какая группа во главе с Акселем Роузом и гитаристом Слэшем выпустила балладу «November Rain»?",
     "options": [
       "Guns N' Roses",
-      "Bon Jovi",
+      "Creedence Clearwater",
       "Motley Crue",
       "Aerosmith"
     ],
@@ -742,7 +742,7 @@
     "question": "Какой вокалист группы Kiss выходил на сцену в образе Демона и плевался огнем и искусственной кровью?",
     "options": [
       "Джин Симмонс",
-      "Эйс Фрейли",
+      "Элиот Пол Стэнли",
       "Пол Стэнли",
       "Питер Крисс"
     ],
@@ -771,12 +771,12 @@
     "difficulty": 1,
     "question": "Какая британская группа записала хит «Satisfaction»?",
     "options": [
-      "The Kinks",
       "The Rolling Stones",
-      "The Who",
-      "The Beatles"
+      "Creedence Clearwater Revival",
+      "The Kinks",
+      "The Who"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -891,12 +891,12 @@
     "difficulty": 3,
     "question": "Какая валлийская певица с хриплым тембром спела всемирный суперхит «Total Eclipse of the Heart»?",
     "options": [
-      "Ким Карнс",
       "Бонни Тайлер",
-      "Шер",
+      "Стиви Энн Никс",
+      "Ким Карнс",
       "Тина Тёрнер"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -922,7 +922,7 @@
     "question": "Какой гитарист с цилиндром на голове и сигаретой в зубах исполнил соло в хите «Sweet Child o' Mine»?",
     "options": [
       "Кирк Хэмметт",
-      "Слэш (Slash)",
+      "Слэш",
       "Закк Уайлд",
       "Джо Перри"
     ],
@@ -936,12 +936,12 @@
     "difficulty": 3,
     "question": "Какой британский вокалист хеви-метал группы Iron Maiden управляет самолетом Boeing 747 «Ed Force One»?",
     "options": [
-      "Роб Хэлфорд",
       "Брюс Дикинсон",
+      "Роберт Джон Артур Хэлфорд",
       "Блейз Бейли",
       "Пол Ди'Анно"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -966,12 +966,12 @@
     "difficulty": 2,
     "question": "Какой великий хард-рок вокалист маленького роста пел в Rainbow, Black Sabbath и группе имени себя?",
     "options": [
-      "Гленн Хьюз",
-      "Дэвид Ковердейл",
       "Ронни Джеймс Дио",
+      "Дэвид Лесли Ковердейл",
+      "Гленн Хьюз",
       "Грэм Боннет"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -1042,9 +1042,9 @@
     "question": "Какая американская рок-группа выпустила боевик «Eye of the Tiger», ставший главной темой фильма «Рокки 3»?",
     "options": [
       "Survivor",
+      "Foreigner",
       "Journey",
-      "Boston",
-      "Toto"
+      "Boston"
     ],
     "correctIndex": 0,
     "image": null

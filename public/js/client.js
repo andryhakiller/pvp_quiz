@@ -79,7 +79,303 @@ const el = {
     restartBtn:   $('restart-btn'),
     abortBtnGame: $('abort-btn-game'),
     undoBtnGame:  $('undo-btn-game'),
+    // profile customizer
+    myProfileCard:        $('my-profile-card'),
+    colorPalette:         $('color-palette'),
+    emojiPalette:         $('emoji-palette'),
+    profilePreviewBadge:  $('profile-preview-badge'),
+    // banter & reactions
+    reactionsContainer:   $('reactions-container'),
+    bmBar:                $('bm-bar'),
+    chatToggleBtn:        $('chat-toggle-btn'),
+    chatUnreadBadge:      $('chat-unread-badge'),
+    // chat drawer
+    chatDrawer:           $('chat-drawer'),
+    chatOnlineCount:      $('chat-online-count'),
+    chatCloseBtn:         $('chat-close-btn'),
+    chatMessages:         $('chat-messages'),
+    chatForm:             $('chat-form'),
+    chatInput:            $('chat-input'),
 };
+
+// ─── AUDIO SYNTHESIZER (Web Audio API) ─────────────────
+let audioCtx = null;
+function getAudioContext() {
+    if (!audioCtx) {
+        const AudioCtx = window.AudioContext || window.webkitAudioContext;
+        if (AudioCtx) audioCtx = new AudioCtx();
+    }
+    if (audioCtx && audioCtx.state === 'suspended') {
+        audioCtx.resume();
+    }
+    return audioCtx;
+}
+
+function playPopSound() {
+    try {
+        const ctx = getAudioContext();
+        if (!ctx) return;
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = 'sine';
+        const now = ctx.currentTime;
+        osc.frequency.setValueAtTime(320, now);
+        osc.frequency.exponentialRampToValueAtTime(780, now + 0.08);
+        gain.gain.setValueAtTime(0.22, now);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + 0.09);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.1);
+    } catch (e) {}
+}
+
+function playNotificationSound() {
+    try {
+        const ctx = getAudioContext();
+        if (!ctx) return;
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = 'triangle';
+        const now = ctx.currentTime;
+        osc.frequency.setValueAtTime(587.33, now); // D5
+        osc.frequency.setValueAtTime(880, now + 0.08); // A5
+        gain.gain.setValueAtTime(0.18, now);
+        gain.gain.exponentialRampToValueAtTime(0.01, now + 0.28);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now);
+        osc.stop(now + 0.3);
+    } catch (e) {}
+}
+
+// ─── PROFILE CUSTOMIZER (COLOR & CAPITAL EMOJI) ───────
+const PRESET_COLORS = [
+    '#FF595E', '#FFCA3A', '#4CC9F0', '#06D6A0', '#9F7AEA', '#FF8C42',
+    '#F72585', '#7209B7', '#4361EE', '#10B981', '#F59E0B', '#EC4899',
+    '#00F5D4', '#B5179E'
+];
+
+const PRESET_EMOJIS = [
+    '👑', '🏰', '🗿', '⚡', '🚀', '🔥', '🦁', '🐱',
+    '💀', '🎯', '💎', '🐉', '⚔️', '🪐', '🍕', '🤡'
+];
+
+let _customizerInitialized = false;
+
+function initProfileCustomizer() {
+    if (!el.colorPalette || !el.emojiPalette || _customizerInitialized) return;
+    _customizerInitialized = true;
+
+    // Color swatches
+    el.colorPalette.innerHTML = '';
+    PRESET_COLORS.forEach(c => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'color-dot';
+        btn.style.backgroundColor = c;
+        btn.dataset.color = c;
+        btn.title = c;
+        btn.onclick = () => selectMyColor(c);
+        el.colorPalette.appendChild(btn);
+    });
+
+    // Custom color picker
+    const picker = document.createElement('input');
+    picker.type = 'color';
+    picker.className = 'color-picker-input';
+    picker.title = 'Выбрать свой цвет';
+    picker.onchange = (e) => selectMyColor(e.target.value);
+    el.colorPalette.appendChild(picker);
+
+    // Emoji swatches
+    el.emojiPalette.innerHTML = '';
+    PRESET_EMOJIS.forEach(em => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'emoji-btn';
+        btn.textContent = em;
+        btn.dataset.emoji = em;
+        btn.title = em;
+        btn.onclick = () => selectMyEmoji(em);
+        el.emojiPalette.appendChild(btn);
+    });
+}
+
+function selectMyColor(color) {
+    const me = currentPlayers.find(p => p.id === myPlayerId);
+    if (!me) return;
+    me.color = color;
+    socket.emit('update_profile', { color });
+    updateProfileCustomizerUI();
+    updateLobbyList();
+    if (typeof drawBoard === 'function') drawBoard();
+}
+
+function selectMyEmoji(capitalEmoji) {
+    const me = currentPlayers.find(p => p.id === myPlayerId);
+    if (!me) return;
+    me.capitalEmoji = capitalEmoji;
+    socket.emit('update_profile', { capitalEmoji });
+    updateProfileCustomizerUI();
+    updateLobbyList();
+    if (typeof drawBoard === 'function') drawBoard();
+}
+
+function updateProfileCustomizerUI() {
+    initProfileCustomizer();
+    const me = currentPlayers.find(p => p.id === myPlayerId);
+    if (!me) {
+        el.myProfileCard?.classList.add('hidden');
+        return;
+    }
+    el.myProfileCard?.classList.remove('hidden');
+
+    const curColor = me.color || '#4a9eff';
+    const curEmoji = me.capitalEmoji || '👑';
+
+    // Highlight active color
+    if (el.colorPalette) {
+        el.colorPalette.querySelectorAll('.color-dot').forEach(dot => {
+            const isActive = dot.dataset.color?.toLowerCase() === curColor.toLowerCase();
+            dot.classList.toggle('active', isActive);
+        });
+    }
+
+    // Highlight active emoji
+    if (el.emojiPalette) {
+        el.emojiPalette.querySelectorAll('.emoji-btn').forEach(btn => {
+            const isActive = btn.dataset.emoji === curEmoji;
+            btn.classList.toggle('active', isActive);
+        });
+    }
+
+    // Update preview badge
+    if (el.profilePreviewBadge) {
+        el.profilePreviewBadge.textContent = `${curEmoji} ${me.nickname}`;
+        el.profilePreviewBadge.style.color = curColor;
+        el.profilePreviewBadge.style.borderColor = curColor;
+        el.profilePreviewBadge.style.boxShadow = `0 2px 10px ${curColor}44`;
+    }
+}
+
+// ─── BM BANTER & FLOATING REACTIONS ───────────────────
+function spawnReaction(emoji, nickname, color) {
+    playPopSound();
+    if (!el.reactionsContainer) return;
+
+    const div = document.createElement('div');
+    div.className = 'floating-reaction';
+
+    // Randomize horizontal position around center (15% to 80%)
+    const randomLeft = 15 + Math.random() * 70;
+    div.style.left = `${randomLeft}%`;
+
+    const bubble = document.createElement('div');
+    bubble.className = 'reaction-bubble';
+    bubble.textContent = emoji;
+
+    const sender = document.createElement('div');
+    sender.className = 'reaction-sender';
+    sender.textContent = nickname;
+    sender.style.color = color || '#ffffff';
+    sender.style.borderColor = color ? (color + 'aa') : 'rgba(74, 158, 255, 0.6)';
+
+    div.appendChild(bubble);
+    div.appendChild(sender);
+    el.reactionsContainer.appendChild(div);
+
+    setTimeout(() => div.remove(), 2600);
+}
+
+function initBMBar() {
+    document.querySelectorAll('.bm-btn').forEach(btn => {
+        btn.onclick = () => {
+            const emoji = btn.dataset.emoji;
+            if (emoji) {
+                socket.emit('send_reaction', { emoji });
+            }
+        };
+    });
+}
+
+// ─── LIVE CHAT DRAWER ─────────────────────────────────
+let unreadChatCount = 0;
+
+function toggleChat(forceOpen) {
+    if (!el.chatDrawer) return;
+    const isClosed = el.chatDrawer.classList.contains('hidden');
+    const open = (forceOpen !== undefined) ? forceOpen : isClosed;
+
+    if (open) {
+        el.chatDrawer.classList.remove('hidden');
+        unreadChatCount = 0;
+        if (el.chatUnreadBadge) {
+            el.chatUnreadBadge.textContent = '0';
+            el.chatUnreadBadge.classList.add('hidden');
+        }
+        if (el.chatInput) el.chatInput.focus();
+        if (el.chatMessages) el.chatMessages.scrollTop = el.chatMessages.scrollHeight;
+    } else {
+        el.chatDrawer.classList.add('hidden');
+    }
+}
+
+function renderChatMessage(msg) {
+    if (!el.chatMessages) return;
+    const isMine = (msg.slot !== -1 && msg.slot === mySlot) ||
+                   (msg.nickname && currentPlayers.find(p => p.id === myPlayerId)?.nickname === msg.nickname);
+
+    const row = document.createElement('div');
+    row.className = `chat-msg-row ${isMine ? 'mine' : 'theirs'}`;
+
+    const header = document.createElement('div');
+    header.className = 'chat-msg-header';
+
+    const sender = document.createElement('span');
+    sender.className = 'chat-sender-name';
+    sender.style.color = msg.color || '#4a9eff';
+    sender.textContent = `${msg.capitalEmoji || '💬'} ${msg.nickname}`;
+
+    const time = document.createElement('span');
+    time.className = 'chat-msg-time';
+    time.textContent = msg.time || '';
+
+    header.appendChild(sender);
+    header.appendChild(time);
+
+    const bubble = document.createElement('div');
+    bubble.className = 'chat-msg-bubble';
+    bubble.textContent = msg.text;
+    if (msg.color) {
+        bubble.style.borderColor = isMine ? (msg.color + '66') : (msg.color + '44');
+    }
+
+    row.appendChild(header);
+    row.appendChild(bubble);
+
+    el.chatMessages.appendChild(row);
+    el.chatMessages.scrollTop = el.chatMessages.scrollHeight;
+}
+
+function initChat() {
+    if (el.chatToggleBtn) {
+        el.chatToggleBtn.onclick = () => toggleChat();
+    }
+    if (el.chatCloseBtn) {
+        el.chatCloseBtn.onclick = () => toggleChat(false);
+    }
+    if (el.chatForm) {
+        el.chatForm.onsubmit = (e) => {
+            e.preventDefault();
+            const text = el.chatInput?.value.trim();
+            if (text) {
+                socket.emit('send_chat', { text });
+                if (el.chatInput) el.chatInput.value = '';
+            }
+        };
+    }
+}
 
 // ─── TOASTS ───────────────────────────────────────────
 
@@ -118,7 +414,7 @@ function updateScoreboard() {
     el.scoresList.innerHTML = sorted.map((p, i) => `
         <li style="border-color:${p.color}" class="${p.eliminated ? 's-elim' : ''}">
             <span class="s-rank">${i + 1}.</span>
-            <span class="s-name" style="color:${p.color}">${p.nickname}${p.eliminated ? ' 💀' : ''}</span>
+            <span class="s-name" style="color:${p.color}">${p.capitalEmoji || '👑'} ${p.nickname}${p.eliminated ? ' 💀' : ''}</span>
             <span class="s-pts" style="color:${p.color}">${p.score}</span>
         </li>
     `).join('');
@@ -128,9 +424,10 @@ function updateLobbyList() {
     if (!el.playersList) return;
     el.playersList.innerHTML = currentPlayers.map(p => `
         <li style="border-color:${p.color}">
+            <span class="player-capital-emoji" style="font-size:1.15rem; line-height:1; user-select:none;">${p.capitalEmoji || '👑'}</span>
             <span class="player-nick" style="color:${p.color}">${p.nickname}</span>
             <span class="player-score">${p.score}</span>
-            ${p.isAdmin ? '<span class="player-crown">👑</span>' : ''}
+            ${p.isAdmin ? '<span class="player-crown" title="Организатор">👑</span>' : ''}
         </li>
     `).join('');
     if (el.playerCount) el.playerCount.textContent = `${currentPlayers.length} / 6`;
@@ -147,7 +444,7 @@ function renderRejoinSlots(players) {
     const slotButtons = players.map(p => `
         <button class="rejoin-slot-btn" data-slot="${p.slot}" style="border-color: ${p.color}66;">
             <span class="rejoin-slot-color" style="background: ${p.color}; box-shadow: 0 0 10px ${p.color}88;"></span>
-            <span class="rejoin-slot-name" style="color: ${p.color};">${p.nickname}</span>
+            <span class="rejoin-slot-name" style="color: ${p.color};">${p.capitalEmoji || '👑'} ${p.nickname}</span>
             <span class="rejoin-slot-status">${p.connected ? 'В сети' : 'Офлайн'} · ${p.score} pts</span>
         </button>
     `).join('');
@@ -264,6 +561,19 @@ const SUBCATEGORY_LABELS = {
     sports_chess:                '♟️ Спорт: шахматы',
     sports_esports:              '🎮 Спорт: киберспорт',
     sports_general:              '🥊 Спорт: разный спорт',
+    // 🔢 Подкатегории «Числа» (только в дуэлях)
+    geography_numbers:           '🌍 География: числа',
+    mathematics_numbers:         '📐 Математика: числа',
+    transport_numbers:           '🚗 Транспорт: числа',
+    construction_earth_numbers:  '🏗️ Стройка: числа',
+    cinema_arts_numbers:         '🎬 Кино: числа',
+    history_numbers:             '📜 История: числа',
+    physics_chemistry_numbers:   '⚗️ Физхим: числа',
+    fishing_numbers:             '🎣 Рыбалка: числа',
+    literature_numbers:          '📚 Литература: числа',
+    logic_chgk_numbers:          '🧩 Логика: числа',
+    music_numbers:               '🎸 Музыка: числа',
+    sports_numbers:              '🏆 Спорт: числа',
 };
 
 
@@ -483,13 +793,33 @@ function collectFilterSettings() {
 
 // ─── MODAL ────────────────────────────────────────────
 
+let _modalCloseTimer = null;
+
 function openModal(html) {
+    if (_modalCloseTimer) {
+        clearTimeout(_modalCloseTimer);
+        _modalCloseTimer = null;
+    }
+    // Remove any leftover elements inside modal-box that are not #modal-content
+    const extraCards = el.modalOverlay.querySelectorAll('.modal-box > *:not(#modal-content)');
+    extraCards.forEach(card => card.remove());
+
     el.modalContent.innerHTML = html;
     el.modalOverlay.classList.remove('hidden');
+    const numInput = el.modalContent.querySelector('#numeric-input');
+    if (numInput && !numInput.disabled) {
+        setTimeout(() => numInput.focus(), 60);
+    }
 }
 
 function closeModal() {
+    if (_modalCloseTimer) {
+        clearTimeout(_modalCloseTimer);
+        _modalCloseTimer = null;
+    }
     el.modalOverlay.classList.add('hidden');
+    const extraCards = el.modalOverlay.querySelectorAll('.modal-box > *:not(#modal-content)');
+    extraCards.forEach(card => card.remove());
     stopCountdown();
 }
 
@@ -574,7 +904,6 @@ window.zoomImage = function(imgEl) {
 };
 
 function buildQuestionHTML(q, round = null, isDuel = false, isSpectator = false) {
-    const LETTERS = ['А', 'Б', 'В', 'Г'];
     const isSvg   = q.image && q.image.endsWith('.svg');
     const img     = q.image
         ? `<img src="${q.image}" class="question-image${isSvg ? ' flag-svg' : ''}" alt="Изображение к вопросу" onclick="zoomImage(this)">`
@@ -584,11 +913,49 @@ function buildQuestionHTML(q, round = null, isDuel = false, isSpectator = false)
         ? `<h3 class="modal-title">⚔️ Раунд ${round}</h3><p class="modal-subtitle qtext">${q.question}</p>`
         : `<h3 class="modal-title qtext">${q.question}</h3>`;
     const passEv  = isDuel ? 'passDuelAnswer()' : 'passCaptureAnswer()';
+
+    if (q.type === 'numeric') {
+        const unitHtml = q.unit ? `<span class="numeric-unit-badge">${q.unit}</span>` : '';
+        const inputArea = isSpectator
+            ? `<div class="numeric-spectator-hint">Игроки вводят число с клавиатуры...</div>`
+            : `
+                <div class="numeric-input-card">
+                    <div class="numeric-field-row">
+                        <input type="text"
+                               inputmode="decimal"
+                               id="numeric-input"
+                               class="numeric-input"
+                               placeholder="Введите число..."
+                               autocomplete="off"
+                               onkeydown="if(event.key==='Enter') submitDuelNumericAnswer()">
+                        ${unitHtml}
+                    </div>
+                    <button id="numeric-submit-btn" class="numeric-submit-btn" onclick="submitDuelNumericAnswer()">
+                        <span>Ответить</span> <kbd>↵ Enter</kbd>
+                    </button>
+                </div>
+            `;
+        const passBtn = isSpectator ? '' : `<button class="pass-btn" id="pass-btn" onclick="${passEv}">🏳️ Я не знаю / Пас</button>`;
+
+        return `
+            ${spectatorBadge}
+            ${title}
+            ${img}
+            <div class="countdown-wrap">
+                <div class="countdown-track"><div id="countdown-bar" class="countdown-fill"></div></div>
+                <span id="countdown-num" class="countdown-num">30</span>
+            </div>
+            ${inputArea}
+            ${passBtn}
+        `;
+    }
+
+    const LETTERS = ['А', 'Б', 'В', 'Г'];
     const ansEv   = isDuel
         ? (i => `submitDuelAnswer(${i})`)
         : (i => `submitCaptureAnswer(${i})`);
 
-    const answers = q.options.map((o, i) =>
+    const answers = (q.options || []).map((o, i) =>
         isSpectator
             ? `<button class="answer-btn view-only" id="ans-btn-${i}" disabled><span class="ans-letter">${LETTERS[i]}</span>${o}</button>`
             : `<button class="answer-btn" id="ans-btn-${i}" onclick="${ansEv(i)}"><span class="ans-letter">${LETTERS[i]}</span>${o}</button>`
@@ -685,6 +1052,76 @@ function revealDuelAnswers(correctIndex, attackerAnswer, defenderAnswer, aName, 
     }
 }
 
+function revealNumericDuelResult({
+    numericAnswer, unit,
+    aName, dName,
+    aAns, dAns,
+    aDiff, dDiff,
+    aCorrect, dCorrect,
+    aPass, dPass
+}) {
+    stopCountdown();
+    const bar = document.getElementById('countdown-bar');
+    if (bar) { bar.style.width = '0%'; bar.className = 'countdown-fill'; }
+
+    const aRowClass = aCorrect ? 'winner' : (aPass ? 'pass' : 'loser');
+    const dRowClass = dCorrect ? 'winner' : (dPass ? 'pass' : 'loser');
+
+    const passBtn = el.modalContent.querySelector('#pass-btn');
+    if (passBtn) passBtn.remove();
+
+    const resultHtml = `
+        <div class="numeric-result-card">
+            <div class="numeric-target-box">
+                <span class="numeric-target-label">🎯 Точный правильный ответ:</span>
+                <span class="numeric-target-val">${numericAnswer} ${unit || ''}</span>
+            </div>
+            <div class="numeric-players-compare">
+                <div class="numeric-player-row ${aRowClass}">
+                    <div class="numeric-player-info">
+                        <span>⚔️ ${aName}</span>
+                        ${aCorrect ? '<span class="badge-win">Победа (+1.0)</span>' : (aPass ? '<span class="badge-pass">Пас (+0.4)</span>' : '<span class="badge-fail">Дальше</span>')}
+                    </div>
+                    <div class="numeric-player-ans">
+                        <span class="numeric-player-guess">${aPass ? 'Пас' : (aAns !== null && aAns !== undefined ? `${aAns} ${unit || ''}` : '—')}</span>
+                        ${!aPass && aDiff !== null ? `<span class="numeric-player-diff">разница: ±${aDiff}</span>` : ''}
+                    </div>
+                </div>
+                <div class="numeric-player-row ${dRowClass}">
+                    <div class="numeric-player-info">
+                        <span>🛡️ ${dName}</span>
+                        ${dCorrect ? '<span class="badge-win">Победа (+1.0)</span>' : (dPass ? '<span class="badge-pass">Пас (+0.4)</span>' : '<span class="badge-fail">Дальше</span>')}
+                    </div>
+                    <div class="numeric-player-ans">
+                        <span class="numeric-player-guess">${dPass ? 'Пас' : (dAns !== null && dAns !== undefined ? `${dAns} ${unit || ''}` : '—')}</span>
+                        ${!dPass && dDiff !== null ? `<span class="numeric-player-diff">разница: ±${dDiff}</span>` : ''}
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    const waitBox = el.modalContent.querySelector('.modal-wait');
+    const inputCard = el.modalContent.querySelector('.numeric-input-card');
+    const spectatorHint = el.modalContent.querySelector('.numeric-spectator-hint');
+    const answerBtns = el.modalContent.querySelector('.answer-buttons');
+
+    if (inputCard) {
+        inputCard.outerHTML = resultHtml;
+    } else if (waitBox) {
+        waitBox.outerHTML = resultHtml;
+    } else if (spectatorHint) {
+        spectatorHint.outerHTML = resultHtml;
+    } else if (answerBtns) {
+        answerBtns.outerHTML = resultHtml;
+    } else {
+        el.modalContent.innerHTML = `
+            <h3 class="modal-title">⚔️ Результат раунда</h3>
+            ${resultHtml}
+        `;
+    }
+}
+
 function showWaiting(msg = 'Ждём результата...') {
     stopCountdown();
     openModal(`
@@ -740,6 +1177,34 @@ window.submitDuelAnswer = index => {
         socket.emit('duel_answer', { answerIndex: index });
     }, 50);
     setTimeout(() => showWaiting('Ждём ответа противника...'), 1800);
+};
+
+window.submitDuelNumericAnswer = () => {
+    const inp = document.getElementById('numeric-input');
+    if (!inp) return;
+    const raw = inp.value.trim();
+    if (!raw) {
+        inp.classList.add('input-error-shake');
+        setTimeout(() => inp.classList.remove('input-error-shake'), 400);
+        return;
+    }
+    const clean = raw.replace(/\s+/g, '').replace(',', '.');
+    const val = parseFloat(clean);
+    if (isNaN(val)) {
+        inp.classList.add('input-error-shake');
+        setTimeout(() => inp.classList.remove('input-error-shake'), 400);
+        return;
+    }
+
+    stopCountdown();
+    inp.disabled = true;
+    const btn = document.getElementById('numeric-submit-btn');
+    if (btn) btn.disabled = true;
+    const passBtn = document.getElementById('pass-btn');
+    if (passBtn) passBtn.disabled = true;
+
+    socket.emit('duel_numeric_answer', { value: val });
+    showWaiting('Число отправлено! Ждём ответа противника...');
 };
 
 window.passDuelAnswer = () => {
@@ -906,6 +1371,8 @@ socket.on('joined_successfully', player => {
     mySlot     = player.slot;
     try { sessionStorage.setItem('qb_slot', player.slot); } catch (e) {}
     showScreen('lobby');
+    el.bmBar?.classList.remove('hidden');
+    updateProfileCustomizerUI();
     lobbyLog(`Привет, ${player.nickname}! 👋`, 'info');
 });
 
@@ -917,6 +1384,13 @@ socket.on('category_index', index => {
 socket.on('update_player_list', players => {
     currentPlayers = players;
     updateLobbyList();
+    updateProfileCustomizerUI();
+
+    if (el.chatOnlineCount) {
+        const count = players.length;
+        const word = (count === 1) ? 'игрок' : (count >= 2 && count <= 4) ? 'игрока' : 'игроков';
+        el.chatOnlineCount.textContent = `${count} ${word}`;
+    }
 
     const me = players.find(p => p.id === myPlayerId);
     if (me?.isAdmin) {
@@ -949,6 +1423,7 @@ socket.on('game_started', ({ turn, players, settings, board, capitals, turnNumbe
     gameSettings   = settings;
 
     showScreen('game');
+    el.bmBar?.classList.remove('hidden');
 
     if (el.maxRounds) el.maxRounds.textContent = settings.maxTurns;
     if (el.roundNum)  el.roundNum.textContent  = turnNumber || '1';
@@ -1082,10 +1557,14 @@ socket.on('duel_waiting_opponent', () => {
 });
 
 socket.on('duel_round_result', ({
-    round, attackerSlot, defenderSlot,
+    round, isNumeric, numericAnswer, unit,
+    attackerSlot, defenderSlot,
     questionText, questionOptions,
-    attackerAnswer, defenderAnswer, correctIndex,
+    attackerAnswer, defenderAnswer,
+    attackerDiff, defenderDiff,
+    correctIndex,
     attackerCorrect, defenderCorrect,
+    attackerPass, defenderPass,
     attackerScore, defenderScore,
     attackerWins, defenderWins,
 }) => {
@@ -1098,35 +1577,68 @@ socket.on('duel_round_result', ({
     const dP = currentPlayers.find(p => p.slot === defenderSlot);
 
     let roundMsg = '';
-    if (attackerCorrect && !defenderCorrect) {
-        roundMsg = `${aP?.nickname || 'Атакующий'} берёт раунд! (+1.0) ⚔️`;
-    } else if (defenderCorrect && !attackerCorrect) {
-        roundMsg = `${dP?.nickname || 'Защитник'} берёт раунд! (+1.0) 🛡️`;
-    } else if (attackerCorrect && defenderCorrect) {
-        roundMsg = 'Оба ответили верно (+1.0 каждому)';
+    if (isNumeric) {
+        if (attackerCorrect && !defenderCorrect) {
+            roundMsg = `${aP?.nickname || 'Атакующий'} был ближе и берёт раунд! (+1.0) ⚔️`;
+        } else if (defenderCorrect && !attackerCorrect) {
+            roundMsg = `${dP?.nickname || 'Защитник'} был ближе и берёт раунд! (+1.0) 🛡️`;
+        } else if (attackerCorrect && defenderCorrect) {
+            roundMsg = 'Оба назвали одинаково близкие числа (+1.0 каждому)';
+        } else if (attackerPass && defenderPass) {
+            roundMsg = 'Оба игрока спасовали (+0.4 каждому)';
+        } else {
+            roundMsg = 'Раунд завершён';
+        }
+        el.duelStatus.textContent = roundMsg;
+
+        revealNumericDuelResult({
+            numericAnswer, unit,
+            aName: aP?.nickname || 'Атакующий',
+            dName: dP?.nickname || 'Защитник',
+            aAns: attackerAnswer,
+            dAns: defenderAnswer,
+            aDiff: attackerDiff,
+            dDiff: defenderDiff,
+            aCorrect: attackerCorrect,
+            dCorrect: defenderCorrect,
+            aPass: attackerPass,
+            dPass: defenderPass,
+        });
+
+        if (questionText) gameLog(`❓ ${questionText}`, 'duel');
+        gameLog(`🎯 Точный ответ: ${numericAnswer} ${unit || ''}`, 'duel');
+        const aAnsStr = attackerPass ? 'Пас' : `${attackerAnswer} ${unit || ''} (разница: ±${attackerDiff})`;
+        const dAnsStr = defenderPass ? 'Пас' : `${defenderAnswer} ${unit || ''} (разница: ±${defenderDiff})`;
+        gameLog(`⚔️ ${aP?.nickname || 'Атакующий'}: «${aAnsStr}» ${attackerCorrect ? '✅ (+1.0)' : (attackerPass ? '🏳️ (+0.4)' : '❌')}`, attackerCorrect ? 'success' : 'fail');
+        gameLog(`🛡️ ${dP?.nickname || 'Защитник'}: «${dAnsStr}» ${defenderCorrect ? '✅ (+1.0)' : (defenderPass ? '🏳️ (+0.4)' : '❌')}`, defenderCorrect ? 'success' : 'fail');
+        gameLog(`Счёт дуэли: ${sA} : ${sD}`, 'duel');
     } else {
-        roundMsg = 'Раунд завершён';
+        if (attackerCorrect && !defenderCorrect) {
+            roundMsg = `${aP?.nickname || 'Атакующий'} берёт раунд! (+1.0) ⚔️`;
+        } else if (defenderCorrect && !attackerCorrect) {
+            roundMsg = `${dP?.nickname || 'Защитник'} берёт раунд! (+1.0) 🛡️`;
+        } else if (attackerCorrect && defenderCorrect) {
+            roundMsg = 'Оба ответили верно (+1.0 каждому)';
+        } else {
+            roundMsg = 'Раунд завершён';
+        }
+        el.duelStatus.textContent = roundMsg;
+
+        revealDuelAnswers(correctIndex, attackerAnswer, defenderAnswer, aP?.nickname, dP?.nickname, attackerCorrect, defenderCorrect);
+
+        if (questionText) gameLog(`❓ ${questionText}`, 'duel');
+        if (questionOptions) {
+            const aAns = (attackerAnswer !== null && attackerAnswer !== undefined && attackerAnswer !== 'pass')
+                ? questionOptions[attackerAnswer]
+                : (attackerAnswer === 'pass' || attackerAnswer === null ? 'Пас' : '—');
+            const dAns = (defenderAnswer !== null && defenderAnswer !== undefined && defenderAnswer !== 'pass')
+                ? questionOptions[defenderAnswer]
+                : (defenderAnswer === 'pass' || defenderAnswer === null ? 'Пас' : '—');
+            gameLog(`⚔️ ${aP?.nickname || 'Атакующий'}: «${aAns}» ${attackerCorrect ? '✅ (+1.0)' : (attackerAnswer === null || attackerAnswer === 'pass' ? '🏳️ (+0.4)' : '❌ (штраф)')}`, attackerCorrect ? 'success' : 'fail');
+            gameLog(`🛡️ ${dP?.nickname || 'Защитник'}: «${dAns}» ${defenderCorrect ? '✅ (+1.0)' : (defenderAnswer === null || defenderAnswer === 'pass' ? '🏳️ (+0.4)' : '❌ (штраф)')}`, defenderCorrect ? 'success' : 'fail');
+        }
+        gameLog(`Счёт дуэли: ${sA} : ${sD}`, 'duel');
     }
-    el.duelStatus.textContent = roundMsg;
-
-    revealDuelAnswers(correctIndex, attackerAnswer, defenderAnswer, aP?.nickname, dP?.nickname, attackerCorrect, defenderCorrect);
-
-    if (questionText) gameLog(`❓ ${questionText}`, 'duel');
-    if (questionOptions) {
-        const aAns = (attackerAnswer !== null && attackerAnswer !== undefined && attackerAnswer !== 'pass')
-            ? questionOptions[attackerAnswer]
-            : (attackerAnswer === 'pass' || attackerAnswer === null ? 'Пас' : '—');
-        const dAns = (defenderAnswer !== null && defenderAnswer !== undefined && defenderAnswer !== 'pass')
-            ? questionOptions[defenderAnswer]
-            : (defenderAnswer === 'pass' || defenderAnswer === null ? 'Пас' : '—');
-        gameLog(`⚔️ ${aP?.nickname || 'Атакующий'}: «${aAns}» ${attackerCorrect ? '✅ (+1.0)' : (attackerAnswer === null || attackerAnswer === 'pass' ? '🏳️ (+0.4)' : '❌ (штраф)')}`, attackerCorrect ? 'success' : 'fail');
-        gameLog(`🛡️ ${dP?.nickname || 'Защитник'}: «${dAns}» ${defenderCorrect ? '✅ (+1.0)' : (defenderAnswer === null || defenderAnswer === 'pass' ? '🏳️ (+0.4)' : '❌ (штраф)')}`, defenderCorrect ? 'success' : 'fail');
-    }
-    gameLog(`Счёт дуэли: ${sA} : ${sD}`, 'duel');
-
-    setTimeout(() => {
-        closeModal();
-    }, 2800);
 });
 
 socket.on('duel_next_round', ({ round, picker, topic, attackerScore, defenderScore, attackerWins, defenderWins }) => {
@@ -1193,21 +1705,201 @@ socket.on('error_msg', msg => {
     closeModal();
 });
 
+// ──── BM REACTIONS & CHAT ────
+socket.on('player_reaction', ({ slot, nickname, color, emoji }) => {
+    spawnReaction(emoji, nickname, color);
+});
+
+socket.on('chat_history', history => {
+    if (!el.chatMessages) return;
+    el.chatMessages.innerHTML = '<div class="chat-system-msg">🔥 Беймить разрешено! Отправляй эмоции и подкалывай друзей 😈</div>';
+    if (Array.isArray(history)) {
+        history.forEach(msg => renderChatMessage(msg));
+    }
+});
+
+socket.on('chat_message', msg => {
+    renderChatMessage(msg);
+    const isClosed = el.chatDrawer?.classList.contains('hidden');
+    if (isClosed) {
+        unreadChatCount++;
+        if (el.chatUnreadBadge) {
+            el.chatUnreadBadge.textContent = unreadChatCount > 99 ? '99+' : unreadChatCount;
+            el.chatUnreadBadge.classList.remove('hidden');
+        }
+        playNotificationSound();
+    }
+});
+
 // ──── GAME OVER ────
 socket.on('game_over', players => {
     closeDuelOverlay();
     closeModal();
 
-    const medals = ['🥇', '🥈', '🥉'];
-    el.finalScores.innerHTML = players.map((p, i) => `
-        <div class="final-row" style="border-color:${p.color}">
-            <span class="final-medal">${medals[i] || (i + 1) + '.'}</span>
-            <span class="final-name" style="color:${p.color}">${p.nickname}${p.eliminated ? ' 💀' : ''}</span>
-            <span class="final-pts" style="color:${p.color}">${p.score} очков</span>
-        </div>
-    `).join('');
+    if (!Array.isArray(players) || players.length === 0) return;
 
+    const medals = ['🥇', '🥈', '🥉'];
+
+    // Calculate MVP Highlights across players
+    const highlights = [];
+
+    // 1. Top Accuracy (min 2 answers)
+    const accRanked = [...players]
+        .filter(p => p.stats && p.stats.totalQuestions >= 2)
+        .map(p => ({
+            p,
+            pct: Math.round((p.stats.correctQuestions / p.stats.totalQuestions) * 100),
+            ratio: `${p.stats.correctQuestions}/${p.stats.totalQuestions}`
+        }))
+        .sort((a, b) => b.pct - a.pct || b.p.stats.correctQuestions - a.p.stats.correctQuestions);
+
+    if (accRanked.length > 0 && accRanked[0].pct >= 40) {
+        highlights.push({
+            icon: '🧠',
+            title: 'Главный эрудит',
+            name: accRanked[0].p.nickname,
+            color: accRanked[0].p.color,
+            val: `${accRanked[0].pct}% (${accRanked[0].ratio})`,
+        });
+    }
+
+    // 2. Conqueror (most cells captured)
+    const cellRanked = [...players]
+        .filter(p => p.stats && p.stats.cellsCaptured > 0)
+        .sort((a, b) => (b.stats?.cellsCaptured || 0) - (a.stats?.cellsCaptured || 0));
+
+    if (cellRanked.length > 0 && cellRanked[0].stats.cellsCaptured >= 2) {
+        highlights.push({
+            icon: '🗺️',
+            title: 'Генерал экспансии',
+            name: cellRanked[0].nickname,
+            color: cellRanked[0].color,
+            val: `${cellRanked[0].stats.cellsCaptured} клеток`,
+        });
+    }
+
+    // 3. Duelist (most duel wins)
+    const duelRanked = [...players]
+        .filter(p => p.stats && p.stats.duelsWon > 0)
+        .sort((a, b) => (b.stats?.duelsWon || 0) - (a.stats?.duelsWon || 0));
+
+    if (duelRanked.length > 0) {
+        highlights.push({
+            icon: '⚔️',
+            title: 'Непобедимый дуэлянт',
+            name: duelRanked[0].nickname,
+            color: duelRanked[0].color,
+            val: `${duelRanked[0].stats.duelsWon} побед`,
+        });
+    }
+
+    // 4. Number sniper (closest numeric guess)
+    const sniperRanked = [...players]
+        .filter(p => p.stats && p.stats.bestNumericDiff !== null && p.stats.bestNumericDiff !== undefined)
+        .sort((a, b) => a.stats.bestNumericDiff - b.stats.bestNumericDiff);
+
+    if (sniperRanked.length > 0) {
+        highlights.push({
+            icon: '🎯',
+            title: 'Числовой снайпер',
+            name: sniperRanked[0].nickname,
+            color: sniperRanked[0].color,
+            val: `разница ±${sniperRanked[0].stats.bestNumericDiff}`,
+        });
+    }
+
+    let highlightsHtml = '';
+    if (highlights.length > 0) {
+        highlightsHtml = `
+            <div class="final-highlights-box">
+                <div class="final-highlights-title">✨ Номинации битвы</div>
+                <div class="final-highlights-grid">
+                    ${highlights.map(h => `
+                        <div class="highlight-chip">
+                            <span class="highlight-icon">${h.icon}</span>
+                            <div class="highlight-text">
+                                <span class="highlight-label">${h.title}</span>
+                                <span class="highlight-player" style="color:${h.color}">${h.name}</span>
+                                <span class="highlight-detail">${h.val}</span>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+    }
+
+    const cardsHtml = players.map((p, i) => {
+        const isWinner = i === 0 && !p.eliminated;
+        const st = p.stats || {};
+        const totalQ = st.totalQuestions || 0;
+        const corrQ = st.correctQuestions || 0;
+        const accPct = totalQ > 0 ? Math.round((corrQ / totalQ) * 100) : 0;
+        const fav = st.favoriteCategory;
+
+        let favHtml = '';
+        if (fav && fav.categoryId) {
+            const label = CATEGORY_LABELS[fav.categoryId] || fav.categoryId;
+            favHtml = `
+                <div class="player-favorite-cat">
+                    <span class="fav-icon">⭐</span>
+                    <span class="fav-title">Любимая категория:</span>
+                    <strong class="fav-name">${label}</strong>
+                    <span class="fav-stats">(${fav.correct}/${fav.total} • ${fav.pct}%)</span>
+                </div>
+            `;
+        } else {
+            favHtml = `
+                <div class="player-favorite-cat empty">
+                    <span class="fav-icon">⭐</span>
+                    <span class="fav-title">Любимая категория:</span>
+                    <span class="fav-name-none">— (мало ответов)</span>
+                </div>
+            `;
+        }
+
+        const chips = [];
+        chips.push(`<span class="stat-pill">🎯 Точность: <b>${corrQ}/${totalQ}</b> (${accPct}%)</span>`);
+        chips.push(`<span class="stat-pill">🗺️ Захвачено: <b>${st.cellsCaptured || 0}</b></span>`);
+        chips.push(`<span class="stat-pill">⚔️ Дуэли: <b>${st.duelsWon || 0} / ${st.duelsPlayed || 0}</b></span>`);
+        if (st.capitalsTaken > 0) {
+            chips.push(`<span class="stat-pill capital">👑 Столиц взято: <b>${st.capitalsTaken}</b></span>`);
+        }
+        if (st.bestNumericDiff !== null && st.bestNumericDiff !== undefined) {
+            chips.push(`<span class="stat-pill sniper">🎯 Снайпер: <b>±${st.bestNumericDiff}</b></span>`);
+        }
+
+        return `
+            <div class="final-card ${isWinner ? 'winner-card' : ''}" style="border-left-color: ${p.color};">
+                <div class="final-card-header">
+                    <div class="final-player-info">
+                        <span class="final-medal">${medals[i] || (i + 1) + '.'}</span>
+                        <span class="final-avatar">${p.capitalEmoji || '👑'}</span>
+                        <span class="final-name" style="color: ${p.color}">
+                            ${p.nickname}
+                            ${p.eliminated ? '<span class="status-badge elim">💀 Выбыл</span>' : (isWinner ? '<span class="status-badge win">🏆 Победитель</span>' : '')}
+                        </span>
+                    </div>
+                    <div class="final-pts" style="color: ${p.color}">
+                        ${p.score} <small>очков</small>
+                    </div>
+                </div>
+
+                ${favHtml}
+
+                <div class="final-stats-pills">
+                    ${chips.join('')}
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    el.finalScores.innerHTML = highlightsHtml + cardsHtml;
     showScreen('gameover');
 });
+
+// Initialize BM bar & chat listeners
+initBMBar();
+initChat();
 
 console.log('✅ Quiz Battle client loaded');

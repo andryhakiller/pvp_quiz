@@ -66,12 +66,12 @@
     "difficulty": 2,
     "question": "Какой французский электронный дуэт выступал исключительно в футуристических шлемах роботов?",
     "options": [
-      "Cassius",
-      "Air",
       "Daft Punk",
+      "The Chemical Brothers",
+      "Cassius",
       "Justice"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -98,8 +98,8 @@
     "options": [
       "Лиэм Галлахер",
       "Бретт Андерсон",
-      "Том Йорк (Radiohead)",
-      "Деймон Албарн (Blur)"
+      "Том Йорк",
+      "Деймон Албарн"
     ],
     "correctIndex": 3,
     "image": null
@@ -111,12 +111,12 @@
     "difficulty": 2,
     "question": "Как зовут бас-гитариста и самопровозглашенного лидера виртуального квартета Gorillaz с зеленой кожей?",
     "options": [
-      "2D (Стюарт Пот)",
-      "Рассел Хоббс",
-      "Нудл",
-      "Мёрдок Никкалс"
+      "Мёрдок Никкалс",
+      "Барабанщик Рассел Хоббс",
+      "2D",
+      "Нудл"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -129,7 +129,7 @@
       "Ja Rule",
       "Nelly",
       "The Game",
-      "50 Cent (Кёртис Джексон)"
+      "50 Cent"
     ],
     "correctIndex": 3,
     "image": null
@@ -156,12 +156,12 @@
     "difficulty": 2,
     "question": "Какой вокалист группы Linkin Park обладал уникальным пронзительным скримингом и ушел из жизни в 2017 году?",
     "options": [
-      "Роб Бурдон",
       "Честер Беннингтон",
-      "Майк Шинода",
+      "Александр Дешон Шинода",
+      "Роб Бурдон",
       "Брэд Делсон"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -233,7 +233,7 @@
     "options": [
       "«The Kids Aren't Alright»",
       "«Why Don't You Get a Job?»",
-      "«Pretty Fly (For a White Guy)»",
+      "«Pretty Fly»",
       "«Self Esteem»"
     ],
     "correctIndex": 2,
@@ -338,7 +338,7 @@
     "options": [
       "Группа «Стрелки»",
       "Группа «ВИА Гра»",
-      "Группа «Тату» (t.A.T.u.)",
+      "Группа «Тату»",
       "Группа «Блестящие»"
     ],
     "correctIndex": 2,
@@ -396,12 +396,12 @@
     "difficulty": 3,
     "question": "Какой продюсер создал золотой состав группы «ВИА Гра» (Вера Брежнева, Надежда Грановская, Анна Седокова)?",
     "options": [
-      "Максим Фадеев",
-      "Игорь Матвиенко",
       "Константин Меладзе",
+      "Александр Валерьевич Цекало",
+      "Максим Фадеев",
       "Виктор Дробыш"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -411,12 +411,12 @@
     "difficulty": 1,
     "question": "Какая поп-группа продюсера Игоря Матвиенко выпустила суперхиты «Тополиный пух» и «Тучи»?",
     "options": [
-      "«Дискотека Авария»",
       "«Иванушки International»",
-      "«На-На»",
+      "«Отпетые Мошенники и Компания»",
+      "«Дискотека Авария»",
       "«Корни»"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -471,12 +471,12 @@
     "difficulty": 2,
     "question": "Какой рэпер с дипломом Оксфорда записал концептуальный альбом-антиутопию «Горгород»?",
     "options": [
+      "Oxxxymiron",
+      "Александр Степанов",
       "Гнойный",
-      "Хаски",
-      "Noize MC",
-      "Oxxxymiron"
+      "Хаски"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -516,12 +516,12 @@
     "difficulty": 2,
     "question": "Какая песня Басты звучит на выпускных вечерах по всей стране со словами «Медлячок, чтобы ты заплакала...»?",
     "options": [
-      "«Урбан»",
-      "«Моя игра»",
       "«Выпускной»",
+      "«Чистый кайф»",
+      "«Моя игра»",
       "«Сансара»"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -606,12 +606,12 @@
     "difficulty": 2,
     "question": "Какой хит дуэта Miyagi & Эндшпиль стал самым просматриваемым российским клипом на YouTube (более 800 млн просмотров)?",
     "options": [
+      "«I Got Love»",
+      "«Tamally Maak»",
       "«Captain»",
-      "«Minor»",
-      "«Колибри»",
-      "«I Got Love»"
+      "«Колибри»"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -652,9 +652,9 @@
     "question": "Какой канадский поп-певец был открыт на YouTube в 2008 году подростком с суперхитом «Baby»?",
     "options": [
       "Джастин Бибер",
+      "Джастин Тимберлейк",
       "Шон Мендес",
-      "The Weeknd",
-      "Дрейк"
+      "The Weeknd"
     ],
     "correctIndex": 0,
     "image": null
@@ -714,7 +714,7 @@
       "Лана Дель Рей",
       "Дуа Липа",
       "Эми Уайнхаус",
-      "Адель (Adele)"
+      "Адель"
     ],
     "correctIndex": 3,
     "image": null
@@ -757,8 +757,8 @@
     "question": "Какая скандальная американская панк-рок группа прославилась клипом в костюмах обезьян на хит «The Bad Touch» («You and me baby ain't nothin' but mammals...»)?",
     "options": [
       "The Bloodhound Gang",
+      "Red Hot Chili Peppers",
       "Blink-182",
-      "Sum 41",
       "Offspring"
     ],
     "correctIndex": 0,
@@ -801,12 +801,12 @@
     "difficulty": 3,
     "question": "Какая швейцарско-немецкая евродэнс-группа выпустила хит 90-х «Coco Jamboo»?",
     "options": [
-      "La Bouche",
+      "Mr. President",
+      "Captain Hollywood Project",
       "Culture Beat",
-      "Snap!",
-      "Mr. President"
+      "La Bouche"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -892,7 +892,7 @@
     "question": "Какой финский коллектив исполняет тяжелый металл исключительно на четырех академических виолончелях?",
     "options": [
       "Apocalyptica",
-      "Amorphis",
+      "Children of Bodom",
       "Korpiklaani",
       "Nightwish"
     ],
@@ -939,7 +939,7 @@
       "Slipknot",
       "Rammstein",
       "Gwar",
-      "Lordi (Финляндия)"
+      "Lordi"
     ],
     "correctIndex": 3,
     "image": null
@@ -951,12 +951,12 @@
     "difficulty": 1,
     "question": "Какая американская рок-группа выпустила постапокалиптический хит «Radioactive» и клип с плюшевыми зверями?",
     "options": [
+      "Imagine Dragons",
+      "Twenty One Pilots",
       "OneRepublic",
-      "Maroon 5",
-      "Fall Out Boy",
-      "Imagine Dragons"
+      "Fall Out Boy"
     ],
-    "correctIndex": 3,
+    "correctIndex": 0,
     "image": null
   },
   {
@@ -1027,8 +1027,8 @@
     "question": "Какая песня Arctic Monkeys с гипнотическим басовым риффом начинается со слов «Do I wanna know...»?",
     "options": [
       "«Do I Wanna Know?»",
+      "«I Bet You Look Good on the Dancefloor»",
       "«R U Mine?»",
-      "«505»",
       "«Arabella»"
     ],
     "correctIndex": 0,
@@ -1041,12 +1041,12 @@
     "difficulty": 1,
     "question": "Какой хит австралийского певца Gotye и Кимбры взорвал мир в 2011 году клипом с геометрическим боди-артом на стене?",
     "options": [
-      "«Eyes Wide Open»",
-      "«Heart's a Mess»",
       "«Somebody That I Used to Know»",
+      "«Save Your Tears for Another Day»",
+      "«Eyes Wide Open»",
       "«Smoke and Mirrors»"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "image": null
   }
 ]

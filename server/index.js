@@ -12,7 +12,10 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 const MAX_PLAYERS   = 6;
 const PLAYER_COLORS = ['#FF595E', '#FFCA3A', '#4CC9F0', '#06D6A0', '#9F7AEA', '#FF8C42'];
+const DEFAULT_CAPITALS = ['👑', '🏰', '🗿', '⚡', '🚀', '🔥', '🦁', '🐱', '💀', '🎯', '💎', '🐉'];
 const QUESTION_TIMEOUT_MS = 30_000;
+const chatHistory = [];
+
 
 const CAPITAL_POSITIONS = [
     { q:  4, r:  0 },
@@ -96,6 +99,47 @@ let gs = {
     history:        [],    // snapshots for undo
 };
 
+function initPlayerStats() {
+    return {
+        totalQuestions:   0,
+        correctQuestions: 0,
+        cellsCaptured:    0,
+        duelsPlayed:      0,
+        duelsWon:         0,
+        capitalsTaken:    0,
+        categoryStats:    {}, // catId -> { total: 0, correct: 0 }
+        bestNumericDiff:  null,
+    };
+}
+
+function ensurePlayerStats(p) {
+    if (!p) return;
+    if (!p.stats) p.stats = initPlayerStats();
+    if (!p.stats.categoryStats) p.stats.categoryStats = {};
+}
+
+function getFavoriteCategory(stats) {
+    if (!stats || !stats.categoryStats) return null;
+    let bestCat = null;
+    let maxScore = -1;
+
+    for (const [catId, data] of Object.entries(stats.categoryStats)) {
+        if (!data || data.total <= 0) continue;
+        // Priority formula: correct answers weighted * 3, total answers as volume bonus
+        const score = (data.correct * 3) + data.total;
+        if (score > maxScore) {
+            maxScore = score;
+            bestCat = {
+                categoryId: catId,
+                total:      data.total,
+                correct:    data.correct,
+                pct:        Math.round((data.correct / data.total) * 100),
+            };
+        }
+    }
+    return bestCat;
+}
+
 function saveTurnSnapshot() {
     gs.history.push({
         turnIndex:  gs.turnIndex,
@@ -105,6 +149,7 @@ function saveTurnSnapshot() {
         scores:     Object.fromEntries(playerList().map(p => [p.slot, p.score])),
         eliminated: Object.fromEntries(playerList().map(p => [p.slot, p.eliminated])),
         turnOrder:  [...gs.turnOrder],
+        stats:      Object.fromEntries(playerList().map(p => [p.slot, JSON.parse(JSON.stringify(p.stats || initPlayerStats()))])),
     });
     if (gs.history.length > 50) gs.history.shift();
 }
@@ -159,29 +204,52 @@ function getEnabledSubcategories() {
     return subs;
 }
 
+const NUMBERS_SUBCATEGORIES = new Set([
+    'geography_numbers',
+    'mathematics_numbers',
+    'transport_numbers',
+    'construction_earth_numbers',
+    'cinema_arts_numbers',
+    'history_numbers',
+    'physics_chemistry_numbers',
+    'fishing_numbers',
+    'literature_numbers',
+    'logic_chgk_numbers',
+    'music_numbers',
+    'sports_numbers',
+]);
+
+function isSubcategoryAllowed(s, isDuel = false) {
+    if (gameSettings.disabledSubcategories.includes(s)) return false;
+    // Numbers subcategories can only appear in duels, NEVER in normal capture:
+    if (!isDuel && (NUMBERS_SUBCATEGORIES.has(s) || s.endsWith('_numbers'))) return false;
+    return true;
+}
+
 /**
  * Pick 3 unique subcategories using two-level fair random:
  *   1. Pick a random enabled category (all categories equally likely)
  *   2. Pick a random subcategory from it (all subs within that cat equally likely)
- * Retries up to 60 times to get 3 distinct results.
+ * Retries up to 100 times to get 3 distinct results.
+ * @param {boolean} isDuel - true if selecting topics for PvP duel; false if normal cell capture
  */
-function get3Subs() {
+function get3Subs(isDuel = false) {
     const enabledCats = getEnabledCategories().filter(cat =>
-        (CATEGORY_INDEX[cat] || []).some(s => !gameSettings.disabledSubcategories.includes(s))
+        (CATEGORY_INDEX[cat] || []).some(s => isSubcategoryAllowed(s, isDuel))
     );
 
     // Collect all valid, enabled subcategories across all enabled categories
     const allAvailableSubs = [];
     for (const cat of enabledCats) {
-        const subs = (CATEGORY_INDEX[cat] || []).filter(s => !gameSettings.disabledSubcategories.includes(s));
+        const subs = (CATEGORY_INDEX[cat] || []).filter(s => isSubcategoryAllowed(s, isDuel));
         allAvailableSubs.push(...subs);
     }
 
     // Safety fallback only if user disabled literally all subcategories/categories:
     if (!allAvailableSubs.length) {
         console.warn('⚠️ No enabled subcategories available! Falling back to all.');
-        const allSubs = Object.values(CATEGORY_INDEX).flat();
-        return allSubs.sort(() => Math.random() - 0.5).slice(0, 3);
+        const allSubs = Object.values(CATEGORY_INDEX).flat().filter(s => isSubcategoryAllowed(s, isDuel));
+        return (allSubs.length ? allSubs : Object.values(CATEGORY_INDEX).flat()).sort(() => Math.random() - 0.5).slice(0, 3);
     }
 
     // If 3 or fewer subcategories total are available:
@@ -195,12 +263,7 @@ function get3Subs() {
 
     while (result.length < 3 && attempts < 100) {
         attempts++;
-        // Step 1: random enabled category
-        const cat = enabledCats[Math.floor(Math.random() * enabledCats.length)];
-        // Step 2: random enabled subcategory from that category
-        const subs = (CATEGORY_INDEX[cat] || []).filter(s => !gameSettings.disabledSubcategories.includes(s));
-        if (!subs.length) continue;
-        const sub = subs[Math.floor(Math.random() * subs.length)];
+        const sub = allAvailableSubs[Math.floor(Math.random() * allAvailableSubs.length)];
         if (!chosen.has(sub)) {
             chosen.add(sub);
             result.push(sub);
@@ -334,7 +397,19 @@ function endGame() {
     isGameStarted = false;
     clearQuestionTimer();
     const sorted = playerList().sort((a, b) => b.score - a.score);
-    io.emit('game_over', sorted);
+    const enriched = sorted.map((p, idx) => {
+        ensurePlayerStats(p);
+        const fav = getFavoriteCategory(p.stats);
+        return {
+            ...p,
+            rank: idx + 1,
+            stats: {
+                ...p.stats,
+                favoriteCategory: fav,
+            },
+        };
+    });
+    io.emit('game_over', enriched);
     log('🏆 Игра окончена!', 'end');
 }
 
@@ -349,9 +424,15 @@ function eliminatePlayer(slot) {
         if (gs.board[key] === slot) delete gs.board[key];
     }
 
+    const elimIdx = gs.turnOrder.indexOf(slot);
     gs.turnOrder = gs.turnOrder.filter(s => s !== slot);
     const al = activeSlots().length;
-    if (al > 0) gs.turnIndex = gs.turnIndex % al;
+    if (al > 0) {
+        if (elimIdx !== -1 && elimIdx < gs.turnIndex) {
+            gs.turnIndex = Math.max(0, gs.turnIndex - 1);
+        }
+        gs.turnIndex = gs.turnIndex % al;
+    }
 
     io.emit('player_eliminated', { slot, nickname: p.nickname });
     io.emit('board_full_sync',   { board: gs.board });
@@ -377,6 +458,21 @@ function resolveCaptureAnswer(socketId, answerIndex) {
         isCorrect,
         isPass,
     });
+
+    if (me) {
+        ensurePlayerStats(me);
+        me.stats.totalQuestions++;
+        if (isCorrect) {
+            me.stats.correctQuestions++;
+            me.stats.cellsCaptured++;
+        }
+        const catId = pc.question?.categoryId;
+        if (catId) {
+            if (!me.stats.categoryStats[catId]) me.stats.categoryStats[catId] = { total: 0, correct: 0 };
+            me.stats.categoryStats[catId].total++;
+            if (isCorrect) me.stats.categoryStats[catId].correct++;
+        }
+    }
 
     if (isCorrect) {
         const key = `${pc.q},${pc.r}`;
@@ -406,32 +502,48 @@ function startDuelRound(subcategoryId) {
     const d = gs.activeDuel;
     if (!d) return;
 
+    d.roundResolved = false;
+
     const q = getQuestion(subcategoryId);
     if (!q) {
         resolveRound(null, null, null, subcategoryId);
         return;
     }
 
+    const isNumeric = q.type === 'numeric' || subcategoryId.endsWith('_numbers');
+
     d.topic        = subcategoryId;
+    d.isNumeric    = isNumeric;
     d.questionData = {
-        id:           q.id,
-        correctIndex: q.correctIndex,
-        question:     q.question,
-        options:      q.options,
-        image:        q.image || null,
+        id:            q.id,
+        categoryId:    q.categoryId,
+        subcategoryId: q.subcategoryId,
+        type:          isNumeric ? 'numeric' : 'choice',
+        correctIndex:  q.correctIndex,
+        numericAnswer: q.numericAnswer !== undefined ? q.numericAnswer : null,
+        unit:          q.unit || '',
+        question:      q.question,
+        options:       q.options,
+        image:         q.image || null,
     };
     d.answers = { attacker: null, defender: null };
 
-    // Send question without correctIndex to fighters
-    const clientQ = { question: q.question, options: q.options, image: q.image || null };
+    // Send question without answers to fighters
+    const clientQ = {
+        id:       q.id,
+        type:     isNumeric ? 'numeric' : 'choice',
+        question: q.question,
+        unit:     q.unit || '',
+        options:  isNumeric ? [] : q.options,
+        image:    q.image || null,
+    };
 
     const aSock = io.sockets.sockets.get(d.attackerSockId);
     const dSock = io.sockets.sockets.get(d.defenderSockId);
     if (aSock) aSock.emit('duel_question', { question: clientQ, round: d.round });
     if (dSock) dSock.emit('duel_question', { question: clientQ, round: d.round });
 
-    // Send question without correctIndex to spectators
-    const spectatorQ = { question: q.question, options: q.options, image: q.image || null };
+    // Send question to spectators
     for (const [sockId, sock] of io.sockets.sockets) {
         if (sockId !== d.attackerSockId && sockId !== d.defenderSockId) {
             sock.emit('duel_spectator_question', {
@@ -439,7 +551,7 @@ function startDuelRound(subcategoryId) {
                 topic:        subcategoryId,
                 attackerSlot: d.attackerSlot,
                 defenderSlot: d.defenderSlot,
-                question:     spectatorQ,
+                question:     clientQ,
             });
         }
     }
@@ -447,6 +559,7 @@ function startDuelRound(subcategoryId) {
     io.emit('duel_round_started', {
         round:         d.round,
         topic:         subcategoryId,
+        isNumeric:     isNumeric,
         attackerSlot:  d.attackerSlot,
         defenderSlot:  d.defenderSlot,
         attackerScore: d.attackerScore || 0,
@@ -470,24 +583,61 @@ function startDuelRound(subcategoryId) {
 function resolveRound(attackerAns, defenderAns, correctIndex, topic) {
     clearQuestionTimer();
     const d = gs.activeDuel;
-    if (!d) return;
+    if (!d || d.roundResolved) return;
+    d.roundResolved = true;
 
     if (d.attackerScore === undefined) d.attackerScore = 0;
     if (d.defenderScore === undefined) d.defenderScore = 0;
 
+    const isNumeric = d.isNumeric || false;
     const aPass = (attackerAns === null || attackerAns === 'pass');
     const dPass = (defenderAns === null || defenderAns === 'pass');
 
     let aCorrect = false, dCorrect = false;
-    if (correctIndex !== null && correctIndex !== undefined) {
-        aCorrect = !aPass && attackerAns === correctIndex;
-        dCorrect = !dPass && defenderAns === correctIndex;
+    let aDiff = null, dDiff = null;
+
+    if (isNumeric) {
+        const target = d.questionData.numericAnswer;
+        if (typeof attackerAns === 'number' && !isNaN(attackerAns)) {
+            aDiff = Math.round(Math.abs(attackerAns - target) * 1000) / 1000;
+        }
+        if (typeof defenderAns === 'number' && !isNaN(defenderAns)) {
+            dDiff = Math.round(Math.abs(defenderAns - target) * 1000) / 1000;
+        }
+
+        if (aDiff !== null && dDiff !== null) {
+            if (aDiff < dDiff) {
+                aCorrect = true;
+                dCorrect = false;
+            } else if (dDiff < aDiff) {
+                dCorrect = true;
+                aCorrect = false;
+            } else {
+                // Exact tie!
+                aCorrect = true;
+                dCorrect = true;
+            }
+        } else if (aDiff !== null && dDiff === null) {
+            aCorrect = true;
+            dCorrect = false;
+        } else if (dDiff !== null && aDiff === null) {
+            dCorrect = true;
+            aCorrect = false;
+        } else {
+            aCorrect = false;
+            dCorrect = false;
+        }
+    } else {
+        if (correctIndex !== null && correctIndex !== undefined) {
+            aCorrect = !aPass && attackerAns === correctIndex;
+            dCorrect = !dPass && defenderAns === correctIndex;
+        }
     }
 
     // Duel points calculation:
-    // Correct = +1.0
+    // Winner = +1.0
     // Pass = +0.4
-    // Wrong = +0.0 (penalty deducted from overall game score)
+    // Wrong / further away = +0.0 (penalty deducted from overall game score)
     const penalty = gameSettings.scores.WRONG_PENALTY;
     if (aCorrect) {
         d.attackerScore = Math.round((d.attackerScore + 1.0) * 10) / 10;
@@ -516,15 +666,57 @@ function resolveRound(attackerAns, defenderAns, correctIndex, topic) {
     d.attackerWins = d.attackerScore;
     d.defenderWins = d.defenderScore;
 
+    // Update attacker & defender stats
+    const catId = d.questionData?.categoryId;
+    const atk = playerBySlot(d.attackerSlot);
+    const def = playerBySlot(d.defenderSlot);
+
+    if (atk) {
+        ensurePlayerStats(atk);
+        atk.stats.totalQuestions++;
+        if (aCorrect) atk.stats.correctQuestions++;
+        if (catId) {
+            if (!atk.stats.categoryStats[catId]) atk.stats.categoryStats[catId] = { total: 0, correct: 0 };
+            atk.stats.categoryStats[catId].total++;
+            if (aCorrect) atk.stats.categoryStats[catId].correct++;
+        }
+        if (isNumeric && aDiff !== null) {
+            if (atk.stats.bestNumericDiff === null || aDiff < atk.stats.bestNumericDiff) {
+                atk.stats.bestNumericDiff = aDiff;
+            }
+        }
+    }
+
+    if (def) {
+        ensurePlayerStats(def);
+        def.stats.totalQuestions++;
+        if (dCorrect) def.stats.correctQuestions++;
+        if (catId) {
+            if (!def.stats.categoryStats[catId]) def.stats.categoryStats[catId] = { total: 0, correct: 0 };
+            def.stats.categoryStats[catId].total++;
+            if (dCorrect) def.stats.categoryStats[catId].correct++;
+        }
+        if (isNumeric && dDiff !== null) {
+            if (def.stats.bestNumericDiff === null || dDiff < def.stats.bestNumericDiff) {
+                def.stats.bestNumericDiff = dDiff;
+            }
+        }
+    }
+
     io.emit('duel_round_result', {
         round:           d.round,
+        isNumeric:       isNumeric,
+        numericAnswer:   d.questionData?.numericAnswer ?? null,
+        unit:            d.questionData?.unit || '',
         attackerSlot:    d.attackerSlot,
         defenderSlot:    d.defenderSlot,
         topic:           topic || d.topic,
         questionText:    d.questionData?.question   || null,
-        questionOptions: d.questionData?.options   || null,
+        questionOptions: isNumeric ? null : (d.questionData?.options || null),
         attackerAnswer:  attackerAns,
         defenderAnswer:  defenderAns,
+        attackerDiff:    aDiff,
+        defenderDiff:    dDiff,
         correctIndex,
         attackerCorrect: aCorrect,
         defenderCorrect: dCorrect,
@@ -538,12 +730,12 @@ function resolveRound(attackerAns, defenderAns, correctIndex, topic) {
 
     // Play all 3 rounds of the duel
     if (d.round >= 3) {
-        setTimeout(() => finalizeDuel(), 3500);
+        setTimeout(() => finalizeDuel(), 4000);
         return;
     }
 
     d.round++;
-    const subs3 = get3Subs();
+    const subs3 = get3Subs(true);
 
     setTimeout(() => {
         if (!gs.activeDuel) return;
@@ -572,7 +764,7 @@ function resolveRound(attackerAns, defenderAns, correctIndex, topic) {
             });
             startDuelRound(rndSub);
         }
-    }, 3500);
+    }, 4000);
 }
 
 function finalizeDuel() {
@@ -587,6 +779,23 @@ function finalizeDuel() {
     const defender = playerBySlot(d.defenderSlot);
     const key      = `${d.targetQ},${d.targetR}`;
     const isCapital = gs.capitals[d.defenderSlot] === key;
+
+    if (attacker) {
+        ensurePlayerStats(attacker);
+        attacker.stats.duelsPlayed++;
+        if (aWon) {
+            attacker.stats.duelsWon++;
+            attacker.stats.cellsCaptured++;
+            if (isCapital) attacker.stats.capitalsTaken++;
+        }
+    }
+    if (defender) {
+        ensurePlayerStats(defender);
+        defender.stats.duelsPlayed++;
+        if (!aWon && !tie) {
+            defender.stats.duelsWon++;
+        }
+    }
 
     if (aWon) {
         gs.board[key] = d.attackerSlot;
@@ -637,11 +846,12 @@ function finalizeDuel() {
 
 io.on('connection', socket => {
 
-    // Send current game status to newly connected client
+    // Send current game status and chat history to newly connected client
     socket.emit('game_status', {
         isGameStarted,
         players: playerList().sort((a, b) => a.slot - b.slot),
     });
+    socket.emit('chat_history', chatHistory);
 
     // ── JOIN (LOBBY) ──
     socket.on('join_game', nickname => {
@@ -653,20 +863,22 @@ io.on('connection', socket => {
         while (takenSlots.includes(slot)) slot++;
 
         players[socket.id] = {
-            id:         socket.id,
-            nickname:   (nickname || '').trim().slice(0, 30) || `Игрок ${slot + 1}`,
+            id:           socket.id,
+            nickname:     (nickname || '').trim().slice(0, 30) || `Игрок ${slot + 1}`,
             slot,
-            color:      PLAYER_COLORS[slot],
-            score:      0,
-            isAdmin:    Object.keys(players).length === 0,
-            eliminated: false,
-            connected:  true,
+            color:        PLAYER_COLORS[slot % PLAYER_COLORS.length],
+            capitalEmoji: DEFAULT_CAPITALS[slot % DEFAULT_CAPITALS.length] || '👑',
+            score:        0,
+            isAdmin:      Object.keys(players).length === 0,
+            eliminated:   false,
+            connected:    true,
         };
 
         io.emit('update_player_list', playerList());
         socket.emit('joined_successfully', players[socket.id]);
         socket.emit('settings_updated', gameSettings);
         socket.emit('category_index', CATEGORY_INDEX);
+        socket.emit('chat_history', chatHistory);
     });
 
     // ── REJOIN (ONGOING GAME) ──
@@ -732,26 +944,23 @@ io.on('connection', socket => {
             });
 
             if (d.questionData) {
+                const clientQ = {
+                    id:       d.questionData.id,
+                    type:     d.isNumeric ? 'numeric' : 'choice',
+                    question: d.questionData.question,
+                    unit:     d.questionData.unit || '',
+                    options:  d.isNumeric ? [] : d.questionData.options,
+                    image:    d.questionData.image,
+                };
                 if (socket.id === d.attackerSockId || socket.id === d.defenderSockId) {
-                    const clientQ = {
-                        question:     d.questionData.question,
-                        options:      d.questionData.options,
-                        image:        d.questionData.image,
-                        correctIndex: d.questionData.correctIndex,
-                    };
                     socket.emit('duel_question', { question: clientQ, round: d.round });
                 } else {
-                    const spectatorQ = {
-                        question: d.questionData.question,
-                        options:  d.questionData.options,
-                        image:    d.questionData.image,
-                    };
                     socket.emit('duel_spectator_question', {
                         round:        d.round,
                         topic:        d.topic,
                         attackerSlot: d.attackerSlot,
                         defenderSlot: d.defenderSlot,
-                        question:     spectatorQ,
+                        question:     clientQ,
                     });
                 }
             }
@@ -772,8 +981,80 @@ io.on('connection', socket => {
             }
         }
 
+        if (!targetPlayer.capitalEmoji) {
+            targetPlayer.capitalEmoji = DEFAULT_CAPITALS[targetPlayer.slot % DEFAULT_CAPITALS.length] || '👑';
+        }
+
         io.emit('update_player_list', playerList());
         log(`🔄 ${targetPlayer.nickname} вернулся в битву!`, 'info');
+    });
+
+    // ── PROFILE UPDATE (COLOR & CAPITAL EMOJI) ──
+    socket.on('update_profile', ({ color, capitalEmoji }) => {
+        const me = players[socket.id];
+        if (!me) return;
+
+        let changed = false;
+        if (typeof color === 'string' && color.trim().length >= 3 && color.trim().length <= 30) {
+            me.color = color.trim();
+            changed = true;
+        }
+
+        if (typeof capitalEmoji === 'string' && capitalEmoji.trim().length > 0) {
+            me.capitalEmoji = capitalEmoji.trim().slice(0, 8);
+            changed = true;
+        }
+
+        if (changed) {
+            io.emit('update_player_list', playerList());
+            if (isGameStarted) {
+                io.emit('board_full_sync', { board: gs.board });
+            }
+        }
+    });
+
+    // ── BM REACTION (BANTER EMOJIS) ──
+    socket.on('send_reaction', ({ emoji }) => {
+        const now = Date.now();
+        if (socket._lastReaction && now - socket._lastReaction < 200) return;
+        socket._lastReaction = now;
+
+        const p = players[socket.id];
+        const emojiStr = String(emoji || '🤡').slice(0, 8);
+
+        io.emit('player_reaction', {
+            slot:         p ? p.slot : -1,
+            nickname:     p ? p.nickname : 'Зритель',
+            color:        p ? p.color : '#4a9eff',
+            capitalEmoji: p ? p.capitalEmoji : '👑',
+            emoji:        emojiStr,
+        });
+    });
+
+    // ── LIVE CHAT ──
+    socket.on('send_chat', ({ text }) => {
+        const now = Date.now();
+        if (socket._lastChat && now - socket._lastChat < 200) return;
+        socket._lastChat = now;
+
+        const cleaned = String(text || '').trim().slice(0, 250);
+        if (!cleaned) return;
+
+        const p = players[socket.id];
+        const msg = {
+            id:           Date.now() + '-' + Math.random().toString(36).slice(2, 6),
+            time:         new Date().toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' }),
+            slot:         p ? p.slot : -1,
+            nickname:     p ? p.nickname : 'Гость',
+            color:        p ? p.color : '#4a9eff',
+            capitalEmoji: p ? p.capitalEmoji : '💬',
+            text:         cleaned,
+        };
+
+        chatHistory.push(msg);
+        if (chatHistory.length > 80) chatHistory.shift();
+
+        io.emit('chat_message', msg);
     });
 
     // ── SETTINGS ──
@@ -827,7 +1108,11 @@ io.on('connection', socket => {
         clearQuestionTimer();
 
         const sorted = playerList().sort((a, b) => a.slot - b.slot);
-        sorted.forEach(p => { p.score = 0; p.eliminated = false; });
+        sorted.forEach(p => {
+            p.score = 0;
+            p.eliminated = false;
+            p.stats = initPlayerStats();
+        });
         gs.turnOrder = sorted.map(p => p.slot);
 
         sorted.forEach(p => {
@@ -872,20 +1157,21 @@ io.on('connection', socket => {
 
         if (owner === me.slot) return socket.emit('error_msg', 'Это твоя клетка!');
 
-        const subs = get3Subs();
-
         if (owner === undefined || owner === null) {
+            const subs = get3Subs(false);
             gs.pendingCapture = { socketId: socket.id, q, r, question: null };
             socket.emit('show_topic_selection', { type: 'capture', q, r, categories: subs });
         } else {
             const defender = playerBySlot(owner);
             if (!defender || defender.eliminated) {
                 gs.board[key] = undefined;
+                const subs = get3Subs(false);
                 gs.pendingCapture = { socketId: socket.id, q, r, question: null };
                 socket.emit('show_topic_selection', { type: 'capture', q, r, categories: subs });
                 return;
             }
 
+            const duelSubs = get3Subs(true);
             gs.activeDuel = {
                 attackerSockId: socket.id,
                 attackerSlot:   me.slot,
@@ -908,7 +1194,7 @@ io.on('connection', socket => {
                 targetQ: q, targetR: r,
             });
             log(`⚔️ ${me.nickname} атакует ${defender.nickname}!`, 'duel');
-            socket.emit('duel_pick_topic', { round: 1, picker: 'attacker', categories: subs });
+            socket.emit('duel_pick_topic', { round: 1, picker: 'attacker', categories: duelSubs });
         }
     });
 
@@ -919,10 +1205,16 @@ io.on('connection', socket => {
         const me = players[socket.id];
         if (!me) return;
 
+        if (!isSubcategoryAllowed(topic, false)) {
+            socket.emit('error_msg', 'Эта подтема доступна только в дуэлях!');
+            socket.emit('show_topic_selection', { type: 'capture', q: pc.q, r: pc.r, categories: get3Subs(false) });
+            return;
+        }
+
         const qObj = getQuestion(topic);
         if (!qObj) {
             socket.emit('error_msg', `В подтеме «${topic}» вопросы закончились. Выбери другую!`);
-            socket.emit('show_topic_selection', { type: 'capture', q: pc.q, r: pc.r, categories: get3Subs() });
+            socket.emit('show_topic_selection', { type: 'capture', q: pc.q, r: pc.r, categories: get3Subs(false) });
             return;
         }
 
@@ -939,7 +1231,12 @@ io.on('connection', socket => {
             image:    qObj.image || null,
         };
 
-        pc.question = { id: qObj.id, correctIndex: qObj.correctIndex };
+        pc.question = {
+            id:            qObj.id,
+            correctIndex:  qObj.correctIndex,
+            categoryId:    qObj.categoryId,
+            subcategoryId: qObj.subcategoryId,
+        };
         pc.clientQ = cq;
         pc.spectatorQ = spectatorQ;
         pc.playerSlot = me.slot;
@@ -984,7 +1281,7 @@ io.on('connection', socket => {
     // ── DUEL: answer ──
     socket.on('duel_answer', ({ answerIndex }) => {
         const d = gs.activeDuel;
-        if (!d || !d.questionData) return;
+        if (!d || !d.questionData || d.roundResolved) return;
 
         const isA = socket.id === d.attackerSockId;
         const isD = socket.id === d.defenderSockId;
@@ -1002,10 +1299,37 @@ io.on('connection', socket => {
         }
     });
 
+    // ── DUEL: numeric answer ──
+    socket.on('duel_numeric_answer', ({ value }) => {
+        const d = gs.activeDuel;
+        if (!d || !d.questionData || !d.isNumeric || d.roundResolved) return;
+
+        const isA = socket.id === d.attackerSockId;
+        const isD = socket.id === d.defenderSockId;
+        if (!isA && !isD) return;
+
+        const cleanVal = String(value).replace(/\s+/g, '').replace(',', '.');
+        const num = parseFloat(cleanVal);
+        if (isNaN(num)) {
+            return socket.emit('error_msg', 'Введите корректное число!');
+        }
+
+        if (isA && d.answers.attacker === null) d.answers.attacker = num;
+        if (isD && d.answers.defender === null) d.answers.defender = num;
+
+        if (d.answers.attacker !== null && d.answers.defender !== null) {
+            const aAns = d.answers.attacker === 'pass' ? null : d.answers.attacker;
+            const dAns = d.answers.defender === 'pass' ? null : d.answers.defender;
+            resolveRound(aAns, dAns, d.questionData.correctIndex, d.topic);
+        } else {
+            socket.emit('duel_waiting_opponent');
+        }
+    });
+
     // ── DUEL: pass ──
     socket.on('duel_pass', () => {
         const d = gs.activeDuel;
-        if (!d || !d.questionData) return;
+        if (!d || !d.questionData || d.roundResolved) return;
 
         const isA = socket.id === d.attackerSockId;
         const isD = socket.id === d.defenderSockId;
@@ -1060,6 +1384,12 @@ io.on('connection', socket => {
             const p = playerBySlot(Number(slotStr));
             if (p) p.eliminated = elim;
         }
+        if (snap.stats) {
+            for (const [slotStr, st] of Object.entries(snap.stats)) {
+                const p = playerBySlot(Number(slotStr));
+                if (p) p.stats = JSON.parse(JSON.stringify(st));
+            }
+        }
 
         const curSlot = currentSlot();
         const curP = playerBySlot(curSlot);
@@ -1105,6 +1435,7 @@ io.on('connection', socket => {
             } else {
                 p.score = 0;
                 p.eliminated = false;
+                p.stats = initPlayerStats();
             }
         }
 
