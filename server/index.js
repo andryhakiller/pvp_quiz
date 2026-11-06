@@ -290,7 +290,14 @@ let playedHistory = new Set();
 try {
     if (fs.existsSync(PLAYED_HISTORY_PATH)) {
         const raw = JSON.parse(fs.readFileSync(PLAYED_HISTORY_PATH, 'utf8'));
-        if (Array.isArray(raw)) playedHistory = new Set(raw);
+        if (Array.isArray(raw)) {
+            // Filter out any stale/deleted question IDs so history stays pristine
+            const valid = raw.filter(id => QUESTIONS_RAW.some(q => q.id === id));
+            playedHistory = new Set(valid);
+            if (valid.length !== raw.length) {
+                fs.writeFileSync(PLAYED_HISTORY_PATH, JSON.stringify(valid, null, 2), 'utf8');
+            }
+        }
         console.log(`📜 Loaded ${playedHistory.size} played questions from ${path.basename(PLAYED_HISTORY_PATH)}`);
     }
 } catch (e) {
