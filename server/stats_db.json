@@ -1,0 +1,820 @@
+{
+  "version": 1,
+  "lastUpdated": 1793987609385,
+  "accounts": {
+    "acc_andrey": {
+      "id": "acc_andrey",
+      "name": "Андрей",
+      "createdAt": "2026-11-06T17:49:00+03:00",
+      "matches": 1,
+      "wins": 1,
+      "podiums": {
+        "first": 1,
+        "second": 0,
+        "third": 0
+      },
+      "totalScore": 15000,
+      "maxScore": 15000,
+      "questions": {
+        "total": 42,
+        "correct": 30
+      },
+      "cellsCaptured": 12,
+      "duels": {
+        "played": 12,
+        "won": 8
+      },
+      "capitalsTaken": 1,
+      "numeric": {
+        "count": 1,
+        "bestDiff": 0,
+        "sumDiff": 0
+      },
+      "nominationsCount": 3,
+      "favoriteCategory": {
+        "categoryId": "history",
+        "label": "История",
+        "total": 8,
+        "correct": 7,
+        "pct": 88
+      },
+      "categoryStats": {
+        "history": {
+          "total": 8,
+          "correct": 7
+        }
+      },
+      "customEmojis": [
+        "🤡",
+        "💀",
+        "🔥",
+        "💩",
+        "🧠",
+        "💎",
+        "👑",
+        "🎯",
+        "🥱",
+        "🍿"
+      ]
+    },
+    "acc_matvey": {
+      "id": "acc_matvey",
+      "name": "Матвей",
+      "createdAt": "2026-11-06T17:49:00+03:00",
+      "matches": 1,
+      "wins": 1,
+      "podiums": {
+        "first": 1,
+        "second": 0,
+        "third": 0
+      },
+      "totalScore": 15000,
+      "maxScore": 15000,
+      "questions": {
+        "total": 42,
+        "correct": 30
+      },
+      "cellsCaptured": 12,
+      "duels": {
+        "played": 12,
+        "won": 8
+      },
+      "capitalsTaken": 1,
+      "numeric": {
+        "count": 1,
+        "bestDiff": 0,
+        "sumDiff": 0
+      },
+      "nominationsCount": 3,
+      "favoriteCategory": {
+        "categoryId": "history",
+        "label": "История",
+        "total": 8,
+        "correct": 7,
+        "pct": 88
+      },
+      "categoryStats": {
+        "history": {
+          "total": 8,
+          "correct": 7
+        }
+      },
+      "customEmojis": [
+        "🤡",
+        "💀",
+        "🔥",
+        "💩",
+        "🧠",
+        "💎",
+        "👑",
+        "🎯",
+        "🥱",
+        "🍿"
+      ]
+    },
+    "acc_nikitash": {
+      "id": "acc_nikitash",
+      "name": "Никиташ",
+      "createdAt": "2026-11-06T17:49:00+03:00",
+      "matches": 1,
+      "wins": 0,
+      "podiums": {
+        "first": 0,
+        "second": 1,
+        "third": 0
+      },
+      "totalScore": 12600,
+      "maxScore": 12600,
+      "questions": {
+        "total": 22,
+        "correct": 17
+      },
+      "cellsCaptured": 11,
+      "duels": {
+        "played": 3,
+        "won": 3
+      },
+      "capitalsTaken": 1,
+      "numeric": {
+        "count": 1,
+        "bestDiff": 0,
+        "sumDiff": 0
+      },
+      "nominationsCount": 1,
+      "favoriteCategory": {
+        "categoryId": "history",
+        "label": "История",
+        "total": 5,
+        "correct": 4,
+        "pct": 80
+      },
+      "categoryStats": {
+        "history": {
+          "total": 5,
+          "correct": 4
+        }
+      },
+      "customEmojis": [
+        "🤡",
+        "💀",
+        "🔥",
+        "💩",
+        "🧠",
+        "🤬",
+        "👑",
+        "🎯",
+        "🥱",
+        "🍿"
+      ]
+    },
+    "acc_nikitaf": {
+      "id": "acc_nikitaf",
+      "name": "Никитаф",
+      "createdAt": "2026-11-06T17:49:00+03:00",
+      "matches": 1,
+      "wins": 0,
+      "podiums": {
+        "first": 0,
+        "second": 0,
+        "third": 1
+      },
+      "totalScore": 11700,
+      "maxScore": 11700,
+      "questions": {
+        "total": 31,
+        "correct": 22
+      },
+      "cellsCaptured": 10,
+      "duels": {
+        "played": 7,
+        "won": 3
+      },
+      "capitalsTaken": 0,
+      "numeric": {
+        "count": 0,
+        "bestDiff": null,
+        "sumDiff": 0
+      },
+      "nominationsCount": 0,
+      "favoriteCategory": {
+        "categoryId": "mathematics",
+        "label": "Математика",
+        "total": 3,
+        "correct": 3,
+        "pct": 100
+      },
+      "categoryStats": {
+        "mathematics": {
+          "total": 3,
+          "correct": 3
+        }
+      },
+      "customEmojis": [
+        "🤡",
+        "💀",
+        "🔥",
+        "💩",
+        "🧠",
+        "⚔️",
+        "👑",
+        "🎯",
+        "🥱",
+        "🍿"
+      ]
+    },
+    "acc_maxon": {
+      "id": "acc_maxon",
+      "name": "Максон",
+      "createdAt": "2026-11-06T17:49:00+03:00",
+      "matches": 1,
+      "wins": 0,
+      "podiums": {
+        "first": 0,
+        "second": 0,
+        "third": 1
+      },
+      "totalScore": 11700,
+      "maxScore": 11700,
+      "questions": {
+        "total": 31,
+        "correct": 22
+      },
+      "cellsCaptured": 10,
+      "duels": {
+        "played": 7,
+        "won": 3
+      },
+      "capitalsTaken": 0,
+      "numeric": {
+        "count": 0,
+        "bestDiff": null,
+        "sumDiff": 0
+      },
+      "nominationsCount": 0,
+      "favoriteCategory": {
+        "categoryId": "mathematics",
+        "label": "Математика",
+        "total": 3,
+        "correct": 3,
+        "pct": 100
+      },
+      "categoryStats": {
+        "mathematics": {
+          "total": 3,
+          "correct": 3
+        }
+      },
+      "customEmojis": [
+        "🤡",
+        "💀",
+        "🔥",
+        "💩",
+        "🧠",
+        "⚔️",
+        "👑",
+        "🎯",
+        "🥱",
+        "🍿"
+      ]
+    },
+    "acc_denchik": {
+      "id": "acc_denchik",
+      "name": "Денчик",
+      "createdAt": "2026-11-06T17:49:00+03:00",
+      "matches": 1,
+      "wins": 0,
+      "podiums": {
+        "first": 0,
+        "second": 0,
+        "third": 0
+      },
+      "totalScore": 6000,
+      "maxScore": 6000,
+      "questions": {
+        "total": 20,
+        "correct": 11
+      },
+      "cellsCaptured": 7,
+      "duels": {
+        "played": 2,
+        "won": 0
+      },
+      "capitalsTaken": 0,
+      "numeric": {
+        "count": 0,
+        "bestDiff": null,
+        "sumDiff": 0
+      },
+      "nominationsCount": 0,
+      "favoriteCategory": {
+        "categoryId": "history",
+        "label": "История",
+        "total": 3,
+        "correct": 2,
+        "pct": 67
+      },
+      "categoryStats": {
+        "history": {
+          "total": 3,
+          "correct": 2
+        }
+      },
+      "customEmojis": [
+        "🤡",
+        "💀",
+        "🔥",
+        "💩",
+        "🧠",
+        "🎯",
+        "👑",
+        "⚡",
+        "🥱",
+        "🍿"
+      ]
+    },
+    "acc_glebas": {
+      "id": "acc_glebas",
+      "name": "Глебас",
+      "createdAt": "2026-11-06T17:49:00+03:00",
+      "matches": 1,
+      "wins": 0,
+      "podiums": {
+        "first": 0,
+        "second": 0,
+        "third": 0
+      },
+      "totalScore": 0,
+      "maxScore": 0,
+      "questions": {
+        "total": 19,
+        "correct": 13
+      },
+      "cellsCaptured": 6,
+      "duels": {
+        "played": 4,
+        "won": 1
+      },
+      "capitalsTaken": 0,
+      "numeric": {
+        "count": 1,
+        "bestDiff": 0,
+        "sumDiff": 0
+      },
+      "nominationsCount": 0,
+      "favoriteCategory": {
+        "categoryId": "transport",
+        "label": "Транспорт",
+        "total": 5,
+        "correct": 5,
+        "pct": 100
+      },
+      "categoryStats": {
+        "transport": {
+          "total": 5,
+          "correct": 5
+        }
+      },
+      "customEmojis": [
+        "🤡",
+        "💀",
+        "🔥",
+        "💩",
+        "🧠",
+        "🗿",
+        "👑",
+        "🎯",
+        "🥱",
+        "🍿"
+      ]
+    },
+    "acc_dimas": {
+      "id": "acc_dimas",
+      "name": "Димас",
+      "createdAt": "2026-11-06T17:49:00+03:00",
+      "matches": 1,
+      "wins": 0,
+      "podiums": {
+        "first": 0,
+        "second": 0,
+        "third": 0
+      },
+      "totalScore": 0,
+      "maxScore": 0,
+      "questions": {
+        "total": 59,
+        "correct": 34
+      },
+      "cellsCaptured": 8,
+      "duels": {
+        "played": 16,
+        "won": 4
+      },
+      "capitalsTaken": 0,
+      "numeric": {
+        "count": 1,
+        "bestDiff": 0,
+        "sumDiff": 0
+      },
+      "nominationsCount": 0,
+      "favoriteCategory": {
+        "categoryId": "history",
+        "label": "История",
+        "total": 13,
+        "correct": 10,
+        "pct": 77
+      },
+      "categoryStats": {
+        "history": {
+          "total": 13,
+          "correct": 10
+        }
+      },
+      "customEmojis": [
+        "🤡",
+        "💀",
+        "🔥",
+        "💩",
+        "🧠",
+        "👑",
+        "🎯",
+        "⚡",
+        "🥱",
+        "🍿"
+      ]
+    }
+  },
+  "matches": [
+    {
+      "id": "match_20261106_1749",
+      "timestamp": "2026-11-06T17:49:00+03:00",
+      "formattedDate": "06.11.2026, 17:49 (МСК)",
+      "winnerName": "андре (Андрей, Матвей)",
+      "winnerAccounts": [
+        "acc_andrey",
+        "acc_matvey"
+      ],
+      "rounds": 15,
+      "nominations": [
+        {
+          "icon": "🧠",
+          "title": "Главный эрудит",
+          "name": "коши",
+          "val": "77% (17/22)",
+          "color": "#06D6A0"
+        },
+        {
+          "icon": "🗺️",
+          "title": "Генерал экспансии",
+          "name": "андрей поташеф",
+          "val": "12 клеток",
+          "color": "#4CC9F0"
+        },
+        {
+          "icon": "⚔️",
+          "title": "Непобедимый дуэлянт",
+          "name": "андрей поташеф",
+          "val": "8 побед",
+          "color": "#4CC9F0"
+        },
+        {
+          "icon": "🎯",
+          "title": "Числовой снайпер",
+          "name": "андрей поташеф",
+          "val": "разница ±0",
+          "color": "#4CC9F0"
+        }
+      ],
+      "participants": [
+        {
+          "slot": 0,
+          "rank": 1,
+          "displayName": "андре",
+          "accountIds": [
+            "acc_andrey",
+            "acc_matvey"
+          ],
+          "accountNames": [
+            "Андрей",
+            "Матвей"
+          ],
+          "score": 15000,
+          "color": "#4CC9F0",
+          "capitalEmoji": "💎",
+          "eliminated": false,
+          "accuracy": {
+            "correct": 30,
+            "total": 42,
+            "pct": 71
+          },
+          "cellsCaptured": 12,
+          "duels": {
+            "played": 12,
+            "won": 8
+          },
+          "capitalsTaken": 1,
+          "bestNumericDiff": 0,
+          "favoriteCategory": {
+            "categoryId": "history",
+            "label": "История",
+            "correct": 7,
+            "total": 8,
+            "pct": 88
+          }
+        },
+        {
+          "slot": 1,
+          "rank": 2,
+          "displayName": "коши",
+          "accountIds": [
+            "acc_nikitash"
+          ],
+          "accountNames": [
+            "Никиташ"
+          ],
+          "score": 12600,
+          "color": "#06D6A0",
+          "capitalEmoji": "💀",
+          "eliminated": false,
+          "accuracy": {
+            "correct": 17,
+            "total": 22,
+            "pct": 77
+          },
+          "cellsCaptured": 11,
+          "duels": {
+            "played": 3,
+            "won": 3
+          },
+          "capitalsTaken": 1,
+          "bestNumericDiff": 0,
+          "favoriteCategory": {
+            "categoryId": "history",
+            "label": "История",
+            "correct": 4,
+            "total": 5,
+            "pct": 80
+          }
+        },
+        {
+          "slot": 2,
+          "rank": 3,
+          "displayName": "Ляф",
+          "accountIds": [
+            "acc_nikitaf",
+            "acc_maxon"
+          ],
+          "accountNames": [
+            "Никитаф",
+            "Максон"
+          ],
+          "score": 11700,
+          "color": "#9F7AEA",
+          "capitalEmoji": "⚔️",
+          "eliminated": false,
+          "accuracy": {
+            "correct": 22,
+            "total": 31,
+            "pct": 71
+          },
+          "cellsCaptured": 10,
+          "duels": {
+            "played": 7,
+            "won": 3
+          },
+          "capitalsTaken": 0,
+          "bestNumericDiff": null,
+          "favoriteCategory": {
+            "categoryId": "mathematics",
+            "label": "Математика",
+            "correct": 3,
+            "total": 3,
+            "pct": 100
+          }
+        },
+        {
+          "slot": 3,
+          "rank": 4,
+          "displayName": "SPERM",
+          "accountIds": [
+            "acc_denchik"
+          ],
+          "accountNames": [
+            "Денчик"
+          ],
+          "score": 6000,
+          "color": "#F72585",
+          "capitalEmoji": "🎯",
+          "eliminated": false,
+          "accuracy": {
+            "correct": 11,
+            "total": 20,
+            "pct": 55
+          },
+          "cellsCaptured": 7,
+          "duels": {
+            "played": 2,
+            "won": 0
+          },
+          "capitalsTaken": 0,
+          "bestNumericDiff": null,
+          "favoriteCategory": {
+            "categoryId": "history",
+            "label": "История",
+            "correct": 2,
+            "total": 3,
+            "pct": 67
+          }
+        },
+        {
+          "slot": 4,
+          "rank": 5,
+          "displayName": "Fat COCKer",
+          "accountIds": [
+            "acc_glebas"
+          ],
+          "accountNames": [
+            "Глебас"
+          ],
+          "score": 0,
+          "color": "#FFCA3A",
+          "capitalEmoji": "🗿",
+          "eliminated": false,
+          "accuracy": {
+            "correct": 13,
+            "total": 19,
+            "pct": 68
+          },
+          "cellsCaptured": 6,
+          "duels": {
+            "played": 4,
+            "won": 1
+          },
+          "capitalsTaken": 0,
+          "bestNumericDiff": 0,
+          "favoriteCategory": {
+            "categoryId": "transport",
+            "label": "Транспорт",
+            "correct": 5,
+            "total": 5,
+            "pct": 100
+          }
+        },
+        {
+          "slot": 5,
+          "rank": 6,
+          "displayName": "Дима",
+          "accountIds": [
+            "acc_dimas"
+          ],
+          "accountNames": [
+            "Димас"
+          ],
+          "score": 0,
+          "color": "#4361EE",
+          "capitalEmoji": "👑",
+          "eliminated": true,
+          "accuracy": {
+            "correct": 34,
+            "total": 59,
+            "pct": 58
+          },
+          "cellsCaptured": 8,
+          "duels": {
+            "played": 16,
+            "won": 4
+          },
+          "capitalsTaken": 0,
+          "bestNumericDiff": 0,
+          "favoriteCategory": {
+            "categoryId": "history",
+            "label": "История",
+            "correct": 10,
+            "total": 13,
+            "pct": 77
+          }
+        }
+      ],
+      "pickedCategories": [
+        "history",
+        "mathematics",
+        "transport"
+      ]
+    }
+  ],
+  "categoryAnalytics": {
+    "history": {
+      "offered": 38,
+      "picked": 29,
+      "totalQuestions": 29,
+      "correct": 23
+    },
+    "mathematics": {
+      "offered": 22,
+      "picked": 9,
+      "totalQuestions": 9,
+      "correct": 7
+    },
+    "transport": {
+      "offered": 20,
+      "picked": 8,
+      "totalQuestions": 8,
+      "correct": 7
+    },
+    "geography": {
+      "offered": 24,
+      "picked": 7,
+      "totalQuestions": 7,
+      "correct": 5
+    },
+    "cinema_arts": {
+      "offered": 18,
+      "picked": 4,
+      "totalQuestions": 4,
+      "correct": 3
+    },
+    "physics_chemistry": {
+      "offered": 16,
+      "picked": 2,
+      "totalQuestions": 2,
+      "correct": 1
+    },
+    "sports": {
+      "offered": 16,
+      "picked": 3,
+      "totalQuestions": 3,
+      "correct": 2,
+      "subcategories": {
+        "sports_hockey": {
+          "offered": 1,
+          "picked": 0,
+          "totalQuestions": 0,
+          "correct": 0
+        }
+      }
+    },
+    "literature": {
+      "offered": 14,
+      "picked": 2,
+      "totalQuestions": 2,
+      "correct": 1
+    },
+    "music": {
+      "offered": 12,
+      "picked": 2,
+      "totalQuestions": 2,
+      "correct": 1
+    },
+    "fishing": {
+      "offered": 10,
+      "picked": 1,
+      "totalQuestions": 1,
+      "correct": 1
+    },
+    "logic_chgk": {
+      "offered": 10,
+      "picked": 1,
+      "totalQuestions": 1,
+      "correct": 1
+    },
+    "construction_earth": {
+      "offered": 10,
+      "picked": 1,
+      "totalQuestions": 1,
+      "correct": 1
+    },
+    "soviet": {
+      "offered": 1,
+      "picked": 0,
+      "totalQuestions": 0,
+      "correct": 0,
+      "subcategories": {
+        "soviet_russian_cinema": {
+          "offered": 1,
+          "picked": 0,
+          "totalQuestions": 0,
+          "correct": 0
+        }
+      }
+    },
+    "brands": {
+      "offered": 1,
+      "picked": 0,
+      "totalQuestions": 0,
+      "correct": 0,
+      "subcategories": {
+        "brands_history_logos": {
+          "offered": 1,
+          "picked": 0,
+          "totalQuestions": 0,
+          "correct": 0
+        }
+      }
+    }
+  },
+  "usedQuestions": [
+    "trans_special_28",
+    "math_calculus_diffeq_76",
+    "sports_general_47",
+    "cinema_arts_soviet_russian_cinema_1"
+  ]
+}
