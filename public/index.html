@@ -25,10 +25,21 @@
                     <span class="brand-sub">Шестиугольная битва умов</span>
                 </div>
             </div>
+            <div class="form-group account-select-container">
+                <label for="account-select" class="field-label">Постоянный аккаунт:</label>
+                <div class="account-row">
+                    <select id="account-select" class="account-select"></select>
+                    <button type="button" id="btn-create-account" class="btn btn-outline-sm" title="Создать новый аккаунт">+ Создать</button>
+                </div>
+            </div>
             <div class="form-group">
+                <label for="nickname" class="field-label">Игровой ник в матче:</label>
                 <input type="text" id="nickname" placeholder="Введи никнейм" maxlength="30" autocomplete="off"
                     autofocus>
                 <button id="join-btn" class="btn btn-gold">Войти в лобби →</button>
+            </div>
+            <div class="login-actions">
+                <button type="button" id="login-stats-btn" class="btn btn-outline-sm btn-stats-trigger">📊 Статистика и История</button>
             </div>
             <p class="login-hint">До 6 игроков · Захват территорий · PvP дуэли</p>
 
@@ -45,7 +56,10 @@
     <div id="lobby-screen" class="screen hidden">
         <div class="lobby-header">
             <span class="logo-sm">⬡ Quiz Battle</span>
-            <span id="lobby-ver" class="version-tag">v4.0</span>
+            <div class="lobby-header-actions">
+                <button type="button" id="lobby-stats-btn" class="btn btn-outline-sm btn-stats-trigger">📊 Статистика и История</button>
+                <span id="lobby-ver" class="version-tag">v4.0</span>
+            </div>
         </div>
         <div class="lobby-wrap">
 
@@ -73,6 +87,10 @@
                     <div class="customizer-group">
                         <label class="customizer-label">Смайлик столицы:</label>
                         <div id="emoji-palette" class="emoji-palette"></div>
+                        <div class="custom-emoji-row">
+                            <input type="text" id="custom-cell-emoji" placeholder="Свой эмодзи..." maxlength="8" class="custom-emoji-input">
+                            <button type="button" id="btn-apply-custom-emoji" class="btn btn-outline-sm">Применить</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -191,7 +209,10 @@
         <div class="glass-card gameover-card">
             <h1 class="gameover-title">🏆 Игра окончена</h1>
             <div id="final-scores" class="final-scores"></div>
-            <button id="restart-btn" class="btn btn-gold btn-big">Новая игра</button>
+            <div class="gameover-actions">
+                <button id="gameover-stats-btn" class="btn btn-outline btn-big btn-stats-trigger">📊 Статистика и История</button>
+                <button id="restart-btn" class="btn btn-gold btn-big">Новая игра</button>
+            </div>
         </div>
     </div>
 
@@ -235,7 +256,7 @@
 
     <!-- ══════════════ BANTER & CHAT BAR ══════════════ -->
     <div id="bm-bar" class="bm-bar hidden">
-        <div class="bm-emojis">
+        <div id="bm-emojis-list" class="bm-emojis">
             <button class="bm-btn" data-emoji="🤡" title="Клоун">🤡</button>
             <button class="bm-btn" data-emoji="💀" title="Череп">💀</button>
             <button class="bm-btn" data-emoji="🔥" title="Огонь">🔥</button>
@@ -247,6 +268,7 @@
             <button class="bm-btn" data-emoji="🥱" title="Скучно">🥱</button>
             <button class="bm-btn" data-emoji="🍿" title="Попкорн">🍿</button>
         </div>
+        <button id="bm-customize-btn" class="bm-btn bm-custom-trigger" title="Настроить свои смайлики реакций">✏️</button>
         <div class="bm-divider"></div>
         <button id="chat-toggle-btn" class="chat-toggle-btn" title="Открыть чат">
             <span class="chat-icon">💬</span>
@@ -272,6 +294,119 @@
             <input type="text" id="chat-input" placeholder="Напиши что-нибудь..." maxlength="250" autocomplete="off">
             <button type="submit" id="chat-send-btn" class="chat-send-btn">➤</button>
         </form>
+    </div>
+
+    <!-- ══════════════ CREATE ACCOUNT MODAL ══════════════ -->
+    <div id="create-account-modal" class="modal-overlay hidden">
+        <div class="modal-box glass-card create-account-card">
+            <div class="card-header">
+                <h3>✨ Создать аккаунт</h3>
+                <button type="button" class="modal-close-btn" id="close-create-acc-btn">✕</button>
+            </div>
+            <p class="hint-text">Аккаунт сохраняет твою глобальную статистику, винрейт и кастомные смайлики.</p>
+            <div class="form-group" style="margin-top: 14px;">
+                <input type="text" id="new-account-name" placeholder="Имя аккаунта (например, Андрей)" maxlength="25" autocomplete="off">
+                <button type="button" id="submit-create-acc-btn" class="btn btn-gold">Создать</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ══════════════ STATS & HISTORY MODAL ══════════════ -->
+    <div id="stats-modal" class="modal-overlay hidden">
+        <div class="modal-box glass-card stats-modal-box">
+            <div class="stats-modal-header">
+                <div class="stats-modal-title">
+                    <span class="stats-icon">📊</span>
+                    <h2>Статистика и История битв</h2>
+                </div>
+                <button type="button" class="modal-close-btn" id="close-stats-btn">✕</button>
+            </div>
+
+            <!-- Tabs -->
+            <div class="stats-tabs">
+                <button type="button" class="stats-tab-btn active" data-tab="profile">👤 Профиль</button>
+                <button type="button" class="stats-tab-btn" data-tab="topics">📈 Популярность тем</button>
+                <button type="button" class="stats-tab-btn" data-tab="history">📜 Лог боев</button>
+                <button type="button" class="stats-tab-btn" data-tab="backup">💾 Резервные копии</button>
+            </div>
+
+            <!-- Tab 1: Profile -->
+            <div id="pane-profile" class="stats-tab-pane">
+                <div class="stats-filter-bar">
+                    <label for="stats-account-select" class="field-label">Выбери аккаунт:</label>
+                    <select id="stats-account-select" class="account-select"></select>
+                </div>
+                <div id="profile-stats-content" class="profile-stats-content">
+                    <!-- Populated via JS -->
+                </div>
+            </div>
+
+            <!-- Tab 2: Topics Analytics -->
+            <div id="pane-topics" class="stats-tab-pane hidden">
+                <p class="hint-text" style="margin-bottom: 12px;">Популярность тем: сколько раз тема предлагалась, сколько раз выбрана (Pick Rate) и процент правильных ответов.</p>
+                <div class="topics-table-wrap">
+                    <table class="stats-table" id="topics-analytics-table">
+                        <thead>
+                            <tr>
+                                <th>Категория / Подкатегория</th>
+                                <th title="Сколько раз предлагалась в выборе">Шанс</th>
+                                <th title="Сколько раз реально пикнули">Пиков</th>
+                                <th title="Pick Rate в %">Pick Rate</th>
+                                <th title="Всего задано вопросов">Вопросов</th>
+                                <th title="Правильных ответов">Верно</th>
+                                <th title="Точность ответов игроков">Точность</th>
+                            </tr>
+                        </thead>
+                        <tbody id="topics-analytics-tbody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Tab 3: Match History -->
+            <div id="pane-history" class="stats-tab-pane hidden">
+                <div id="match-history-list" class="match-history-list"></div>
+            </div>
+
+            <!-- Tab 4: Backup & Sync -->
+            <div id="pane-backup" class="stats-tab-pane hidden">
+                <div class="backup-card">
+                    <h3>🛡️ Защита от вайпа файлов Render</h3>
+                    <p class="hint-text">Render усыпляет бесплатный сервер при 15 минутах неактивности и стирает файлы. База автоматически кэшируется в localStorage браузера каждого игрока и пушится на сервер при старте.</p>
+                    <div id="backup-status-badge" class="backup-status-badge">🔄 Синхронизировано</div>
+                    <div class="backup-actions">
+                        <button type="button" id="btn-export-stats" class="btn btn-gold">📥 Экспорт JSON дампа</button>
+                        <label class="btn btn-outline" style="cursor: pointer; display: inline-flex; align-items: center; justify-content: center;">
+                            📤 Импорт JSON дампа
+                            <input type="file" id="input-import-stats" accept=".json" style="display: none;">
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ══════════════ BM REACTION CUSTOMIZER MODAL ══════════════ -->
+    <div id="bm-customizer-modal" class="modal-overlay hidden">
+        <div class="modal-box glass-card bm-customizer-box">
+            <div class="card-header">
+                <h3>✏️ Настройка смайликов реакций</h3>
+                <button type="button" class="modal-close-btn" id="close-bm-modal-btn">✕</button>
+            </div>
+            <p class="hint-text">Выбери, какие смайлики будут на твоей нижней панели бейминга. Твои реакции увидят все игроки!</p>
+            <div id="bm-slots-container" class="bm-slots-container"></div>
+            <div class="customizer-group" style="margin-top: 16px;">
+                <label class="customizer-label">Быстрый выбор из популярных:</label>
+                <div id="bm-preset-palette" class="emoji-palette"></div>
+            </div>
+            <div class="custom-emoji-row" style="margin-top: 12px;">
+                <input type="text" id="bm-custom-input" placeholder="Введи любой свой эмодзи..." maxlength="8" class="custom-emoji-input">
+                <button type="button" id="btn-add-bm-emoji" class="btn btn-outline-sm">Заменить выбранный слот</button>
+            </div>
+            <div style="margin-top: 20px; text-align: right;">
+                <button type="button" id="save-bm-emojis-btn" class="btn btn-gold">Сохранить набор</button>
+            </div>
+        </div>
     </div>
 
     <!-- ══════════════ TOASTS ══════════════ -->

@@ -11,6 +11,24 @@ let currentPlayers = [];
 let gameSettings   = {};
 let categoryIndex  = {}; // { categoryId: [subcategoryId, ...] }
 
+// Account & Statistics Globals
+let currentAccounts   = [];
+let selectedAccountId = localStorage.getItem('qb_account_id') || null;
+let currentStatsData  = null;
+let activeStatsTab    = 'profile';
+let selectedBmSlotIdx = 0;
+
+// Unicode grapheme extractor for complex emojis
+function extractFirstGrapheme(str) {
+    if (!str) return '👑';
+    const clean = str.trim();
+    if (typeof Intl !== 'undefined' && Intl.Segmenter) {
+        const segs = [...new Intl.Segmenter().segment(clean)];
+        return segs[0]?.segment || '👑';
+    }
+    return Array.from(clean)[0] || '👑';
+}
+
 // Pending state
 let _pendingQ          = null;
 let _inDuel            = false;
@@ -35,58 +53,78 @@ const $ = id => document.getElementById(id);
 
 const el = {
     // login
-    nickname:     $('nickname'),
-    joinBtn:      $('join-btn'),
-    rejoinSection:$('rejoin-section'),
-    rejoinSlots:  $('rejoin-slots'),
+    accountSelect:  $('account-select'),
+    btnCreateAcc:   $('btn-create-account'),
+    createAccModal: $('create-account-modal'),
+    newAccNameInput:$('new-account-name'),
+    submitCreateAcc:$('submit-create-acc-btn'),
+    closeCreateAcc: $('close-create-acc-btn'),
+    loginStatsBtn:  $('login-stats-btn'),
+    nickname:       $('nickname'),
+    joinBtn:        $('join-btn'),
+    rejoinSection:  $('rejoin-section'),
+    rejoinSlots:    $('rejoin-slots'),
     // lobby
-    playersList:  $('players-list'),
-    playerCount:  $('player-count'),
-    lobbyMsg:     $('lobby-msg'),
-    lobbySettings:$('lobby-settings'),
-    applyBtn:     $('apply-btn'),
-    startBtn:     $('start-btn'),
-    settingTurns: $('setting-turns'),
-    scoreCapture: $('score-capture'),
-    scoreHold:    $('score-hold'),
-    scorePvpWin:  $('score-pvp-win'),
-    scorePenalty: $('score-penalty'),
-    topicFilter:  $('topic-filter'),
-    filterAllBtn: $('filter-all-btn'),
-    filterNoneBtn:$('filter-none-btn'),
-    lobbyLog:     $('lobby-log-body'),
+    lobbyStatsBtn:  $('lobby-stats-btn'),
+    playersList:    $('players-list'),
+    playerCount:    $('player-count'),
+    lobbyMsg:       $('lobby-msg'),
+    lobbySettings:  $('lobby-settings'),
+    applyBtn:       $('apply-btn'),
+    startBtn:       $('start-btn'),
+    settingTurns:   $('setting-turns'),
+    scoreCapture:   $('score-capture'),
+    scoreHold:      $('score-hold'),
+    scorePvpWin:    $('score-pvp-win'),
+    scorePenalty:   $('score-penalty'),
+    topicFilter:    $('topic-filter'),
+    filterAllBtn:   $('filter-all-btn'),
+    filterNoneBtn:  $('filter-none-btn'),
+    lobbyLog:       $('lobby-log-body'),
     // game
-    turnNum:      $('current-turn-num'),
-    roundNum:     $('round-number'),
-    maxRounds:    $('max-rounds'),
-    turnNameSpan: $('turn-name'),
-    scoresList:   $('scores-list'),
-    chronicle:    $('chronicle-log'),
-    turnBanner:   $('turn-banner'),
+    turnNum:        $('current-turn-num'),
+    roundNum:       $('round-number'),
+    maxRounds:      $('max-rounds'),
+    turnNameSpan:   $('turn-name'),
+    scoresList:     $('scores-list'),
+    chronicle:      $('chronicle-log'),
+    turnBanner:     $('turn-banner'),
     // modal
-    modalOverlay: $('modal-overlay'),
-    modalContent: $('modal-content'),
+    modalOverlay:   $('modal-overlay'),
+    modalContent:   $('modal-content'),
     // duel
-    duelOverlay:  $('duel-overlay'),
-    duelAtkName:  $('duel-atk-name'),
-    duelDefName:  $('duel-def-name'),
-    duelRoundLbl: $('duel-round-label'),
-    duelScoreA:   $('duel-score-a'),
-    duelScoreD:   $('duel-score-d'),
-    duelStatus:   $('duel-status'),
+    duelOverlay:    $('duel-overlay'),
+    duelAtkName:    $('duel-atk-name'),
+    duelDefName:    $('duel-def-name'),
+    duelRoundLbl:   $('duel-round-label'),
+    duelScoreA:     $('duel-score-a'),
+    duelScoreD:     $('duel-score-d'),
+    duelStatus:     $('duel-status'),
     // gameover
-    finalScores:  $('final-scores'),
-    restartBtn:   $('restart-btn'),
-    abortBtnGame: $('abort-btn-game'),
-    undoBtnGame:  $('undo-btn-game'),
+    finalScores:    $('final-scores'),
+    restartBtn:     $('restart-btn'),
+    gameoverStatsBtn:$('gameover-stats-btn'),
+    abortBtnGame:   $('abort-btn-game'),
+    undoBtnGame:    $('undo-btn-game'),
     // profile customizer
     myProfileCard:        $('my-profile-card'),
     colorPalette:         $('color-palette'),
     emojiPalette:         $('emoji-palette'),
+    customCellEmoji:      $('custom-cell-emoji'),
+    btnApplyCustomEmoji:  $('btn-apply-custom-emoji'),
     profilePreviewBadge:  $('profile-preview-badge'),
     // banter & reactions
     reactionsContainer:   $('reactions-container'),
     bmBar:                $('bm-bar'),
+    bmEmojisList:         $('bm-emojis-list'),
+    bmCustomizeBtn:       $('bm-customize-btn'),
+    bmCustomizerModal:    $('bm-customizer-modal'),
+    closeBmModalBtn:      $('close-bm-modal-btn'),
+    bmSlotsContainer:     $('bm-slots-container'),
+    bmPresetPalette:      $('bm-preset-palette'),
+    bmCustomInput:        $('bm-custom-input'),
+    btnAddBmEmoji:        $('btn-add-bm-emoji'),
+    saveBmEmojisBtn:      $('save-bm-emojis-btn'),
     chatToggleBtn:        $('chat-toggle-btn'),
     chatUnreadBadge:      $('chat-unread-badge'),
     // chat drawer
@@ -96,6 +134,16 @@ const el = {
     chatMessages:         $('chat-messages'),
     chatForm:             $('chat-form'),
     chatInput:            $('chat-input'),
+    // stats & history modal
+    statsModal:           $('stats-modal'),
+    closeStatsBtn:        $('close-stats-btn'),
+    statsAccountSelect:   $('stats-account-select'),
+    profileStatsContent:  $('profile-stats-content'),
+    topicsAnalyticsTbody: $('topics-analytics-tbody'),
+    matchHistoryList:     $('match-history-list'),
+    backupStatusBadge:    $('backup-status-badge'),
+    btnExportStats:       $('btn-export-stats'),
+    inputImportStats:     $('input-import-stats'),
 };
 
 // ─── AUDIO SYNTHESIZER (Web Audio API) ─────────────────
@@ -903,12 +951,45 @@ window.zoomImage = function(imgEl) {
     document.body.appendChild(overlay);
 };
 
+let _alreadySeenTimer = null;
+window.triggerAlreadySeen = function(qId) {
+    const btn = document.getElementById('btn-already-seen');
+    if (!btn || btn.disabled) return;
+
+    if (!btn.classList.contains('confirming')) {
+        btn.classList.add('confirming');
+        btn.textContent = '⚠️ Точно заменить?';
+        clearTimeout(_alreadySeenTimer);
+        _alreadySeenTimer = setTimeout(() => {
+            if (btn && btn.classList.contains('confirming')) {
+                btn.classList.remove('confirming');
+                btn.textContent = '🔄 Уже было';
+            }
+        }, 3500);
+    } else {
+        clearTimeout(_alreadySeenTimer);
+        btn.classList.remove('confirming');
+        btn.disabled = true;
+        btn.textContent = '⏳ Заменяем...';
+        socket.emit('report_already_seen', { questionId: qId });
+        toast('🔄 Вопрос отправлен на замену...', 'info', 2500);
+    }
+};
+
 function buildQuestionHTML(q, round = null, isDuel = false, isSpectator = false) {
     const isSvg   = q.image && q.image.endsWith('.svg');
     const img     = q.image
         ? `<img src="${q.image}" class="question-image${isSvg ? ' flag-svg' : ''}" alt="Изображение к вопросу" onclick="zoomImage(this)">`
         : '';
     const spectatorBadge = isSpectator ? `<div class="spectator-badge">👀 Режим зрителя</div>` : '';
+    const alreadySeenBtn = `<button type="button" class="btn-already-seen" id="btn-already-seen" onclick="triggerAlreadySeen('${q.id}')">🔄 Уже было</button>`;
+    const headerBar = `
+        <div class="modal-header-actions">
+            ${spectatorBadge}
+            ${alreadySeenBtn}
+        </div>
+    `;
+
     const title   = isDuel
         ? `<h3 class="modal-title">⚔️ Раунд ${round}</h3><p class="modal-subtitle qtext">${q.question}</p>`
         : `<h3 class="modal-title qtext">${q.question}</h3>`;
@@ -938,7 +1019,7 @@ function buildQuestionHTML(q, round = null, isDuel = false, isSpectator = false)
         const passBtn = isSpectator ? '' : `<button class="pass-btn" id="pass-btn" onclick="${passEv}">🏳️ Я не знаю / Пас</button>`;
 
         return `
-            ${spectatorBadge}
+            ${headerBar}
             ${title}
             ${img}
             <div class="countdown-wrap">
@@ -964,7 +1045,7 @@ function buildQuestionHTML(q, round = null, isDuel = false, isSpectator = false)
     const passBtn = isSpectator ? '' : `<button class="pass-btn" id="pass-btn" onclick="${passEv}">🏳️ Я не знаю / Пас</button>`;
 
     return `
-        ${spectatorBadge}
+        ${headerBar}
         ${title}
         ${img}
         <div class="countdown-wrap">
@@ -1005,6 +1086,10 @@ function showSpectatorDuelQuestion(q, round) {
  */
 function revealAnswer(correctIndex, chosenIndex) {
     stopCountdown();
+
+    // Disable already-seen button
+    const alreadyBtn = document.getElementById('btn-already-seen');
+    if (alreadyBtn) alreadyBtn.disabled = true;
 
     // Disable pass button
     const passBtn = document.getElementById('pass-btn');
@@ -1142,6 +1227,8 @@ window.pickCaptureTopic = topic => {
 
 window.submitCaptureAnswer = index => {
     stopCountdown();
+    const alreadyBtn = document.getElementById('btn-already-seen');
+    if (alreadyBtn) alreadyBtn.disabled = true;
     for (let i = 0; i < 4; i++) {
         const btn = document.getElementById(`ans-btn-${i}`);
         if (btn) {
@@ -1156,6 +1243,8 @@ window.submitCaptureAnswer = index => {
 
 window.passCaptureAnswer = () => {
     stopCountdown();
+    const alreadyBtn = document.getElementById('btn-already-seen');
+    if (alreadyBtn) alreadyBtn.disabled = true;
     const passBtn = document.getElementById('pass-btn');
     if (passBtn) passBtn.disabled = true;
     for (let i = 0; i < 4; i++) {
@@ -1172,6 +1261,8 @@ window.pickDuelTopic = topic => {
 
 window.submitDuelAnswer = index => {
     stopCountdown();
+    const alreadyBtn = document.getElementById('btn-already-seen');
+    if (alreadyBtn) alreadyBtn.disabled = true;
     revealAnswer(_currentCorrectIdx, index);  // instant reveal
     setTimeout(() => {
         socket.emit('duel_answer', { answerIndex: index });
@@ -1197,6 +1288,8 @@ window.submitDuelNumericAnswer = () => {
     }
 
     stopCountdown();
+    const alreadyBtn = document.getElementById('btn-already-seen');
+    if (alreadyBtn) alreadyBtn.disabled = true;
     inp.disabled = true;
     const btn = document.getElementById('numeric-submit-btn');
     if (btn) btn.disabled = true;
@@ -1209,6 +1302,8 @@ window.submitDuelNumericAnswer = () => {
 
 window.passDuelAnswer = () => {
     stopCountdown();
+    const alreadyBtn = document.getElementById('btn-already-seen');
+    if (alreadyBtn) alreadyBtn.disabled = true;
     revealAnswer(_currentCorrectIdx, null);   // show correct on pass
     setTimeout(() => {
         socket.emit('duel_pass');
@@ -1268,8 +1363,16 @@ function applyTurnUI(slot, turnNumber) {
 
 el.joinBtn?.addEventListener('click', () => {
     const nick = el.nickname.value.trim();
+    const accountId = el.accountSelect?.value || selectedAccountId;
     if (!nick) { toast('Введи никнейм!', 'error'); return; }
-    socket.emit('join_game', nick);
+    if (accountId) {
+        localStorage.setItem('qb_account_id', accountId);
+        selectedAccountId = accountId;
+    }
+    socket.emit('join_game', {
+        nickname: nick,
+        accountId: accountId,
+    });
 });
 
 el.nickname?.addEventListener('keydown', e => {
@@ -1346,6 +1449,17 @@ socket.on('close_modals', () => {
 // ──── LOBBY & REJOIN ────
 socket.on('game_status', ({ isGameStarted, players }) => {
     if (isGameStarted) {
+        // Smart Reconnect check on F5 (never block with account selection!):
+        const savedSlot = sessionStorage.getItem('qb_slot');
+        if (savedSlot !== null && savedSlot !== undefined) {
+            const slotNum = parseInt(savedSlot, 10);
+            const foundPlayer = (players || []).find(p => p.slot === slotNum);
+            if (foundPlayer && !foundPlayer.connected) {
+                // Instantly reconnect to active match slot!
+                socket.emit('rejoin_game', { slot: slotNum });
+                return;
+            }
+        }
         renderRejoinSlots(players);
     } else {
         if (el.rejoinSection) el.rejoinSection.classList.add('hidden');
@@ -1898,8 +2012,611 @@ socket.on('game_over', players => {
     showScreen('gameover');
 });
 
-// Initialize BM bar & chat listeners
-initBMBar();
+// ─── ACCOUNTS & LOCALSTORAGE STATS SYNC ───────────────
+
+function initAccountsUI() {
+    if (el.btnCreateAcc) {
+        el.btnCreateAcc.onclick = () => {
+            if (el.createAccModal) {
+                el.createAccModal.classList.remove('hidden');
+                if (el.newAccNameInput) {
+                    el.newAccNameInput.value = '';
+                    el.newAccNameInput.focus();
+                }
+            }
+        };
+    }
+
+    if (el.closeCreateAcc) {
+        el.closeCreateAcc.onclick = () => {
+            el.createAccModal?.classList.add('hidden');
+        };
+    }
+
+    if (el.submitCreateAcc) {
+        el.submitCreateAcc.onclick = () => {
+            const name = el.newAccNameInput?.value.trim();
+            if (!name) {
+                toast('Введи имя для аккаунта!', 'error');
+                return;
+            }
+            socket.emit('create_account', { name });
+        };
+    }
+
+    if (el.newAccNameInput) {
+        el.newAccNameInput.onkeydown = e => {
+            if (e.key === 'Enter') el.submitCreateAcc?.click();
+        };
+    }
+
+    if (el.accountSelect) {
+        el.accountSelect.onchange = () => {
+            selectedAccountId = el.accountSelect.value;
+            localStorage.setItem('qb_account_id', selectedAccountId);
+            const acc = currentAccounts.find(a => a.id === selectedAccountId);
+            if (acc && el.nickname) {
+                el.nickname.value = acc.name;
+            }
+            if (acc?.customEmojis && Array.isArray(acc.customEmojis)) {
+                myBMEmojis = [...acc.customEmojis];
+                localStorage.setItem('qb_bm_emojis', JSON.stringify(myBMEmojis));
+                renderBMBar();
+            }
+        };
+    }
+}
+
+function updateAccountsDropdowns() {
+    if (!Array.isArray(currentAccounts) || currentAccounts.length === 0) return;
+
+    const optionsHtml = currentAccounts.map(a => `
+        <option value="${a.id}">${a.name}</option>
+    `).join('');
+
+    if (el.accountSelect) {
+        el.accountSelect.innerHTML = optionsHtml;
+        if (selectedAccountId && currentAccounts.some(a => a.id === selectedAccountId)) {
+            el.accountSelect.value = selectedAccountId;
+        } else {
+            selectedAccountId = currentAccounts[0].id;
+            el.accountSelect.value = selectedAccountId;
+            localStorage.setItem('qb_account_id', selectedAccountId);
+        }
+        const activeAcc = currentAccounts.find(a => a.id === selectedAccountId);
+        if (activeAcc && el.nickname && (!el.nickname.value || el.nickname.value.startsWith('Игрок'))) {
+            el.nickname.value = activeAcc.name;
+        }
+    }
+
+    if (el.statsAccountSelect) {
+        el.statsAccountSelect.innerHTML = optionsHtml;
+        if (selectedAccountId && currentAccounts.some(a => a.id === selectedAccountId)) {
+            el.statsAccountSelect.value = selectedAccountId;
+        }
+    }
+}
+
+socket.on('accounts_list', list => {
+    currentAccounts = list || [];
+    updateAccountsDropdowns();
+});
+
+socket.on('account_created', acc => {
+    el.createAccModal?.classList.add('hidden');
+    selectedAccountId = acc.id;
+    localStorage.setItem('qb_account_id', acc.id);
+    updateAccountsDropdowns();
+    if (el.nickname) el.nickname.value = acc.name;
+    toast(`✨ Аккаунт «${acc.name}» успешно создан!`, 'success');
+});
+
+socket.on('stats_summary', summary => {
+    // Check localStorage protection against Render restart wipe
+    try {
+        const localRaw = localStorage.getItem('qb_stats_db');
+        if (localRaw) {
+            const localDump = JSON.parse(localRaw);
+            const localMatchesCount = Array.isArray(localDump.matches) ? localDump.matches.length : 0;
+            // If server was wiped and has fewer matches, push backup automatically!
+            if (summary && localMatchesCount > (summary.matchesCount || 0)) {
+                console.log(`🛡️ Render wipe detected! Restoring ${localMatchesCount} matches from localStorage to server...`);
+                socket.emit('sync_stats_from_client', localDump);
+            }
+        }
+    } catch (e) {
+        console.warn('⚠️ LocalStorage stats check error:', e.message);
+    }
+});
+
+socket.on('stats_updated', data => {
+    currentStatsData = data;
+    try {
+        localStorage.setItem('qb_stats_db', JSON.stringify(data));
+    } catch (e) {}
+    if (el.statsModal && !el.statsModal.classList.contains('hidden')) {
+        renderCurrentStatsTab();
+    }
+});
+
+socket.on('full_stats_data', data => {
+    currentStatsData = data;
+    try {
+        localStorage.setItem('qb_stats_db', JSON.stringify(data));
+    } catch (e) {}
+    renderCurrentStatsTab();
+});
+
+socket.on('used_questions_sync', ({ usedCount }) => {
+    console.log(`📜 Used questions synchronized: ${usedCount}`);
+});
+
+socket.on('import_result', ({ success, error }) => {
+    if (success) {
+        toast('📥 База данных успешно импортирована!', 'success');
+    } else {
+        toast('❌ Ошибка импорта: ' + (error || 'Неверный формат JSON'), 'error');
+    }
+});
+
+// ─── CUSTOM CELL EMOJI ────────────────────────────────
+
+function initCustomCellEmoji() {
+    if (el.btnApplyCustomEmoji && el.customCellEmoji) {
+        const applyAction = () => {
+            const raw = el.customCellEmoji.value.trim();
+            if (!raw) return;
+            const emoji = extractFirstGrapheme(raw);
+            selectMyEmoji(emoji);
+            toast(`🎨 Скин клетки изменён на ${emoji}`, 'success');
+            el.customCellEmoji.value = '';
+        };
+
+        el.btnApplyCustomEmoji.onclick = applyAction;
+        el.customCellEmoji.onkeydown = e => {
+            if (e.key === 'Enter') applyAction();
+        };
+    }
+}
+
+// ─── BM BANTER CUSTOMIZER ─────────────────────────────
+
+const DEFAULT_BM_EMOJIS = ['🤡', '💀', '🔥', '💩', '🧠', '🤬', '👑', '🎯', '🥱', '🍿'];
+let myBMEmojis = [...DEFAULT_BM_EMOJIS];
+
+function loadSavedBMEmojis() {
+    try {
+        const saved = JSON.parse(localStorage.getItem('qb_bm_emojis'));
+        if (Array.isArray(saved) && saved.length > 0) {
+            myBMEmojis = saved.slice(0, 10);
+        }
+    } catch (e) {}
+}
+
+function renderBMBar() {
+    if (!el.bmEmojisList) return;
+    el.bmEmojisList.innerHTML = myBMEmojis.map(em => `
+        <button class="bm-btn" data-emoji="${em}" title="${em}">${em}</button>
+    `).join('');
+
+    el.bmEmojisList.querySelectorAll('.bm-btn').forEach(btn => {
+        btn.onclick = () => {
+            const emoji = btn.dataset.emoji;
+            if (emoji) {
+                socket.emit('send_reaction', { emoji });
+            }
+        };
+    });
+}
+
+function initBMCustomizer() {
+    loadSavedBMEmojis();
+    renderBMBar();
+
+    if (el.bmCustomizeBtn) {
+        el.bmCustomizeBtn.onclick = () => {
+            openBMCustomizerModal();
+        };
+    }
+
+    if (el.closeBmModalBtn) {
+        el.closeBmModalBtn.onclick = () => {
+            el.bmCustomizerModal?.classList.add('hidden');
+        };
+    }
+
+    if (el.btnAddBmEmoji && el.bmCustomInput) {
+        el.btnAddBmEmoji.onclick = () => {
+            const raw = el.bmCustomInput.value.trim();
+            if (!raw) return;
+            const emoji = extractFirstGrapheme(raw);
+            myBMEmojis[selectedBmSlotIdx] = emoji;
+            el.bmCustomInput.value = '';
+            renderBMSlots();
+        };
+    }
+
+    if (el.saveBmEmojisBtn) {
+        el.saveBmEmojisBtn.onclick = () => {
+            localStorage.setItem('qb_bm_emojis', JSON.stringify(myBMEmojis));
+            if (selectedAccountId) {
+                socket.emit('update_account_emojis', {
+                    accountId: selectedAccountId,
+                    emojis: myBMEmojis,
+                });
+            }
+            renderBMBar();
+            el.bmCustomizerModal?.classList.add('hidden');
+            toast('✅ Твой набор смайликов сохранён!', 'success');
+        };
+    }
+}
+
+function openBMCustomizerModal() {
+    if (!el.bmCustomizerModal) return;
+    el.bmCustomizerModal.classList.remove('hidden');
+    selectedBmSlotIdx = 0;
+    renderBMSlots();
+
+    // Preset palette
+    if (el.bmPresetPalette) {
+        el.bmPresetPalette.innerHTML = '';
+        PRESET_EMOJIS.forEach(em => {
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'emoji-btn';
+            btn.textContent = em;
+            btn.onclick = () => {
+                myBMEmojis[selectedBmSlotIdx] = em;
+                renderBMSlots();
+            };
+            el.bmPresetPalette.appendChild(btn);
+        });
+    }
+}
+
+function renderBMSlots() {
+    if (!el.bmSlotsContainer) return;
+    el.bmSlotsContainer.innerHTML = myBMEmojis.map((em, idx) => `
+        <div class="bm-slot-chip ${idx === selectedBmSlotIdx ? 'selected' : ''}" data-idx="${idx}" title="Слот ${idx + 1}">
+            ${em}
+        </div>
+    `).join('');
+
+    el.bmSlotsContainer.querySelectorAll('.bm-slot-chip').forEach(chip => {
+        chip.onclick = () => {
+            selectedBmSlotIdx = parseInt(chip.dataset.idx, 10);
+            renderBMSlots();
+        };
+    });
+}
+
+// ─── STATS & HISTORY MODAL ────────────────────────────
+
+function initStatsModal() {
+    // Triggers
+    [el.loginStatsBtn, el.lobbyStatsBtn, el.gameoverStatsBtn].forEach(btn => {
+        if (btn) {
+            btn.onclick = () => {
+                openStatsModal();
+            };
+        }
+    });
+
+    if (el.closeStatsBtn) {
+        el.closeStatsBtn.onclick = () => {
+            el.statsModal?.classList.add('hidden');
+        };
+    }
+
+    // Tabs
+    document.querySelectorAll('.stats-tab-btn').forEach(btn => {
+        btn.onclick = () => {
+            document.querySelectorAll('.stats-tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeStatsTab = btn.dataset.tab;
+
+            ['profile', 'topics', 'history', 'backup'].forEach(tabName => {
+                const pane = document.getElementById(`pane-${tabName}`);
+                if (pane) pane.classList.toggle('hidden', tabName !== activeStatsTab);
+            });
+
+            renderCurrentStatsTab();
+        };
+    });
+
+    if (el.statsAccountSelect) {
+        el.statsAccountSelect.onchange = () => {
+            renderProfileStats(el.statsAccountSelect.value);
+        };
+    }
+
+    // Export JSON
+    if (el.btnExportStats) {
+        el.btnExportStats.onclick = () => {
+            const dataToExport = currentStatsData || JSON.parse(localStorage.getItem('qb_stats_db') || '{}');
+            const blob = new Blob([JSON.stringify(dataToExport, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `quiz_stats_backup_${new Date().toISOString().slice(0, 10)}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            toast('📥 Резервная копия JSON сохранена!', 'success');
+        };
+    }
+
+    // Import JSON
+    if (el.inputImportStats) {
+        el.inputImportStats.onchange = (e) => {
+            const file = e.target.files?.[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = ev => {
+                const content = ev.target?.result;
+                if (content && typeof content === 'string') {
+                    socket.emit('import_stats_json', { jsonString: content });
+                }
+            };
+            reader.readAsText(file);
+            e.target.value = '';
+        };
+    }
+}
+
+function openStatsModal() {
+    if (!el.statsModal) return;
+    el.statsModal.classList.remove('hidden');
+    socket.emit('get_full_stats');
+    if (!currentStatsData) {
+        try {
+            currentStatsData = JSON.parse(localStorage.getItem('qb_stats_db'));
+        } catch (e) {}
+    }
+    renderCurrentStatsTab();
+}
+
+function renderCurrentStatsTab() {
+    if (!currentStatsData) return;
+
+    if (activeStatsTab === 'profile') {
+        const targetAccId = el.statsAccountSelect?.value || selectedAccountId || Object.keys(currentStatsData.accounts || {})[0];
+        renderProfileStats(targetAccId);
+    } else if (activeStatsTab === 'topics') {
+        renderTopicsAnalytics();
+    } else if (activeStatsTab === 'history') {
+        renderMatchHistory();
+    } else if (activeStatsTab === 'backup') {
+        renderBackupTab();
+    }
+}
+
+function renderProfileStats(accountId) {
+    if (!el.profileStatsContent || !currentStatsData?.accounts) return;
+    const acc = currentStatsData.accounts[accountId];
+    if (!acc) {
+        el.profileStatsContent.innerHTML = '<p class="hint-text">Аккаунт не найден.</p>';
+        return;
+    }
+
+    const matches = acc.matches || 0;
+    const wins = acc.wins || 0;
+    const podiums = acc.podiums || { first: 0, second: 0, third: 0 };
+    const winRate = matches > 0 ? Math.round((wins / matches) * 100) : 0;
+    const totalScore = acc.totalScore || 0;
+    const avgScore = matches > 0 ? Math.round(totalScore / matches) : 0;
+    const maxScore = acc.maxScore || 0;
+
+    const qTotal = acc.questions?.total || 0;
+    const qCorr = acc.questions?.correct || 0;
+    const qPct = qTotal > 0 ? Math.round((qCorr / qTotal) * 100) : 0;
+
+    const dPlayed = acc.duels?.played || 0;
+    const dWon = acc.duels?.won || 0;
+    const dPct = dPlayed > 0 ? Math.round((dWon / dPlayed) * 100) : 0;
+
+    const cells = acc.cellsCaptured || 0;
+    const avgCells = matches > 0 ? (cells / matches).toFixed(1) : '0';
+    const capitals = acc.capitalsTaken || 0;
+
+    const sniperBest = acc.numeric?.bestDiff !== null && acc.numeric?.bestDiff !== undefined ? `±${acc.numeric.bestDiff}` : '—';
+    const nominations = acc.nominationsCount || 0;
+
+    // Favorite category
+    let favCatLabel = '—';
+    let favCatStats = '';
+    if (acc.favoriteCategory && acc.favoriteCategory.categoryId) {
+        favCatLabel = CATEGORY_LABELS[acc.favoriteCategory.categoryId] || acc.favoriteCategory.label || acc.favoriteCategory.categoryId;
+        favCatStats = `${acc.favoriteCategory.correct}/${acc.favoriteCategory.total} (${acc.favoriteCategory.pct}%)`;
+    }
+
+    // Category breakdown rows
+    let catRows = '';
+    if (acc.categoryStats) {
+        const sortedCats = Object.entries(acc.categoryStats)
+            .filter(([, data]) => data && data.total > 0)
+            .sort((a, b) => (b[1].correct / b[1].total) - (a[1].correct / a[1].total));
+
+        catRows = sortedCats.map(([catId, data]) => {
+            const label = CATEGORY_LABELS[catId] || catId;
+            const pct = Math.round((data.correct / data.total) * 100);
+            return `
+                <tr>
+                    <td><strong>${label}</strong></td>
+                    <td>${data.total}</td>
+                    <td>${data.correct}</td>
+                    <td><span class="badge-${pct >= 70 ? 'win' : pct >= 40 ? 'pass' : 'fail'}">${pct}%</span></td>
+                </tr>
+            `;
+        }).join('');
+    }
+
+    el.profileStatsContent.innerHTML = `
+        <div class="profile-stats-grid">
+            <div class="stat-metric-card gold">
+                <span class="stat-metric-label">Матчи & Победы</span>
+                <span class="stat-metric-val">${wins} / ${matches}</span>
+                <span class="stat-metric-sub">Винрейт: ${winRate}% • Топ-3: ${(podiums.first||0)+(podiums.second||0)+(podiums.third||0)}</span>
+            </div>
+            <div class="stat-metric-card blue">
+                <span class="stat-metric-label">Очки</span>
+                <span class="stat-metric-val">${totalScore}</span>
+                <span class="stat-metric-sub">В ср.: ${avgScore} • Рекорд: ${maxScore}</span>
+            </div>
+            <div class="stat-metric-card green">
+                <span class="stat-metric-label">Точность ответов</span>
+                <span class="stat-metric-val">${qPct}%</span>
+                <span class="stat-metric-sub">${qCorr} верно из ${qTotal}</span>
+            </div>
+            <div class="stat-metric-card purple">
+                <span class="stat-metric-label">PvP Дуэли</span>
+                <span class="stat-metric-val">${dWon} / ${dPlayed}</span>
+                <span class="stat-metric-sub">Винрейт в дуэлях: ${dPct}%</span>
+            </div>
+            <div class="stat-metric-card">
+                <span class="stat-metric-label">Захват & Столицы</span>
+                <span class="stat-metric-val">${cells} кл.</span>
+                <span class="stat-metric-sub">В ср.: ${avgCells}/бой • Столиц: ${capitals}</span>
+            </div>
+            <div class="stat-metric-card">
+                <span class="stat-metric-label">Числовой снайпер</span>
+                <span class="stat-metric-val">${sniperBest}</span>
+                <span class="stat-metric-sub">Наград MVP: ${nominations} ✨</span>
+            </div>
+            <div class="stat-metric-card" style="grid-column: 1 / -1;">
+                <span class="stat-metric-label">Любимая категория</span>
+                <span class="stat-metric-val" style="font-size: 1.15rem;">${favCatLabel}</span>
+                <span class="stat-metric-sub">${favCatStats || 'Статистика накапливается'}</span>
+            </div>
+        </div>
+
+        ${catRows ? `
+            <h4 style="margin: 14px 0 8px 0; font-size: 0.95rem; color: var(--gold);">📊 Точность по темам</h4>
+            <div class="topics-table-wrap">
+                <table class="stats-table">
+                    <thead>
+                        <tr>
+                            <th>Категория</th>
+                            <th>Всего вопросов</th>
+                            <th>Правильно</th>
+                            <th>Успешность</th>
+                        </tr>
+                    </thead>
+                    <tbody>${catRows}</tbody>
+                </table>
+            </div>
+        ` : ''}
+    `;
+}
+
+function renderTopicsAnalytics() {
+    if (!el.topicsAnalyticsTbody || !currentStatsData) return;
+    const catAnalytics = currentStatsData.categoryAnalytics || {};
+
+    const allCatKeys = Array.from(new Set([
+        ...Object.keys(CATEGORY_INDEX),
+        ...Object.keys(CATEGORY_LABELS),
+        ...Object.keys(catAnalytics)
+    ]));
+
+    const rows = allCatKeys.map(catId => {
+        const data = catAnalytics[catId] || { offered: 0, picked: 0, totalQuestions: 0, correct: 0 };
+        const label = CATEGORY_LABELS[catId] || catId;
+        const offered = data.offered || 0;
+        const picked = data.picked || 0;
+        const pickRate = offered > 0 ? Math.round((picked / offered) * 100) : 0;
+        const totalQ = data.totalQuestions || 0;
+        const corr = data.correct || 0;
+        const acc = totalQ > 0 ? Math.round((corr / totalQ) * 100) : 0;
+
+        return `
+            <tr>
+                <td><strong>${label}</strong></td>
+                <td>${offered}</td>
+                <td>${picked}</td>
+                <td><span class="badge-${pickRate >= 60 ? 'win' : pickRate >= 30 ? 'pass' : 'fail'}">${pickRate}%</span></td>
+                <td>${totalQ}</td>
+                <td>${corr}</td>
+                <td><span class="badge-${acc >= 70 ? 'win' : acc >= 40 ? 'pass' : 'fail'}">${acc}%</span></td>
+            </tr>
+        `;
+    }).join('');
+
+    el.topicsAnalyticsTbody.innerHTML = rows;
+}
+
+function renderMatchHistory() {
+    if (!el.matchHistoryList || !currentStatsData) return;
+    const matches = currentStatsData.matches || [];
+
+    if (matches.length === 0) {
+        el.matchHistoryList.innerHTML = '<p class="hint-text">История боев пока пуста.</p>';
+        return;
+    }
+
+    el.matchHistoryList.innerHTML = matches.map(m => {
+        const nominationsHtml = (m.nominations || []).map(n => `
+            <span class="stat-pill">
+                ${n.icon} <b>${n.title}:</b> ${n.name} (${n.val})
+            </span>
+        `).join('');
+
+        const playersHtml = (m.participants || []).map(p => {
+            const accNames = (p.accountNames || []).filter(Boolean).join(', ');
+            const nickDisplay = accNames ? `${p.displayName} <small>(${accNames})</small>` : p.displayName;
+            return `
+                <div class="match-player-chip" style="border-left-color: ${p.color};">
+                    <div>
+                        <b>${p.rank}.</b> ${p.capitalEmoji || '👑'} <span style="color:${p.color}; font-weight:700;">${nickDisplay}</span>
+                    </div>
+                    <div style="color:var(--text-muted); font-size:0.75rem;">
+                        ${p.score} очков • ${p.accuracy?.correct || 0}/${p.accuracy?.total || 0} (${p.accuracy?.pct || 0}%) • Дуэли ${p.duels?.won || 0}/${p.duels?.played || 0}
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        return `
+            <div class="match-card">
+                <div class="match-card-header">
+                    <span class="match-date">📅 ${m.formattedDate || m.timestamp}</span>
+                    <span class="match-winner">🏆 Победитель: ${m.winnerName}</span>
+                </div>
+                <div class="match-players-grid">
+                    ${playersHtml}
+                </div>
+                ${nominationsHtml ? `
+                    <div style="display:flex; flex-wrap:wrap; gap:6px; margin-top:4px;">
+                        ${nominationsHtml}
+                    </div>
+                ` : ''}
+            </div>
+        `;
+    }).join('');
+}
+
+function renderBackupTab() {
+    if (!el.backupStatusBadge) return;
+    const localRaw = localStorage.getItem('qb_stats_db');
+    let localMatches = 0;
+    if (localRaw) {
+        try {
+            const parsed = JSON.parse(localRaw);
+            localMatches = (parsed.matches || []).length;
+        } catch (e) {}
+    }
+    const serverMatches = (currentStatsData?.matches || []).length;
+    el.backupStatusBadge.innerHTML = `
+        ✅ В браузере сохранено: <b>${localMatches}</b> матчей • На сервере: <b>${serverMatches}</b> матчей
+    `;
+}
+
+// ─── INITIALIZATION ───────────────────────────────────
+
+initAccountsUI();
+initCustomCellEmoji();
+initBMCustomizer();
+initStatsModal();
 initChat();
 
 console.log('✅ Quiz Battle client loaded');
